@@ -3,7 +3,10 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:rdac="http://rdaregistry.info/Elements/c/"
-    xmlns:rdaa="http://rdaregistry.info/Elements/a/"
+    xmlns:rdaad="http://rdaregistry.info/Elements/a/"
+    xmlns:rdaa="http://rdaregistry.info/Elements/a/datatype/"
+    xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+    xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
     xmlns:rdaw="http://rdaregistry.info/Elements/w/"
     xmlns:rdae="http://rdaregistry.info/Elements/e/"
     xmlns:rdam="http://rdaregistry.info/Elements/m/"
@@ -12,7 +15,7 @@
     xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
     xmlns:rdamt="http://rdaregistry.info/termList/RDAMediaType/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-    xsi:noNamespaceSchemaLocation="../marc2entities/xsd/marc2lrm.rules.xsd">
+    xsi:noNamespaceSchemaLocation="../../marc2entities/xsd/marc2lrm.rules.xsd">
     <keyfilter>replace($key, ' ', '')</keyfilter>
     
     <!-- Thius is a restrictive ruleset where we only process explicitly coded entities and relationships -->
@@ -23,45 +26,45 @@
         <attributes>
             <datafield tag="100" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
-                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
-                <subfield code="d" type="http://rdaregistry.info/Elements/a/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/a/P50383" label="has identifier for agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
+                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
+                <subfield code="d" type="http://rdaregistry.info/Elements/a/datatype/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/a/datatype/P50383" label="has identifier for agent"/>
             </datafield>
             <datafield tag="110" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
-                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
-                <subfield code="d" type="http://rdaregistry.info/Elements/a/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/a/P50383" label="has identifier for agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
+                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
+                <subfield code="d" type="http://rdaregistry.info/Elements/a/datatype/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/a/datatype/P50383" label="has identifier for agent"/>
             </datafield>
             <datafield tag="111" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
-                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
-                <subfield code="d" type="http://rdaregistry.info/Elements/a/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/a/P50383" label="has identifier for agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
+                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
+                <subfield code="d" type="http://rdaregistry.info/Elements/a/datatype/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/a/datatype/P50383" label="has identifier for agent"/>
             </datafield>
             <datafield tag="700" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
-                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
-                <subfield code="d" type="http://rdaregistry.info/Elements/a/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/a/P50383" label="has identifier for agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
+                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
+                <subfield code="d" type="http://rdaregistry.info/Elements/a/datatype/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/a/datatype/P50383" label="has identifier for agent"/>
             </datafield>
             <datafield tag="710" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
-                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
-                <subfield code="d" type="http://rdaregistry.info/Elements/a/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/a/P50383" label="has identifier for agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
+                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
+                <subfield code="d" type="http://rdaregistry.info/Elements/a/datatype/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/a/datatype/P50383" label="has identifier for agent"/>
             </datafield>
             <datafield tag="711" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
-                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
-                <subfield code="d" type="http://rdaregistry.info/Elements/a/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/a/P50383" label="has identifier for agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
+                <!--<subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>-->
+                <subfield code="d" type="http://rdaregistry.info/Elements/a/datatype/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/a/datatype/P50383" label="has identifier for agent"/>
             </datafield>
         </attributes>
         <key order="1">
@@ -76,25 +79,25 @@
         <attributes>
             <datafield tag="130"  condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <!--<subfield code="a" type="http://rdaregistry.info/Elements/w/P10223" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has preferred title of the work"/>-->
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <!--<subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10223" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has preferred title of the work"/>-->
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="240"  condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <!--<subfield code="a" type="http://rdaregistry.info/Elements/w/P10223" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has preferred title of the work"/>-->
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <!--<subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10223" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has preferred title of the work"/>-->
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="380" condition="frbrizer:linked($anchor_field, .)">
-                <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/P10004" label="has category of work"/>
-                <subfield code="0" select="." type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
+                <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has category of work"/>
+                <subfield code="0" select="." type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
             </datafield>
         </attributes>
         <key order="1">
@@ -104,10 +107,10 @@
             <relationship type="{$target_subfield}">
                 <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10004" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked-or-nolink($anchor_field, $target_field)" />
             </relationship>
-            <relationship type="http://rdaregistry.info/Elements/w/P10319" >
+            <relationship type="http://rdaregistry.info/Elements/w/object/P10319" >
                 <target entity="MARC21-600-Person" condition="not($target_field/*:subfield/@code = 't') and frbrizer:linked-or-nolink($anchor_field, $target_field)"  type="http://rdaregistry.info/Elements/c/C10004"/>
             </relationship>
-            <relationship type="http://rdaregistry.info/Elements/w/P10257">
+            <relationship type="http://rdaregistry.info/Elements/w/object/P10257">
                 <target entity="MARC21-6XX-Work" condition="not($this_field/*:subfield/@code = '1') or not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1'])  and frbrizer:linked-or-nolink($anchor_field, $target_field)" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
             <relationship type="{$target_subfield}">
@@ -116,7 +119,7 @@
             <relationship type="{$target_subfield}">
                 <target entity="MARC21-758-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
             </relationship>
-            <relationship type="http://rdaregistry.info/Elements/w/P10019" label="part of work">
+            <relationship type="http://rdaregistry.info/Elements/w/object/P10019" label="part of work">
                 <target entity="MARC21-8XX-Work-Series" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
         </relationships>
@@ -267,24 +270,24 @@
         <attributes>
             <datafield tag="600" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>
-                <subfield code="d" type="http://rdaregistry.info/Elements/a/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/a/P50383" label="has identifier for agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>
+                <subfield code="d" type="http://rdaregistry.info/Elements/a/datatype/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/a/datatype/P50383" label="has identifier for agent"/>
             </datafield>
             <datafield tag="610" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>
-                <subfield code="d" type="http://rdaregistry.info/Elements/a/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/a/P50383" label="has identifier for agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>
+                <subfield code="d" type="http://rdaregistry.info/Elements/a/datatype/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/a/datatype/P50383" label="has identifier for agent"/>
             </datafield>
             <datafield tag="611" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/a/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>
-                <subfield code="d" type="http://rdaregistry.info/Elements/a/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/a/P50383" label="has identifier for agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50385" select="frbrizer:trim(.)" label="has name of the agent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/a/datatype/P50413" select="frbrizer:trim(.)" label="has preferred name of the agent"/>
+                <subfield code="d" type="http://rdaregistry.info/Elements/a/datatype/P50339" select="frbrizer:trim(.)" label="has related timespan of agent"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/a/datatype/P50383" label="has identifier for agent"/>
             </datafield>
         </attributes>
         <key order="1">
@@ -298,35 +301,35 @@
         <attributes>
             <datafield tag="600" condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="610" condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="611" condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="630" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
         </attributes>
         <key order="1">
@@ -340,35 +343,35 @@
         <attributes>
             <datafield tag="700" condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="710" condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="711" condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="730" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
         </attributes>
         <key order="1">
@@ -387,52 +390,52 @@
         <attributes>
             <datafield tag="700" condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="710" condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="711" condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="730" condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="380" condition="frbrizer:linked($anchor_field, .)">
-                <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/P10004" label="has category of work"/>
-                <subfield code="0" select="." type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
+                <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has category of work"/>
+                <subfield code="0" select="." type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
             </datafield>
         </attributes>
         <key order="1">
             <element>*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(., 'http')][last()]</element>
         </key>
         <relationships>
-            <relationship type="http://rdaregistry.info/Elements/w/P10019" label="part of work">
+            <relationship type="http://rdaregistry.info/Elements/w/object/P10019" label="part of work">
                 <target entity="MARC21-130240-Work" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
-            <relationship type="http://rdaregistry.info/Elements/w/P10319" >
+            <relationship type="http://rdaregistry.info/Elements/w/object/P10319" >
                 <target entity="MARC21-600-Person" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"  type="http://rdaregistry.info/Elements/c/C10004"/>
             </relationship>
-            <relationship type="http://rdaregistry.info/Elements/w/P10257" >
+            <relationship type="http://rdaregistry.info/Elements/w/object/P10257" >
                 <target entity="MARC21-6XX-Work"  condition="frbrizer:linked-or-nolink($anchor_field, $target_field) and not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1'])" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
             <relationship type="{$target_subfield}">
@@ -517,7 +520,7 @@
         <attributes>
             <datafield tag="758">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
         </attributes>
         <key order="1">
@@ -532,35 +535,35 @@
         <attributes>
             <datafield tag="800"  condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="810"  condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="811"  condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="t" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
             <datafield tag="830"  condition=". eq $this_field">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/w/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
-                <subfield code="f" type="http://rdaregistry.info/Elements/w/P10219" label="has date of work"/>
-                <subfield code="n" type="http://rdaregistry.info/Elements/w/P10003" label="has other distinguishing characteristic of the work"/>
-                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/P10004" label="has form of work"/>
-                <subfield code="1" type="http://rdaregistry.info/Elements/w/P10002" label="has identifier for work"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
+                <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10003" label="has other distinguishing characteristic of the work"/>
+                <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
+                <subfield code="1" type="http://rdaregistry.info/Elements/w/datatype/P10002" label="has identifier for work"/>
             </datafield>
         </attributes>
         <key order="1">
