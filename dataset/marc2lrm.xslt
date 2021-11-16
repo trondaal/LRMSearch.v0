@@ -34,10 +34,14 @@
          <xsl:copy>
             <xsl:namespace name="xml" select="'http://www.w3.org/XML/1998/namespace'"/>
             <xsl:namespace name="rdac" select="'http://rdaregistry.info/Elements/c/'"/>
-            <xsl:namespace name="rdaa" select="'http://rdaregistry.info/Elements/a/'"/>
-            <xsl:namespace name="rdaw" select="'http://rdaregistry.info/Elements/w/'"/>
-            <xsl:namespace name="rdae" select="'http://rdaregistry.info/Elements/e/'"/>
-            <xsl:namespace name="rdam" select="'http://rdaregistry.info/Elements/m/'"/>
+            <xsl:namespace name="rdaad" select="'http://rdaregistry.info/Elements/a/datatype/'"/>
+            <xsl:namespace name="rdaao" select="'http://rdaregistry.info/Elements/a/object/'"/>
+            <xsl:namespace name="rdawd" select="'http://rdaregistry.info/Elements/w/datatype/'"/>
+            <xsl:namespace name="rdawo" select="'http://rdaregistry.info/Elements/w/object/'"/>
+            <xsl:namespace name="rdaed" select="'http://rdaregistry.info/Elements/e/datatype/'"/>
+            <xsl:namespace name="rdaeo" select="'http://rdaregistry.info/Elements/e/object/'"/>
+            <xsl:namespace name="rdamd" select="'http://rdaregistry.info/Elements/m/datatype/'"/>
+            <xsl:namespace name="rdamo" select="'http://rdaregistry.info/Elements/m/object/'"/>
             <xsl:namespace name="rdfs" select="'http://www.w3.org/2000/01/rdf-schema#'"/>
             <xsl:namespace name="rdaco"
                            select="'http://rdaregistry.info/termList/RDAContentType/'"/>
@@ -135,7 +139,7 @@
                          namespace="{namespace-uri(ancestor-or-self::*:record)}">
                <xsl:attribute name="id"
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-               <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10004'"/>
+               <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10002'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
                <xsl:if test="$include_counters">
                   <xsl:attribute name="c" select="1"/>
@@ -190,7 +194,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50385'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50385'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -198,7 +203,8 @@
                         <xsl:if test="@code = 'd'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50339'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50339'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -206,7 +212,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50383'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50383'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -240,7 +247,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50385'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50385'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -248,7 +256,8 @@
                         <xsl:if test="@code = 'd'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50339'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50339'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -256,7 +265,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50383'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50383'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -290,7 +300,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50385'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50385'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -298,7 +309,8 @@
                         <xsl:if test="@code = 'd'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50339'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50339'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -306,7 +318,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50383'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50383'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -340,7 +353,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50385'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50385'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -348,7 +362,8 @@
                         <xsl:if test="@code = 'd'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50339'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50339'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -356,7 +371,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50383'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50383'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -390,7 +406,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50385'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50385'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -398,7 +415,8 @@
                         <xsl:if test="@code = 'd'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50339'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50339'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -406,7 +424,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50383'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50383'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -440,7 +459,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50385'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50385'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -448,7 +468,8 @@
                         <xsl:if test="@code = 'd'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50339'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50339'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -456,7 +477,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50383'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/a/datatype/P50383'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -547,7 +569,8 @@
                <xsl:for-each select="$record/*:controlfield[@tag='008'][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-content">
-                        <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                        <xsl:with-param name="type"
+                                        select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                         <xsl:with-param name="select" select="substring(., 36, 3)"/>
                         <xsl:with-param name="marcid" select="$marcid"/>
                      </xsl:call-template>
@@ -563,7 +586,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -571,7 +595,8 @@
                         <xsl:if test="@code = 'd'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -579,7 +604,8 @@
                         <xsl:if test="@code = 'e'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -587,7 +613,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -595,7 +622,8 @@
                         <xsl:if test="@code = 'j'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -621,7 +649,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20316'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/e/datatype/P20316'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -647,7 +676,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20316'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/e/datatype/P20316'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -674,7 +704,7 @@
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
                                  <xsl:with-param name="type"
-                                                 select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], $record/*:datafield[@tag=('130', '240')])) then 'http://rdaregistry.info/Elements/e/P20316' else 'http://rdaregistry.info/Elements/e/P20315'"/>
+                                                 select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], $record/*:datafield[@tag=('130', '240')])) then 'http://rdaregistry.info/Elements/e/datatype/P20316' else 'http://rdaregistry.info/Elements/e/datatype/P20315'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -699,41 +729,18 @@
                      </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
-               <xsl:for-each select="$record/*:datafield[@tag='336'][frbrizer:linked($anchor_field, .)][*:subfield/@code = ('a','b','0','1')]">
+               <xsl:for-each select="$record/*:datafield[@tag='336'][frbrizer:linked($anchor_field, .)][*:subfield/@code = ('0')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
                      <xsl:if test="$include_counters">
                         <xsl:attribute name="c" select="1"/>
                      </xsl:if>
-                     <xsl:for-each select="*:subfield[@code = ('a','b','0','1')]">
-                        <xsl:if test="@code = 'a'">
-                           <xsl:copy>
-                              <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20001'"/>
-                                 <xsl:with-param name="select" select="lower-case(.)"/>
-                              </xsl:call-template>
-                           </xsl:copy>
-                        </xsl:if>
-                        <xsl:if test="@code = 'b'">
-                           <xsl:copy>
-                              <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20001'"/>
-                                 <xsl:with-param name="select" select="lower-case(.)"/>
-                              </xsl:call-template>
-                           </xsl:copy>
-                        </xsl:if>
+                     <xsl:for-each select="*:subfield[@code = ('0')]">
                         <xsl:if test="@code = '0'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20001'"/>
-                                 <xsl:with-param name="select" select="."/>
-                              </xsl:call-template>
-                           </xsl:copy>
-                        </xsl:if>
-                        <xsl:if test="@code = '1'">
-                           <xsl:copy>
-                              <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20001'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/e/datatype/P20001'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -765,7 +772,7 @@
                                    select="string(position())"/>
                      <xsl:if test="($target_field = $this_field)">
                         <frbrizer:relationship>
-                           <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/e/P20231'"/>
+                           <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/e/object/P20231'"/>
                            <xsl:if test="$include_counters">
                               <xsl:attribute name="c" select="1"/>
                            </xsl:if>
@@ -915,7 +922,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -924,7 +932,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -932,7 +941,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -940,7 +950,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -948,7 +959,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -982,7 +994,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -991,7 +1004,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -999,7 +1013,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -1007,7 +1022,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -1015,7 +1031,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -1031,25 +1048,18 @@
                      </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
-               <xsl:for-each select="$record/*:datafield[@tag='380'][frbrizer:linked($anchor_field, .)][*:subfield/@code = ('a','0')]">
+               <xsl:for-each select="$record/*:datafield[@tag='380'][frbrizer:linked($anchor_field, .)][*:subfield/@code = ('0')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
                      <xsl:if test="$include_counters">
                         <xsl:attribute name="c" select="1"/>
                      </xsl:if>
-                     <xsl:for-each select="*:subfield[@code = ('a','0')]">
-                        <xsl:if test="@code = 'a'">
-                           <xsl:copy>
-                              <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
-                                 <xsl:with-param name="select" select="lower-case(.)"/>
-                              </xsl:call-template>
-                           </xsl:copy>
-                        </xsl:if>
+                     <xsl:for-each select="*:subfield[@code = ('0')]">
                         <xsl:if test="@code = '0'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -1113,7 +1123,7 @@
                                 select="string(position())"/>
                   <xsl:if test="(not($target_field/*:subfield/@code = 't') and frbrizer:linked-or-nolink($anchor_field, $target_field))">
                      <frbrizer:relationship>
-                        <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/P10319'"/>
+                        <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10319'"/>
                         <xsl:if test="$include_counters">
                            <xsl:attribute name="c" select="1"/>
                         </xsl:if>
@@ -1150,7 +1160,7 @@
                                    select="string(position())"/>
                      <xsl:if test="(not($this_field/*:subfield/@code = '1') or not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1'])  and frbrizer:linked-or-nolink($anchor_field, $target_field))">
                         <frbrizer:relationship>
-                           <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/P10257'"/>
+                           <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10257'"/>
                            <xsl:if test="$include_counters">
                               <xsl:attribute name="c" select="1"/>
                            </xsl:if>
@@ -1263,7 +1273,7 @@
                                    as="xs:string"
                                    select="string(position())"/>
                      <frbrizer:relationship>
-                        <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/P10019'"/>
+                        <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10019'"/>
                         <xsl:if test="$include_counters">
                            <xsl:attribute name="c" select="1"/>
                         </xsl:if>
@@ -1350,7 +1360,8 @@
             <xsl:for-each select="$record/*:controlfield[@tag='001']">
                <xsl:copy>
                   <xsl:call-template name="copy-content">
-                     <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30004'"/>
+                     <xsl:with-param name="type"
+                                     select="'http://rdaregistry.info/Elements/m/datatype/P30004'"/>
                      <xsl:with-param name="select" select="."/>
                      <xsl:with-param name="marcid" select="$marcid"/>
                   </xsl:call-template>
@@ -1359,7 +1370,8 @@
             <xsl:for-each select="$record/*:controlfield[@tag='003']">
                <xsl:copy>
                   <xsl:call-template name="copy-content">
-                     <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30004'"/>
+                     <xsl:with-param name="type"
+                                     select="'http://rdaregistry.info/Elements/m/datatype/P30004'"/>
                      <xsl:with-param name="select" select="."/>
                      <xsl:with-param name="marcid" select="$marcid"/>
                   </xsl:call-template>
@@ -1368,7 +1380,8 @@
             <xsl:for-each select="$record/*:controlfield[@tag='008']">
                <xsl:copy>
                   <xsl:call-template name="copy-content">
-                     <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30004'"/>
+                     <xsl:with-param name="type"
+                                     select="'http://rdaregistry.info/Elements/m/datatype/P30004'"/>
                      <xsl:with-param name="select" select="."/>
                      <xsl:with-param name="marcid" select="$marcid"/>
                   </xsl:call-template>
@@ -1392,7 +1405,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30004'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30004'"/>
                               <xsl:with-param name="select" select="concat('isbn-', replace(., '\D', ''))"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1418,7 +1432,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30004'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30004'"/>
                               <xsl:with-param name="select" select="concat('issn-', ./replace(., '\D', ''))"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1444,7 +1459,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30004'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30004'"/>
                               <xsl:with-param name="select"
                                               select="concat(frbrizer:idprefix(../@ind1) ,'-', replace(., '\D', ''))"/>
                            </xsl:call-template>
@@ -1471,7 +1487,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30156'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30156'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1479,7 +1496,8 @@
                      <xsl:if test="@code = 'b'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30142'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30142'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1487,7 +1505,8 @@
                      <xsl:if test="@code = 'c'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30117'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30117'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1513,7 +1532,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30107'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30107'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1539,7 +1559,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30088'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30088'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1547,7 +1568,8 @@
                      <xsl:if test="@code = 'b'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30083'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30083'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1555,7 +1577,8 @@
                      <xsl:if test="@code = 'c'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30011'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30011'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1563,7 +1586,8 @@
                      <xsl:if test="@code = 'e'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30111'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30111'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1571,7 +1595,8 @@
                      <xsl:if test="@code = 'f'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30175'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30175'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1579,7 +1604,8 @@
                      <xsl:if test="@code = 'g'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30109'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30109'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1605,7 +1631,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30088'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30088'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1613,7 +1640,8 @@
                      <xsl:if test="@code = 'b'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30083'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30083'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1621,7 +1649,8 @@
                      <xsl:if test="@code = 'c'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30011'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30011'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1647,7 +1676,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30182'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30182'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1655,7 +1685,8 @@
                      <xsl:if test="@code = 'c'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30169'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30169'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1671,41 +1702,18 @@
                   </xsl:if>
                </xsl:copy>
             </xsl:for-each>
-            <xsl:for-each select="$record/*:datafield[@tag='337'][*:subfield/@code = ('a','b','0','1')]">
+            <xsl:for-each select="$record/*:datafield[@tag='337'][*:subfield/@code = ('0')]">
                <xsl:copy>
                   <xsl:call-template name="copy-attributes"/>
                   <xsl:if test="$include_counters">
                      <xsl:attribute name="c" select="1"/>
                   </xsl:if>
-                  <xsl:for-each select="*:subfield[@code = ('a','b','0','1')]">
-                     <xsl:if test="@code = 'a'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30001'"/>
-                              <xsl:with-param name="select" select="lower-case(frbrizer:trim(.))"/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = 'b'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30001'"/>
-                              <xsl:with-param name="select" select="lower-case(frbrizer:trim(.))"/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
+                  <xsl:for-each select="*:subfield[@code = ('0')]">
                      <xsl:if test="@code = '0'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30001'"/>
-                              <xsl:with-param name="select" select="."/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = '1'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30001'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30001'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1721,41 +1729,18 @@
                   </xsl:if>
                </xsl:copy>
             </xsl:for-each>
-            <xsl:for-each select="$record/*:datafield[@tag='338'][*:subfield/@code = ('a','b','0','1')]">
+            <xsl:for-each select="$record/*:datafield[@tag='338'][*:subfield/@code = ('0')]">
                <xsl:copy>
                   <xsl:call-template name="copy-attributes"/>
                   <xsl:if test="$include_counters">
                      <xsl:attribute name="c" select="1"/>
                   </xsl:if>
-                  <xsl:for-each select="*:subfield[@code = ('a','b','0','1')]">
-                     <xsl:if test="@code = 'a'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30002'"/>
-                              <xsl:with-param name="select" select="lower-case(frbrizer:trim(.))"/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = 'b'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30002'"/>
-                              <xsl:with-param name="select" select="lower-case(frbrizer:trim(.))"/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
+                  <xsl:for-each select="*:subfield[@code = ('0')]">
                      <xsl:if test="@code = '0'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30002'"/>
-                              <xsl:with-param name="select" select="."/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = '1'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30002'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30002'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1781,7 +1766,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30106'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30106'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1789,7 +1775,8 @@
                      <xsl:if test="@code = 'v'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/m/P30165'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30165'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1858,7 +1845,7 @@
                                 as="xs:string"
                                 select="string(position())"/>
                   <frbrizer:relationship>
-                     <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/m/P30139'"/>
+                     <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/m/object/P30139'"/>
                      <xsl:if test="$include_counters">
                         <xsl:attribute name="c" select="1"/>
                      </xsl:if>
@@ -1888,7 +1875,7 @@
                              as="xs:string"
                              select="string(position())"/>
                <frbrizer:relationship>
-                  <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/m/P30139'"/>
+                  <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/m/object/P30139'"/>
                   <xsl:if test="$include_counters">
                      <xsl:attribute name="c" select="1"/>
                   </xsl:if>
@@ -1934,7 +1921,7 @@
             <xsl:attribute name="id"
                            select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
             <xsl:attribute name="type"
-                           select="if ($this_field/@tag = '600') then 'http://rdaregistry.info/Elements/c/C10004' else if ($this_field/@tag = '610') then 'http://rdaregistry.info/Elements/c/C10005' else if ($this_field/@tag = '611') then 'http://rdaregistry.info/Elements/c/C10011' else 'http://rdaregistry.info/Elements/c/C10002'"/>
+                           select="if ($this_field/@tag = '600') then 'http://rdaregistry.info/Elements/c/C10002' else if ($this_field/@tag = '610') then 'http://rdaregistry.info/Elements/c/C10005' else if ($this_field/@tag = '611') then 'http://rdaregistry.info/Elements/c/C10011' else 'http://rdaregistry.info/Elements/c/C10002'"/>
             <xsl:attribute name="templatename" select="$this_template_name"/>
             <xsl:if test="$include_counters">
                <xsl:attribute name="c" select="1"/>
@@ -1989,7 +1976,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50385'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50385'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -1997,7 +1985,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50413'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50413'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2005,7 +1994,8 @@
                      <xsl:if test="@code = 'd'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50339'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50339'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2013,7 +2003,8 @@
                      <xsl:if test="@code = '1'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50383'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50383'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2047,7 +2038,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50385'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50385'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2055,7 +2047,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50413'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50413'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2063,7 +2056,8 @@
                      <xsl:if test="@code = 'd'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50339'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50339'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2071,7 +2065,8 @@
                      <xsl:if test="@code = '1'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50383'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50383'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2105,7 +2100,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50385'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50385'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2113,7 +2109,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50413'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50413'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2121,7 +2118,8 @@
                      <xsl:if test="@code = 'd'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50339'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50339'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2129,7 +2127,8 @@
                      <xsl:if test="@code = '1'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/a/P50383'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/a/datatype/P50383'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2234,7 +2233,8 @@
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -2243,7 +2243,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2251,7 +2252,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2259,7 +2261,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2267,7 +2270,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2301,7 +2305,8 @@
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -2310,7 +2315,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2318,7 +2324,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2326,7 +2333,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2334,7 +2342,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2368,7 +2377,8 @@
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -2377,7 +2387,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2385,7 +2396,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2393,7 +2405,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2401,7 +2414,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2435,7 +2449,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -2444,7 +2459,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2452,7 +2468,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2460,7 +2477,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2468,7 +2486,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2550,7 +2569,8 @@
             <xsl:for-each select="$record/*:controlfield[@tag='008'][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]">
                <xsl:copy>
                   <xsl:call-template name="copy-content">
-                     <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                     <xsl:with-param name="type"
+                                     select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                      <xsl:with-param name="select" select="substring(., 36, 3)"/>
                      <xsl:with-param name="marcid" select="$marcid"/>
                   </xsl:call-template>
@@ -2566,7 +2586,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2574,7 +2595,8 @@
                      <xsl:if test="@code = 'd'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2582,7 +2604,8 @@
                      <xsl:if test="@code = 'e'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2590,7 +2613,8 @@
                      <xsl:if test="@code = 'f'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2598,7 +2622,8 @@
                      <xsl:if test="@code = 'j'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2614,41 +2639,18 @@
                   </xsl:if>
                </xsl:copy>
             </xsl:for-each>
-            <xsl:for-each select="$record/*:datafield[@tag='336'][frbrizer:linked($anchor_field, .)][*:subfield/@code = ('a','b','0','1')]">
+            <xsl:for-each select="$record/*:datafield[@tag='336'][frbrizer:linked($anchor_field, .)][*:subfield/@code = ('0')]">
                <xsl:copy>
                   <xsl:call-template name="copy-attributes"/>
                   <xsl:if test="$include_counters">
                      <xsl:attribute name="c" select="1"/>
                   </xsl:if>
-                  <xsl:for-each select="*:subfield[@code = ('a','b','0','1')]">
-                     <xsl:if test="@code = 'a'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20001'"/>
-                              <xsl:with-param name="select" select="lower-case(.)"/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = 'b'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20001'"/>
-                              <xsl:with-param name="select" select="lower-case(.)"/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
+                  <xsl:for-each select="*:subfield[@code = ('0')]">
                      <xsl:if test="@code = '0'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20001'"/>
-                              <xsl:with-param name="select" select="lower-case(.)"/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = '1'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20001'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20001'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2683,7 +2685,8 @@
                      <xsl:if test="@code = 'l'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2692,7 +2695,7 @@
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"
-                                              select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], ..)) then 'http://rdaregistry.info/Elements/e/P20316' else 'http://rdaregistry.info/Elements/e/P20315'"/>
+                                              select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], ..)) then 'http://rdaregistry.info/Elements/e/datatype/P20316' else 'http://rdaregistry.info/Elements/e/datatype/P20315'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2726,7 +2729,8 @@
                      <xsl:if test="@code = 'l'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2735,7 +2739,7 @@
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"
-                                              select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], ..)) then 'http://rdaregistry.info/Elements/e/P20316' else 'http://rdaregistry.info/Elements/e/P20315'"/>
+                                              select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], ..)) then 'http://rdaregistry.info/Elements/e/datatype/P20316' else 'http://rdaregistry.info/Elements/e/datatype/P20315'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2769,7 +2773,8 @@
                      <xsl:if test="@code = 'l'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2778,7 +2783,7 @@
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"
-                                              select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], ..)) then 'http://rdaregistry.info/Elements/e/P20316' else 'http://rdaregistry.info/Elements/e/P20315'"/>
+                                              select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], ..)) then 'http://rdaregistry.info/Elements/e/datatype/P20316' else 'http://rdaregistry.info/Elements/e/datatype/P20315'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2812,7 +2817,8 @@
                      <xsl:if test="@code = 'l'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/e/P20006'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2821,7 +2827,7 @@
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"
-                                              select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], ..)) then 'http://rdaregistry.info/Elements/e/P20316' else 'http://rdaregistry.info/Elements/e/P20315'"/>
+                                              select="if (frbrizer:linked-strict($record/*:datafield[@tag='740'], ..)) then 'http://rdaregistry.info/Elements/e/datatype/P20316' else 'http://rdaregistry.info/Elements/e/datatype/P20315'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -2847,7 +2853,7 @@
                              select="string(position())"/>
                <xsl:if test="($target_field = $this_field)">
                   <frbrizer:relationship>
-                     <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/e/P20231'"/>
+                     <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/e/object/P20231'"/>
                      <xsl:if test="$include_counters">
                         <xsl:attribute name="c" select="1"/>
                      </xsl:if>
@@ -2995,7 +3001,8 @@
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -3004,7 +3011,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3012,7 +3020,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3020,7 +3029,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3028,7 +3038,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3062,7 +3073,8 @@
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -3071,7 +3083,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3079,7 +3092,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3087,7 +3101,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3095,7 +3110,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3129,7 +3145,8 @@
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -3138,7 +3155,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3146,7 +3164,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3154,7 +3173,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3162,7 +3182,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3196,7 +3217,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -3205,7 +3227,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3213,7 +3236,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3221,7 +3245,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3229,7 +3254,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -3326,7 +3352,8 @@
                      <xsl:if test="@code = 't'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                               <xsl:with-param name="select"
                                               select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                            </xsl:call-template>
@@ -3335,7 +3362,8 @@
                      <xsl:if test="@code = 'f'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3343,7 +3371,8 @@
                      <xsl:if test="@code = 'n'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3351,7 +3380,8 @@
                      <xsl:if test="@code = 'k'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3359,7 +3389,8 @@
                      <xsl:if test="@code = '1'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3393,7 +3424,8 @@
                      <xsl:if test="@code = 't'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                               <xsl:with-param name="select"
                                               select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                            </xsl:call-template>
@@ -3402,7 +3434,8 @@
                      <xsl:if test="@code = 'f'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3410,7 +3443,8 @@
                      <xsl:if test="@code = 'n'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3418,7 +3452,8 @@
                      <xsl:if test="@code = 'k'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3426,7 +3461,8 @@
                      <xsl:if test="@code = '1'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3460,7 +3496,8 @@
                      <xsl:if test="@code = 't'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                               <xsl:with-param name="select"
                                               select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                            </xsl:call-template>
@@ -3469,7 +3506,8 @@
                      <xsl:if test="@code = 'f'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3477,7 +3515,8 @@
                      <xsl:if test="@code = 'n'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3485,7 +3524,8 @@
                      <xsl:if test="@code = 'k'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3493,7 +3533,8 @@
                      <xsl:if test="@code = '1'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3527,7 +3568,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                               <xsl:with-param name="select"
                                               select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                            </xsl:call-template>
@@ -3536,7 +3578,8 @@
                      <xsl:if test="@code = 'f'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3544,7 +3587,8 @@
                      <xsl:if test="@code = 'n'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3552,7 +3596,8 @@
                      <xsl:if test="@code = 'k'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3560,7 +3605,8 @@
                      <xsl:if test="@code = '1'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3586,7 +3632,8 @@
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                               <xsl:with-param name="select" select="lower-case(.)"/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3594,7 +3641,8 @@
                      <xsl:if test="@code = '0'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                               <xsl:with-param name="select" select="."/>
                            </xsl:call-template>
                         </xsl:copy>
@@ -3625,7 +3673,7 @@
                                 as="xs:string"
                                 select="string(position())"/>
                   <frbrizer:relationship>
-                     <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/P10019'"/>
+                     <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10019'"/>
                      <xsl:if test="$include_counters">
                         <xsl:attribute name="c" select="1"/>
                      </xsl:if>
@@ -3656,7 +3704,7 @@
                              select="string(position())"/>
                <xsl:if test="(frbrizer:linked-or-nolink($anchor_field, $target_field))">
                   <frbrizer:relationship>
-                     <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/P10319'"/>
+                     <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10319'"/>
                      <xsl:if test="$include_counters">
                         <xsl:attribute name="c" select="1"/>
                      </xsl:if>
@@ -3693,7 +3741,7 @@
                                 select="string(position())"/>
                   <xsl:if test="(frbrizer:linked-or-nolink($anchor_field, $target_field) and not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1']))">
                      <frbrizer:relationship>
-                        <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/P10257'"/>
+                        <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10257'"/>
                         <xsl:if test="$include_counters">
                            <xsl:attribute name="c" select="1"/>
                         </xsl:if>
@@ -3918,7 +3966,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4024,7 +4073,8 @@
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -4033,7 +4083,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4041,7 +4092,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4049,7 +4101,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4057,7 +4110,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4091,7 +4145,8 @@
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -4100,7 +4155,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4108,7 +4164,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4116,7 +4173,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4124,7 +4182,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4158,7 +4217,8 @@
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -4167,7 +4227,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4175,7 +4236,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4183,7 +4245,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4191,7 +4254,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4225,7 +4289,8 @@
                         <xsl:if test="@code = 'a'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10088'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10088'"/>
                                  <xsl:with-param name="select"
                                                  select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')"/>
                               </xsl:call-template>
@@ -4234,7 +4299,8 @@
                         <xsl:if test="@code = 'f'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10219'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10219'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4242,7 +4308,8 @@
                         <xsl:if test="@code = 'n'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10003'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10003'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4250,7 +4317,8 @@
                         <xsl:if test="@code = 'k'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10004'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
                                  <xsl:with-param name="select" select="lower-case(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4258,7 +4326,8 @@
                         <xsl:if test="@code = '1'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
-                                 <xsl:with-param name="type" select="'http://rdaregistry.info/Elements/w/P10002'"/>
+                                 <xsl:with-param name="type"
+                                                 select="'http://rdaregistry.info/Elements/w/datatype/P10002'"/>
                                  <xsl:with-param name="select" select="."/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -4373,13 +4442,13 @@
                <xsl:when test="@templatename = 'MARC21-130240-Expression'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key">
-                        <xsl:value-of select="frbrizer:sort-keys((frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/P20231']/@href))[1])"/>
+                        <xsl:value-of select="frbrizer:sort-keys((frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1])"/>
                         <xsl:value-of select="frbrizer:sort-keys('/')"/>
-                        <xsl:value-of select="frbrizer:sort-keys(lower-case((*:datafield[@tag = ('041', '130', '240')]/*:subfield[@type='http://rdaregistry.info/Elements/e/P20006'], *:controlfield[@tag = '008'][@type='http://rdaregistry.info/Elements/e/P20006'] )[1]))"/>
+                        <xsl:value-of select="frbrizer:sort-keys(lower-case((*:datafield[@tag = ('041', '130', '240')]/*:subfield[@type='http://rdaregistry.info/Elements/e/datatype/P20006'], *:controlfield[@tag = '008'][@type='http://rdaregistry.info/Elements/e/object/P20006'] )[1]))"/>
                         <xsl:value-of select="frbrizer:sort-keys('/')"/>
                         <xsl:value-of select="frbrizer:sort-keys( if (*:datafield[@tag='336']/*:subfield[@code='0']) then (tokenize((*:datafield[@tag='336']/*:subfield[@code='0'])[1], '/'))[last()] else (*:datafield[@tag='336']/*:subfield[@code='b'], *:datafield[@tag='336']/*:subfield[@code='a'], 'nocontenttype')[1])"/>
                         <xsl:value-of select="frbrizer:sort-keys('/')"/>
-                        <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/P20037', 'http://rdaregistry.info/Elements/e/P20022', 'http://rdaregistry.info/Elements/e/P20049', 'http://rdaregistry.info/Elements/e/P20330')]/@href), '/'))"/>
+                        <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/'))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
@@ -4399,13 +4468,13 @@
                <xsl:when test="@templatename = 'MARC21-700-Expression-Analytical'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key">
-                        <xsl:value-of select="frbrizer:sort-keys((frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/P20231']/@href))[1])"/>
+                        <xsl:value-of select="frbrizer:sort-keys((frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1])"/>
                         <xsl:value-of select="frbrizer:sort-keys('/')"/>
-                        <xsl:value-of select="frbrizer:sort-keys(lower-case((*:datafield[@tag = ('041')]/*:subfield[@type='http://rdaregistry.info/Elements/e/P20006'], *:controlfield[@tag = '008'][@type='http://rdaregistry.info/Elements/e/P20006'])[1]))"/>
+                        <xsl:value-of select="frbrizer:sort-keys(lower-case((*:datafield[@tag = ('041')]/*:subfield[@type='http://rdaregistry.info/Elements/e/datatype/P20006'], *:controlfield[@tag = '008'][@type='http://rdaregistry.info/Elements/e/datatype/P20006'])[1]))"/>
                         <xsl:value-of select="frbrizer:sort-keys('/')"/>
                         <xsl:value-of select="frbrizer:sort-keys( if (*:datafield[@tag='336']/*:subfield[@code='0']) then (tokenize((*:datafield[@tag='336']/*:subfield[@code='0'])[1], '/'))[last()] else (*:datafield[@tag='336']/*:subfield[@code='b'], *:datafield[@tag='336']/*:subfield[@code='a'], 'nocontenttype')[1])"/>
                         <xsl:value-of select="frbrizer:sort-keys('/')"/>
-                        <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/P20037', 'http://rdaregistry.info/Elements/e/P20022', 'http://rdaregistry.info/Elements/e/P20049', 'http://rdaregistry.info/Elements/e/P20330')]/@href), '/'))"/>
+                        <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/'))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
@@ -4849,9 +4918,9 @@
                 <!--<xsl:sort select="@type"/>
                 <xsl:sort select="@id"/>-->
                 <!--<xsl:variable name="namespace" select="tokenize(@type, '[/#]')[last() - 1]"/>-->
+                <xsl:variable name="entity_type" select="tokenize(@type, '[/#]')[last()]"/>
+                <xsl:variable name="entity_namespace" select="replace(@type, $entity_type, '')"/>
                 <xsl:try>
-                    <xsl:variable name="entity_type" select="tokenize(@type, '[/#]')[last()]"/>
-                    <xsl:variable name="entity_namespace" select="replace(@type, $entity_type, '')"/>
                     <xsl:element name="{$prefixmap($entity_namespace) || ':' || $entity_type}"
                             namespace="{$entity_namespace}">
                         <xsl:attribute name="rdf:about"
@@ -4879,22 +4948,22 @@
                             </xsl:element>                        
                         </xsl:for-each-group>
                     </xsl:element>
-                    <xsl:catch>
-                        <xsl:result-document href="error.log" omit-xml-declaration="yes">
+                    <xsl:catch xmlns:err="http://www.w3.org/2005/xqt-errors">
                             <xsl:message terminate="no">
                                 <xsl:value-of select="'Error converting to rdf in record:'"/>
-                                <xsl:value-of select="./*:controlfield[@tag='001']"/>                            
-                            </xsl:message>
-                        </xsl:result-document>
+                                <xsl:copy-of select="."/>  
+                                <!--<xsl:value-of select="$entity_type"></xsl:value-of>-->
+                                <!--<xsl:value-of select="$err:description"></xsl:value-of>-->
+                            </xsl:message>                       
                     </xsl:catch>
                 </xsl:try>
             </xsl:for-each-group>
             <!--<xsl:for-each select="doc('rda.inverse.rdf')/rdf:RDF/rdf:Description">
                 <xsl:copy-of select="."></xsl:copy-of>
             </xsl:for-each>-->
-            <xsl:for-each select="doc('rda.labels.rdf')/rdf:RDF/rdf:Description">
-                <xsl:copy-of select="."/>
-            </xsl:for-each>
+            <!--<xsl:for-each select="doc('rda.labels.rdf')/rdf:RDF/rdf:Description">
+                <xsl:copy-of select="."></xsl:copy-of>
+            </xsl:for-each>-->
         </rdf:RDF>
     </xsl:template>
    <xsl:function xmlns:local="http://idi.ntnu.no/frbrizer/"
@@ -4935,10 +5004,14 @@
    <xsl:function xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rdac="http://rdaregistry.info/Elements/c/"
-                 xmlns:rdaa="http://rdaregistry.info/Elements/a/"
-                 xmlns:rdaw="http://rdaregistry.info/Elements/w/"
-                 xmlns:rdae="http://rdaregistry.info/Elements/e/"
-                 xmlns:rdam="http://rdaregistry.info/Elements/m/"
+                 xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+                 xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+                 xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+                 xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+                 xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+                 xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+                 xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+                 xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -4960,10 +5033,14 @@
         </xsl:function>
    <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rdac="http://rdaregistry.info/Elements/c/"
-                 xmlns:rdaa="http://rdaregistry.info/Elements/a/"
-                 xmlns:rdaw="http://rdaregistry.info/Elements/w/"
-                 xmlns:rdae="http://rdaregistry.info/Elements/e/"
-                 xmlns:rdam="http://rdaregistry.info/Elements/m/"
+                 xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+                 xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+                 xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+                 xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+                 xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+                 xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+                 xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+                 xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -4979,10 +5056,14 @@
         </xsl:function>
    <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rdac="http://rdaregistry.info/Elements/c/"
-                 xmlns:rdaa="http://rdaregistry.info/Elements/a/"
-                 xmlns:rdaw="http://rdaregistry.info/Elements/w/"
-                 xmlns:rdae="http://rdaregistry.info/Elements/e/"
-                 xmlns:rdam="http://rdaregistry.info/Elements/m/"
+                 xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+                 xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+                 xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+                 xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+                 xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+                 xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+                 xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+                 xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -4997,10 +5078,14 @@
         </xsl:function>
    <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rdac="http://rdaregistry.info/Elements/c/"
-                 xmlns:rdaa="http://rdaregistry.info/Elements/a/"
-                 xmlns:rdaw="http://rdaregistry.info/Elements/w/"
-                 xmlns:rdae="http://rdaregistry.info/Elements/e/"
-                 xmlns:rdam="http://rdaregistry.info/Elements/m/"
+                 xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+                 xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+                 xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+                 xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+                 xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+                 xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+                 xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+                 xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -5015,10 +5100,14 @@
         </xsl:function>
    <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rdac="http://rdaregistry.info/Elements/c/"
-                 xmlns:rdaa="http://rdaregistry.info/Elements/a/"
-                 xmlns:rdaw="http://rdaregistry.info/Elements/w/"
-                 xmlns:rdae="http://rdaregistry.info/Elements/e/"
-                 xmlns:rdam="http://rdaregistry.info/Elements/m/"
+                 xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+                 xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+                 xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+                 xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+                 xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+                 xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+                 xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+                 xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -5034,10 +5123,14 @@
         </xsl:function>
    <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rdac="http://rdaregistry.info/Elements/c/"
-                 xmlns:rdaa="http://rdaregistry.info/Elements/a/"
-                 xmlns:rdaw="http://rdaregistry.info/Elements/w/"
-                 xmlns:rdae="http://rdaregistry.info/Elements/e/"
-                 xmlns:rdam="http://rdaregistry.info/Elements/m/"
+                 xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+                 xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+                 xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+                 xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+                 xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+                 xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+                 xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+                 xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -5052,10 +5145,14 @@
         </xsl:function>
    <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rdac="http://rdaregistry.info/Elements/c/"
-                 xmlns:rdaa="http://rdaregistry.info/Elements/a/"
-                 xmlns:rdaw="http://rdaregistry.info/Elements/w/"
-                 xmlns:rdae="http://rdaregistry.info/Elements/e/"
-                 xmlns:rdam="http://rdaregistry.info/Elements/m/"
+                 xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+                 xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+                 xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+                 xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+                 xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+                 xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+                 xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+                 xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
