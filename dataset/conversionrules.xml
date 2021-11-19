@@ -12,6 +12,7 @@
     xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
     xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
     xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+    xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
 
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
@@ -20,12 +21,12 @@
     xmlns:rdat="http://rdaregistry.info/termList/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xsi:noNamespaceSchemaLocation="../../marc2entities/xsd/marc2lrm.rules.xsd">
-    <keyfilter>replace($key, ' ', '')</keyfilter>
+    <keyfilter>replace(string-join($key[. != ''], '/'), ' ', '')</keyfilter>
     
     <!-- Thius is a restrictive ruleset where we only process explicitly coded entities and relationships -->
     
     <!-- URI types and categories as entities -->
-    <entity tag="380" code="0" code-condition="starts-with(., 'http')" templatename="MARC380" type="http://rdaregistry.info/termList/RDAWorkForm">
+    <entity tag="380" code="0" code-condition="starts-with(., 'http')" templatename="MARC380" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for work type</note>
         <attributes>
             <datafield tag="380" condition=". eq $this_field">
@@ -38,7 +39,7 @@
         </key>
     </entity>
     
-    <entity tag="336" code="0" code-condition="starts-with(., 'http')" templatename="MARC336" type="http://rdaregistry.info/termList/RDAContentType">
+    <entity tag="336" code="0" code-condition="starts-with(., 'http')" templatename="MARC336" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for expression type</note>
         <attributes>
             <datafield tag="336" condition=". eq $this_field">
@@ -51,7 +52,7 @@
         </key>
     </entity>
     
-    <entity tag="337" code="0" code-condition="starts-with(., 'http')" templatename="MARC337" type="http://rdaregistry.info/termList/RDAMediaType">
+    <entity tag="337" code="0" code-condition="starts-with(., 'http')" templatename="MARC337" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for work type</note>
         <attributes>
             <datafield tag="337" condition=". eq $this_field">
@@ -64,11 +65,10 @@
         </key>
     </entity>
     
-    <entity tag="338" code="0" code-condition="starts-with(., 'http')" templatename="MARC338" type="http://rdaregistry.info/termList/RDACarrierType">
+    <entity tag="338" code="0" code-condition="starts-with(., 'http')" templatename="MARC338" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for work type</note>
         <attributes>
             <datafield tag="338" condition=". eq $this_field">
-                <!--<subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has category of work"/>-->
                 <subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
                 <subfield code="0" select="." condition=". eq $this_subfield" type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
             </datafield>
@@ -78,9 +78,28 @@
         </key>
     </entity>
     
+    <entity tag="041" code="a" templatename="MARC041" type="http://www.w3.org/2004/02/skos/core#Concept">
+        <note>Entity for language type</note>
+        <attributes>
+            <datafield tag="041" condition=". eq $this_field">
+                <subfield code="a" condition=". eq $this_subfield" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
+            </datafield>
+        </attributes>
+        <key order="1">
+            <element>concat('http://id.loc.gov/vocabulary/iso639-2/', *:datafield[@tag=('041')]/*:subfield[@code='a'])</element>
+        </key>
+    </entity>
     
+    <entity tag="008" templatename="MARC008language" type="http://www.w3.org/2004/02/skos/core#Concept" condition="string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')">        
+        <note>Entity for language type</note>
+        <attributes>
+            <controlfield tag="008" type="http://www.w3.org/2000/01/rdf-schema#label" select="substring(., 36, 3)"/>
+        </attributes>
+        <key order="1">
+            <element>concat('http://id.loc.gov/vocabulary/iso639-2/', *:controlfield[@tag=('008')])</element>
+        </key>
+    </entity>
     
- 
     <!-- Agent entries main and added -->
     <entity tag="100, 110, 111, 700, 710, 711" condition="exists(*:subfield[@code = '1']/starts-with(., 'http')) and not(*:subfield/@code = 't')" code="4" code-condition="starts-with(., 'http')" type="http://rdaregistry.info/Elements/c/C10002" templatename="MARC21-100700Person" label="Person">
         <note>Persons identified in field 100 and 700 (excluding 700-fields with $t)</note>
@@ -225,11 +244,8 @@
         <label select="string-join((*:datafield[@tag='336']/*:subfield[@code='a'], *:datafield[@tag='041']/*:subfield[@code=('a', 'd')][1]), '/')"/>
         <key order="2">
             <element>(frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1]</element>
-            <element>'/'</element>
-            <element>lower-case((*:datafield[@tag = ('041', '130', '240')]/*:subfield[@type='http://rdaregistry.info/Elements/e/datatype/P20006'], *:controlfield[@tag = '008'][@type='http://rdaregistry.info/Elements/e/object/P20006'] )[1])</element>
-            <element>'/'</element>
-            <element> if (*:datafield[@tag='336']/*:subfield[@code='0']) then (tokenize((*:datafield[@tag='336']/*:subfield[@code='0'])[1], '/'))[last()] else (*:datafield[@tag='336']/*:subfield[@code='b'], *:datafield[@tag='336']/*:subfield[@code='a'], 'nocontenttype')[1]</element>
-            <element>'/'</element>
+            <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/')</element>            
+            <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20001')]/@href), '/')</element>            
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/')</element>
         </key>
         <relationships>
@@ -238,6 +254,13 @@
             </relationship>
             <relationship type="{$target_subfield}">
                 <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
+                <target entity="MARC041"/>
+                <target entity="MARC008language"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
+                <target entity="MARC336"/>
             </relationship>
         </relationships>
     </entity>
@@ -560,11 +583,8 @@
         </attributes>
         <key order="2">
             <element>(frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1]</element>
-            <element>'/'</element>
-            <element>lower-case((*:datafield[@tag = ('041')]/*:subfield[@type='http://rdaregistry.info/Elements/e/datatype/P20006'], *:controlfield[@tag = '008'][@type='http://rdaregistry.info/Elements/e/datatype/P20006'])[1])</element>
-            <element>'/'</element>
-            <element> if (*:datafield[@tag='336']/*:subfield[@code='0']) then (tokenize((*:datafield[@tag='336']/*:subfield[@code='0'])[1], '/'))[last()] else (*:datafield[@tag='336']/*:subfield[@code='b'], *:datafield[@tag='336']/*:subfield[@code='a'], 'nocontenttype')[1]</element>
-            <element>'/'</element>
+            <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/')</element>            
+            <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20001')]/@href), '/')</element>            
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/')</element>
         </key>
         <relationships>
@@ -573,6 +593,13 @@
             </relationship>
             <relationship type="{$target_subfield}">
                 <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language" condition="frbrizer:linked($anchor_field, .)" >
+                <target entity="MARC041"/>
+                <target entity="MARC008language"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type" condition="frbrizer:linked($anchor_field, .)">
+                <target entity="MARC336"/>
             </relationship>
         </relationships>
     </entity>

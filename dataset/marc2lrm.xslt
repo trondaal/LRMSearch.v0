@@ -43,6 +43,7 @@
             <xsl:namespace name="rdamd" select="'http://rdaregistry.info/Elements/m/datatype/'"/>
             <xsl:namespace name="rdamo" select="'http://rdaregistry.info/Elements/m/object/'"/>
             <xsl:namespace name="rdaxd" select="'http://rdaregistry.info/Elements/x/datatype/'"/>
+            <xsl:namespace name="mads" select="'http://www.loc.gov/mads/rdf/v1#'"/>
             <xsl:namespace name="rdfs" select="'http://www.w3.org/2000/01/rdf-schema#'"/>
             <xsl:namespace name="rdaco"
                            select="'http://rdaregistry.info/termList/RDAContentType/'"/>
@@ -93,6 +94,8 @@
             <xsl:call-template name="MARC336"/>
             <xsl:call-template name="MARC337"/>
             <xsl:call-template name="MARC338"/>
+            <xsl:call-template name="MARC041"/>
+            <xsl:call-template name="MARC008language"/>
             <xsl:call-template name="MARC21-100700Person"/>
             <xsl:call-template name="MARC21-130240-Work"/>
             <xsl:call-template name="MARC21-130240-Expression"/>
@@ -113,6 +116,175 @@
          <xsl:apply-templates select="$step2" mode="create-keys"/>
       </xsl:variable>
       <xsl:copy-of select="$step3//*:record"/>
+   </xsl:template>
+   <xsl:template name="MARC008language">
+      <xsl:variable name="this_template_name" select="'MARC008language'"/>
+      <xsl:variable name="tag" as="xs:string" select="'008'"/>
+      <xsl:variable name="record" select="."/>
+      <xsl:variable name="marcid" select="*:controlfield[@tag='001']"/>
+      <xsl:for-each select="node()[@tag=('008')][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]">
+         <xsl:variable name="this_field"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="this"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="anchor_field"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="anchor"
+                       as="xs:string"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="this_field_position"
+                       as="xs:string"
+                       select="string(position())"/>
+         <xsl:element name="{name(ancestor-or-self::*:record)}"
+                      namespace="{namespace-uri(ancestor-or-self::*:record)}">
+            <xsl:attribute name="id"
+                           select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
+            <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
+            <xsl:attribute name="templatename" select="$this_template_name"/>
+            <xsl:if test="$include_counters">
+               <xsl:attribute name="c" select="1"/>
+            </xsl:if>
+            <xsl:if test="$include_anchorvalues">
+               <xsl:element name="frbrizer:anchorvalue">
+                  <xsl:if test="$include_counters">
+                     <xsl:attribute name="c" select="1"/>
+                  </xsl:if>
+                  <xsl:value-of select="."/>
+               </xsl:element>
+            </xsl:if>
+            <xsl:if test="$include_templateinfo">
+               <xsl:element name="frbrizer:templatename">
+                  <xsl:if test="$include_counters">
+                     <xsl:attribute name="c" select="1"/>
+                  </xsl:if>
+                  <xsl:value-of select="$this_template_name"/>
+               </xsl:element>
+            </xsl:if>
+            <xsl:if test="$include_internal_key">
+               <xsl:element name="frbrizer:intkey">
+                  <xsl:if test="$include_counters">
+                     <xsl:attribute name="c" select="1"/>
+                  </xsl:if>
+                  <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
+               </xsl:element>
+            </xsl:if>
+            <xsl:if test="$include_MARC001_in_entityrecord">
+               <xsl:element name="frbrizer:mid">
+                  <xsl:if test="$include_counters">
+                     <xsl:attribute name="c" select="1"/>
+                  </xsl:if>
+                  <xsl:attribute name="i" select="$marcid"/>
+               </xsl:element>
+            </xsl:if>
+            <xsl:for-each select="$record/*:controlfield[@tag='008'][$this_field_position]">
+               <xsl:copy>
+                  <xsl:call-template name="copy-content">
+                     <xsl:with-param name="type" select="'http://www.w3.org/2000/01/rdf-schema#label'"/>
+                     <xsl:with-param name="select" select="substring(., 36, 3)"/>
+                     <xsl:with-param name="marcid" select="$marcid"/>
+                  </xsl:call-template>
+               </xsl:copy>
+            </xsl:for-each>
+         </xsl:element>
+      </xsl:for-each>
+   </xsl:template>
+   <xsl:template name="MARC041">
+      <xsl:variable name="this_template_name" select="'MARC041'"/>
+      <xsl:variable name="tag" as="xs:string" select="'041'"/>
+      <xsl:variable name="code" as="xs:string" select="'a'"/>
+      <xsl:variable name="record" select="."/>
+      <xsl:variable name="marcid" select="*:controlfield[@tag='001']"/>
+      <xsl:for-each select="node()[@tag=('041')]">
+         <xsl:variable name="this_field"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="this"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="anchor_field"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="anchor"
+                       as="xs:string"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="this_field_position"
+                       as="xs:string"
+                       select="string(position())"/>
+         <xsl:for-each select="node()[@code='a']">
+            <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
+            <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
+            <xsl:variable name="this_subfield_code" as="xs:string" select="'a'"/>
+            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'a'"/>
+            <xsl:variable name="this_subfield_position"
+                          as="xs:string"
+                          select="string(position())"/>
+            <xsl:element name="{name(ancestor-or-self::*:record)}"
+                         namespace="{namespace-uri(ancestor-or-self::*:record)}">
+               <xsl:attribute name="id"
+                              select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
+               <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
+               <xsl:attribute name="templatename" select="$this_template_name"/>
+               <xsl:if test="$include_counters">
+                  <xsl:attribute name="c" select="1"/>
+               </xsl:if>
+               <xsl:if test="$include_anchorvalues">
+                  <xsl:element name="frbrizer:anchorvalue">
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:value-of select="."/>
+                  </xsl:element>
+               </xsl:if>
+               <xsl:if test="$include_templateinfo">
+                  <xsl:element name="frbrizer:templatename">
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:value-of select="$this_template_name"/>
+                  </xsl:element>
+               </xsl:if>
+               <xsl:if test="$include_internal_key">
+                  <xsl:element name="frbrizer:intkey">
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
+                  </xsl:element>
+               </xsl:if>
+               <xsl:if test="$include_MARC001_in_entityrecord">
+                  <xsl:element name="frbrizer:mid">
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:attribute name="i" select="$marcid"/>
+                  </xsl:element>
+               </xsl:if>
+               <xsl:for-each select="$record/*:datafield[@tag='041'][. eq $this_field][*:subfield/@code = ('a')]">
+                  <xsl:copy>
+                     <xsl:call-template name="copy-attributes"/>
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:for-each select="*:subfield[@code = ('a')]">
+                        <xsl:if test="@code = 'a' and . eq $this_subfield">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type" select="'http://www.w3.org/2000/01/rdf-schema#label'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                     </xsl:for-each>
+                     <xsl:if test="$include_MARC001_in_subfield">
+                        <xsl:element name="frbrizer:mid">
+                           <xsl:attribute name="i" select="$marcid"/>
+                           <xsl:if test="$include_counters">
+                              <xsl:attribute name="c" select="1"/>
+                           </xsl:if>
+                        </xsl:element>
+                     </xsl:if>
+                  </xsl:copy>
+               </xsl:for-each>
+            </xsl:element>
+         </xsl:for-each>
+      </xsl:for-each>
    </xsl:template>
    <xsl:template name="MARC21-100700Person">
       <xsl:variable name="this_template_name" select="'MARC21-100700Person'"/>
@@ -836,6 +1008,110 @@
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
+                  </xsl:for-each>
+               </xsl:for-each>
+               <xsl:for-each select="$record/node()[@tag=('041')]">
+                  <xsl:variable name="target_template_name" select="'MARC041'"/>
+                  <xsl:variable name="target_tag_value" select="'041'"/>
+                  <xsl:variable name="target_field"
+                                select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+                  <xsl:variable name="target_field_position"
+                                as="xs:string"
+                                select="string(position())"/>
+                  <xsl:for-each select="node()[@code='a']">
+                     <xsl:variable name="target_subfield" select="."/>
+                     <xsl:variable name="target_subfield_code" as="xs:string" select="'a'"/>
+                     <xsl:variable name="target_subfield_position"
+                                   as="xs:string"
+                                   select="string(position())"/>
+                     <frbrizer:relationship>
+                        <xsl:attribute name="type"
+                                       select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
+                        <xsl:if test="$include_counters">
+                           <xsl:attribute name="c" select="1"/>
+                        </xsl:if>
+                        <xsl:attribute name="href"
+                                       select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        <xsl:if test="$include_internal_key">
+                           <xsl:attribute name="intkey"
+                                          select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        </xsl:if>
+                        <xsl:if test="$include_MARC001_in_relationships">
+                           <xsl:element name="frbrizer:mid">
+                              <xsl:attribute name="i" select="$marcid"/>
+                              <xsl:if test="$include_counters">
+                                 <xsl:attribute name="c" select="1"/>
+                              </xsl:if>
+                           </xsl:element>
+                        </xsl:if>
+                     </frbrizer:relationship>
+                  </xsl:for-each>
+               </xsl:for-each>
+               <xsl:for-each select="$record/node()[@tag=('008')][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]">
+                  <xsl:variable name="target_template_name" select="'MARC008language'"/>
+                  <xsl:variable name="target_tag_value" select="'008'"/>
+                  <xsl:variable name="target_field"
+                                select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+                  <xsl:variable name="target_field_position"
+                                as="xs:string"
+                                select="string(position())"/>
+                  <frbrizer:relationship>
+                     <xsl:attribute name="type"
+                                    select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:attribute name="href"
+                                    select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
+                     <xsl:if test="$include_internal_key">
+                        <xsl:attribute name="intkey"
+                                       select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
+                     </xsl:if>
+                     <xsl:if test="$include_MARC001_in_relationships">
+                        <xsl:element name="frbrizer:mid">
+                           <xsl:attribute name="i" select="$marcid"/>
+                           <xsl:if test="$include_counters">
+                              <xsl:attribute name="c" select="1"/>
+                           </xsl:if>
+                        </xsl:element>
+                     </xsl:if>
+                  </frbrizer:relationship>
+               </xsl:for-each>
+               <xsl:for-each select="$record/node()[@tag=('336')]">
+                  <xsl:variable name="target_template_name" select="'MARC336'"/>
+                  <xsl:variable name="target_tag_value" select="'336'"/>
+                  <xsl:variable name="target_field"
+                                select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+                  <xsl:variable name="target_field_position"
+                                as="xs:string"
+                                select="string(position())"/>
+                  <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+                     <xsl:variable name="target_subfield" select="."/>
+                     <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
+                     <xsl:variable name="target_subfield_position"
+                                   as="xs:string"
+                                   select="string(position())"/>
+                     <frbrizer:relationship>
+                        <xsl:attribute name="type"
+                                       select="'http://rdaregistry.info/Elements/e/datatype/P20001'"/>
+                        <xsl:if test="$include_counters">
+                           <xsl:attribute name="c" select="1"/>
+                        </xsl:if>
+                        <xsl:attribute name="href"
+                                       select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        <xsl:if test="$include_internal_key">
+                           <xsl:attribute name="intkey"
+                                          select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        </xsl:if>
+                        <xsl:if test="$include_MARC001_in_relationships">
+                           <xsl:element name="frbrizer:mid">
+                              <xsl:attribute name="i" select="$marcid"/>
+                              <xsl:if test="$include_counters">
+                                 <xsl:attribute name="c" select="1"/>
+                              </xsl:if>
+                           </xsl:element>
+                        </xsl:if>
+                     </frbrizer:relationship>
                   </xsl:for-each>
                </xsl:for-each>
             </xsl:element>
@@ -2888,6 +3164,116 @@
                   </xsl:if>
                </xsl:for-each>
             </xsl:for-each>
+            <xsl:if test="frbrizer:linked($anchor_field, .)">
+               <xsl:for-each select="$record/node()[@tag=('041')]">
+                  <xsl:variable name="target_template_name" select="'MARC041'"/>
+                  <xsl:variable name="target_tag_value" select="'041'"/>
+                  <xsl:variable name="target_field"
+                                select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+                  <xsl:variable name="target_field_position"
+                                as="xs:string"
+                                select="string(position())"/>
+                  <xsl:for-each select="node()[@code='a']">
+                     <xsl:variable name="target_subfield" select="."/>
+                     <xsl:variable name="target_subfield_code" as="xs:string" select="'a'"/>
+                     <xsl:variable name="target_subfield_position"
+                                   as="xs:string"
+                                   select="string(position())"/>
+                     <frbrizer:relationship>
+                        <xsl:attribute name="type"
+                                       select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
+                        <xsl:if test="$include_counters">
+                           <xsl:attribute name="c" select="1"/>
+                        </xsl:if>
+                        <xsl:attribute name="href"
+                                       select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        <xsl:if test="$include_internal_key">
+                           <xsl:attribute name="intkey"
+                                          select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        </xsl:if>
+                        <xsl:if test="$include_MARC001_in_relationships">
+                           <xsl:element name="frbrizer:mid">
+                              <xsl:attribute name="i" select="$marcid"/>
+                              <xsl:if test="$include_counters">
+                                 <xsl:attribute name="c" select="1"/>
+                              </xsl:if>
+                           </xsl:element>
+                        </xsl:if>
+                     </frbrizer:relationship>
+                  </xsl:for-each>
+               </xsl:for-each>
+            </xsl:if>
+            <xsl:if test="frbrizer:linked($anchor_field, .)">
+               <xsl:for-each select="$record/node()[@tag=('008')][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]">
+                  <xsl:variable name="target_template_name" select="'MARC008language'"/>
+                  <xsl:variable name="target_tag_value" select="'008'"/>
+                  <xsl:variable name="target_field"
+                                select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+                  <xsl:variable name="target_field_position"
+                                as="xs:string"
+                                select="string(position())"/>
+                  <frbrizer:relationship>
+                     <xsl:attribute name="type"
+                                    select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:attribute name="href"
+                                    select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
+                     <xsl:if test="$include_internal_key">
+                        <xsl:attribute name="intkey"
+                                       select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
+                     </xsl:if>
+                     <xsl:if test="$include_MARC001_in_relationships">
+                        <xsl:element name="frbrizer:mid">
+                           <xsl:attribute name="i" select="$marcid"/>
+                           <xsl:if test="$include_counters">
+                              <xsl:attribute name="c" select="1"/>
+                           </xsl:if>
+                        </xsl:element>
+                     </xsl:if>
+                  </frbrizer:relationship>
+               </xsl:for-each>
+            </xsl:if>
+            <xsl:if test="frbrizer:linked($anchor_field, .)">
+               <xsl:for-each select="$record/node()[@tag=('336')]">
+                  <xsl:variable name="target_template_name" select="'MARC336'"/>
+                  <xsl:variable name="target_tag_value" select="'336'"/>
+                  <xsl:variable name="target_field"
+                                select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+                  <xsl:variable name="target_field_position"
+                                as="xs:string"
+                                select="string(position())"/>
+                  <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+                     <xsl:variable name="target_subfield" select="."/>
+                     <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
+                     <xsl:variable name="target_subfield_position"
+                                   as="xs:string"
+                                   select="string(position())"/>
+                     <frbrizer:relationship>
+                        <xsl:attribute name="type"
+                                       select="'http://rdaregistry.info/Elements/e/datatype/P20001'"/>
+                        <xsl:if test="$include_counters">
+                           <xsl:attribute name="c" select="1"/>
+                        </xsl:if>
+                        <xsl:attribute name="href"
+                                       select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        <xsl:if test="$include_internal_key">
+                           <xsl:attribute name="intkey"
+                                          select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        </xsl:if>
+                        <xsl:if test="$include_MARC001_in_relationships">
+                           <xsl:element name="frbrizer:mid">
+                              <xsl:attribute name="i" select="$marcid"/>
+                              <xsl:if test="$include_counters">
+                                 <xsl:attribute name="c" select="1"/>
+                              </xsl:if>
+                           </xsl:element>
+                        </xsl:if>
+                     </frbrizer:relationship>
+                  </xsl:for-each>
+               </xsl:for-each>
+            </xsl:if>
          </xsl:element>
       </xsl:for-each>
    </xsl:template>
@@ -4354,7 +4740,7 @@
                          namespace="{namespace-uri(ancestor-or-self::*:record)}">
                <xsl:attribute name="id"
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-               <xsl:attribute name="type" select="'http://rdaregistry.info/termList/RDAContentType'"/>
+               <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
                <xsl:if test="$include_counters">
                   <xsl:attribute name="c" select="1"/>
@@ -4461,7 +4847,7 @@
                          namespace="{namespace-uri(ancestor-or-self::*:record)}">
                <xsl:attribute name="id"
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-               <xsl:attribute name="type" select="'http://rdaregistry.info/termList/RDAMediaType'"/>
+               <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
                <xsl:if test="$include_counters">
                   <xsl:attribute name="c" select="1"/>
@@ -4568,7 +4954,7 @@
                          namespace="{namespace-uri(ancestor-or-self::*:record)}">
                <xsl:attribute name="id"
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-               <xsl:attribute name="type" select="'http://rdaregistry.info/termList/RDACarrierType'"/>
+               <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
                <xsl:if test="$include_counters">
                   <xsl:attribute name="c" select="1"/>
@@ -4675,7 +5061,7 @@
                          namespace="{namespace-uri(ancestor-or-self::*:record)}">
                <xsl:attribute name="id"
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-               <xsl:attribute name="type" select="'http://rdaregistry.info/termList/RDAWorkForm'"/>
+               <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
                <xsl:if test="$include_counters">
                   <xsl:attribute name="c" select="1"/>
@@ -4757,120 +5143,154 @@
             <xsl:choose>
                <xsl:when test="@templatename = 'MARC380'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('380')]/*:subfield[@code='0'][starts-with(., 'http')][1])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC336'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('336')]/*:subfield[@code='0'][starts-with(., 'http')][1])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC337'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('337')]/*:subfield[@code='0'][starts-with(., 'http')][1])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC338'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('338')]/*:subfield[@code='0'][starts-with(., 'http')][1])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
+                     <xsl:attribute name="key" select="$keyvalue"/>
+                     <xsl:attribute name="id" select="@id"/>
+                  </xsl:element>
+               </xsl:when>
+               <xsl:when test="@templatename = 'MARC041'">
+                  <xsl:element name="frbrizer:keyentry">
+                     <xsl:variable name="key" as="xs:string*">
+                        <xsl:value-of select="frbrizer:sort-keys(concat('http://id.loc.gov/vocabulary/iso639-2/', *:datafield[@tag=('041')]/*:subfield[@code='a']))"/>
+                     </xsl:variable>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
+                     <xsl:attribute name="key" select="$keyvalue"/>
+                     <xsl:attribute name="id" select="@id"/>
+                  </xsl:element>
+               </xsl:when>
+               <xsl:when test="@templatename = 'MARC008language'">
+                  <xsl:element name="frbrizer:keyentry">
+                     <xsl:variable name="key" as="xs:string*">
+                        <xsl:value-of select="frbrizer:sort-keys(concat('http://id.loc.gov/vocabulary/iso639-2/', *:controlfield[@tag=('008')]))"/>
+                     </xsl:variable>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-100700Person'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('100', '110', '111', '700', '710', '711')]/*:subfield[@code='1'][starts-with(., 'http')][1])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-130240-Work'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('130', '240')]/*:subfield[@code='1'][starts-with(., 'http')][last()])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-600-Person'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('600', '610', '611')]/*:subfield[@code='1'][starts-with(., 'http')][1])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-6XX-Work'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('600', '610', '611', '630')]/*:subfield[@code='1'][starts-with(., 'http')][1])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-700-Related-Work'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(.,'http')][last()])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-700-Work-Analytical'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(., 'http')][last()])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-758-Related-Work'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('758')]/*:subfield[@code='1'][starts-with(., 'http')][1])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-8XX-Work-Series'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('800', '810', '811', '830')]/*:subfield[@code='1'][starts-with(.,'http')][last()])"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
@@ -4885,42 +5305,39 @@
             <xsl:choose>
                <xsl:when test="@templatename = 'MARC21-130240-Expression'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys((frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1])"/>
-                        <xsl:value-of select="frbrizer:sort-keys('/')"/>
-                        <xsl:value-of select="frbrizer:sort-keys(lower-case((*:datafield[@tag = ('041', '130', '240')]/*:subfield[@type='http://rdaregistry.info/Elements/e/datatype/P20006'], *:controlfield[@tag = '008'][@type='http://rdaregistry.info/Elements/e/object/P20006'] )[1]))"/>
-                        <xsl:value-of select="frbrizer:sort-keys('/')"/>
-                        <xsl:value-of select="frbrizer:sort-keys( if (*:datafield[@tag='336']/*:subfield[@code='0']) then (tokenize((*:datafield[@tag='336']/*:subfield[@code='0'])[1], '/'))[last()] else (*:datafield[@tag='336']/*:subfield[@code='b'], *:datafield[@tag='336']/*:subfield[@code='a'], 'nocontenttype')[1])"/>
-                        <xsl:value-of select="frbrizer:sort-keys('/')"/>
+                        <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/'))"/>
+                        <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20001')]/@href), '/'))"/>
                         <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/'))"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-245-Manifestation'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys(if ((*:datafield[@tag=(&#34;020&#34;,&#34;024&#34;)][1]/*:subfield[@code='a'])[1]) then (*:datafield[@tag=(&#34;020&#34;,&#34;024&#34;)][1]/*:subfield[@code='a'])[1]/replace(., '\(.*\)', '') else if (*:controlfield[@tag=('001', '003')]) then *:controlfield[@tag=('001', '003')][1] else generate-id(.))"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
                </xsl:when>
                <xsl:when test="@templatename = 'MARC21-700-Expression-Analytical'">
                   <xsl:element name="frbrizer:keyentry">
-                     <xsl:variable name="key">
+                     <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys((frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1])"/>
-                        <xsl:value-of select="frbrizer:sort-keys('/')"/>
-                        <xsl:value-of select="frbrizer:sort-keys(lower-case((*:datafield[@tag = ('041')]/*:subfield[@type='http://rdaregistry.info/Elements/e/datatype/P20006'], *:controlfield[@tag = '008'][@type='http://rdaregistry.info/Elements/e/datatype/P20006'])[1]))"/>
-                        <xsl:value-of select="frbrizer:sort-keys('/')"/>
-                        <xsl:value-of select="frbrizer:sort-keys( if (*:datafield[@tag='336']/*:subfield[@code='0']) then (tokenize((*:datafield[@tag='336']/*:subfield[@code='0'])[1], '/'))[last()] else (*:datafield[@tag='336']/*:subfield[@code='b'], *:datafield[@tag='336']/*:subfield[@code='a'], 'nocontenttype')[1])"/>
-                        <xsl:value-of select="frbrizer:sort-keys('/')"/>
+                        <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/'))"/>
+                        <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20001')]/@href), '/'))"/>
                         <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/'))"/>
                      </xsl:variable>
-                     <xsl:variable name="keyvalue" select="replace($key, ' ', '')"/>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
                      <xsl:attribute name="key" select="$keyvalue"/>
                      <xsl:attribute name="id" select="@id"/>
                   </xsl:element>
@@ -5457,6 +5874,7 @@
                  xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
                  xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+                 xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -5488,6 +5906,7 @@
                  xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
                  xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+                 xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -5513,6 +5932,7 @@
                  xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
                  xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+                 xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -5537,6 +5957,7 @@
                  xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
                  xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+                 xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -5561,6 +5982,7 @@
                  xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
                  xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+                 xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -5586,6 +6008,7 @@
                  xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
                  xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+                 xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
@@ -5610,6 +6033,7 @@
                  xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
                  xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
                  xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+                 xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                  xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
                  xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
