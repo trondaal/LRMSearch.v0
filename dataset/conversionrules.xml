@@ -13,6 +13,7 @@
     xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
     xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
     xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
+    xmlns:mmmm="http://www.loc.gov/MARC21/slim/"
 
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
@@ -29,60 +30,60 @@
     <entity tag="380" code="0" code-condition="starts-with(., 'http')" templatename="MARC380" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for work type</note>
         <attributes>
-            <datafield tag="380" condition=". eq $this_field">
+            <datafield tag="380" condition="generate-id(.) = generate-id($this_field)">
                 <subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
-                <subfield code="0" select="." condition=". eq $this_subfield" type="http://www.w3.org/2004/02/skos/core#subjectIndicator" label="has form of work"/>
+                <subfield code="0" select="." condition="generate-id(.) = generate-id($this_subfield)" type="http://www.w3.org/2004/02/skos/core#subjectIndicator" label="has form of work"/>
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('380')]/*:subfield[@code='0'][starts-with(., 'http')][1]</element>
+            <element>*:datafield[@tag=('380')]/*:subfield[@code='0'][starts-with(., 'http')]</element>
         </key>
     </entity>
     
     <entity tag="336" code="0" code-condition="starts-with(., 'http')" templatename="MARC336" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for expression type</note>
         <attributes>
-            <datafield tag="336" condition=". eq $this_field">
+            <datafield tag="336" condition="generate-id(.) = generate-id($this_field)">
                 <subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
-                <subfield code="0" select="." condition=". eq $this_subfield" type="http://www.w3.org/2004/02/skos/core#subjectIndicator" />
+                <subfield code="0" select="." condition="generate-id(.) = generate-id($this_subfield)" type="http://www.w3.org/2004/02/skos/core#subjectIndicator" />
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('336')]/*:subfield[@code='0'][starts-with(., 'http')][1]</element>
+            <element>*:datafield[@tag=('336')]/*:subfield[@code='0'][starts-with(., 'http')]</element>
         </key>
     </entity>
     
     <entity tag="337" code="0" code-condition="starts-with(., 'http')" templatename="MARC337" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for work type</note>
         <attributes>
-            <datafield tag="337" condition=". eq $this_field">
+            <datafield tag="337" condition="generate-id(.) = generate-id($this_field)">
                 <subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
-                <subfield code="0" select="." condition=". eq $this_subfield" type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="0" select="." condition="generate-id(.) = generate-id($this_subfield)" type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('337')]/*:subfield[@code='0'][starts-with(., 'http')][1]</element>
+            <element>*:datafield[@tag=('337')]/*:subfield[@code='0'][starts-with(., 'http')]</element>
         </key>
     </entity>
     
     <entity tag="338" code="0" code-condition="starts-with(., 'http')" templatename="MARC338" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for work type</note>
         <attributes>
-            <datafield tag="338" condition=". eq $this_field">
+            <datafield tag="338" condition="generate-id(.) = generate-id($this_field)">
                 <subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
-                <subfield code="0" select="." condition=". eq $this_subfield" type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="0" select="." condition="generate-id(.) = generate-id($this_subfield)" type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('338')]/*:subfield[@code='0'][starts-with(., 'http')][1]</element>
+            <element>*:datafield[@tag=('338')]/*:subfield[@code='0'][starts-with(., 'http')]</element>
         </key>
     </entity>
     
     <entity tag="041" code="a" templatename="MARC041" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for language type</note>
         <attributes>
-            <datafield tag="041" condition=". eq $this_field">
-                <subfield code="a" condition=". eq $this_subfield" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
+            <datafield tag="041" condition="generate-id(.) = generate-id($anchor_field)">
+                <subfield code="a" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
             </datafield>
         </attributes>
         <key order="1">
@@ -202,6 +203,9 @@
             <relationship type="http://rdaregistry.info/Elements/w/object/P10019" label="part of work">
                 <target entity="MARC21-8XX-Work-Series" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
+            <relationship type="http://rdaregistry.info/Elements/w/datatype/P10004">
+                <target entity="MARC380" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+            </relationship>
         </relationships>
     </entity>
     
@@ -260,7 +264,7 @@
                 <target entity="MARC008language"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
-                <target entity="MARC336"/>
+                <target entity="MARC336" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
             </relationship>
         </relationships>
     </entity>
@@ -344,6 +348,12 @@
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/m/object/P30139"  label="has expression manifested">
                 <target entity="MARC21-700-Expression-Analytical"  type="http://rdaregistry.info/Elements/c/C10006"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/m/datatype/P30002" label="has content type">
+                <target entity="MARC337" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/m/datatype/P30001" label="has content type">
+                <target entity="MARC338" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
             </relationship>
         </relationships>
     </entity>
@@ -531,6 +541,9 @@
             <relationship type="{$target_subfield}">
                 <target entity="MARC21-758-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked-strict($anchor_field, $target_field)"/>
             </relationship>
+            <relationship type="http://rdaregistry.info/Elements/w/datatype/P10004">
+                <target entity="MARC380" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+            </relationship>
         </relationships>
     </entity>
     
@@ -598,8 +611,8 @@
                 <target entity="MARC041"/>
                 <target entity="MARC008language"/>
             </relationship>
-            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type" condition="frbrizer:linked($anchor_field, .)">
-                <target entity="MARC336"/>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001">
+                <target entity="MARC336" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
             </relationship>
         </relationships>
     </entity>
