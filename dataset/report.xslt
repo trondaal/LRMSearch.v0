@@ -936,7 +936,8 @@
                                         <xsl:otherwise>
                                                 <xsl:for-each-group
                                                         select="/*//marc:datafield[@tag = ('700', '710', '711') and marc:subfield[@code = 't'] and @ind2 != '2' and (some $x in marc:subfield[@code = '4'] satisfies starts-with($x, 'http'))]"
-                                                        group-by="string-join((if (marc:subfield[@code = 'i']) then marc:subfield[@code = 'i'] else 'mangler $i', if (marc:subfield[@code = '4' and starts-with(., 'http')]) then marc:subfield[@code = '4' and starts-with(., 'http')] else 'mangler $4 med URI'), ' : ')">
+                                                        group-by="if (marc:subfield[@code = '4' and starts-with(., 'http')]) then marc:subfield[@code = '4' and starts-with(., 'http')] else 'mangler $4 med URI'">
+                    
                                                         <xsl:sort select="current-grouping-key()"/>
                                                         <xsl:variable name="label" select="document('rda.labels.rdf')/rdf:RDF/rdf:Description[@rdf:about=current-group()/marc:subfield[@code='4'][starts-with(., 'http')][1]]/rdfs:label"/>
                                                         <xsl:copy-of
