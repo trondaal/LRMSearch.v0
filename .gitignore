@@ -1,7 +1,6 @@
 
 .DS_Store
 dataset/oxygen.xpr
-dataset/rdf/
 dataset/stats/
 dataset/#.gitignore#
 RDARegistry/
