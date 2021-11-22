@@ -31,7 +31,7 @@
         <note>Entity for work type</note>
         <attributes>
             <datafield tag="380" condition="generate-id(.) = generate-id($this_field)">
-                <subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
+                <!--<subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>-->
                 <subfield code="0" select="." condition="generate-id(.) = generate-id($this_subfield)" type="http://www.w3.org/2004/02/skos/core#subjectIndicator" label="has form of work"/>
             </datafield>
         </attributes>
@@ -44,7 +44,7 @@
         <note>Entity for expression type</note>
         <attributes>
             <datafield tag="336" condition="generate-id(.) = generate-id($this_field)">
-                <subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
+                <!--<subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>-->
                 <subfield code="0" select="." condition="generate-id(.) = generate-id($this_subfield)" type="http://www.w3.org/2004/02/skos/core#subjectIndicator" />
             </datafield>
         </attributes>
@@ -57,7 +57,7 @@
         <note>Entity for work type</note>
         <attributes>
             <datafield tag="337" condition="generate-id(.) = generate-id($this_field)">
-                <subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
+                <!--<subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>-->
                 <subfield code="0" select="." condition="generate-id(.) = generate-id($this_subfield)" type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
             </datafield>
         </attributes>
@@ -70,7 +70,7 @@
         <note>Entity for work type</note>
         <attributes>
             <datafield tag="338" condition="generate-id(.) = generate-id($this_field)">
-                <subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
+                <!--<subfield code="a" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>-->
                 <subfield code="0" select="." condition="generate-id(.) = generate-id($this_subfield)" type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
             </datafield>
         </attributes>
@@ -83,7 +83,7 @@
         <note>Entity for language type</note>
         <attributes>
             <datafield tag="041" condition="generate-id(.) = generate-id($anchor_field)">
-                <subfield code="a" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2000/01/rdf-schema#label"/>
+                <subfield code="a" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
             </datafield>
         </attributes>
         <key order="1">
@@ -176,10 +176,10 @@
                 <subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
                 <subfield code="1" type="http://rdaregistry.info/Elements/x/datatype/P00018" label="has identifier for work"/>
             </datafield>
-            <datafield tag="380" condition="frbrizer:linked($anchor_field, .)">
-                <!--<subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has category of work"/>-->
+            <!--<datafield tag="380" condition="frbrizer:linked($anchor_field, .)">
+                <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has category of work"/>
                 <subfield code="0" select="." type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
-            </datafield>
+            </datafield>-->
         </attributes>
         <key order="1">
             <element>*:datafield[@tag=('130', '240')]/*:subfield[@code='1'][starts-with(., 'http')][last()]</element>
@@ -216,14 +216,14 @@
         <!-- we use 245 as the preferred expression title unless there specifically is a 740 entry -->
         <!-- we code 240/130 as alternative titles  -->
         <attributes>
-            <controlfield tag="008" condition="string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression" select="substring(., 36, 3)"/>
+            <!--<controlfield tag="008" condition="string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression" select="substring(., 36, 3)"/>
             <datafield tag="041">
                 <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="d" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="e" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="f" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="j" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
-            </datafield>
+            </datafield>-->
             <datafield tag="130">               
                 <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="frbrizer:trim(.)" label="has variant title"/>
                 <!--<subfield code="h" type="http://rdaregistry.info/Elements/e/datatype/P20001" select="lower-case(frbrizer:trim(.))" label="has content type"/>-->
@@ -238,12 +238,12 @@
                 <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="frbrizer:trim(.)" label="has variant title"/>
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), ($record/*:controlfield[@tag='008'][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]/substring(., 36, 3),$record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')])[1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
             </datafield>
-            <datafield tag="336" condition="frbrizer:linked($anchor_field, .)">
-                <!--<subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
-                <subfield code="b" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>-->
+            <!--<datafield tag="336" condition="frbrizer:linked($anchor_field, .)">
+                <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
+                <subfield code="b" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
                 <subfield code="0" select="." type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
-                <!--<subfield code="1" select="." type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>-->
-            </datafield>
+                <subfield code="1" select="." type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
+            </datafield>-->
         </attributes>
         <label select="string-join((*:datafield[@tag='336']/*:subfield[@code='a'], *:datafield[@tag='041']/*:subfield[@code=('a', 'd')][1]), '/')"/>
         <key order="2">
@@ -551,20 +551,20 @@
     <entity tag="700, 710, 711, 730" condition="exists(*:subfield[@code = '1']/starts-with(., 'http'))  and  @ind2='2' and (if (@tag eq '730') then true() else *:subfield/@code = 't')" type="http://rdaregistry.info/Elements/c/C10006" templatename="MARC21-700-Expression-Analytical" label="Expression">
         <note>Expression associated with work identified by 700$t (only creating expressions for analytical entries)</note>
         <attributes>
-            <controlfield tag="008"  condition="string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression" select="substring(., 36, 3)"/>
+            <!--<controlfield tag="008"  condition="string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression" select="substring(., 36, 3)"/>
             <datafield tag="041" condition="frbrizer:linked($anchor_field, .) and not(exists($anchor_field/*:subfield[@code = 'l']))">
                 <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="d" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="e" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="f" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="j" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
-            </datafield>
-            <datafield tag="336" condition="frbrizer:linked($anchor_field, .)"> 
-                <!--<subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
-                <subfield code="b" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>-->
+            </datafield>-->
+            <!--<datafield tag="336" condition="frbrizer:linked($anchor_field, .)"> 
+                <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
+                <subfield code="b" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/
                 <subfield code="0" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
-                <!-- <subfield code="1" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>-->
-            </datafield>
+                <subfield code="1" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
+            </datafield>-->
             <datafield tag="700"  condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), ($record/*:controlfield[@tag='008'][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]/substring(., 36, 3),$record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')])[1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
                 <!--<subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/> -->
