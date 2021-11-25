@@ -387,7 +387,10 @@
                                 <fo:list-block provisional-distance-between-starts="20pt" provisional-label-separation="6pt">
                                         <xsl:for-each select="$fields">
                                                 <xsl:sort select="@tag"/>
-                                                <xsl:sort select="if (@tag=('100', '336', '337', '338', '380', '130', '240', '245','630', '730', '830')) then ./marc:subfield[@code='a'][1] else ./marc:subfield[@code='t'][1]"/>                                                
+                                                <!--<xsl:sort select="if (@tag=('100', '336', '337', '338', '380', '130', '240', '245','630', '730', '830')) then ./marc:subfield[@code='a'][1] else ./marc:subfield[@code='t'][1]"/> -->                                               
+                                                <xsl:sort select="./marc:subfield[@code='a'][1]"/>
+                                                <xsl:sort select="./marc:subfield[@code='d'][1]"/>
+                                                <xsl:sort select="./marc:subfield[@code='t'][1]"/>
                                                 <fo:list-item>
                                                         <fo:list-item-label end-indent="label-end()">
                                                                 <fo:block>
@@ -406,7 +409,10 @@
                         <xsl:otherwise>
                                 <xsl:for-each select="$fields">
                                         <xsl:sort select="@tag"/>
-                                        <xsl:sort select="if (@tag=('130', '240', '245','630', '730', '830')) then marc:subfield[@code='a'][1] else marc:subfield[@code='t'][1]"/>  
+                                        <!--<xsl:sort select="if (@tag=('130', '240', '245','630', '730', '830')) then marc:subfield[@code='a'][1] else marc:subfield[@code='t'][1]"/>  -->
+                                        <xsl:sort select="./marc:subfield[@code='a'][1]"/>
+                                        <xsl:sort select="./marc:subfield[@code='d'][1]"/>
+                                        <xsl:sort select="./marc:subfield[@code='t'][1]"/>
                                         <xsl:copy-of select="bib:printfieldasline(., $format)"/>
                                 </xsl:for-each>                                
                         </xsl:otherwise>
@@ -766,7 +772,7 @@
                                         <!--<xsl:variable name="titles" select="($collection/marc:record/marc:datafield[@tag = ('130', '240', '630', '730', '830') and marc:subfield[@code='1'][contains(., current-grouping-key()) and current-grouping-key() ne '']]/marc:subfield[@code='a'], $collection/marc:record/marc:datafield[@tag = ('600', '610', '611', '700', '710', '711', '800', '810', '811') and marc:subfield[@code='1'][contains(., current-grouping-key()) and current-grouping-key() ne '']]/marc:subfield[@code='t'])"/>-->
                                         <xsl:variable name="titles" select="distinct-values(($a-fields/marc:subfield[@code='a'], $t-fields/marc:subfield[@code='t']))"/>
                                         <xsl:variable name="types" select="($a-fields[@tag = ('130', '240')], $a-fields[@tag = ('730')][@ind2='2'], $t-fields[@tag = ('700', '710', '711')][@ind2='2'])/../marc:datafield[@tag='380']/marc:subfield[@code='a']"/>
-                                        <xsl:copy-of select="'* ' || current-grouping-key() || ' = ' || string-join($titles, ' / ') || ' '"/>
+                                        <xsl:copy-of select="'* ' || current-grouping-key() || ' = ' || normalize-space(string-join($titles, ' / ')) || ' '"/>
                                         <xsl:if test="count($types) > 0">
                                                 <xsl:value-of select="'(' || string-join(distinct-values($types), ' / ') || ')'"/>
                                         </xsl:if>
