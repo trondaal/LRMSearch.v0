@@ -260,11 +260,11 @@
                 <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
-                <target entity="MARC041"/>
+                <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field)"/>
                 <target entity="MARC008language"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
-                <target entity="MARC336" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+                <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field)"/>
             </relationship>
         </relationships>
     </entity>
@@ -551,20 +551,18 @@
     <entity tag="700, 710, 711, 730" condition="exists(*:subfield[@code = '1']/starts-with(., 'http'))  and  @ind2='2' and (if (@tag eq '730') then true() else *:subfield/@code = 't')" type="http://rdaregistry.info/Elements/c/C10006" templatename="MARC21-700-Expression-Analytical" label="Expression">
         <note>Expression associated with work identified by 700$t (only creating expressions for analytical entries)</note>
         <attributes>
-            <!--<controlfield tag="008"  condition="string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression" select="substring(., 36, 3)"/>
+            <!--<controlfield tag="008"  condition="string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression" select="substring(., 36, 3)"/>-->
             <datafield tag="041" condition="frbrizer:linked($anchor_field, .) and not(exists($anchor_field/*:subfield[@code = 'l']))">
                 <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="d" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="e" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="f" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="j" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
-            </datafield>-->
-            <!--<datafield tag="336" condition="frbrizer:linked($anchor_field, .)"> 
+            </datafield>
+            <datafield tag="336" condition="frbrizer:linked($anchor_field, .)"> 
                 <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
-                <subfield code="b" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/
-                <subfield code="0" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
                 <subfield code="1" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
-            </datafield>-->
+            </datafield>
             <datafield tag="700"  condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), ($record/*:controlfield[@tag='008'][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]/substring(., 36, 3),$record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')])[1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
                 <!--<subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/> -->
@@ -607,12 +605,12 @@
             <relationship type="{$target_subfield}">
                 <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
             </relationship>
-            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language" condition="frbrizer:linked($anchor_field, .)" >
-                <target entity="MARC041"/>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
+                <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field)"/>
                 <target entity="MARC008language"/>
             </relationship>
-            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001">
-                <target entity="MARC336" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
+                <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field)"/>
             </relationship>
         </relationships>
     </entity>
