@@ -3960,6 +3960,14 @@
       </rdf:Description>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
+      <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/per">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Persian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">persan</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Persisch</skos:prefLabel>
+      </rdf:Description>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/glg">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Galician</skos:prefLabel>
@@ -4081,6 +4089,14 @@
     </skos:hasTopConcept>
     <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/cym">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Welsh</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">gallois</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kymrisch</skos:prefLabel>
+      </rdf:Description>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/wel">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Welsh</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">gallois</skos:prefLabel>
@@ -4537,6 +4553,14 @@
     </skos:hasTopConcept>
     <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/fra">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">French</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">français</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Französisch</skos:prefLabel>
+      </rdf:Description>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/fre">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">French</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">français</skos:prefLabel>
@@ -6029,6 +6053,14 @@
       </rdf:Description>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
+      <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/rum">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Romanian</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">roumain</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rumänisch</skos:prefLabel>
+      </rdf:Description>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/cpf">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Creoles and pidgins, French-based</skos:prefLabel>
@@ -7330,6 +7362,14 @@
       </rdf:Description>
     </skos:hasTopConcept>
     <skos:hasTopConcept>
+      <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/ger">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">German</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">allemand</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Deutsch</skos:prefLabel>
+      </rdf:Description>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/cha">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Chamorro</skos:prefLabel>
@@ -7477,6 +7517,14 @@
     </skos:hasTopConcept>
     <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/ces">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Czech</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">tchèque</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Tschechisch</skos:prefLabel>
+      </rdf:Description>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/cze">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Czech</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">tchèque</skos:prefLabel>
