@@ -1990,16 +1990,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/219438842/rm/1020/1234"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/219968903/nor/1020/9349441"
         },
         "o" : {
@@ -3270,16 +3260,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/312496684/eng/1020/58243649"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/312496684/ger/1020/162089799/59960174"
         },
         "o" : {
@@ -4241,16 +4221,6 @@
         "s" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/8078151051839533530004/ita/1020/230518554"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/8078151051839533530004/poe/1020/99296246"
         },
         "o" : {
           "type" : "uri",
@@ -18060,16 +18030,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/en/1020/44294214/95218067"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q340607/eng/1020"
         },
         "o" : {
@@ -24775,6 +24735,36 @@
         "o" : {
           "type" : "uri",
           "value" : "http://rdaregistry.info/termList/RDAContentType/1023"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/8078151051839533530004/por/1020/99296246"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/eng/1020/44294214/95218067"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/219438842/rum/1020/1234"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
         }
       }
     ]

@@ -219,17 +219,6 @@
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1004"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "sound disc"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1013"
         },
         "label" : {
@@ -340,6 +329,17 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/ger"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "German"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/tur"
         },
         "label" : {
@@ -362,12 +362,23 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/cze"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Czech"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/nno"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Norwegian Nynorsk | Nynorsk, Norwegian"
+          "value" : "Norwegian Nynorsk"
         }
       },
       {
@@ -384,12 +395,23 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/fre"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "French"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/spa"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Spanish | Castilian"
+          "value" : "Spanish"
         }
       },
       {
@@ -400,7 +422,7 @@
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Dutch | Flemish"
+          "value" : "Dutch"
         }
       },
       {
@@ -422,7 +444,7 @@
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Bokmål, Norwegian | Norwegian Bokmål"
+          "value" : "Norwegian Bokmål"
         }
       },
       {
@@ -516,6 +538,17 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/rum"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Romanian"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/dan"
         },
         "label" : {
@@ -544,6 +577,17 @@
           "xml:lang" : "en",
           "type" : "literal",
           "value" : "Russian"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/per"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Persian"
         }
       },
       {
@@ -631,7 +675,7 @@
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Catalan | Valencian"
+          "value" : "Catalan"
         }
       },
       {
@@ -780,6 +824,17 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/wel"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Welsh"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/kor"
         },
         "label" : {
@@ -818,7 +873,7 @@
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Greek, Ancient (to 1453)"
+          "value" : "Ancient Greek"
         }
       },
       {

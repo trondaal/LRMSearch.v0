@@ -8885,25 +8885,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/219438842/rm/1020/1234"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/1234"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/219968903/nor/1020/9349441"
         },
         "p" : {
@@ -11640,25 +11621,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/312496684/eng/1020/58243649"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/58243649"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/312496684/ger/1020/162089799/59960174"
         },
         "p" : {
@@ -13763,25 +13725,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/230518554"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/8078151051839533530004/poe/1020/99296246"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/99296246"
         }
       },
       {
@@ -24883,25 +24826,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/en/1020/44294214/95218067"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/1260157828004054550000/nob/1020/12394786/173145970317732252249/307238520/72145970376732252972"
         },
         "p" : {
@@ -25467,6 +25391,63 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/107492257"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/8078151051839533530004/por/1020/99296246"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/99296246"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/eng/1020/44294214/95218067"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/95218067"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/219438842/rum/1020/1234"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.example.org/1234"
         }
       },
       {
@@ -27442,7 +27423,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -36454,25 +36435,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.loa.org/books/121-collected-essays"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/97644708"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/1005685"
         },
         "p" : {
@@ -39475,25 +39437,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/312496684"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/399200"
         },
         "p" : {
@@ -41122,7 +41065,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -41161,25 +41104,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/73860916"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/6082148523910620970003"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
         }
       },
       {
@@ -41293,7 +41217,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -41369,7 +41293,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -41388,7 +41312,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -41407,7 +41331,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -42263,25 +42187,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/73860916"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/1189149068438165730008"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
         }
       },
       {
@@ -43940,25 +43845,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/180723534"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/188307651"
         },
         "p" : {
@@ -45327,25 +45213,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/203744857"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/2045154622390044710005"
         },
         "p" : {
@@ -45417,25 +45284,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/73860916"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/206869195"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
         }
       },
       {
@@ -48361,7 +48209,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -48495,25 +48343,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/73860916"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/310344507"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
         }
       },
       {
@@ -49165,25 +48994,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/312496685"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/312504374"
         },
         "p" : {
@@ -49369,25 +49179,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/73860916"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/313930946"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
         }
       },
       {
@@ -53573,25 +53364,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/7979148574368324430002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/798149296305080670007"
         },
         "p" : {
@@ -54081,25 +53853,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/73860916"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/8845148574289524430004"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
         }
       },
       {
@@ -67348,25 +67101,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/en/1020/44294214/95218067"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44294214"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q340515/eng/1020/12315790"
         },
         "p" : {
@@ -67381,6 +67115,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/12315790"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/eng/1020/44294214/95218067"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/44294214"
         }
       },
       {

@@ -770,16 +770,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.loa.org/books/121-collected-essays"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1000"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/1005685"
         },
         "o" : {

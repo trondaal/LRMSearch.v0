@@ -4,8 +4,7 @@
       "s",
       "p",
       "l",
-      "o",
-      "WHERE"
+      "o"
     ]
   },
   "results" : {
@@ -407,101 +406,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/183259734"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/1004525"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.loa.org/books/121-collected-essays"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/1005685"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.loa.org/books/121-collected-essays"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/100587"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.loa.org/books/121-collected-essays"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/10097545"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.loa.org/books/121-collected-essays"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/1056305"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.loa.org/books/121-collected-essays"
         }
       },
       {

@@ -1088,17 +1088,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Agent"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/64120983"
         },
         "label" : {
@@ -21944,17 +21933,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/219438842/rm/1020/1234"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/219968903/nor/1020/9349441"
         },
         "label" : {
@@ -23352,17 +23330,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/312496684/eng/1020/58243649"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/312496684/ger/1020/162089799/59960174"
         },
         "label" : {
@@ -24420,17 +24387,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/8078151051839533530004/ita/1020/230518554"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/8078151051839533530004/poe/1020/99296246"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -39071,17 +39027,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/en/1020/44294214/95218067"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q340607/eng/1020"
         },
         "label" : {
@@ -46144,6 +46089,39 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/8078151051839533530004/por/1020/99296246"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/eng/1020/44294214/95218067"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/219438842/rum/1020/1234"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://eksemepl.uri/verk/004"
         },
         "label" : {
@@ -47036,17 +47014,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/1004525"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.loa.org/books/121-collected-essays"
         },
         "label" : {
           "xml:lang" : "gden",

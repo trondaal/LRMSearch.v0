@@ -14465,7 +14465,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/312496684/eng/1020/58243649"
+          "value" : "http://viaf.org/viaf/312496685/eng/1020/58243649"
         }
       },
       {
@@ -19475,7 +19475,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/en/1020/44294214/95218067"
+          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/eng/1020/44294214/95218067"
         }
       },
       {
@@ -44660,7 +44660,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/219438842/rm/1020/1234"
+          "value" : "http://viaf.org/viaf/219438842/rum/1020/1234"
         }
       },
       {
@@ -47855,7 +47855,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/8078151051839533530004/poe/1020/99296246"
+          "value" : "http://viaf.org/viaf/8078151051839533530004/por/1020/99296246"
         }
       },
       {
@@ -53411,21 +53411,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/219438842/rm/1020/1234"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/219438842"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/219968903/nor/1020/9349441"
         },
         "l" : {
@@ -55331,21 +55316,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/312496684/eng/1020/58243649"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/312496684"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/312496684/ger/1020/162089799/59960174"
         },
         "l" : {
@@ -56787,21 +56757,6 @@
         "s" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/8078151051839533530004/ita/1020/230518554"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/8078151051839533530004"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/8078151051839533530004/poe/1020/99296246"
         },
         "l" : {
           "xml:lang" : "gden",
@@ -76766,21 +76721,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/en/1020/44294214/95218067"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q340607/eng/1020"
         },
         "l" : {
@@ -86406,6 +86346,51 @@
         "o" : {
           "type" : "uri",
           "value" : "https://www.imdb.com/title/tt6386210"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/8078151051839533530004/por/1020/99296246"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/8078151051839533530004"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)/eng/1020/44294214/95218067"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "https://en.wikipedia.org/wiki/Exodus_(poem)"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/219438842/rum/1020/1234"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/219438842"
         }
       }
     ]

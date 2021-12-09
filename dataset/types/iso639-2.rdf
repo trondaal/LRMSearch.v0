@@ -1443,7 +1443,7 @@
     <madsrdf:hasTopMemberOfMADSScheme>
       <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/iso639-2/nob">
         <madsrdf:authoritativeLabel xml:lang="en"
-          >Bokmål, Norwegian |  Norwegian Bokmål</madsrdf:authoritativeLabel>
+          >Norwegian Bokmål</madsrdf:authoritativeLabel>
         <madsrdf:authoritativeLabel xml:lang="fr">norvégien bokmål</madsrdf:authoritativeLabel>
         <madsrdf:authoritativeLabel xml:lang="de">Bokmål</madsrdf:authoritativeLabel>
       </madsrdf:Authority>
@@ -2944,7 +2944,7 @@
     <madsrdf:hasTopMemberOfMADSScheme>
       <madsrdf:Authority rdf:about="http://id.loc.gov/vocabulary/iso639-2/grc">
         <madsrdf:authoritativeLabel xml:lang="en"
-          >Greek, Ancient (to 1453)</madsrdf:authoritativeLabel>
+          >Ancient Greek</madsrdf:authoritativeLabel>
         <madsrdf:authoritativeLabel xml:lang="fr"
           >grec ancien (jusqu'à 1453)</madsrdf:authoritativeLabel>
         <madsrdf:authoritativeLabel xml:lang="de">Griechisch</madsrdf:authoritativeLabel>
@@ -4498,7 +4498,7 @@
     <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/nno">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Norwegian Nynorsk | Nynorsk, Norwegian</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Norwegian Nynorsk</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">norvégien nynorsk | nynorsk, norvégien</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Nynorsk</skos:prefLabel>
       </rdf:Description>
@@ -4892,7 +4892,7 @@
     <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/spa">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Spanish | Castilian</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Spanish</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">espagnol | castillan</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Spanisch</skos:prefLabel>
       </rdf:Description>
@@ -5189,7 +5189,7 @@
     <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/nob">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Bokmål, Norwegian | Norwegian Bokmål</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Norwegian Bokmål</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">norvégien bokmål</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Bokmål</skos:prefLabel>
       </rdf:Description>
@@ -6832,7 +6832,7 @@
     <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/grc">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Greek, Ancient (to 1453)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Ancient Greek</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">grec ancien (jusqu'à 1453)</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Griechisch</skos:prefLabel>
       </rdf:Description>
@@ -6896,7 +6896,7 @@
     <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/dut">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Dutch | Flemish</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Dutch</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">néerlandais | flamand</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Niederländisch</skos:prefLabel>
       </rdf:Description>
@@ -7074,7 +7074,7 @@
     <skos:hasTopConcept>
       <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-2/cat">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Catalan | Valencian</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Catalan</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">catalan | valencien</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Katalanisch</skos:prefLabel>
       </rdf:Description>

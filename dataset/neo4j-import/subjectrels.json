@@ -861,7 +861,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/295290572"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -880,7 +880,26 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/295290572"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exemple.org/norskenobelprisvinnereilitteratur/"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject agent"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -924,25 +943,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://exemple.org/norskenobelprisvinnereilitteratur/"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://exemple.org/ogsaaenungpige/"
         },
         "p" : {
@@ -956,7 +956,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -975,7 +975,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -994,7 +994,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -1013,7 +1013,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -3084,7 +3084,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q80889"
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -9905,7 +9905,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/312496684"
+          "value" : "http://viaf.org/viaf/206869195"
         }
       },
       {

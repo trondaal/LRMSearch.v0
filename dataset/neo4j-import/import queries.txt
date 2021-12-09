@@ -7,7 +7,7 @@ DETACH DELETE n
 
 
 ***************
-Import LRM entities
+LRM entities
 ***************
 
 //SPARQL query export
@@ -268,7 +268,7 @@ select distinct ?s ?p ?l ?o WHERE {
                 ?s rdf:type rdac:C10001.
                 ?O rdf:type rdac:C10001.
     	       ?p rdfs:label ?l.
-    	       FILTER(LANG(?label) = "en" 
+    	       FILTER(LANG(?l) = "en" 
                 && !contains(str(?property), 'P10187')
     	        && !contains(str(?property), 'P10140')
                 && !contains(str(?property), 'P10257')
