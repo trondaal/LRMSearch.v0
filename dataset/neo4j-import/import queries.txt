@@ -1,0 +1,290 @@
+***************
+Start with empty database
+***************
+
+MATCH (n)
+DETACH DELETE n
+
+
+***************
+Import LRM entities
+***************
+
+//SPARQL query export
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdac: <http://rdaregistry.info/Elements/c/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select distinct   ?entity ?label WHERE {
+  		        ?entity rdf:type ?type.
+    	          ?type rdfs:label ?label.
+  		        ?type rdfs:subClassOf rdac:C10013.
+    	          FILTER(LANG(?label) = "gden")
+}
+
+//Neo4j import
+WITH "entities.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.entity.value as u, e.label.value as l
+CALL apoc.create.node(["Resource", l], {uri: u})
+YIELD node
+RETURN node
+
+
+***************
+Import skos Concepts
+Trenger inference ON
+***************
+//SPARQL query to get skos concepts (types, language)
+PREFIX rdawd: <http://rdaregistry.info/Elements/w/datatype/>
+PREFIX rdamd: <http://rdaregistry.info/Elements/m/datatype/>
+PREFIX rdaed: <http://rdaregistry.info/Elements/e/datatype/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+select distinct ?concept ?label WHERE {
+  	  ?entity rdawd:P10004|rdamd:P30002|rdamd:P30001|rdaed:P20006|rdaed:P20001 ?concept.
+        ?concept skos:prefLabel ?label.
+    	?concept rdf:type ?t.
+        ?t rdf:subType* skos:Concept.
+        FILTER(LANG(?label) = "en")
+}
+
+//Import Concepts
+WITH "concepts.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.concept.value as u, e.label.value as l
+CALL apoc.create.node(["Concept"], {uri: u, label: l})
+YIELD node
+RETURN node
+
+
+// EXPORT TYPES relationships
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdac: <http://rdaregistry.info/Elements/c/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdae: <http://rdaregistry.info/Elements/e/datatype/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+prefix rdam: <http://rdaregistry.info/Elements/m/datatype/>
+prefix rdaw: <http://rdaregistry.info/Elements/w/datatype/>
+prefix rdax: <http://rdaregistry.info/Elements/x/datatype/>
+
+
+select distinct ?s ?o WHERE {
+  	          ?s rdae:P20001 ?o.
+                ?s rdf:type rdac:C10006.
+    			?o rdf:type skos:Concept.
+}
+
+P20001 Contenttype
+P20006 Language
+P10004 Work type
+P30002 Media type
+P30001 Carrier type
+
+
+WITH "language.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.s.value as source, e.o.value as object
+MATCH
+  (s:Resource {uri: source}),
+  (o:Resource {uri: object})
+CALL apoc.create.relationship(s, "LANGUAGE",{}, o) yield rel
+RETURN rel
+
+
+
+
+**********************
+Import data properties
+**********************
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdac: <http://rdaregistry.info/Elements/c/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdax: <http://rdaregistry.info/Elements/x/datatype/>
+select distinct ?entity ?label ?value WHERE {
+  	  ?entity ?property ?value.
+        ?entity rdf:type ?class.
+        ?class rdfs:subClassOf rdac:C10013.
+    	?property rdfs:label ?label.
+    	FILTER(LANG(?label) = "gden" && contains(str(?property), 'datatype')
+        && !contains(str(?property), 'P00018')
+    	&& !contains(str(?property), 'P10004')
+        && !contains(str(?property), 'P20006')
+        && !contains(str(?property), 'P20001')
+        && !contains(str(?property), 'P30001')
+    	&& !contains(str(?property), 'P30002'))
+}
+
+//Import dataproperties
+WITH "properties.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.entity.value as u, e.label.value as l, e.value.value as v
+MERGE (x:Resource {uri: u})
+WITH x, l, v
+CALL apoc.create.setProperty(x, l, v)
+YIELD node AS node1
+RETURN node1
+
+
+**********************
+Import basic WEM relationships
+**********************
+# Comment 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdac: <http://rdaregistry.info/Elements/c/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdaeo: <http://rdaregistry.info/Elements/e/object/>
+PREFIX rdamo: <http://rdaregistry.info/Elements/m/object/>
+
+PREFIX rdaed: <http://rdaregistry.info/Elements/e/datatype/>
+select distinct   ?s ?l ?o WHERE {
+    			  ?s ?p ?o .
+    			  ?p rdfs:label ?l.
+    FILTER ((?p = rdamo:P30139 || ?p = rdaeo:P20231)  && LANG(?l) = "gden")
+}
+
+//Import core relationships
+WITH "basicrels.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.s.value as source, e.l.value as r, e.o.value as object
+MATCH
+  (s:Resource {uri: source}),
+  (o:Resource {uri: object})
+CALL apoc.create.relationship(s, r,{}, o) yield rel
+RETURN rel
+
+
+**************************
+Import agent relationships
+Utelater subject relasjoner
+**************************
+#Export to agentrels.json
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdac: <http://rdaregistry.info/Elements/c/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdae: <http://rdaregistry.info/Elements/e/object/>
+prefix rdaw: <http://rdaregistry.info/Elements/w/object/>
+prefix rdax: <http://rdaregistry.info/Elements/x/object/>
+#excluding subject relationships
+
+select distinct ?s ?p ?l ?o WHERE {
+  	  ?s ?p ?o.
+        ?s rdf:type ?class.
+        ?class rdfs:subClassOf rdac:C10013.
+    	?p rdfs:subPropertyOf* rdax:P00006.
+    	?p rdfs:label ?l.
+    	FILTER(LANG(?l) = "gden" && contains(str(?p), 'object') && !contains(str(?p), 'P10319'))
+}
+
+//Import agent relationships
+WITH "agentrels.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.s.value as source, e.p.value as property, e.l.value as label, e.o.value as object
+MATCH
+  (s:Resource {uri: source}),
+  (o:Resource {uri: object})
+  CALL apoc.create.relationship(s, "CREATOR",{type: property, role: label}, o) yield rel
+RETURN rel
+
+
+**************************
+IMPORT av subject relasjoner
+**************************
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdac: <http://rdaregistry.info/Elements/c/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdae: <http://rdaregistry.info/Elements/e/object/>
+prefix rdaw: <http://rdaregistry.info/Elements/w/object/>
+prefix rdax: <http://rdaregistry.info/Elements/x/object/>
+#excluding subject relationships
+
+select distinct ?s ?p ?l ?o WHERE {
+  	          ?s ?p ?o.
+                ?s rdf:type rdac:C10001.
+    	  ?p rdfs:subPropertyOf* rdaw:P10324.
+    	?p rdfs:label ?l.
+}
+
+WITH "subjectrels.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.s.value as source, e.p.value as property, e.l.value as label, e.o.value as object
+MATCH
+  (s:Resource {uri: source}),
+  (o:Resource {uri: object})
+  CALL apoc.create.relationship(s, "SUBJECT",{type: property, role: label}, o) yield rel
+RETURN rel
+
+
+**********************************
+PART OF RELASJONER
+**********************************
+#Part of relationships
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdac: <http://rdaregistry.info/Elements/c/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdae: <http://rdaregistry.info/Elements/e/object/>
+prefix rdaw: <http://rdaregistry.info/Elements/w/object/>
+prefix rdax: <http://rdaregistry.info/Elements/x/object/>
+
+select distinct ?s ?p ?l ?o WHERE {
+  	    ?s ?p ?o.
+        ?s rdf:type rdac:C10001.
+    	?p rdfs:subPropertyOf* rdaw:P10019.
+    	?p rdfs:label ?l.
+}
+
+WITH "partof.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.s.value as source, e.p.value as property, e.l.value as label, e.o.value as object
+MATCH
+  (s:Resource {uri: source}),
+  (o:Resource {uri: object})
+  CALL apoc.create.relationship(s, "PARTOF",{type: property, role: label}, o) yield rel
+RETURN rel
+
+
+**********************************
+Import av verk til verk relasjoner
+**********************************
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdac: <http://rdaregistry.info/Elements/c/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdae: <http://rdaregistry.info/Elements/e/object/>
+prefix rdaw: <http://rdaregistry.info/Elements/w/object/>
+prefix rdax: <http://rdaregistry.info/Elements/x/object/>
+#excluding subject relationships, part of
+
+select distinct ?s ?p ?l ?o WHERE {
+  	          ?s ?p ?o.
+                ?s rdf:type rdac:C10001.
+                ?O rdf:type rdac:C10001.
+    	       ?p rdfs:label ?l.
+    	       FILTER(LANG(?label) = "en" 
+                && !contains(str(?property), 'P10187')
+    	        && !contains(str(?property), 'P10140')
+                && !contains(str(?property), 'P10257')
+                && !contains(str(?property), 'P10319')
+                && !contains(str(?property), 'P10010'))
+}
+
+WITH "related.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.s.value as source, e.p.value as property, e.l.value as label, e.o.value as object
+MATCH
+  (s:Resource {uri: source}),
+  (o:Resource {uri: object})
+  CALL apoc.create.relationship(s, "RELATED",{type: property, role: label}, o) yield rel
+RETURN rel
+
+
+
