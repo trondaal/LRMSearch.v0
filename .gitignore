@@ -1,8 +1,8 @@
-
 .DS_Store
 dataset/oxygen.xpr
 dataset/stats/
 dataset/#.gitignore#
 RDARegistry/
-backend/node_modules
 .gitignore~
+.idea/
+backend/node_modules/
