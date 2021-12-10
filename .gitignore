@@ -4,4 +4,5 @@ dataset/oxygen.xpr
 dataset/stats/
 dataset/#.gitignore#
 RDARegistry/
+backend/node_modules
 .gitignore~

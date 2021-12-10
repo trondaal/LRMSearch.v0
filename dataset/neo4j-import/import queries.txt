@@ -91,7 +91,7 @@ UNWIND value.results.bindings AS e
 WITH e.s.value as source, e.o.value as object
 MATCH
   (s:Resource {uri: source}),
-  (o:Resource {uri: object})
+  (o:Concept {uri: object})
 CALL apoc.create.relationship(s, "LANGUAGE",{}, o) yield rel
 RETURN rel
 
@@ -264,16 +264,19 @@ prefix rdax: <http://rdaregistry.info/Elements/x/object/>
 #excluding subject relationships, part of
 
 select distinct ?s ?p ?l ?o WHERE {
-  	          ?s ?p ?o.
+  	            ?s ?p ?o.
                 ?s rdf:type rdac:C10001.
-                ?O rdf:type rdac:C10001.
-    	       ?p rdfs:label ?l.
-    	       FILTER(LANG(?l) = "en" 
-                && !contains(str(?property), 'P10187')
-    	        && !contains(str(?property), 'P10140')
-                && !contains(str(?property), 'P10257')
-                && !contains(str(?property), 'P10319')
-                && !contains(str(?property), 'P10010'))
+                ?o rdf:type rdac:C10001.
+    	        ?p rdfs:label ?l.
+    	        FILTER(LANG(?l) = "en" &&
+                (!contains(str(?p),   'P10187')
+    	        && !contains(str(?p), 'P10140')
+                && !contains(str(?p), 'P10257')
+                && !contains(str(?p), 'P10319')
+                && !contains(str(?p), 'P10010')
+        		&& !contains(str(?p), 'P10019'))
+        
+        )
 }
 
 WITH "related.json" AS url
