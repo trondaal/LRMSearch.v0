@@ -658,7 +658,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0001939149"
+          "value" : "http://example.org/isbn-0001939149"
         },
         "p" : {
           "type" : "uri",
@@ -677,7 +677,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0007105037"
+          "value" : "http://example.org/isbn-0007105037"
         },
         "p" : {
           "type" : "uri",
@@ -696,7 +696,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0007123310"
+          "value" : "http://example.org/isbn-0007123310"
         },
         "p" : {
           "type" : "uri",
@@ -715,7 +715,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0044400187"
+          "value" : "http://example.org/isbn-0044400187"
         },
         "p" : {
           "type" : "uri",
@@ -734,7 +734,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0044403984"
+          "value" : "http://example.org/isbn-0044403984"
         },
         "p" : {
           "type" : "uri",
@@ -753,7 +753,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048231304"
+          "value" : "http://example.org/isbn-0048231304"
         },
         "p" : {
           "type" : "uri",
@@ -772,7 +772,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048231398"
+          "value" : "http://example.org/isbn-0048231398"
         },
         "p" : {
           "type" : "uri",
@@ -791,7 +791,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048231487"
+          "value" : "http://example.org/isbn-0048231487"
         },
         "p" : {
           "type" : "uri",
@@ -810,7 +810,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048231533"
+          "value" : "http://example.org/isbn-0048231533"
         },
         "p" : {
           "type" : "uri",
@@ -829,7 +829,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048232386"
+          "value" : "http://example.org/isbn-00482323861"
         },
         "p" : {
           "type" : "uri",
@@ -848,7 +848,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048232793"
+          "value" : "http://example.org/isbn-0048232793"
         },
         "p" : {
           "type" : "uri",
@@ -867,7 +867,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048233498"
+          "value" : "http://example.org/isbn-0048233498"
         },
         "p" : {
           "type" : "uri",
@@ -886,7 +886,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048260053"
+          "value" : "http://example.org/isbn-0048260053"
         },
         "p" : {
           "type" : "uri",
@@ -905,7 +905,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048260053"
+          "value" : "http://example.org/isbn-0048260053"
         },
         "p" : {
           "type" : "uri",
@@ -924,7 +924,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0140145613"
+          "value" : "http://example.org/isbn-0140145613"
         },
         "p" : {
           "type" : "uri",
@@ -943,7 +943,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0140145613"
+          "value" : "http://example.org/isbn-0140145613"
         },
         "p" : {
           "type" : "uri",
@@ -962,7 +962,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0140145621"
+          "value" : "http://example.org/isbn-0140145621"
         },
         "p" : {
           "type" : "uri",
@@ -981,7 +981,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0140145621"
+          "value" : "http://example.org/isbn-0140145621"
         },
         "p" : {
           "type" : "uri",
@@ -1000,7 +1000,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0195146344"
+          "value" : "http://example.org/isbn-0195146344"
         },
         "p" : {
           "type" : "uri",
@@ -1019,7 +1019,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261102184"
+          "value" : "http://example.org/isbn-0261102184"
         },
         "p" : {
           "type" : "uri",
@@ -1038,7 +1038,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261102222"
+          "value" : "http://example.org/isbn-0261102222"
         },
         "p" : {
           "type" : "uri",
@@ -1057,7 +1057,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261103660"
+          "value" : "http://example.org/isbn-0261103660"
         },
         "p" : {
           "type" : "uri",
@@ -1076,7 +1076,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0292727402"
+          "value" : "http://example.org/isbn-0292727402"
         },
         "p" : {
           "type" : "uri",
@@ -1095,7 +1095,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0292727402"
+          "value" : "http://example.org/isbn-0292727402"
         },
         "p" : {
           "type" : "uri",
@@ -1114,7 +1114,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN038086553X"
+          "value" : "http://example.org/isbn-038086553"
         },
         "p" : {
           "type" : "uri",
@@ -1133,7 +1133,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN038086553X"
+          "value" : "http://example.org/isbn-038086553"
         },
         "p" : {
           "type" : "uri",
@@ -1152,7 +1152,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0395354390"
+          "value" : "http://example.org/isbn-03953543901"
         },
         "p" : {
           "type" : "uri",
@@ -1171,7 +1171,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0415928893"
+          "value" : "http://example.org/isbn-0415928893"
         },
         "p" : {
           "type" : "uri",
@@ -1190,7 +1190,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0486286118"
+          "value" : "http://example.org/isbn-0486286118"
         },
         "p" : {
           "type" : "uri",
@@ -1209,7 +1209,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0552139459"
+          "value" : "http://example.org/isbn-0552139459"
         },
         "p" : {
           "type" : "uri",
@@ -1228,7 +1228,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0552139459"
+          "value" : "http://example.org/isbn-0552139459"
         },
         "p" : {
           "type" : "uri",
@@ -1247,7 +1247,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0674179757"
+          "value" : "http://example.org/isbn-0674179757"
         },
         "p" : {
           "type" : "uri",
@@ -1266,7 +1266,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0712305181"
+          "value" : "http://example.org/isbn-0712305181"
         },
         "p" : {
           "type" : "uri",
@@ -1285,7 +1285,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0747231079"
+          "value" : "http://example.org/isbn-0747231079"
         },
         "p" : {
           "type" : "uri",
@@ -1304,7 +1304,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0747233896"
+          "value" : "http://example.org/isbn-0747233896"
         },
         "p" : {
           "type" : "uri",
@@ -1323,7 +1323,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0747404658"
+          "value" : "http://example.org/isbn-0747404658"
         },
         "p" : {
           "type" : "uri",
@@ -1342,7 +1342,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0747404658"
+          "value" : "http://example.org/isbn-0747404658"
         },
         "p" : {
           "type" : "uri",
@@ -1361,7 +1361,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0791081206"
+          "value" : "http://example.org/isbn-0791081206"
         },
         "p" : {
           "type" : "uri",
@@ -1380,7 +1380,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN080141038X"
+          "value" : "http://example.org/isbn-080141038"
         },
         "p" : {
           "type" : "uri",
@@ -1399,7 +1399,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN080141038X"
+          "value" : "http://example.org/isbn-080141038"
         },
         "p" : {
           "type" : "uri",
@@ -1418,7 +1418,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN080141038X"
+          "value" : "http://example.org/isbn-080141038"
         },
         "p" : {
           "type" : "uri",
@@ -1437,45 +1437,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN080141038x"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/55404871"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN080141038x"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/233627724"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0878056920"
+          "value" : "http://example.org/isbn-0878056920"
         },
         "p" : {
           "type" : "uri",
@@ -1494,7 +1456,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN1-118-86835-8"
+          "value" : "http://example.org/isbn-1118868358"
         },
         "p" : {
           "type" : "uri",
@@ -1513,7 +1475,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN1-119-24945-7"
+          "value" : "http://example.org/isbn-1119249457"
         },
         "p" : {
           "type" : "uri",
@@ -1532,83 +1494,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN1-283-14184-1"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/76068533"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN1-283-14184-1"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/167752100"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN1-283-23389-4"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/5869681"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN1-58642-021-6"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/1207130"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN1138290157"
+          "value" : "http://example.org/isbn-1138290157"
         },
         "p" : {
           "type" : "uri",
@@ -1627,7 +1513,64 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN1560975415"
+          "value" : "http://example.org/isbn-1283141841"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/76068533"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-1283141841"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/167752100"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-1283233894"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/5869681"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-1560975415"
         },
         "p" : {
           "type" : "uri",
@@ -1646,7 +1589,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN1586420216"
+          "value" : "http://example.org/isbn-1586420216"
         },
         "p" : {
           "type" : "uri",
@@ -1665,7 +1608,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN1780339925"
+          "value" : "http://example.org/isbn-1780339925"
         },
         "p" : {
           "type" : "uri",
@@ -1684,7 +1627,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN188677837X"
+          "value" : "http://example.org/isbn-188677837"
         },
         "p" : {
           "type" : "uri",
@@ -1703,7 +1646,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN188677837X"
+          "value" : "http://example.org/isbn-188677837"
         },
         "p" : {
           "type" : "uri",
@@ -1722,7 +1665,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN3100483103"
+          "value" : "http://example.org/isbn-3100483103"
         },
         "p" : {
           "type" : "uri",
@@ -1741,7 +1684,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN3100483103"
+          "value" : "http://example.org/isbn-3100483103"
         },
         "p" : {
           "type" : "uri",
@@ -1760,7 +1703,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN3100483103"
+          "value" : "http://example.org/isbn-3100483103"
         },
         "p" : {
           "type" : "uri",
@@ -1779,45 +1722,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN82-03-11190-4"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/276695589"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN82-7024-030-3"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/89495222"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8203038727"
+          "value" : "http://example.org/isbn-8203038727"
         },
         "p" : {
           "type" : "uri",
@@ -1836,7 +1741,26 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205008507"
+          "value" : "http://example.org/isbn-8203111904"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276695589"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8205008507"
         },
         "p" : {
           "type" : "uri",
@@ -1855,7 +1779,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205226318"
+          "value" : "http://example.org/isbn-8205226318"
         },
         "p" : {
           "type" : "uri",
@@ -1874,7 +1798,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205298807"
+          "value" : "http://example.org/isbn-8205298807"
         },
         "p" : {
           "type" : "uri",
@@ -1893,7 +1817,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205331189"
+          "value" : "http://example.org/isbn-8205331189"
         },
         "p" : {
           "type" : "uri",
@@ -1912,7 +1836,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8210047426"
+          "value" : "http://example.org/isbn-8210047426"
         },
         "p" : {
           "type" : "uri",
@@ -1931,7 +1855,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8210047574"
+          "value" : "http://example.org/isbn-8210047574"
         },
         "p" : {
           "type" : "uri",
@@ -1950,7 +1874,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8250948777"
+          "value" : "http://example.org/isbn-8250948777"
         },
         "p" : {
           "type" : "uri",
@@ -1969,7 +1893,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252047068"
+          "value" : "http://example.org/isbn-8252047068"
         },
         "p" : {
           "type" : "uri",
@@ -1988,7 +1912,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252047068"
+          "value" : "http://example.org/isbn-8252047068"
         },
         "p" : {
           "type" : "uri",
@@ -2007,7 +1931,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252047076"
+          "value" : "http://example.org/isbn-8252047076"
         },
         "p" : {
           "type" : "uri",
@@ -2026,7 +1950,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252047076"
+          "value" : "http://example.org/isbn-8252047076"
         },
         "p" : {
           "type" : "uri",
@@ -2045,7 +1969,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252047076"
+          "value" : "http://example.org/isbn-8252047076"
         },
         "p" : {
           "type" : "uri",
@@ -2064,7 +1988,26 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN84-376-0494-X"
+          "value" : "http://example.org/isbn-8270240303"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/89495222"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-843760494"
         },
         "p" : {
           "type" : "uri",
@@ -2083,7 +2026,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8445070320"
+          "value" : "http://example.org/isbn-8445070320"
         },
         "p" : {
           "type" : "uri",
@@ -2102,7 +2045,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8701537512"
+          "value" : "http://example.org/isbn-8701537512"
         },
         "p" : {
           "type" : "uri",
@@ -2121,7 +2064,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8790370465"
+          "value" : "http://example.org/isbn-8790370465"
         },
         "p" : {
           "type" : "uri",
@@ -2140,7 +2083,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN94-012-0982-0"
+          "value" : "http://example.org/isbn-9401209820"
         },
         "p" : {
           "type" : "uri",
@@ -2159,140 +2102,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN978-1-5013-0289-3"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/38749536"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-1-5013-0289-3"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/46505697"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-17978-62-4"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/64105112"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-397-3486-4"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/264568775"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-450-0769-3"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/76408223"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-663-4802-7"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/264568775"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-945730-8-8"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/15106571"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780007235551"
+          "value" : "http://example.org/isbn-97800072355511"
         },
         "p" : {
           "type" : "uri",
@@ -2311,7 +2121,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780008116583"
+          "value" : "http://example.org/isbn-9780008116583"
         },
         "p" : {
           "type" : "uri",
@@ -2330,7 +2140,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780008202149"
+          "value" : "http://example.org/isbn-9780008202149"
         },
         "p" : {
           "type" : "uri",
@@ -2349,7 +2159,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780008302788"
+          "value" : "http://example.org/isbn-9780008302788"
         },
         "p" : {
           "type" : "uri",
@@ -2368,7 +2178,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780440423218"
+          "value" : "http://example.org/isbn-9780440423218"
         },
         "p" : {
           "type" : "uri",
@@ -2387,7 +2197,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780521122825"
+          "value" : "http://example.org/isbn-9780521122825"
         },
         "p" : {
           "type" : "uri",
@@ -2406,7 +2216,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780521122825"
+          "value" : "http://example.org/isbn-9780521122825"
         },
         "p" : {
           "type" : "uri",
@@ -2425,7 +2235,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780547273426"
+          "value" : "http://example.org/isbn-9780547273426"
         },
         "p" : {
           "type" : "uri",
@@ -2444,7 +2254,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780547273426"
+          "value" : "http://example.org/isbn-9780547273426"
         },
         "p" : {
           "type" : "uri",
@@ -2463,7 +2273,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780765317834"
+          "value" : "http://example.org/isbn-9780765317834"
         },
         "p" : {
           "type" : "uri",
@@ -2482,7 +2292,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780765317834"
+          "value" : "http://example.org/isbn-9780765317834"
         },
         "p" : {
           "type" : "uri",
@@ -2501,7 +2311,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780765320865"
+          "value" : "http://example.org/isbn-9780765320865"
         },
         "p" : {
           "type" : "uri",
@@ -2520,7 +2330,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780765320865"
+          "value" : "http://example.org/isbn-9780765320865"
         },
         "p" : {
           "type" : "uri",
@@ -2539,7 +2349,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780765326171"
+          "value" : "http://example.org/isbn-9780765326171"
         },
         "p" : {
           "type" : "uri",
@@ -2558,7 +2368,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780765332066"
+          "value" : "http://example.org/isbn-9780765332066"
         },
         "p" : {
           "type" : "uri",
@@ -2577,7 +2387,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780765332066"
+          "value" : "http://example.org/isbn-9780765332066"
         },
         "p" : {
           "type" : "uri",
@@ -2596,7 +2406,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780786466368"
+          "value" : "http://example.org/isbn-9780786466368"
         },
         "p" : {
           "type" : "uri",
@@ -2615,7 +2425,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780957597785"
+          "value" : "http://example.org/isbn-9780957597785"
         },
         "p" : {
           "type" : "uri",
@@ -2634,7 +2444,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780982740972"
+          "value" : "http://example.org/isbn-9780982740972"
         },
         "p" : {
           "type" : "uri",
@@ -2653,7 +2463,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780982740972"
+          "value" : "http://example.org/isbn-9780982740972"
         },
         "p" : {
           "type" : "uri",
@@ -2672,7 +2482,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780982740972"
+          "value" : "http://example.org/isbn-9780982740972"
         },
         "p" : {
           "type" : "uri",
@@ -2691,7 +2501,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781118206058"
+          "value" : "http://example.org/isbn-9781118206058"
         },
         "p" : {
           "type" : "uri",
@@ -2710,7 +2520,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781118206058"
+          "value" : "http://example.org/isbn-9781118206058"
         },
         "p" : {
           "type" : "uri",
@@ -2729,7 +2539,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781328613042"
+          "value" : "http://example.org/isbn-9781328613042"
         },
         "p" : {
           "type" : "uri",
@@ -2748,7 +2558,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781328791825"
+          "value" : "http://example.org/isbn-9781328791825"
         },
         "p" : {
           "type" : "uri",
@@ -2767,7 +2577,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781496818713"
+          "value" : "http://example.org/isbn-9781496818713"
         },
         "p" : {
           "type" : "uri",
@@ -2786,7 +2596,45 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781604133318"
+          "value" : "http://example.org/isbn-9781501302893"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/38749536"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781501302893"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/46505697"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781604133318"
         },
         "p" : {
           "type" : "uri",
@@ -2805,7 +2653,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781604730180"
+          "value" : "http://example.org/isbn-9781604730180"
         },
         "p" : {
           "type" : "uri",
@@ -2824,7 +2672,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781619255197"
+          "value" : "http://example.org/isbn-9781619255197"
         },
         "p" : {
           "type" : "uri",
@@ -2843,7 +2691,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781619255197"
+          "value" : "http://example.org/isbn-9781619255197"
         },
         "p" : {
           "type" : "uri",
@@ -2862,7 +2710,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781848882744"
+          "value" : "http://example.org/isbn-9781848882744"
         },
         "p" : {
           "type" : "uri",
@@ -2881,7 +2729,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781848882744"
+          "value" : "http://example.org/isbn-9781848882744"
         },
         "p" : {
           "type" : "uri",
@@ -2900,7 +2748,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9783030250416"
+          "value" : "http://example.org/isbn-9783030250416"
         },
         "p" : {
           "type" : "uri",
@@ -2919,7 +2767,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9783030250416"
+          "value" : "http://example.org/isbn-9783030250416"
         },
         "p" : {
           "type" : "uri",
@@ -2938,7 +2786,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9783100912114"
+          "value" : "http://example.org/isbn-9783100912114"
         },
         "p" : {
           "type" : "uri",
@@ -2957,7 +2805,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9783905703146"
+          "value" : "http://example.org/isbn-9783905703146"
         },
         "p" : {
           "type" : "uri",
@@ -2976,7 +2824,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9783905703146"
+          "value" : "http://example.org/isbn-9783905703146"
         },
         "p" : {
           "type" : "uri",
@@ -2995,7 +2843,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788205380332"
+          "value" : "http://example.org/isbn-9788205380332"
         },
         "p" : {
           "type" : "uri",
@@ -3014,7 +2862,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788210050244"
+          "value" : "http://example.org/isbn-9788210050244"
         },
         "p" : {
           "type" : "uri",
@@ -3033,7 +2881,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788210050381"
+          "value" : "http://example.org/isbn-9788210050381"
         },
         "p" : {
           "type" : "uri",
@@ -3052,7 +2900,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788242120069"
+          "value" : "http://example.org/isbn-9788242120069"
         },
         "p" : {
           "type" : "uri",
@@ -3071,7 +2919,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788290241594"
+          "value" : "http://example.org/isbn-9788290241594"
         },
         "p" : {
           "type" : "uri",
@@ -3090,7 +2938,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788290241594"
+          "value" : "http://example.org/isbn-9788290241594"
         },
         "p" : {
           "type" : "uri",
@@ -3109,7 +2957,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788290241594"
+          "value" : "http://example.org/isbn-9788290241594"
         },
         "p" : {
           "type" : "uri",
@@ -3128,7 +2976,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788290241594"
+          "value" : "http://example.org/isbn-9788290241594"
         },
         "p" : {
           "type" : "uri",
@@ -3142,6 +2990,101 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/107145970121932251121"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788417978624"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/64105112"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788439734864"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/264568775"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788445007693"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/76408223"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788466348027"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/264568775"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788494573088"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/15106571"
         }
       },
       {
@@ -7037,25 +6980,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/45954142"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184602629/ger/1020/78547598733577"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/78547598733577"
         }
       },
       {
@@ -21026,25 +20950,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://eksempel.uri/verk/002/nob/1012/225417153/55512322"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/55512322"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/227571685/nob/nor/1020/222277111"
         },
         "p" : {
@@ -23914,25 +23819,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/316741387/1012/222678855/288294356"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/288294356"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/316753795/eng/1020/95218067"
         },
         "p" : {
@@ -25453,7 +25339,83 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/upc-796019820578"
+          "value" : "http://eksempel.uri/verk/002/nob/1013/225417153/55512322"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/55512322"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1256145424641786830384/nob/nor/1020/65245833"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/65245833"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1273159035189401380007/ger/1020/78547598733577"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/78547598733577"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309385591/nor/1014/74145970284032252074"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/74145970284032252074"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/UPC-796019820578"
         },
         "p" : {
           "type" : "uri",
@@ -25524,6 +25486,139 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/20476153"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/082"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/084"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/096"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/139"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/143"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/144"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/145"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
         }
       },
       {
@@ -25833,7 +25928,26 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0001857010"
+          "value" : "http://example.org/IeDuTC"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/9474557"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0001857010"
         },
         "p" : {
           "type" : "uri",
@@ -25852,7 +25966,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0006716636"
+          "value" : "http://example.org/isbn-0006716636"
         },
         "p" : {
           "type" : "uri",
@@ -25871,7 +25985,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0006716652"
+          "value" : "http://example.org/isbn-0006716652"
         },
         "p" : {
           "type" : "uri",
@@ -25890,7 +26004,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0006716660"
+          "value" : "http://example.org/isbn-0006716660"
         },
         "p" : {
           "type" : "uri",
@@ -25909,7 +26023,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0006716679"
+          "value" : "http://example.org/isbn-0006716679"
         },
         "p" : {
           "type" : "uri",
@@ -25928,7 +26042,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0006716687"
+          "value" : "http://example.org/isbn-0006716687"
         },
         "p" : {
           "type" : "uri",
@@ -25947,7 +26061,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0006716695"
+          "value" : "http://example.org/isbn-0006716695"
         },
         "p" : {
           "type" : "uri",
@@ -25966,7 +26080,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0006754023"
+          "value" : "http://example.org/isbn-0006754023"
         },
         "p" : {
           "type" : "uri",
@@ -25985,7 +26099,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0048231533"
+          "value" : "http://example.org/isbn-0048231533"
         },
         "p" : {
           "type" : "uri",
@@ -26004,7 +26118,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261102354"
+          "value" : "http://example.org/isbn-0261102354"
         },
         "p" : {
           "type" : "uri",
@@ -26023,7 +26137,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261102362"
+          "value" : "http://example.org/isbn-0261102362"
         },
         "p" : {
           "type" : "uri",
@@ -26042,7 +26156,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261102370"
+          "value" : "http://example.org/isbn-0261102370"
         },
         "p" : {
           "type" : "uri",
@@ -26061,7 +26175,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0312315457"
+          "value" : "http://example.org/isbn-0312315457"
         },
         "p" : {
           "type" : "uri",
@@ -26080,7 +26194,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0486286118"
+          "value" : "http://example.org/isbn-0486286118"
         },
         "p" : {
           "type" : "uri",
@@ -26099,7 +26213,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0486287149"
+          "value" : "http://example.org/isbn-0486287149"
         },
         "p" : {
           "type" : "uri",
@@ -26118,7 +26232,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0552139459"
+          "value" : "http://example.org/isbn-0552139459"
         },
         "p" : {
           "type" : "uri",
@@ -26137,7 +26251,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0575046287"
+          "value" : "http://example.org/isbn-0575046287"
         },
         "p" : {
           "type" : "uri",
@@ -26156,7 +26270,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0575065516"
+          "value" : "http://example.org/isbn-0575065516"
         },
         "p" : {
           "type" : "uri",
@@ -26175,7 +26289,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0575066601"
+          "value" : "http://example.org/isbn-0575066601"
         },
         "p" : {
           "type" : "uri",
@@ -26194,7 +26308,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0863151396"
+          "value" : "http://example.org/isbn-0863151396"
         },
         "p" : {
           "type" : "uri",
@@ -26213,7 +26327,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN1783294426"
+          "value" : "http://example.org/isbn-1783294426"
         },
         "p" : {
           "type" : "uri",
@@ -26232,7 +26346,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN2075088403"
+          "value" : "http://example.org/isbn-2075088403"
         },
         "p" : {
           "type" : "uri",
@@ -26251,7 +26365,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8202221471"
+          "value" : "http://example.org/isbn-8202221471"
         },
         "p" : {
           "type" : "uri",
@@ -26270,7 +26384,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8203240518"
+          "value" : "http://example.org/isbn-8203240518"
         },
         "p" : {
           "type" : "uri",
@@ -26289,7 +26403,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8203244491"
+          "value" : "http://example.org/isbn-8203244491"
         },
         "p" : {
           "type" : "uri",
@@ -26308,7 +26422,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8203244505"
+          "value" : "http://example.org/isbn-8203244505"
         },
         "p" : {
           "type" : "uri",
@@ -26327,7 +26441,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8203244513"
+          "value" : "http://example.org/isbn-8203244513"
         },
         "p" : {
           "type" : "uri",
@@ -26346,7 +26460,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8203244939"
+          "value" : "http://example.org/isbn-8203244939"
         },
         "p" : {
           "type" : "uri",
@@ -26365,7 +26479,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8203244947"
+          "value" : "http://example.org/isbn-8203244947"
         },
         "p" : {
           "type" : "uri",
@@ -26384,7 +26498,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8203245498"
+          "value" : "http://example.org/isbn-8203245498"
         },
         "p" : {
           "type" : "uri",
@@ -26403,7 +26517,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8204112173"
+          "value" : "http://example.org/isbn-8204112173"
         },
         "p" : {
           "type" : "uri",
@@ -26422,7 +26536,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205297819"
+          "value" : "http://example.org/isbn-8205297819"
         },
         "p" : {
           "type" : "uri",
@@ -26441,7 +26555,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205301751"
+          "value" : "http://example.org/isbn-8205301751"
         },
         "p" : {
           "type" : "uri",
@@ -26460,7 +26574,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205301786"
+          "value" : "http://example.org/isbn-8205301786"
         },
         "p" : {
           "type" : "uri",
@@ -26479,7 +26593,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205301808"
+          "value" : "http://example.org/isbn-8205301808"
         },
         "p" : {
           "type" : "uri",
@@ -26498,7 +26612,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205307059"
+          "value" : "http://example.org/isbn-8205307059"
         },
         "p" : {
           "type" : "uri",
@@ -26517,7 +26631,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205327580"
+          "value" : "http://example.org/isbn-8205327580"
         },
         "p" : {
           "type" : "uri",
@@ -26536,7 +26650,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205327602"
+          "value" : "http://example.org/isbn-8205327602"
         },
         "p" : {
           "type" : "uri",
@@ -26555,7 +26669,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205327645"
+          "value" : "http://example.org/isbn-8205327645"
         },
         "p" : {
           "type" : "uri",
@@ -26574,7 +26688,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205328064"
+          "value" : "http://example.org/isbn-8205328064"
         },
         "p" : {
           "type" : "uri",
@@ -26593,7 +26707,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205341141"
+          "value" : "http://example.org/isbn-8205341141"
         },
         "p" : {
           "type" : "uri",
@@ -26612,7 +26726,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205345597"
+          "value" : "http://example.org/isbn-8205345597"
         },
         "p" : {
           "type" : "uri",
@@ -26631,7 +26745,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8210019414"
+          "value" : "http://example.org/isbn-8210019414"
         },
         "p" : {
           "type" : "uri",
@@ -26650,7 +26764,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8210039237"
+          "value" : "http://example.org/isbn-8210039237"
         },
         "p" : {
           "type" : "uri",
@@ -26669,7 +26783,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8210039245"
+          "value" : "http://example.org/isbn-8210039245"
         },
         "p" : {
           "type" : "uri",
@@ -26688,7 +26802,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8210048651"
+          "value" : "http://example.org/isbn-8210048651"
         },
         "p" : {
           "type" : "uri",
@@ -26707,7 +26821,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8250306031"
+          "value" : "http://example.org/isbn-8250306031"
         },
         "p" : {
           "type" : "uri",
@@ -26726,7 +26840,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8251773954"
+          "value" : "http://example.org/isbn-8251773954"
         },
         "p" : {
           "type" : "uri",
@@ -26745,7 +26859,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8701537512"
+          "value" : "http://example.org/isbn-8701537512"
         },
         "p" : {
           "type" : "uri",
@@ -26764,7 +26878,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8755305326"
+          "value" : "http://example.org/isbn-87553053261"
         },
         "p" : {
           "type" : "uri",
@@ -26783,7 +26897,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9100555231"
+          "value" : "http://example.org/isbn-9100555231"
         },
         "p" : {
           "type" : "uri",
@@ -26802,7 +26916,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9100563226"
+          "value" : "http://example.org/isbn-9100563226"
         },
         "p" : {
           "type" : "uri",
@@ -26821,7 +26935,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9100576476"
+          "value" : "http://example.org/isbn-9100576476"
         },
         "p" : {
           "type" : "uri",
@@ -26840,7 +26954,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9119275617"
+          "value" : "http://example.org/isbn-9119275617"
         },
         "p" : {
           "type" : "uri",
@@ -26859,7 +26973,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9120015585"
+          "value" : "http://example.org/isbn-9120015585"
         },
         "p" : {
           "type" : "uri",
@@ -26878,7 +26992,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9150104721"
+          "value" : "http://example.org/isbn-9150104721"
         },
         "p" : {
           "type" : "uri",
@@ -26897,7 +27011,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9150105094"
+          "value" : "http://example.org/isbn-9150105094"
         },
         "p" : {
           "type" : "uri",
@@ -26916,64 +27030,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-397-3247-1"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "illustrator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/153151050156533410014"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-397-3490-1"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "illustrator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/17658"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-397-3542-7"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "illustrator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/153151050156533410014"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780007250622"
+          "value" : "http://example.org/isbn-9780007250622"
         },
         "p" : {
           "type" : "uri",
@@ -26992,7 +27049,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780007528097"
+          "value" : "http://example.org/isbn-9780007528097"
         },
         "p" : {
           "type" : "uri",
@@ -27011,7 +27068,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780241206096"
+          "value" : "http://example.org/isbn-9780241206096"
         },
         "p" : {
           "type" : "uri",
@@ -27030,7 +27087,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780544466593"
+          "value" : "http://example.org/isbn-9780544466593"
         },
         "p" : {
           "type" : "uri",
@@ -27049,7 +27106,64 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781416985235"
+          "value" : "http://example.org/isbn-9781408845660"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781408871874"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781408885109"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781416985235"
         },
         "p" : {
           "type" : "uri",
@@ -27068,7 +27182,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781782264293"
+          "value" : "http://example.org/isbn-9781782264293"
         },
         "p" : {
           "type" : "uri",
@@ -27087,7 +27201,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781870041966"
+          "value" : "http://example.org/isbn-97818700419661"
         },
         "p" : {
           "type" : "uri",
@@ -27106,7 +27220,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781910593356"
+          "value" : "http://example.org/isbn-9781910593356"
         },
         "p" : {
           "type" : "uri",
@@ -27125,7 +27239,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9785699934843"
+          "value" : "http://example.org/isbn-9785699934843"
         },
         "p" : {
           "type" : "uri",
@@ -27144,7 +27258,83 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788204141774"
+          "value" : "http://example.org/isbn-9788202459772"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788202475994"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788202476007"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788202476014"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788204141774"
         },
         "p" : {
           "type" : "uri",
@@ -27163,7 +27353,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788210051197"
+          "value" : "http://example.org/isbn-9788210051197"
         },
         "p" : {
           "type" : "uri",
@@ -27182,7 +27372,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788249603480"
+          "value" : "http://example.org/isbn-9788249603480"
         },
         "p" : {
           "type" : "uri",
@@ -27201,7 +27391,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788251784184"
+          "value" : "http://example.org/isbn-9788251784184"
         },
         "p" : {
           "type" : "uri",
@@ -27220,7 +27410,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788273848086"
+          "value" : "http://example.org/isbn-9788273848086"
         },
         "p" : {
           "type" : "uri",
@@ -27239,7 +27429,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788273848642"
+          "value" : "http://example.org/isbn-9788273848642"
         },
         "p" : {
           "type" : "uri",
@@ -27258,7 +27448,140 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9789163885921"
+          "value" : "http://example.org/isbn-9788417016128"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788439732471"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/153151050156533410014"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788439734901"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/17658"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788439735427"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/153151050156533410014"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788498387650"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788498389487"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788498389944"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "illustrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181795846"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9789163885921"
         },
         "p" : {
           "type" : "uri",
@@ -27277,7 +27600,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9789163897498"
+          "value" : "http://example.org/isbn-9789163897498"
         },
         "p" : {
           "type" : "uri",
@@ -27296,7 +27619,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9789511287636"
+          "value" : "http://example.org/isbn-9789511287636"
         },
         "p" : {
           "type" : "uri",
@@ -27315,7 +27638,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9789523331099"
+          "value" : "http://example.org/isbn-9789523331099"
         },
         "p" : {
           "type" : "uri",
@@ -27334,7 +27657,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9789523331990"
+          "value" : "http://example.org/isbn-9789523331990"
         },
         "p" : {
           "type" : "uri",
@@ -27353,7 +27676,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9789523331990"
+          "value" : "http://example.org/isbn-9789523331990"
         },
         "p" : {
           "type" : "uri",
@@ -27372,7 +27695,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9789654826358"
+          "value" : "http://example.org/isbn-9789654826358"
         },
         "p" : {
           "type" : "uri",
@@ -27386,25 +27709,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/32178186"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/IeDuTC"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30321"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "illustrator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/9474557"
         }
       },
       {
@@ -27676,1336 +27980,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0044403372"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/76408223"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0141180676"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/111655332"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0141181281"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/161821811"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0307264882"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/29521863"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0312851758"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/119320611"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0330246291"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/79847862"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0330246291"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95207392"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0374525277"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95207392"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0395476909"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/76408223"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0451530322"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/108234829"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0552993824"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/76382712"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0679417370"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/56689060"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0679433732"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/109406177"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0791081206"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0802115489"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/108263972"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0802115489"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/110200057"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0862418968"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/64151364"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN0913165190"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/49233219"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN1-58642-021-6"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/1207130"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN1400076218"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/109406177"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN1852864117"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://eksempel.com/daviddickson"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN1852866098"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/97113511"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN2707306282"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/69133758"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN3423111577"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/20838120"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN82-7024-030-3"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/89495222"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8203106714"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/517149294353580522036"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8205222460"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/119751334"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8205222460"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/270969716"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8205222460"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/278082493"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8205273324"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/61190633"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8205273324"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/78424451"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8205304505"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/54190339"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8205309434"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/35518045"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8210047574"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/84227912"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8250305639"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/245683163"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8252513204"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/41825269"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8252519377"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/190553868"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8252541364"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/89495222"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8252542255"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/85145969922932250113"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8252562523"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/7402568"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN8818700014"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/14778401"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-17241-54-4"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/54147956"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-350-1135-8"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/54147956"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-397-3486-4"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/59223340"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-663-4802-7"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/59223340"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-663-5089-1"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/170773692"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-663-5089-1"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/22287288"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780141325286"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/60214017"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780143105107"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/94522244"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780374531102"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/110344312"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780374531102"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/79847862"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780385538329"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/29521863"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780385618984"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/29521863"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780525659297"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/14951645"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780760780879"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/69187103"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9781604133318"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9781782117124"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9781782117124"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/110344312"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9781849433891"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/267714799"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9781851499151"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/106362344"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9781908745330"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/118024365"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9781909408456"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/236843018"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9788202305277"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/116796842"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9788205448407"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/35518045"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9788252563306"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/23943443"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9788252572469"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/49458459"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9789177016670"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/8340151778238418130001"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9789177016694"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/102026627"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9789523330160"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/61790896"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9789523332201"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "contributor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4302149198258274940005"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/IeDuTC"
         },
         "p" : {
@@ -29044,7 +28018,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ian-8433391035825"
+          "value" : "http://example.org/IAN-8433391035825"
         },
         "p" : {
           "type" : "uri",
@@ -29063,7 +28037,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ian-8433391035825"
+          "value" : "http://example.org/IAN-8433391035825"
         },
         "p" : {
           "type" : "uri",
@@ -29077,6 +28051,1336 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/56585930"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0044403372"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/76408223"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0141180676"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/111655332"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0141181281"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/161821811"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0307264882"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/29521863"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0312851758"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/119320611"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0330246291"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/79847862"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0330246291"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/95207392"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0374525277"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/95207392"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0395476909"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/76408223"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0451530322"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/108234829"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0552993824"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/76382712"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0679417370"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/56689060"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0679433732"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/109406177"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0791081206"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0802115489"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/108263972"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0802115489"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/110200057"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0862418968"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/64151364"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-0913165190"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/49233219"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-1400076218"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/109406177"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-1586420216"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1207130"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-1852864117"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://eksempel.com/daviddickson"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-1852866098"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/97113511"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-2707306282"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/69133758"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-3423111577"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/20838120"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8203106714"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/517149294353580522036"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8205222460"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/119751334"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8205222460"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/270969716"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8205222460"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/278082493"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8205273324"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/61190633"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8205273324"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/78424451"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8205304505"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/54190339"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8205309434"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/35518045"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8210047574"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/84227912"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8250305639"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/245683163"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8252513204"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/41825269"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8252519377"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/190553868"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8252541364"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/89495222"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8252542255"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/85145969922932250113"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8252562523"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/7402568"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8270240303"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/89495222"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-8818700014"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/14778401"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9780141325286"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/60214017"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9780143105107"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/94522244"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9780374531102"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/110344312"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9780374531102"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/79847862"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9780385538329"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/29521863"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9780385618984"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/29521863"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9780525659297"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/14951645"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9780760780879"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/69187103"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781604133318"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781782117124"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/44460209"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781782117124"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/110344312"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781849433891"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/267714799"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781851499151"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/106362344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781908745330"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/118024365"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9781909408456"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/236843018"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788202305277"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/116796842"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788205448407"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/35518045"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788252563306"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/23943443"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788252572469"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/49458459"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788417241544"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/54147956"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788435011358"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/54147956"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788439734864"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59223340"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788466348027"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59223340"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788466350891"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/170773692"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788466350891"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/22287288"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9789177016670"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/8340151778238418130001"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9789177016694"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102026627"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9789523330160"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/61790896"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9789523332201"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/4302149198258274940005"
         }
       },
       {
@@ -29348,7 +29652,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0002317850"
+          "value" : "http://example.org/isbn-0002317850"
         },
         "p" : {
           "type" : "uri",
@@ -29367,7 +29671,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0006476570"
+          "value" : "http://example.org/isbn-0006476570"
         },
         "p" : {
           "type" : "uri",
@@ -29386,7 +29690,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0007120834"
+          "value" : "http://example.org/isbn-0007120834"
         },
         "p" : {
           "type" : "uri",
@@ -29405,7 +29709,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0007120850"
+          "value" : "http://example.org/isbn-0007120850"
         },
         "p" : {
           "type" : "uri",
@@ -29424,7 +29728,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0007190662"
+          "value" : "http://example.org/isbn-0007190662"
         },
         "p" : {
           "type" : "uri",
@@ -29443,7 +29747,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0140864180"
+          "value" : "http://example.org/isbn-0140864180"
         },
         "p" : {
           "type" : "uri",
@@ -29462,7 +29766,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0174323476"
+          "value" : "http://example.org/isbn-0174323476"
         },
         "p" : {
           "type" : "uri",
@@ -29481,7 +29785,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0396087485"
+          "value" : "http://example.org/isbn-0396087485"
         },
         "p" : {
           "type" : "uri",
@@ -29500,7 +29804,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0879721588"
+          "value" : "http://example.org/isbn-0879721588"
         },
         "p" : {
           "type" : "uri",
@@ -29519,7 +29823,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780007250622"
+          "value" : "http://example.org/isbn-9780007250622"
         },
         "p" : {
           "type" : "uri",
@@ -29538,7 +29842,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780007423033"
+          "value" : "http://example.org/isbn-9780007423033"
         },
         "p" : {
           "type" : "uri",
@@ -29557,7 +29861,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780007451616"
+          "value" : "http://example.org/isbn-9780007451616"
         },
         "p" : {
           "type" : "uri",
@@ -29576,7 +29880,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781780922768"
+          "value" : "http://example.org/isbn-9781780922768"
         },
         "p" : {
           "type" : "uri",
@@ -29595,7 +29899,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781782264293"
+          "value" : "http://example.org/isbn-9781782264293"
         },
         "p" : {
           "type" : "uri",
@@ -29614,7 +29918,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781910593356"
+          "value" : "http://example.org/isbn-9781910593356"
         },
         "p" : {
           "type" : "uri",
@@ -29633,7 +29937,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9783741607707"
+          "value" : "http://example.org/isbn-9783741607707"
         },
         "p" : {
           "type" : "uri",
@@ -30298,6 +30602,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/1256145424641786830384"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10058"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "artist"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/116796842"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/1419145424636986831361"
         },
         "p" : {
@@ -30388,44 +30711,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/17151777"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/176092820"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10058"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "artist"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/181795846"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/313239035"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10058"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "artist"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/181795846"
         }
       },
       {
@@ -30825,44 +31110,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/108680806"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184602629"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10058"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "artist"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/181795846"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/205797426"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10058"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "artist"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/181795846"
         }
       },
       {
@@ -35257,6 +35504,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/309385591"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10058"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "artist"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/14908050"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://eksemepl.uri/verk/004"
         },
         "p" : {
@@ -39565,6 +39831,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/54147956"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/7382934039"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/73860916"
         }
       },
       {
@@ -44277,63 +44562,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/116796842"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184602629"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/25148207969200342664"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184602629"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/765468989365262465"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184602629"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/113690419"
         }
       },
       {
@@ -60103,6 +60331,25 @@
         },
         "o" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/116796842"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://en.wikipedia.org/wiki/Harry,_A_History"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "author"
+        },
+        "o" : {
+          "type" : "uri",
           "value" : "https://en.wikipedia.org/wiki/Melissa_Anelli"
         }
       },
@@ -60180,6 +60427,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/273845786"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://example.com/482747"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/70159144"
         }
       },
       {
@@ -63353,6 +63619,63 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/216494"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1273159035189401380007"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/25148207969200342664"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1273159035189401380007"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/765468989365262465"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309385591"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/103859257"
         }
       },
       {
@@ -67481,7 +67804,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261102303"
+          "value" : "http://example.org/isbn-0261102303"
         },
         "p" : {
           "type" : "uri",
@@ -67500,7 +67823,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261102494"
+          "value" : "http://example.org/isbn-0261102494"
         },
         "p" : {
           "type" : "uri",
@@ -67519,7 +67842,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261102583"
+          "value" : "http://example.org/isbn-0261102583"
         },
         "p" : {
           "type" : "uri",
@@ -67538,7 +67861,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0261103660"
+          "value" : "http://example.org/isbn-0261103660"
         },
         "p" : {
           "type" : "uri",
@@ -67557,7 +67880,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0552139459"
+          "value" : "http://example.org/isbn-0552139459"
         },
         "p" : {
           "type" : "uri",
@@ -67576,7 +67899,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0747532699"
+          "value" : "http://example.org/isbn-0747532699"
         },
         "p" : {
           "type" : "uri",
@@ -67595,7 +67918,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN0747532745"
+          "value" : "http://example.org/isbn-0747532745"
         },
         "p" : {
           "type" : "uri",
@@ -67614,7 +67937,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN3790301337"
+          "value" : "http://example.org/isbn-3790301337"
         },
         "p" : {
           "type" : "uri",
@@ -67633,7 +67956,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205186804"
+          "value" : "http://example.org/isbn-8205186804"
         },
         "p" : {
           "type" : "uri",
@@ -67652,7 +67975,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205188041"
+          "value" : "http://example.org/isbn-8205188041"
         },
         "p" : {
           "type" : "uri",
@@ -67671,7 +67994,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205279705"
+          "value" : "http://example.org/isbn-8205279705"
         },
         "p" : {
           "type" : "uri",
@@ -67690,7 +68013,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205301220"
+          "value" : "http://example.org/isbn-8205301220"
         },
         "p" : {
           "type" : "uri",
@@ -67709,7 +68032,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205301751"
+          "value" : "http://example.org/isbn-8205301751"
         },
         "p" : {
           "type" : "uri",
@@ -67728,7 +68051,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205301778"
+          "value" : "http://example.org/isbn-8205301778"
         },
         "p" : {
           "type" : "uri",
@@ -67747,7 +68070,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205301786"
+          "value" : "http://example.org/isbn-8205301786"
         },
         "p" : {
           "type" : "uri",
@@ -67766,7 +68089,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205301794"
+          "value" : "http://example.org/isbn-8205301794"
         },
         "p" : {
           "type" : "uri",
@@ -67785,7 +68108,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205301808"
+          "value" : "http://example.org/isbn-8205301808"
         },
         "p" : {
           "type" : "uri",
@@ -67804,7 +68127,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8205308586"
+          "value" : "http://example.org/isbn-8205308586"
         },
         "p" : {
           "type" : "uri",
@@ -67823,7 +68146,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8210035789"
+          "value" : "http://example.org/isbn-8210035789"
         },
         "p" : {
           "type" : "uri",
@@ -67842,7 +68165,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8210037455"
+          "value" : "http://example.org/isbn-8210037455"
         },
         "p" : {
           "type" : "uri",
@@ -67861,7 +68184,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8210044044"
+          "value" : "http://example.org/isbn-8210044044"
         },
         "p" : {
           "type" : "uri",
@@ -67880,7 +68203,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8247804484"
+          "value" : "http://example.org/isbn-8247804484"
         },
         "p" : {
           "type" : "uri",
@@ -67899,7 +68222,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252161901"
+          "value" : "http://example.org/isbn-8252161901"
         },
         "p" : {
           "type" : "uri",
@@ -67918,7 +68241,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252162819"
+          "value" : "http://example.org/isbn-8252162819"
         },
         "p" : {
           "type" : "uri",
@@ -67937,7 +68260,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252162827"
+          "value" : "http://example.org/isbn-8252162827"
         },
         "p" : {
           "type" : "uri",
@@ -67956,7 +68279,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252169023"
+          "value" : "http://example.org/isbn-8252169023"
         },
         "p" : {
           "type" : "uri",
@@ -67975,7 +68298,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252532071"
+          "value" : "http://example.org/isbn-8252532071"
         },
         "p" : {
           "type" : "uri",
@@ -67994,7 +68317,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8252534015"
+          "value" : "http://example.org/isbn-8252534015"
         },
         "p" : {
           "type" : "uri",
@@ -68013,7 +68336,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8273848086"
+          "value" : "http://example.org/isbn-8273848086"
         },
         "p" : {
           "type" : "uri",
@@ -68032,7 +68355,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8700969028"
+          "value" : "http://example.org/isbn-8700969028"
         },
         "p" : {
           "type" : "uri",
@@ -68051,7 +68374,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8701181408"
+          "value" : "http://example.org/isbn-8701181408"
         },
         "p" : {
           "type" : "uri",
@@ -68070,7 +68393,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8701181408"
+          "value" : "http://example.org/isbn-8701181408"
         },
         "p" : {
           "type" : "uri",
@@ -68089,7 +68412,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8755305326"
+          "value" : "http://example.org/isbn-87553053261"
         },
         "p" : {
           "type" : "uri",
@@ -68108,7 +68431,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8755305326"
+          "value" : "http://example.org/isbn-87553053261"
         },
         "p" : {
           "type" : "uri",
@@ -68127,7 +68450,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN8755305326"
+          "value" : "http://example.org/isbn-87553053261"
         },
         "p" : {
           "type" : "uri",
@@ -68146,7 +68469,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9513022137"
+          "value" : "http://example.org/isbn-9513022137"
         },
         "p" : {
           "type" : "uri",
@@ -68165,26 +68488,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN978-84-9122-136-4"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30069"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "designer"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/108680806"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/ISBN9780316508919"
+          "value" : "http://example.org/isbn-9780316508919"
         },
         "p" : {
           "type" : "uri",
@@ -68203,7 +68507,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780394810119"
+          "value" : "http://example.org/isbn-9780394810119"
         },
         "p" : {
           "type" : "uri",
@@ -68222,7 +68526,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9780734418234"
+          "value" : "http://example.org/isbn-9780734418234"
         },
         "p" : {
           "type" : "uri",
@@ -68241,7 +68545,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781782690832"
+          "value" : "http://example.org/isbn-9781782690832"
         },
         "p" : {
           "type" : "uri",
@@ -68260,7 +68564,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9781782690863"
+          "value" : "http://example.org/isbn-9781782690863"
         },
         "p" : {
           "type" : "uri",
@@ -68279,7 +68583,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788205478183"
+          "value" : "http://example.org/isbn-9788205478183"
         },
         "p" : {
           "type" : "uri",
@@ -68298,7 +68602,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788210050244"
+          "value" : "http://example.org/isbn-9788210050244"
         },
         "p" : {
           "type" : "uri",
@@ -68317,7 +68621,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788210050381"
+          "value" : "http://example.org/isbn-9788210050381"
         },
         "p" : {
           "type" : "uri",
@@ -68336,7 +68640,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788210051197"
+          "value" : "http://example.org/isbn-9788210051197"
         },
         "p" : {
           "type" : "uri",
@@ -68355,7 +68659,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788252182682"
+          "value" : "http://example.org/isbn-9788252182682"
         },
         "p" : {
           "type" : "uri",
@@ -68374,7 +68678,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788273848086"
+          "value" : "http://example.org/isbn-9788273848086"
         },
         "p" : {
           "type" : "uri",
@@ -68393,7 +68697,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/ISBN9788273848086"
+          "value" : "http://example.org/isbn-9788273848086"
         },
         "p" : {
           "type" : "uri",
@@ -68407,6 +68711,25 @@
         "o" : {
           "type" : "uri",
           "value" : "https://www.imdb.com/name/nm1155292/"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788491221364"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30069"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "designer"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/108680806"
         }
       },
       {
@@ -76824,25 +77147,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/70287905"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/316741387/1012/222678855/288294356"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20039"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "performer"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/221362208"
         }
       },
       {
@@ -87830,25 +88134,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://eksempel.uri/verk/002/nob/1012/225417153/55512322"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20022"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "narrator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/225417153"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/1545145424668486830463/nob/1013/226306913"
         },
         "p" : {
@@ -87958,44 +88243,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/18638631"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/316741387/1012/222678855/288294356"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20022"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "narrator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/222678855"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4340152932550809830009/nob/1012/269449950"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20022"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "narrator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/269449950"
         }
       },
       {
@@ -88604,6 +88851,63 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/34156373"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://eksempel.uri/verk/002/nob/1013/225417153/55512322"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20022"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "narrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/225417153"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1777145424634486831078/nob/1013/227229707"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20022"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "narrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/227229707"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/4340152932550809830009/nob/1013/269449950"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20022"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "narrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/269449950"
         }
       },
       {

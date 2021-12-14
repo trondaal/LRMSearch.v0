@@ -4,7 +4,8 @@ const neo4j = require("neo4j-driver");
 
 const typeDefs = gql`
     type Expression @fulltext(indexes: [{ name: "expressions", fields: ["title"] }]) {
-        title: String
+        uri,
+        title,
         manifestations: [Manifestation] @relationship(type: "EMBODIES", direction: IN)
         work: [Work] @relationship(type: "REALIZES", direction: OUT)
         language: [Concept] @relationship(type: "LANGUAGE", direction: OUT)
@@ -12,22 +13,37 @@ const typeDefs = gql`
         creators: [Agent] @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
     }
     type Work {
-        title: String
+        uri,
+        title,
         type: [Concept] @relationship(type: "TYPE", direction: OUT)
         creators: [Agent] @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
     }
     type Manifestation {
+        uri: String
+        identifier: String
         title: String
+        subtitle: String
+        numbering: String
+        part: String
         responsibility: String
+        edition: String
         extent: String
         dimensions: String
-        numbering: String
-        publicationdate: String
+        productionplace: String
+        producer: String
+        productiondate: String
         publicationplace: String
         publisher: String
-        manufacturedate: String
+        publicationdate: String
+        distributionplace: String
+        distributor: String
+        distributiondate: String
         manufactureplace: String
-        manufacturename: String
+        manufacturer: String
+        manufacturedate: String
+        copyright: String
+        series: String
+        seriesnumbering: String
         carrier: [Concept] @relationship(type: "CARRIER", direction: OUT)
         media: [Concept] @relationship(type: "MEDIA", direction: OUT)
     }
@@ -44,7 +60,7 @@ const typeDefs = gql`
 `;
 
 const driver = neo4j.driver(
-    "bolt://dif04.idi.ntnu.no:7687",
+    "bolt://localhost:7687",
     neo4j.auth.basic("neo4j", "letmein")
 );
 

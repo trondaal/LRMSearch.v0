@@ -5,6 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="645bfbfc-0362-44ff-8cca-463e16441762" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/conversionrules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/conversionrules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/marc2lrm.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/marc2lrm.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/agentrels.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/agentrels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/basicrels.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/basicrels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/carriertype.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/concepts.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/concepts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/contenttype.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/entities.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/entities.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/import queries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/import queries.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/language.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/mediatype.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/partof.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/properties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/related.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/subjectrels.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/subjectrels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/worktype.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/rdf/all.rdf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/rdf/all.rdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/rdf/labels.nt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/rdf/labels.nt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/report.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/report.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/xml/all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/xml/all.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset/xml/golding.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/xml/golding.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +55,9 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,6 +71,8 @@
       <workItem from="1639125791229" duration="26000" />
       <workItem from="1639126536375" duration="799000" />
       <workItem from="1639130177626" duration="341000" />
+      <workItem from="1639130638384" duration="3771000" />
+      <workItem from="1639309985684" duration="28990000" />
     </task>
     <servers />
   </component>

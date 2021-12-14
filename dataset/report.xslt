@@ -947,7 +947,7 @@
                                                         <xsl:sort select="current-grouping-key()"/>
                                                         <xsl:variable name="label" select="document('rda.labels.rdf')/rdf:RDF/rdf:Description[@rdf:about=current-group()/marc:subfield[@code='4'][starts-with(., 'http')][1]]/rdfs:label"/>
                                                         <xsl:copy-of
-                                                                select="bib:printasline('* ' || string-join((current-grouping-key() || ' (' || $label || ') : ' || count(current-group()))), $format)"/>
+                                                                select="bib:printasline('* ' || string-join((current-grouping-key() || ' (' || string-join($label, ' xxx ') || ') : ' || count(current-group()))), $format)"/>
                                                 </xsl:for-each-group>
                                                 
                                         </xsl:otherwise>

@@ -10,353 +10,67 @@
       {
         "concept" : {
           "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1000"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/alb"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Language-based work"
+          "value" : "Albanian"
         }
       },
       {
         "concept" : {
           "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1001"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/ara"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Musical work"
+          "value" : "Arabic"
         }
       },
       {
         "concept" : {
           "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1003"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/arm"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Picture work"
+          "value" : "Armenian"
         }
       },
       {
         "concept" : {
           "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1002"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/baq"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Moving image work"
+          "value" : "Basque"
         }
       },
       {
         "concept" : {
           "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1008"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/bul"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Composite work"
+          "value" : "Bulgarian"
         }
       },
       {
         "concept" : {
           "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1009"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/cat"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Work of performing arts"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1006"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Broadcasting work"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1005"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Interactive work"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "https://schema.nb.no/Bibliographic/Values/V1004"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Carthographic work"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAMediaType/1007"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "unmediated"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAMediaType/1008"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "video"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAMediaType/1003"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "computer"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAMediaType/1001"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "audio"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAMediaType/1005"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "projected"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAMediaType/1002"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "microform"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1049"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "volume"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1060"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "videodisc"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1018"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "online resource"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1004"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "audio disc"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1013"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "computer disc"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1069"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "film roll"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1052"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "videocassette"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1033"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "film cassette"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1034"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "film reel"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1026"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "microfilm reel"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1007"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "audiocassette"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1008"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "computer program"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1048"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "sheet"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1059"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "object"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/ger"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "German"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/tur"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Turkish"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/swe"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Swedish"
+          "value" : "Catalan"
         }
       },
       {
@@ -373,45 +87,12 @@
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/nno"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/dan"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Norwegian Nynorsk"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/eng"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "English"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/fre"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "French"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/spa"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Spanish"
+          "value" : "Danish"
         }
       },
       {
@@ -428,45 +109,23 @@
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/hun"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/eng"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Hungarian"
+          "value" : "English"
         }
       },
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/nob"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/epo"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Norwegian Bokmål"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/ita"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Italian"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/arm"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Armenian"
+          "value" : "Esperanto"
         }
       },
       {
@@ -494,6 +153,72 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/fre"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "French"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/ger"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "German"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/gle"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Irish"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/glg"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Galician"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/grc"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Ancient Greek"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/guj"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Gujarati"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/heb"
         },
         "label" : {
@@ -505,12 +230,155 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/hin"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Hindi"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/hun"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Hungarian"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/ice"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
           "value" : "Icelandic"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/ita"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Italian"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/jpn"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Japanese"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/kor"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Korean"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/lat"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Latin"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/lav"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Latvian"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/lit"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Lithuanian"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/mul"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Multiple languages"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/nno"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Norwegian Nynorsk"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/nob"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Norwegian Bokmål"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/nor"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Norwegian"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/per"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Persian"
         }
       },
       {
@@ -549,309 +417,12 @@
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/dan"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Danish"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/yid"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Yiddish"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/rus"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
           "value" : "Russian"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/per"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Persian"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/gle"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Irish"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/jpn"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Japanese"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/nor"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Norwegian"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/baq"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Basque"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/alb"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Albanian"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/ukr"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Ukrainian"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/glg"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Galician"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/cat"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Catalan"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/lat"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Latin"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/ara"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Arabic"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/und"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Undetermined"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/tam"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Tamil"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/guj"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Gujarati"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/hin"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Hindi"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/tet"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Tetum"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/bul"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Bulgarian"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/vie"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Vietnamese"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/urd"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Urdu"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/lit"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Lithuanian"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/lav"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Latvian"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/mul"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Multiple languages"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/wel"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Welsh"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/kor"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Korean"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/epo"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Esperanto"
         }
       },
       {
@@ -868,23 +439,320 @@
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/grc"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/spa"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "Ancient Greek"
+          "value" : "Spanish"
         }
       },
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/swe"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "text"
+          "value" : "Swedish"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/tam"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Tamil"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/tet"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Tetum"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/tur"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Turkish"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/ukr"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Ukrainian"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/und"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Undetermined"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/urd"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Urdu"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/vie"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Vietnamese"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/wel"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Welsh"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/yid"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Yiddish"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1004"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "audio disc"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1007"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "audiocassette"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1013"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "computer disc"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1018"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "online resource"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1026"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "microfilm reel"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1033"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "film cassette"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1034"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "film reel"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1036"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "filmstrip"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1048"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "sheet"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1049"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "volume"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1052"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "videocassette"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1059"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "object"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1060"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "videodisc"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDACarrierType/1069"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "film roll"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1002"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "cartographic image"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1008"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "computer program"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1010"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notated music"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1011"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "performed music"
         }
       },
       {
@@ -912,45 +780,12 @@
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1010"
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "notated music"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1023"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "two-dimensional moving image"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1011"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "performed music"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1002"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "cartographic image"
+          "value" : "text"
         }
       },
       {
@@ -967,34 +802,177 @@
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDACarrierType/1036"
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1023"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "filmstrip"
+          "value" : "two-dimensional moving image"
         }
       },
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1012"
+          "value" : "http://rdaregistry.info/termList/RDAMediaType/1001"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "sounds"
+          "value" : "audio"
         }
       },
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://rdaregistry.info/termList/RDAContentType/1007"
+          "value" : "http://rdaregistry.info/termList/RDAMediaType/1002"
         },
         "label" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "computer dataset"
+          "value" : "microform"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAMediaType/1003"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "computer"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAMediaType/1005"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "projected"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAMediaType/1007"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "unmediated"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAMediaType/1008"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "video"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1000"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Language-based work"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1001"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Musical work"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1002"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Moving image work"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1003"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Picture work"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1004"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Carthographic work"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1005"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Interactive work"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1006"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Broadcasting work"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1008"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Composite work"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1009"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Work of performing arts"
         }
       }
     ]

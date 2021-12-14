@@ -1874,25 +1874,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/184602629"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/116796842"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/184654919"
         },
         "p" : {

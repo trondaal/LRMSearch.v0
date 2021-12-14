@@ -234,6 +234,9 @@
                 <!--<subfield code="h" type="http://rdaregistry.info/Elements/e/datatype/P20001" select="lower-case(frbrizer:trim(.))" label="has content type"/>-->
                 <!--<subfield code="l" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>-->
             </datafield>
+            <datafield tag="740" condition="frbrizer:linked-strict($anchor_field, .)">
+                <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20315" label="titlepreferred"/>
+            </datafield>
             <datafield tag="245">
                 <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="frbrizer:trim(.)" label="has variant title"/>
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), ($record/*:controlfield[@tag='008'][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]/substring(., 36, 3),$record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')])[1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
@@ -278,19 +281,24 @@
             <controlfield tag="008" type="marc"/>
             <datafield tag="020">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="'ISBN' || frbrizer:trim(.)" label="rdf label"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/x/datatype/P00018" select="concat('isbn-', replace(., '\D', ''))" label="has identifier for the manifestation"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30004" select="'ISBN ' || ." label="manifestation identifier"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/x/datatype/P00018" select="concat('isbn-', replace(., '\D', ''))" label="has identifier for the LRM entity"/>
             </datafield>
             <datafield tag="022">
-                <subfield code="a" type="http://rdaregistry.info/Elements/x/datatype/P00018" select="concat('issn-', ./replace(., '\D', ''))" label="has identifier for the manifestation"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30004" select="'ISSN ' || ." label="manifestation identifier"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/x/datatype/P00018" select="concat('issn-', ./replace(., '\D', ''))" label="has identifier for the LRM entity"/>
             </datafield>
             <datafield tag="024">
-                <subfield code="a" type="http://rdaregistry.info/Elements/x/datatype/P00018" select="concat(frbrizer:idprefix(../@ind1) ,'-', replace(., '\D', ''))" label="has identifier for the manifestation"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30004" select="frbrizer:idprefix(../@ind1) || ' ' || ." label="manifestation identifier"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/x/datatype/P00018" select="concat(frbrizer:idprefix(../@ind1) ,'-', replace(., '\D', ''))" label="has identifier for the LRM entity"/>
             </datafield>
             <datafield tag="245">
                 <!--<subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>-->
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30156" select="frbrizer:trim(.)" label="has title proper"/>
                 <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30142" select="frbrizer:trim(.)" label="has other title information"/>
                 <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30117" select="frbrizer:trim(.)" label="has statement of responsibility"/>
+                <subfield code="n" type="http://rdaregistry.info/Elements/m/datatype/P30014" select="frbrizer:trim(.)" label="has numbering"/>
+                <subfield code="p" type="http://rdaregistry.info/Elements/m/datatype/P30134" select="frbrizer:trim(.)" label="has title of manifestation (part)"/>
             </datafield>
             <datafield tag="250">
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30107" label="has edition statement"/>
@@ -303,15 +311,33 @@
                 <subfield code="f" type="http://rdaregistry.info/Elements/m/datatype/P30175" select="frbrizer:trim(.)" label="has manufacturers name"/>
                 <subfield code="g" type="http://rdaregistry.info/Elements/m/datatype/P30010" select="frbrizer:trim(.)" label="has manufacture date"/>
             </datafield>
-            <datafield tag="264">
+            <datafield tag="264" condition="@ind2='0'"><!-- production -->
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30086" select="frbrizer:trim(.)" label="has place of production"/>
+                <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30174" select="frbrizer:trim(.)" label="has producer"/>
+                <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30009" select="frbrizer:trim(.)" label="has date of production"/>
+            </datafield>
+            <datafield tag="264" condition="@ind2='1'"><!-- publication -->
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30088" select="frbrizer:trim(.)" label="has place of publication"/>
                 <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30083" select="frbrizer:trim(.)" label="has publisher"/>
                 <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30011" select="frbrizer:trim(.)" label="has date of publication"/>
             </datafield>
+            <datafield tag="264" condition="@ind2='2'"><!-- distribution -->
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30085" select="frbrizer:trim(.)" label="has place of distribution"/>
+                <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30173" select="frbrizer:trim(.)" label="has distributor"/>
+                <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30008" select="frbrizer:trim(.)" label="has date of distribution"/>
+            </datafield>
+            <datafield tag="264" condition="@ind2='3'"><!-- manufacture -->
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30087" select="frbrizer:trim(.)" label="has manufacture place"/>
+                <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30175" select="frbrizer:trim(.)" label="has manufacturers name"/>
+                <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30010" select="frbrizer:trim(.)" label="has manufacture date"/>
+            </datafield>
+            <datafield tag="264" condition="@ind2='4'"><!-- copåyright -->
+                <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30007" select="frbrizer:trim(.)" label="copyright date"/>
+            </datafield>
             <datafield tag="300">
-                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30182" label="has extent"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30182" label="has extent" select="string-join((., ../*:subfield[@code='b'], ../*:subfield[@code='c'], ../*:subfield[@code='e'], ../*:subfield[@code='f'], ../*:subfield[@code='g']), ' ')"/>
                 <!--<subfield code="b" type="http://marc21rdf.info/elements/marc/M30000b" label="other physical details"/>-->
-                <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30169" label="has dimensions"/>
+                <!--<subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30169" label="has dimensions"/>-->
                 <!--<subfield code="e" type="http://marc21rdf.info/elements/marc/M30000e" label="accompanying material"/>-->
             </datafield>
             <datafield tag="337">
@@ -333,7 +359,7 @@
             </datafield>
         </attributes>
         <key order="2">
-            <element>if ((*:datafield[@tag=("020","024")][1]/*:subfield[@code='a'])[1]) then (*:datafield[@tag=("020","024")][1]/*:subfield[@code='a'])[1]/replace(., '\(.*\)', '') else if (*:controlfield[@tag=('001', '003')]) then *:controlfield[@tag=('001', '003')][1] else generate-id(.)</element>
+            <element>if ((*:datafield[@tag=('020','022','024')][1]/*:subfield[@type = 'http://rdaregistry.info/Elements/x/datatype/P00018'])[1]) then (*:datafield[@tag=('020','022','024')][1]/*:subfield[@type='http://rdaregistry.info/Elements/x/datatype/P00018'])[1]/replace(., '\(.*\)', '') else if (*:controlfield[@tag=('001', '003')]) then *:controlfield[@tag=('001', '003')][1] else generate-id(.)</element>
         </key>
         <relationships>
             <!--<relationship type="http://rdaregistry.info/Elements/m/object/P30020" itype="http://rdaregistry.info/Elements/m/object/P30033" label="is contained in (manifestation)" ilabel="is container for (manifestation)">
@@ -698,6 +724,14 @@
             <!--xsl:value-of select="(some $x in $anchor/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or (not(exists($target/*:subfield[@code = '8'])))"/>-->
         </xsl:function>
         
+        <xsl:function name="frbrizer:linked2" as="xs:boolean">
+            <!-- returns true if the two fields have the same marc 21 link ($8), or if there is no linking subfields in target -->
+            <xsl:param name="source" as="element()"/>
+            <xsl:param name="target" as="element()"/>
+            <xsl:sequence select="(some $x in $source/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or (exists($source/*:subfield[@code = '8']) and not(exists($target/*:subfield[@code='8'])))"/>  
+            <!--xsl:value-of select="(some $x in $anchor/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or (not(exists($target/*:subfield[@code = '8'])))"/>-->
+        </xsl:function>
+        
         <xsl:function name="frbrizer:linked-or-nolink" as="xs:boolean">
             <!-- returns true if the two fields have the same marc 21 link ($8), or if there is no linking subfields in target and source -->
             <xsl:param name="anchor" as="element()"/>
@@ -731,22 +765,22 @@
             <xsl:param name="value"/>
             <xsl:choose>
                 <xsl:when test="$value = '0'">
-                    <xsl:value-of select="'isrc'"/>
+                    <xsl:value-of select="'ISRC'"/>
                 </xsl:when>
                 <xsl:when test="$value = '1'">
-                    <xsl:value-of select="'upc'"/>
+                    <xsl:value-of select="'UPC'"/>
                 </xsl:when>
                 <xsl:when test="$value = '2'">
-                    <xsl:value-of select="'ismn'"/>
+                    <xsl:value-of select="'ISMN'"/>
                 </xsl:when>
                 <xsl:when test="$value = '3'">
-                    <xsl:value-of select="'ian'"/>
+                    <xsl:value-of select="'IAN'"/>
                 </xsl:when>
                 <xsl:when test="$value = '4'">
-                    <xsl:value-of select="'sici'"/>
+                    <xsl:value-of select="'SICI'"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="'nn'"/>
+                    <xsl:value-of select="'NN'"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:function>        
