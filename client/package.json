@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "bibsurf2",
   "dependencies": {
     "@apollo/client": "^3.5.6",
     "@emotion/react": "^11.7.0",
