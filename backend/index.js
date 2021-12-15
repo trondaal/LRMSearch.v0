@@ -46,6 +46,7 @@ const typeDefs = gql`
         seriesnumbering: String
         carrier: [Concept] @relationship(type: "CARRIER", direction: OUT)
         media: [Concept] @relationship(type: "MEDIA", direction: OUT)
+        creators: [Agent] @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
     }
     type Concept{
         label: String,
@@ -60,7 +61,7 @@ const typeDefs = gql`
 `;
 
 const driver = neo4j.driver(
-    "bolt://localhost:7687",
+    "bolt://dif04.idi.ntnu.no:7687",
     neo4j.auth.basic("neo4j", "letmein")
 );
 
