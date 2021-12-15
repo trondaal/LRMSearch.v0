@@ -16774,6 +16774,20 @@
             <marc:subfield code="a">text</marc:subfield>
             <marc:subfield code="1">http://rdaregistry.info/termList/RDAContentType/1020</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="1">http://rdaregistry.info/termList/RDAMediaType/1007</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">volume</marc:subfield>
+            <marc:subfield code="1">http://rdaregistry.info/termList/RDACarrierType/1049</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="380" ind1=" " ind2=" ">
+            <marc:subfield code="a">Language-based work</marc:subfield>
+            <marc:subfield code="1">https://schema.nb.no/Bibliographic/Values/V1000</marc:subfield>
+        </marc:datafield>
         <marc:datafield tag="490" ind1="0" ind2=" ">
             <marc:subfield code="a">El libro de bolsillo</marc:subfield>
             <marc:subfield code="v">381</marc:subfield>
@@ -16846,6 +16860,20 @@
         <marc:datafield tag="336" ind1=" " ind2=" " added="true">
             <marc:subfield code="a">text</marc:subfield>
             <marc:subfield code="1">http://rdaregistry.info/termList/RDAContentType/1020</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="1">http://rdaregistry.info/termList/RDAMediaType/1007</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">volume</marc:subfield>
+            <marc:subfield code="1">http://rdaregistry.info/termList/RDACarrierType/1049</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="380" ind1=" " ind2=" ">
+            <marc:subfield code="a">Language-based work</marc:subfield>
+            <marc:subfield code="1">https://schema.nb.no/Bibliographic/Values/V1000</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="440" ind1=" " ind2="0">
             <marc:subfield code="a">Alianza tres</marc:subfield>
@@ -35141,6 +35169,20 @@
             <marc:subfield code="a">William Golding : the man who wrote Lord of the flies</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/114105318/williamgoldingthemanwhowrotelordoftheflies</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" " added="true">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="1">http://rdaregistry.info/termList/RDAContentType/1020</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="1">http://rdaregistry.info/termList/RDAMediaType/1007</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">volume</marc:subfield>
+            <marc:subfield code="1">http://rdaregistry.info/termList/RDACarrierType/1049</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>      
         <marc:datafield tag="380" ind1=" " ind2=" ">
             <marc:subfield code="a">biography</marc:subfield>
             <marc:subfield code="1">https://schema.nb.no/Bibliographic/Values/V1000</marc:subfield>

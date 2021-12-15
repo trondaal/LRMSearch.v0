@@ -862,6 +862,7 @@
       <rdaed:P20312>William Golding : the man who wrote Lord of the flies</rdaed:P20312>
       <rdaed:P20312>William Golding</rdaed:P20312>
       <rdfs:label>William Golding / eng / text</rdfs:label>
+      <rdfs:label>William Golding / eng / text / text</rdfs:label>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/114105318/williamgoldingthemanwhowrotelordoftheflies"/>
    </rdac:C10006>
