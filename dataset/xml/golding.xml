@@ -73,8 +73,8 @@
             <marc:subfield code="a">Seifert, Jaroslav</marc:subfield>
             <marc:subfield code="d">1901-1986.</marc:subfield>
             <marc:subfield code="t">Deštník z Piccadilly.</marc:subfield>
-            <marc:subfield code="1p">seifertjaroslav</marc:subfield>
-            <marc:subfield code="1">seifertjaroslav/detnkzpiccadilly</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/12317734</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/312341155</marc:subfield>
             <marc:subfield code="l">ger</marc:subfield>
             <marc:subfield code="8">2</marc:subfield>
         </marc:datafield>
@@ -82,16 +82,16 @@
             <marc:subfield code="a">Seifert, Jaroslav</marc:subfield>
             <marc:subfield code="d">1901-1986.</marc:subfield>
             <marc:subfield code="t">Morový sloup.</marc:subfield>
-            <marc:subfield code="1p">seifertjaroslav</marc:subfield>
-            <marc:subfield code="1">seifertjaroslav/morovsloup</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/12317734</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/313685914</marc:subfield>
             <marc:subfield code="l">ger</marc:subfield>
             <marc:subfield code="8">3</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
-            <marc:subfield code="a">Simon, Claude.</marc:subfield>
+            <marc:subfield code="a">Simon, Claude</marc:subfield>
             <marc:subfield code="t">Route des Flandres.</marc:subfield>
-            <marc:subfield code="1p">simonclaude</marc:subfield>
-            <marc:subfield code="1">simonclaude/routedesflandres</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/88954280</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/198163223</marc:subfield>
             <marc:subfield code="l">ger</marc:subfield>
             <marc:subfield code="8">4</marc:subfield>
         </marc:datafield>
@@ -323,11 +323,11 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Gregor, Ian.</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
-            <marc:subfield code="1p">gregorian</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/14894463</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Kinkead-Weekes, Mark.</marc:subfield>
-            <marc:subfield code="1p">kinkeadweekesmark</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/6049</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -638,7 +638,6 @@
             <marc:subfield code="c">(Deity)</marc:subfield>
             <marc:subfield code="x">Cult</marc:subfield>
             <marc:subfield code="v">Fiction.</marc:subfield>
-            <marc:subfield code="1p">apollo</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1983-BNB-UK-William-Golding.xml">
@@ -1058,11 +1057,11 @@
             <marc:subfield code="a">Spear, Hilda D.</marc:subfield>
             <marc:subfield code="q">(Hilda Doris),</marc:subfield>
             <marc:subfield code="d">1926-</marc:subfield>
-            <marc:subfield code="1p">spearhildad</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/27170695</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1=" " ind2=" ">
             <marc:subfield code="a">The Spire</marc:subfield>
-            <marc:subfield code="1">spearhildad/thespire</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/27170695/thespire</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="245" ind1="1" ind2="4">
             <marc:subfield code="a">The spire :</marc:subfield>
@@ -1995,13 +1994,13 @@
         <marc:datafield tag="100" ind1="1" ind2=" ">
             <marc:subfield code="a">Williams, Nigel</marc:subfield>
             <marc:subfield code="d">1948-</marc:subfield>
-            <marc:subfield code="1p">williamsnigel</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/86448713</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1=" " ind2=" ">
             <marc:subfield code="a">William Golding's "Lord of the flies"</marc:subfield>
             <marc:subfield code="k">Play</marc:subfield>
-            <marc:subfield code="1">williamsnigel/williamgoldingslordoftheflies</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/310430410</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="245" ind1="1" ind2="0">
             <marc:subfield code="a">William Golding's "Lord of the flies" /</marc:subfield>
@@ -2958,11 +2957,11 @@
             <marc:subfield code="a">Spear, Hilda D.</marc:subfield>
             <marc:subfield code="q">(Hilda Doris),</marc:subfield>
             <marc:subfield code="d">1926-</marc:subfield>
-            <marc:subfield code="1p">spearhildad</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/27170695</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
             <marc:subfield code="a">William Golding, The inheritors : notes</marc:subfield>
-            <marc:subfield code="1">spearhildad/williamgoldingtheinheritorsnotes</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/27170695/williamgoldingtheinheritorsnotes</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="245" ind1="1" ind2="0">
             <marc:subfield code="a">William Golding, The inheritors :</marc:subfield>
@@ -3515,12 +3514,12 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Ziegler, Arthur P.</marc:subfield>
-            <marc:subfield code="1p">zieglerarthurp</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/75131190</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Baker, J. R.</marc:subfield>
-            <marc:subfield code="1p">bakerjr</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/53313431</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -3566,12 +3565,12 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Ziegler, Arthur P.</marc:subfield>
-            <marc:subfield code="1p">zieglerarthurp</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/75131190</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Baker, J. R.</marc:subfield>
-            <marc:subfield code="1p">bakerjr</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/53313431</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -3658,12 +3657,12 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Ziegler, Arthur P.</marc:subfield>
-            <marc:subfield code="1p">zieglerarthurp</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/75131190</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Baker, J. R.</marc:subfield>
-            <marc:subfield code="1p">bakerjr</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/53313431</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -4086,12 +4085,12 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Gregor, Ian.</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
-            <marc:subfield code="1p">gregorian</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/14894463</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Kinkead-Weekes, Mark.</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
-            <marc:subfield code="1p">kinkeadweekesmark</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/6049</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1983-BNB-UK-William-Golding.xml">
@@ -7047,7 +7046,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Stiehl, Hermann.</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -8107,7 +8106,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Champourcin, Ernestina de</marc:subfield>
             <marc:subfield code="d">1905-1999</marc:subfield>
-            <marc:subfield code="1p">champourcinernestinade</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/12367718</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" ind1="3" ind2="2" created="true">
@@ -9222,7 +9221,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Stiehl, Hermann.</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -9642,7 +9641,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Champourcin, Ernestina de</marc:subfield>
             <marc:subfield code="d">1905-1999</marc:subfield>
-            <marc:subfield code="1p">champourcinernestinade</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/12367718</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
@@ -9826,7 +9825,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Champourcin, Ernestina de</marc:subfield>
             <marc:subfield code="d">1905-1999</marc:subfield>
-            <marc:subfield code="1p">champourcinernestinade</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/12367718</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
@@ -9938,7 +9937,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Goligorsky, Eduardo</marc:subfield>
-            <marc:subfield code="1p">goligorskyeduardo</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/38364518</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -10110,44 +10109,44 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Hook, Harry</marc:subfield>
-            <marc:subfield code="1p">hookharry</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/26169769</marc:subfield>
             <marc:subfield code="4">drt</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Milloy, Ross</marc:subfield>
-            <marc:subfield code="1p">milloyross</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0589869</marc:subfield>
             <marc:subfield code="4">pro</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Schiff, Sara</marc:subfield>
-            <marc:subfield code="1p">schiffsara</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0696319/</marc:subfield>
             <marc:subfield code="4">aus</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Fuhrer, Martin </marc:subfield>
-            <marc:subfield code="1p">fuhrermartin</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0297620/</marc:subfield>
             <marc:subfield code="4">cng</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Getty, Balthazar</marc:subfield>
             <marc:subfield code="d">1975- </marc:subfield>
-            <marc:subfield code="1p">gettybalthazar</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0001267/</marc:subfield>
             <marc:subfield code="4">act</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Furth, Chris </marc:subfield>
-            <marc:subfield code="1p">furthchris</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0299077/</marc:subfield>
             <marc:subfield code="4">act</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Pipoly, Daniel </marc:subfield>
-            <marc:subfield code="1p">pipolydaniel</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0684999/</marc:subfield>
             <marc:subfield code="4">act</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Sarde, Philippe</marc:subfield>
             <marc:subfield code="d">1945-</marc:subfield>
-            <marc:subfield code="1p">sardephilippe</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0006271/</marc:subfield>
             <marc:subfield code="4">cmp</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -10240,38 +10239,38 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Hook, Harry</marc:subfield>
-            <marc:subfield code="1p">hookharry</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/26169769</marc:subfield>
             <marc:subfield code="4">drt</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Milloy, Ross</marc:subfield>
-            <marc:subfield code="1p">milloyross</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0589869</marc:subfield>
             <marc:subfield code="4">pro</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Schiff, Sara</marc:subfield>
-            <marc:subfield code="1p">schiffsara</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0696319/</marc:subfield>
             <marc:subfield code="4">aus</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Fuhrer, Martin</marc:subfield>
-            <marc:subfield code="1p">fuhrermartin</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0297620/</marc:subfield>
             <marc:subfield code="4">cng</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Getty, Balthazar</marc:subfield>
             <marc:subfield code="d">1975-</marc:subfield>
-            <marc:subfield code="1p">gettybalthazar</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0001267/</marc:subfield>
             <marc:subfield code="4">act</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Furth, Chris</marc:subfield>
-            <marc:subfield code="1p">furthchris</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0299077/</marc:subfield>
             <marc:subfield code="4">act</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Pipoly, Daniel</marc:subfield>
-            <marc:subfield code="1p">pipolydaniel</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0684999/</marc:subfield>
             <marc:subfield code="4">act</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -10366,44 +10365,44 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Hook, Harry</marc:subfield>
-            <marc:subfield code="1p">hookharry</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/26169769</marc:subfield>
             <marc:subfield code="4">drt</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Milloy, Ross</marc:subfield>
-            <marc:subfield code="1p">milloyross</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0589869</marc:subfield>
             <marc:subfield code="4">pro</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Schiff, Sara</marc:subfield>
-            <marc:subfield code="1p">schiffsara</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0696319/</marc:subfield>
             <marc:subfield code="4">aus</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Fuhrer, Martin</marc:subfield>
-            <marc:subfield code="1p">fuhrermartin</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0297620/</marc:subfield>
             <marc:subfield code="4">cng</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Sarde, Philippe</marc:subfield>
             <marc:subfield code="d">1945-</marc:subfield>
-            <marc:subfield code="1p">sardephilippe</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0006271/</marc:subfield>
             <marc:subfield code="4">cmp</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Getty, Balthazar</marc:subfield>
             <marc:subfield code="d">1975-</marc:subfield>
-            <marc:subfield code="1p">gettybalthazar</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0001267/</marc:subfield>
             <marc:subfield code="4">act</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Furth, Chris</marc:subfield>
-            <marc:subfield code="1p">furthchris</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0299077/</marc:subfield>
             <marc:subfield code="4">act</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Pipoly, Daniel</marc:subfield>
-            <marc:subfield code="1p">pipolydaniel</marc:subfield>
+            <marc:subfield code="1p">https://www.imdb.com/name/nm0684999/</marc:subfield>
             <marc:subfield code="4">act</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -10550,7 +10549,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Santos Fontenla, Fernando</marc:subfield>
-            <marc:subfield code="1p">santosfontenlafernando</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/19389226</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="830" ind1=" " ind2="3">
@@ -10751,7 +10750,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Goligorsky, Eduardo</marc:subfield>
-            <marc:subfield code="1p">goligorskyeduardo</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/38364518</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -11245,7 +11244,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Champourcin, Ernestina de</marc:subfield>
             <marc:subfield code="d">1905-1999</marc:subfield>
-            <marc:subfield code="1p">champourcinernestinade</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/12367718</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
@@ -11365,7 +11364,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Champourcin, Ernestina de</marc:subfield>
             <marc:subfield code="d">1905-1999</marc:subfield>
-            <marc:subfield code="1p">champourcinernestinade</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/12367718</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
@@ -11619,7 +11618,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="1">
             <marc:subfield code="a">Goligorsky, Eduardo</marc:subfield>
-            <marc:subfield code="1p">goligorskyeduardo</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/38364518</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -11763,7 +11762,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Champourcin, Ernestina de</marc:subfield>
             <marc:subfield code="d">1905-1999</marc:subfield>
-            <marc:subfield code="1p">champourcinernestinade</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/12367718</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
@@ -11931,7 +11930,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Golygorsky, Eduardo</marc:subfield>
-            <marc:subfield code="1p">golygorskyeduardo</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/38364518</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -12203,7 +12202,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Santos Fontenla, Fernando</marc:subfield>
-            <marc:subfield code="1p">santosfontenlafernando</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/19389226</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -12278,7 +12277,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Santos Fontenla, Fernando</marc:subfield>
-            <marc:subfield code="1p">santosfontenlafernando</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/19389226</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="830" ind1=" " ind2="3">
@@ -12347,7 +12346,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Golygorsky, Eduardo</marc:subfield>
-            <marc:subfield code="1p">golygorskyeduardo</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/38364518</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -12993,7 +12992,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Goligorsky, Eduardo</marc:subfield>
-            <marc:subfield code="1p">goligorskyeduardo</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/38364518</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -13276,7 +13275,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Salvador, Tomás</marc:subfield>
             <marc:subfield code="d">1921-1984</marc:subfield>
-            <marc:subfield code="1p">salvadortoms</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/85823749</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
@@ -13642,7 +13641,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Santos Fontenla, Fernando</marc:subfield>
-            <marc:subfield code="1p">santosfontenlafernando</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/19389226</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="830" ind1=" " ind2="3">
@@ -13716,7 +13715,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Santos Fontenla, Fernando</marc:subfield>
-            <marc:subfield code="1p">santosfontenlafernando</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/19389226</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -14154,7 +14153,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Santos Fontenla, Fernando</marc:subfield>
-            <marc:subfield code="1p">santosfontenlafernando</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/19389226</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -14227,7 +14226,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Champourcin, Ernestina de</marc:subfield>
             <marc:subfield code="d">1905-1999</marc:subfield>
-            <marc:subfield code="1p">champourcinernestinade</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/12367718</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
@@ -14477,7 +14476,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Santos Fontenla, Fernando</marc:subfield>
-            <marc:subfield code="1p">santosfontenlafernando</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/19389226</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -14553,7 +14552,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Salvador, Tomás</marc:subfield>
             <marc:subfield code="d">1921-1984</marc:subfield>
-            <marc:subfield code="1p">salvadortoms</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/85823749</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -14618,7 +14617,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Salvador, Tomás</marc:subfield>
             <marc:subfield code="d">1921-1984</marc:subfield>
-            <marc:subfield code="1p">salvadortoms</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/85823749</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
@@ -14694,7 +14693,7 @@
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Santos Fontenla, Fernando</marc:subfield>
-            <marc:subfield code="1p">santosfontenlafernando</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/19389226</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
@@ -15928,7 +15927,7 @@
             <marc:subfield code="e">Mitwirkender</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
-            <marc:subfield code="1p">richterirmgard</marc:subfield>
+            <marc:subfield code="1p">http://example.org/names/richterirmgard</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -16465,7 +16464,7 @@
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="e">Mitwirkender</marc:subfield>
             <marc:subfield code="4" old="ctb">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -16756,7 +16755,7 @@
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="e">Übersetzer</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -16869,7 +16868,7 @@
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="e">Mitwirkender</marc:subfield>
             <marc:subfield code="4" old="ctb">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer Bücherei</marc:subfield>
@@ -17191,7 +17190,7 @@
             <marc:subfield code="a">Richter, Irmgard</marc:subfield>
             <marc:subfield code="e">Mitwirkender</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
-            <marc:subfield code="1p">richterirmgard</marc:subfield>
+            <marc:subfield code="1p">http://example.org/names/richterirmgard</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -17665,7 +17664,7 @@
             <marc:subfield code="d">1958-</marc:subfield>
             <marc:subfield code="e">Übersetzer</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">torbergpeter</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/79155403</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -18587,11 +18586,11 @@
             <marc:subfield code="a">Kaiser, Gerd</marc:subfield>
             <marc:subfield code="e">Verfasser</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
-            <marc:subfield code="1p">kaisergerd</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/303443830</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="240">
             <marc:subfield code="a">Stundenblätter Golding, "Lord of the flies"</marc:subfield>
-            <marc:subfield code="1">kaisergerd/stundenblattergoldinglordoftheflies</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="245">
             <marc:subfield code="a">Stundenblätter Golding, "Lord of the flies"</marc:subfield>
@@ -19513,7 +19512,7 @@
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="e">Mitwirkender</marc:subfield>
             <marc:subfield code="4" old="ctb">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Bibliothek Suhrkamp</marc:subfield>
@@ -19632,7 +19631,7 @@
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="e">Mitwirkender</marc:subfield>
             <marc:subfield code="4" old="ctb">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -19825,7 +19824,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="2" tag="856">
             <marc:subfield code="m">B:DE-101</marc:subfield>
@@ -19982,11 +19981,11 @@
             <marc:subfield code="a">Kaiser, Gerd</marc:subfield>
             <marc:subfield code="e">Verfasser</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
-            <marc:subfield code="1p">kaisergerd</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/303443830</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="240">
             <marc:subfield code="a">Stundenblätter Golding, "Lord of the flies"</marc:subfield>
-            <marc:subfield code="1">kaisergerd/stundenblattergoldinglordoftheflies</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="245">
             <marc:subfield code="a">Stundenblätter Golding, "Lord of the flies"</marc:subfield>
@@ -20654,7 +20653,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -20861,7 +20860,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="2" tag="856">
             <marc:subfield code="m">B:DE-101</marc:subfield>
@@ -21032,11 +21031,11 @@
             <marc:subfield code="a">Kaiser, Gerd</marc:subfield>
             <marc:subfield code="e">Verfasser</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
-            <marc:subfield code="1p">kaisergerd</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/303443830</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="240">
             <marc:subfield code="a">Stundenblätter Golding, "Lord of the flies"</marc:subfield>
-            <marc:subfield code="1">kaisergerd/stundenblattergoldinglordoftheflies</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="245">
             <marc:subfield code="a">Stundenblätter Golding, "Lord of the flies"</marc:subfield>
@@ -21328,7 +21327,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -21653,7 +21652,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -21774,7 +21773,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -21994,7 +21993,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -22964,7 +22963,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer-Taschenbücher</marc:subfield>
@@ -23357,7 +23356,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer Bücherei</marc:subfield>
@@ -23475,7 +23474,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -23561,7 +23560,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -23674,7 +23673,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -23741,11 +23740,11 @@
             <marc:subfield code="a">Kaiser, Gerd</marc:subfield>
             <marc:subfield code="e">Verfasser</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
-            <marc:subfield code="1p">kaisergerd</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/303443830</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="240">
             <marc:subfield code="a">Stundenblätter Golding, "Lord of the flies"</marc:subfield>
-            <marc:subfield code="1">kaisergerd/stundenblattergoldinglordoftheflies</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="245">
             <marc:subfield code="a">Stundenblätter Golding, "Lord of the flies"</marc:subfield>
@@ -24118,13 +24117,13 @@
             <marc:subfield code="d">1939-</marc:subfield>
             <marc:subfield code="e">Verfasser</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
-            <marc:subfield code="1p">poppereiner</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/262356343</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="240">
             <marc:subfield code="a">William Golding, Herr der Fliegen, Die Koralleninsel (R. M.
                 Ballantyne) / Analysen und Reflexionen. Interpretationen und
                 Anmerkungen.</marc:subfield>
-            <marc:subfield code="1">poppereiner/williamgoldingherrderfliegendiekoralleninselrmballantyne</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/262356343/williamgoldingherrderfliegendiekoralleninselrmballantyne</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="245">
             <marc:subfield code="a">William Golding, Herr der Fliegen, Die Koralleninsel (R. M.
@@ -24352,7 +24351,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Reclams Universal-Bibliothek</marc:subfield>
@@ -24581,7 +24580,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Reclams Universal-Bibliothek</marc:subfield>
@@ -24697,7 +24696,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="500">
             <marc:subfield code="a">Lizenzausg. d. S.-Fischer-Verl., Frankfurt am Main. - Ausg. für
@@ -24814,7 +24813,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -24926,7 +24925,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -25105,7 +25104,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="8" tag="773">
             <marc:subfield code="q">pb12</marc:subfield>
@@ -25236,7 +25235,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -25371,7 +25370,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -25592,7 +25591,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -25703,7 +25702,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -26141,7 +26140,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -26264,7 +26263,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -26476,7 +26475,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Herrera, Ulla H. de</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">herreraullahde</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/81823873</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
             <marc:subfield code="a">Golding, William</marc:subfield>
@@ -26587,12 +26586,12 @@
             <marc:subfield code="d">1939-</marc:subfield>
             <marc:subfield code="e">Verfasser</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
-            <marc:subfield code="1p">poppereiner</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/262356343</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="240">
             <marc:subfield code="a">Erläuterungen zu William Golding, Herr der Fliegen (Lord of the
                 flies)</marc:subfield>
-            <marc:subfield code="1">poppereiner/erlauterungenzuwilliamgoldingherrderfliegenlordoftheflies</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/262356343/erlauterungenzuwilliamgoldingherrderfliegenlordoftheflies</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="245">
             <marc:subfield code="a">Erläuterungen zu William Golding, Herr der Fliegen (Lord of the
@@ -26772,7 +26771,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Herrera, Ulla H. de</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">herreraullahde</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/81823873</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="250">
             <marc:subfield code="a">1. Aufl.</marc:subfield>
@@ -26810,7 +26809,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Herrera, Ulla H. de</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">herreraullahde</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/81823873</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
             <marc:subfield code="a">Golding, William</marc:subfield>
@@ -26961,7 +26960,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer-Taschenbücher</marc:subfield>
@@ -27269,7 +27268,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="2" tag="856">
             <marc:subfield code="m">X:MVB</marc:subfield>
@@ -27383,7 +27382,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -27492,7 +27491,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Nobelpreis-Bibliothek</marc:subfield>
@@ -27609,7 +27608,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer-Taschenbücher</marc:subfield>
@@ -27868,7 +27867,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -27935,12 +27934,12 @@
             <marc:subfield code="d">1939-</marc:subfield>
             <marc:subfield code="e">Verfasser</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
-            <marc:subfield code="1p">poppereiner</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/262356343</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="240">
             <marc:subfield code="a">William Golding, Herr der Fliegen (Lord of the
                 flies)</marc:subfield>
-            <marc:subfield code="1">poppereiner/williamgoldingherrderfliegenlordoftheflies</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/262356343/williamgoldingherrderfliegenlordoftheflies</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="245">
             <marc:subfield code="a">William Golding, Herr der Fliegen (Lord of the
@@ -28135,7 +28134,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer-Taschenbücher</marc:subfield>
@@ -28250,7 +28249,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer-Taschenbücher</marc:subfield>
@@ -28567,7 +28566,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Roman-Zeitung</marc:subfield>
@@ -28688,7 +28687,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -28742,12 +28741,12 @@
             <marc:subfield code="d">1939-</marc:subfield>
             <marc:subfield code="e">Verfasser</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
-            <marc:subfield code="1p">poppereiner</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/262356343</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="240">
             <marc:subfield code="a">Erläuterungen zu William Golding, Herr der Fliegen (Lord of the
                 flies)</marc:subfield>
-            <marc:subfield code="1">poppereiner/erlauterungenzuwilliamgoldingherrderfliegenlordoftheflies</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/262356343/erlauterungenzuwilliamgoldingherrderfliegenlordoftheflies</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2="0" tag="245">
             <marc:subfield code="a">Erläuterungen zu William Golding, Herr der Fliegen (Lord of the
@@ -28952,7 +28951,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -29161,7 +29160,7 @@
             <marc:subfield code="d">1939-</marc:subfield>
             <marc:subfield code="e">Mitwirkender</marc:subfield>
             <marc:subfield code="4">ctb</marc:subfield>
-            <marc:subfield code="1p">poppereiner</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/262356343</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Königs Erläuterungen und Materialien</marc:subfield>
@@ -29281,7 +29280,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Reclams Universal-Bibliothek</marc:subfield>
@@ -29499,7 +29498,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Fischer</marc:subfield>
@@ -29761,7 +29760,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Stiehl, Hermann</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">stiehlhermann</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/42309455</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -29934,7 +29933,7 @@
             <marc:subfield code="a">Amlie, Axel</marc:subfield>
             <marc:subfield code="d">1922-1996</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">amlieaxel</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/226311641</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="2" tag="856">
             <marc:subfield code="3">Beskrivelse fra Forlagssentralen</marc:subfield>
@@ -30106,7 +30105,7 @@
             <marc:subfield code="a">Hagerup, Inger</marc:subfield>
             <marc:subfield code="d">1905-1985</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">hagerupinger</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/74661518</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="2" tag="856">
             <marc:subfield code="3">Beskrivelse fra Forlagssentralen</marc:subfield>
@@ -30192,7 +30191,7 @@
             <marc:subfield code="a">Hagerup, Inger</marc:subfield>
             <marc:subfield code="d">1905-1985</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">hagerupinger</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/74661518</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="0" ind2=" " tag="776">
             <marc:subfield code="t">Fluenes herre</marc:subfield>
@@ -30291,13 +30290,13 @@
             <marc:subfield code="a">Hagerup, Inger</marc:subfield>
             <marc:subfield code="d">1905-1985</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">hagerupinger</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/74661518</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Graff, Finn</marc:subfield>
             <marc:subfield code="d">1938-</marc:subfield>
             <marc:subfield code="4">ill</marc:subfield>
-            <marc:subfield code="1p">grafffinn</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/168510499</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="2" tag="856">
             <marc:subfield code="3">Beskrivelse fra Forlagssentralen</marc:subfield>
@@ -30380,7 +30379,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Hagerup, Inger</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">hagerupinger</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/74661518</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="2" tag="856">
             <marc:subfield code="3">Beskrivelse fra Forlagssentralen</marc:subfield>
@@ -30465,7 +30464,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Hagerup, Inger</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">hagerupinger</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/74661518</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2="0" tag="830">
             <marc:subfield code="a">Gyldendal klassiker</marc:subfield>
@@ -30560,7 +30559,7 @@
             <marc:subfield code="a">Hagerup, Inger</marc:subfield>
             <marc:subfield code="d">1905-1985</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">hagerupinger</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/74661518</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="0" tag="856">
             <marc:subfield code="3">Fulltekst</marc:subfield>
@@ -30728,7 +30727,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Amlie, Axel</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">amlieaxel</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/226311641</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="0" tag="856">
             <marc:subfield code="3">Fulltekst</marc:subfield>
@@ -30829,13 +30828,13 @@
             <marc:subfield code="d">1938-</marc:subfield>
             <marc:subfield code="e">illustr.</marc:subfield>
             <marc:subfield code="4">ill</marc:subfield>
-            <marc:subfield code="1p">grafffinn</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/168510499</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Hagerup, Inger</marc:subfield>
             <marc:subfield code="d">1905-1985</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">hagerupinger</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/74661518</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="0" tag="856">
             <marc:subfield code="3">Fulltekst</marc:subfield>
@@ -30925,7 +30924,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Aurstad, Oddvar</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">aurstadoddvar</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/60552805</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="0" tag="856">
             <marc:subfield code="3">Fulltekst</marc:subfield>
@@ -31020,7 +31019,7 @@
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Hagerup, Inger</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">hagerupinger</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/74661518</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="0" tag="856">
             <marc:subfield code="3">Fulltekst</marc:subfield>
@@ -31107,7 +31106,7 @@
             <marc:subfield code="a">Amlie, Axel</marc:subfield>
             <marc:subfield code="d">1922-1996</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">amlieaxel</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/226311641</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="2" tag="856">
             <marc:subfield code="3">Beskrivelse fra Forlagssentralen</marc:subfield>
@@ -31141,6 +31140,7 @@
             <marc:subfield code="c">Nkr 398.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nob</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
             <marc:subfield code="d">nob</marc:subfield>
         </marc:datafield>
@@ -31205,12 +31205,12 @@
             <marc:subfield code="a">Broch, Nicolai Cleve</marc:subfield>
             <marc:subfield code="d">1975-</marc:subfield>
             <marc:subfield code="4">nrt</marc:subfield>
-            <marc:subfield code="1p">brochnicolaicleve</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/10057685</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="700">
             <marc:subfield code="a">Hagerup, Inger</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
-            <marc:subfield code="1p">hagerupinger</marc:subfield>
+            <marc:subfield code="1p">http://viaf.org/viaf/74661518</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="4" ind2="2" tag="856">
             <marc:subfield code="3">Beskrivelse fra Forlagssentralen</marc:subfield>
