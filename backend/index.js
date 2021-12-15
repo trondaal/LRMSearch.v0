@@ -4,8 +4,8 @@ const neo4j = require("neo4j-driver");
 
 const typeDefs = gql`
     type Expression @fulltext(indexes: [{ name: "expressions", fields: ["title"] }]) {
-        uri,
-        title,
+        uri: String
+        title: String
         manifestations: [Manifestation] @relationship(type: "EMBODIES", direction: IN)
         work: [Work] @relationship(type: "REALIZES", direction: OUT)
         language: [Concept] @relationship(type: "LANGUAGE", direction: OUT)
@@ -13,8 +13,8 @@ const typeDefs = gql`
         creators: [Agent] @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
     }
     type Work {
-        uri,
-        title,
+        uri: String
+        title: String
         type: [Concept] @relationship(type: "TYPE", direction: OUT)
         creators: [Agent] @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
     }
