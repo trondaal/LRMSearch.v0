@@ -71,7 +71,7 @@ const server = new ApolloServer({
     schema: neoSchema.schema,
 });
 
-server.listen().then(({ url }) => {
+server.listen(8080).then(({ url }) => {
     console.log(`🚀 Server ready at ${url}`);
 });
 
