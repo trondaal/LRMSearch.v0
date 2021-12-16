@@ -257,14 +257,23 @@
                      <xsl:attribute name="i" select="$marcid"/>
                   </xsl:element>
                </xsl:if>
-               <xsl:for-each select="$record/*:datafield[@tag='041'][generate-id(.) = generate-id($anchor_field)][*:subfield/@code = ('a')]">
+               <xsl:for-each select="$record/*:datafield[@tag='041'][generate-id(.) = generate-id($anchor_field)][*:subfield/@code = ('a','d')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
                      <xsl:if test="$include_counters">
                         <xsl:attribute name="c" select="1"/>
                      </xsl:if>
-                     <xsl:for-each select="*:subfield[@code = ('a')]">
+                     <xsl:for-each select="*:subfield[@code = ('a','d')]">
                         <xsl:if test="@code = 'a' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'd' and generate-id(.) = generate-id($anchor_subfield)">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
                                  <xsl:with-param name="type"

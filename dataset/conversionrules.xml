@@ -84,6 +84,7 @@
         <attributes>
             <datafield tag="041" condition="generate-id(.) = generate-id($anchor_field)">
                 <subfield code="a" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="d" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
             </datafield>
         </attributes>
         <key order="1">

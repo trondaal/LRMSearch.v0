@@ -33522,6 +33522,7 @@
             <marc:subfield code="c">Nkr 328.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="042">
@@ -33635,6 +33636,7 @@
             <marc:subfield code="c">Nkr 229.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -33741,6 +33743,7 @@
             <marc:subfield code="c">Nkr 115.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -33841,6 +33844,7 @@
             <marc:subfield code="c">Nkr 65.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -33938,6 +33942,7 @@
             <marc:subfield code="q">ib.</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="042">
@@ -34052,6 +34057,7 @@
             <marc:subfield code="c">Nkr 135.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -34172,6 +34178,7 @@
             <marc:subfield code="c">Nkr 79.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -34270,6 +34277,7 @@
             <marc:subfield code="c">Nkr 49.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="042">
@@ -34379,6 +34387,7 @@
             <marc:subfield code="c">Nkr 23.50</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -34481,6 +34490,7 @@
             <marc:subfield code="c">Nkr 11.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -34584,6 +34594,7 @@
             <marc:subfield code="c">Nkr 99.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -34684,6 +34695,7 @@
             <marc:subfield code="c">Nkr 20.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -34809,6 +34821,7 @@
             <marc:subfield code="c">Nkr 138.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
@@ -34916,6 +34929,7 @@
             <marc:subfield code="c">Nkr 75.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="042">
@@ -35024,6 +35038,7 @@
             <marc:subfield code="c">Nkr 219.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1=" " ind2=" " tag="044">
