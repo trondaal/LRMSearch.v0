@@ -242,7 +242,7 @@
             </datafield>
             <datafield tag="245">
                 <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="frbrizer:trim(.)" label="has title"/>
-                <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), ($record/*:controlfield[@tag='008'][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]/substring(., 36, 3),$record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')])[1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
+                <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), $record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')][1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
             </datafield>
             <!--<datafield tag="336" condition="frbrizer:linked($anchor_field, .)">
                 <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
@@ -267,7 +267,6 @@
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
                 <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
-                <target entity="MARC008language"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
                 <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
@@ -593,7 +592,7 @@
                 <subfield code="1" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
             </datafield>
             <datafield tag="700"  condition=". eq $this_field">
-                <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), ($record/*:controlfield[@tag='008'][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]/substring(., 36, 3),$record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')])[1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
+                <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), $record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')][1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
                 <!--<subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/> -->
                 <!--<subfield code="h" select="lower-case(frbrizer:trim(.))" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>-->
                 <subfield code="l" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
@@ -639,7 +638,6 @@
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
                 <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
-                <target entity="MARC008language"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
                 <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
