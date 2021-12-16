@@ -176,7 +176,7 @@
                 <!--<subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>-->
                 <subfield code="1" type="http://rdaregistry.info/Elements/x/datatype/P00018" label="has identifier for work"/>
             </datafield>
-            <!--<datafield tag="380" condition="frbrizer:linked($anchor_field, .)">
+            <!--<datafield tag="380" condition="frbrizer:linked($anchor_field, ., false())">
                 <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has category of work"/>
                 <subfield code="0" select="." type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
             </datafield>-->
@@ -186,25 +186,25 @@
         </key>
         <relationships>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10002" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked-or-nolink($anchor_field, $target_field)" />
+                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10002" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked($anchor_field, $target_field, false())" />
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/w/object/P10319" >
-                <target entity="MARC21-600-Person" condition="not($target_field/*:subfield/@code = 't') and frbrizer:linked-or-nolink($anchor_field, $target_field)"  type="http://rdaregistry.info/Elements/c/C10002"/>
+                <target entity="MARC21-600-Person" condition="not($target_field/*:subfield/@code = 't') and frbrizer:linked($anchor_field, $target_field, false())"  type="http://rdaregistry.info/Elements/c/C10002"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/w/object/P10257">
-                <target entity="MARC21-6XX-Work" condition="not($this_field/*:subfield/@code = '1') or not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1'])  and frbrizer:linked-or-nolink($anchor_field, $target_field)" type="http://rdaregistry.info/Elements/c/C10001"/>
+                <target entity="MARC21-6XX-Work" condition="not($this_field/*:subfield/@code = '1') or not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1'])  and frbrizer:linked($anchor_field, $target_field, false())" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-700-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+                <target entity="MARC21-700-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-758-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+                <target entity="MARC21-758-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/w/object/P10019" label="part of work">
                 <target entity="MARC21-8XX-Work-Series" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/w/datatype/P10004">
-                <target entity="MARC380" condition="frbrizer:linked($anchor_field, $target_field)"/>
+                <target entity="MARC380" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
         </relationships>
     </entity>
@@ -225,20 +225,23 @@
                 <subfield code="j" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
             </datafield>-->
             <datafield tag="130">               
-                <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="frbrizer:trim(.)" label="has variant title"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20316" select="frbrizer:trim(.)" label="has variant title"/>
                 <!--<subfield code="h" type="http://rdaregistry.info/Elements/e/datatype/P20001" select="lower-case(frbrizer:trim(.))" label="has content type"/>-->
                 <!--<subfield code="l" type="http://rdaregistry.info/Elements/e/datatype/P20006" select="lower-case(.)" label="has language of expression"/>-->
             </datafield>
             <datafield tag="240">
-                <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="frbrizer:trim(.)" label="has variant title"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20316" select="frbrizer:trim(.)" label="has variant title"/>
                 <!--<subfield code="h" type="http://rdaregistry.info/Elements/e/datatype/P20001" select="lower-case(frbrizer:trim(.))" label="has content type"/>-->
                 <!--<subfield code="l" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>-->
             </datafield>
-            <datafield tag="740" condition="frbrizer:linked-strict($anchor_field, .)">
+            <datafield tag="740" condition="frbrizer:linked($anchor_field, ., true())">
                 <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20315" label="titlepreferred"/>
             </datafield>
+            <datafield tag="740" condition="frbrizer:linked($anchor_field, ., false())">
+                <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20316" label="varianttitle"/>
+            </datafield>
             <datafield tag="245">
-                <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="frbrizer:trim(.)" label="has variant title"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="frbrizer:trim(.)" label="has title"/>
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), ($record/*:controlfield[@tag='008'][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]/substring(., 36, 3),$record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')])[1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
             </datafield>
             <!--<datafield tag="336" condition="frbrizer:linked($anchor_field, .)">
@@ -260,14 +263,14 @@
                 <target entity="MARC21-130240-Work" same-field="true" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
-                <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field)"/>
+                <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
                 <target entity="MARC008language"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
-                <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field)"/>
+                <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
         </relationships>
     </entity>
@@ -367,7 +370,7 @@
                 <target entity="MARC21-773-Manifestation"/>
             </relationship>-->
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/m/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/m/') and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/m/object/P30139"  label="has expression manifested">
                 <target entity="MARC21-130240-Expression"  type="http://rdaregistry.info/Elements/c/C10006"/>
@@ -376,10 +379,10 @@
                 <target entity="MARC21-700-Expression-Analytical"  type="http://rdaregistry.info/Elements/c/C10006"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/m/datatype/P30002" label="has content type">
-                <target entity="MARC337" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+                <target entity="MARC337" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/m/datatype/P30001" label="has content type">
-                <target entity="MARC338" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+                <target entity="MARC338" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
         </relationships>
     </entity>
@@ -499,7 +502,7 @@
         </key>
         <relationships>
             <!--<relationship type="{$target_subfield}">
-                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked-strict($anchor_field, $target_field)"/>
+                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:strict($anchor_field, $target_field, true())"/>
             </relationship>-->
         </relationships>
     </entity>
@@ -553,22 +556,22 @@
                 <target entity="MARC21-130240-Work" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/w/object/P10319" >
-                <target entity="MARC21-600-Person" condition="frbrizer:linked-or-nolink($anchor_field, $target_field)"  type="http://rdaregistry.info/Elements/c/C10002"/>
+                <target entity="MARC21-600-Person" condition="frbrizer:linked($anchor_field, $target_field, false())"  type="http://rdaregistry.info/Elements/c/C10002"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/w/object/P10257" >
-                <target entity="MARC21-6XX-Work"  condition="frbrizer:linked-or-nolink($anchor_field, $target_field) and not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1'])" type="http://rdaregistry.info/Elements/c/C10001"/>
+                <target entity="MARC21-6XX-Work"  condition="frbrizer:linked($anchor_field, $target_field, false()) and not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1'])" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-700-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked-strict($anchor_field, $target_field)"/>
+                <target entity="MARC21-700-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-758-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked-strict($anchor_field, $target_field)"/>
+                <target entity="MARC21-758-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/w/datatype/P10004">
-                <target entity="MARC380" condition="frbrizer:linked($anchor_field, $target_field)"/>
+                <target entity="MARC380" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
         </relationships>
     </entity>
@@ -578,14 +581,14 @@
         <note>Expression associated with work identified by 700$t (only creating expressions for analytical entries)</note>
         <attributes>
             <!--<controlfield tag="008"  condition="string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression" select="substring(., 36, 3)"/>-->
-            <datafield tag="041" condition="frbrizer:linked($anchor_field, .) and not(exists($anchor_field/*:subfield[@code = 'l']))">
+            <datafield tag="041" condition="frbrizer:linked($anchor_field, ., false()) and not(exists($anchor_field/*:subfield[@code = 'l']))">
                 <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="d" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="e" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="f" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="j" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
             </datafield>
-            <datafield tag="336" condition="frbrizer:linked($anchor_field, .)"> 
+            <datafield tag="336" condition="frbrizer:linked($anchor_field, ., false())"> 
                 <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
                 <subfield code="1" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
             </datafield>
@@ -614,9 +617,12 @@
                 <subfield code="l" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="t" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20312"  label="has variant title"/>
             </datafield>
-            <!--<datafield tag="740" condition="frbrizer:linked-strict($anchor_field, .)">
-                <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20315" label="has preferred title"/>
-            </datafield>-->
+            <datafield tag="740" condition="frbrizer:linked($anchor_field, ., true())">
+                <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20315" label="titlepreferred"/>
+            </datafield>
+            <datafield tag="740" condition="frbrizer:linked($anchor_field, ., false())">
+                <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20316" label="varianttitle"/>
+            </datafield>
         </attributes>
         <key order="2">
             <element>(frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1]</element>
@@ -629,14 +635,14 @@
                 <target entity="MARC21-700-Work-Analytical" same-field="true" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked-or-nolink($anchor_field, $target_field)"/>
+                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
-                <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field)"/>
+                <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
                 <target entity="MARC008language"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
-                <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field)"/>
+                <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
         </relationships>
     </entity>
@@ -718,40 +724,19 @@
  
         <xsl:function name="frbrizer:linked" as="xs:boolean">
             <!-- returns true if the two fields have the same marc 21 link ($8), or if there is no linking subfields in target or source -->
-            <xsl:param name="anchor" as="element()"/>
-            <xsl:param name="target" as="element()"/>
-            <xsl:sequence select="(some $x in $anchor/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or (not(exists($anchor/*:subfield[@code = '8'])) or not(exists($target/*:subfield[@code='8'])))"/>  
-            <!--xsl:value-of select="(some $x in $anchor/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or (not(exists($target/*:subfield[@code = '8'])))"/>-->
-        </xsl:function>
-        
-        <xsl:function name="frbrizer:linked2" as="xs:boolean">
-            <!-- returns true if the two fields have the same marc 21 link ($8), or if there is no linking subfields in target -->
-            <xsl:param name="source" as="element()"/>
-            <xsl:param name="target" as="element()"/>
-            <xsl:sequence select="(some $x in $source/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or (exists($source/*:subfield[@code = '8']) and not(exists($target/*:subfield[@code='8'])))"/>  
-            <!--xsl:value-of select="(some $x in $anchor/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or (not(exists($target/*:subfield[@code = '8'])))"/>-->
-        </xsl:function>
-        
-        <xsl:function name="frbrizer:linked-or-nolink" as="xs:boolean">
-            <!-- returns true if the two fields have the same marc 21 link ($8), or if there is no linking subfields in target and source -->
-            <xsl:param name="anchor" as="element()"/>
-            <xsl:param name="target" as="element()"/>
-            <xsl:sequence select="(some $x in $anchor/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or ((not(exists($anchor/*:subfield[@code = '8'])) and not(exists($target/*:subfield[@code='8']))))"/>  
-        </xsl:function>
-        
-        <xsl:function name="frbrizer:linked-strict" as="xs:boolean">
-            <!-- returns true if the two fields have the same marc 21 link ($8) -->
-            <xsl:param name="anchor" as="element()*"/>
-            <xsl:param name="target" as="element()*"/>
-            <xsl:sequence select="some $x in $anchor/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']"/>
-        </xsl:function>
-        
-        <xsl:function name="frbrizer:linked-semistrict" as="xs:boolean">
-            <!-- returns true if the two fields have the same marc 21 link ($8) -->
-            <!-- returns true if the two fields have the same marc 21 link ($8), or if there is no linking subfields in target or source -->
-            <xsl:param name="anchor" as="element()"/>
-            <xsl:param name="target" as="element()"/>
-            <xsl:sequence select="(some $x in $anchor/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or (not(exists($anchor/*:subfield[@code = '8'])) and not(exists($target/*:subfield[@code='8'])))"/>  
+            <xsl:param name="source" as="element()" required="yes"/>
+            <xsl:param name="target" as="element()" required="yes"/>
+            <xsl:param name="strict" as="xs:boolean" required="yes"/>
+            <xsl:choose>
+                <xsl:when test="$strict">
+                    <!-- returns true if the two fields have the same marc 21 link ($8), or if there is no linking subfields in either source nor target -->
+                    <xsl:sequence select="some $x in $source/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']"/>                 
+                </xsl:when>
+                <xsl:otherwise>
+                    <!-- returns true if the two fields have the same marc 21 link ($8), or if there is no linking subfields in target -->
+                    <xsl:sequence select="(some $x in $source/*:subfield[@code = '8'] satisfies $x = $target/*:subfield[@code = '8']) or not(exists($target/*:subfield[@code='8']))"/>                 
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:function>
         
         <xsl:function name="frbrizer:trim" as="xs:string*">
