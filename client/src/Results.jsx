@@ -16,6 +16,8 @@ const GET_RESULTS = gql`
     query ($query: String!){
         expressions(fulltext: {expressions: {phrase: $query}}){
             title,
+            titlepreferred,
+            titlevariant,
             uri,
             language{
                 label
@@ -123,7 +125,13 @@ function Manifestation(props){
 }
 
 function Expression(props){
-    const title = props.expression.title;
+
+    const titles = [];
+    if (!isEmpty(props.expression.titlepreferred)) titles.push(props.expression.titlepreferred);
+    if (!isEmpty(props.expression.title)) titles.push(props.expression.title);
+    if (!isEmpty(props.expression.titlevariant)) titles.push(props.expression.titlevariant);
+    const title = titles[0];
+
     const creators = props.expression.work[0].creatorsConnection.edges.map(e => e.node.name + " (" + e.role + ")").join(', ');
     const type = props.expression.work[0].type.map(t => t.label).join(', ');
     const language = props.expression.language.map(l => l.label).join(', ');

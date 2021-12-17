@@ -96,6 +96,7 @@
             <xsl:call-template name="MARC337"/>
             <xsl:call-template name="MARC338"/>
             <xsl:call-template name="MARC041"/>
+            <xsl:call-template name="MARC041additional"/>
             <xsl:call-template name="MARC008language"/>
             <xsl:call-template name="MARC21-100700Person"/>
             <xsl:call-template name="MARC21-130240-Work"/>
@@ -192,7 +193,7 @@
    <xsl:template name="MARC041">
       <xsl:variable name="this_template_name" select="'MARC041'"/>
       <xsl:variable name="tag" as="xs:string" select="'041'"/>
-      <xsl:variable name="code" as="xs:string" select="'a'"/>
+      <xsl:variable name="code" as="xs:string" select="'a, d'"/>
       <xsl:variable name="record" select="."/>
       <xsl:variable name="marcid" select="*:controlfield[@tag='001']"/>
       <xsl:for-each select="node()[@tag=('041')]">
@@ -208,11 +209,11 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='a']">
+         <xsl:for-each select="node()[@code=('a','d')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'a'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'a'"/>
+            <xsl:variable name="this_subfield_code" as="xs:string" select="'a, d'"/>
+            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'a, d'"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -297,6 +298,228 @@
          </xsl:for-each>
       </xsl:for-each>
    </xsl:template>
+   <xsl:template name="MARC041additional">
+      <xsl:variable name="this_template_name" select="'MARC041additional'"/>
+      <xsl:variable name="tag" as="xs:string" select="'041'"/>
+      <xsl:variable name="code"
+                    as="xs:string"
+                    select="'b, e, f, g, i, j, k, l, m, n, p, q, r, t'"/>
+      <xsl:variable name="record" select="."/>
+      <xsl:variable name="marcid" select="*:controlfield[@tag='001']"/>
+      <xsl:for-each select="node()[@tag=('041')]">
+         <xsl:variable name="this_field"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="this"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="anchor_field"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="anchor"
+                       as="xs:string"
+                       select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+         <xsl:variable name="this_field_position"
+                       as="xs:string"
+                       select="string(position())"/>
+         <xsl:for-each select="node()[@code=('b','e','f','g','i','j','k','l','m','n','p','q','r','t')]">
+            <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
+            <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="'b, e, f, g, i, j, k, l, m, n, p, q, r, t'"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="'b, e, f, g, i, j, k, l, m, n, p, q, r, t'"/>
+            <xsl:variable name="this_subfield_position"
+                          as="xs:string"
+                          select="string(position())"/>
+            <xsl:element name="{name(ancestor-or-self::*:record)}"
+                         namespace="{namespace-uri(ancestor-or-self::*:record)}">
+               <xsl:attribute name="id"
+                              select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
+               <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
+               <xsl:attribute name="templatename" select="$this_template_name"/>
+               <xsl:if test="$include_counters">
+                  <xsl:attribute name="c" select="1"/>
+               </xsl:if>
+               <xsl:if test="$include_anchorvalues">
+                  <xsl:element name="frbrizer:anchorvalue">
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:value-of select="."/>
+                  </xsl:element>
+               </xsl:if>
+               <xsl:if test="$include_templateinfo">
+                  <xsl:element name="frbrizer:templatename">
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:value-of select="$this_template_name"/>
+                  </xsl:element>
+               </xsl:if>
+               <xsl:if test="$include_internal_key">
+                  <xsl:element name="frbrizer:intkey">
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
+                  </xsl:element>
+               </xsl:if>
+               <xsl:if test="$include_MARC001_in_entityrecord">
+                  <xsl:element name="frbrizer:mid">
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:attribute name="i" select="$marcid"/>
+                  </xsl:element>
+               </xsl:if>
+               <xsl:for-each select="$record/*:datafield[@tag='041'][generate-id(.) = generate-id($anchor_field)][*:subfield/@code = ('b','e','f','g','i','j','k','l','m','n','p','q','r','t')]">
+                  <xsl:copy>
+                     <xsl:call-template name="copy-attributes"/>
+                     <xsl:if test="$include_counters">
+                        <xsl:attribute name="c" select="1"/>
+                     </xsl:if>
+                     <xsl:for-each select="*:subfield[@code = ('b','e','f','g','i','j','k','l','m','n','p','q','r','t')]">
+                        <xsl:if test="@code = 'b' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'e' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'f' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'g' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'i' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'j' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'k' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'l' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'm' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'n' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'p' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'q' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 'r' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 't' and generate-id(.) = generate-id($anchor_subfield)">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type"
+                                                 select="'http://www.w3.org/2004/02/skos/core#subjectIndicator'"/>
+                                 <xsl:with-param name="select" select="."/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                     </xsl:for-each>
+                     <xsl:if test="$include_MARC001_in_subfield">
+                        <xsl:element name="frbrizer:mid">
+                           <xsl:attribute name="i" select="$marcid"/>
+                           <xsl:if test="$include_counters">
+                              <xsl:attribute name="c" select="1"/>
+                           </xsl:if>
+                        </xsl:element>
+                     </xsl:if>
+                  </xsl:copy>
+               </xsl:for-each>
+            </xsl:element>
+         </xsl:for-each>
+      </xsl:for-each>
+   </xsl:template>
    <xsl:template name="MARC21-100700Person">
       <xsl:variable name="this_template_name" select="'MARC21-100700Person'"/>
       <xsl:variable name="tag" as="xs:string" select="'100, 110, 111, 700, 710, 711'"/>
@@ -316,7 +539,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='4'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'4'"/>
@@ -706,7 +929,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'1'"/>
@@ -907,7 +1130,7 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+                  <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
                      <xsl:variable name="target_subfield_position"
@@ -945,7 +1168,7 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='4'][starts-with(., 'http')]">
+                  <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
                      <xsl:variable name="target_subfield_position"
@@ -983,9 +1206,9 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='a']">
+                  <xsl:for-each select="node()[@code=('a','d')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'a'"/>
+                     <xsl:variable name="target_subfield_code" as="xs:string" select="'a, d'"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
@@ -993,6 +1216,47 @@
                         <frbrizer:relationship>
                            <xsl:attribute name="type"
                                           select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
+                           <xsl:if test="$include_counters">
+                              <xsl:attribute name="c" select="1"/>
+                           </xsl:if>
+                           <xsl:attribute name="href"
+                                          select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                           <xsl:if test="$include_internal_key">
+                              <xsl:attribute name="intkey"
+                                             select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                           </xsl:if>
+                           <xsl:if test="$include_MARC001_in_relationships">
+                              <xsl:element name="frbrizer:mid">
+                                 <xsl:attribute name="i" select="$marcid"/>
+                                 <xsl:if test="$include_counters">
+                                    <xsl:attribute name="c" select="1"/>
+                                 </xsl:if>
+                              </xsl:element>
+                           </xsl:if>
+                        </frbrizer:relationship>
+                     </xsl:if>
+                  </xsl:for-each>
+               </xsl:for-each>
+               <xsl:for-each select="$record/node()[@tag=('041')]">
+                  <xsl:variable name="target_template_name" select="'MARC041additional'"/>
+                  <xsl:variable name="target_tag_value" select="'041'"/>
+                  <xsl:variable name="target_field"
+                                select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+                  <xsl:variable name="target_field_position"
+                                as="xs:string"
+                                select="string(position())"/>
+                  <xsl:for-each select="node()[@code=('b','e','f','g','i','j','k','l','m','n','p','q','r','t')]">
+                     <xsl:variable name="target_subfield" select="."/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="'b, e, f, g, i, j, k, l, m, n, p, q, r, t'"/>
+                     <xsl:variable name="target_subfield_position"
+                                   as="xs:string"
+                                   select="string(position())"/>
+                     <xsl:if test="(frbrizer:linked($anchor_field, $target_field, false()))">
+                        <frbrizer:relationship>
+                           <xsl:attribute name="type"
+                                          select="'http://rdaregistry.info/Elements/e/datatype/P20065'"/>
                            <xsl:if test="$include_counters">
                               <xsl:attribute name="c" select="1"/>
                            </xsl:if>
@@ -1022,7 +1286,7 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+                  <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
                      <xsl:variable name="target_subfield_position"
@@ -1076,7 +1340,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'1'"/>
@@ -1259,7 +1523,7 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='4'][starts-with(., 'http')]">
+                  <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
                      <xsl:variable name="target_subfield_position"
@@ -1328,7 +1592,7 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+                  <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
                      <xsl:variable name="target_subfield_position"
@@ -1366,7 +1630,7 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='4'][starts-with(., 'http')]">
+                  <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
                      <xsl:variable name="target_subfield_position"
@@ -1404,7 +1668,7 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='4'][starts-with(., 'http') and exists($this_field/*:subfield[@code = '1']/starts-with(., 'http')) ]">
+                  <xsl:for-each select="node()[@code=('4')][starts-with(., 'http') and exists($this_field/*:subfield[@code = '1']/starts-with(., 'http')) ]">
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
                      <xsl:variable name="target_subfield_position"
@@ -1442,7 +1706,7 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+                  <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
                      <xsl:variable name="target_subfield_position"
@@ -1478,7 +1742,7 @@
                   <xsl:variable name="target_field_position"
                                 as="xs:string"
                                 select="string(position())"/>
-                  <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+                  <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
                      <xsl:variable name="target_subfield_position"
@@ -2211,7 +2475,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='4'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
                   <xsl:variable name="target_subfield_position"
@@ -2249,7 +2513,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
                   <xsl:variable name="target_subfield_position"
@@ -2314,7 +2578,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
                   <xsl:variable name="target_subfield_position"
@@ -2353,7 +2617,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
                   <xsl:variable name="target_subfield_position"
@@ -2628,7 +2892,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'1'"/>
@@ -2992,105 +3256,6 @@
                   <xsl:attribute name="i" select="$marcid"/>
                </xsl:element>
             </xsl:if>
-            <xsl:for-each select="$record/*:datafield[@tag='041'][frbrizer:linked($anchor_field, ., false()) and not(exists($anchor_field/*:subfield[@code = 'l']))][*:subfield/@code = ('a','d','e','f','j')]">
-               <xsl:copy>
-                  <xsl:call-template name="copy-attributes"/>
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:for-each select="*:subfield[@code = ('a','d','e','f','j')]">
-                     <xsl:if test="@code = 'a'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type"
-                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
-                              <xsl:with-param name="select" select="."/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = 'd'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type"
-                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
-                              <xsl:with-param name="select" select="."/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = 'e'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type"
-                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
-                              <xsl:with-param name="select" select="."/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = 'f'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type"
-                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
-                              <xsl:with-param name="select" select="."/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = 'j'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type"
-                                              select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
-                              <xsl:with-param name="select" select="."/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                  </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
-               </xsl:copy>
-            </xsl:for-each>
-            <xsl:for-each select="$record/*:datafield[@tag='336'][frbrizer:linked($anchor_field, ., false())][*:subfield/@code = ('a','1')]">
-               <xsl:copy>
-                  <xsl:call-template name="copy-attributes"/>
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:for-each select="*:subfield[@code = ('a','1')]">
-                     <xsl:if test="@code = 'a'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type"
-                                              select="'http://rdaregistry.info/Elements/e/datatype/P20001'"/>
-                              <xsl:with-param name="select" select="lower-case(.)"/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                     <xsl:if test="@code = '1'">
-                        <xsl:copy>
-                           <xsl:call-template name="copy-content">
-                              <xsl:with-param name="type"
-                                              select="'http://rdaregistry.info/Elements/e/datatype/P20001'"/>
-                              <xsl:with-param name="select" select="lower-case(.)"/>
-                           </xsl:call-template>
-                        </xsl:copy>
-                     </xsl:if>
-                  </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
-               </xsl:copy>
-            </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='700'][. eq $this_field][*:subfield/@code = ('t','l')]">
                <xsl:copy>
                   <xsl:call-template name="copy-attributes"/>
@@ -3361,7 +3526,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='4'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
                   <xsl:variable name="target_subfield_position"
@@ -3399,9 +3564,9 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='a']">
+               <xsl:for-each select="node()[@code=('a','d')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'a'"/>
+                  <xsl:variable name="target_subfield_code" as="xs:string" select="'a, d'"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
@@ -3409,6 +3574,47 @@
                      <frbrizer:relationship>
                         <xsl:attribute name="type"
                                        select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
+                        <xsl:if test="$include_counters">
+                           <xsl:attribute name="c" select="1"/>
+                        </xsl:if>
+                        <xsl:attribute name="href"
+                                       select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        <xsl:if test="$include_internal_key">
+                           <xsl:attribute name="intkey"
+                                          select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
+                        </xsl:if>
+                        <xsl:if test="$include_MARC001_in_relationships">
+                           <xsl:element name="frbrizer:mid">
+                              <xsl:attribute name="i" select="$marcid"/>
+                              <xsl:if test="$include_counters">
+                                 <xsl:attribute name="c" select="1"/>
+                              </xsl:if>
+                           </xsl:element>
+                        </xsl:if>
+                     </frbrizer:relationship>
+                  </xsl:if>
+               </xsl:for-each>
+            </xsl:for-each>
+            <xsl:for-each select="$record/node()[@tag=('041')]">
+               <xsl:variable name="target_template_name" select="'MARC041additional'"/>
+               <xsl:variable name="target_tag_value" select="'041'"/>
+               <xsl:variable name="target_field"
+                             select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+               <xsl:variable name="target_field_position"
+                             as="xs:string"
+                             select="string(position())"/>
+               <xsl:for-each select="node()[@code=('b','e','f','g','i','j','k','l','m','n','p','q','r','t')]">
+                  <xsl:variable name="target_subfield" select="."/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="'b, e, f, g, i, j, k, l, m, n, p, q, r, t'"/>
+                  <xsl:variable name="target_subfield_position"
+                                as="xs:string"
+                                select="string(position())"/>
+                  <xsl:if test="(frbrizer:linked($anchor_field, $target_field, false()))">
+                     <frbrizer:relationship>
+                        <xsl:attribute name="type"
+                                       select="'http://rdaregistry.info/Elements/e/datatype/P20065'"/>
                         <xsl:if test="$include_counters">
                            <xsl:attribute name="c" select="1"/>
                         </xsl:if>
@@ -3438,7 +3644,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
                   <xsl:variable name="target_subfield_position"
@@ -3491,7 +3697,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='4'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'4'"/>
@@ -4115,7 +4321,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
                   <xsl:variable name="target_subfield_position"
@@ -4182,7 +4388,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
                   <xsl:variable name="target_subfield_position"
@@ -4220,7 +4426,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='4'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
                   <xsl:variable name="target_subfield_position"
@@ -4258,7 +4464,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='4'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
                   <xsl:variable name="target_subfield_position"
@@ -4296,7 +4502,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='4'][starts-with(., 'http') and exists($this_field/*:subfield[@code = '1']/starts-with(., 'http')) ]">
+               <xsl:for-each select="node()[@code=('4')][starts-with(., 'http') and exists($this_field/*:subfield[@code = '1']/starts-with(., 'http')) ]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
                   <xsl:variable name="target_subfield_position"
@@ -4334,7 +4540,7 @@
                <xsl:variable name="target_field_position"
                              as="xs:string"
                              select="string(position())"/>
-               <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+               <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
                   <xsl:variable name="target_subfield_position"
@@ -4387,7 +4593,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='4'][starts-with(., 'http') and exists($this_field/*:subfield[@code = '1']/starts-with(., 'http')) ]">
+         <xsl:for-each select="node()[@code=('4')][starts-with(., 'http') and exists($this_field/*:subfield[@code = '1']/starts-with(., 'http')) ]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'4'"/>
@@ -4494,7 +4700,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='1'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'1'"/>
@@ -4818,7 +5024,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'0'"/>
@@ -4917,7 +5123,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'0'"/>
@@ -5016,7 +5222,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'0'"/>
@@ -5115,7 +5321,7 @@
          <xsl:variable name="this_field_position"
                        as="xs:string"
                        select="string(position())"/>
-         <xsl:for-each select="node()[@code='0'][starts-with(., 'http')]">
+         <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code" as="xs:string" select="'0'"/>
@@ -5246,7 +5452,18 @@
                <xsl:when test="@templatename = 'MARC041'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(concat('http://id.loc.gov/vocabulary/iso639-2/', *:datafield[@tag=('041')]/*:subfield[@code='a']))"/>
+                        <xsl:value-of select="frbrizer:sort-keys(concat('http://id.loc.gov/vocabulary/iso639-2/', (*:datafield[@tag=('041')]/*:subfield[@code=('a', 'd')])[1]))"/>
+                     </xsl:variable>
+                     <xsl:variable name="keyvalue"
+                                   select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
+                     <xsl:attribute name="key" select="$keyvalue"/>
+                     <xsl:attribute name="id" select="@id"/>
+                  </xsl:element>
+               </xsl:when>
+               <xsl:when test="@templatename = 'MARC041additional'">
+                  <xsl:element name="frbrizer:keyentry">
+                     <xsl:variable name="key" as="xs:string*">
+                        <xsl:value-of select="frbrizer:sort-keys(concat('http://id.loc.gov/vocabulary/iso639-2/', (*:datafield[@tag=('041')]/*:subfield[@code=('a', 'd')])[1]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>

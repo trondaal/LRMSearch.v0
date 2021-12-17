@@ -79,7 +79,7 @@
         </key>
     </entity>
     
-    <entity tag="041" code="a" templatename="MARC041" type="http://www.w3.org/2004/02/skos/core#Concept">
+    <entity tag="041" code="a, d" templatename="MARC041" type="http://www.w3.org/2004/02/skos/core#Concept">
         <note>Entity for language type</note>
         <attributes>
             <datafield tag="041" condition="generate-id(.) = generate-id($anchor_field)">
@@ -88,7 +88,32 @@
             </datafield>
         </attributes>
         <key order="1">
-            <element>concat('http://id.loc.gov/vocabulary/iso639-2/', *:datafield[@tag=('041')]/*:subfield[@code='a'])</element>
+            <element>concat('http://id.loc.gov/vocabulary/iso639-2/', (*:datafield[@tag=('041')]/*:subfield[@code=('a', 'd')])[1])</element>
+        </key>
+    </entity>
+    
+    <entity tag="041" code="b, e, f, g, i, j, k, l, m, n, p, q, r, t" templatename="MARC041additional" type="http://www.w3.org/2004/02/skos/core#Concept">
+        <note>Entity for language type</note>
+        <attributes>
+            <datafield tag="041" condition="generate-id(.) = generate-id($anchor_field)">
+                <subfield code="b" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="e" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="f" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="g" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="i" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="j" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="k" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="l" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="m" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="n" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="p" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="q" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="r" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+                <subfield code="t" condition="generate-id(.) = generate-id($anchor_subfield)" select="." type="http://www.w3.org/2004/02/skos/core#subjectIndicator"/>
+            </datafield>
+        </attributes>
+        <key order="1">
+            <element>concat('http://id.loc.gov/vocabulary/iso639-2/', (*:datafield[@tag=('041')]/*:subfield[@code=('a', 'd')])[1])</element>
         </key>
     </entity>
     
@@ -268,6 +293,9 @@
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
                 <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20065" label="has script">
+                <target entity="MARC041additional" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
                 <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
@@ -581,17 +609,17 @@
         <note>Expression associated with work identified by 700$t (only creating expressions for analytical entries)</note>
         <attributes>
             <!--<controlfield tag="008"  condition="string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression" select="substring(., 36, 3)"/>-->
-            <datafield tag="041" condition="frbrizer:linked($anchor_field, ., false()) and not(exists($anchor_field/*:subfield[@code = 'l']))">
+            <!--<datafield tag="041" condition="frbrizer:linked($anchor_field, ., false()) and not(exists($anchor_field/*:subfield[@code = 'l']))">
                 <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="d" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="e" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="f" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
                 <subfield code="j" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
-            </datafield>
-            <datafield tag="336" condition="frbrizer:linked($anchor_field, ., false())"> 
+            </datafield>-->
+            <!--<datafield tag="336" condition="frbrizer:linked($anchor_field, ., false())"> 
                 <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
                 <subfield code="1" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>
-            </datafield>
+            </datafield>-->
             <datafield tag="700"  condition=". eq $this_field">
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), $record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')][1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
                 <!--<subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/> -->
@@ -639,6 +667,9 @@
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
                 <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20065" label="has script">
+                <target entity="MARC041additional" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type">
                 <target entity="MARC336" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
