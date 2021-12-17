@@ -33722,7 +33722,7 @@
                 IP-adresser</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
-            <marc:subfield code="a">Det ulmer en ild Det ulmer en ild</marc:subfield>
+            <marc:subfield code="a">Det ulmer en ild</marc:subfield>
             <marc:subfield code="8">1/c</marc:subfield>
         </marc:datafield>
     </marc:record>
