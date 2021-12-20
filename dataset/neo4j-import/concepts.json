@@ -76,6 +76,17 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/chi"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Chinese"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/cze"
         },
         "label" : {
@@ -197,17 +208,6 @@
       {
         "concept" : {
           "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/grc"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Ancient Greek"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/guj"
         },
         "label" : {
@@ -302,17 +302,6 @@
           "xml:lang" : "en",
           "type" : "literal",
           "value" : "Latin"
-        }
-      },
-      {
-        "concept" : {
-          "type" : "uri",
-          "value" : "http://id.loc.gov/vocabulary/iso639-2/lav"
-        },
-        "label" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "Latvian"
         }
       },
       {
@@ -775,6 +764,17 @@
           "xml:lang" : "en",
           "type" : "literal",
           "value" : "still image"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/termList/RDAContentType/1018"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "tactile text"
         }
       },
       {

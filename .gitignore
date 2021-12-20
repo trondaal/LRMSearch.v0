@@ -2,6 +2,7 @@
 dataset/oxygen.xpr
 dataset/stats/
 dataset/#.gitignore#
+dataset/oldversions/
 RDARegistry/
 .gitignore~
 .idea/
@@ -9,3 +10,4 @@ backend/node_modules/
 backend/.idea/
 client/node_modules/
 client/.idea/
+.idea/workspace.xml

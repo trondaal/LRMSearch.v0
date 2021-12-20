@@ -76,7 +76,7 @@ select distinct ?entity ?label ?value WHERE {
 }
 
 **********************
-Basic WEM relationships
+Basic WEM relationships - basicrels.json
 **********************
 # Comment 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>

@@ -2686,6 +2686,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -3248,6 +3249,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -3766,6 +3768,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -3854,6 +3857,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -5689,6 +5693,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -8140,6 +8145,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -9429,6 +9435,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -10023,6 +10030,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -10106,6 +10114,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -10585,6 +10594,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -10660,6 +10670,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -10744,6 +10755,7 @@
             <marc:subfield code="a">Golding, William</marc:subfield>
             <marc:subfield code="d">1911-1993,</marc:subfield>
             <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/89500102</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="240" ind1="1" ind2="0">
@@ -11586,13 +11598,15 @@
             <marc:subfield code="a">Hook, Harry</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/26169769</marc:subfield>
             <marc:subfield code="4">drt</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
             <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10013</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Milloy, Ross</marc:subfield>
             <marc:subfield code="1">https://www.imdb.com/name/nm0589869</marc:subfield>
             <marc:subfield code="4">pro</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10064</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10064</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10073</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Schiff, Sara</marc:subfield>
@@ -11727,13 +11741,15 @@
             <marc:subfield code="a">Hook, Harry</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/26169769</marc:subfield>
             <marc:subfield code="4">drt</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
             <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10013</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Milloy, Ross</marc:subfield>
             <marc:subfield code="1">https://www.imdb.com/name/nm0589869</marc:subfield>
             <marc:subfield code="4">pro</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10064</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10064</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10073</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Schiff, Sara</marc:subfield>
@@ -11863,13 +11879,15 @@
             <marc:subfield code="a">Hook, Harry</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/26169769</marc:subfield>
             <marc:subfield code="4">drt</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
             <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10013</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Milloy, Ross</marc:subfield>
             <marc:subfield code="1">https://www.imdb.com/name/nm0589869</marc:subfield>
             <marc:subfield code="4">pro</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10064</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10064</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10073</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Schiff, Sara</marc:subfield>
@@ -16122,8 +16140,8 @@
             <marc:subfield code="0">http://rdaregistry.info/termList/RDAMediaType/1008</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="338" ind1=" " ind2=" ">
-            <marc:subfield code="a">DVD</marc:subfield>
-            <marc:subfield code="0">http://rdaregistry.info/termList/RDACarrierType/1013</marc:subfield>
+            <marc:subfield code="a">video disc</marc:subfield>
+            <marc:subfield code="0">http://rdaregistry.info/termList/RDACarrierType/1060</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="380" ind1=" " ind2=" ">
             <marc:subfield code="a">movie</marc:subfield>
@@ -16174,6 +16192,7 @@
             <marc:subfield code="d">1925-</marc:subfield>
             <marc:subfield code="1">https://www.imdb.com/name/nm0111656/</marc:subfield>
             <marc:subfield code="4">drt</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
             <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10013</marc:subfield>
             <marc:subfield code="4">aus</marc:subfield>
             <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10203</marc:subfield>
@@ -16196,7 +16215,8 @@
             <marc:subfield code="d">1922-2003</marc:subfield>
             <marc:subfield code="1">https://www.imdb.com/name/nm0020767/</marc:subfield>
             <marc:subfield code="4">pro</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10064</marc:subfield>
+            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10064</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10073</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Golding, William</marc:subfield>

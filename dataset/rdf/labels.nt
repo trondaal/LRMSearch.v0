@@ -3,8 +3,11 @@
 
 <http://rdaregistry.info/Elements/x/datatype/P00018>	<http://www.w3.org/2000/01/rdf-schema#label>   "identifier"@gden .
 <http://rdaregistry.info/Elements/e/datatype/P20006>	<http://www.w3.org/2000/01/rdf-schema#label>   "language"@gden .
+<http://rdaregistry.info/Elements/e/datatype/P20065>	<http://www.w3.org/2000/01/rdf-schema#label>   "languagesadditional"@gden .
 <http://rdaregistry.info/Elements/e/datatype/P20001>	<http://www.w3.org/2000/01/rdf-schema#label>   "content"@gden .
 <http://rdaregistry.info/Elements/e/datatype/P20312>	<http://www.w3.org/2000/01/rdf-schema#label>   "title"@gden .
+<http://rdaregistry.info/Elements/e/datatype/P20315>	<http://www.w3.org/2000/01/rdf-schema#label>   "titlepreferred"@gden .
+<http://rdaregistry.info/Elements/e/datatype/P20316>	<http://www.w3.org/2000/01/rdf-schema#label>   "titlevariant"@gden .
 
 <http://rdaregistry.info/Elements/m/datatype/P30004>	<http://www.w3.org/2000/01/rdf-schema#label>   "identifier"@gden .
 
@@ -55,55 +58,54 @@
 <http://rdaregistry.info/Elements/e/object/P20231>      <http://www.w3.org/2000/01/rdf-schema#label>    "REALIZES"@gden .
 <http://rdaregistry.info/Elements/m/object/P30139>      <http://www.w3.org/2000/01/rdf-schema#label>    "EMBODIES"@gden .
 
-<http://rdaregistry.info/Elements/e/object/P20011>	<http://www.w3.org/2000/01/rdf-schema#label>   "conductor"@gden .
-<http://rdaregistry.info/Elements/e/object/P20012>	<http://www.w3.org/2000/01/rdf-schema#label>   "actor"@gden .
-<http://rdaregistry.info/Elements/e/object/P20022>	<http://www.w3.org/2000/01/rdf-schema#label>   "narrator"@gden .
-<http://rdaregistry.info/Elements/e/object/P20025>	<http://www.w3.org/2000/01/rdf-schema#label>   "singer"@gden .
-<http://rdaregistry.info/Elements/e/object/P20029>	<http://www.w3.org/2000/01/rdf-schema#label>   "arranger"@gden .
-<http://rdaregistry.info/Elements/e/object/P20031>	<http://www.w3.org/2000/01/rdf-schema#label>   "director"@gden .
-<http://rdaregistry.info/Elements/e/object/P20035>	<http://www.w3.org/2000/01/rdf-schema#label>   "director"@gden .
-<http://rdaregistry.info/Elements/e/object/P20036>	<http://www.w3.org/2000/01/rdf-schema#label>   "costume designer"@gden .
-<http://rdaregistry.info/Elements/e/object/P20037>	<http://www.w3.org/2000/01/rdf-schema#label>   "translator"@gden .
-<http://rdaregistry.info/Elements/e/object/P20039>	<http://www.w3.org/2000/01/rdf-schema#label>   "performer"@gden .
-<http://rdaregistry.info/Elements/e/object/P20049>	<http://www.w3.org/2000/01/rdf-schema#label>   "abridger"@gden .
-<http://rdaregistry.info/Elements/e/object/P20055>	<http://www.w3.org/2000/01/rdf-schema#label>   "editor"@gden .
-<http://rdaregistry.info/Elements/e/object/P20056>	<http://www.w3.org/2000/01/rdf-schema#label>   "designer"@gden .
-<http://rdaregistry.info/Elements/e/object/P20070>	<http://www.w3.org/2000/01/rdf-schema#label>   "voice"@gden .
-<http://rdaregistry.info/Elements/e/object/P20094>	<http://www.w3.org/2000/01/rdf-schema#label>   "illustrator"@gden .
-<http://rdaregistry.info/Elements/e/object/P20259>	<http://www.w3.org/2000/01/rdf-schema#label>   "letterer"@gden .
-<http://rdaregistry.info/Elements/e/object/P20276>	<http://www.w3.org/2000/01/rdf-schema#label>   "sound designer"@gden .
-<http://rdaregistry.info/Elements/e/object/P20283>	<http://www.w3.org/2000/01/rdf-schema#label>   "colourist"@gden .
-<http://rdaregistry.info/Elements/e/object/P20292>	<http://www.w3.org/2000/01/rdf-schema#label>   "audio engineer"@gden .
-<http://rdaregistry.info/Elements/e/object/P20295>	<http://www.w3.org/2000/01/rdf-schema#label>   "dubbing director"@gden .
-<http://rdaregistry.info/Elements/e/object/P20327>	<http://www.w3.org/2000/01/rdf-schema#label>   "reviser"@gden .
-<http://rdaregistry.info/Elements/e/object/P20330>	<http://www.w3.org/2000/01/rdf-schema#label>   "editor"@gden .
-<http://rdaregistry.info/Elements/e/object/P20441>	<http://www.w3.org/2000/01/rdf-schema#label>   "singer"@gden .
-<http://rdaregistry.info/Elements/m/object/P30069>	<http://www.w3.org/2000/01/rdf-schema#label>   "designer"@gden .
-<http://rdaregistry.info/Elements/m/object/P30083>	<http://www.w3.org/2000/01/rdf-schema#label>   "publisher"@gden .
-<http://rdaregistry.info/Elements/m/object/P30311>	<http://www.w3.org/2000/01/rdf-schema#label>   "music"@gden .
-<http://rdaregistry.info/Elements/m/object/P30321>	<http://www.w3.org/2000/01/rdf-schema#label>   "illustrator"@gden .
-<http://rdaregistry.info/Elements/m/object/P30327>	<http://www.w3.org/2000/01/rdf-schema#label>   "editor"@gden .
-<http://rdaregistry.info/Elements/m/object/P30328>	<http://www.w3.org/2000/01/rdf-schema#label>   "contributor"@gden .
-<http://rdaregistry.info/Elements/w/object/P10006>	<http://www.w3.org/2000/01/rdf-schema#label>   "degree"@gden .
-<http://rdaregistry.info/Elements/w/object/P10008>	<http://www.w3.org/2000/01/rdf-schema#label>   "productioncompany"@gden .
-<http://rdaregistry.info/Elements/w/object/P10013>	<http://www.w3.org/2000/01/rdf-schema#label>   "film director"@gden .
-<http://rdaregistry.info/Elements/w/object/P10014>	<http://www.w3.org/2000/01/rdf-schema#label>   "radiodirector"@gden .
-<http://rdaregistry.info/Elements/w/object/P10049>	<http://www.w3.org/2000/01/rdf-schema#label>   "honouree"@gden .
-<http://rdaregistry.info/Elements/w/object/P10052>	<http://www.w3.org/2000/01/rdf-schema#label>   "cartographer"@gden .
-<http://rdaregistry.info/Elements/w/object/P10053>	<http://www.w3.org/2000/01/rdf-schema#label>   "composer"@gden .
-<http://rdaregistry.info/Elements/w/object/P10055>	<http://www.w3.org/2000/01/rdf-schema#label>   "compiler"@gden .
-<http://rdaregistry.info/Elements/w/object/P10056>	<http://www.w3.org/2000/01/rdf-schema#label>   "photographer"@gden .
-<http://rdaregistry.info/Elements/w/object/P10057>	<http://www.w3.org/2000/01/rdf-schema#label>   "interviewer"@gden .
-<http://rdaregistry.info/Elements/w/object/P10058>	<http://www.w3.org/2000/01/rdf-schema#label>   "artist"@gden .
-<http://rdaregistry.info/Elements/w/object/P10059>	<http://www.w3.org/2000/01/rdf-schema#label>   "interviewee"@gden .
-<http://rdaregistry.info/Elements/w/object/P10061>	<http://www.w3.org/2000/01/rdf-schema#label>   "author"@gden .
-<http://rdaregistry.info/Elements/w/object/P10064>	<http://www.w3.org/2000/01/rdf-schema#label>   "producer"@gden .
-<http://rdaregistry.info/Elements/w/object/P10065>	<http://www.w3.org/2000/01/rdf-schema#label>   "creator"@gden .
-<http://rdaregistry.info/Elements/w/object/P10066>	<http://www.w3.org/2000/01/rdf-schema#label>   "director"@gden .
-<http://rdaregistry.info/Elements/w/object/P10068>	<http://www.w3.org/2000/01/rdf-schema#label>   "director"@gden .
-<http://rdaregistry.info/Elements/w/object/P10073>	<http://www.w3.org/2000/01/rdf-schema#label>   "producer"@gden .
-<http://rdaregistry.info/Elements/w/object/P10074>	<http://www.w3.org/2000/01/rdf-schema#label>   "producer"@gden .
-<http://rdaregistry.info/Elements/w/object/P10203>	<http://www.w3.org/2000/01/rdf-schema#label>   "screenwriter"@gden .
-<http://rdaregistry.info/Elements/w/object/P10204>	<http://www.w3.org/2000/01/rdf-schema#label>   "lyricist"@gden .
-<http://rdaregistry.info/Elements/w/object/P10205>	<http://www.w3.org/2000/01/rdf-schema#label>   "librettist"@gden .
-<http://rdaregistry.info/Elements/w/object/P10305>	<http://www.w3.org/2000/01/rdf-schema#label>   "casting director"@gden .
+<http://rdaregistry.info/Elements/e/object/P20011>	<http://www.w3.org/2000/01/rdf-schema#label>  	"conductor"@gden .
+<http://rdaregistry.info/Elements/e/object/P20012>	<http://www.w3.org/2000/01/rdf-schema#label>  	"actor"@gden .
+<http://rdaregistry.info/Elements/e/object/P20016>	<http://www.w3.org/2000/01/rdf-schema#label>  	"host"@gden .
+<http://rdaregistry.info/Elements/e/object/P20020>	<http://www.w3.org/2000/01/rdf-schema#label>  	"instrumentalist"@gden .
+<http://rdaregistry.info/Elements/e/object/P20021>	<http://www.w3.org/2000/01/rdf-schema#label>  	"commentator"@gden .
+<http://rdaregistry.info/Elements/e/object/P20022>	<http://www.w3.org/2000/01/rdf-schema#label>  	"narrator"@gden .
+<http://rdaregistry.info/Elements/e/object/P20023>	<http://www.w3.org/2000/01/rdf-schema#label>  	"storyteller"@gden .
+<http://rdaregistry.info/Elements/e/object/P20024>	<http://www.w3.org/2000/01/rdf-schema#label>  	"speaker"@gden .
+<http://rdaregistry.info/Elements/e/object/P20025>	<http://www.w3.org/2000/01/rdf-schema#label>  	"singer"@gden .
+<http://rdaregistry.info/Elements/e/object/P20029>	<http://www.w3.org/2000/01/rdf-schema#label>  	"arranger"@gden .
+<http://rdaregistry.info/Elements/e/object/P20031>	<http://www.w3.org/2000/01/rdf-schema#label>  	"stage director"@gden .
+<http://rdaregistry.info/Elements/e/object/P20035>	<http://www.w3.org/2000/01/rdf-schema#label>  	"musical director"@gden .
+<http://rdaregistry.info/Elements/e/object/P20037>	<http://www.w3.org/2000/01/rdf-schema#label>  	"translator"@gden .
+<http://rdaregistry.info/Elements/e/object/P20039>	<http://www.w3.org/2000/01/rdf-schema#label>  	"performer"@gden .
+<http://rdaregistry.info/Elements/e/object/P20049>	<http://www.w3.org/2000/01/rdf-schema#label>  	"abridger"@gden .
+<http://rdaregistry.info/Elements/e/object/P20055>	<http://www.w3.org/2000/01/rdf-schema#label>  	"film editor"@gden .
+<http://rdaregistry.info/Elements/e/object/P20056>	<http://www.w3.org/2000/01/rdf-schema#label>  	"production"@gden . 
+<http://rdaregistry.info/Elements/e/object/P20070>	<http://www.w3.org/2000/01/rdf-schema#label>  	"voice actor"@gden .
+<http://rdaregistry.info/Elements/e/object/P20259>	<http://www.w3.org/2000/01/rdf-schema#label>  	"typographer"@gden .
+<http://rdaregistry.info/Elements/e/object/P20283>	<http://www.w3.org/2000/01/rdf-schema#label>  	"colourist"@gden .
+<http://rdaregistry.info/Elements/e/object/P20364>	<http://www.w3.org/2000/01/rdf-schema#label>  	"tecnical director"@gden .
+<http://rdaregistry.info/Elements/m/object/P30069>	<http://www.w3.org/2000/01/rdf-schema#label>  	"designer"@gden .
+<http://rdaregistry.info/Elements/m/object/P30078>	<http://www.w3.org/2000/01/rdf-schema#label>  	"printer"@gden .
+<http://rdaregistry.info/Elements/m/object/P30083>	<http://www.w3.org/2000/01/rdf-schema#label>  	"publisher"@gden .
+<http://rdaregistry.info/Elements/m/object/P30315>	<http://www.w3.org/2000/01/rdf-schema#label>  	"cartographer"@gden .
+<http://rdaregistry.info/Elements/m/object/P30321>	<http://www.w3.org/2000/01/rdf-schema#label>  	"illustrator"@gden .
+<http://rdaregistry.info/Elements/m/object/P30327>	<http://www.w3.org/2000/01/rdf-schema#label>  	"editor"@gden .
+<http://rdaregistry.info/Elements/m/object/P30328>	<http://www.w3.org/2000/01/rdf-schema#label>  	"contributor"@gden .
+<http://rdaregistry.info/Elements/w/object/P10008>	<http://www.w3.org/2000/01/rdf-schema#label>  	"production"@gden .
+<http://rdaregistry.info/Elements/w/object/P10013>	<http://www.w3.org/2000/01/rdf-schema#label>  	"film director"@gden .
+<http://rdaregistry.info/Elements/w/object/P10014>	<http://www.w3.org/2000/01/rdf-schema#label>  	"radio director"@gden .
+<http://rdaregistry.info/Elements/w/object/P10049>	<http://www.w3.org/2000/01/rdf-schema#label>  	"honouree"@gden .
+<http://rdaregistry.info/Elements/w/object/P10053>	<http://www.w3.org/2000/01/rdf-schema#label>  	"composer"@gden .
+<http://rdaregistry.info/Elements/w/object/P10055>	<http://www.w3.org/2000/01/rdf-schema#label>  	"compiler"@gden .
+<http://rdaregistry.info/Elements/w/object/P10056>	<http://www.w3.org/2000/01/rdf-schema#label>  	"photographer"@gden .
+<http://rdaregistry.info/Elements/w/object/P10057>	<http://www.w3.org/2000/01/rdf-schema#label>  	"interviewer"@gden .
+<http://rdaregistry.info/Elements/w/object/P10058>	<http://www.w3.org/2000/01/rdf-schema#label>  	"artist"@gden .
+<http://rdaregistry.info/Elements/w/object/P10059>	<http://www.w3.org/2000/01/rdf-schema#label>  	"interviewee"@gden .
+<http://rdaregistry.info/Elements/w/object/P10061>	<http://www.w3.org/2000/01/rdf-schema#label>  	"author"@gden . 
+<http://rdaregistry.info/Elements/w/object/P10063>	<http://www.w3.org/2000/01/rdf-schema#label>  	"filmmaker"@gden .
+<http://rdaregistry.info/Elements/w/object/P10064>	<http://www.w3.org/2000/01/rdf-schema#label>  	"producer"@gden .
+<http://rdaregistry.info/Elements/w/object/P10065>	<http://www.w3.org/2000/01/rdf-schema#label>  	"creator"@gden .
+<http://rdaregistry.info/Elements/w/object/P10066>	<http://www.w3.org/2000/01/rdf-schema#label>  	"director"@gden .
+<http://rdaregistry.info/Elements/w/object/P10068>	<http://www.w3.org/2000/01/rdf-schema#label>  	"cinematographie"@gden . 
+<http://rdaregistry.info/Elements/w/object/P10073>	<http://www.w3.org/2000/01/rdf-schema#label>  	"film producer"@gden .
+<http://rdaregistry.info/Elements/w/object/P10074>	<http://www.w3.org/2000/01/rdf-schema#label>  	"radio producer"@gden .
+<http://rdaregistry.info/Elements/w/object/P10203>	<http://www.w3.org/2000/01/rdf-schema#label>  	"screenplan"@gden .
+<http://rdaregistry.info/Elements/w/object/P10204>	<http://www.w3.org/2000/01/rdf-schema#label>  	"lyricist"@gden .
+<http://rdaregistry.info/Elements/w/object/P10205>	<http://www.w3.org/2000/01/rdf-schema#label>  	"librettist"@gden .
+
+

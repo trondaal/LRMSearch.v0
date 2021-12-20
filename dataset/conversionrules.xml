@@ -175,7 +175,7 @@
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('100', '110', '111', '700', '710', '711')]/*:subfield[@code='1'][starts-with(., 'http')][1]</element>
+            <element>frbrizer:trim(*:datafield[@tag=('100', '110', '111', '700', '710', '711')]/*:subfield[@code='1'][starts-with(., 'http')][1])</element>
         </key>
         <relationships>           
         </relationships>
@@ -208,7 +208,7 @@
             </datafield>-->
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('130', '240')]/*:subfield[@code='1'][starts-with(., 'http')][last()]</element>
+            <element>frbrizer:trim(*:datafield[@tag=('130', '240')]/*:subfield[@code='1'][starts-with(., 'http')][last()])</element>
         </key>
         <relationships>
             <relationship type="{$target_subfield}">
@@ -442,7 +442,7 @@
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('600', '610', '611')]/*:subfield[@code='1'][starts-with(., 'http')][1]</element>
+            <element>frbrizer:trim(*:datafield[@tag=('600', '610', '611')]/*:subfield[@code='1'][starts-with(., 'http')][1])</element>
         </key>
     </entity>
     
@@ -484,7 +484,7 @@
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('600', '610', '611', '630')]/*:subfield[@code='1'][starts-with(., 'http')][1]</element>
+            <element>frbrizer:trim(*:datafield[@tag=('600', '610', '611', '630')]/*:subfield[@code='1'][starts-with(., 'http')][1])</element>
         </key>
     </entity>
 
@@ -526,7 +526,7 @@
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(.,'http')][last()]</element>
+            <element>frbrizer:trim(*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(.,'http')][last()])</element>
         </key>
         <relationships>
             <!--<relationship type="{$target_subfield}">
@@ -577,7 +577,7 @@
             </datafield>-->
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(., 'http')][last()]</element>
+            <element>frbrizer:trim(*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(., 'http')][last()])</element>
         </key>
         <relationships>
             <relationship type="http://rdaregistry.info/Elements/w/object/P10019" label="part of work">
@@ -685,7 +685,7 @@
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('758')]/*:subfield[@code='1'][starts-with(., 'http')][1]</element>
+            <element>frbrizer:trim(*:datafield[@tag=('758')]/*:subfield[@code='1'][starts-with(., 'http')][1])</element>
         </key>
         <relationships>          
         </relationships>
@@ -728,7 +728,7 @@
             </datafield>
         </attributes>
         <key order="1">
-            <element>*:datafield[@tag=('800', '810', '811', '830')]/*:subfield[@code='1'][starts-with(.,'http')][last()]</element>
+            <element>frbrizer:trim(*:datafield[@tag=('800', '810', '811', '830')]/*:subfield[@code='1'][starts-with(.,'http')][last()])</element>
         </key>
         <relationships>         
         </relationships>
@@ -775,6 +775,7 @@
                 <xsl:value-of select="replace(., '[ \.,/:]+$', '')"/>
             </xsl:for-each>
         </xsl:function>
+        
         
         <xsl:function name="frbrizer:idprefix">
             <xsl:param name="value"/>

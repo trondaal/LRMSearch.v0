@@ -5485,7 +5485,7 @@
                <xsl:when test="@templatename = 'MARC21-100700Person'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('100', '110', '111', '700', '710', '711')]/*:subfield[@code='1'][starts-with(., 'http')][1])"/>
+                        <xsl:value-of select="frbrizer:sort-keys(frbrizer:trim(*:datafield[@tag=('100', '110', '111', '700', '710', '711')]/*:subfield[@code='1'][starts-with(., 'http')][1]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
@@ -5496,7 +5496,7 @@
                <xsl:when test="@templatename = 'MARC21-130240-Work'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('130', '240')]/*:subfield[@code='1'][starts-with(., 'http')][last()])"/>
+                        <xsl:value-of select="frbrizer:sort-keys(frbrizer:trim(*:datafield[@tag=('130', '240')]/*:subfield[@code='1'][starts-with(., 'http')][last()]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
@@ -5507,7 +5507,7 @@
                <xsl:when test="@templatename = 'MARC21-600-Person'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('600', '610', '611')]/*:subfield[@code='1'][starts-with(., 'http')][1])"/>
+                        <xsl:value-of select="frbrizer:sort-keys(frbrizer:trim(*:datafield[@tag=('600', '610', '611')]/*:subfield[@code='1'][starts-with(., 'http')][1]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
@@ -5518,7 +5518,7 @@
                <xsl:when test="@templatename = 'MARC21-6XX-Work'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('600', '610', '611', '630')]/*:subfield[@code='1'][starts-with(., 'http')][1])"/>
+                        <xsl:value-of select="frbrizer:sort-keys(frbrizer:trim(*:datafield[@tag=('600', '610', '611', '630')]/*:subfield[@code='1'][starts-with(., 'http')][1]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
@@ -5529,7 +5529,7 @@
                <xsl:when test="@templatename = 'MARC21-700-Related-Work'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(.,'http')][last()])"/>
+                        <xsl:value-of select="frbrizer:sort-keys(frbrizer:trim(*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(.,'http')][last()]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
@@ -5540,7 +5540,7 @@
                <xsl:when test="@templatename = 'MARC21-700-Work-Analytical'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(., 'http')][last()])"/>
+                        <xsl:value-of select="frbrizer:sort-keys(frbrizer:trim(*:datafield[@tag=('700', '710', '711', '730')]/*:subfield[@code='1'][starts-with(., 'http')][last()]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
@@ -5551,7 +5551,7 @@
                <xsl:when test="@templatename = 'MARC21-758-Related-Work'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('758')]/*:subfield[@code='1'][starts-with(., 'http')][1])"/>
+                        <xsl:value-of select="frbrizer:sort-keys(frbrizer:trim(*:datafield[@tag=('758')]/*:subfield[@code='1'][starts-with(., 'http')][1]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
@@ -5562,7 +5562,7 @@
                <xsl:when test="@templatename = 'MARC21-8XX-Work-Series'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(*:datafield[@tag=('800', '810', '811', '830')]/*:subfield[@code='1'][starts-with(.,'http')][last()])"/>
+                        <xsl:value-of select="frbrizer:sort-keys(frbrizer:trim(*:datafield[@tag=('800', '810', '811', '830')]/*:subfield[@code='1'][starts-with(.,'http')][last()]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>

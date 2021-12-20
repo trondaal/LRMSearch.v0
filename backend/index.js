@@ -6,6 +6,8 @@ const typeDefs = gql`
     type Expression @fulltext(indexes: [{ name: "expressions", fields: ["title"] }]) {
         uri: String
         title: String
+        titlepreferred: String
+        titlevariant: String
         manifestations: [Manifestation] @relationship(type: "EMBODIES", direction: IN)
         work: [Work] @relationship(type: "REALIZES", direction: OUT)
         language: [Concept] @relationship(type: "LANGUAGE", direction: OUT)
@@ -61,7 +63,7 @@ const typeDefs = gql`
 `;
 
 const driver = neo4j.driver(
-    "bolt://dif04.idi.ntnu.no:7687",
+    "bolt://localhost:7687",
     neo4j.auth.basic("neo4j", "letmein")
 );
 

@@ -126,101 +126,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.com/Conjureman"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.com/Deathandthelady"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.com/Downtheriverroad"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.com/Götterdämmerung"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.com/Halflinghouse"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.com/Little_Pernille"
         },
         "p" : {
@@ -235,101 +140,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://www.example.com/Youth_replies_I_can"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.com/Naga"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.com/Ninethreadsofgold"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.com/Revoltofthesugarplumfairies"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.com/Silverorgold"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.com/Upthesideoftheair"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
         }
       },
       {
@@ -691,25 +501,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/178287659"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/Mensch-Vogel-Vogelmensch?"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/OpernundOpernfiguren"
         }
       },
       {
@@ -1589,25 +1380,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1580159474343427662650"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/159146462563427771524"
         },
         "p" : {
@@ -1754,25 +1526,6 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/198559295"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/183367802"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
           "value" : "https://example.com/445963"
         }
       },
@@ -1798,7 +1551,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/176092820"
+          "value" : "http://viaf.org/viaf/175571309"
         },
         "p" : {
           "type" : "uri",
@@ -1811,7 +1564,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/134892434"
+          "value" : "http://viaf.org/viaf/174141344"
         }
       },
       {
@@ -1830,7 +1583,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/198559295"
+          "value" : "http://viaf.org/viaf/134892434"
         }
       },
       {
@@ -1906,25 +1659,6 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/198559295"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/270596747"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
           "value" : "https://example.com/445963"
         }
       },
@@ -1963,25 +1697,6 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/198559295"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/313239035"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
           "value" : "https://example.com/445963"
         }
       },
@@ -2002,25 +1717,6 @@
         "o" : {
           "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q8337"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/310245605"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/198559295"
         }
       },
       {
@@ -2159,6 +1855,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/179061639"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/2620147270733935700007"
         },
         "p" : {
@@ -2192,6 +1907,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/219438842"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/180078068"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/193686577"
         }
       },
       {
@@ -2292,6 +2026,44 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/181625655"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/186734487"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181625655"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/185888925"
         },
         "p" : {
@@ -2343,25 +2115,6 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/198559295"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184602629"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
           "value" : "https://example.com/445963"
         }
       },
@@ -2382,25 +2135,6 @@
         "o" : {
           "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q8337"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/205797426"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/198559295"
         }
       },
       {
@@ -2482,6 +2216,44 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/184892317"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/186734487"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/184892317"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/1851159941673125440005"
         },
         "p" : {
@@ -2515,6 +2287,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://example.org/vandrertrilogi"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/185380595"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/vandrertriologi"
         }
       },
       {
@@ -2591,6 +2382,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://www.eksempel.no/serier/city_watch"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191146462599827770953"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/193686577"
         }
       },
       {
@@ -2938,25 +2748,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/2286154137634815370002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/229353946"
         },
         "p" : {
@@ -3123,25 +2914,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/305282878"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/2612151717054713900000"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
         }
       },
       {
@@ -3541,6 +3313,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/258305993"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/308052782"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/821216955"
         }
       },
       {
@@ -4477,25 +4268,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/4068151247992444270005"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/4137154501906239210001"
         },
         "p" : {
@@ -4705,25 +4477,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/5011154137643315370004"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/5029154501867439210005"
         },
         "p" : {
@@ -4819,25 +4572,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/5195151172703339210003"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q6517902"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/5448156762953641300001"
         },
         "p" : {
@@ -4871,6 +4605,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://example.org/vandrertrilogi"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/5470149068540465730001"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/vandrertriologi"
         }
       },
       {
@@ -5004,25 +4757,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/1486147270636135700000"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/633158188228520260006"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/ThequiteniceandfairlyaccurateGoodomensscriptbook"
         }
       },
       {
@@ -5674,101 +5408,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.example.com"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AGreatDealofPower"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AffairsinPoictesme"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Agoodknightswork"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/CaptainWyxtpthllsFlyingSaucer"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://www.example.com/De_kloke_jomfruer_Fattige_skjebner"
         },
         "p" : {
@@ -5783,158 +5422,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://www.example.com/romaner_og_fortellinger_fra_nutiden"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Decoyduck"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Doodad"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/DragonofTollin"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Faith"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Hellhathnofury"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Intheseasonofthedressingofthewells"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Ministeringangels"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/ReavetheJust"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
         }
       },
       {
@@ -5959,158 +5446,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.example.com/TheAdventureoftheSnowingGlobe"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheRingofHansCarvel"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Thebrat"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Theoddoddbird"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheresaWolfinmyTimeMachine"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Theruleofnames"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Thetwonky"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/Thewildassesofthedevil"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://www.example.com/Våren"
         },
         "p" : {
@@ -6125,25 +5460,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://www.example.com/romaner_og_fortellinger_fra_nutiden"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/theoldmysteryofwhyorhowthechickencrossedtheroad"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.fantasticfiction.com/h/peter-haining/knights-of-madness.htm"
         }
       },
       {
@@ -7194,25 +6510,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q28306"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/821216955"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/1157467302"
         },
         "p" : {
@@ -7460,82 +6757,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/915155874"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q28306"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/915155874"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/821216955"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/950454468"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q28306"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/950454468"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/821216955"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "https://en.wikipedia.org/wiki/Dodger_(novel)"
         },
         "p" : {
@@ -7593,25 +6814,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://en.wikipedia.org/wiki/The_Gnurrs_Come_from_the_Voodvork_Out"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "https://en.wikipedia.org/wiki/The_Long_Cosmos"
         },
         "p" : {
@@ -7626,25 +6828,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/178287659"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://en.wikipedia.org/wiki/Young_Zaphod_Plays_It_Safe"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
         }
       },
       {
@@ -7911,25 +7094,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/2898157583879133970006"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.amazon.com/Harry-Potter-Aur-Aag-Piyalah/dp/019579916X"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/176092820"
         }
       },
       {
@@ -8448,44 +7612,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q3038947"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/AftertheKing"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q3062548"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q3126837"
         },
         "p" : {
@@ -8576,25 +7702,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/7587148574284324430003"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q7991587"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.example.com/TheWizardsOfOddd"
         }
       },
       {
@@ -8861,6 +7968,1279 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/178287659"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174553895"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q4394863"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/176165653"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q4394863"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/177762289"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q7762618"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/180585027"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q7762618"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/187146251"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q4394863"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/308018847"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q7762618"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/308052782/part1"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/258305993"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/308052782/part1"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/308052782"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/308052782/part1"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/821216955"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/308052782/part2"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/308052782"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/308052782/part2"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/821216955"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/213148121"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/179378125"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/179378125"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q989760"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q765047"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/198560112"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174963765"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174963765"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q989760"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/210967285"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/189370814"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/205890609"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/185469169"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/185469169"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q989760"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/198568192"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859/stockholm"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/202977803"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q6663949"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/102319859"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309525997"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/vandrertriologi"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/3267149068489065730001"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/193686577"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/4225152200827914400006"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/aleksanderogleonarda"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q12003637"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/blandtdyr"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q12003637"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/damenfrativoli"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/engaderevolution"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062320"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/hemmeligv"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/jontro"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/julegilde"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/juliaasen"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/kvindesejr"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q12003637"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/lidtparis"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/medskydshest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/paabankene"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/paablaamands"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q12003637"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/paagaden"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/rejersenafsydstjrnen"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/ringen"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15062328"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/udisdensommer"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q12003637"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/underhalvmaanen"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q12003637"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/59083692/vagabondsdage"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q12003637"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/181846531"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/186734487"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/294145857904223021237"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/65283845/theprofessorchallengerstories"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1140678"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/186734487"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1390154501894339210002"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1390154501894339210002"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1129378"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q3041819"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/duchteauandrpaul/lechiendesbaskerville"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/duchteauandrpaul/holmes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q461026"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1129378"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/quinntim/bluecarbuncle"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/quinntim/sherlockholmesinthespeckledbandandthebluecarbuncle"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q2740092"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/65283845/dasreigateratsel"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1171427"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1192517"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/186734487"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1192552"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/186734487"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1201803"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q725752"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q860831"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174141344"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://www.imdb.com/title/tt0685619/"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "https://www.imdb.com/title/tt0090509/"
         }
       }
     ]

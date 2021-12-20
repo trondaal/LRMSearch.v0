@@ -439,12 +439,14 @@
       <rdawd:P10088>Lord of the flies (Peter Brook)</rdawd:P10088>
       <rdfs:label>Lord of the flies (Peter Brook)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1002"/>
-      <rdawo:P10013 rdf:resource="https://www.imdb.com/name/nm0111656/"/>
-      <rdawo:P10053 rdf:resource="https://www.imdb.com/name/nm0503370/"/>
-      <rdawo:P10064 rdf:resource="https://www.imdb.com/name/nm0020767/"/>
-      <rdawo:P10068 rdf:resource="https://www.imdb.com/name/nm0391430/"/>
+      <rdawo:P10013 rdf:resource="https://www.imdb.com/name/nm0111656"/>
+      <rdawo:P10053 rdf:resource="https://www.imdb.com/name/nm0503370"/>
+      <rdawo:P10064 rdf:resource="https://www.imdb.com/name/nm0020767"/>
+      <rdawo:P10066 rdf:resource="https://www.imdb.com/name/nm0111656"/>
+      <rdawo:P10068 rdf:resource="https://www.imdb.com/name/nm0391430"/>
+      <rdawo:P10073 rdf:resource="https://www.imdb.com/name/nm0020767"/>
       <rdawo:P10129 rdf:resource="http://viaf.org/viaf/119144648592107423604"/>
-      <rdawo:P10203 rdf:resource="https://www.imdb.com/name/nm0111656/"/>
+      <rdawo:P10203 rdf:resource="https://www.imdb.com/name/nm0111656"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="https://www.imdb.com/title/tt0100054">
       <rdaxd:P00018>https://www.imdb.com/title/tt0100054</rdaxd:P00018>
@@ -452,11 +454,13 @@
       <rdfs:label>Lord of the flies</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1002"/>
       <rdawo:P10013 rdf:resource="http://viaf.org/viaf/26169769"/>
-      <rdawo:P10053 rdf:resource="https://www.imdb.com/name/nm0006271/"/>
+      <rdawo:P10053 rdf:resource="https://www.imdb.com/name/nm0006271"/>
       <rdawo:P10064 rdf:resource="https://www.imdb.com/name/nm0589869"/>
-      <rdawo:P10068 rdf:resource="https://www.imdb.com/name/nm0297620/"/>
+      <rdawo:P10066 rdf:resource="http://viaf.org/viaf/26169769"/>
+      <rdawo:P10068 rdf:resource="https://www.imdb.com/name/nm0297620"/>
+      <rdawo:P10073 rdf:resource="https://www.imdb.com/name/nm0589869"/>
       <rdawo:P10129 rdf:resource="http://viaf.org/viaf/119144648592107423604"/>
-      <rdawo:P10203 rdf:resource="https://www.imdb.com/name/nm0696319/"/>
+      <rdawo:P10203 rdf:resource="https://www.imdb.com/name/nm0696319"/>
    </rdac:C10001>
    <rdac:C10002 rdf:about="http://example.org/names/fernndezjavier">
       <rdaxd:P00018>http://example.org/names/fernndezjavier</rdaxd:P00018>
@@ -824,63 +828,63 @@
       <rdaad:P50385>Ryum, Nils</rdaad:P50385>
       <rdfs:label>Ryum, Nils</rdfs:label>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0001267/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0001267">
       <rdaxd:P00018>https://www.imdb.com/name/nm0001267/</rdaxd:P00018>
       <rdaad:P50385>Getty, Balthazar</rdaad:P50385>
       <rdfs:label>Getty, Balthazar</rdfs:label>
       <rdaad:P50339>1975-</rdaad:P50339>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0006271/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0006271">
       <rdaxd:P00018>https://www.imdb.com/name/nm0006271/</rdaxd:P00018>
       <rdaad:P50385>Sarde, Philippe</rdaad:P50385>
       <rdfs:label>Sarde, Philippe</rdfs:label>
       <rdaad:P50339>1945-</rdaad:P50339>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0020767/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0020767">
       <rdaxd:P00018>https://www.imdb.com/name/nm0020767/</rdaxd:P00018>
       <rdaad:P50385>Allen, Lewis M</rdaad:P50385>
       <rdfs:label>Allen, Lewis M</rdfs:label>
       <rdaad:P50339>1922-2003</rdaad:P50339>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0041405/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0041405">
       <rdaxd:P00018>https://www.imdb.com/name/nm0041405/</rdaxd:P00018>
       <rdaad:P50385>Aubrey, James</rdaad:P50385>
       <rdfs:label>Aubrey, James</rdfs:label>
       <rdaad:P50339>1947-2010</rdaad:P50339>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0111656/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0111656">
       <rdaxd:P00018>https://www.imdb.com/name/nm0111656/</rdaxd:P00018>
       <rdaad:P50385>Brook, Peter</rdaad:P50385>
       <rdfs:label>Brook, Peter</rdfs:label>
       <rdaad:P50339>1925-</rdaad:P50339>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0152204/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0152204">
       <rdaxd:P00018>https://www.imdb.com/name/nm0152204/</rdaxd:P00018>
       <rdaad:P50385>Chapin, Tom</rdaad:P50385>
       <rdfs:label>Chapin, Tom</rdfs:label>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0250046/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0250046">
       <rdaxd:P00018>https://www.imdb.com/name/nm0250046/</rdaxd:P00018>
       <rdaad:P50385>Edwards, Hugh</rdaad:P50385>
       <rdfs:label>Edwards, Hugh</rdfs:label>
       <rdaad:P50339>1951-</rdaad:P50339>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0297620/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0297620">
       <rdaxd:P00018>https://www.imdb.com/name/nm0297620/</rdaxd:P00018>
       <rdaad:P50385>Fuhrer, Martin</rdaad:P50385>
       <rdfs:label>Fuhrer, Martin</rdfs:label>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0299077/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0299077">
       <rdaxd:P00018>https://www.imdb.com/name/nm0299077/</rdaxd:P00018>
       <rdaad:P50385>Furth, Chris</rdaad:P50385>
       <rdfs:label>Furth, Chris</rdfs:label>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0391430/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0391430">
       <rdaxd:P00018>https://www.imdb.com/name/nm0391430/</rdaxd:P00018>
       <rdaad:P50385>Hollyman, Tom</rdaad:P50385>
       <rdfs:label>Hollyman, Tom</rdfs:label>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0503370/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0503370">
       <rdaxd:P00018>https://www.imdb.com/name/nm0503370/</rdaxd:P00018>
       <rdaad:P50385>Leppard, Raymond</rdaad:P50385>
       <rdfs:label>Leppard, Raymond</rdfs:label>
@@ -891,12 +895,12 @@
       <rdaad:P50385>Milloy, Ross</rdaad:P50385>
       <rdfs:label>Milloy, Ross</rdfs:label>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0684999/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0684999">
       <rdaxd:P00018>https://www.imdb.com/name/nm0684999/</rdaxd:P00018>
       <rdaad:P50385>Pipoly, Daniel</rdaad:P50385>
       <rdfs:label>Pipoly, Daniel</rdfs:label>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0696319/">
+   <rdac:C10002 rdf:about="https://www.imdb.com/name/nm0696319">
       <rdaxd:P00018>https://www.imdb.com/name/nm0696319/</rdaxd:P00018>
       <rdaad:P50385>Schiff, Sara</rdaad:P50385>
       <rdfs:label>Schiff, Sara</rdfs:label>
@@ -1964,9 +1968,9 @@
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
-      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0041405/"/>
-      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0152204/"/>
-      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0250046/"/>
+      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0041405"/>
+      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0152204"/>
+      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0250046"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0057261"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0100054/eng/spa/1023">
@@ -1976,9 +1980,9 @@
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0001267/"/>
-      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0299077/"/>
-      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0684999/"/>
+      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0001267"/>
+      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0299077"/>
+      <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0684999"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0100054"/>
    </rdac:C10006>
    <rdac:C10007 rdf:about="http://example.org/001452439">
@@ -2727,10 +2731,10 @@
       <rdamd:P30011>D.L. 2010</rdamd:P30011>
       <rdamd:P30182>1 DVD-Vídeo (92 min) son., bl. y n. 1 libreto ([16] p.)</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1008</rdamd:P30002>
-      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1013</rdamd:P30001>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30106>Filmoteca FNAC</rdamd:P30106>
       <rdamd:P30165>102</rdamd:P30165>
-      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1013"/>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
       <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0057261/eng/1023"/>
    </rdac:C10007>
@@ -7262,6 +7266,9 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDACarrierType/1052">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDACarrierType/1052</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://rdaregistry.info/termList/RDACarrierType/1060">
+      <skos:subjectIndicator>http://rdaregistry.info/termList/RDACarrierType/1060</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAContentType/1013">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDAContentType/1013</skos:subjectIndicator>
