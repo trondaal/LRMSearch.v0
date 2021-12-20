@@ -13,3 +13,5 @@ client/.idea/
 .idea/workspace.xml
 .idea/workspace.xml
 *.bak
+*.bak
+.idea/workspace.xml
