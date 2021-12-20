@@ -1892,7 +1892,8 @@
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"
                                               select="'http://rdaregistry.info/Elements/x/datatype/P00018'"/>
-                              <xsl:with-param name="select" select="concat('isbn-', replace(., '\D', ''))"/>
+                              <xsl:with-param name="select"
+                                              select="'isbn-' || replace(., '\D', '') || (if (../*:subfield[@code='q' and matches(., '^[0-9]*$')]) then '-' || ../*:subfield[@code='q' and matches(., '^[0-9]*$')][1]  else '')"/>
                            </xsl:call-template>
                         </xsl:copy>
                      </xsl:if>
@@ -3389,13 +3390,13 @@
                   </xsl:if>
                </xsl:copy>
             </xsl:for-each>
-            <xsl:for-each select="$record/*:datafield[@tag='730'][. eq $this_field][*:subfield/@code = ('a','l','t')]">
+            <xsl:for-each select="$record/*:datafield[@tag='730'][. eq $this_field][*:subfield/@code = ('a','l')]">
                <xsl:copy>
                   <xsl:call-template name="copy-attributes"/>
                   <xsl:if test="$include_counters">
                      <xsl:attribute name="c" select="1"/>
                   </xsl:if>
-                  <xsl:for-each select="*:subfield[@code = ('a','l','t')]">
+                  <xsl:for-each select="*:subfield[@code = ('a','l')]">
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
@@ -3413,7 +3414,7 @@
                            </xsl:call-template>
                         </xsl:copy>
                      </xsl:if>
-                     <xsl:if test="@code = 't'">
+                     <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"

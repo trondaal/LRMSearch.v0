@@ -12,3 +12,4 @@ client/node_modules/
 client/.idea/
 .idea/workspace.xml
 .idea/workspace.xml
+*.bak

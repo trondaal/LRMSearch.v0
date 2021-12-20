@@ -1960,26 +1960,26 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q7740406"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0057261/eng/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0057261/mul/1023">
       <rdaed:P20316>Lord of the flies (Peter Brook)</rdaed:P20316>
       <rdaed:P20312>El señor de las moscas</rdaed:P20312>
-      <rdfs:label>El señor de las moscas / eng / moving image</rdfs:label>
+      <rdfs:label>El señor de las moscas / mul / moving image</rdfs:label>
       <rdaed:P20316>Tom and Jerry : plane dumb</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0041405"/>
       <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0152204"/>
       <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0250046"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0057261"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0100054/eng/spa/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0100054/mul/1023">
       <rdaed:P20316>Lord of the flies</rdaed:P20316>
       <rdaed:P20312>El señor de las moscas</rdaed:P20312>
-      <rdfs:label>El señor de las moscas / spa / moving image</rdfs:label>
+      <rdfs:label>El señor de las moscas / mul / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0001267"/>
       <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0299077"/>
       <rdaeo:P20012 rdf:resource="https://www.imdb.com/name/nm0684999"/>
@@ -2736,7 +2736,7 @@
       <rdamd:P30165>102</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0057261/eng/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0057261/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bimo0000923021">
       <rdamd:P30156>El dios escorpión</rdamd:P30156>
@@ -2827,7 +2827,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1052</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1052"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0100054/eng/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0100054/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000058826">
       <rdamd:P30156>El señor de las moscas</rdamd:P30156>
@@ -2841,7 +2841,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1052</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1052"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0100054/eng/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0100054/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000058827">
       <rdamd:P30156>El señor de las moscas</rdamd:P30156>
@@ -2855,7 +2855,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1052</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1052"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0100054/eng/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0100054/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0330502956">
       <rdamd:P30004>ISBN 0330502956 (pbk) :</rdamd:P30004>
@@ -7235,6 +7235,7 @@
    </rdac:C10007>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">
       <skos:subjectIndicator>spa</skos:subjectIndicator>
+      <skos:subjectIndicator>eng</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/eng">
       <rdfs:label>eng</rdfs:label>
@@ -7243,6 +7244,9 @@
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/ger">
       <rdfs:label>ger</rdfs:label>
       <skos:subjectIndicator>ger</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/mul">
+      <skos:subjectIndicator>mul</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/nob">
       <rdfs:label>nob</rdfs:label>

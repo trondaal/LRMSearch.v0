@@ -313,7 +313,7 @@
             <datafield tag="020">
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="'ISBN' || frbrizer:trim(.)" label="rdf label"/>
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30004" select="'ISBN ' || ." label="manifestation identifier"/>
-                <subfield code="a" type="http://rdaregistry.info/Elements/x/datatype/P00018" select="concat('isbn-', replace(., '\D', ''))" label="has identifier for the LRM entity"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/x/datatype/P00018" select="'isbn-' || replace(., '\D', '') || (if (../*:subfield[@code='q' and matches(., '^[0-9]*$')]) then '-' || ../*:subfield[@code='q' and matches(., '^[0-9]*$')][1]  else '')" label="has identifier for the LRM entity"/>
             </datafield>
             <datafield tag="022">
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30004" select="'ISSN ' || ." label="manifestation identifier"/>
@@ -643,7 +643,7 @@
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
                 <!--<subfield code="h" select="lower-case(frbrizer:trim(.))" type="http://rdaregistry.info/Elements/e/datatype/P20001" label="has content type"/>-->
                 <subfield code="l" select="lower-case(.)" type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language of expression"/>
-                <subfield code="t" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20312"  label="has variant title"/>
+                <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20312"  label="has variant title"/>
             </datafield>
             <datafield tag="740" condition="frbrizer:linked($anchor_field, ., true())">
                 <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20315" label="titlepreferred"/>

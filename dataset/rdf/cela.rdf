@@ -2951,40 +2951,27 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q5791732"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0073518/spa/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0073518/mul/1023">
       <rdaed:P20316>Pascual Duarte</rdaed:P20316>
       <rdaed:P20312>Pascual Duarte</rdaed:P20312>
-      <rdfs:label>Pascual Duarte / spa / moving image</rdfs:label>
-      <rdfs:label>Pascual Duarte / spa / mvoing image / moving image</rdfs:label>
+      <rdfs:label>Pascual Duarte / mul / moving image</rdfs:label>
+      <rdfs:label>Pascual Duarte / mul / mvoing image / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/gmezjosluis"/>
       <rdaeo:P20012 rdf:resource="http://example.org/ojeapaca"/>
       <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/70031002"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0073518"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0083743/spa/1020">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0083743/mul/1023">
       <rdaed:P20316>La Colmena</rdaed:P20316>
       <rdaed:P20312>La colmena</rdaed:P20312>
-      <rdfs:label>La colmena / spa / text / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
-      <rdaeo:P20012 rdf:resource="http://example.org/abrilvictoria"/>
-      <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/56299308"/>
-      <rdaeo:P20012 rdf:resource="http://example.org/rabalfrancisco"/>
-      <rdaeo:P20012 rdf:resource="http://example.org/pardomario"/>
-      <rdaeo:P20012 rdf:resource="http://example.org/faltoyanofiorella"/>
-      <rdaeo:P20012 rdf:resource="http://example.org/bdalojos"/>
-      <rdaeo:P20012 rdf:resource="http://example.org/lpezcharo"/>
-      <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0083743"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0083743/spa/1023">
-      <rdaed:P20316>La Colmena</rdaed:P20316>
-      <rdaed:P20312>La colmena</rdaed:P20312>
-      <rdfs:label>La colmena / spa / moving image</rdfs:label>
-      <rdfs:label>La colmena / spa / mvoing image / moving image</rdfs:label>
+      <rdfs:label>La colmena / mul / moving image</rdfs:label>
+      <rdfs:label>La colmena / mul / mvoing image / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/abrilvictoria"/>
       <rdaeo:P20012 rdf:resource="http://example.org/anabeln"/>
       <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/56299308"/>
@@ -3008,6 +2995,21 @@
       <rdaeo:P20012 rdf:resource="http://example.org/gonzlezagustn"/>
       <rdaeo:P20012 rdf:resource="http://example.org/pontemaraluisa"/>
       <rdaeo:P20055 rdf:resource="http://example.org/biurrunjosmara"/>
+      <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0083743"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0083743/spa/1020">
+      <rdaed:P20316>La Colmena</rdaed:P20316>
+      <rdaed:P20312>La colmena</rdaed:P20312>
+      <rdfs:label>La colmena / spa / text / text</rdfs:label>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
+      <rdaeo:P20012 rdf:resource="http://example.org/abrilvictoria"/>
+      <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/56299308"/>
+      <rdaeo:P20012 rdf:resource="http://example.org/rabalfrancisco"/>
+      <rdaeo:P20012 rdf:resource="http://example.org/pardomario"/>
+      <rdaeo:P20012 rdf:resource="http://example.org/faltoyanofiorella"/>
+      <rdaeo:P20012 rdf:resource="http://example.org/bdalojos"/>
+      <rdaeo:P20012 rdf:resource="http://example.org/lpezcharo"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0083743"/>
    </rdac:C10006>
    <rdac:C10007 rdf:about="http://example.org/008269871">
@@ -3473,7 +3475,7 @@
       <rdamd:P30106>El Cine de TVE</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0083743/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0083743/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/Mimo0000655403">
       <rdamd:P30156>La obra literaria del pintor Solana</rdamd:P30156>
@@ -3589,7 +3591,7 @@
       <rdamd:P30106>Filmoteca Fnacional</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0083743/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0083743/mul/1023"/>
       <rdamo:P30328 rdf:resource="http://example.org/tolentinojavier"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/a4282137">
@@ -3680,7 +3682,7 @@
       <rdamd:P30165>5</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0083743/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0083743/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/a5387241">
       <rdamd:P30156>La colmena</rdamd:P30156>
@@ -3746,7 +3748,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0073518/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0073518/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/a5952380">
       <rdamd:P30156>Camilo José Cela y Eugenio Fernández "Cartujo"</rdamd:P30156>
@@ -6782,7 +6784,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0083743/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0083743/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000010987">
       <rdamd:P30156>La colmena</rdamd:P30156>
@@ -6833,7 +6835,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0073518/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0073518/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000039832">
       <rdamd:P30156>Pascual Duarte</rdamd:P30156>
@@ -6846,7 +6848,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0073518/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0073518/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0135283078">
       <rdamd:P30004>ISBN 0135283078 (pbk) :</rdamd:P30004>
@@ -14927,6 +14929,7 @@
    </rdac:C10007>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">
       <skos:subjectIndicator>eng</skos:subjectIndicator>
+      <skos:subjectIndicator>spa</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/eng">
       <rdfs:label>eng</rdfs:label>
@@ -14941,6 +14944,9 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/lat">
       <skos:subjectIndicator>lat</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/mul">
+      <skos:subjectIndicator>mul</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/nob">
       <rdfs:label>nob</rdfs:label>

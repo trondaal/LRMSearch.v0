@@ -1658,7 +1658,6 @@
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1002"/>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10053 rdf:resource="http://example.org/jarremaurice"/>
-      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/179378125"/>
       <rdawo:P10064 rdf:resource="http://example.org/daumananatole"/>
       <rdawo:P10064 rdf:resource="http://example.org/seitzfranz"/>
       <rdawo:P10066 rdf:resource="http://example.org/schlndorffvolker"/>
@@ -6682,26 +6681,26 @@
       <rdaeo:P20012 rdf:resource="http://example.org/aznavourcharles"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0078875"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0078875/ger/spa/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0078875/mul/1023">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
       <rdaed:P20312>El tambor de hojalata</rdaed:P20312>
-      <rdfs:label>El tambor de hojalata / spa / moving image</rdfs:label>
+      <rdfs:label>El tambor de hojalata / mul / moving image</rdfs:label>
       <rdaed:P20316>Le tambour</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/bennentdavid"/>
       <rdaeo:P20012 rdf:resource="http://example.org/adorfmario"/>
       <rdaeo:P20012 rdf:resource="http://example.org/winklerangela"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0078875"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0420289/ger/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0420289/mul/1023">
       <rdaed:P20316>Unkenrufe</rdaed:P20316>
       <rdaed:P20312>Unkenrufe</rdaed:P20312>
-      <rdfs:label>Unkenrufe / ger / moving image</rdfs:label>
+      <rdfs:label>Unkenrufe / mul / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0420289"/>
    </rdac:C10006>
    <rdac:C10007 rdf:about="http://example.org/001489749">
@@ -10003,7 +10002,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1013</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1013"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0078875/ger/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0078875/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000061583">
       <rdamd:P30156>El tambor de hojalata</rdamd:P30156>
@@ -10020,7 +10019,7 @@
       <rdamd:P30165>39.</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1052"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0078875/ger/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0078875/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000061584">
       <rdamd:P30156>El tambor de hojalata</rdamd:P30156>
@@ -10034,7 +10033,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1052</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1052"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0078875/ger/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0078875/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000061973">
       <rdamd:P30156>El tambor de hojalata</rdamd:P30156>
@@ -11011,7 +11010,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1013</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1013"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0420289/ger/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0420289/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-3446136975">
       <rdamd:P30004>ISBN 3446136975</rdamd:P30004>
@@ -20463,6 +20462,7 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/spa/1020/22322043/305872623"/>
    </rdac:C10007>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">
+      <skos:subjectIndicator>ger</skos:subjectIndicator>
       <skos:subjectIndicator>spa</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/bul">
@@ -20528,6 +20528,9 @@
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/kor">
       <rdfs:label>kor</rdfs:label>
       <skos:subjectIndicator>kor</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/mul">
+      <skos:subjectIndicator>mul</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/nob">
       <rdfs:label>nob</rdfs:label>

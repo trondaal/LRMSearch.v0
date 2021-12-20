@@ -690,7 +690,7 @@
       <rdfs:label>Stridende liv</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/59083692"/>
-      <rdawo:P10061 rdf:resource="http://example.org/magnuserwin"/>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/17979510"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://www.wikidata.org/entity/Q15062320">
       <rdaxd:P00018>http://www.wikidata.org/entity/Q15062320</rdaxd:P00018>
@@ -699,7 +699,7 @@
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/66602903"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/59083692"/>
-      <rdawo:P10061 rdf:resource="http://example.org/magnuserwin"/>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/17979510"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://www.wikidata.org/entity/Q15062323">
       <rdaxd:P00018>http://www.wikidata.org/entity/Q15062323</rdaxd:P00018>
@@ -1370,12 +1370,6 @@
       <rdaad:P50385>Maagerö, Eva</rdaad:P50385>
       <rdfs:label>Maagerö, Eva</rdfs:label>
    </rdac:C10002>
-   <rdac:C10002 rdf:about="http://example.org/magnuserwin">
-      <rdaxd:P00018>http://example.org/magnuserwin</rdaxd:P00018>
-      <rdaad:P50385>Magnus, Erwin</rdaad:P50385>
-      <rdfs:label>Magnus, Erwin</rdfs:label>
-      <rdaad:P50339>1881-1947</rdaad:P50339>
-   </rdac:C10002>
    <rdac:C10002 rdf:about="http://example.org/mannmathilde">
       <rdaxd:P00018>http://example.org/mannmathilde</rdaxd:P00018>
       <rdaad:P50385>Mann, Mathilde</rdaad:P50385>
@@ -1503,6 +1497,11 @@
       <rdaxd:P00018>http://example.org/paytuvdesierracarlos</rdaxd:P00018>
       <rdaad:P50385>Paytuví de Sierra, Carlos</rdaad:P50385>
       <rdfs:label>Paytuví de Sierra, Carlos</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/petithuguenin">
+      <rdaxd:P00018>http://example.org/petithuguenin</rdaxd:P00018>
+      <rdaad:P50385>Petithuguenin, Jean</rdaad:P50385>
+      <rdfs:label>Petithuguenin, Jean</rdfs:label>
    </rdac:C10002>
    <rdac:C10002 rdf:about="http://example.org/pickledimage">
       <rdaxd:P00018>http://example.org/pickledimage</rdaxd:P00018>
@@ -1763,6 +1762,12 @@
       <rdaad:P50339>1892-1973</rdaad:P50339>
       <rdaad:P50385>Angermann, S</rdaad:P50385>
       <rdfs:label>Angermann, S</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/17979510">
+      <rdaxd:P00018>http://viaf.org/viaf/17979510</rdaxd:P00018>
+      <rdaad:P50385>Magnus, Erwin</rdaad:P50385>
+      <rdfs:label>Magnus, Erwin</rdfs:label>
+      <rdaad:P50339>1881-1947</rdaad:P50339>
    </rdac:C10002>
    <rdac:C10002 rdf:about="http://viaf.org/viaf/24608356">
       <rdaxd:P00018>http://viaf.org/viaf/24608356</rdaxd:P00018>
@@ -2159,12 +2164,13 @@
       <rdaeo:P20037 rdf:resource="http://example.org/mcfarlanejameswalter"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/180078068"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/180078068/fre/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/180078068/fre/1020/petithuguenin">
       <rdaed:P20316>Landstrykere</rdaed:P20316>
       <rdaed:P20312>Vagabonds</rdaed:P20312>
       <rdfs:label>Vagabonds / fre / text / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+      <rdaeo:P20037 rdf:resource="http://example.org/petithuguenin"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/180078068"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/180078068/ger/1020">
@@ -2438,6 +2444,18 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/188303684"/>
    </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/188303684/ger/1020/17979510">
+      <rdaed:P20316>Siste kapitel</rdaed:P20316>
+      <rdaed:P20312>Das letzte Kapitel</rdaed:P20312>
+      <rdfs:label>Das letzte Kapitel / ger / ger / Text / text</rdfs:label>
+      <rdfs:label>Das letzte Kapitel / ger / text / text</rdfs:label>
+      <rdaed:P20315>Das letzte Kapitel</rdaed:P20315>
+      <rdaed:P20316>Das letzte Kapitel</rdaed:P20316>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+      <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/17979510"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/188303684"/>
+   </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/188303684/ger/1020/hiltbrunnerhermann">
       <rdaed:P20316>Siste kapitel</rdaed:P20316>
       <rdaed:P20312>Das letzte Kapitel</rdaed:P20312>
@@ -2447,17 +2465,6 @@
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/hiltbrunnerhermann"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/188303684"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/188303684/ger/1020/magnuserwin">
-      <rdaed:P20316>Siste kapitel</rdaed:P20316>
-      <rdaed:P20312>Das letzte Kapitel</rdaed:P20312>
-      <rdfs:label>Das letzte Kapitel / ger / ger / Text / text</rdfs:label>
-      <rdaed:P20315>Das letzte Kapitel</rdaed:P20315>
-      <rdaed:P20316>Das letzte Kapitel</rdaed:P20316>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
-      <rdaeo:P20037 rdf:resource="http://example.org/magnuserwin"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/188303684"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/188303684/nor/1020">
@@ -3398,7 +3405,7 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/7014928"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/294124367"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/294124367/fre/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/294124367/fre/1020/petithuguenin">
       <rdaed:P20316>Markens grøde</rdaed:P20316>
       <rdaed:P20312>L'éveil de la glèbe</rdaed:P20312>
       <rdfs:label>L'éveil de la glèbe / fre / text / text</rdfs:label>
@@ -3406,6 +3413,7 @@
       <rdaed:P20316>L'Éveil de la glèbe</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+      <rdaeo:P20037 rdf:resource="http://example.org/petithuguenin"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/294124367"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/294124367/ger/1020">
@@ -5756,25 +5764,25 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q15062328"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0011440/nor/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0011440/mul/1023">
       <rdaed:P20316>Markens grøde</rdaed:P20316>
       <rdaed:P20312>Markens grøde</rdaed:P20312>
-      <rdfs:label>Markens grøde / nor / moving image / moving image</rdfs:label>
+      <rdfs:label>Markens grøde / mul / moving image / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/rydlandamund"/>
       <rdaeo:P20012 rdf:resource="http://example.org/thalbitzerkaren"/>
       <rdaeo:P20012 rdf:resource="http://example.org/wettergreenragna"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0011440"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0061042/dan/nor/swe/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0061042/mul/1023">
       <rdaed:P20316>Sult</rdaed:P20316>
       <rdaed:P20312>Sult</rdaed:P20312>
-      <rdfs:label>Sult / nor / moving image / moving image</rdfs:label>
+      <rdfs:label>Sult / mul / moving image / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/swe"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dan"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/oscarssonper"/>
       <rdaeo:P20012 rdf:resource="http://example.org/lindblomgunnel"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0061042"/>
@@ -5791,33 +5799,37 @@
       <rdaeo:P20012 rdf:resource="http://example.org/tushinghamrita"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0077965"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0097709/nor/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0097709/mul/1023">
       <rdaed:P20316>Landstrykere</rdaed:P20316>
       <rdaed:P20312>Landstrykere</rdaed:P20312>
-      <rdfs:label>Landstrykere / nor / moving image / moving image</rdfs:label>
+      <rdfs:label>Landstrykere / mul / moving image / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/jordalhelge"/>
       <rdaeo:P20012 rdf:resource="http://example.org/munchtrondpeterstams"/>
       <rdaeo:P20012 rdf:resource="http://example.org/lagercrantzmarika"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0097709"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0108309/nor/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0108309/mul/1023">
       <rdaed:P20316>Telegrafisten</rdaed:P20316>
       <rdaed:P20312>Telegrafisten</rdaed:P20312>
-      <rdfs:label>Telegrafisten / nor / moving image / moving image</rdfs:label>
+      <rdfs:label>Telegrafisten / mul / moving image / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/flobergbjrn"/>
       <rdaeo:P20012 rdf:resource="http://example.org/richardsonmarie"/>
       <rdaeo:P20012 rdf:resource="http://example.org/kullejarl"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0108309"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0114081/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0114081/mul/1023">
       <rdaed:P20316>Pan</rdaed:P20316>
       <rdaed:P20312>Pan</rdaed:P20312>
-      <rdfs:label>Pan / moving image / moving image</rdfs:label>
+      <rdfs:label>Pan / mul / moving image / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/sundquistbjrn"/>
       <rdaeo:P20012 rdf:resource="http://example.org/grblsofie"/>
       <rdaeo:P20012 rdf:resource="http://example.org/kolsrudlasse"/>
@@ -7002,7 +7014,7 @@
       <rdamd:P30106>#lek#!451793951!Gesammelte Werke in Einzelbänden / Knut Hamsun</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/magnuserwin"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/17979510"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/451794524">
       <rdamd:P30156>Das letzte Kapitel</rdamd:P30156>
@@ -7017,7 +7029,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/magnuserwin"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/17979510"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/451794532">
       <rdamd:P30156>Das letzte Kapitel</rdamd:P30156>
@@ -7033,7 +7045,7 @@
       <rdamd:P30165>40</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/magnuserwin"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/17979510"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/451794540">
       <rdamd:P30156>Das letzte Kapitel</rdamd:P30156>
@@ -7047,7 +7059,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/magnuserwin"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/17979510"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/451794559">
       <rdamd:P30156>Die Weiber am Brunnen</rdamd:P30156>
@@ -7944,7 +7956,7 @@
       <rdamd:P30106>[Knaurs Standard-Bände]</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/magnuserwin"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/17979510"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/573639035">
       <rdamd:P30156>Das letzte Kapitel</rdamd:P30156>
@@ -7958,7 +7970,7 @@
       <rdamd:P30106>Auswahlreihe des Volksverbandes der Bücherfreunde</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/magnuserwin"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/17979510"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/573639043">
       <rdamd:P30156>Das letzte Kapitel</rdamd:P30156>
@@ -9451,7 +9463,7 @@
       <rdamd:P30106>Knut Hamsun. Gesammelte Werke</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/17979510"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/990308234044702201">
       <rdamd:P30156>Hunger</rdamd:P30156>
@@ -9859,7 +9871,7 @@
       <rdamd:P30106>Romans étrangers</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180078068/fre/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180078068/fre/1020/petithuguenin"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/990408942154702201">
       <rdamd:P30156>L'éveil de la glèbe</rdamd:P30156>
@@ -9872,7 +9884,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/fre/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/fre/1020/petithuguenin"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/990409567924702201">
       <rdamd:P30156>Victoria</rdamd:P30156>
@@ -10299,7 +10311,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0108309/nor/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0108309/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/991015763744702201">
       <rdamd:P30156>Sult</rdamd:P30156>
@@ -10310,7 +10322,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0061042/dan/nor/swe/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0061042/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/991015792334702201">
       <rdamd:P30156>Landstrykere</rdamd:P30156>
@@ -10321,7 +10333,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0097709/nor/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0097709/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/991015792684702201">
       <rdamd:P30156>Markens grøde</rdamd:P30156>
@@ -10332,7 +10344,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0011440/nor/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0011440/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/991015793064702201">
       <rdamd:P30156>Pan</rdamd:P30156>
@@ -10343,7 +10355,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0114081/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0114081/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/991328174704702201">
       <rdamd:P30156>La faim</rdamd:P30156>
@@ -14805,7 +14817,7 @@
       <rdamd:P30165>53</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180078068/fre/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180078068/fre/1020/petithuguenin"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-2246587514">
       <rdamd:P30004>ISBN 2246587514</rdamd:P30004>
@@ -14999,7 +15011,7 @@
       <rdamd:P30165>3312</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/fre/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/fre/1020/petithuguenin"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-2253933406">
       <rdamd:P30004>ISBN 2253933406</rdamd:P30004>
@@ -15300,7 +15312,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/fre/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/fre/1020/petithuguenin"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-2702121845">
       <rdamd:P30004>ISBN 2702121845</rdamd:P30004>
@@ -16085,7 +16097,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0108309/nor/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0108309/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8203038727">
       <rdamd:P30004>ISBN 8203038727</rdamd:P30004>
@@ -16287,9 +16299,9 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/395147270538135700001/nor/1020"/>
       <rdamo:P30321 rdf:resource="http://example.org/stenstadvoldhkon"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-8205040257">
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205040257-12">
       <rdamd:P30004>ISBN 8205040257</rdamd:P30004>
-      <rdaxd:P00018>isbn-8205040257</rdaxd:P00018>
+      <rdaxd:P00018>isbn-8205040257-12</rdaxd:P00018>
       <rdfs:label>ISBN8205040257</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>12</rdamd:P30014>
@@ -16940,60 +16952,109 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/395147270538135700001/nor/1020"/>
       <rdamo:P30321 rdf:resource="http://example.org/stenstadvoldhkon"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331">
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-1">
       <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
-      <rdaxd:P00018>isbn-8205253331</rdaxd:P00018>
+      <rdaxd:P00018>isbn-8205253331-1</rdaxd:P00018>
       <rdfs:label>ISBN8205253331</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
-      <rdamd:P30014>B. 14</rdamd:P30014>
-      <rdamd:P30134>Ved rikets port ; Livets spil ; Aftenrøde ; Munken Vendt</rdamd:P30134>
-      <rdamd:P30014>B. 9</rdamd:P30014>
-      <rdamd:P30134>Siste kapitel</rdamd:P30134>
-      <rdamd:P30014>B. 5</rdamd:P30014>
-      <rdamd:P30134>Benoni ; Rosa ; En vandrer spiller med sordin</rdamd:P30134>
-      <rdamd:P30014>B. 4</rdamd:P30014>
-      <rdamd:P30134>Kratskog ; Sværmere ; Stridende liv ; Under høststjærnen</rdamd:P30134>
-      <rdamd:P30014>B. 15</rdamd:P30014>
-      <rdamd:P30134>Dronning Tamara ; Livet ivold ; Det vilde kor ; På gjengrodde stier</rdamd:P30134>
-      <rdamd:P30014>B. 10</rdamd:P30014>
-      <rdamd:P30134>Landstrykere</rdamd:P30134>
-      <rdamd:P30014>B. 12</rdamd:P30014>
-      <rdamd:P30134>Men livet lever</rdamd:P30134>
-      <rdamd:P30014>B. 13</rdamd:P30014>
-      <rdamd:P30134>Ringen sluttet</rdamd:P30134>
-      <rdamd:P30014>B. 2</rdamd:P30014>
-      <rdamd:P30134>Redaktør Lynge ; Ny jord ; Pan</rdamd:P30134>
-      <rdamd:P30014>B. 7</rdamd:P30014>
-      <rdamd:P30134>Den Siste glæde ; Markens grøde</rdamd:P30134>
-      <rdamd:P30014>B. 3</rdamd:P30014>
-      <rdamd:P30134>Siesta ; Victoria ; I æventyrland</rdamd:P30134>
-      <rdamd:P30014>B. 11</rdamd:P30014>
-      <rdamd:P30134>August</rdamd:P30134>
-      <rdamd:P30014>B. 6</rdamd:P30014>
-      <rdamd:P30134>Børn av tiden ; Segelfoss by</rdamd:P30134>
-      <rdamd:P30014>B. 8</rdamd:P30014>
-      <rdamd:P30134>Konerne ved vandposten</rdamd:P30134>
       <rdamd:P30014>B. 1</rdamd:P30014>
       <rdamd:P30134>Sult ; Mysterier</rdamd:P30134>
       <rdamd:P30107>9. utg.</rdamd:P30107>
       <rdamd:P30088>[Oslo]</rdamd:P30088>
       <rdamd:P30083>Gyldendal</rdamd:P30083>
       <rdamd:P30011>1997</rdamd:P30011>
-      <rdamd:P30182>377 s.</rdamd:P30182>
-      <rdamd:P30182>294 s.</rdamd:P30182>
-      <rdamd:P30182>415 s.</rdamd:P30182>
-      <rdamd:P30182>386 s.</rdamd:P30182>
-      <rdamd:P30182>330 s.</rdamd:P30182>
-      <rdamd:P30182>326 s.</rdamd:P30182>
-      <rdamd:P30182>308 s.</rdamd:P30182>
-      <rdamd:P30182>235 s.</rdamd:P30182>
-      <rdamd:P30182>416 s.</rdamd:P30182>
-      <rdamd:P30182>387 s.</rdamd:P30182>
-      <rdamd:P30182>281 s.</rdamd:P30182>
-      <rdamd:P30182>254 s.</rdamd:P30182>
-      <rdamd:P30182>435 s.</rdamd:P30182>
-      <rdamd:P30182>287 s.</rdamd:P30182>
       <rdamd:P30182>360 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/220443771/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/206863699/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-10">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-10</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 10</rdamd:P30014>
+      <rdamd:P30134>Landstrykere</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>326 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180078068/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-11">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-11</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 11</rdamd:P30014>
+      <rdamd:P30134>August</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>254 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/3267149068489065730001/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-12">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-12</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 12</rdamd:P30014>
+      <rdamd:P30134>Men livet lever</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>308 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/191146462599827770953/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-13">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-13</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 13</rdamd:P30014>
+      <rdamd:P30134>Ringen sluttet</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>235 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1000145424544686831283/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-14">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-14</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 14</rdamd:P30014>
+      <rdamd:P30134>Ved rikets port ; Livets spil ; Aftenrøde ; Munken Vendt</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>377 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -17002,34 +17063,181 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/7398163939428301160007/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062327/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062323/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310234238/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1650145424683186830143/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/5470149068540465730001/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062320/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/995145424555286830372/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q12003637/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309525997/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-15">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-15</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 15</rdamd:P30014>
+      <rdamd:P30134>Dronning Tamara ; Livet ivold ; Det vilde kor ; På gjengrodde stier</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>330 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q11966095/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312486496/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316368447/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/30145424502786830193/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180078068/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/191146462599827770953/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1000145424544686831283/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-2">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-2</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 2</rdamd:P30014>
+      <rdamd:P30134>Redaktør Lynge ; Ny jord ; Pan</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>416 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/5518152200833114400003/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/143144898528950290965/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/194765531/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185380595/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-3">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-3</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 3</rdamd:P30014>
+      <rdamd:P30134>Siesta ; Victoria ; I æventyrland</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>281 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/395147270538135700001/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309525999/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/3267149068489065730001/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-4">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-4</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 4</rdamd:P30014>
+      <rdamd:P30134>Kratskog ; Sværmere ; Stridende liv ; Under høststjærnen</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>386 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062320/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/995145424555286830372/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q12003637/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309525997/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-5">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-5</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 5</rdamd:P30014>
+      <rdamd:P30134>Benoni ; Rosa ; En vandrer spiller med sordin</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>415 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310234238/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1650145424683186830143/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/5470149068540465730001/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-6">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-6</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 6</rdamd:P30014>
+      <rdamd:P30134>Børn av tiden ; Segelfoss by</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>435 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/8450149068552765730000/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/207944253/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-7">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-7</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 7</rdamd:P30014>
+      <rdamd:P30134>Den Siste glæde ; Markens grøde</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>387 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185380595/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-8">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-8</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 8</rdamd:P30014>
+      <rdamd:P30134>Konerne ved vandposten</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>287 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312526705/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/220443771/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/206863699/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205253331-9">
+      <rdamd:P30004>ISBN 8205253331</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205253331-9</rdaxd:P00018>
+      <rdfs:label>ISBN8205253331</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 9</rdamd:P30014>
+      <rdamd:P30134>Siste kapitel</rdamd:P30134>
+      <rdamd:P30107>9. utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>1997</rdamd:P30011>
+      <rdamd:P30182>294 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/nor/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8205253676">
       <rdamd:P30004>ISBN 8205253676</rdamd:P30004>
@@ -17141,97 +17349,293 @@
       <rdamo:P30328 rdf:resource="http://example.org/rudborgbjrn"/>
       <rdamo:P30328 rdf:resource="http://example.org/frlandolepetter"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408">
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-1">
       <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
-      <rdaxd:P00018>isbn-8205275408</rdaxd:P00018>
+      <rdaxd:P00018>isbn-8205275408-1</rdaxd:P00018>
       <rdfs:label>ISBN8205275408</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
-      <rdamd:P30014>B. 13</rdamd:P30014>
-      <rdamd:P30134>Ringen sluttet</rdamd:P30134>
-      <rdamd:P30014>B. 3</rdamd:P30014>
-      <rdamd:P30134>Siesta ; Victoria ; I æventyrland</rdamd:P30134>
-      <rdamd:P30014>B. 15</rdamd:P30014>
-      <rdamd:P30134>Dronning Tamara ; Livet ivold ; Det vilde kor ; På gjengrodde stier</rdamd:P30134>
-      <rdamd:P30014>B. 10</rdamd:P30014>
-      <rdamd:P30134>Landstrykere</rdamd:P30134>
-      <rdamd:P30014>B. 7</rdamd:P30014>
-      <rdamd:P30134>Den siste glæde ; Markens grøde</rdamd:P30134>
-      <rdamd:P30014>B. 8</rdamd:P30014>
-      <rdamd:P30134>Konerne ved vandposten</rdamd:P30134>
-      <rdamd:P30014>B. 2</rdamd:P30014>
-      <rdamd:P30134>Redaktør Lynge ; Ny jord ; Pan</rdamd:P30134>
-      <rdamd:P30014>B. 5</rdamd:P30014>
-      <rdamd:P30134>Benoni ; Rosa ; En vandrer spiller med sordin</rdamd:P30134>
-      <rdamd:P30014>B. 12</rdamd:P30014>
-      <rdamd:P30134>Men livet lever</rdamd:P30134>
-      <rdamd:P30014>B. 4</rdamd:P30014>
-      <rdamd:P30134>Kratskog ; Sværmere ; Stridende liv ; Under høststjærnen</rdamd:P30134>
       <rdamd:P30014>B. 1</rdamd:P30014>
       <rdamd:P30134>Sult ; Mysterier</rdamd:P30134>
-      <rdamd:P30014>B. 14</rdamd:P30014>
-      <rdamd:P30134>Ved rikets port ; Livets spil ; Aftenrøde ; Munken Vendt</rdamd:P30134>
-      <rdamd:P30014>B. 9</rdamd:P30014>
-      <rdamd:P30134>Siste kapitel</rdamd:P30134>
-      <rdamd:P30014>B. 6</rdamd:P30014>
-      <rdamd:P30134>Børn av tiden ; Segelfoss by</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>360 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/220443771/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/206863699/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-10">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-10</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 10</rdamd:P30014>
+      <rdamd:P30134>Landstrykere</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>326 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180078068/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-11">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-11</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 11</rdamd:P30014>
       <rdamd:P30134>August</rdamd:P30134>
       <rdamd:P30107>10. utg.</rdamd:P30107>
       <rdamd:P30088>Oslo</rdamd:P30088>
       <rdamd:P30083>Gyldendal</rdamd:P30083>
       <rdamd:P30011>2000</rdamd:P30011>
-      <rdamd:P30182>235 s.</rdamd:P30182>
-      <rdamd:P30182>281 s.</rdamd:P30182>
-      <rdamd:P30182>330 s.</rdamd:P30182>
-      <rdamd:P30182>326 s.</rdamd:P30182>
-      <rdamd:P30182>387 s.</rdamd:P30182>
-      <rdamd:P30182>287 s.</rdamd:P30182>
-      <rdamd:P30182>416 s.</rdamd:P30182>
-      <rdamd:P30182>415 s.</rdamd:P30182>
-      <rdamd:P30182>308 s.</rdamd:P30182>
-      <rdamd:P30182>386 s.</rdamd:P30182>
-      <rdamd:P30182>360 s.</rdamd:P30182>
-      <rdamd:P30182>377 s.</rdamd:P30182>
-      <rdamd:P30182>294 s.</rdamd:P30182>
-      <rdamd:P30182>435 s.</rdamd:P30182>
       <rdamd:P30182>254 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1000145424544686831283/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062328/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/395147270538135700001/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309525999/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/30145424502786830193/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q11966095/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312486496/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316368447/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180078068/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185380595/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312526705/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/5518152200833114400003/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/143144898528950290965/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/194765531/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310234238/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1650145424683186830143/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/5470149068540465730001/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/3267149068489065730001/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-12">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-12</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 12</rdamd:P30014>
+      <rdamd:P30134>Men livet lever</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>308 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/191146462599827770953/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062320/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/995145424555286830372/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q12003637/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309525997/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/220443771/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/206863699/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-13">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-13</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 13</rdamd:P30014>
+      <rdamd:P30134>Ringen sluttet</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>235 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1000145424544686831283/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-14">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-14</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 14</rdamd:P30014>
+      <rdamd:P30134>Ved rikets port ; Livets spil ; Aftenrøde ; Munken Vendt</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>377 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316992494/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/7398163939428301160007/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062327/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062323/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-15">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-15</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 15</rdamd:P30014>
+      <rdamd:P30134>Dronning Tamara ; Livet ivold ; Det vilde kor ; På gjengrodde stier</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>330 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/30145424502786830193/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q11966095/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312486496/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316368447/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-2">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-2</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 2</rdamd:P30014>
+      <rdamd:P30134>Redaktør Lynge ; Ny jord ; Pan</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>416 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/5518152200833114400003/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/143144898528950290965/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/194765531/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-3">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-3</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 3</rdamd:P30014>
+      <rdamd:P30134>Siesta ; Victoria ; I æventyrland</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>281 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062328/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/395147270538135700001/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309525999/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-4">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-4</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 4</rdamd:P30014>
+      <rdamd:P30134>Kratskog ; Sværmere ; Stridende liv ; Under høststjærnen</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>386 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062320/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/995145424555286830372/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q12003637/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309525997/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-5">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-5</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 5</rdamd:P30014>
+      <rdamd:P30134>Benoni ; Rosa ; En vandrer spiller med sordin</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>415 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310234238/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1650145424683186830143/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/5470149068540465730001/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-6">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-6</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 6</rdamd:P30014>
+      <rdamd:P30134>Børn av tiden ; Segelfoss by</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>435 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/8450149068552765730000/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/207944253/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/3267149068489065730001/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-7">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-7</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 7</rdamd:P30014>
+      <rdamd:P30134>Den siste glæde ; Markens grøde</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>387 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185380595/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-8">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-8</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 8</rdamd:P30014>
+      <rdamd:P30134>Konerne ved vandposten</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>287 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312526705/nor/1020"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8205275408-9">
+      <rdamd:P30004>ISBN 8205275408</rdamd:P30004>
+      <rdaxd:P00018>isbn-8205275408-9</rdaxd:P00018>
+      <rdfs:label>ISBN8205275408</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 9</rdamd:P30014>
+      <rdamd:P30134>Siste kapitel</rdamd:P30134>
+      <rdamd:P30107>10. utg.</rdamd:P30107>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2000</rdamd:P30011>
+      <rdamd:P30182>294 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/nor/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8205277478">
       <rdamd:P30004>ISBN 8205277478</rdamd:P30004>
@@ -20507,7 +20911,7 @@
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/220443771/ger/1020/162089799/59960174"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/magnuserwin"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/ger/1020/17979510"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/ger/1020/162089799/59960174"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9783471778586">
@@ -21229,22 +21633,10 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/395147270538135700001/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/206863699/nor/1020"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359086">
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359086-3">
       <rdamd:P30004>ISBN 9788205359086</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205359086</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205359086-3</rdaxd:P00018>
       <rdfs:label>ISBN9788205359086</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 3</rdamd:P30014>
       <rdamd:P30134>Redaktør Lynge ; Ny jord</rdamd:P30134>
@@ -21261,54 +21653,10 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/5518152200833114400003/nor/1020"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359093">
-      <rdamd:P30004>ISBN 9788205359093</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205359093</rdaxd:P00018>
-      <rdfs:label>ISBN9788205359093</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
-      <rdamd:P30156>Samlede verker</rdamd:P30156>
-      <rdamd:P30014>B. 4</rdamd:P30014>
-      <rdamd:P30134>Pan ; Victoria</rdamd:P30134>
-      <rdamd:P30107>Ny utg.</rdamd:P30107>
-      <rdamd:P30088>[Oslo]</rdamd:P30088>
-      <rdamd:P30083>Gyldendal</rdamd:P30083>
-      <rdamd:P30011>2007</rdamd:P30011>
-      <rdamd:P30182>241 s.</rdamd:P30182>
-      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
-      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
-      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
-      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/194765531/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/395147270538135700001/nor/1020"/>
-      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
-   </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359109">
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359109-5">
       <rdamd:P30004>ISBN 9788205359109</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205359109</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205359109-5</rdaxd:P00018>
       <rdfs:label>ISBN9788205359109</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 5</rdamd:P30014>
       <rdamd:P30134>Svermere ; Under høststjernen</rdamd:P30134>
@@ -21325,22 +21673,10 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/995145424555286830372/nor/1020"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359123">
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359123-17">
       <rdamd:P30004>ISBN 9788205359123</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205359123</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205359123-17</rdaxd:P00018>
       <rdfs:label>ISBN9788205359123</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 17</rdamd:P30014>
       <rdamd:P30134>Siesta ; Krattskog ; Stridende liv</rdamd:P30134>
@@ -21358,22 +21694,10 @@
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q12003637/nor/1020"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359147">
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359147-19">
       <rdamd:P30004>ISBN 9788205359147</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205359147</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205359147-19</rdaxd:P00018>
       <rdfs:label>ISBN9788205359147</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 19</rdamd:P30014>
       <rdamd:P30134>Ved rikets port ; Livets spill ; Aftenrøde</rdamd:P30134>
@@ -21391,22 +21715,10 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/7398163939428301160007/nor/1020"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359161">
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359161-7">
       <rdamd:P30004>ISBN 9788205359161</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205359161</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205359161-7</rdaxd:P00018>
       <rdfs:label>ISBN9788205359161</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 7</rdamd:P30014>
       <rdamd:P30134>En vandrer spiller med sordin ; Den siste glede</rdamd:P30134>
@@ -21423,22 +21735,10 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/5470149068540465730001/nor/1020"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359178">
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359178-8">
       <rdamd:P30004>ISBN 9788205359178</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205359178</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205359178-8</rdaxd:P00018>
       <rdfs:label>ISBN9788205359178</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 8</rdamd:P30014>
       <rdamd:P30134>Barn av tiden</rdamd:P30134>
@@ -21454,22 +21754,10 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/8450149068552765730000/nor/1020"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359185">
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359185-6">
       <rdamd:P30004>ISBN 9788205359185</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205359185</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205359185-6</rdaxd:P00018>
       <rdfs:label>ISBN9788205359185</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 6</rdamd:P30014>
       <rdamd:P30134>Benoni ; Rosa</rdamd:P30134>
@@ -21486,54 +21774,10 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1650145424683186830143/nor/1020"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205359192">
-      <rdamd:P30004>ISBN 9788205359192</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205359192</rdaxd:P00018>
-      <rdfs:label>ISBN9788205359192</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
-      <rdamd:P30156>Samlede verker</rdamd:P30156>
-      <rdamd:P30014>B. 24</rdamd:P30014>
-      <rdamd:P30134>Fra det moderne Amerikas åndsliv ; Lars Oftedal</rdamd:P30134>
-      <rdamd:P30107>Ny utg.</rdamd:P30107>
-      <rdamd:P30088>[Oslo]</rdamd:P30088>
-      <rdamd:P30083>Gyldendal</rdamd:P30083>
-      <rdamd:P30011>2007</rdamd:P30011>
-      <rdamd:P30182>253 s.</rdamd:P30182>
-      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
-      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
-      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
-      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/811145857935523020027/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://workid.oslomet.no/kh/03/nor/1020"/>
-      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
-   </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205361638">
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205361638-18">
       <rdamd:P30004>ISBN 9788205361638</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205361638</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205361638-18</rdaxd:P00018>
       <rdfs:label>ISBN9788205361638</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 18</rdamd:P30014>
       <rdamd:P30134>Den gåtefulle ; Bjørger ; Livsfragmenter</rdamd:P30134>
@@ -21568,84 +21812,10 @@
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/395147270538135700001/nor/1020"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205379398">
-      <rdamd:P30004>ISBN 9788205379398</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205379398</rdaxd:P00018>
-      <rdfs:label>ISBN9788205379398</rdfs:label>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205375611-21">
       <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205375611-21</rdaxd:P00018>
       <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
-      <rdamd:P30156>Samlede verker</rdamd:P30156>
-      <rdamd:P30014>B. 11</rdamd:P30014>
-      <rdamd:P30134>Konene ved vannposten</rdamd:P30134>
-      <rdamd:P30107>Ny utg.</rdamd:P30107>
-      <rdamd:P30088>[Oslo]</rdamd:P30088>
-      <rdamd:P30083>Gyldendal</rdamd:P30083>
-      <rdamd:P30011>2008</rdamd:P30011>
-      <rdamd:P30182>407 s.</rdamd:P30182>
-      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
-      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
-      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
-      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312526705/nor/1020"/>
-      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
-   </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205379404">
-      <rdamd:P30004>ISBN 9788205379404</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205379404</rdaxd:P00018>
-      <rdfs:label>ISBN9788205379404</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
-      <rdamd:P30156>Samlede verker</rdamd:P30156>
-      <rdamd:P30014>B. 12</rdamd:P30014>
-      <rdamd:P30134>Siste kapittel</rdamd:P30134>
-      <rdamd:P30107>Ny utg.</rdamd:P30107>
-      <rdamd:P30088>[Oslo]</rdamd:P30088>
-      <rdamd:P30083>Gyldendal</rdamd:P30083>
-      <rdamd:P30011>2008</rdamd:P30011>
-      <rdamd:P30182>415 s.</rdamd:P30182>
-      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
-      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
-      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
-      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/nor/1020"/>
-      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
-   </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205379459">
-      <rdamd:P30004>ISBN 9788205379459</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205379459</rdaxd:P00018>
-      <rdfs:label>ISBN9788205379459</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 21</rdamd:P30014>
       <rdamd:P30134>Dronning Tamara ; Livet ivold</rdamd:P30134>
@@ -21662,54 +21832,10 @@
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312486496/nor/1020"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205379466">
-      <rdamd:P30004>ISBN 9788205379466</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205379466</rdaxd:P00018>
-      <rdfs:label>ISBN9788205379466</rdfs:label>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205375611-23">
       <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
+      <rdaxd:P00018>isbn-9788205375611-23</rdaxd:P00018>
       <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
-      <rdamd:P30156>Samlede verker</rdamd:P30156>
-      <rdamd:P30014>B. 22</rdamd:P30014>
-      <rdamd:P30134>Det vilde kor ; En fløjte lød i mit blod</rdamd:P30134>
-      <rdamd:P30107>Ny utg.</rdamd:P30107>
-      <rdamd:P30088>[Oslo]</rdamd:P30088>
-      <rdamd:P30083>Gyldendal</rdamd:P30083>
-      <rdamd:P30011>2009</rdamd:P30011>
-      <rdamd:P30182>271 s.</rdamd:P30182>
-      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
-      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
-      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
-      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/59083692/enfljteldimitblod/nor/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316368447/nor/1020"/>
-      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
-   </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788205379473">
-      <rdamd:P30004>ISBN 9788205379473</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205379473</rdaxd:P00018>
-      <rdfs:label>ISBN9788205379473</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375611</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375611</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375604</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375604</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375604</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375550</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375550</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375550</rdfs:label>
-      <rdamd:P30004>ISBN 9788205375130</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788205375130</rdaxd:P00018>
-      <rdfs:label>ISBN9788205375130</rdfs:label>
       <rdamd:P30156>Samlede verker</rdamd:P30156>
       <rdamd:P30014>B. 23</rdamd:P30014>
       <rdamd:P30134>I eventyrland ; På gjengrodde stier</rdamd:P30134>
@@ -21724,6 +21850,104 @@
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/30145424502786830193/nor/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309525999/nor/1020"/>
+      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205375611-24">
+      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
+      <rdaxd:P00018>isbn-9788205375611-24</rdaxd:P00018>
+      <rdfs:label>ISBN9788205375611</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 24</rdamd:P30014>
+      <rdamd:P30134>Fra det moderne Amerikas åndsliv ; Lars Oftedal</rdamd:P30134>
+      <rdamd:P30107>Ny utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2007</rdamd:P30011>
+      <rdamd:P30182>253 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/811145857935523020027/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://workid.oslomet.no/kh/03/nor/1020"/>
+      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205375611-4">
+      <rdamd:P30004>ISBN 9788205375611</rdamd:P30004>
+      <rdaxd:P00018>isbn-9788205375611-4</rdaxd:P00018>
+      <rdfs:label>ISBN9788205375611</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 4</rdamd:P30014>
+      <rdamd:P30134>Pan ; Victoria</rdamd:P30134>
+      <rdamd:P30107>Ny utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2007</rdamd:P30011>
+      <rdamd:P30182>241 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/194765531/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/395147270538135700001/nor/1020"/>
+      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205379398-11">
+      <rdamd:P30004>ISBN 9788205379398</rdamd:P30004>
+      <rdaxd:P00018>isbn-9788205379398-11</rdaxd:P00018>
+      <rdfs:label>ISBN9788205379398</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 11</rdamd:P30014>
+      <rdamd:P30134>Konene ved vannposten</rdamd:P30134>
+      <rdamd:P30107>Ny utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2008</rdamd:P30011>
+      <rdamd:P30182>407 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312526705/nor/1020"/>
+      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205379404-12">
+      <rdamd:P30004>ISBN 9788205379404</rdamd:P30004>
+      <rdaxd:P00018>isbn-9788205379404-12</rdaxd:P00018>
+      <rdfs:label>ISBN9788205379404</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 12</rdamd:P30014>
+      <rdamd:P30134>Siste kapittel</rdamd:P30134>
+      <rdamd:P30107>Ny utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2008</rdamd:P30011>
+      <rdamd:P30182>415 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/188303684/nor/1020"/>
+      <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9788205379466-22">
+      <rdamd:P30004>ISBN 9788205379466</rdamd:P30004>
+      <rdaxd:P00018>isbn-9788205379466-22</rdaxd:P00018>
+      <rdfs:label>ISBN9788205379466</rdfs:label>
+      <rdamd:P30156>Samlede verker</rdamd:P30156>
+      <rdamd:P30014>B. 22</rdamd:P30014>
+      <rdamd:P30134>Det vilde kor ; En fløjte lød i mit blod</rdamd:P30134>
+      <rdamd:P30107>Ny utg.</rdamd:P30107>
+      <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30083>Gyldendal</rdamd:P30083>
+      <rdamd:P30011>2009</rdamd:P30011>
+      <rdamd:P30182>271 s.</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/59083692/enfljteldimitblod/nor/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316368447/nor/1020"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/107756506"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788205394810">
@@ -22985,7 +23209,9 @@
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/220443771/fre/1020/sautreaugeorges"/>
    </rdac:C10007>
-   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/dan">
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">
+      <skos:subjectIndicator>nor</skos:subjectIndicator>
+      <skos:subjectIndicator>swe</skos:subjectIndicator>
       <skos:subjectIndicator>dan</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/eng">
@@ -23005,6 +23231,7 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/mul">
       <rdfs:label>mul</rdfs:label>
+      <skos:subjectIndicator>mul</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/nno">
       <rdfs:label>nno</rdfs:label>
@@ -23019,9 +23246,6 @@
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/spa">
       <rdfs:label>spa</rdfs:label>
       <skos:subjectIndicator>spa</skos:subjectIndicator>
-   </skos:Concept>
-   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/swe">
-      <skos:subjectIndicator>swe</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDACarrierType/1004">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDACarrierType/1004</skos:subjectIndicator>

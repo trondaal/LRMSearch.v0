@@ -107,7 +107,7 @@ MATCH (e:Expression)-[:EMBODIES]-(m:Manifestation)-[:CREATOR]-(a:Agent)
 set e.names = e.names + " ; " + a.name;
 MATCH (e:Expression)-[:REALIZES]-(w:Work)-[:SUBJECT]-(a:Agent)
 set e.names = e.names + " ; " + a.name;
-MATCH (e:Expression)-[:REALIZES]-(w:Work)-[:RELATED]-(:Work)-[:CREATOR]-(a:Agent)
+MATCH (e:Expression)-[:REALIZES]-(w:Work)-[:RELATED]->(:Work)-[:CREATOR]-(a:Agent)
 set e.names = e.names + " ; " + a.name;
 MATCH (e:Expression)-[:REALIZES]-(w:Work)-[:PARTOF]-(:Work)-[:CREATOR]-(a:Agent)
 set e.names = e.names + " ; " + a.name;
@@ -121,7 +121,7 @@ MATCH (e:Expression)-[:EMBODIES]-(m:Manifestation)
 set e.titles = e.titles + " ; " + m.title;
 MATCH (e:Expression)-[:REALIZES]-(:Work)-[:SUBJECT]-(w:Work)
 set e.titles = e.titles + " ; " + w.title;
-MATCH (e:Expression)-[:REALIZES]-(:Work)-[:RELATED]-(w:Work)
+MATCH (e:Expression)-[:REALIZES]-(:Work)-[:RELATED]->(w:Work)
 set e.titles = e.titles + " ; " + w.title;
 MATCH (e:Expression)-[:REALIZES]-(:Work)-[:PARTOF]-(w:Work)
 set e.titles = e.titles + " ; " + w.title;

@@ -7092,7 +7092,8 @@
         <marc:controlfield tag="007">vdrcvaigm</marc:controlfield>
         <marc:controlfield tag="008">050309s2003    sp 107 g         1vlspa  </marc:controlfield>
         <marc:datafield tag="041" ind1=" " ind2=" " created="yes">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="015" ind1=" " ind2=" ">
             <marc:subfield code="a">VD05</marc:subfield>
@@ -10464,7 +10465,8 @@
         <marc:controlfield tag="007">vd*cvaigs</marc:controlfield>
         <marc:controlfield tag="008">110721s2008    sp 107 g         1vlspa  </marc:controlfield>
         <marc:datafield tag="041" ind1=" " ind2=" " created="yes">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="015" ind1=" " ind2=" ">
             <marc:subfield code="a">VD08</marc:subfield>
@@ -14368,7 +14370,8 @@
         <marc:controlfield tag="007">vdrcvaizm</marc:controlfield>
         <marc:controlfield tag="008">040511s2003    sp 106 e         1vlspa  </marc:controlfield>
         <marc:datafield tag="041" ind1=" " ind2=" " created="yes">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="015" ind1=" " ind2=" ">
             <marc:subfield code="a">VD03</marc:subfield>
@@ -22357,7 +22360,8 @@
         <marc:controlfield tag="007">vdrcvaizm</marc:controlfield>
         <marc:controlfield tag="008">040325s2003    sp 105 e         1vlspa  </marc:controlfield>
         <marc:datafield tag="041" ind1=" " ind2=" " created="yes">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="015" ind1=" " ind2=" ">
             <marc:subfield code="a">VD03</marc:subfield>
@@ -29300,7 +29304,8 @@
             <marc:subfield code="b">Suevia Films</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="041" ind1="0" ind2=" ">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
             <marc:subfield code="h">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="084" ind1=" " ind2=" ">
@@ -29695,7 +29700,8 @@
         <marc:controlfield tag="007">vd*csaizm</marc:controlfield>
         <marc:controlfield tag="008">150303s2014    sp 099 g         1v spa  </marc:controlfield>
         <marc:datafield tag="041" ind1=" " ind2=" " created="yes">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="015" ind1=" " ind2=" ">
             <marc:subfield code="a">VD14</marc:subfield>
@@ -31748,7 +31754,8 @@
         <marc:controlfield tag="007">vdrcvaizm</marc:controlfield>
         <marc:controlfield tag="008">150303s2014    sp 099 g         1v spa  </marc:controlfield>
         <marc:datafield tag="041" ind1=" " ind2=" " created="yes">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="015" ind1=" " ind2=" ">
             <marc:subfield code="a">VD14</marc:subfield>
@@ -32235,7 +32242,8 @@
         <marc:controlfield tag="007">vd*cvaizs</marc:controlfield>
         <marc:controlfield tag="008">170523s2014    sp 052 g     o   1vlspa  </marc:controlfield>
         <marc:datafield tag="041" ind1=" " ind2=" " created="yes">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="245" ind1="0" ind2="0">
             <marc:subfield code="a">[Acto de presentación de la donación de un manuscrito inédito de
@@ -52557,7 +52565,8 @@
         <marc:controlfield tag="007">vd*cvaizm</marc:controlfield>
         <marc:controlfield tag="008">080616s2008    sp 081 e         1vlspa  </marc:controlfield>
         <marc:datafield tag="041" ind1=" " ind2=" " created="yes">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="015" ind1=" " ind2=" ">
             <marc:subfield code="a">VD08</marc:subfield>
@@ -54184,7 +54193,8 @@
             <marc:subfield code="a">8421394407213</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="041" ind1="0" ind2=" ">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
             <marc:subfield code="h">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="130" ind1=" " ind2=" ">
@@ -56976,7 +56986,8 @@
         <marc:controlfield tag="007">vdrcvaizm</marc:controlfield>
         <marc:controlfield tag="008">090810s2009    sp 106 e         1vlspa  </marc:controlfield>
         <marc:datafield tag="041" ind1=" " ind2=" " created="yes">
-            <marc:subfield code="a">spa</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="015" ind1=" " ind2=" ">
             <marc:subfield code="a">VD09</marc:subfield>

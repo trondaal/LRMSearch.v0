@@ -10070,8 +10070,6 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0052905/eng/spa/1023">
       <rdaed:P20316>The hound of the Baskervilles (Película cinematográfica : 1959)</rdaed:P20316>
-      <rdaed:P20312>El perro de Baskervilles =</rdaed:P20312>
-      <rdfs:label>El perro de Baskervilles = / spa / moving image / moving image</rdfs:label>
       <rdaed:P20312>El perro de los Baskerville</rdaed:P20312>
       <rdfs:label>El perro de los Baskerville / spa / moving image / moving image</rdfs:label>
       <rdaed:P20312>El perro de Baskerville</rdaed:P20312>
@@ -10079,16 +10077,24 @@
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
-      <rdaeo:P20012 rdf:resource="http://example.org/cushingpeter"/>
-      <rdaeo:P20012 rdf:resource="http://example.org/morellandr"/>
-      <rdaeo:P20012 rdf:resource="http://example.org/leechristopher"/>
       <rdaeo:P20012 rdf:resource="http://example.org/brettjeremy"/>
       <rdaeo:P20012 rdf:resource="http://example.org/hardwickeedward"/>
       <rdaeo:P20012 rdf:resource="http://example.org/taborikristoffer"/>
       <rdaeo:P20012 rdf:resource="http://example.org/richardsonian"/>
       <rdaeo:P20012 rdf:resource="http://example.org/churchilldonald"/>
       <rdaeo:P20012 rdf:resource="http://example.org/elliottdenholm"/>
+      <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0052905"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0052905/mul/1023">
+      <rdaed:P20316>The hound of the Baskervilles (Película cinematográfica : 1959)</rdaed:P20316>
+      <rdaed:P20312>El perro de Baskervilles =</rdaed:P20312>
+      <rdfs:label>El perro de Baskervilles = / mul / moving image / moving image</rdfs:label>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
+      <rdaeo:P20012 rdf:resource="http://example.org/cushingpeter"/>
+      <rdaeo:P20012 rdf:resource="http://example.org/morellandr"/>
+      <rdaeo:P20012 rdf:resource="http://example.org/leechristopher"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0052905"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0086310/eng/spa/1023">
@@ -10101,13 +10107,13 @@
       <rdaeo:P20012 rdf:resource="http://example.org/richardsonian"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0086310"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0210968/eng/spa/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0210968/mul/1023">
       <rdaed:P20316>The second stain</rdaed:P20316>
       <rdaed:P20312>El misterio de la segunda mancha</rdaed:P20312>
-      <rdfs:label>El misterio de la segunda mancha / spa / moving image / moving image</rdfs:label>
+      <rdfs:label>El misterio de la segunda mancha / mul / moving image / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/brettjeremy"/>
       <rdaeo:P20012 rdf:resource="http://example.org/hardwickeedward"/>
       <rdaeo:P20012 rdf:resource="http://example.org/hodgepatricia"/>
@@ -10124,13 +10130,13 @@
       <rdaeo:P20012 rdf:resource="http://example.org/hardwickeedward"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0685618"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0685619/eng/spa/1023">
+   <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0685619/mul/1023">
       <rdaed:P20316>The abbey grange</rdaed:P20316>
       <rdaed:P20312>La granja Abbey</rdaed:P20312>
-      <rdfs:label>La granja Abbey / spa / moving image / moving image</rdfs:label>
+      <rdfs:label>La granja Abbey / mul / moving image / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20012 rdf:resource="http://example.org/brettjeremy"/>
       <rdaeo:P20012 rdf:resource="http://example.org/hardwickeedward"/>
       <rdaeo:P20012 rdf:resource="http://example.org/lambertannelouise"/>
@@ -13554,7 +13560,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0052905/eng/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0052905/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/Mimo0000795014">
       <rdamd:P30156>El archivo de Sherlock Holmes</rdamd:P30156>
@@ -15196,7 +15202,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1052</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1052"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0685619/eng/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0685619/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000012759">
       <rdamd:P30156>El misterio de la segunda mancha</rdamd:P30156>
@@ -15210,7 +15216,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1052</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1052"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0210968/eng/spa/1023"/>
+      <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0210968/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000036916">
       <rdamd:P30156>El perro de Baskerville</rdamd:P30156>
@@ -43584,6 +43590,7 @@
    </rdac:C10007>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">
       <skos:subjectIndicator>spa</skos:subjectIndicator>
+      <skos:subjectIndicator>eng</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/cat">
       <rdfs:label>cat</rdfs:label>
@@ -43603,6 +43610,9 @@
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/ger">
       <rdfs:label>ger</rdfs:label>
       <skos:subjectIndicator>ger</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/mul">
+      <skos:subjectIndicator>mul</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/nor">
       <skos:subjectIndicator>nor</skos:subjectIndicator>

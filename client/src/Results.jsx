@@ -85,7 +85,7 @@ function isEmpty(str) {
 
 function Manifestation(props){
 
-    const {title, subtitle, numbering, part, responsibility, extent, edition, identifier} = props.manifestation;
+    const {title, subtitle, numbering, part, responsibility, extent, edition, identifier, uri} = props.manifestation;
     const {distributionplace, distributor, distributiondate, publicationdate, publicationplace, publisher, productionplace, producer, productiondate, manufactureplace, manufacturer, manufacturedate} = props.manifestation;
     const statement = [];
     if (!isEmpty(title)) statement.push(title);
@@ -115,6 +115,7 @@ function Manifestation(props){
     if (!isEmpty(manufacturedate)) metadata.push(manufacturedate);
 
     if (!isEmpty(identifier)) metadata.push(identifier);
+    //if (!isEmpty(uri)) metadata.push(uri);
 
     return <ListItem>
                 <ListItemText inset
@@ -126,6 +127,7 @@ function Manifestation(props){
 
 function Expression(props){
 
+    const {uri} = props.expression;
     const titles = [];
     if (!isEmpty(props.expression.titlepreferred)) titles.push(props.expression.titlepreferred);
     if (!isEmpty(props.expression.title)) titles.push(props.expression.title);

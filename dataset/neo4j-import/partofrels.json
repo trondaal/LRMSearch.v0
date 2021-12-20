@@ -557,7 +557,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://imdb.com/title/tt0011440"
+          "value" : "https://www.imdb.com/title/tt0011440"
         }
       },
       {
@@ -576,7 +576,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://imdb.com/title/tt0011440"
+          "value" : "https://www.imdb.com/title/tt0011440"
         }
       },
       {
@@ -652,7 +652,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://exemple.org/firesangeop2/"
+          "value" : "http://exemple.org/firesangeop2"
         }
       },
       {
@@ -671,7 +671,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://exemple.org/firesangeop2/"
+          "value" : "http://exemple.org/firesangeop2"
         }
       },
       {
@@ -690,7 +690,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://exemple.org/firesangeop2/"
+          "value" : "http://exemple.org/firesangeop2"
         }
       },
       {
@@ -710,63 +710,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/312496684"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exemple.org/kristinlavransdatter/theatre/"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exemple.org/kristinlavransdatter/annendel/husfrue/theatre/"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exemple.org/simonsen/"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exemple.org/theunknownsigridundset/"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exemple.org/thjodolf/"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exemple.org/theunknownsigridundset/"
         }
       },
       {
@@ -5041,25 +4984,6 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://exemple.org/theunknownsigridundset/"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/7979148574368324430002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
           "value" : "http://www.example.com/romaner_og_fortellinger_fra_nutiden"
         }
       },
@@ -5080,6 +5004,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://www.example.com/Works"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/7979148574368324430002"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exemple.org/theunknownsigridundset"
         }
       },
       {
@@ -7055,7 +6998,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://exemple.org/firesangeop2/"
+          "value" : "http://exemple.org/firesangeop2"
         }
       },
       {
@@ -7289,25 +7232,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q1751870/"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/821216955"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q300370/del1"
         },
         "p" : {
@@ -7340,7 +7264,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/821216955"
+          "value" : "https://www.wikidata.org/wiki/Q1751870"
         }
       },
       {
@@ -7359,25 +7283,6 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q1751870/"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q1751870/del2"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/821216955"
         }
       },
@@ -7397,7 +7302,26 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q1751870/"
+          "value" : "https://www.wikidata.org/wiki/Q1751870"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://www.wikidata.org/wiki/Q1751870/del2"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/821216955"
         }
       },
       {
@@ -9227,7 +9151,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://www.imdb.com/title/tt0685619/"
+          "value" : "https://www.imdb.com/title/tt0685619"
         },
         "p" : {
           "type" : "uri",
@@ -9240,7 +9164,64 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://www.imdb.com/title/tt0090509/"
+          "value" : "https://www.imdb.com/title/tt0090509"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exemple.org/kristinlavransdatter/theatre"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exemple.org/kristinlavransdatter/annendel/husfrue/theatre"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exemple.org/simonsen"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exemple.org/theunknownsigridundset"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exemple.org/thjodolf"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exemple.org/theunknownsigridundset"
         }
       }
     ]

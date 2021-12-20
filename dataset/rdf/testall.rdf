@@ -290,6 +290,7 @@
       <rdfs:label>Øgaard, Philip</rdfs:label>
    </rdac:C10002>
    <rdac:C10006 rdf:about="http://www.imdb.com/title/tt0108309/nor/1023">
+      <rdaed:P20312>Telegrafisten</rdaed:P20312>
       <rdfs:label>Telegrafisten</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
@@ -299,6 +300,7 @@
       <rdaeo:P20231 rdf:resource="http://www.imdb.com/title/tt0108309"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://imdb.com/title/tt0011440/nor/1023">
+      <rdaed:P20312>Markens Grøde</rdaed:P20312>
       <rdfs:label>Markens Grøde</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
@@ -308,6 +310,7 @@
       <rdaeo:P20231 rdf:resource="https://imdb.com/title/tt0011440"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://imdb.com/title/tt0114081/nor/1023">
+      <rdaed:P20312>Pan</rdaed:P20312>
       <rdfs:label>Pan</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
@@ -317,6 +320,7 @@
       <rdaeo:P20231 rdf:resource="https://imdb.com/title/tt0114081"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0061042/nor/1023">
+      <rdaed:P20312>Sult</rdaed:P20312>
       <rdfs:label>Sult</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
@@ -326,6 +330,7 @@
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0061042"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0097709/nor/1023">
+      <rdaed:P20312>Landstrykere</rdaed:P20312>
       <rdfs:label>Landstrykere</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>

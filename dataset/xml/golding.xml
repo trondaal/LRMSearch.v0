@@ -11523,8 +11523,9 @@
             <marc:subfield code="b">Filmayer Video</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="041" ind1="1" ind2=" ">
-            <marc:subfield code="a">spa</marc:subfield>
-            <marc:subfield code="d">eng</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
+            <marc:subfield code="j">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="130" ind1="0" ind2=" ">
             <marc:subfield code="a">Lord of the flies</marc:subfield>
@@ -11670,8 +11671,9 @@
             <marc:subfield code="b">Filmayer Video</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="041" ind1="1" ind2=" ">
-            <marc:subfield code="a">spa</marc:subfield>
-            <marc:subfield code="d">eng</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
+            <marc:subfield code="j">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="130" ind1="0" ind2=" ">
             <marc:subfield code="a">Lord of the flies</marc:subfield>
@@ -11806,8 +11808,9 @@
             <marc:subfield code="b">Polygram Video</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="041" ind1="1" ind2=" ">
-            <marc:subfield code="a">spa</marc:subfield>
-            <marc:subfield code="d">eng</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
+            <marc:subfield code="j">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="130" ind1="0" ind2=" ">
             <marc:subfield code="a">Lord of the flies</marc:subfield>
@@ -16101,9 +16104,10 @@
             <marc:subfield code="b">Oficina Depósito Legal Madrid</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="041" ind1="1" ind2=" ">
-            <marc:subfield code="a">eng</marc:subfield>
+            <marc:subfield code="a">mul</marc:subfield>
+            <marc:subfield code="j">spa</marc:subfield>
             <marc:subfield code="b">spa</marc:subfield>
-            <marc:subfield code="d">eng</marc:subfield>
+            <marc:subfield code="j">eng</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="084" ind1=" " ind2=" ">
             <marc:subfield code="a">1</marc:subfield>
