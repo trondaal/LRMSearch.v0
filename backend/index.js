@@ -40,7 +40,7 @@ const typeDefs = gql`
         return 'expression' as source, 'concept' as target, 'language' as key, c.label as value, c.uri as uri
         UNION
         WITH expression
-        MATCH (expression)<-[r:EMBODIES]->(m:Manifestation)-[rm:MEDIA]->(c:Concept)
+        MATCH (expression)<-[r:EMBODIES]->(m:Manifestation)-[rm:MEDIATYPE]->(c:Concept)
         return 'expression' as source, 'concept' as target, 'media' as key, c.label as value, c.uri as uri
         UNION
         WITH expression
@@ -104,6 +104,7 @@ const typeDefs = gql`
     }
     type Agent {
         name: String
+        uri: String
     }
     interface roleType @relationshipProperties {
         role: String
