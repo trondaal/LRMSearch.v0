@@ -104,7 +104,7 @@
 <http://rdaregistry.info/Elements/w/object/P10068>	<http://www.w3.org/2000/01/rdf-schema#label>  	"cinematographie"@gden . 
 <http://rdaregistry.info/Elements/w/object/P10073>	<http://www.w3.org/2000/01/rdf-schema#label>  	"film producer"@gden .
 <http://rdaregistry.info/Elements/w/object/P10074>	<http://www.w3.org/2000/01/rdf-schema#label>  	"radio producer"@gden .
-<http://rdaregistry.info/Elements/w/object/P10203>	<http://www.w3.org/2000/01/rdf-schema#label>  	"screenplan"@gden .
+<http://rdaregistry.info/Elements/w/object/P10203>	<http://www.w3.org/2000/01/rdf-schema#label>  	"screenwriter"@gden .
 <http://rdaregistry.info/Elements/w/object/P10204>	<http://www.w3.org/2000/01/rdf-schema#label>  	"lyricist"@gden .
 <http://rdaregistry.info/Elements/w/object/P10205>	<http://www.w3.org/2000/01/rdf-schema#label>  	"librettist"@gden .
 
