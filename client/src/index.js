@@ -7,17 +7,20 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
+import {FilterContextProvider} from "./FilterContext";
 
 const client = new ApolloClient({
-    uri: 'http://dijon.idi.ntnu.no:8080/graphql',
+    uri: 'http://localhost:8080/graphql',
     cache: new InMemoryCache()
 });
 
 ReactDOM.render(
   <React.StrictMode>
-      <ApolloProvider client={client}>
-          <App />
-      </ApolloProvider>
+      <FilterContextProvider>
+
+              <App />
+
+      </FilterContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

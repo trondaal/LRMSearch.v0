@@ -9,30 +9,30 @@ import ComputerIcon from '@mui/icons-material/Computer';
 import MapIcon from '@mui/icons-material/Map';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 
-const Icon = props => {
+const ExpressionTypeIcon = props => {
     const { type } = props;
     switch (type){
         case ('cartographic image'):
-            return <MapIcon/>;
+            return <MapIcon fontSize="small"/>;
         case ('computer program'):
-            return <ComputerIcon/>;
+            return <ComputerIcon fontSize="small"/>;
         case ('notated music'):
-            return <QueueMusicIcon/>;
+            return <QueueMusicIcon fontSize="small"/>;
         case ('performed music'):
-            return <MusicNoteIcon/>;
+            return <MusicNoteIcon fontSize="small"/>;
         case ('spoken word'):
-            return <HeadsetIcon/>;
+            return <HeadsetIcon fontSize="small"/>;
         case ('still image'):
-            return <PhotoIcon/>;
+            return <PhotoIcon fontSize="small"/>;
         case ('text'):
-            return <MenuBookIcon />;
+            return <MenuBookIcon fontSize="small"/>;
         case ('three-dimensional moving image'):
-            return <LocalMoviesIcon/>;
+            return <LocalMoviesIcon fontSize="small"/>;
         case ('two-dimensional moving image'):
-            return <LocalMoviesIcon/>;
+            return <LocalMoviesIcon fontSize="small"/>;
         default:
-            return <QuestionMarkIcon/>;
+            return <QuestionMarkIcon fontSize="small"/>;
     }
 };
 
-export default Icon;
+export default ExpressionTypeIcon;
