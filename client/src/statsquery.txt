@@ -1,0 +1,52 @@
+CALL db.index.fulltext.queryNodes('expressions', 'pan')
+yield node as expression
+match (expression)-[c:CREATOR]->(p:Agent)
+WITH 'expression' as source, 'person' as target, c.role as key, p.name as value, count(*) as co
+order by key ascending, co descending
+return {source: source, target: target, key: key, value: value, count: co} as stat
+
+
+CALL db.index.fulltext.queryNodes('expressions', 'pan')
+yield node as expression
+match (expression)-[c:CREATOR]->(p:Agent)
+WITH 'expression' as source, 'person' as target, c.role as key, p.name as value, count(*) as co
+order by key ascending, co descending
+return {source: source, target: target, key: key, value: value, count: co} as stat
+UNION ALL
+match (expression)-[r:REALIZES]->(w:Work)<-[c:CREATOR]-(p:Agent)
+WITH 'expression' as source, 'person' as target, c.role as key, p.name as value, count(*) as co
+return {source: source, target: target, key: key, value: value, count: co} as stat
+
+
+
+
+CALL db.index.fulltext.queryNodes('expressions', 'pan')
+yield node as expression
+match (expression)-[c:CREATOR]->(p:Agent)
+WITH 'expression' as source, 'person' as target, c.role as key, p.name as value, count(*) as co
+order by key ascending, co descending
+return {source: source, target: target, key: key, value: value, count: co} as stat
+UNION ALL
+match (expression)-[r:REALIZES]->(w:Work)-[c:CREATOR]-(p:Agent)
+WITH 'work' as source, 'person' as target, c.role as key, p.name as value, count(*) as co
+return {source: source, target: target, key: key, value: value, count: co} as stat
+UNION ALL
+match (expression)<-[r:EMBODIES]->(m:Manifestation)-[c:CREATOR]-(p:Agent)
+WITH 'manifestation' as source, 'person' as target, c.role as key, p.name as value, count(*) as co
+return {source: source, target: target, key: key, value: value, count: co} as stat
+UNION ALL
+match (expression)-[r:REALIZES]->(e:lrmExpression)
+WITH 'manifestation' as source, 'expression' as target, 'language' as key, e.language as value, count(*) as co
+return {source: source, target: target, key: key, value: value, count: co} as stat
+UNION ALL
+match (work)<-[r:REALIZES]-(e:lrmExpression)
+WITH 'expression' as source, 'expression' as target, 'type' as key, e.type as value, count(*) as co
+return {source: source, target: target, key: key, value: value, count: co} as stat
+UNION ALL
+MATCH (work)<-[r:REALIZES]-(e:lrmExpression)<-[x:EMBODIES]-(m:lrmManifestation)
+WITH 'manifestation' as source, 'manifestation' as target, 'media' as key, m.media as value, count(*) as co
+return {source: source, target: target, key: key, value: value, count: co} as stat
+UNION ALL
+MATCH (work)<-[r:REALIZES]-(e:lrmExpression)<-[x:EMBODIES]-(m:lrmManifestation)
+WITH 'manifestation' as source, 'manifestation' as target, 'carrier' as key, m.carrier as value, count(*) as co
+return {source: source, target: target, key: key, value: value, count: co} as stat
