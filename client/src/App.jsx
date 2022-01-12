@@ -5,66 +5,17 @@ import Grid from '@mui/material/Grid';
 import debounce from 'lodash.debounce';
 import ResultView from "./ResultView";
 import Item from './Item';
-import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
-
-const cache = new InMemoryCache({
-    typePolicies: { // Type policy map
-        Expression: {
-            fields: { // Field policy map for the Product type
-                visible: { // Field policy for the isInCart field
-                    read(_, { variables }) { // The read function for the isInCart field
-                        return true;
-                    }
-                }
-            }
-        },
-        Work: {
-            fields: { // Field policy map for the Product type
-                visible: { // Field policy for the isInCart field
-                    read(_, { variables }) { // The read function for the isInCart field
-                        return true;
-                    }
-                }
-            }
-        },
-        Manifestation: {
-            fields: { // Field policy map for the Product type
-                visible: { // Field policy for the isInCart field
-                    read(_, { variables }) { // The read function for the isInCart field
-                        return true;
-                    }
-                }
-            }
-        },
-        Agent: {
-            fields: { // Field policy map for the Product type
-                visible: { // Field policy for the isInCart field
-                    read(_, { variables }) { // The read function for the isInCart field
-                        return true;
-                    }
-                }
-            }
-        },
-        Concept: {
-            fields: { // Field policy map for the Product type
-                visible: { // Field policy for the isInCart field
-                    read(_, { variables }) { // The read function for the isInCart field
-                        return true;
-                    }
-                }
-            }
-        }
-    }
-});
-
-
-const client = new ApolloClient({
-    uri: 'http://localhost:8080/graphql',
-    cache: cache
-});
+import { ApolloProvider, ApolloClient, InMemoryCache, useLazyQuery } from '@apollo/client';
+import {GET_RESULTS} from "./queries";
+import { useCallback } from 'react';
+import _ from 'lodash';
 
 export default function MyApp() {
-    const [query, setQuery] = useState("rowling");
+
+    const [search, { called, loading, data, error }] = useLazyQuery(GET_RESULTS);
+    const debouncer = useCallback(_.debounce(search, 700), []);
+
+    /*const [query, setQuery] = useState("rowling");
 
     const changeHandler = (event) => {
         setQuery(event.target.value);
@@ -77,10 +28,19 @@ export default function MyApp() {
         return () => {
             debouncedChangeHandler.cancel();
         }
-    });
+    }); */
+
+    if (error)
+        console.log(error);
+
+    //console.log(data);
+
+
+    if (loading) return <p>Loading ...</p>;
+
+    //console.log(data);
 
     return (
-        <ApolloProvider client={client}>
         <React.Fragment>
             <CssBaseline/>
             <Grid container spacing={4} marginTop={2}>
@@ -92,13 +52,13 @@ export default function MyApp() {
                             label="Search field"
                             type="search"
                             variant="filled"
-                            onChange={debouncedChangeHandler}
+                            onChange={e => debouncer({ variables: { query: e.target.value, offset: 0 } })}
                         /></Item>
                 </Grid>
-                <ResultView query={query}/>
+                <ResultView results={data ? data.expressions : []}/>
             </Grid>
         </React.Fragment>
-        </ApolloProvider>
+
     );
     /*export default function MyApp() {
         const [search, { loading, error, data, }] = useLazyQuery(GET_RESULTS);

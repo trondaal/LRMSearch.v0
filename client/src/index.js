@@ -6,20 +6,21 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
+import { ApolloProvider, ApolloClient, } from '@apollo/client';
 import {FilterContextProvider} from "./FilterContext";
+import {Cache} from "./Cache"
 
 const client = new ApolloClient({
     uri: 'http://localhost:8080/graphql',
-    cache: new InMemoryCache()
+    cache: Cache
 });
 
 ReactDOM.render(
   <React.StrictMode>
       <FilterContextProvider>
-
+          <ApolloProvider client={client}>
               <App />
-
+          </ApolloProvider>
       </FilterContextProvider>
   </React.StrictMode>,
   document.getElementById('root')

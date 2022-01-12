@@ -70,10 +70,12 @@ function createFilterList(expressions){
 
 export default function ResultView(props) {
 
-    const { loading, error, data} = useQuery(GET_RESULTS, {
+    //console.log(props);
+    /*const { loading, error, data} = useQuery(GET_RESULTS, {
         variables: {query: props.query, offset: 0},
         fetchPolicy: "cache-and-network"
     });
+
 
     if (error)
         console.log(error);
@@ -81,16 +83,16 @@ export default function ResultView(props) {
     //console.log(data);
    console.log(data);
 
-    if (loading) return <p>Loading ...</p>;
+    if (loading) return <p>Loading ...</p>;*/
 
-    const filters = createFilterList(data.expressions ? data.expressions : []);
+    const filters = createFilterList(props.results ? props.results : []);
     //console.log(filters);
 
     return (
         <React.Fragment>
             <Grid item xs={8}>
                 <Item>
-                    <ResultList result={data.expressions}/>
+                    <ResultList result={props.results}/>
                 </Item>
             </Grid>
             <Grid item xs={4}>
