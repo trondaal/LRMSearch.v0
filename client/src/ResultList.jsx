@@ -31,8 +31,9 @@ function Manifestation(props){
     if (!isEmpty(responsibility)) statement.push(responsibility);
 
     const metadata = [];
-    if (!isEmpty(extent)) metadata.push(extent);
-    if (!isEmpty(edition)) metadata.push(edition);
+    //if (!isEmpty(extent)) metadata.push(extent);
+
+
 
     if (!isEmpty(distributionplace)) metadata.push(distributionplace);
     if (!isEmpty(distributor)) metadata.push(distributor);
@@ -50,7 +51,9 @@ function Manifestation(props){
     if (!isEmpty(manufacturer)) metadata.push(manufacturer);
     if (!isEmpty(manufacturedate)) metadata.push(manufacturedate);
 
-    if (!isEmpty(identifier)) metadata.push(identifier);
+    if (!isEmpty(edition)) metadata.push(edition);
+
+    //if (!isEmpty(identifier)) metadata.push(identifier);
     //if (!isEmpty(uri)) metadata.push(uri);
 
     return <ListItem alignItems="flex-start" disablePadding sx={{
@@ -64,7 +67,9 @@ function Manifestation(props){
                           }}
                       primary={<div className={"manifestation"}>
                           <Typography color={"steelblue"} variant="subtitle2" className={"manifestationtitle"}>{statement.join(" / ")}</Typography>
-                          <Typography color={"dimgray"} variant="body2" className={"manifestationtitle"}>{metadata.join(", ")}</Typography>
+                          <Typography color={"dimgray"} variant="body2" className={"manifestationtitle"}>Extent: {extent}</Typography>
+                          <Typography color={"dimgray"} variant="body2" className={"manifestationtitle"}>Published: {metadata.join(", ")}</Typography>
+                          <Typography color={"dimgray"} variant="body2" className={"manifestationtitle"}>{identifier}</Typography>
                       </div>}>
         </ListItemText>
     </ListItem>
