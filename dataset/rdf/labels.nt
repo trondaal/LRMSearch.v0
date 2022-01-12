@@ -87,7 +87,7 @@
 <http://rdaregistry.info/Elements/m/object/P30327>	<http://www.w3.org/2000/01/rdf-schema#label>  	"editor"@gden .
 <http://rdaregistry.info/Elements/m/object/P30328>	<http://www.w3.org/2000/01/rdf-schema#label>  	"contributor"@gden .
 <http://rdaregistry.info/Elements/w/object/P10008>	<http://www.w3.org/2000/01/rdf-schema#label>  	"production"@gden .
-<http://rdaregistry.info/Elements/w/object/P10013>	<http://www.w3.org/2000/01/rdf-schema#label>  	"film director"@gden .
+<http://rdaregistry.info/Elements/w/object/P10013>	<http://www.w3.org/2000/01/rdf-schema#label>  	"director"@gden . #film director
 <http://rdaregistry.info/Elements/w/object/P10014>	<http://www.w3.org/2000/01/rdf-schema#label>  	"radio director"@gden .
 <http://rdaregistry.info/Elements/w/object/P10049>	<http://www.w3.org/2000/01/rdf-schema#label>  	"honouree"@gden .
 <http://rdaregistry.info/Elements/w/object/P10053>	<http://www.w3.org/2000/01/rdf-schema#label>  	"composer"@gden .
@@ -102,7 +102,7 @@
 <http://rdaregistry.info/Elements/w/object/P10065>	<http://www.w3.org/2000/01/rdf-schema#label>  	"creator"@gden .
 <http://rdaregistry.info/Elements/w/object/P10066>	<http://www.w3.org/2000/01/rdf-schema#label>  	"director"@gden .
 <http://rdaregistry.info/Elements/w/object/P10068>	<http://www.w3.org/2000/01/rdf-schema#label>  	"cinematographie"@gden . 
-<http://rdaregistry.info/Elements/w/object/P10073>	<http://www.w3.org/2000/01/rdf-schema#label>  	"film producer"@gden .
+<http://rdaregistry.info/Elements/w/object/P10073>	<http://www.w3.org/2000/01/rdf-schema#label>  	"producer"@gden . #film producer
 <http://rdaregistry.info/Elements/w/object/P10074>	<http://www.w3.org/2000/01/rdf-schema#label>  	"radio producer"@gden .
 <http://rdaregistry.info/Elements/w/object/P10203>	<http://www.w3.org/2000/01/rdf-schema#label>  	"screenwriter"@gden .
 <http://rdaregistry.info/Elements/w/object/P10204>	<http://www.w3.org/2000/01/rdf-schema#label>  	"lyricist"@gden .
