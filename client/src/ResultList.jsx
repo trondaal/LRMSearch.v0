@@ -122,7 +122,7 @@ function Expression(props){
             />
             <ListItemSecondaryAction sx={{top:"0%", marginTop:"35px"}}>
                 <Typography color={"dimgray"} variant={"body2"}>{'Content type: ' +  content}</Typography>
-                <Typography color={"dimgray"} variant={"body2"}>{'Language: ' +  content}</Typography>
+                <Typography color={"dimgray"} variant={"body2"}>{'Language: ' +  language}</Typography>
             </ListItemSecondaryAction>
         </ListItem>
         <List >
