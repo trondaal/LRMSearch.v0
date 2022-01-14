@@ -3,33 +3,32 @@ import {gql} from "@apollo/client";
 export const GET_RESULTS = gql`
     query ($query: String!){
         expressions(fulltext: {expressions: {phrase: $query}}){
-            visible @client,
+            checked @client,
             title,
             titlepreferred,
             titlevariant,
             uri,
             language{
-                visible @client,
+                checked @client,
                 label,
                 uri
             }
             content{
-                visible @client,
+                checked @client,
                 label,
                 uri
             }
             work{
-                visible @client,
+                checked @client,
                 title,
                 type{
-                    visible @client,
+                    checked @client,
                     label,
                     uri
                 }
                 creatorsConnection{
                     edges{
                         node{
-                            visible @client,
                             name,
                             uri
                         },
@@ -38,7 +37,7 @@ export const GET_RESULTS = gql`
                 }
             },
             manifestations{
-                visible @client,
+                checked @client,
                 uri,
                 identifier,
                 title,
@@ -70,7 +69,6 @@ export const GET_RESULTS = gql`
             creatorsConnection{
                 edges{
                     node{
-                        visible @client,
                         name,
                         uri
                     },

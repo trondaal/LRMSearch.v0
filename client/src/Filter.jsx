@@ -14,6 +14,7 @@ export default function Filter(props) {
 
     // for open close collapsible
     const [open, setOpen] = React.useState(false);
+
     const handleClick = () => {
         setOpen(!open);
     };
@@ -26,19 +27,19 @@ export default function Filter(props) {
             <Collapse in={open} timeout="auto" unmountOnExit>
                 <List component="div" dense>
                     {props.filters.map((entry) => {
-                        const {uri, value, count, category} = entry;
-                        const filterkey = uri + "/" + category;
-                        const labelId = `checkbox-list-label-${filterkey}`;
+                        const {uri, value, count, category, target} = entry;
+                        //const filterkey = uri + "/" + category;
+                        const labelId = `checkbox-list-label-${uri + "/" + category}`;
                         return (
                             <ListItem
                                 key={uri}
                                 disablePadding
                             >
-                                <ListItemButton role={undefined} onClick={props.handleToggle(filterkey)} dense sx={{ my: -1 }}>
+                                <ListItemButton role={undefined} onClick={props.handleToggle({uri: uri, value: value, category: category, target: target})} dense sx={{ my: -1 }}>
                                     <ListItemIcon>
                                         <Checkbox
                                             edge="start"
-                                            checked={props.checked.indexOf(filterkey) !== -1}
+                                            checked={props.checked.findIndex(x => x.uri === uri && x.category === category ) !== -1}
                                             tabIndex={-1}
                                             disableRipple
                                             inputProps={{ 'aria-labelledby': labelId }}

@@ -1,21 +1,29 @@
 import CssBaseline from '@mui/material/CssBaseline';
-import React, {useState, useEffect, useMemo} from 'react';
+import React, {useState, useMemo, useEffect} from 'react';
 import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
-import debounce from 'lodash.debounce';
 import ResultView from "./ResultView";
 import Item from './Item';
-import { ApolloProvider, ApolloClient, InMemoryCache, useLazyQuery } from '@apollo/client';
+import { useLazyQuery, useQuery } from '@apollo/client';
 import {GET_RESULTS} from "./queries";
 import { useCallback } from 'react';
 import _ from 'lodash';
+import debounce from 'lodash.debounce';
+import { useReactiveVar } from '@apollo/client';
+import {filtersVar} from './Cache';
 
 export default function MyApp() {
+    const cartItems = useReactiveVar(filtersVar);
+    const [query, setQuery] = useState("rowling");
+    const { loading, error, data } = useQuery(GET_RESULTS, {
+        variables: { query:query, offset: 0 }
+    });
 
-    const [search, { called, loading, data, error }] = useLazyQuery(GET_RESULTS);
-    const debouncer = useCallback(_.debounce(search, 700), []);
+    //const [search, { loading, data, error }] = useLazyQuery(GET_RESULTS);
 
-    /*const [query, setQuery] = useState("rowling");
+    //const debouncer = useCallback(_.debounce(search, 700), []);
+
+
 
     const changeHandler = (event) => {
         setQuery(event.target.value);
@@ -24,11 +32,12 @@ export default function MyApp() {
     const debouncedChangeHandler = useMemo(
         () => debounce(changeHandler, 800)
         , []);
+
     useEffect(() => {
         return () => {
             debouncedChangeHandler.cancel();
         }
-    }); */
+    });
 
     if (error)
         console.log(error);
@@ -52,7 +61,7 @@ export default function MyApp() {
                             label="Search field"
                             type="search"
                             variant="filled"
-                            onChange={e => debouncer({ variables: { query: e.target.value, offset: 0 } })}
+                            onChange={debouncedChangeHandler}
                         /></Item>
                 </Grid>
                 <ResultView results={data ? data.expressions : []}/>

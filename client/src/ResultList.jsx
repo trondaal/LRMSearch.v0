@@ -6,10 +6,7 @@ import ListItemAvatar from "@mui/material/ListItemAvatar";
 import Avatar from "@mui/material/Avatar";
 import {grey} from "@mui/material/colors";
 import ListItemText from "@mui/material/ListItemText";
-import Divider from "@mui/material/Divider";
 import ExpressionTypeIcon from "./ExpressionTypeIcon";
-import ArrowRightTwoToneIcon from '@mui/icons-material/ArrowRightTwoTone';
-import ListItemIcon from '@mui/material/ListItemIcon';
 import Paper from "@mui/material/Paper";
 import "./Resultlist.css";
 import {groupBy} from "lodash";
@@ -61,7 +58,7 @@ function Manifestation(props){
     }}>
 
 
-        <ListItemText disablePadding
+        <ListItemText
                       sx={{
                         width: 300,
                           }}
@@ -87,13 +84,13 @@ function Expression(props){
 
     const isTranslation = titles.includes(worktitle)
 
-    const creators = props.expression.work[0].creatorsConnection.edges.map(e => e.node.name + " (" + e.role + ")").join(', ');
+    //const creators = props.expression.work[0].creatorsConnection.edges.map(e => e.node.name + " (" + e.role + ")").join(', ');
     //const type = props.expression.work[0].type.map(t => t.label).join(', ');
 
     const creatorsmap = groupBy(props.expression.work[0].creatorsConnection.edges, a => a.role);
-    console.log(creatorsmap);
+    //console.log(creatorsmap);
     const contributorsmap = groupBy(props.expression.creatorsConnection.edges, a => a.role);
-    console.log(contributorsmap);
+    //console.log(contributorsmap);
 
     const language = props.expression.language.map(l => l.label).join(', ');
     const content = props.expression.content.map(c => c.label).join(', ');
@@ -128,16 +125,17 @@ function Expression(props){
             <ListItemSecondaryAction sx={{top:"0%", marginTop:"35px"}}>
                 <Typography color={"dimgray"} variant={"body2"}>{'Content type: ' +  content}</Typography>
                 <Typography color={"dimgray"} variant={"body2"}>{'Language: ' +  language}</Typography>
+                <Typography color={"dimgray"} variant={"body2"}>{'Checked: ' +  props.expression.checked}</Typography>
             </ListItemSecondaryAction>
         </ListItem>
-        <List >
+        <List dense={true}>
             {props.expression && props.expression.manifestations.map(m => (<Manifestation manifestation={m} key={m.uri}/>))}
         </List>
     </Paper>
 }
 
 export default function ResultList(props){
-    console.log(props)
+    //console.log(props)
     /*const { loading, error, data, refetch} = useQuery(GET_RESULTS, {
         variables: {query: props.query, offset: 0},
         fetchPolicy: "cache-and-network"
@@ -148,7 +146,7 @@ export default function ResultList(props){
 
    //console.log(props.result);
     return (<List sx={{ width: '100%', bgcolor: 'background.paper' }} className={"expressionlist"}>
-        {props.result && props.result.map(x => (<Expression expression={x} key={x.uri}/>))}
+        {props.results && props.results.map(x => (<Expression expression={x} key={x.uri}/>))}
     </List>);
 }
 
