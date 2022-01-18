@@ -1,45 +1,44 @@
-import {InMemoryCache, ReactiveVar, makeVar} from "@apollo/client";
+import {InMemoryCache, makeVar} from "@apollo/client";
 
-export const filtersVar = makeVar(["dummy"]);
+export const filtersVar = makeVar([]);
 
 export const Cache = new InMemoryCache({
     typePolicies: { // Type policy map
-        Expression: {
-            fields: { // Field policy map for the Product type
-                checked: { // Field policy for the isInCart field
-                    read() { // The read function for the isInCart field
-                        return filtersVar();
-                    }
-                }
-            }
-        },
-        Work: {
-            fields: { // Field policy map for the Product type
-                checked: { // Field policy for the isInCart field
-                    read(_, { variables }) { // The read function for the isInCart field
-                        return true;
-                    }
-                }
-            }
-        },
-        Manifestation: {
-            fields: { // Field policy map for the Product type
-                checked: { // Field policy for the isInCart field
-                    read(_, { variables }) { // The read function for the isInCart field
-                        return true;
-                    }
-                }
-            }
-        },
         Concept: {
             fields: { // Field policy map for the Product type
                 checked: { // Field policy for the isInCart field
                     read(_, { readField }) { // The read function for the isInCart field
-                        if (filtersVar().indexOf(readField('uri') + "|+|" + "Language")){
-                            return true;
-                        }else{
+                        //console.log()
+                        return (filtersVar().findIndex(i => i.includes(readField('uri'))) > -1)
+                    }
+                }
+            }
+        },
+        ExpressionCreatorsRelationship: {
+            fields: { // Field policy map for the Product type
+                checked: { // Field policy for the isInCart field
+                    read(_, { readField }) { // The read function for the isInCart field
                             return false;
-                        }
+                    }
+                }
+            }
+        },
+        WorkCreatorsRelationship: {
+            fields: { // Field policy map for the Product type
+                checked: { // Field policy for the isInCart field
+                    read(_, { readField }) { // The read function for the isInCart field
+                        return false;
+
+                    }
+                }
+            }
+        },
+        ManifestationCreatorsRelationship: {
+            fields: { // Field policy map for the Product type
+                checked: { // Field policy for the isInCart field
+                    read(_, { readField }) { // The read function for the isInCart field
+                        return false;
+
                     }
                 }
             }

@@ -92,23 +92,24 @@ function Expression(props){
     const contributorsmap = groupBy(props.expression.creatorsConnection.edges, a => a.role);
     //console.log(contributorsmap);
 
-    const language = props.expression.language.map(l => l.label).join(', ');
-    const content = props.expression.content.map(c => c.label).join(', ');
+    const language = props.expression.language.map(l => l.label);
+    const content = props.expression.content.map(c => c.label);
+
     //const contributors = props.expression.creatorsConnection.edges.map(e => e.node.name + " (" + e.role + ")").join(', ');
 
     const categories = [];
     //if (type !== '')
     //    categories.push(type.toLowerCase());
     if (content !== '')
-        categories.push(content.toLowerCase());
+        categories.push(content);
     if (language !== '')
-        categories.push(language.toLowerCase());
+        categories.push(language);
 
     return <Paper elevation={0} square className={"expression"}>
         <ListItem alignItems="flex-start">
             <ListItemAvatar>
                 <Avatar sx={{ bgcolor: grey[400] }}>
-                    <ExpressionTypeIcon type={content.split(", ")[0]} />
+                    <ExpressionTypeIcon type={content[0]} />
                 </Avatar>
             </ListItemAvatar>
             <ListItemText
@@ -135,16 +136,6 @@ function Expression(props){
 }
 
 export default function ResultList(props){
-    //console.log(props)
-    /*const { loading, error, data, refetch} = useQuery(GET_RESULTS, {
-        variables: {query: props.query, offset: 0},
-        fetchPolicy: "cache-and-network"
-    });
-
-    if (error)
-        console.log(error);*/
-
-   //console.log(props.result);
     return (<List sx={{ width: '100%', bgcolor: 'background.paper' }} className={"expressionlist"}>
         {props.results && props.results.map(x => (<Expression expression={x} key={x.uri}/>))}
     </List>);

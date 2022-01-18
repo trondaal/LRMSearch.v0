@@ -3,7 +3,6 @@ import {gql} from "@apollo/client";
 export const GET_RESULTS = gql`
     query ($query: String!){
         expressions(fulltext: {expressions: {phrase: $query}}){
-            checked @client,
             title,
             titlepreferred,
             titlevariant,
@@ -18,8 +17,17 @@ export const GET_RESULTS = gql`
                 label,
                 uri
             }
+            creatorsConnection{
+                edges{
+                    checked @client,
+                    node{
+                        name,
+                        uri
+                    },
+                    role
+                }
+            }
             work{
-                checked @client,
                 title,
                 type{
                     checked @client,
@@ -28,6 +36,7 @@ export const GET_RESULTS = gql`
                 }
                 creatorsConnection{
                     edges{
+                        checked @client,
                         node{
                             name,
                             uri
@@ -37,7 +46,6 @@ export const GET_RESULTS = gql`
                 }
             },
             manifestations{
-                checked @client,
                 uri,
                 identifier,
                 title,
@@ -63,16 +71,23 @@ export const GET_RESULTS = gql`
                 copyright,
                 series,
                 seriesnumbering,
-                carrier{label}
-                media{label}
-            }
-            creatorsConnection{
-                edges{
-                    node{
-                        name,
-                        uri
-                    },
-                    role
+                carrier{
+                    uri,
+                    label
+                },
+                media{
+                    uri,
+                    label
+                },
+                creatorsConnection{
+                    edges{
+                        checked @client,
+                        node{
+                            name,
+                            uri
+                        },
+                        role
+                    }
                 }
             }
         }

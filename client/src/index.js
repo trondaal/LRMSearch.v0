@@ -7,7 +7,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { ApolloProvider, ApolloClient, } from '@apollo/client';
-import {FilterContextProvider} from "./FilterContext";
+//import {FilterContextProvider} from "./FilterContext";
 import {Cache} from "./Cache"
 
 const client = new ApolloClient({
@@ -18,11 +18,9 @@ const client = new ApolloClient({
 
 ReactDOM.render(
   <React.StrictMode>
-      <FilterContextProvider>
           <ApolloProvider client={client}>
               <App />
           </ApolloProvider>
-      </FilterContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

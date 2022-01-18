@@ -8,6 +8,23 @@ import Checkbox from '@mui/material/Checkbox';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
+import {filtersVar} from './Cache';
+import { useReactiveVar } from '@apollo/client';
+
+const handleToggle = (filterkey) => () => {
+    console.log("TOGGLE: " + filterkey);
+    const filters = filtersVar();
+    const idx = filters.indexOf(filterkey)
+    //console.log(filters);
+
+    if (idx === -1) {
+        filtersVar([...filters, filterkey]);
+    } else {
+        filtersVar([...filters.slice(0, idx), ...filters.slice(idx + 1)]);
+    }
+    //filtersVar([...filters, filter]);
+    //console.log(filters);
+};
 
 
 export default function Filter(props) {
@@ -19,6 +36,10 @@ export default function Filter(props) {
         setOpen(!open);
     };
 
+    const filters = useReactiveVar(filtersVar);
+
+    //console.log(props.filters)
+
     return (<React.Fragment>
         <ListItemButton onClick={handleClick}>
                 <ListItemText primary={props.header} />
@@ -28,18 +49,18 @@ export default function Filter(props) {
                 <List component="div" dense>
                     {props.filters.map((entry) => {
                         const {uri, value, count, category, target} = entry;
-                        //const filterkey = uri + "/" + category;
-                        const labelId = `checkbox-list-label-${uri + "/" + category}`;
+                        let filterkey = target + "+" + category + "+" + uri;
+                        const labelId = `checkbox-list-label-${filterkey}`;
                         return (
                             <ListItem
-                                key={uri}
+                                key={filterkey}
                                 disablePadding
                             >
-                                <ListItemButton role={undefined} onClick={props.handleToggle({uri: uri, value: value, category: category, target: target})} dense sx={{ my: -1 }}>
+                                <ListItemButton role={undefined} onClick={handleToggle(filterkey)} dense sx={{ my: -1 }}>
                                     <ListItemIcon>
                                         <Checkbox
                                             edge="start"
-                                            checked={props.checked.findIndex(x => x.uri === uri && x.category === category ) !== -1}
+                                            checked={filters.indexOf(filterkey) !== -1}
                                             tabIndex={-1}
                                             disableRipple
                                             inputProps={{ 'aria-labelledby': labelId }}

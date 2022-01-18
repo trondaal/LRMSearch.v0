@@ -4,28 +4,23 @@ import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
 import ResultView from "./ResultView";
 import Item from './Item';
-import { useLazyQuery, useQuery } from '@apollo/client';
+import { useQuery } from '@apollo/client';
 import {GET_RESULTS} from "./queries";
-import { useCallback } from 'react';
-import _ from 'lodash';
 import debounce from 'lodash.debounce';
-import { useReactiveVar } from '@apollo/client';
 import {filtersVar} from './Cache';
 
 export default function MyApp() {
-    const cartItems = useReactiveVar(filtersVar);
     const [query, setQuery] = useState("rowling");
+
     const { loading, error, data } = useQuery(GET_RESULTS, {
         variables: { query:query, offset: 0 }
     });
 
     //const [search, { loading, data, error }] = useLazyQuery(GET_RESULTS);
-
     //const debouncer = useCallback(_.debounce(search, 700), []);
 
-
-
     const changeHandler = (event) => {
+        filtersVar([]);
         setQuery(event.target.value);
     };
 
@@ -39,11 +34,20 @@ export default function MyApp() {
         }
     });
 
+    const isSelected = (exp) => {
+        let content = true;
+        if (filtersVar().findIndex(f => f.includes("Content")) > -1) {
+            content = exp.content.some(e => e.checked)
+        }
+        let language = true;
+        if (filtersVar().findIndex(f => f.includes("Language")) > -1) {
+            language = exp.language.some(e => e.checked)
+        }
+        return content && language
+    }
+
     if (error)
         console.log(error);
-
-    //console.log(data);
-
 
     if (loading) return <p>Loading ...</p>;
 
@@ -64,7 +68,9 @@ export default function MyApp() {
                             onChange={debouncedChangeHandler}
                         /></Item>
                 </Grid>
-                <ResultView results={data ? data.expressions : []}/>
+                {filtersVar().length === 0 ? <ResultView results={data ? data.expressions : []}/> :
+                    <ResultView results={data ? data.expressions.filter(exp => isSelected(exp)) : []}/>
+                }
             </Grid>
         </React.Fragment>
 
