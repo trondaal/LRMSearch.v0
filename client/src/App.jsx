@@ -34,24 +34,14 @@ export default function MyApp() {
         }
     });
 
-    const isSelected = (exp) => {
-        let content = true;
-        if (filtersVar().findIndex(f => f.includes("Content")) > -1) {
-            content = exp.content.some(e => e.checked)
-        }
-        let language = true;
-        if (filtersVar().findIndex(f => f.includes("Language")) > -1) {
-            language = exp.language.some(e => e.checked)
-        }
-        return content && language
-    }
+
 
     if (error)
         console.log(error);
 
     if (loading) return <p>Loading ...</p>;
 
-    //console.log(data);
+    console.log(data.expressions);
 
     return (
         <React.Fragment>
@@ -68,12 +58,9 @@ export default function MyApp() {
                             onChange={debouncedChangeHandler}
                         /></Item>
                 </Grid>
-                {filtersVar().length === 0 ? <ResultView results={data ? data.expressions : []}/> :
-                    <ResultView results={data ? data.expressions.filter(exp => isSelected(exp)) : []}/>
-                }
+                <ResultView results={data ? data.expressions : []}/>
             </Grid>
         </React.Fragment>
-
     );
     /*export default function MyApp() {
         const [search, { loading, error, data, }] = useLazyQuery(GET_RESULTS);

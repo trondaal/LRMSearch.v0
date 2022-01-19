@@ -21,7 +21,7 @@ export function FilterContextProvider(props){
             filtersVar([...filters.slice(0, idx), ...filters.slice(idx + 1)]);
         }
         //filtersVar([...filters, filter]);
-        console.log(filter);
+        //console.log(filter);
 
 
         const currentIndex = checked.findIndex(x => x.uri === value.uri && x.category === value.category );

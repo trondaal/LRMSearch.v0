@@ -3,6 +3,7 @@ import {gql} from "@apollo/client";
 export const GET_RESULTS = gql`
     query ($query: String!){
         expressions(fulltext: {expressions: {phrase: $query}}){
+            checked @client,
             title,
             titlepreferred,
             titlevariant,
@@ -72,10 +73,12 @@ export const GET_RESULTS = gql`
                 series,
                 seriesnumbering,
                 carrier{
+                    checked @client,
                     uri,
                     label
                 },
                 media{
+                    checked @client,
                     uri,
                     label
                 },

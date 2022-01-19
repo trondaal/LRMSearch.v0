@@ -9,9 +9,10 @@ import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import {filtersVar} from './Cache';
+import {selectedVar} from './Cache';
 import { useReactiveVar } from '@apollo/client';
 
-const handleToggle = (filterkey) => () => {
+const handleToggle = (filterkey, selection) => () => {
     console.log("TOGGLE: " + filterkey);
     const filters = filtersVar();
     const idx = filters.indexOf(filterkey)
@@ -48,7 +49,7 @@ export default function Filter(props) {
             <Collapse in={open} timeout="auto" unmountOnExit>
                 <List component="div" dense>
                     {props.filters.map((entry) => {
-                        const {uri, value, count, category, target} = entry;
+                        const {uri, value, count, category, target, selection} = entry;
                         let filterkey = target + "+" + category + "+" + uri;
                         const labelId = `checkbox-list-label-${filterkey}`;
                         return (
@@ -66,7 +67,7 @@ export default function Filter(props) {
                                             inputProps={{ 'aria-labelledby': labelId }}
                                         />
                                     </ListItemIcon>
-                                    <ListItemText id={labelId} primary={`${value} (${count})`} />
+                                    <ListItemText id={labelId} primary={`${value} (${selection.size})`} />
                                 </ListItemButton>
                             </ListItem>
                         );
