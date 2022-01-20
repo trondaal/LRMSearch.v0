@@ -3,9 +3,10 @@ import ResultList from "./ResultList";
 import FilterList from "./FilterList"
 import React from "react";
 import Item from './Item';
-import {filtersVar} from "./Cache";
+//import {filtersVar} from "./Cache";
+import {selectedVar} from "./Cache";
 
-const isSelected = (exp) => {
+/*const isSelected = (exp) => {
     let content = true;
     if (filtersVar().findIndex(f => f.includes("Content")) > -1) {
         content = exp.content.some(content => content.checked)
@@ -23,16 +24,16 @@ const isSelected = (exp) => {
         media = exp.manifestations.some(manifestation => manifestation.carrier.some(carrier => carrier.checked));
     }
     return content && language && media && carrier
-}
+}*/
 
 export default function ResultView(props) {
-    console.log(props.results)
+    //console.log(props.results)
     return (
         <React.Fragment>
             <Grid item xs={8}>
                 <Item>
-                    {filtersVar().length === 0 ? <ResultList results={props.results ? props.results.slice(0,20) : []}/> :
-                        <ResultList results={props.results ? props.results.filter(exp => isSelected(exp)).slice(0,20) : []}/>
+                    {selectedVar().size === 0 ? <ResultList results={props.results ? props.results.slice(0,30) : []}/> :
+                        <ResultList results={props.results ? props.results.filter(exp => exp.checked).slice(0,30) : []}/>
                     }
                 </Item>
             </Grid>

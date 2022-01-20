@@ -9,18 +9,15 @@ export const GET_RESULTS = gql`
             titlevariant,
             uri,
             language{
-                checked @client,
                 label,
                 uri
             }
             content{
-                checked @client,
                 label,
                 uri
             }
             creatorsConnection{
                 edges{
-                    checked @client,
                     node{
                         name,
                         uri
@@ -31,13 +28,11 @@ export const GET_RESULTS = gql`
             work{
                 title,
                 type{
-                    checked @client,
                     label,
                     uri
                 }
                 creatorsConnection{
                     edges{
-                        checked @client,
                         node{
                             name,
                             uri
@@ -73,18 +68,15 @@ export const GET_RESULTS = gql`
                 series,
                 seriesnumbering,
                 carrier{
-                    checked @client,
                     uri,
                     label
                 },
                 media{
-                    checked @client,
                     uri,
                     label
                 },
                 creatorsConnection{
                     edges{
-                        checked @client,
                         node{
                             name,
                             uri

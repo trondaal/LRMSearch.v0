@@ -7,7 +7,7 @@ import Item from './Item';
 import { useQuery } from '@apollo/client';
 import {GET_RESULTS} from "./queries";
 import debounce from 'lodash.debounce';
-import {filtersVar} from './Cache';
+import {selectedVar} from './Cache';
 
 export default function MyApp() {
     const [query, setQuery] = useState("rowling");
@@ -20,7 +20,7 @@ export default function MyApp() {
     //const debouncer = useCallback(_.debounce(search, 700), []);
 
     const changeHandler = (event) => {
-        filtersVar([]);
+        selectedVar(new Set());
         setQuery(event.target.value);
     };
 
@@ -41,7 +41,7 @@ export default function MyApp() {
 
     if (loading) return <p>Loading ...</p>;
 
-    console.log(data.expressions);
+    //console.log(data.expressions);
 
     return (
         <React.Fragment>

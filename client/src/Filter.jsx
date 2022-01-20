@@ -8,11 +8,11 @@ import Checkbox from '@mui/material/Checkbox';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
-import {filtersVar} from './Cache';
-import {selectedVar} from './Cache';
-import { useReactiveVar } from '@apollo/client';
+//import {filtersVar} from './Cache';
+//import {selectedVar} from './Cache';
+//import { useReactiveVar } from '@apollo/client';
 
-const handleToggle = (filterkey, selection) => () => {
+/*const handleToggle = (filterkey, selection) => () => {
     console.log("TOGGLE: " + filterkey);
     const filters = filtersVar();
     const idx = filters.indexOf(filterkey)
@@ -25,7 +25,7 @@ const handleToggle = (filterkey, selection) => () => {
     }
     //filtersVar([...filters, filter]);
     //console.log(filters);
-};
+};*/
 
 
 export default function Filter(props) {
@@ -37,9 +37,7 @@ export default function Filter(props) {
         setOpen(!open);
     };
 
-    const filters = useReactiveVar(filtersVar);
-
-    //console.log(props.filters)
+    //const filters = useReactiveVar(filtersVar);
 
     return (<React.Fragment>
         <ListItemButton onClick={handleClick}>
@@ -57,11 +55,11 @@ export default function Filter(props) {
                                 key={filterkey}
                                 disablePadding
                             >
-                                <ListItemButton role={undefined} onClick={handleToggle(filterkey)} dense sx={{ my: -1 }}>
+                                <ListItemButton role={undefined} onClick={props.handleToggle(filterkey)} dense sx={{ my: -1 }}>
                                     <ListItemIcon>
                                         <Checkbox
                                             edge="start"
-                                            checked={filters.indexOf(filterkey) !== -1}
+                                            checked={props.checked.indexOf(filterkey) !== -1}
                                             tabIndex={-1}
                                             disableRipple
                                             inputProps={{ 'aria-labelledby': labelId }}

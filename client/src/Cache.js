@@ -14,7 +14,7 @@ export const Cache = new InMemoryCache({
                     }
                 }
             }
-        },
+        }/*,
         Concept: {
             fields: { // Field policy map for the Product type
                 checked: { // Field policy for the isInCart field
@@ -54,7 +54,7 @@ export const Cache = new InMemoryCache({
                     }
                 }
             }
-        }/*,
+        },
         ExpressionCreatorsRelationship: {
             fields: { // Field policy map for the Product type
                 checked: { // Field policy for the isInCart field
