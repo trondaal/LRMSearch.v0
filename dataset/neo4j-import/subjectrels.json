@@ -5693,44 +5693,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.example.org/6"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/6"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/205797426"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://www.example.org/60"
         },
         "p" : {
@@ -12609,6 +12571,44 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/55209091/whatdoesthebiblesay"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject agent"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/205797426"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/91261399/atolkienthesaurus"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject agent"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/95218067"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://exampel.org"
         },
         "p" : {
@@ -13535,63 +13535,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/184093601"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/6"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184093601"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/6"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/219438842"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/6"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/176092820"
         }
       },
       {
@@ -19007,6 +18950,63 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/308697939"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/40679947/pocketcompaniontonarnia"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/219438842"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/55209091/whatdoesthebiblesay"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/176092820"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/91261399/atolkienthesaurus"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/184093601"
         }
       },
       {

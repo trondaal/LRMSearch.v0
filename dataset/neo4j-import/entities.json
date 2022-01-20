@@ -32141,17 +32141,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/308700240/nob/1020/66142208"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/308700240/tam/1020/262617829/310723590"
         },
         "label" : {
@@ -32868,17 +32857,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/5787154801910856310000/eng/1020/71434217"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/5818147484250249360001/nor/1014/53845696"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -33945,17 +33923,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/9800159477974827990007/nor/1014/74145970284032252074"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/9862159477930527990009/eng/1020/293840390"
         },
         "label" : {
@@ -34374,17 +34341,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1256145424641786830384/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/1260157828004054550000/eng/1020"
         },
         "label" : {
@@ -34793,17 +34749,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/183749438/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184093601/eng/1002/1013/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -37124,17 +37069,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.example.org/6/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.example.org/667788/eng/1020"
         },
         "label" : {
@@ -37994,17 +37928,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/219033955/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/2259161274876847650001/alb/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -42327,17 +42250,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/305102741/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/305354558/eng/1020"
         },
         "label" : {
@@ -45363,17 +45275,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "https://musicbrainz.org/release-group/77471b90-aeaa-482a-af49-7bb6814d1a52/eng/1013/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "https://musicbrainz.org/work/6b699e74-ce6f-4e10-9622-14dedd8b4d0c/eng/1020"
         },
         "label" : {
@@ -46771,17 +46672,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604/nob/1013/10057685/74661518"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/119144648592107423604/nor/1020/74661518"
         },
         "label" : {
@@ -47112,17 +47002,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/308018847/spa/1020/12367718"
         },
         "label" : {
@@ -47179,17 +47058,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/227571685/nor/1020/222277111"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/227571687/nor/1020/53845696"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -47872,17 +47740,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/1200151051894733530006/nor/1020/71301550"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/1256145424641786830384/nor/1020/65245833"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -50401,17 +50258,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/4379161392917858480002/nor/1020/74145970284032252074"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/4429147270649335700005/nor/1020/270969716"
         },
         "label" : {
@@ -52634,39 +52480,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/62368615/mul/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/64381503/mul/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.imdb.com/title/tt0760172/mul/1023"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "https://www.imdb.com/title/tt6386210/mul/1023"
         },
         "label" : {
@@ -52679,17 +52492,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q3126837/nor/1013/169576661/27122071"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q440046/mul/1023"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -70223,17 +70025,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "https://www.imdb.com/title/tt0760172/mul/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "https://www.imdb.com/title/tt3691740/mul/1023"
         },
         "label" : {
@@ -70246,39 +70037,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "https://www.nb.no/sheet-music/product/eldarinwe-liri-song-cycle-after-j-r-r-tolkiens-poetry-for-three-sopranos-girls-choir-and-two-harps/und/1010"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q440046/mul/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q749023/mul/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q859380/mul/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -70928,6 +70686,193 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/294124367/fre/1020/petithuguenin"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/227571687/nor/1014/1020/53845696"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1256145424641786830384/nor/1014/1020/65245833"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/184093601/eng/1002/1011/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/2259161274876847650001/alb/1020/0000000038475504"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/305102741/eng/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/40679947/pocketcompaniontonarnia/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/4379161392917858480002/nor/1014/1020/74145970284032252074"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/55209091/whatdoesthebiblesay/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/5818147484250249360001/nor/1014/1020/53845696"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/91261399/atolkienthesaurus/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/9800159477974827990007/nor/1014/1020/74145970284032252074"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "https://musicbrainz.org/release-group/77471b90-aeaa-482a-af49-7bb6814d1a52/eng/1010"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/119144648592107423604/nob/nor/1013/10057685/74661518"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/62368615/mul/1008"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/64381503/mul/1008"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "https://www.imdb.com/title/tt0760172/mul/1008"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "https://www.wikidata.org/wiki/Q440046/mul/1008"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -82533,17 +82478,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.example.org/59"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/6"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -94490,6 +94424,39 @@
         "entity" : {
           "type" : "uri",
           "value" : "https://www.imdb.com/title/tt2483792"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Work"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/40679947/pocketcompaniontonarnia"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Work"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/55209091/whatdoesthebiblesay"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Work"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/91261399/atolkienthesaurus"
         },
         "label" : {
           "xml:lang" : "gden",

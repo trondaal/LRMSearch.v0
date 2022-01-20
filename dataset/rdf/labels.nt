@@ -1,6 +1,5 @@
 <http://rdaregistry.info/Elements/a/datatype/P50339>	<http://www.w3.org/2000/01/rdf-schema#label>   "dates"@gden .
 <http://rdaregistry.info/Elements/a/datatype/P50385>	<http://www.w3.org/2000/01/rdf-schema#label>   "name"@gden .
-
 <http://rdaregistry.info/Elements/x/datatype/P00018>	<http://www.w3.org/2000/01/rdf-schema#label>   "identifier"@gden .
 <http://rdaregistry.info/Elements/e/datatype/P20006>	<http://www.w3.org/2000/01/rdf-schema#label>   "language"@gden .
 <http://rdaregistry.info/Elements/e/datatype/P20065>	<http://www.w3.org/2000/01/rdf-schema#label>   "languagesadditional"@gden .
@@ -8,43 +7,32 @@
 <http://rdaregistry.info/Elements/e/datatype/P20312>	<http://www.w3.org/2000/01/rdf-schema#label>   "title"@gden .
 <http://rdaregistry.info/Elements/e/datatype/P20315>	<http://www.w3.org/2000/01/rdf-schema#label>   "titlepreferred"@gden .
 <http://rdaregistry.info/Elements/e/datatype/P20316>	<http://www.w3.org/2000/01/rdf-schema#label>   "titlevariant"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30004>	<http://www.w3.org/2000/01/rdf-schema#label>   "identifier"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30156>	<http://www.w3.org/2000/01/rdf-schema#label>   "title"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30142>	<http://www.w3.org/2000/01/rdf-schema#label>   "subtitle"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30014>	<http://www.w3.org/2000/01/rdf-schema#label>   "numbering"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30134>	<http://www.w3.org/2000/01/rdf-schema#label>   "part"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30117>	<http://www.w3.org/2000/01/rdf-schema#label>   "responsibility"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30107>	<http://www.w3.org/2000/01/rdf-schema#label>   "edition"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30182>	<http://www.w3.org/2000/01/rdf-schema#label>   "extent"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30169>	<http://www.w3.org/2000/01/rdf-schema#label>   "dimensions"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30086>	<http://www.w3.org/2000/01/rdf-schema#label>   "productionplace"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30174>	<http://www.w3.org/2000/01/rdf-schema#label>   "producer"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30009>	<http://www.w3.org/2000/01/rdf-schema#label>   "productiondate"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30088>	<http://www.w3.org/2000/01/rdf-schema#label>   "publicationplace"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30083>	<http://www.w3.org/2000/01/rdf-schema#label>   "publisher"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30011>	<http://www.w3.org/2000/01/rdf-schema#label>   "publicationdate"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30085>	<http://www.w3.org/2000/01/rdf-schema#label>   "distributionplace"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30173>	<http://www.w3.org/2000/01/rdf-schema#label>   "distributor"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30008>	<http://www.w3.org/2000/01/rdf-schema#label>   "distributiondate"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30087>	<http://www.w3.org/2000/01/rdf-schema#label>   "manufactureplace"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30175>	<http://www.w3.org/2000/01/rdf-schema#label>   "manufacturer"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30010>	<http://www.w3.org/2000/01/rdf-schema#label>   "manufacturedate"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30007>	<http://www.w3.org/2000/01/rdf-schema#label>   "copyright"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30002>	<http://www.w3.org/2000/01/rdf-schema#label>   "mediatype"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30001>	<http://www.w3.org/2000/01/rdf-schema#label>   "carrier"@gden .
-
 <http://rdaregistry.info/Elements/m/datatype/P30106>	<http://www.w3.org/2000/01/rdf-schema#label>   "series"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30165>	<http://www.w3.org/2000/01/rdf-schema#label>   "seriesnumbering"@gden .
-
 <http://rdaregistry.info/Elements/w/datatype/P10004>	<http://www.w3.org/2000/01/rdf-schema#label>   "type"@gden .
 <http://rdaregistry.info/Elements/w/datatype/P10219>	<http://www.w3.org/2000/01/rdf-schema#label>   "date"@gden .
 <http://rdaregistry.info/Elements/w/datatype/P10088>	<http://www.w3.org/2000/01/rdf-schema#label>   "title"@gden .
@@ -108,4 +96,93 @@
 <http://rdaregistry.info/Elements/w/object/P10204>	<http://www.w3.org/2000/01/rdf-schema#label>  	"Lyricist"@gden .
 <http://rdaregistry.info/Elements/w/object/P10205>	<http://www.w3.org/2000/01/rdf-schema#label>  	"Librettist"@gden .
 
+<http://id.loc.gov/vocabulary/iso639-2/alb>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Albanian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/ara>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Arabic"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/arm>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Armenian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/baq>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Basque"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/bul>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Bulgarian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/cat>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Catalan"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/chi>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Chinese"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/cze>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Czech"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/dan>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Danish"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/dut>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Dutch"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/eng>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "English"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/epo>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Esperanto"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/est>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Estonian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/fin>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Finnish"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/fre>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "French"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/ger>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "German"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/gle>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Irish"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/glg>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Galician"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/guj>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Gujarati"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/heb>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Hebrew"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/hin>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Hindi"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/hun>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Hungarian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/ice>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Icelandic"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/ita>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Italian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/jpn>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Japanese"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/kor>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Korean"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/lat>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Latin"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/lit>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Lithuanian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/mul>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Multiple"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/nno>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Norwegian Nynorsk"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/nob>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Norwegian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/nor>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Norwegian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/per>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Persian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/pol>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Polish"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/por>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Portuguese"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/rum>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Romanian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/rus>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Russian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/sma>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Southern Sami"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/spa>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Spanish"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/swe>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Swedish"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/tam>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Tamil"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/tet>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Tetum"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/tur>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Turkish"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/ukr>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Ukrainian"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/und>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Undetermined"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/urd>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Urdu"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/vie>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Vietnamese"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/wel>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Welsh"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/yid>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Yiddish"@gden .
 
+<http://rdaregistry.info/termList/RDACarrierType/1004>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Audio disc"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1007>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Audiocassette"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1013>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Computer disc"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1018>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Online resource"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1026>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Microfilm reel"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1033>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Film cassette"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1034>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Film reel"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1036>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Filmstrip"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1048>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Sheet"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1049>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Volume"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1052>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Videocassette"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1059>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Object"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1060>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Videodisc"@gden .
+<http://rdaregistry.info/termList/RDACarrierType/1069>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Film roll"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1002>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Cartographic image"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1008>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Software"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1010>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Score"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1011>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Performed music"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1013>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Audio book"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1014>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Illustrations"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1018>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Tactile text"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1020>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Text"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1022>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Movie (3D)"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1023>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Movie"@gden .
+<http://rdaregistry.info/termList/RDAMediaType/1001>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Audio"@gden .
+<http://rdaregistry.info/termList/RDAMediaType/1002>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Microform"@gden .
+<http://rdaregistry.info/termList/RDAMediaType/1003>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Computer"@gden .
+<http://rdaregistry.info/termList/RDAMediaType/1005>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Projected"@gden .
+<http://rdaregistry.info/termList/RDAMediaType/1007>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Unmediated"@gden .
+<http://rdaregistry.info/termList/RDAMediaType/1008>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Video"@gden .
+
+<https://schema.nb.no/Bibliographic/Values/V1000>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Language-based work"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1001>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Musical work"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1002>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Moving image work"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1003>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Picture work"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1004>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Carthographic work"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1005>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Interactive work"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1006>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Broadcasting work"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1008>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Composite work"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1009>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Work of performing arts"@gden .

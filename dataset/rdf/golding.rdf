@@ -1072,13 +1072,14 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/79155403"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/119144648592107423604"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/119144648592107423604/nob/1013/10057685/74661518">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/119144648592107423604/nob/nor/1013/10057685/74661518">
       <rdaed:P20316>Lord of the flies</rdaed:P20316>
       <rdaed:P20312>Fluenes herre</rdaed:P20312>
-      <rdfs:label>Fluenes herre / nob / spoken word</rdfs:label>
+      <rdfs:label>Fluenes herre / nor / spoken word</rdfs:label>
       <rdaed:P20315>Fluenes herre</rdaed:P20315>
       <rdaed:P20316>Fluenes herre</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20022 rdf:resource="http://viaf.org/viaf/10057685"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/74661518"/>
@@ -1700,14 +1701,6 @@
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/282585329/thephilosophyofwilliamgolding"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies/eng/1020">
-      <rdaed:P20316>Stundenblätter Golding, "Lord of the flies"</rdaed:P20316>
-      <rdaed:P20312>Stundenblätter Golding, "Lord of the flies"</rdaed:P20312>
-      <rdfs:label>Stundenblätter Golding, "Lord of the flies" / eng / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies/ger/1020">
       <rdaed:P20316>Stundenblätter Golding, "Lord of the flies"</rdaed:P20316>
@@ -4061,7 +4054,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1013</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1013"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/119144648592107423604/nob/1013/10057685/74661518"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/119144648592107423604/nob/nor/1013/10057685/74661518"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8252500919">
       <rdamd:P30004>ISBN 8252500919</rdamd:P30004>
@@ -5726,7 +5719,6 @@
       <rdamd:P30106>Klett-Schulpraxis</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies/eng/1020"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/303443830/stundenblattergoldinglordoftheflies/ger/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9783150092361">

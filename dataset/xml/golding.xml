@@ -35174,7 +35174,7 @@
             <marc:subfield code="c">Nkr 398.00</marc:subfield>
         </marc:datafield>
         <marc:datafield ind1="1" ind2=" " tag="041">
-            <marc:subfield code="a">nob</marc:subfield>
+            <marc:subfield code="a">nor</marc:subfield>
             <marc:subfield code="h">eng</marc:subfield>
             <marc:subfield code="d">nob</marc:subfield>
         </marc:datafield>

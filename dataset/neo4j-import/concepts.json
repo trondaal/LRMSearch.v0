@@ -13,7 +13,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/alb"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Albanian"
         }
@@ -24,7 +24,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/ara"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Arabic"
         }
@@ -35,7 +35,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/arm"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Armenian"
         }
@@ -46,7 +46,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/baq"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Basque"
         }
@@ -57,7 +57,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/bul"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Bulgarian"
         }
@@ -68,7 +68,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/cat"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Catalan"
         }
@@ -79,7 +79,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/chi"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Chinese"
         }
@@ -90,7 +90,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/cze"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Czech"
         }
@@ -101,7 +101,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/dan"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Danish"
         }
@@ -112,7 +112,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/dut"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Dutch"
         }
@@ -123,7 +123,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/eng"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "English"
         }
@@ -134,7 +134,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/epo"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Esperanto"
         }
@@ -145,7 +145,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/est"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Estonian"
         }
@@ -156,7 +156,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/fin"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Finnish"
         }
@@ -167,7 +167,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/fre"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "French"
         }
@@ -178,7 +178,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/ger"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "German"
         }
@@ -189,7 +189,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/gle"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Irish"
         }
@@ -200,7 +200,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/glg"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Galician"
         }
@@ -211,7 +211,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/guj"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Gujarati"
         }
@@ -222,7 +222,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/heb"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Hebrew"
         }
@@ -233,7 +233,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/hin"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Hindi"
         }
@@ -244,7 +244,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/hun"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Hungarian"
         }
@@ -255,7 +255,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/ice"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Icelandic"
         }
@@ -266,7 +266,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/ita"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Italian"
         }
@@ -277,7 +277,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/jpn"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Japanese"
         }
@@ -288,7 +288,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/kor"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Korean"
         }
@@ -299,7 +299,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/lat"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Latin"
         }
@@ -310,7 +310,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/lit"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Lithuanian"
         }
@@ -321,9 +321,9 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/mul"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "Multiple languages"
+          "value" : "Multiple"
         }
       },
       {
@@ -332,7 +332,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/nno"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Norwegian Nynorsk"
         }
@@ -343,9 +343,9 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/nob"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "Norwegian Bokmål"
+          "value" : "Norwegian"
         }
       },
       {
@@ -354,7 +354,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/nor"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Norwegian"
         }
@@ -365,7 +365,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/per"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Persian"
         }
@@ -376,7 +376,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/pol"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Polish"
         }
@@ -387,7 +387,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/por"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Portuguese"
         }
@@ -398,7 +398,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/rum"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Romanian"
         }
@@ -409,7 +409,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/rus"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Russian"
         }
@@ -420,7 +420,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/sma"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Southern Sami"
         }
@@ -431,7 +431,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/spa"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Spanish"
         }
@@ -442,7 +442,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/swe"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Swedish"
         }
@@ -453,7 +453,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/tam"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Tamil"
         }
@@ -464,7 +464,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/tet"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Tetum"
         }
@@ -475,7 +475,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/tur"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Turkish"
         }
@@ -486,7 +486,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/ukr"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Ukrainian"
         }
@@ -497,7 +497,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/und"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Undetermined"
         }
@@ -508,7 +508,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/urd"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Urdu"
         }
@@ -519,7 +519,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/vie"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Vietnamese"
         }
@@ -530,7 +530,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/wel"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Welsh"
         }
@@ -541,7 +541,7 @@
           "value" : "http://id.loc.gov/vocabulary/iso639-2/yid"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Yiddish"
         }
@@ -552,9 +552,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1004"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "audio disc"
+          "value" : "Audio disc"
         }
       },
       {
@@ -563,9 +563,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1007"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "audiocassette"
+          "value" : "Audiocassette"
         }
       },
       {
@@ -574,9 +574,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1013"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "computer disc"
+          "value" : "Computer disc"
         }
       },
       {
@@ -585,9 +585,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1018"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "online resource"
+          "value" : "Online resource"
         }
       },
       {
@@ -596,9 +596,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1026"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "microfilm reel"
+          "value" : "Microfilm reel"
         }
       },
       {
@@ -607,9 +607,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1033"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "film cassette"
+          "value" : "Film cassette"
         }
       },
       {
@@ -618,9 +618,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1034"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "film reel"
+          "value" : "Film reel"
         }
       },
       {
@@ -629,9 +629,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1036"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "filmstrip"
+          "value" : "Filmstrip"
         }
       },
       {
@@ -640,9 +640,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1048"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "sheet"
+          "value" : "Sheet"
         }
       },
       {
@@ -651,9 +651,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1049"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "volume"
+          "value" : "Volume"
         }
       },
       {
@@ -662,9 +662,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1052"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "videocassette"
+          "value" : "Videocassette"
         }
       },
       {
@@ -673,9 +673,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1059"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "object"
+          "value" : "Object"
         }
       },
       {
@@ -684,9 +684,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1060"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "videodisc"
+          "value" : "Videodisc"
         }
       },
       {
@@ -695,9 +695,9 @@
           "value" : "http://rdaregistry.info/termList/RDACarrierType/1069"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "film roll"
+          "value" : "Film roll"
         }
       },
       {
@@ -706,9 +706,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1002"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "cartographic image"
+          "value" : "Cartographic image"
         }
       },
       {
@@ -717,9 +717,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1008"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "computer program"
+          "value" : "Software"
         }
       },
       {
@@ -728,9 +728,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1010"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "notated music"
+          "value" : "Score"
         }
       },
       {
@@ -739,9 +739,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1011"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "performed music"
+          "value" : "Performed music"
         }
       },
       {
@@ -750,9 +750,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1013"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "spoken word"
+          "value" : "Audio book"
         }
       },
       {
@@ -761,9 +761,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1014"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "still image"
+          "value" : "Illustrations"
         }
       },
       {
@@ -772,9 +772,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1018"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "tactile text"
+          "value" : "Tactile text"
         }
       },
       {
@@ -783,9 +783,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1020"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "text"
+          "value" : "Text"
         }
       },
       {
@@ -794,9 +794,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1022"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "three-dimensional moving image"
+          "value" : "Movie (3D)"
         }
       },
       {
@@ -805,9 +805,9 @@
           "value" : "http://rdaregistry.info/termList/RDAContentType/1023"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "two-dimensional moving image"
+          "value" : "Movie"
         }
       },
       {
@@ -816,9 +816,9 @@
           "value" : "http://rdaregistry.info/termList/RDAMediaType/1001"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "audio"
+          "value" : "Audio"
         }
       },
       {
@@ -827,9 +827,9 @@
           "value" : "http://rdaregistry.info/termList/RDAMediaType/1002"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "microform"
+          "value" : "Microform"
         }
       },
       {
@@ -838,9 +838,9 @@
           "value" : "http://rdaregistry.info/termList/RDAMediaType/1003"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "computer"
+          "value" : "Computer"
         }
       },
       {
@@ -849,9 +849,9 @@
           "value" : "http://rdaregistry.info/termList/RDAMediaType/1005"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "projected"
+          "value" : "Projected"
         }
       },
       {
@@ -860,9 +860,9 @@
           "value" : "http://rdaregistry.info/termList/RDAMediaType/1007"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "unmediated"
+          "value" : "Unmediated"
         }
       },
       {
@@ -871,9 +871,9 @@
           "value" : "http://rdaregistry.info/termList/RDAMediaType/1008"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "video"
+          "value" : "Video"
         }
       },
       {
@@ -882,7 +882,7 @@
           "value" : "https://schema.nb.no/Bibliographic/Values/V1000"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Language-based work"
         }
@@ -893,7 +893,7 @@
           "value" : "https://schema.nb.no/Bibliographic/Values/V1001"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Musical work"
         }
@@ -904,7 +904,7 @@
           "value" : "https://schema.nb.no/Bibliographic/Values/V1002"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Moving image work"
         }
@@ -915,7 +915,7 @@
           "value" : "https://schema.nb.no/Bibliographic/Values/V1003"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Picture work"
         }
@@ -926,7 +926,7 @@
           "value" : "https://schema.nb.no/Bibliographic/Values/V1004"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Carthographic work"
         }
@@ -937,7 +937,7 @@
           "value" : "https://schema.nb.no/Bibliographic/Values/V1005"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Interactive work"
         }
@@ -948,7 +948,7 @@
           "value" : "https://schema.nb.no/Bibliographic/Values/V1006"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Broadcasting work"
         }
@@ -959,7 +959,7 @@
           "value" : "https://schema.nb.no/Bibliographic/Values/V1008"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Composite work"
         }
@@ -970,7 +970,7 @@
           "value" : "https://schema.nb.no/Bibliographic/Values/V1009"
         },
         "label" : {
-          "xml:lang" : "en",
+          "xml:lang" : "gden",
           "type" : "literal",
           "value" : "Work of performing arts"
         }

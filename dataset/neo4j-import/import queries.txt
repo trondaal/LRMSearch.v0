@@ -97,7 +97,7 @@ RETURN rel;
 
 //UPDATE FIELDS FOR FULLTEXT INDEXING OF NODES
 //NAMES
-MATCH (e:Expression)-[:CREATOR]-(a:Agent)
+MATCH (e:Expression)
 set e.names = "";
 MATCH (e:Expression)-[:CREATOR]-(a:Agent)
 set e.names = e.names + " ; " + a.name;
@@ -113,7 +113,7 @@ MATCH (e:Expression)-[:REALIZES]-(w:Work)-[:PARTOF]-(:Work)-[:CREATOR]-(a:Agent)
 set e.names = e.names + " ; " + a.name;
 
 
-MATCH (e:Expression)-[:CREATOR]-(a:Agent)
+MATCH (e:Expression)
 set e.titles = "";
 MATCH (e:Expression)-[:REALIZES]-(w:Work)
 set e.titles = e.titles + " ; " + w.title;
