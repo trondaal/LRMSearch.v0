@@ -21,7 +21,7 @@ export default function MyApp() {
 
     const changeHandler = (event) => {
         selectedVar(new Set());
-        setQuery(event.target.value);
+        setQuery((event.target.value).split(" ").join(" AND "));
     };
 
     const debouncedChangeHandler = useMemo(

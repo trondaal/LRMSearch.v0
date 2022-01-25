@@ -1,6 +1,6 @@
 import {InMemoryCache, makeVar} from "@apollo/client";
 
-export const filtersVar = makeVar([]);
+//export const filtersVar = makeVar([]);
 export const selectedVar = makeVar(new Set());
 
 export const Cache = new InMemoryCache({

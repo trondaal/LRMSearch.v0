@@ -163,7 +163,7 @@
 <http://rdaregistry.info/termList/RDAContentType/1002>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Cartographic image"@gden .
 <http://rdaregistry.info/termList/RDAContentType/1008>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Software"@gden .
 <http://rdaregistry.info/termList/RDAContentType/1010>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Score"@gden .
-<http://rdaregistry.info/termList/RDAContentType/1011>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Performed music"@gden .
+<http://rdaregistry.info/termList/RDAContentType/1011>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Music"@gden .
 <http://rdaregistry.info/termList/RDAContentType/1013>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Audio book"@gden .
 <http://rdaregistry.info/termList/RDAContentType/1014>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Illustrations"@gden .
 <http://rdaregistry.info/termList/RDAContentType/1018>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Tactile text"@gden .

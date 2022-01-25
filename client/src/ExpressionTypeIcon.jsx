@@ -12,23 +12,23 @@ import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 const ExpressionTypeIcon = props => {
     const { type } = props;
     switch (type){
-        case ('cartographic image'):
+        case ('Cartographic image'):
             return <MapIcon fontSize="small"/>;
-        case ('computer program'):
+        case ('Software'):
             return <ComputerIcon fontSize="small"/>;
-        case ('notated music'):
+        case ('Score'):
             return <QueueMusicIcon fontSize="small"/>;
-        case ('performed music'):
+        case ('Performed music'):
             return <MusicNoteIcon fontSize="small"/>;
         case ('spoken word'):
             return <HeadsetIcon fontSize="small"/>;
-        case ('still image'):
+        case ('Illustrations'):
             return <PhotoIcon fontSize="small"/>;
-        case ('text'):
+        case ('Text'):
             return <MenuBookIcon fontSize="small"/>;
-        case ('three-dimensional moving image'):
+        case ('Movie (3D)'):
             return <LocalMoviesIcon fontSize="small"/>;
-        case ('two-dimensional moving image'):
+        case ('Movie'):
             return <LocalMoviesIcon fontSize="small"/>;
         default:
             return <QuestionMarkIcon fontSize="small"/>;
