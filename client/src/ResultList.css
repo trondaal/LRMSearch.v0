@@ -6,6 +6,10 @@
     color: blue;
 }
 
+.expressionheading{
+   width : 50%;
+}
+
 .worktitle{
     color: dimgray;
     font-style: italic;
