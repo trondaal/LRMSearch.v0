@@ -5,9 +5,9 @@ import Grid from '@mui/material/Grid';
 import ResultView from "./ResultView";
 import Item from './Item';
 import { useQuery } from '@apollo/client';
-import {GET_RESULTS} from "./queries";
+import {GET_RESULTS} from "./api/Queries";
 import debounce from 'lodash.debounce';
-import {selectedVar} from './Cache';
+import {selectedVar} from './api/Cache';
 
 export default function MyApp() {
     const [query, setQuery] = useState("rowling");

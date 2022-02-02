@@ -4,7 +4,7 @@ import FilterList from "./FilterList"
 import React from "react";
 import Item from './Item';
 //import {filtersVar} from "./Cache";
-import {selectedVar} from "./Cache";
+import {selectedVar} from "./api/Cache";
 
 /*const isSelected = (exp) => {
     let content = true;

@@ -8,7 +8,7 @@ import {grey} from "@mui/material/colors";
 import ListItemText from "@mui/material/ListItemText";
 import ExpressionTypeIcon from "./ExpressionTypeIcon";
 import Paper from "@mui/material/Paper";
-import "./Resultlist.css";
+import "./ResultList.css";
 import {groupBy} from "lodash";
 import {ListItemSecondaryAction} from "@mui/material";
 
@@ -17,7 +17,6 @@ function isEmpty(str) {
 }
 
 function Manifestation(props){
-
     const {title, subtitle, numbering, part, responsibility, extent, edition, identifier} = props.manifestation;
     const {distributionplace, distributor, distributiondate, publicationdate, publicationplace, publisher, productionplace, producer, productiondate, manufactureplace, manufacturer, manufacturedate} = props.manifestation;
     const statement = [];
@@ -29,8 +28,6 @@ function Manifestation(props){
 
     const metadata = [];
     //if (!isEmpty(extent)) metadata.push(extent);
-
-
 
     if (!isEmpty(distributionplace)) metadata.push(distributionplace);
     if (!isEmpty(distributor)) metadata.push(distributor);
@@ -54,10 +51,9 @@ function Manifestation(props){
     //if (!isEmpty(uri)) metadata.push(uri);
 
     return <ListItem alignItems="flex-start" disablePadding sx={{
-        pl: 10
+        pl: 10,
+        pb: 1
     }}>
-
-
         <ListItemText
                       sx={{
                         width: 300,
@@ -66,7 +62,6 @@ function Manifestation(props){
                           <Typography color={"steelblue"} variant="subtitle2" className={"manifestationtitle"}>{statement.join(" / ")}</Typography>
                           <Typography color={"dimgray"} variant="body2" className={"manifestationtitle"}>Extent: {extent}</Typography>
                           <Typography color={"dimgray"} variant="body2" className={"manifestationtitle"}>Published: {metadata.join(", ")}</Typography>
-                          <Typography color={"dimgray"} variant="body2" className={"manifestationtitle"}>{identifier}</Typography>
                       </div>}>
         </ListItemText>
     </ListItem>
@@ -83,7 +78,6 @@ function Expression(props){
     const title = titles[0];
 
     const isTranslation = titles.includes(worktitle)
-
     //const creators = props.expression.work[0].creatorsConnection.edges.map(e => e.node.name + " (" + e.role + ")").join(', ');
     //const type = props.expression.work[0].type.map(t => t.label).join(', ');
 
@@ -106,21 +100,21 @@ function Expression(props){
         categories.push(language);
 
     return <Paper elevation={0} square className={"expression"}>
-        <ListItem alignItems="flex-start">
+        <ListItem alignItems="flex-start" sx={{width: 500}}>
             <ListItemAvatar>
                 <Avatar sx={{ bgcolor: grey[400] }}>
                     <ExpressionTypeIcon type={content[0]} />
                 </Avatar>
             </ListItemAvatar>
-            <ListItemText
+            <ListItemText className={"expressionheading"}
                 primary={<React.Fragment>
                             <span className={"expressiontitle"}>{title}</span>
                             {!isTranslation && <span className={"worktitle"}> ({worktitle})</span>}
                             <br/>
-                            {creatorsmap.author && <div className={"creatorname"}>Author: {(creatorsmap.author.map(a => a.node.name)).join(" ; ")}</div>}
-                            {creatorsmap.director && <div className={"creatorname"}>Director: {(creatorsmap.director.map(a => a.node.name)).join(" ; ")}</div>}
-                            {contributorsmap.translator && <div className={"creatorname"}>Translator: {(contributorsmap.translator.map(a => a.node.name)).join(" ; ")}</div>}
-                            {contributorsmap.narrator && <div className={"creatorname"}>Narrator: {(contributorsmap.narrator.map(a => a.node.name)).join(" ; ")}</div>}
+                            {creatorsmap.Author && <div className={"creatorname"}>Author: {(creatorsmap.Author.map(a => a.node.name)).join(" ; ")}</div>}
+                            {creatorsmap.Director && <div className={"creatorname"}>Director: {(creatorsmap.Director.map(a => a.node.name)).join(" ; ")}</div>}
+                            {contributorsmap.Translator && <div className={"creatorname"}>Translator: {(contributorsmap.Translator.map(a => a.node.name)).join(" ; ")}</div>}
+                            {contributorsmap.Narrator && <div className={"creatorname"}>Narrator: {(contributorsmap.Narrator.map(a => a.node.name)).join(" ; ")}</div>}
                         </React.Fragment>}
             />
             <ListItemSecondaryAction sx={{top:"0%", marginTop:"35px"}}>
@@ -128,7 +122,7 @@ function Expression(props){
                 <Typography color={"dimgray"} variant={"body2"}>{'Language: ' +  language}</Typography>
             </ListItemSecondaryAction>
         </ListItem>
-        <List dense={true}>
+        <List dense={true} sx={{pt: 0}}>
             {props.expression && props.expression.manifestations.map(m => (<Manifestation manifestation={m} key={m.uri}/>))}
         </List>
     </Paper>

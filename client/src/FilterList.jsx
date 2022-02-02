@@ -2,8 +2,8 @@ import React, {useMemo} from 'react';
 import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
 import FilterGroup from './FilterGroup';
-import {selectedVar} from './Cache';
-import { intersection } from 'lodash';
+import {selectedVar} from './api/Cache';
+import { intersection, without } from 'lodash';
 
 //import {FilterContext} from "./FilterContext";
 //import Button from '@mui/material/Button';
@@ -104,7 +104,7 @@ function createFilterList(expressions){
             })
         })
     })
-    console.log(filters);
+    //console.log(filters);
     return filters;
 }
 
@@ -163,7 +163,9 @@ export default function FilterList(props) {
         selection.set("Creator", []);
         selection.set("Contributor", []);
         selection.set("Supplemental", []);
+        //adding items that have been selected for filters that are checked
         newChecked.forEach(key => selection.get(key.split("+")[0]).push(...filterMap.get(key).selection) );
+        //removing the keys for empty categories (so that we can do intersection of the rest)
         for(let k of selection.keys()){
             if (selection.get(k).length === 0){
                 selection.delete(k);
@@ -173,13 +175,14 @@ export default function FilterList(props) {
         //console.log([...potential]);
         //console.log(intersection(...selection.values()));
         if (newChecked.length === 0){
-            console.log(true);
+            //console.log(true);
             selectedVar(new Set([]));
         }else {
             const test = intersection(...selection.values())
-            console.log(test);
+            //console.log(test);
             selectedVar(new Set(intersection(...selection.values())));
-            console.log(false);
+            console.log(selectedVar())
+            //console.log(false);
         }
         //console.log(selectedVar());
     };
@@ -195,18 +198,29 @@ export default function FilterList(props) {
         selection.set("Contributor", []);
         selection.set("Supplemental", []);
         checked.forEach(key => selection.get(key.split("+")[0]).push(...filterMap.get(key).selection) );
-        //selection.delete(category)
+        selection.delete(category.split("+")[0])
         for(let k of selection.keys()){
+            //deleting unselected categories
             if (selection.get(k).length === 0){
                 selection.delete(k);
             }
         }
-        //console.log("Category " + category);
+        console.log(category.split("+")[0]);
+        console.log(selection);
+        console.log(selection.size);
         //console.log([...potential]);
         //console.log(intersection(...selection.values()));
+
+        // if (selection.size === 1 and selection.key == category)
+        // return available - what is already selected
+
         if (selection.size === 0){
             return [...potential];
-        }else {
+        } else if (selection.size === 1 && selection.keys()[0] === category.split("+")[0]){
+            return [...potential];
+        }
+        else {
+            //console.log(without([...potential], intersection(...selection.values())));
             return intersection([...potential], intersection(...selection.values()));
         }
     }

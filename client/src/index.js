@@ -8,7 +8,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { ApolloProvider, ApolloClient, } from '@apollo/client';
 //import {FilterContextProvider} from "./FilterContext";
-import {Cache} from "./Cache"
+import {Cache} from "./api/Cache"
 
 const client = new ApolloClient({
     //uri: 'http://localhost:8080/graphql',

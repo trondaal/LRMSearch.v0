@@ -12,7 +12,7 @@ export default function Filter(props) {
     const labelId = `checkbox-list-label-${key}`;
     const available = props.getAvailable(category, selection).length;
     let disabled = false;
-    if (available === 0 && props.checked.length > 0){
+    if ((available === 0 && props.checked.length > 0) && props.checked.indexOf(key) === -1){
         disabled=true;
     }
     return (
