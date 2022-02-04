@@ -2,7 +2,7 @@ import React, {useMemo} from 'react';
 import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
 import FilterGroup from './FilterGroup';
-import {selectedVar} from './api/Cache';
+import {selectedVar} from '../api/Cache';
 import { intersection, without } from 'lodash';
 
 //import {FilterContext} from "./FilterContext";
@@ -205,9 +205,9 @@ export default function FilterList(props) {
                 selection.delete(k);
             }
         }
-        console.log(category.split("+")[0]);
-        console.log(selection);
-        console.log(selection.size);
+        //console.log(category.split("+")[0]);
+       // console.log(selection);
+        //sconsole.log(selection.size);
         //console.log([...potential]);
         //console.log(intersection(...selection.values()));
 

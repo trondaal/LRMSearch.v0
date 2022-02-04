@@ -20,7 +20,7 @@ const ExpressionTypeIcon = props => {
             return <QueueMusicIcon fontSize="small"/>;
         case ('Performed music'):
             return <MusicNoteIcon fontSize="small"/>;
-        case ('spoken word'):
+        case ('Audio book'):
             return <HeadsetIcon fontSize="small"/>;
         case ('Illustrations'):
             return <PhotoIcon fontSize="small"/>;

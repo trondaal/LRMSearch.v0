@@ -1,10 +1,10 @@
 import Grid from "@mui/material/Grid";
 import ResultList from "./ResultList";
-import FilterList from "./FilterList"
+import FilterList from "../Filters/FilterList"
 import React from "react";
-import Item from './Item';
+import Item from '../Item';
 //import {filtersVar} from "./Cache";
-import {selectedVar} from "./api/Cache";
+import {selectedVar} from "../api/Cache";
 
 /*const isSelected = (exp) => {
     let content = true;
@@ -28,18 +28,12 @@ import {selectedVar} from "./api/Cache";
 
 export default function ResultView(props) {
     //console.log(props.results)
+    console.log(props.checkboxes);
     return (
-        <React.Fragment>
-            <Grid item xs={8}>
-                <Item>
-                    {selectedVar().size === 0 ? <ResultList results={props.results ? props.results.slice(0,30) : []}/> :
-                        <ResultList results={props.results ? props.results.filter(exp => exp.checked).slice(0,30) : []}/>
-                    }
-                </Item>
-            </Grid>
-            <Grid item xs={4}>
-                <FilterList results={props.results}/>
-            </Grid>
-        </React.Fragment>
+         <Item>
+                {selectedVar().size === 0 ? <ResultList results={props.results ? props.results.slice(0,50) : []} checkboxes={props.checkboxes}/> :
+                    <ResultList results={props.results ? props.results.filter(exp => exp.checked).slice(0,50) : []} checkboxes={props.checkboxes}/>
+                }
+            </Item>
     );
 }

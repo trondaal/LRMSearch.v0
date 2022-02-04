@@ -1,5 +1,5 @@
 import React, {useState, createContext} from "react";
-import {filtersVar} from './api/Cache';
+import {filtersVar} from '../api/Cache';
 
 
 export const FilterContext = createContext();
