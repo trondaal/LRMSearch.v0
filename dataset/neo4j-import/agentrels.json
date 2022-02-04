@@ -19753,82 +19753,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/184807703/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/273694393"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184807703/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/288294356"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184807703/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/305139729"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/184807703/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/51776002"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/1851159941673125440005/nor/1020/270969716"
         },
         "p" : {
@@ -21444,82 +21368,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309258229/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/273694393"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309258229/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/288294356"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309258229/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/305139729"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309258229/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/51776002"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/309258229/nor/1020/51776002"
         },
         "p" : {
@@ -22123,82 +21971,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/30549876"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/310912645/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/273694393"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/310912645/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/288294356"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/310912645/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/305139729"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/310912645/nor/1020/273694393/288294356/305139729/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/51776002"
         }
       },
       {
@@ -41180,6 +40952,82 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/74661518"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/184807703/nor/1020/273694393"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/273694393"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/310912645/nor/1020/288294356"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/288294356"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309258229/nor/1013/226306913/51776002"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/51776002"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/3974161575638204730004/nor/1014/1020/72145970376732252972"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/72145970376732252972"
         }
       },
       {
@@ -60750,6 +60598,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://example.org/pietro"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/3974161575638204730004"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10058"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Artist"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/284507812"
         }
       },
       {
@@ -96076,6 +95943,139 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/32225387/mynileodyssey"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/32225387"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/37144221/deathbeyondthenile"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/37144221"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/3974161575638204730004"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/54453950"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/91236070/lifeanddeathonthenile"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/91236070"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/91236070/lifeanddeathonthenile"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/58333198"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/12155103895976200651"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71388952"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/174999513"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71388952"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://eksempel.uri/verk/006"
         },
         "p" : {
@@ -98508,6 +98508,44 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10053"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Composer"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q214665"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q214665/lovetheme"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10053"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Composer"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q214665"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/316752098"
         },
         "p" : {
@@ -100650,6 +100688,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/42909988"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10068"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Cinematographie"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q436704"
         }
       },
       {
@@ -103443,6 +103500,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/232901827"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/3974161575638204730004/nor/1014/1020/72145970376732252972"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20283"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Colourist"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/54153530980048702386"
         }
       },
       {
@@ -106450,6 +106526,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/310912914"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10203"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Screenwriter"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71388952"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/316751699"
         },
         "p" : {
@@ -106850,25 +106945,6 @@
         "s" : {
           "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q4195088"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10203"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Screenwriter"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/71388952"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.wikidata.org/wiki/Q4781639"
         },
         "p" : {
           "type" : "uri",
@@ -107723,6 +107799,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10203"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Screenwriter"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q573997"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/316752098"
         },
         "p" : {
@@ -108269,6 +108364,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/111553324"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10013"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Director"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q137489"
         }
       },
       {
@@ -109091,6 +109205,44 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10073"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Producer"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q22959274"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10073"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Producer"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q332969"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://example.org/rodeenkecarling"
         },
         "p" : {
@@ -109399,6 +109551,63 @@
         },
         "p" : {
           "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20036"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Costume designer"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/84145541728796601291"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://www.imdb.com/title/tt0417741/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20036"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Costume designer"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/61242149"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20036"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Costume designer"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q573805"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/175280488/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
           "value" : "http://rdaregistry.info/Elements/e/object/P20055"
         },
         "l" : {
@@ -109580,6 +109789,25 @@
         "o" : {
           "type" : "uri",
           "value" : "https://www.imdb.com/name/nm2143798"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20055"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Film editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q18628914"
         }
       },
       {
@@ -119598,6 +119826,291 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1340574"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1370307"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1381397"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q172653"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q181917"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q202725"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q206856"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q212873"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q234293"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q238327"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q298818"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q373968"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q55796"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q608022"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914/mul/1023"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20012"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Actor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q71206"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/185857285/eng/1020/138107"
         },
         "p" : {
@@ -123374,6 +123887,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/10057685"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309258229/nor/1013/226306913/51776002"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20022"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Narrator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/226306913"
         }
       },
       {

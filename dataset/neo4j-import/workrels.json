@@ -5066,6 +5066,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/3974161575638204730004"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10252"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is graphic novelization of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309258229"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/6481154923713263780009"
         },
         "p" : {
@@ -5916,6 +5935,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/219438842"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q214665/lovetheme"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10106"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is incidental music for work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914"
         }
       },
       {
@@ -6809,6 +6847,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/185888925"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q1059914"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10129"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is motion picture adaptation of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309258229"
         }
       },
       {

@@ -708,7 +708,7 @@
         "label" : {
           "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "Cartographic image"
+          "value" : "Cartographic"
         }
       },
       {
@@ -741,7 +741,7 @@
         "label" : {
           "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "Performed music"
+          "value" : "Music"
         }
       },
       {
