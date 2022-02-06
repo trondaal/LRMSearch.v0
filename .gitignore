@@ -3,6 +3,7 @@ dataset/oxygen.xpr
 dataset/stats/
 dataset/#.gitignore#
 dataset/oldversions/
+dataset/mrc/
 RDARegistry/
 .gitignore~
 .idea/
