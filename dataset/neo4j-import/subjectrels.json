@@ -12609,6 +12609,63 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/1421145424662786830168"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject agent"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71398096"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1421145424662786830168/depression"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject agent"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71398096"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/49383417/darknessvisible"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject agent"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/115199438"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://exampel.org"
         },
         "p" : {
@@ -19007,6 +19064,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/184093601"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/49383417/darknessvisible"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/185877295"
         }
       },
       {

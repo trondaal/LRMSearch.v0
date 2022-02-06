@@ -31,8 +31,8 @@ export default function ResultView(props) {
     console.log(props.checkboxes);
     return (
          <Item>
-                {selectedVar().size === 0 ? <ResultList results={props.results ? props.results.slice(0,50) : []} checkboxes={props.checkboxes}/> :
-                    <ResultList results={props.results ? props.results.filter(exp => exp.checked).slice(0,50) : []} checkboxes={props.checkboxes}/>
+                {selectedVar().size === 0 ? <ResultList results={props.results ? props.results : []} checkboxes={props.checkboxes}/> :
+                    <ResultList results={props.results ? props.results.filter(exp => exp.checked) : []} checkboxes={props.checkboxes}/>
                 }
             </Item>
     );

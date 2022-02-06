@@ -4,7 +4,7 @@ echo "Creating xslt conversion for lrm"
 java -cp "../../marc2entities/jar/saxon/saxon9he.jar"  net.sf.saxon.Transform -xsl:"../..//marc2entities/xslt/make.xslt" -s:"conversionrules.xml" -o:"marc2lrm.xslt"
 
 echo "Running transformation and reports for all"
-FILES="./xml/*.xml"
+FILES="./xml/darkness-visible.xml"
 for f in $FILES
 do
     base="${f##*/}"
@@ -16,3 +16,4 @@ do
     java -cp "saxon9he.jar" net.sf.saxon.Transform -xsl:report.xslt -s:"$f" -o:"$stats"
 done
 
+ 

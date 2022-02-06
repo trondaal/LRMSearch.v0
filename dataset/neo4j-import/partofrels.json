@@ -9223,6 +9223,25 @@
           "type" : "uri",
           "value" : "http://exemple.org/theunknownsigridundset"
         }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1421145424662786830168/depression"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1421145424662786830168"
+        }
       }
     ]
   }

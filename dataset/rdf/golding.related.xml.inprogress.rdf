@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:map="http://www.w3.org/2005/xpath-functions/map"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:frbrizer="http://idi.ntnu.no/frbrizer/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:marc="http://www.loc.gov/MARC21/slim"
+         xmlns:rdac="http://rdaregistry.info/Elements/c/"
+         xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+         xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+         xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+         xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+         xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+         xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+         xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+         xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
+         xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+         xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:mmmm="http://www.loc.gov/MARC21/slim/"
+         xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
+         xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
+         xmlns:rdamt="http://rdaregistry.info/termList/RDAMediaType/"
+         xmlns:rdat="http://rdaregistry.info/termList/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <rdac:C10001 rdf:about="http://oslomet.workid.no/wg/05">
+      <rdaxd:P00018>http://oslomet.workid.no/wg/05</rdaxd:P00018>
+      <rdawd:P10088>The Brass Butterfly</rdawd:P10088>
+      <rdfs:label>The Brass Butterfly</rdfs:label>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/179396738">
+      <rdaxd:P00018>http://viaf.org/viaf/179396738</rdaxd:P00018>
+      <rdawd:P10088>The inheritors</rdawd:P10088>
+      <rdfs:label>The inheritors</rdfs:label>
+      <rdawd:P10088>Inheritors</rdawd:P10088>
+      <rdfs:label>Inheritors</rdfs:label>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/73862853"/>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/59077275"/>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/182632327">
+      <rdaxd:P00018>http://viaf.org/viaf/182632327</rdaxd:P00018>
+      <rdawd:P10088>Mirror of the sea</rdawd:P10088>
+      <rdfs:label>Mirror of the sea</rdfs:label>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/197012309">
+      <rdaxd:P00018>http://viaf.org/viaf/197012309</rdaxd:P00018>
+      <rdawd:P10088>Les rites de passage</rdawd:P10088>
+      <rdfs:label>Les rites de passage</rdfs:label>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/95162287"/>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/217036112">
+      <rdaxd:P00018>http://viaf.org/viaf/217036112</rdaxd:P00018>
+      <rdawd:P10088>Inheritors</rdawd:P10088>
+      <rdfs:label>Inheritors</rdfs:label>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/25925752/theyounginheritors">
+      <rdaxd:P00018>http://viaf.org/viaf/25925752/theyounginheritors</rdaxd:P00018>
+      <rdawd:P10088>The young inheritors</rdawd:P10088>
+      <rdfs:label>The young inheritors</rdfs:label>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/25925752"/>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/307992516">
+      <rdaxd:P00018>http://viaf.org/viaf/307992516</rdaxd:P00018>
+      <rdawd:P10088>The inheritors</rdawd:P10088>
+      <rdfs:label>The inheritors</rdfs:label>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/76452727"/>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/316337852">
+      <rdaxd:P00018>http://viaf.org/viaf/316337852</rdaxd:P00018>
+      <rdawd:P10088>Inheritors</rdawd:P10088>
+      <rdfs:label>Inheritors</rdfs:label>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/85444448"/>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/316509371/ramericanindependentcinema">
+      <rdaxd:P00018>http://viaf.org/viaf/316509371/ramericanindependentcinema</rdaxd:P00018>
+      <rdawd:P10088>American independent cinema : rites of passage and the crisis image</rdawd:P10088>
+      <rdfs:label>American independent cinema : rites of passage and the crisis image</rdfs:label>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/316509371"/>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/9436431/atextresponseguidetotheinheritorsbywilliamgolding">
+      <rdaxd:P00018>http://viaf.org/viaf/9436431/atextresponseguidetotheinheritorsbywilliamgolding</rdaxd:P00018>
+      <rdawd:P10088>A text response guide to the inheritors by William Golding</rdawd:P10088>
+      <rdfs:label>A text response guide to the inheritors by William Golding</rdfs:label>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/9436431"/>
+      <rdawo:P10150 rdf:resource="http://viaf.org/viaf/217036112"/>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/94861716/ritesofspiritualpassageandtheanthtropologyofislam">
+      <rdaxd:P00018>http://viaf.org/viaf/94861716/ritesofspiritualpassageandtheanthtropologyofislam</rdaxd:P00018>
+      <rdawd:P10088>Rites of spiritual passage and the anthropology of Islam</rdawd:P10088>
+      <rdfs:label>Rites of spiritual passage and the anthropology of Islam</rdfs:label>
+      <rdawo:P10061 rdf:resource="http://viaf.org/viaf/94861716"/>
+   </rdac:C10001>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/108181435">
+      <rdaxd:P00018>http://viaf.org/viaf/108181435</rdaxd:P00018>
+      <rdaad:P50385>Bender, Todd K</rdaad:P50385>
+      <rdfs:label>Bender, Todd K</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/112237914">
+      <rdaxd:P00018>http://viaf.org/viaf/112237914</rdaxd:P00018>
+      <rdaad:P50385>Bailey, David</rdaad:P50385>
+      <rdfs:label>Bailey, David</rdfs:label>
+      <rdaad:P50339>1938-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/25925752">
+      <rdaxd:P00018>http://viaf.org/viaf/25925752</rdaxd:P00018>
+      <rdaad:P50385>Avner, Yehuda</rdaad:P50385>
+      <rdfs:label>Avner, Yehuda</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/316509371">
+      <rdaxd:P00018>http://viaf.org/viaf/316509371</rdaxd:P00018>
+      <rdaad:P50385>Backman Rogers, Anna</rdaad:P50385>
+      <rdfs:label>Backman Rogers, Anna</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/59077275">
+      <rdaxd:P00018>http://viaf.org/viaf/59077275</rdaxd:P00018>
+      <rdaad:P50385>Ford, Ford Madox</rdaad:P50385>
+      <rdfs:label>Ford, Ford Madox</rdfs:label>
+      <rdaad:P50339>1873-1939</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/65461487">
+      <rdaxd:P00018>http://viaf.org/viaf/65461487</rdaxd:P00018>
+      <rdaad:P50385>Biles, Jack I</rdaad:P50385>
+      <rdfs:label>Biles, Jack I</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/66463755">
+      <rdaxd:P00018>http://viaf.org/viaf/66463755</rdaxd:P00018>
+      <rdaad:P50385>Bèze, Théodore de</rdaad:P50385>
+      <rdfs:label>Bèze, Théodore de</rdfs:label>
+      <rdaad:P50339>1519-1605</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/71387829">
+      <rdaxd:P00018>http://viaf.org/viaf/71387829</rdaxd:P00018>
+      <rdaad:P50385>Bourdieu, Pierre</rdaad:P50385>
+      <rdfs:label>Bourdieu, Pierre</rdfs:label>
+      <rdaad:P50339>1930-2002</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/73858244">
+      <rdaxd:P00018>http://viaf.org/viaf/73858244</rdaxd:P00018>
+      <rdaad:P50385>Passeron, Jean Claude</rdaad:P50385>
+      <rdfs:label>Passeron, Jean Claude</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/73862853">
+      <rdaxd:P00018>http://viaf.org/viaf/73862853</rdaxd:P00018>
+      <rdaad:P50385>Conrad, Joseph</rdaad:P50385>
+      <rdfs:label>Conrad, Joseph</rdfs:label>
+      <rdaad:P50339>1857-1924</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/76452727">
+      <rdaxd:P00018>http://viaf.org/viaf/76452727</rdaxd:P00018>
+      <rdaad:P50385>Calder, Ritchie</rdaad:P50385>
+      <rdfs:label>Calder, Ritchie</rdfs:label>
+      <rdaad:P50339>1906-1982</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/85444448">
+      <rdaxd:P00018>http://viaf.org/viaf/85444448</rdaxd:P00018>
+      <rdaad:P50385>Chandler, A. Bertram</rdaad:P50385>
+      <rdfs:label>Chandler, A. Bertram</rdfs:label>
+      <rdaad:P50339>1912-1984</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/89500102">
+      <rdaxd:P00018>http://viaf.org/viaf/89500102</rdaxd:P00018>
+      <rdaad:P50385>Golding, William</rdaad:P50385>
+      <rdfs:label>Golding, William</rdfs:label>
+      <rdaad:P50339>1911-1993</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/9436431">
+      <rdaxd:P00018>http://viaf.org/viaf/9436431</rdaxd:P00018>
+      <rdaad:P50385>Bantick, Christopher</rdaad:P50385>
+      <rdfs:label>Bantick, Christopher</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/94861716">
+      <rdaxd:P00018>http://viaf.org/viaf/94861716</rdaxd:P00018>
+      <rdaad:P50385>Abu Zahra, Nadia</rdaad:P50385>
+      <rdfs:label>Abu Zahra, Nadia</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/95162287">
+      <rdaxd:P00018>http://viaf.org/viaf/95162287</rdaxd:P00018>
+      <rdaad:P50385>Gennep, Arnold van</rdaad:P50385>
+      <rdfs:label>Gennep, Arnold van</rdfs:label>
+      <rdaad:P50339>1873-1957</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/179396738/eng">
+      <rdaed:P20316>The inheritors</rdaed:P20316>
+      <rdaed:P20312>The inheritors</rdaed:P20312>
+      <rdfs:label>The inheritors / eng / text</rdfs:label>
+      <rdaed:P20312>The inheritors, by J. Conrad &amp; F.M. Hueffer</rdaed:P20312>
+      <rdfs:label>The inheritors, by J. Conrad &amp; F.M. Hueffer / eng / text</rdfs:label>
+      <rdaed:P20312>The inheritors, by J. Conrad and F.M. Hueffer. [1st Lond. issue, without dedication]</rdaed:P20312>
+      <rdfs:label>The inheritors, by J. Conrad and F.M. Hueffer. [1st Lond. issue, without dedication] / eng / text</rdfs:label>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/179396738"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/197012309/eng">
+      <rdaed:P20316>Les rites de passage</rdaed:P20316>
+      <rdaed:P20312>The Rites of Passage</rdaed:P20312>
+      <rdfs:label>The Rites of Passage / eng / text</rdfs:label>
+      <rdaed:P20312>The Rites of Passage, Second Edition</rdaed:P20312>
+      <rdfs:label>The Rites of Passage, Second Edition / eng / text</rdfs:label>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/197012309"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/197012309/fre">
+      <rdaed:P20316>Les rites de passage</rdaed:P20316>
+      <rdaed:P20312>Les rites de passage</rdaed:P20312>
+      <rdfs:label>Les rites de passage / fre / text</rdfs:label>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/197012309"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/25925752/theyounginheritors/eng">
+      <rdaed:P20316>The young inheritors</rdaed:P20316>
+      <rdaed:P20312>The young inheritors</rdaed:P20312>
+      <rdfs:label>The young inheritors / eng / text</rdfs:label>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/25925752/theyounginheritors"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/307992516/eng">
+      <rdaed:P20316>The inheritors</rdaed:P20316>
+      <rdaed:P20312>The inheritors;</rdaed:P20312>
+      <rdfs:label>The inheritors; / eng / text</rdfs:label>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/307992516"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/316337852/eng">
+      <rdaed:P20316>Inheritors</rdaed:P20316>
+      <rdaed:P20312>Inheritors</rdaed:P20312>
+      <rdfs:label>Inheritors / eng / text</rdfs:label>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/316337852"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/316509371/ramericanindependentcinema/eng">
+      <rdaed:P20316>American independent cinema : rites of passage and the crisis image</rdaed:P20316>
+      <rdaed:P20312>American independent cinema</rdaed:P20312>
+      <rdfs:label>American independent cinema / eng / text</rdfs:label>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/316509371/ramericanindependentcinema"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/9436431/atextresponseguidetotheinheritorsbywilliamgolding/eng">
+      <rdaed:P20316>A text response guide to the inheritors by William Golding</rdaed:P20316>
+      <rdaed:P20312>A text response guide to the inheritors by William Golding</rdaed:P20312>
+      <rdfs:label>A text response guide to the inheritors by William Golding / eng / text</rdfs:label>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/9436431/atextresponseguidetotheinheritorsbywilliamgolding"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/94861716/ritesofspiritualpassageandtheanthtropologyofislam/eng">
+      <rdaed:P20316>Rites of spiritual passage and the anthropology of Islam</rdaed:P20316>
+      <rdaed:P20312>Rites of spiritual passage and the anthropology of Islam</rdaed:P20312>
+      <rdfs:label>Rites of spiritual passage and the anthropology of Islam / eng / text</rdfs:label>
+      <rdaed:P20316>Revue d'histoire maghrebine . [Offprint]</rdaed:P20316>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/94861716/ritesofspiritualpassageandtheanthtropologyofislam"/>
+   </rdac:C10006>
+   <rdac:C10007 rdf:about="http://example.org/010117657">
+      <rdamd:P30156>The rites of passage</rdamd:P30156>
+      <rdamd:P30117>by Arnold van Gennep ; translated by Monika B. Vizedom and Gabrielle L. Caffee ; introduction by Solon T. Kimball</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Routledge &amp; Kegan Paul</rdamd:P30083>
+      <rdamd:P30011>1960</rdamd:P30011>
+      <rdamd:P30182>xxvi, 198 p. ; 23 cm.</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/011086159">
+      <rdamd:P30156>The inheritors</rdamd:P30156>
+      <rdamd:P30142>an extravagant story</rdamd:P30142>
+      <rdamd:P30117>J. Conrad and F.M. Hueffer</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Dent</rdamd:P30083>
+      <rdamd:P30011>1923</rdamd:P30011>
+      <rdamd:P30182>211 p. ; 22 cm</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179396738/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/011288780">
+      <rdamd:P30156>The inheritors;</rdamd:P30156>
+      <rdamd:P30142>the story of man and the world he made</rdamd:P30142>
+      <rdamd:P30117>[by] Ritchie Calder</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Heinemann</rdamd:P30083>
+      <rdamd:P30011>[1961]</rdamd:P30011>
+      <rdamd:P30182>xxv, 345 p. illus., maps. 22 cm</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/307992516/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/011328366">
+      <rdamd:P30156>Love and reason</rdamd:P30156>
+      <rdamd:P30117>words by William Golding ; music by Howard Ferguson</rdamd:P30117>
+      <rdamd:P30088>York</rdamd:P30088>
+      <rdamd:P30083>Banks Music</rdamd:P30083>
+      <rdamd:P30011>c1994</rdamd:P30011>
+      <rdamd:P30182>[5] p. of music ; 30 cm</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/011328436">
+      <rdamd:P30156>Love and reason</rdamd:P30156>
+      <rdamd:P30117>words by William Golding ; music by Howard Ferguson</rdamd:P30117>
+      <rdamd:P30088>York</rdamd:P30088>
+      <rdamd:P30083>Banks Music</rdamd:P30083>
+      <rdamd:P30011>c1994</rdamd:P30011>
+      <rdamd:P30182>1 score ([5] p.) ; 30 cm</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/011354248">
+      <rdamd:P30156>The inheritors</rdamd:P30156>
+      <rdamd:P30142>poems 1948-1955</rdamd:P30142>
+      <rdamd:P30117>Richard Church</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>W. Heinemann</rdamd:P30083>
+      <rdamd:P30011>1957</rdamd:P30011>
+      <rdamd:P30182>89 p. ; 20 cm</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/011860844">
+      <rdamd:P30156>First years in mathematics</rdamd:P30156>
+      <rdamd:P30117>by Z. P. Dienes and E. W. Golding</rdamd:P30117>
+      <rdamd:P30088>Harlow, Eng</rdamd:P30088>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>ESA ;</rdamd:P30083>
+      <rdamd:P30083>Burns and Oates</rdamd:P30083>
+      <rdamd:P30011>1966, 1969 printing</rdamd:P30011>
+      <rdamd:P30182>3 v. : ill. ; 21 cm</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/012395424">
+      <rdamd:P30156>Les rites de passage</rdamd:P30156>
+      <rdamd:P30142>étude systématique des rites de la porte et du seuil, de l'hospitalité, de l'adoption, de la grossesse et de l'accouchement, de la naissance, de l'enfance, de la puberté, de l'initiation, de l'ordination, du couronnement des fiançailles et du mariage, des funérailles, des saisons, etc</rdamd:P30142>
+      <rdamd:P30117>Arnold van Gennep</rdamd:P30117>
+      <rdamd:P30088>Paris</rdamd:P30088>
+      <rdamd:P30083>É. Nourry</rdamd:P30083>
+      <rdamd:P30011>1909</rdamd:P30011>
+      <rdamd:P30182>ii, 288 p. ; 23 cm.</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/fre"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/012817659">
+      <rdamd:P30156>Geometry through transformations</rdamd:P30156>
+      <rdamd:P30117>[by] Z.P. Dienes and E.W. Golding</rdamd:P30117>
+      <rdamd:P30088>[Harlow, Essex]</rdamd:P30088>
+      <rdamd:P30083>Educational Supply Association, in association with Hutchinson Educational</rdamd:P30083>
+      <rdamd:P30011>[c1967]</rdamd:P30011>
+      <rdamd:P30182>3 v. illus. 26 cm.</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/013503021">
+      <rdamd:P30156>A collection of the names of all the princes of this kingdom of England, such as have been the kings eldest sons, or next inheritors to the crown, beginning in the time of ... King Henry III. unto this present, being in July, 1609</rdamd:P30156>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>printed in the year</rdamd:P30083>
+      <rdamd:P30011>1747</rdamd:P30011>
+      <rdamd:P30182>[4],72p. ; 8⁰.</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/013580536">
+      <rdamd:P30156>The inheritors</rdamd:P30156>
+      <rdamd:P30142>an extravagant story</rdamd:P30142>
+      <rdamd:P30117>Joseph Conrad and F.M. Hueffer</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Gresham</rdamd:P30083>
+      <rdamd:P30011>1925</rdamd:P30011>
+      <rdamd:P30182>211 p. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30106>Medallion edition of the works of Joseph Conrad ;</rdamd:P30106>
+      <rdamd:P30165>5</rdamd:P30165>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179396738/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/013763047">
+      <rdamd:P30156>The inheritors</rdamd:P30156>
+      <rdamd:P30142>an extravagant story</rdamd:P30142>
+      <rdamd:P30117>J. Conrad and F.M. Hueffer</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Dent</rdamd:P30083>
+      <rdamd:P30011>1923</rdamd:P30011>
+      <rdamd:P30182>211 p. ; 22 cms.</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179396738/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/014090479">
+      <rdamd:P30156>A collection of the names of all the princes of ... England, such as have been the kings eldest sons, or next inheritors to the crown, beginning in the reign of Henry iii. unto ... July, 1609 [by R. Connak, publ. by J.T. Philipps]</rdamd:P30156>
+      <rdamd:P30088>Lond</rdamd:P30088>
+      <rdamd:P30011>1747</rdamd:P30011>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/014236962">
+      <rdamd:P30156>Les rites de passage</rdamd:P30156>
+      <rdamd:P30088>Par</rdamd:P30088>
+      <rdamd:P30011>1909</rdamd:P30011>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/fre"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/014644002">
+      <rdamd:P30156>A tragedie of Abrahams sacrifice, tr. by A. Golding, ed., with an appendix containing the Abraham sacrifiant, by M.W. Wallace</rdamd:P30156>
+      <rdamd:P30088>[Toronto]</rdamd:P30088>
+      <rdamd:P30011>1906</rdamd:P30011>
+      <rdamd:P30106>Univ. of Toronto studies, philol. ser</rdamd:P30106>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/014734928">
+      <rdamd:P30156>The inheritors, by J. Conrad &amp; F.M. Hueffer</rdamd:P30156>
+      <rdamd:P30088>New York [rubber-stamped Lond.]</rdamd:P30088>
+      <rdamd:P30011>1901</rdamd:P30011>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179396738/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/014735012">
+      <rdamd:P30156>The inheritors, by J. Conrad and F.M. Hueffer. [1st Lond. issue, without dedication]</rdamd:P30156>
+      <rdamd:P30088>Lond</rdamd:P30088>
+      <rdamd:P30011>1901</rdamd:P30011>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179396738/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/015001609">
+      <rdamd:P30156>The inheritors</rdamd:P30156>
+      <rdamd:P30142>an extravagant story</rdamd:P30142>
+      <rdamd:P30117>Joseph Conrad and F.M. Hueffer</rdamd:P30117>
+      <rdamd:P30088>Edinburgh</rdamd:P30088>
+      <rdamd:P30083>John Grant ;</rdamd:P30083>
+      <rdamd:P30011>1925</rdamd:P30011>
+      <rdamd:P30182>211 p. ; 22 cms.</rdamd:P30182>
+      <rdamd:P30106>The works of Joseph Conrad in twenty volumes ;</rdamd:P30106>
+      <rdamd:P30165>5</rdamd:P30165>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179396738/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/015176712">
+      <rdamd:P30156>Poems, by William Cowper, of the Inner Temple, Esq</rdamd:P30156>
+      <rdamd:P30142>In two volumes</rdamd:P30142>
+      <rdamd:P30107>A New Edition..</rdamd:P30107>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Printed for J. Johnson and Co</rdamd:P30083>
+      <rdamd:P30011>1811</rdamd:P30011>
+      <rdamd:P30182>2v. : ill. ; 22cm.</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/015872525">
+      <rdamd:P30156>The eyght bookes of Caius Iulius Cæsar conteyning his martiall exploytes in the realme of Gallia and the countries bordering vppon the same translated oute of latin into English by Arthur Goldinge G</rdamd:P30156>
+      <rdamd:P30088>Imprinted at London</rdamd:P30088>
+      <rdamd:P30083>By Willyam Seres</rdamd:P30083>
+      <rdamd:P30011>Anno. 1565</rdamd:P30011>
+      <rdamd:P30182>[12], 272, [10] leaves ; 8⁰.</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/016276506">
+      <rdamd:P30156>A collection of the names of all the princes of this kingdom of England, such as have been the kings eldest sons, or next inheritors to the crown, beginning in the time of ... King Henry III. unto this present, being in July, 1609</rdamd:P30156>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>printed in the year</rdamd:P30083>
+      <rdamd:P30011>1747</rdamd:P30011>
+      <rdamd:P30182>[4],72p. ; 8⁰.</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/020545637">
+      <rdamd:P30156>A booke of Christian questions and answers</rdamd:P30156>
+      <rdamd:P30142>Wherein are set foorth the cheef points of the Christian religion in maner of an abridgment. A worke right necessary and profitable for all such as shal haue to deale vvith the captious quarelinges of the vvrangling aduersaries of Gods truthe</rdamd:P30142>
+      <rdamd:P30117>Written in Latin by the lerned clerke Theodore Beza Vezelius, and newly translated into English by Arthur Golding</rdamd:P30117>
+      <rdamd:P30088>Imprinted at London</rdamd:P30088>
+      <rdamd:P30083>By William How, for Abraham Veale, dwellyng in Paules Church yarde at the signe of the Lambe</rdamd:P30083>
+      <rdamd:P30011>Ano. 1574</rdamd:P30011>
+      <rdamd:P30182>[4], 90 leaves ; 8⁰</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/021018297">
+      <rdamd:P30156>Rites of spiritual passage and the anthropology of Islam</rdamd:P30156>
+      <rdamd:P30142>a response to Tapper and Tapper</rdamd:P30142>
+      <rdamd:P30117>Nadia Abu-Zahra</rdamd:P30117>
+      <rdamd:P30182>pages [9]-30</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/94861716/ritesofspiritualpassageandtheanthtropologyofislam/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0151879869">
+      <rdamd:P30004>ISBN 0151879869</rdamd:P30004>
+      <rdaxd:P00018>isbn-0151879869</rdaxd:P00018>
+      <rdfs:label>ISBN0151879869</rdfs:label>
+      <rdamd:P30156>Talk, conversations with William Golding</rdamd:P30156>
+      <rdamd:P30117>Jack I. Biles ; foreword by William Golding</rdamd:P30117>
+      <rdamd:P30088>New York</rdamd:P30088>
+      <rdamd:P30083>Harcourt Brace Jovanovich</rdamd:P30083>
+      <rdamd:P30011>[1970]</rdamd:P30011>
+      <rdamd:P30182>xii, 112 p. ; 21 cm</rdamd:P30182>
+      <rdamd:P30182>[80] p ; 30 cm</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0226067394">
+      <rdamd:P30004>ISBN 0226067394</rdamd:P30004>
+      <rdaxd:P00018>isbn-0226067394</rdaxd:P00018>
+      <rdfs:label>ISBN0226067394</rdfs:label>
+      <rdamd:P30156>The inheritors</rdamd:P30156>
+      <rdamd:P30142>French students and their relation to culture</rdamd:P30142>
+      <rdamd:P30117>Pierre Bourdieu and Jean-Claude Passeron ; translated by Richard Nice</rdamd:P30117>
+      <rdamd:P30088>Chicago ;</rdamd:P30088>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>University of Chicago Press</rdamd:P30083>
+      <rdamd:P30011>1979</rdamd:P30011>
+      <rdamd:P30182>x, 158 p. : ill. ; 23 cm</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0226848493">
+      <rdamd:P30004>ISBN 0226848493</rdamd:P30004>
+      <rdaxd:P00018>isbn-0226848493</rdaxd:P00018>
+      <rdfs:label>ISBN0226848493</rdfs:label>
+      <rdamd:P30156>The rites of passage</rdamd:P30156>
+      <rdamd:P30117>by Arnold van Gennep ; translated by Monika B. Vizedom and Gabrielle L. Caffee ; introduction by Solon T. Kimball</rdamd:P30117>
+      <rdamd:P30088>Chicago</rdamd:P30088>
+      <rdamd:P30083>University of Chicago Press</rdamd:P30083>
+      <rdamd:P30011>1960</rdamd:P30011>
+      <rdamd:P30182>xxvi, 198 p. ; 23 cm.</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0233975225">
+      <rdamd:P30004>ISBN 0233975225</rdamd:P30004>
+      <rdaxd:P00018>isbn-0233975225</rdaxd:P00018>
+      <rdfs:label>ISBN0233975225</rdfs:label>
+      <rdamd:P30156>Who wants to be a millionaire?</rdamd:P30156>
+      <rdamd:P30117>compiled and written by David Frost and Michael Deakin ; illustrated by William Rushton ; [research by Charles B. Golding]</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>A. Deutsch</rdamd:P30083>
+      <rdamd:P30011>1983</rdamd:P30011>
+      <rdamd:P30182>xiii, 114 p. : ill. ; 24 cm</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0385272227">
+      <rdamd:P30004>ISBN 0385272227</rdamd:P30004>
+      <rdaxd:P00018>isbn-0385272227</rdaxd:P00018>
+      <rdfs:label>ISBN0385272227</rdfs:label>
+      <rdamd:P30004>ISBN 9780385272223</rdamd:P30004>
+      <rdaxd:P00018>isbn-9780385272223</rdaxd:P00018>
+      <rdfs:label>ISBN9780385272223</rdfs:label>
+      <rdamd:P30156>The young inheritors</rdamd:P30156>
+      <rdamd:P30142>a portrait of Israel's children</rdamd:P30142>
+      <rdamd:P30117>by Yehuda Avner ; photos. by Gemma Levine ; with an introduction by Herman Wouk</rdamd:P30117>
+      <rdamd:P30088>New York</rdamd:P30088>
+      <rdamd:P30083>Dial Press</rdamd:P30083>
+      <rdamd:P30011>c1982</rdamd:P30011>
+      <rdamd:P30182>228 p. : ill. ; 30 cm.</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/25925752/theyounginheritors/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0500973237">
+      <rdamd:P30004>ISBN 0500973237</rdamd:P30004>
+      <rdaxd:P00018>isbn-0500973237</rdaxd:P00018>
+      <rdfs:label>ISBN0500973237</rdfs:label>
+      <rdamd:P30156>Imagine</rdamd:P30156>
+      <rdamd:P30142>a book for Band Aid</rdamd:P30142>
+      <rdamd:P30117>by David Bailey ; preface by William Golding</rdamd:P30117>
+      <rdamd:P30088>[London]</rdamd:P30088>
+      <rdamd:P30083>Thames and Hudson</rdamd:P30083>
+      <rdamd:P30083>Faber</rdamd:P30083>
+      <rdamd:P30011>c1985</rdamd:P30011>
+      <rdamd:P30182>[80] p ; 30 cm</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-05820398431">
+      <rdamd:P30004>ISBN 0582039843 (v.1)</rdamd:P30004>
+      <rdaxd:P00018>isbn-05820398431</rdaxd:P00018>
+      <rdfs:label>ISBN0582039843 (v.1)</rdfs:label>
+      <rdamd:P30004>ISBN 0582039851 (v.2)</rdamd:P30004>
+      <rdaxd:P00018>isbn-05820398512</rdaxd:P00018>
+      <rdfs:label>ISBN0582039851 (v.2)</rdfs:label>
+      <rdamd:P30156>Caribbean story</rdamd:P30156>
+      <rdamd:P30117>William Claypole, John Robottom ; assignments provided by Coleridge Barnett</rdamd:P30117>
+      <rdamd:P30107>2nd ed.</rdamd:P30107>
+      <rdamd:P30088>Harlow</rdamd:P30088>
+      <rdamd:P30083>Longman Caribbean</rdamd:P30083>
+      <rdamd:P30011>1989</rdamd:P30011>
+      <rdamd:P30182>2 v. : ill. ; 24 cm</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0710087446">
+      <rdamd:P30004>ISBN 0710087446</rdamd:P30004>
+      <rdaxd:P00018>isbn-0710087446</rdaxd:P00018>
+      <rdfs:label>ISBN0710087446</rdfs:label>
+      <rdamd:P30156>The rites of passage</rdamd:P30156>
+      <rdamd:P30117>by Arnold van Gennep ; translated [from the French] by Monika B. Vizedom and Gabrielle L. Caffee</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Routledge and Kegan Paul</rdamd:P30083>
+      <rdamd:P30011>1977</rdamd:P30011>
+      <rdamd:P30182>viii, 198 p ; 22 cm.</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0750900113">
+      <rdamd:P30004>ISBN 0750900113</rdamd:P30004>
+      <rdaxd:P00018>isbn-0750900113</rdaxd:P00018>
+      <rdfs:label>ISBN0750900113</rdfs:label>
+      <rdamd:P30156>The inheritors</rdamd:P30156>
+      <rdamd:P30117>Joseph Conrad and Ford Madox Ford</rdamd:P30117>
+      <rdamd:P30088>Stroud</rdamd:P30088>
+      <rdamd:P30083>Sutton</rdamd:P30083>
+      <rdamd:P30011>1991</rdamd:P30011>
+      <rdamd:P30182>viii, 166 p</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179396738/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0824091108">
+      <rdamd:P30004>ISBN 0824091108 (alk.paper)</rdamd:P30004>
+      <rdaxd:P00018>isbn-0824091108</rdaxd:P00018>
+      <rdfs:label>ISBN0824091108 (alk.paper)</rdfs:label>
+      <rdamd:P30156>Concordances to Conrad's the Mirror of the sea and the Inheritors</rdamd:P30156>
+      <rdamd:P30117>Todd K. Bender</rdamd:P30117>
+      <rdamd:P30088>New York</rdamd:P30088>
+      <rdamd:P30083>Garland Pub</rdamd:P30083>
+      <rdamd:P30011>1983</rdamd:P30011>
+      <rdamd:P30182>viii, 160, 162 p. ; 29 cm</rdamd:P30182>
+      <rdamd:P30106>Garland reference library of the humanities ;</rdamd:P30106>
+      <rdamd:P30165>vol. 426</rdamd:P30165>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0853235600">
+      <rdamd:P30004>ISBN 0853235600</rdamd:P30004>
+      <rdaxd:P00018>isbn-0853235600</rdaxd:P00018>
+      <rdfs:label>ISBN0853235600</rdfs:label>
+      <rdamd:P30156>The inheritors</rdamd:P30156>
+      <rdamd:P30142>an extravagant story</rdamd:P30142>
+      <rdamd:P30117>Joseph Conrad and Ford Madox Ford ; foreword by George Hay ; introduction by David Seed</rdamd:P30117>
+      <rdamd:P30088>Liverpool</rdamd:P30088>
+      <rdamd:P30083>Liverpool University Press</rdamd:P30083>
+      <rdamd:P30011>1999</rdamd:P30011>
+      <rdamd:P30182>xxviii, 164 p ; 25 cm.</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179396738/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-1875739130">
+      <rdamd:P30004>ISBN 1875739130 (pbk.)</rdamd:P30004>
+      <rdaxd:P00018>isbn-1875739130</rdaxd:P00018>
+      <rdfs:label>ISBN1875739130 (pbk.)</rdfs:label>
+      <rdamd:P30156>A text response guide to the inheritors by William Golding</rdamd:P30156>
+      <rdamd:P30117>by Christopher Bantick</rdamd:P30117>
+      <rdamd:P30088>Ballarat, Vic</rdamd:P30088>
+      <rdamd:P30083>Wizard Books</rdamd:P30083>
+      <rdamd:P30011>1994</rdamd:P30011>
+      <rdamd:P30182>48 p., [4] p. ; 21 cm.</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/9436431/atextresponseguidetotheinheritorsbywilliamgolding/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-2708400657">
+      <rdamd:P30004>ISBN 2708400657</rdamd:P30004>
+      <rdaxd:P00018>isbn-2708400657</rdaxd:P00018>
+      <rdfs:label>ISBN2708400657</rdfs:label>
+      <rdamd:P30156>Les rites de passage</rdamd:P30156>
+      <rdamd:P30142>étude systématique des rites de la porte et du seuil, de l'hospitalité, de l'adoption, de la grossesse et de l'accouchement, de la naissance, de l'enfance, de la puberté, de l'initiation, de l'ordination, du couronnement des fiançailles et du mariage, des funérailles, des saisons, etc</rdamd:P30142>
+      <rdamd:P30117>Arnold van Gennep</rdamd:P30117>
+      <rdamd:P30088>Paris</rdamd:P30088>
+      <rdamd:P30083>Picard</rdamd:P30083>
+      <rdamd:P30011>1981</rdamd:P30011>
+      <rdamd:P30182>ii, 288, [29] p. ; 22 cm.</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/fre"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9780226629490">
+      <rdamd:P30004>ISBN 9780226629490</rdamd:P30004>
+      <rdaxd:P00018>isbn-9780226629490</rdaxd:P00018>
+      <rdfs:label>ISBN9780226629490</rdfs:label>
+      <rdamd:P30156>The Rites of Passage</rdamd:P30156>
+      <rdamd:P30117>Arnold van Gennep; translated by Monika B. Vizedom and Gabrielle L. Caffee; with a new introduction by David I. Kertzer</rdamd:P30117>
+      <rdamd:P30107>Second edition.</rdamd:P30107>
+      <rdamd:P30088>Chicago</rdamd:P30088>
+      <rdamd:P30083>The University of Chicago Press</rdamd:P30083>
+      <rdamd:P30011>2019</rdamd:P30011>
+      <rdamd:P30182>xlvi, 198 pages ; 21cm</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9780226629520">
+      <rdamd:P30004>ISBN 9780226629520</rdamd:P30004>
+      <rdaxd:P00018>isbn-9780226629520</rdaxd:P00018>
+      <rdfs:label>ISBN9780226629520</rdfs:label>
+      <rdamd:P30156>The Rites of Passage, Second Edition</rdamd:P30156>
+      <rdamd:P30117>Arnold van Gennep, David I. Kertzer, Monika B. Vizedom, Gabrielle L. Caffee</rdamd:P30117>
+      <rdamd:P30088>Chicago</rdamd:P30088>
+      <rdamd:P30083>University of Chicago Press</rdamd:P30083>
+      <rdamd:P30011>2019</rdamd:P30011>
+      <rdamd:P30007>©2019</rdamd:P30007>
+      <rdamd:P30182>1 online resource (256 pages).</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9780415330237">
+      <rdamd:P30004>ISBN 9780415330237</rdamd:P30004>
+      <rdaxd:P00018>isbn-9780415330237</rdaxd:P00018>
+      <rdfs:label>ISBN9780415330237</rdfs:label>
+      <rdamd:P30004>ISBN 0415330238 (hbk)</rdamd:P30004>
+      <rdaxd:P00018>isbn-0415330238</rdaxd:P00018>
+      <rdfs:label>ISBN0415330238 (hbk)</rdfs:label>
+      <rdamd:P30004>ISBN 9780415611565 (pbk)</rdamd:P30004>
+      <rdaxd:P00018>isbn-9780415611565</rdaxd:P00018>
+      <rdfs:label>ISBN9780415611565 (pbk)</rdfs:label>
+      <rdamd:P30156>The rites of passage</rdamd:P30156>
+      <rdamd:P30117>Arnold van Gennep ; translated by Monika B. Vizedom and Gabrielle L. Caffee ; introduction by Solon T. Kimball</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Routledge</rdamd:P30083>
+      <rdamd:P30011>2004</rdamd:P30011>
+      <rdamd:P30182>[4], viii, 198 p. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30106>Routledge library editions. Anthropology and ethnography ;</rdamd:P30106>
+      <rdamd:P30106>Religion, rites &amp; ceremonies ;</rdamd:P30106>
+      <rdamd:P30165>44.</rdamd:P30165>
+      <rdamd:P30165>3</rdamd:P30165>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9780748693603">
+      <rdamd:P30004>ISBN 9780748693603</rdamd:P30004>
+      <rdaxd:P00018>isbn-9780748693603</rdaxd:P00018>
+      <rdfs:label>ISBN9780748693603</rdfs:label>
+      <rdamd:P30156>American independent cinema</rdamd:P30156>
+      <rdamd:P30142>rites of passage and the crisis image</rdamd:P30142>
+      <rdamd:P30117>Anna Backman Rogers</rdamd:P30117>
+      <rdamd:P30088>Edinburgh</rdamd:P30088>
+      <rdamd:P30083>Edinburgh University Press</rdamd:P30083>
+      <rdamd:P30011>[2015]</rdamd:P30011>
+      <rdamd:P30007>©2015</rdamd:P30007>
+      <rdamd:P30182>170 pages : illustrations (black and white) ; 24 cm</rdamd:P30182>
+      <rdamd:P30106>Edinburgh studies in film and intermediality</rdamd:P30106>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316509371/ramericanindependentcinema/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9780748693610">
+      <rdamd:P30004>ISBN 9780748693610</rdamd:P30004>
+      <rdaxd:P00018>isbn-9780748693610</rdaxd:P00018>
+      <rdfs:label>ISBN9780748693610</rdfs:label>
+      <rdamd:P30156>American independent cinema</rdamd:P30156>
+      <rdamd:P30142>rites of passage and the crisis image</rdamd:P30142>
+      <rdamd:P30117>Anna Backman Rogers</rdamd:P30117>
+      <rdamd:P30088>Edinburgh</rdamd:P30088>
+      <rdamd:P30083>Edinburgh University Press</rdamd:P30083>
+      <rdamd:P30011>[2015]</rdamd:P30011>
+      <rdamd:P30182>1 online resource (170 pages) : illustrations (black and white).</rdamd:P30182>
+      <rdamd:P30106>Edinburgh studies in film and intermediality</rdamd:P30106>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316509371/ramericanindependentcinema/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9781315017594">
+      <rdamd:P30004>ISBN 9781315017594 (e-book)</rdamd:P30004>
+      <rdaxd:P00018>isbn-9781315017594</rdaxd:P00018>
+      <rdfs:label>ISBN9781315017594 (e-book)</rdfs:label>
+      <rdamd:P30156>The rites of passage</rdamd:P30156>
+      <rdamd:P30117>Arnold van Gennep ; [translated by Monika B. Vizedom and Gabrielle L. Caffee]</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Routldge</rdamd:P30083>
+      <rdamd:P30011>[2004]</rdamd:P30011>
+      <rdamd:P30007>©1960</rdamd:P30007>
+      <rdamd:P30182>1 online resource (211 pages).</rdamd:P30182>
+      <rdamd:P30106>Routledge library editions. Anthropology and ethnography. Religion, rites &amp; ceremonies ;</rdamd:P30106>
+      <rdamd:P30165>III</rdamd:P30165>
+      <rdamd:P30106>Routledge library editions. Anthropology and ethnography</rdamd:P30106>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/197012309/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9781473211230">
+      <rdamd:P30004>ISBN 9781473211230 (ebook) :</rdamd:P30004>
+      <rdaxd:P00018>isbn-9781473211230</rdaxd:P00018>
+      <rdfs:label>ISBN9781473211230 (ebook)</rdfs:label>
+      <rdamd:P30156>Inheritors</rdamd:P30156>
+      <rdamd:P30117>A. Bertram Chandler</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Orion Books</rdamd:P30083>
+      <rdamd:P30011>2015</rdamd:P30011>
+      <rdamd:P30182>1 online resource.</rdamd:P30182>
+      <rdamd:P30106>The John Grimes saga</rdamd:P30106>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316337852/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9781474403405">
+      <rdamd:P30004>ISBN 9781474403405</rdamd:P30004>
+      <rdaxd:P00018>isbn-9781474403405</rdaxd:P00018>
+      <rdfs:label>ISBN9781474403405</rdfs:label>
+      <rdamd:P30004>ISBN 1474403409</rdamd:P30004>
+      <rdaxd:P00018>isbn-1474403409</rdaxd:P00018>
+      <rdfs:label>ISBN1474403409</rdfs:label>
+      <rdamd:P30156>American independent cinema</rdamd:P30156>
+      <rdamd:P30142>rites of passage and the crisis image</rdamd:P30142>
+      <rdamd:P30117>Anna Backman Rogers</rdamd:P30117>
+      <rdamd:P30088>Edinburgh</rdamd:P30088>
+      <rdamd:P30083>Edinburgh University Press</rdamd:P30083>
+      <rdamd:P30011>[2015]</rdamd:P30011>
+      <rdamd:P30088>[Place of publication not identified]</rdamd:P30088>
+      <rdamd:P30083>EUP</rdamd:P30083>
+      <rdamd:P30182>1 online resource : illustrations (black and white).</rdamd:P30182>
+      <rdamd:P30182>1 online resource (224 pages).</rdamd:P30182>
+      <rdamd:P30106>Edinburgh studies in film and intermediality</rdamd:P30106>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316509371/ramericanindependentcinema/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9781474412216">
+      <rdamd:P30004>ISBN 9781474412216 (ebook) :</rdamd:P30004>
+      <rdaxd:P00018>isbn-9781474412216</rdaxd:P00018>
+      <rdfs:label>ISBN9781474412216 (ebook)</rdfs:label>
+      <rdamd:P30156>American independent cinema</rdamd:P30156>
+      <rdamd:P30142>rites of passage and the crisis image</rdamd:P30142>
+      <rdamd:P30117>Anna Backman Rogers</rdamd:P30117>
+      <rdamd:P30088>Edinburgh</rdamd:P30088>
+      <rdamd:P30083>Edinburgh University Press</rdamd:P30083>
+      <rdamd:P30011>2018</rdamd:P30011>
+      <rdamd:P30182>1 online resource : illustrations (black and white).</rdamd:P30182>
+      <rdamd:P30106>Edinburgh studies in film and intermediality</rdamd:P30106>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/316509371/ramericanindependentcinema/eng"/>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-9781785433443">
+      <rdamd:P30004>ISBN 9781785433443</rdamd:P30004>
+      <rdaxd:P00018>isbn-9781785433443</rdaxd:P00018>
+      <rdfs:label>ISBN9781785433443</rdfs:label>
+      <rdamd:P30156>The inheritors</rdamd:P30156>
+      <rdamd:P30142>an extravagent story</rdamd:P30142>
+      <rdamd:P30117>by Joseph Conrad &amp; Ford M Hueffer</rdamd:P30117>
+      <rdamd:P30088>[United States of America]</rdamd:P30088>
+      <rdamd:P30083>[Horse's Mouth]</rdamd:P30083>
+      <rdamd:P30011>[2015]</rdamd:P30011>
+      <rdamd:P30182>Unnumberd pages ; 23 cm</rdamd:P30182>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179396738/eng"/>
+   </rdac:C10007>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/eng">
+      <rdfs:label>eng</rdfs:label>
+      <skos:subjectIndicator>eng</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/engfre">
+      <skos:subjectIndicator>engfre</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/fre">
+      <rdfs:label>fre</rdfs:label>
+      <skos:subjectIndicator>fre</skos:subjectIndicator>
+   </skos:Concept>
+</rdf:RDF>

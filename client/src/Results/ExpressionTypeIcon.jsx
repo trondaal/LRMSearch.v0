@@ -8,6 +8,7 @@ import QueueMusicIcon from '@mui/icons-material/QueueMusic';
 import ComputerIcon from '@mui/icons-material/Computer';
 import MapIcon from '@mui/icons-material/Map';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
+import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 
 const ExpressionTypeIcon = props => {
     const { type } = props;
@@ -30,6 +31,8 @@ const ExpressionTypeIcon = props => {
             return <LocalMoviesIcon fontSize="small"/>;
         case ('Movie'):
             return <LocalMoviesIcon fontSize="small"/>;
+        case ('Music'):
+            return <AudiotrackIcon fontSize="small"/>;
         default:
             return <QuestionMarkIcon fontSize="small"/>;
     }

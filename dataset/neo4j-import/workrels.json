@@ -6852,6 +6852,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://www.imdb.com/title/tt0108309"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10129"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is motion picture adaptation of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/995145424555286830372"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://www.wikidata.org/entity/Q1059914"
         },
         "p" : {
@@ -6904,6 +6923,44 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/308697939"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://imdb.com/title/tt0011440"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10129"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is motion picture adaptation of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/294124367"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://imdb.com/title/tt0114081"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10129"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is motion picture adaptation of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/194765531"
         }
       },
       {
@@ -9697,6 +9754,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/310534436"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/85313314/darknessvisible"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10027"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is variations based on work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/14744124/indarknessletmedwell"
         }
       },
       {

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:map="http://www.w3.org/2005/xpath-functions/map"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:frbrizer="http://idi.ntnu.no/frbrizer/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:marc="http://www.loc.gov/MARC21/slim"
+         xmlns:rdac="http://rdaregistry.info/Elements/c/"
+         xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+         xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+         xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+         xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+         xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+         xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+         xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+         xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
+         xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+         xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
+         xmlns:mmmm="http://www.loc.gov/MARC21/slim/"
+         xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
+         xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
+         xmlns:rdamt="http://rdaregistry.info/termList/RDAMediaType/"
+         xmlns:rdat="http://rdaregistry.info/termList/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <rdac:C10007 rdf:about="http://example.org/12152593">
+      <rdamd:P30156>La femme Nikita</rdamd:P30156>
+      <rdamd:P30117>directed by Ken Girotti</rdamd:P30117>
+      <rdamd:P30134>Darkness visible</rdamd:P30134>
+      <rdamd:P30011>1998</rdamd:P30011>
+      <rdamd:P30182>1 videocassette of 1 : sd., col. ; 3/4 in. viewing copy.</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/12896483">
+      <rdamd:P30156>Promised land</rdamd:P30156>
+      <rdamd:P30117>directed by Stuart Margolin</rdamd:P30117>
+      <rdamd:P30134>Darkness visible</rdamd:P30134>
+      <rdamd:P30011>1999</rdamd:P30011>
+      <rdamd:P30182>1 videocassette of 1 (ca. 60 min.) : sd. col. ; 3/4 in.</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/IAN-5060054460323">
+      <rdamd:P30004>IAN 5060054460323</rdamd:P30004>
+      <rdaxd:P00018>IAN-5060054460323</rdaxd:P00018>
+      <rdamd:P30004>UPC 506054460321</rdamd:P30004>
+      <rdaxd:P00018>UPC-506054460321</rdaxd:P00018>
+      <rdamd:P30156>Darkness visible</rdamd:P30156>
+      <rdamd:P30117>Philip Grange</rdamd:P30117>
+      <rdamd:P30088>[United Kingdom]</rdamd:P30088>
+      <rdamd:P30083>Metier</rdamd:P30083>
+      <rdamd:P30011>p2005</rdamd:P30011>
+      <rdamd:P30182>1 sound disc : digital ; 4 3/4 in.</rdamd:P30182>
+   </rdac:C10007>
+   <rdac:C10007 rdf:about="http://example.org/isbn-0571518044">
+      <rdamd:P30004>ISBN 0571518044</rdamd:P30004>
+      <rdaxd:P00018>isbn-0571518044</rdaxd:P00018>
+      <rdfs:label>ISBN0571518044</rdfs:label>
+      <rdamd:P30156>Darknesse visible</rdamd:P30156>
+      <rdamd:P30142>for solo piano : after John Dowland, 1992</rdamd:P30142>
+      <rdamd:P30117>Thomas Adès</rdamd:P30117>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30083>Faber Music</rdamd:P30083>
+      <rdamd:P30011>c1998</rdamd:P30011>
+      <rdamd:P30182>5 p. of music ; 31 cm.</rdamd:P30182>
+   </rdac:C10007>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">
+      <skos:subjectIndicator>eng</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/eng">
+      <rdfs:label>eng</rdfs:label>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/zxx">
+      <rdfs:label>zxx</rdfs:label>
+   </skos:Concept>
+</rdf:RDF>

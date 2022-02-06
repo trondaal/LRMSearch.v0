@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:record>
+        <marc:leader>02132cjm a22004937a 4500</marc:leader>
+        <marc:controlfield tag="001">15294742</marc:controlfield>
+        <marc:controlfield tag="005">20141008094354.0</marc:controlfield>
+        <marc:controlfield tag="007">sd fsngnnmmned</marc:controlfield>
+        <marc:controlfield tag="008">080508p20052004xxkmun|  efhi     | zxx d</marc:controlfield>
+        <marc:datafield tag="906" ind1=" " ind2=" ">
+            <marc:subfield code="a">7</marc:subfield>
+            <marc:subfield code="b">cbc</marc:subfield>
+            <marc:subfield code="c">copycat</marc:subfield>
+            <marc:subfield code="d">2</marc:subfield>
+            <marc:subfield code="e">ncip</marc:subfield>
+            <marc:subfield code="f">20</marc:subfield>
+            <marc:subfield code="g">y-soundrec</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="925" ind1="0" ind2=" ">
+            <marc:subfield code="a">acquire</marc:subfield>
+            <marc:subfield code="b">2 shelf copies</marc:subfield>
+            <marc:subfield code="x">policy default</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="955" ind1=" " ind2=" ">
+            <marc:subfield code="a">db26 2008-05-08 to SMCD</marc:subfield>
+            <marc:subfield code="a">qr06 2014-10-08 z-client</marc:subfield>
+            <marc:subfield code="i">qr06 2014-10-08</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="010" ind1=" " ind2=" ">
+            <marc:subfield code="a">  2014624873</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="024" ind1="3" ind2=" ">
+            <marc:subfield code="a">5060054460323</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="024" ind1="1" ind2=" ">
+            <marc:subfield code="a">506054460321</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="028" ind1="0" ind2="2">
+            <marc:subfield code="a">MSV CD92083</marc:subfield>
+            <marc:subfield code="b">Metier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="033" ind1="2" ind2=" ">
+            <marc:subfield code="a">20041204</marc:subfield>
+            <marc:subfield code="a">20050611</marc:subfield>
+            <marc:subfield code="b">5750</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">(OCoLC)ocm84735029</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">BUF</marc:subfield>
+            <marc:subfield code="c">BUF</marc:subfield>
+            <marc:subfield code="d">CIN</marc:subfield>
+            <marc:subfield code="d">BTCTA</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">BOS</marc:subfield>
+            <marc:subfield code="d">OCLCA</marc:subfield>
+            <marc:subfield code="d">OCLCQ</marc:subfield>
+            <marc:subfield code="d">OCLCA</marc:subfield>
+            <marc:subfield code="d">DLC</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041" ind1="0" ind2=" ">
+            <marc:subfield code="g">eng</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="042" ind1=" " ind2=" ">
+            <marc:subfield code="a">lccopycat</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="047" ind1=" " ind2=" ">
+            <marc:subfield code="a">nc</marc:subfield>
+            <marc:subfield code="a">vr</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="050" ind1="0" ind2="0">
+            <marc:subfield code="a">SDC 42058</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Grange, Philip.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="240" ind1="1" ind2="0">
+            <marc:subfield code="a">Instrumental music.</marc:subfield>
+            <marc:subfield code="k">Selections</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Darkness visible</marc:subfield>
+            <marc:subfield code="h">[sound recording] /</marc:subfield>
+            <marc:subfield code="c">Philip Grange.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">[United Kingdom] :</marc:subfield>
+            <marc:subfield code="b">Metier,</marc:subfield>
+            <marc:subfield code="c">p2005.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">1 sound disc :</marc:subfield>
+            <marc:subfield code="b">digital ;</marc:subfield>
+            <marc:subfield code="c">4 3/4 in.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="306" ind1=" " ind2=" ">
+            <marc:subfield code="a">001630</marc:subfield>
+            <marc:subfield code="a">001719</marc:subfield>
+            <marc:subfield code="a">002300</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">1st and 3rd work for flute, clarinet, violin, violoncello, piano, and percussion ; the 2nd work for 2 flutes, 2 clarinets, violin, violoncello, piano, and percussion.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Title from container spine.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="511" ind1="0" ind2=" ">
+            <marc:subfield code="a">Gemini ; Ian Mitchell, conductor.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518" ind1=" " ind2=" ">
+            <marc:subfield code="a">Recorded Dec. 4-5, 2004 and June 11, 2005 in the Cosmo Rodewald Concert Hall, The University of Manchester.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Compact disc.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Program and biographical notes (6 p.) inserted in container.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="505" ind1="0" ind2=" ">
+            <marc:subfield code="a">Cimmerian nocturne (16:30) -- Lament of the bow (17:19) -- Variations (23:00)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Sextets (Piano, clarinet, flute, percussion, violin, cello)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Octets (Piano, clarinets (2), flutes (2), percussion, violin, violoncello)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Variations (Instrumental ensemble)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Mitchell, Ian</marc:subfield>
+            <marc:subfield code="c">(Clarinetist)</marc:subfield>
+            <marc:subfield code="4">cnd</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2="2">
+            <marc:subfield code="a">Grange, Philip.</marc:subfield>
+            <marc:subfield code="t">Cimmerian nocturne.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2="2">
+            <marc:subfield code="a">Grange, Philip.</marc:subfield>
+            <marc:subfield code="t">Lament of the bow.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2="2">
+            <marc:subfield code="a">Grange, Philip.</marc:subfield>
+            <marc:subfield code="t">Variations,</marc:subfield>
+            <marc:subfield code="m">piano, flute, clarinet, percussion, violin, cello.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="710" ind1="2" ind2=" ">
+            <marc:subfield code="a">Gemini (Musical group)</marc:subfield>
+            <marc:subfield code="4">prf</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01249cgm a22002775a 4500</marc:leader>
+        <marc:controlfield tag="001">12152593</marc:controlfield>
+        <marc:controlfield tag="005">20130701085617.0</marc:controlfield>
+        <marc:controlfield tag="007">v||||||||</marc:controlfield>
+        <marc:controlfield tag="008">000823s1998    xx ---            vleng  </marc:controlfield>
+        <marc:datafield tag="906" ind1=" " ind2=" ">
+            <marc:subfield code="a">0</marc:subfield>
+            <marc:subfield code="b">cbc</marc:subfield>
+            <marc:subfield code="c">orignew</marc:subfield>
+            <marc:subfield code="d">u</marc:subfield>
+            <marc:subfield code="e">ncip</marc:subfield>
+            <marc:subfield code="f">20</marc:subfield>
+            <marc:subfield code="g">y-movingim</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="010" ind1=" " ind2=" ">
+            <marc:subfield code="a">   00571910 </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="017" ind1=" " ind2=" ">
+            <marc:subfield code="a">PA936-927</marc:subfield>
+            <marc:subfield code="b">U.S. Copyright Office</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">DLC</marc:subfield>
+            <marc:subfield code="c">DLC</marc:subfield>
+            <marc:subfield code="d">DLC</marc:subfield>
+            <marc:subfield code="e">amim</marc:subfield>
+            <marc:subfield code="d">DLC</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="050" ind1="0" ind2="0">
+            <marc:subfield code="a">VBP 5288 (viewing copy)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="0" ind2="3">
+            <marc:subfield code="a">La femme Nikita.</marc:subfield>
+            <marc:subfield code="p">Darkness visible /</marc:subfield>
+            <marc:subfield code="c">directed by Ken Girotti.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="246" ind1="3" ind2="0">
+            <marc:subfield code="a">Darkness visible</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="246" ind1="3" ind2=" ">
+            <marc:subfield code="a">Nikita.</marc:subfield>
+            <marc:subfield code="p">Darkness visible</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="c">1998.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">1 videocassette of 1 :</marc:subfield>
+            <marc:subfield code="b">sd., col. ;</marc:subfield>
+            <marc:subfield code="c">3/4 in. viewing copy.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Copyright: Warner Brothers Domestic Television Distribution, a division of Time Warner Entertainment Company, LP. Appl. au.: LFN Productions, Inc. DCR 1998; PUB 29Mar98; REG 8Jul99; PA936-927.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Series title also known as Nikita per Internet movie data base, 8/23/2000.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">No. 208.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Sources used: copyright data base; Internet movie data base.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="541" ind1=" " ind2=" ">
+            <marc:subfield code="d">Received: 8/23/1999;</marc:subfield>
+            <marc:subfield code="3">viewing copy;</marc:subfield>
+            <marc:subfield code="c">copyright deposit--RNR;</marc:subfield>
+            <marc:subfield code="a">Copyright Collection.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Action and adventure television programs.</marc:subfield>
+            <marc:subfield code="2">lcgft</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="710" ind1="2" ind2=" ">
+            <marc:subfield code="a">Copyright Collection (Library of Congress)</marc:subfield>
+            <marc:subfield code="5">DLC</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01090ccm a2200301 a 4500</marc:leader>
+        <marc:controlfield tag="001">11941645</marc:controlfield>
+        <marc:controlfield tag="005">20101224071508.0</marc:controlfield>
+        <marc:controlfield tag="008">000315s1998    enkuuz         n        d</marc:controlfield>
+        <marc:datafield tag="906" ind1=" " ind2=" ">
+            <marc:subfield code="a">7</marc:subfield>
+            <marc:subfield code="b">cbc</marc:subfield>
+            <marc:subfield code="c">copycat</marc:subfield>
+            <marc:subfield code="d">4</marc:subfield>
+            <marc:subfield code="e">ncip</marc:subfield>
+            <marc:subfield code="f">20</marc:subfield>
+            <marc:subfield code="g">y-genmusic</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="925" ind1="0" ind2=" ">
+            <marc:subfield code="a">acquire</marc:subfield>
+            <marc:subfield code="b">2 shelf copies</marc:subfield>
+            <marc:subfield code="x">policy default</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="955" ind1=" " ind2=" ">
+            <marc:subfield code="a">vl15 03-15-00; vl19 03-16-00; to Music Division 03-16-00</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="010" ind1=" " ind2=" ">
+            <marc:subfield code="a">   00512423 </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">0571518044</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">(OCoLC)ocm40643492</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">CUS</marc:subfield>
+            <marc:subfield code="c">CUS</marc:subfield>
+            <marc:subfield code="d">DLC</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="042" ind1=" " ind2=" ">
+            <marc:subfield code="a">lccopycat</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="048" ind1=" " ind2=" ">
+            <marc:subfield code="a">ka01</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="050" ind1="0" ind2="0">
+            <marc:subfield code="a">M25</marc:subfield>
+            <marc:subfield code="b">.A</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Adès, Thomas.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Darknesse visible :</marc:subfield>
+            <marc:subfield code="b">for solo piano : after John Dowland, 1992 /</marc:subfield>
+            <marc:subfield code="c">Thomas Adès.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">London :</marc:subfield>
+            <marc:subfield code="b">Faber Music,</marc:subfield>
+            <marc:subfield code="c">c1998.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">5 p. of music ;</marc:subfield>
+            <marc:subfield code="c">31 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="306" ind1=" " ind2=" ">
+            <marc:subfield code="a">000700</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">&quot;This pieces is an explosion of John Dowland's lute song, In darknesse let mee dwell...&quot;--T.p.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Duration: 7:00.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Piano music.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Dowland, John,</marc:subfield>
+            <marc:subfield code="d">1563?-1626.</marc:subfield>
+            <marc:subfield code="t">In darkness let me dwell.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="856" ind1="4" ind2="2">
+            <marc:subfield code="3">Publisher description</marc:subfield>
+            <marc:subfield code="u">http://www.loc.gov/catdir/enhancements/fy1106/00512423-d.html</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01072cgm a22002653a 4500</marc:leader>
+        <marc:controlfield tag="001">12896483</marc:controlfield>
+        <marc:controlfield tag="005">20130916112145.0</marc:controlfield>
+        <marc:controlfield tag="007">vf ccahr|</marc:controlfield>
+        <marc:controlfield tag="008">020815s1999    xxu060            mleng  </marc:controlfield>
+        <marc:datafield tag="906" ind1=" " ind2=" ">
+            <marc:subfield code="a">0</marc:subfield>
+            <marc:subfield code="b">cbc</marc:subfield>
+            <marc:subfield code="c">orignew</marc:subfield>
+            <marc:subfield code="d">u</marc:subfield>
+            <marc:subfield code="e">ncip</marc:subfield>
+            <marc:subfield code="f">20</marc:subfield>
+            <marc:subfield code="g">y-movingim</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="010" ind1=" " ind2=" ">
+            <marc:subfield code="a">  2002638956</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="017" ind1=" " ind2=" ">
+            <marc:subfield code="a">PA937-191</marc:subfield>
+            <marc:subfield code="b">U.S. Copyright Office</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">DLC</marc:subfield>
+            <marc:subfield code="c">DLC</marc:subfield>
+            <marc:subfield code="e">amim</marc:subfield>
+            <marc:subfield code="d">DLC</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="050" ind1="0" ind2="0">
+            <marc:subfield code="a">VBP 5399 (viewing copy)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="240" ind1=" " ind2="0">
+            <marc:subfield code="a">Darkness visible</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="0" ind2="0">
+            <marc:subfield code="a">Promised land.</marc:subfield>
+            <marc:subfield code="p">Darkness visible /</marc:subfield>
+            <marc:subfield code="c">directed by Stuart Margolin.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="246" ind1="3" ind2="0">
+            <marc:subfield code="a">Darkness visible</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="c">1999.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">1 videocassette of 1 (ca. 60 min.) :</marc:subfield>
+            <marc:subfield code="b">sd. col. ;</marc:subfield>
+            <marc:subfield code="c">3/4 in.</marc:subfield>
+            <marc:subfield code="3">viewing copy.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Copyright: CBS Worldwide, Inc. Appl. au.: CBS Broadcasting, Inc. DCR 1999; PUB 13May99; REG 30Jun99; PA937-191.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Number 321.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Source used: copyright data base.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="541" ind1=" " ind2=" ">
+            <marc:subfield code="d">Received: 8-23-1999;</marc:subfield>
+            <marc:subfield code="3">viewing copy;</marc:subfield>
+            <marc:subfield code="c">copyright deposit--RNR;</marc:subfield>
+            <marc:subfield code="a">Copyright Collection.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Family</marc:subfield>
+            <marc:subfield code="v">Television series.</marc:subfield>
+            <marc:subfield code="2">migfg</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Action and adventure television programs.</marc:subfield>
+            <marc:subfield code="2">lcgft</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="710" ind1="2" ind2=" ">
+            <marc:subfield code="a">Copyright Collection (Library of Congress)</marc:subfield>
+            <marc:subfield code="5">DLC</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>
