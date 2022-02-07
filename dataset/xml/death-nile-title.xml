@@ -10808,7 +10808,7 @@
         <marc:datafield tag="092" ind1=" " ind2=" ">
             <marc:subfield code="a">DVD DEATH O</marc:subfield>
         </marc:datafield>
-        <marc:datafield tag="130" ind1="" ind2="">
+        <marc:datafield tag="130" ind1=" " ind2=" ">
             <marc:subfield code="a">Death on the Nile</marc:subfield>
             <marc:subfield code="1">http://www.wikidata.org/entity/Q1059914</marc:subfield>
         </marc:datafield>
@@ -11088,9 +11088,14 @@
         <marc:datafield tag="240" ind1="1" ind2="0">
             <marc:subfield code="a">Death on the Nile</marc:subfield>
             <marc:subfield code="1">http://www.wikidata.org/entity/Q214665/lovetheme</marc:subfield>
+            <marc:subfield code="8">1/e</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="740" ind1="1" ind2="0">
+            <marc:subfield code="a">Love theme from Death on the Nile (Piano solo)</marc:subfield>
+            <marc:subfield code="8">1/e</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="245" ind1="1" ind2="0">
-            <marc:subfield code="a">Love theme from (the film) Death on the Nile. (Piano solo). By N. Rota.</marc:subfield>
+            <marc:subfield code="a">Love theme from Death on the Nile. (Piano solo). By N. Rota.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
             <marc:subfield code="a">London :</marc:subfield>
@@ -11122,7 +11127,7 @@
             <marc:subfield code="a">Musical work</marc:subfield>
             <marc:subfield code="0">https://schema.nb.no/Bibliographic/Values/V1001</marc:subfield>
         </marc:datafield>
-        <marc:datafield tag="758" ind1="" ind2="">
+        <marc:datafield tag="758" ind1=" "  ind2=" ">
             <marc:subfield code="a">Death on the Nile</marc:subfield>
             <marc:subfield code="1">http://www.wikidata.org/entity/Q1059914</marc:subfield>
             <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10106</marc:subfield>
