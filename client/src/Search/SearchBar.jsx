@@ -1,14 +1,10 @@
 
 import React, {useState, useMemo, useEffect} from 'react';
 import TextField from '@mui/material/TextField';
-import {selectedVar} from './api/Cache';
-import stopwords from './Search/stopwords'
-
-
+import {selectedVar} from '../api/Cache';
+import stopwords from './stopwords'
 
 export default function SearchBar(props) {
-
-
     const [query, setQuery] = useState(sessionStorage.getItem('query') ? sessionStorage.getItem('query') : "Harry Potter");
 
     const changeHandler = (event) => {

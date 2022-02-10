@@ -1,62 +1,34 @@
 import CssBaseline from '@mui/material/CssBaseline';
-import React, {useState, useMemo, useEffect} from 'react';
-import TextField from '@mui/material/TextField';
+import React, {useState} from 'react';
 import Grid from '@mui/material/Grid';
 import ResultView from "./Results/ResultView";
-import Item from './Item';
-import { useQuery , useLazyQuery} from '@apollo/client';
+import { useLazyQuery} from '@apollo/client';
 import {GET_RESULTS} from "./api/Queries";
-import debounce from 'lodash.debounce';
-import {selectedVar} from './api/Cache';
 import Checkbox from '@mui/material/Checkbox';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
-import Box from '@mui/material/Box';
-import SearchBar from "./SearchBar";
+import SearchBar from "./Search/SearchBar";
 import CircularProgress from '@mui/material/CircularProgress';
-import ResultList from "./Results/ResultList";
 import FilterList from "./Filters/FilterList";
+import {useParams} from "react-router-dom";
 
 export default function MyApp() {
-    //const [searchExpression, setSearchExpression] = useState("Rowling");
-    const [query, setQuery] = useState("Harry Potter");
-    const [checkboxes, setCheckboxes] = useState(false);
+    const params = useParams();
+    console.log(params);
 
-    const handleChange = (event) => {
-        //console.log(event.target.checked);
+    const [checkboxes, setCheckboxes] = useState(false);
+    const [filters, setFilters] = useState(true);
+
+    const handleCheckboxesChange = (event) => {
         setCheckboxes(event.target.checked);
     };
 
-    /*const { loading, error, data } = useQuery(GET_RESULTS, {
-        variables: { query:query, offset: 0 }
-    });*/
+    const handleFiltersChange = (event) => {
+        setFilters(event.target.checked);
+    };
 
     const [search, { loading, data, error, called }] = useLazyQuery(GET_RESULTS);
-    //const debouncer = useCallback(_.debounce(search, 700), []);
-
-    /*const changeHandler = (event) => {
-        if (event.key === 'Enter') {
-            selectedVar(new Set());
-            //console.log("Enter")
-            search({ variables: { query: query } })
-        }
-    };*/
-
-    /*const debouncedChangeHandler = useMemo(
-        () => debounce(changeHandler, 800)
-        , []);
-
-    useEffect(() => {
-        return () => {
-            debouncedChangeHandler.cancel();
-        }
-    });*/
 
     if (error)
         console.log(error);
-
 
     return (
         <React.Fragment>
@@ -67,25 +39,28 @@ export default function MyApp() {
                 </Grid>
                 <Grid item xs={1}>
                     <div>Filters:</div>
-                    <Checkbox  defaultChecked />
+                    <Checkbox
+                        checked={filters}
+                        onChange={handleFiltersChange}>
+                    </Checkbox>
                 </Grid>
                 <Grid item xs={1}>
                         <div>Checkboxes:</div>
                         <Checkbox
                             checked={checkboxes}
-                            onChange={handleChange}>
+                            onChange={handleCheckboxesChange}>
                         </Checkbox>
                 </Grid>
                 <Grid item xs={2}>
                     <div>Styled:</div>
                         <Checkbox  defaultChecked />
                 </Grid>
-                <Grid item xs={8}>
+                <Grid item xs={filters ? 8 : 12}>
                     {called && loading ? <Grid item xs={12}><CircularProgress /></Grid> : <ResultView checkboxes={checkboxes} results={data ? data.expressions : []}/>}
                 </Grid>
-                <Grid item xs={4} visibility={false}>
+                {filters ? <Grid item xs={4}>
                     <FilterList results={data ? data.expressions : []}/>
-                </Grid>
+                </Grid> : ""}
             </Grid>
         </React.Fragment>
     );

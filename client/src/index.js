@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -9,6 +8,7 @@ import '@fontsource/roboto/700.css';
 import { ApolloProvider, ApolloClient, } from '@apollo/client';
 //import {FilterContextProvider} from "./FilterContext";
 import {Cache} from "./api/Cache"
+import {BrowserRouter as Router, Routes, Route, Link, useParams} from "react-router-dom";
 
 const client = new ApolloClient({
     //uri: 'http://localhost:8080/graphql',
@@ -19,7 +19,16 @@ const client = new ApolloClient({
 ReactDOM.render(
   <React.StrictMode>
           <ApolloProvider client={client}>
-              <App />
+              <Router>
+                  <Routes>
+                      <Route path="/bibsurf2" element={<App />} >
+                          <Route path=":checked" element={<App />} >
+                              <Route path=":filters" element={<App />} >
+                              </Route>
+                          </Route>
+                      </Route>
+                  </Routes>
+              </Router>
           </ApolloProvider>
   </React.StrictMode>,
   document.getElementById('root')
@@ -28,4 +37,4 @@ ReactDOM.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//reportWebVitals();

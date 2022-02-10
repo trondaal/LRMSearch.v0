@@ -12,7 +12,7 @@ function isEmpty(str) {
 }
 
 export default function Manifestation(props){
-    console.log("Manifestation: " + props.checkboxes);
+    //console.log("Manifestation: " + props.checkboxes);
     const {title, subtitle, numbering, part, responsibility, extent, edition, identifier} = props.manifestation;
     const {distributionplace, distributor, distributiondate, publicationdate, publicationplace, publisher, productionplace, producer, productiondate, manufactureplace, manufacturer, manufacturedate} = props.manifestation;
     const statement = [];

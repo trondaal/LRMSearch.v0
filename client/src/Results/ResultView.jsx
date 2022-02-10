@@ -2,7 +2,7 @@ import Grid from "@mui/material/Grid";
 import ResultList from "./ResultList";
 import FilterList from "../Filters/FilterList"
 import React from "react";
-import Item from '../Item';
+import Item from './Item';
 //import {filtersVar} from "./Cache";
 import {selectedVar} from "../api/Cache";
 
@@ -28,12 +28,12 @@ import {selectedVar} from "../api/Cache";
 
 export default function ResultView(props) {
     //console.log(props.results)
-    console.log(props.checkboxes);
+    //console.log(props.checkboxes);
     return (
          <Item>
                 {selectedVar().size === 0 ? <ResultList results={props.results ? props.results : []} checkboxes={props.checkboxes}/> :
                     <ResultList results={props.results ? props.results.filter(exp => exp.checked) : []} checkboxes={props.checkboxes}/>
                 }
-            </Item>
+         </Item>
     );
 }
