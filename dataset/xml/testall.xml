@@ -1,528 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
     <marc:record>
-        <marc:leader>08294cgm a2200925 4500</marc:leader>
-        <marc:controlfield tag="001">a4623417</marc:controlfield>
-        <marc:controlfield tag="003">SpMaBN</marc:controlfield>
-        <marc:controlfield tag="005">20200813011339.5</marc:controlfield>
-        <marc:controlfield tag="007">vd*cvaizu</marc:controlfield>
-        <marc:controlfield tag="008">091028s2009 no 711 g v nor</marc:controlfield>
-        <marc:datafield tag="028" ind1="4" ind2="0">
-            <marc:subfield code="a">1809831</marc:subfield>
-            <marc:subfield code="b">Nordisk Film</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="035" ind1=" " ind2=" ">
-            <marc:subfield code="a">(OCoLC)740297405</marc:subfield>
+        <marc:leader>00966pam a2200289 a 4500</marc:leader>
+        <marc:controlfield tag="003">IeDuTC</marc:controlfield>
+        <marc:controlfield tag="005">20060511153801.0</marc:controlfield>
+        <marc:controlfield tag="008">050329s2005    enk    e      000 1 eng  </marc:controlfield>
+        <marc:datafield tag="015" ind1=" " ind2=" ">
+            <marc:subfield code="a">GBA548659</marc:subfield>
+            <marc:subfield code="2">bnb</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="040" ind1=" " ind2=" ">
-            <marc:subfield code="a">SpMaBN</marc:subfield>
-            <marc:subfield code="b">spa</marc:subfield>
-            <marc:subfield code="c">SpMaBN</marc:subfield>
-            <marc:subfield code="e">rdc</marc:subfield>
+            <marc:subfield code="a">StDuBDS</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="c">StDuBDS</marc:subfield>
+            <marc:subfield code="d">Uk</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="041" ind1="1" ind2=" ">
-            <marc:subfield code="a">nor</marc:subfield>
+            <marc:subfield code="a">eng</marc:subfield>
         </marc:datafield>
-        <marc:datafield tag="130" ind1="0" ind2=" ">
-            <marc:subfield code="a">Hamsun</marc:subfield>
+        <marc:datafield tag="042" ind1=" " ind2=" ">
+            <marc:subfield code="a">ukblsr</marc:subfield>
         </marc:datafield>
-        <marc:datafield tag="245" ind1="0" ind2="0">
-            <marc:subfield code="a">Hamsun</marc:subfield>
-            <marc:subfield code="h">[Videograbación] :</marc:subfield>
-            <marc:subfield code="b">Samleboks</marc:subfield>
+        <marc:datafield tag="082" ind1="0" ind2="4">
+            <marc:subfield code="a">823.914</marc:subfield>
+            <marc:subfield code="2">22</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Gaiman, Neil</marc:subfield>
+            <marc:subfield code="d">1960-</marc:subfield>
+            <marc:subfield code="4">aut</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/103859257</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10061</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="240" ind1=" " ind2=" ">
+            <marc:subfield code="a">Anansi boys</marc:subfield>
+            <marc:subfield code="1">http://viaf.org/viaf/310504431</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Anansi boys</marc:subfield>
+            <marc:subfield code="c">Neil Gaiman.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
-            <marc:subfield code="a">Oslo</marc:subfield>
-            <marc:subfield code="b">Nordisk Film Distribusjon As</marc:subfield>
-            <marc:subfield code="c">cop. 2009</marc:subfield>
+            <marc:subfield code="a">London :</marc:subfield>
+            <marc:subfield code="b">Review,</marc:subfield>
+            <marc:subfield code="c">2005.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">6 DVD-Vídeo (ca. 711 min)</marc:subfield>
-            <marc:subfield code="b">son., col. y bl. y n.</marc:subfield>
-            <marc:subfield code="e">1 folleto ([8] p. ) + 1 estuche</marc:subfield>
+            <marc:subfield code="a">348 p.</marc:subfield>
+            <marc:subfield code="c">24 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
-            <marc:subfield code="a">two-dimensional moving image</marc:subfield>
-            <marc:subfield code="b">tdi</marc:subfield>
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
             <marc:subfield code="2">rdacontent</marc:subfield>
-            <marc:subfield code="0">http://rdaregistry.info/termList/RDAContentType/1023</marc:subfield>
+            <marc:subfield code="0">http://rdaregistry.info/termList/RDAContentType/1020</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="337" ind1=" " ind2=" ">
-            <marc:subfield code="a">video</marc:subfield>
-            <marc:subfield code="b">v</marc:subfield>
+            <marc:subfield code="a">unmediated</marc:subfield>
+            <marc:subfield code="b">n</marc:subfield>
             <marc:subfield code="2">rdamedia</marc:subfield>
-            <marc:subfield code="0">http://rdaregistry.info/termList/RDAMediaType/1008</marc:subfield>
+            <marc:subfield code="0">http://rdaregistry.info/termList/RDAMediaType/1007</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="338" ind1=" " ind2=" ">
-            <marc:subfield code="a">videodisc</marc:subfield>
-            <marc:subfield code="b">vd</marc:subfield>
+            <marc:subfield code="a">volume</marc:subfield>
+            <marc:subfield code="b">nc</marc:subfield>
             <marc:subfield code="2">rdacarrier</marc:subfield>
-            <marc:subfield code="0">http://rdaregistry.info/termList/RDACarrierType/1060</marc:subfield>
+            <marc:subfield code="0">http://rdaregistry.info/termList/RDACarrierType/1049</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="380" ind1=" " ind2=" ">
-            <marc:subfield code="a">Filmverk</marc:subfield>
-            <marc:subfield code="0">https://schema.nb.no/Bibliographic/Values/V1002</marc:subfield>
+            <marc:subfield code="a">Språkbasert verk</marc:subfield>
+            <marc:subfield code="0">https://schema.nb.no/Bibliographic/Values/V1000</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">"Hamsun" (1996) es una película biográfica realizada en coproducción
-            entre Alemania, Noruega, Suecia y Dinamarca
-       </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">"Markens grøde" (1921) y "Landstrykere" (1990) es dramas
-            realizados en Noruega
-       </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">"Pan" (1995) es un drama realizado en coproducción entre Noruega,
-            Dinamarca y Alemania
-       </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">"Sult" (1966) y "Telegrafisten" (1993) son dramas realizados en
-            coproducción entre Noruega y Dinamarca
-       </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">Cine europeo</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">Incluye la adaptación al cine de 5 obras del premio Nobel Knut Hamsun y la
-            película basada en la biografía del propio autor
-       </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">Incluye un folleto en noruego e inglés realizado por el Norskfilminstitutt como
-            presentación de las películas basadas en la vida y obra de Hamsun con motivo del 150 aniversario de su
-            nacimiento
-       </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="505" ind1="0" ind2=" ">
-            <marc:subfield code="a">DVD 1. Sult / regi, Henning Carlsen ; manuskript, Peter Seeberg og Henning Carlsen ;
-            foto, Henning Kristiansen ; produksjon, Henning Carlsen -- DVD 2. Pan / regi og manuskript, Henning
-            Carlsen ; foto, Henning Kristiansen -- DVD 3. Telegrafisten / regi, Erik Gustavson ; manuskript, Lars
-            Saabye Christensen ; foto, Philip Ogaard -- DVD 4. Markens grøde / regi og manuskript, Gunnar
-            Sommerfeldt ; foto, George Schnéevoigt ; originalmusikk, Leif Halvorsen -- DVD 5. Landstrykere / regi,
-            Ola Solum ; manuskript, Lars Saabye Christensen, Hans Lindgren og Ola Solum ; foto, Harald Paalgard --
-            DVD 6. Hamsun / regi, Jan Troell ; manuskript, Per Olov enquist ; foto, Jan Troell, Mischa Gavrjusjov
-       </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Amund Rydland, Karen Poulsen, Ragna Wettergreen (Markens grøde)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Bjørn Floberg, Marie Richardson, Jarl Kulle (Telegrafisten)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Lasse Kolsrud, Sofie Gråbøl, Bjørn Sundquist (Pan)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Max von Sydow, Ghita Nørby, Anette Hoff (Hamsun)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Per Oscarsson, Gunnel Linblom, Birgitte Federspiel (Sult)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Trond Peter Stamsø Munch, Marika Lagercrantz, Helge Jordal (Landstrykere)
-       </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="546" ind1=" " ind2=" ">
-            <marc:subfield code="a">Todas las películas están en noruego y con subtítulos opcionales en noruego,
-            inglés y francés. Además tienen los siguientes subtítulos opcionales: Sult, ruso y español Pan,
-            ruso Telegrafisten, italiano Markens Grode, ruso, español y danés Landstrykere, ruso Hamsun, ruso
-       </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="650" ind1=" " ind2="7">
-            <marc:subfield code="a">Adaptaciones cinematográficas</marc:subfield>
-            <marc:subfield code="2">embne</marc:subfield>
-        </marc:datafield>
-
-        <!-- DVD 1 SULT -->
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Per Oscarsson, Gunnel Linblom, Birgitte Federspiel (Sult)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="730" ind1=" " ind2="2">
-            <marc:subfield code="a">Sult</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/title/tt0061042</marc:subfield>
-            <marc:subfield code="8">1</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Hamsun, Knut</marc:subfield>
-            <marc:subfield code="d">1859-1952</marc:subfield>
-            <marc:subfield code="i">motion picture adaptation of (work)</marc:subfield>
-            <marc:subfield code="t">Sult</marc:subfield>
-            <marc:subfield code="1">http://viaf.org/viaf/2259161274876847650001</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10129</marc:subfield>
-            <marc:subfield code="8">1</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Carlsen, Henning</marc:subfield>
-            <marc:subfield code="d">1927-2014</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0137830</marc:subfield>
-            <marc:subfield code="4">drt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
-            <marc:subfield code="8">1</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Seeberg, Peter</marc:subfield>
-            <marc:subfield code="d">1925-1999</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0781459</marc:subfield>
-            <marc:subfield code="4">aus</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10203</marc:subfield>
-            <marc:subfield code="8">1</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Kristiansen, Henning</marc:subfield>
-            <marc:subfield code="d">1927-2006</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0471610</marc:subfield>
-            <marc:subfield code="4">pht</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10056</marc:subfield>
-            <marc:subfield code="8">1</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Oscarsson, Per</marc:subfield>
-            <marc:subfield code="d">1927-2011</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0651807</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">1</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Federspiel, Birgitte</marc:subfield>
-            <marc:subfield code="d">1925-2005</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0270147</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">1</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Halvorsen, Leif</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0357165</marc:subfield>
-            <marc:subfield code="4">cmp</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10053</marc:subfield>
-            <marc:subfield code="8">1</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Linblom, Gunnel</marc:subfield>
-            <marc:subfield code="d">1931-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0511458</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">1</marc:subfield>
-        </marc:datafield>
-        
-        <!--DVD 2: PAN -->
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Lasse Kolsrud, Sofie Gråbøl, Bjørn Sundquist (Pan)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="730" ind1=" " ind2="2">
-            <marc:subfield code="a">Pan</marc:subfield>
-            <marc:subfield code="1">https://imdb.com/title/tt0114081/</marc:subfield>
-            <marc:subfield code="8">2</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Hamsun, Knut</marc:subfield>
-            <marc:subfield code="d">1859-1952</marc:subfield>
-            <marc:subfield code="i">motion picture adaptation of (work)</marc:subfield>
-            <marc:subfield code="t">Pan</marc:subfield>
-            <marc:subfield code="1">http://viaf.org/viaf/194765531</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10129</marc:subfield>
-            <marc:subfield code="8">2</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Carlsen, Henning</marc:subfield>
-            <marc:subfield code="d">1927-2014</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0137830</marc:subfield>
-            <marc:subfield code="4">drt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
-            <marc:subfield code="8">2</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Kristiansen, Henning</marc:subfield>
-            <marc:subfield code="d">1927-2006</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0471610</marc:subfield>
-            <marc:subfield code="4">pht</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10056</marc:subfield>
-            <marc:subfield code="8">2</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Gråbøl, Sofie</marc:subfield>
-            <marc:subfield code="d">1968-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0344894</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">2</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Kolsrud, Lasse</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0464389</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">2</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Sundquist, Bjørn</marc:subfield>
-            <marc:subfield code="d">1948-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0839209</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">2</marc:subfield>
-        </marc:datafield>	
-        
-        <!--DVD 3. Telegrafisten / regi, Erik Gustavson ; manuskript, Lars
-        Saabye Christensen ; foto, Philip Ogaard -->
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Bjørn Floberg, Marie Richardson, Jarl Kulle (Telegrafisten)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="730" ind1=" " ind2="2">
-            <marc:subfield code="a">Telegrafisten</marc:subfield>
-            <marc:subfield code="1">http://www.imdb.com/title/tt0108309/</marc:subfield>
-            <marc:subfield code="8">3</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Hamsun, Knut</marc:subfield>
-            <marc:subfield code="d">1859-1952</marc:subfield>
-            <marc:subfield code="i">motion picture adaptation of (work)</marc:subfield>
-            <marc:subfield code="t">Sværmere</marc:subfield>
-            <marc:subfield code="1">http://viaf.org/viaf/995145424555286830372</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10129</marc:subfield>
-            <marc:subfield code="8">3</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Gustavson, Erik</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0003989</marc:subfield>
-            <marc:subfield code="4">drt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
-            <marc:subfield code="8">3</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Øgaard, Philip</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0960270</marc:subfield>
-            <marc:subfield code="4">pht</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10056</marc:subfield>
-            <marc:subfield code="8">3</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Christensen, Lars Saabye</marc:subfield>
-            <marc:subfield code="d">1953-</marc:subfield>
-            <marc:subfield code="1">http://viaf.org/viaf/9979418</marc:subfield>
-            <marc:subfield code="4">aus</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10203</marc:subfield>
-            <marc:subfield code="8">3</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Floberg, Bjørn</marc:subfield>
-            <marc:subfield code="d">1947-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0282463</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">3</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Kulle, Jarl</marc:subfield>
-            <marc:subfield code="d">1927-1997</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0474649</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">3</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Richardson, Marie</marc:subfield>
-            <marc:subfield code="d">1959-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0724688</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">3</marc:subfield>
-        </marc:datafield>
-        
-        
-        <!--DVD 4. Markens grøde / regi og manuskript, Gunnar
-        Sommerfeldt ; foto, George Schnéevoigt ; originalmusikk, Leif Halvorsen -->
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Amund Rydland, Karen Poulsen, Ragna Wettergreen (Markens grøde)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="730" ind1=" " ind2="2">
-            <marc:subfield code="a">Markens Grøde</marc:subfield>
-            <marc:subfield code="1">https://imdb.com/title/tt0011440</marc:subfield>
-            <marc:subfield code="8">4</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Hamsun, Knut</marc:subfield>
-            <marc:subfield code="d">1859-1952</marc:subfield>
-            <marc:subfield code="i">motion picture adaptation of (work)</marc:subfield>
-            <marc:subfield code="t">Markens Grøde</marc:subfield>
-            <marc:subfield code="1">http://viaf.org/viaf/294124367</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10129</marc:subfield>
-            <marc:subfield code="8">4</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Sommerfeldt, Gunnar</marc:subfield>
-            <marc:subfield code="d">1890-1947</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0814027</marc:subfield>
-            <marc:subfield code="4">drt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
-            <marc:subfield code="8">4</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Schnéevoigt, George</marc:subfield>
-            <marc:subfield code="d">1893-1961</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0774256</marc:subfield>
-            <marc:subfield code="4">pht</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10056</marc:subfield>
-            <marc:subfield code="8">4</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Rydland, Amund</marc:subfield>
-            <marc:subfield code="d">1888-1967</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0753185</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">4</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Poulsen, Karen</marc:subfield>
-            <marc:subfield code="d">1881-1953</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0526192</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">4</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Wettergreen, Ragna</marc:subfield>
-            <marc:subfield code="d">1864-1958</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0923198</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">4</marc:subfield>
-        </marc:datafield>	
-        
-        <!--DVD 5. Landstrykere / regi,
-        Ola Solum ; manuskript, Lars Saabye Christensen, Hans Lindgren og Ola Solum ; foto, Harald Paalgard -->
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Trond Peter Stamsø Munch, Marika Lagercrantz, Helge Jordal (Landstrykere)
-            </marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="730" ind1=" " ind2="2">
-            <marc:subfield code="a">Landstrykere</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/title/tt0097709</marc:subfield>
-            <marc:subfield code="8">5</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Hamsun, Knut</marc:subfield>
-            <marc:subfield code="d">1859-1952</marc:subfield>
-            <marc:subfield code="i">motion picture adaptation of (work)</marc:subfield>
-            <marc:subfield code="t">Landstrykere</marc:subfield>
-            <marc:subfield code="1">http://viaf.org/viaf/180078068</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10129</marc:subfield>
-            <marc:subfield code="8">5</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Christensen, Lars Saabye</marc:subfield>
-            <marc:subfield code="d">1953-</marc:subfield>
-            <marc:subfield code="1">http://viaf.org/viaf/9979418</marc:subfield>
-            <marc:subfield code="4">aus</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10203</marc:subfield>
-            <marc:subfield code="8">5</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Lindgren, Hans</marc:subfield>
-            <marc:subfield code="d">1932-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0511826</marc:subfield>
-            <marc:subfield code="4">aus</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10203</marc:subfield>
-            <marc:subfield code="8">5</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Solum, Ola</marc:subfield>
-            <marc:subfield code="d">1943-1996</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0813644</marc:subfield>
-            <marc:subfield code="4">drt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
-            <marc:subfield code="8">5</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Paalgard, Harald Gunnar</marc:subfield>
-            <marc:subfield code="d">1950-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0654953</marc:subfield>
-            <marc:subfield code="4">cng</marc:subfield>
-            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10068</marc:subfield>
-            <marc:subfield code="8">5</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Jordal, Helge</marc:subfield>
-            <marc:subfield code="d">1946-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0429808</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">5</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Lagercrantz, Marika</marc:subfield>
-            <marc:subfield code="d">1954-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0481217</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">5</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Stamsø Munch, Trond Peter</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0821938</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">5</marc:subfield>
-        </marc:datafield>
-
-
-        <!-- DVD 6. Hamsun / regi, Jan Troell ; manuskript, Per Olov enquist ; foto, Jan Troell, Mischa Gavrjusjov -->
-        <marc:datafield tag="511" ind1="1" ind2=" ">
-            <marc:subfield code="a">Max von Sydow, Ghita Nørby, Anette Hoff (Hamsun)</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Enquist, Per Olov</marc:subfield>
-            <marc:subfield code="d">1934-2020</marc:subfield>
-            <marc:subfield code="1">http://viaf.org/viaf/46760618</marc:subfield>
-            <marc:subfield code="4">aus</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10203</marc:subfield>
-            <marc:subfield code="8">6</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Troell, Jan</marc:subfield>
-            <marc:subfield code="d">1931-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0873296</marc:subfield>
-            <marc:subfield code="4">drt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/w/object/P10066</marc:subfield>
-            <marc:subfield code="8">6</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Gavrjusjov, Mischa</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0310672</marc:subfield>
-            <marc:subfield code="4">cng</marc:subfield>
-            <marc:subfield code="4" a="t">http://rdaregistry.info/Elements/w/object/P10068</marc:subfield>
-            <marc:subfield code="8">6</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Sydow, Max von</marc:subfield>
-            <marc:subfield code="d">1929-2020</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0001884</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">6</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Hoff, Anette</marc:subfield>
-            <marc:subfield code="d">1961-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0388700</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">6</marc:subfield>
-        </marc:datafield>
-        <marc:datafield tag="700" ind1="1" ind2=" ">
-            <marc:subfield code="a">Nørby, Ghita</marc:subfield>
-            <marc:subfield code="d">1935-</marc:subfield>
-            <marc:subfield code="1">https://www.imdb.com/name/nm0639152</marc:subfield>
-            <marc:subfield code="4">act</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/e/object/P20012</marc:subfield>
-            <marc:subfield code="8">6</marc:subfield>
+            <marc:subfield code="a">Formerly CIP.</marc:subfield>
+            <marc:subfield code="5">Uk.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">Suspense fiction.</marc:subfield>
+            <marc:subfield code="2">gsafd.</marc:subfield>
         </marc:datafield>
     </marc:record>
 </marc:collection>

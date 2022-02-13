@@ -318,7 +318,7 @@
    </rdac:C10002>
    <rdac:C10006 rdf:about="http://example.org/vindex/lightinvisible/eng/1020">
       <rdaed:P20316>Light invisible</rdaed:P20316>
-      <rdaed:P20312>Light invisible</rdaed:P20312>
+      <rdaed:P20312>Light invisible : the Freemason's answer to darkness visible</rdaed:P20312>
       <rdfs:label>Light invisible / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -326,7 +326,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/116920035/darknessvisible/eng/1020">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
-      <rdaed:P20312>Darkness visible</rdaed:P20312>
+      <rdaed:P20312>Darkness visible : a novel</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -342,7 +342,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/eng/1013/71398096">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
-      <rdaed:P20312>Darkness visible</rdaed:P20312>
+      <rdaed:P20312>Darkness visible : [a memoir of madness]</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / spoken word</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -351,7 +351,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/eng/1020">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
-      <rdaed:P20312>Darkness visible</rdaed:P20312>
+      <rdaed:P20312>Darkness visible : a memoir of madness</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -359,7 +359,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/nor/1020/226311641">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
-      <rdaed:P20312>Synlig mørke</rdaed:P20312>
+      <rdaed:P20312>Synlig mørke : erindringer om en depresjon</rdaed:P20312>
       <rdfs:label>Synlig mørke / nor / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
@@ -368,7 +368,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/17209922/darknessnowvisible/eng/1020">
       <rdaed:P20316>Darkness visible : patriarchy's resurgence and feminist resistance</rdaed:P20316>
-      <rdaed:P20312>Darkness now visible</rdaed:P20312>
+      <rdaed:P20312>Darkness now visible : patriarchy's resurgence and feminist resistance</rdaed:P20312>
       <rdfs:label>Darkness now visible / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -384,7 +384,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/24751188/darknessvisible/eng/1014">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
-      <rdaed:P20312>Darkness visible : the prints of John Martin</rdaed:P20312>
+      <rdaed:P20312>Darkness visible : the prints of John Martin : the prints of John Martin</rdaed:P20312>
       <rdfs:label>Darkness visible : the prints of John Martin / eng / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -438,7 +438,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/4136156991013061180007/eng/1020">
       <rdaed:P20316>Turning the Hiram Key</rdaed:P20316>
-      <rdaed:P20312>Turning the Hiram Key</rdaed:P20312>
+      <rdaed:P20312>Turning the Hiram Key : making the darkness visible</rdaed:P20312>
       <rdfs:label>Turning the Hiram Key / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -446,8 +446,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/49383417/darknessvisible/eng/1014/1020">
       <rdaed:P20316>Darkness visible : inside the world of Philip Pullman</rdaed:P20316>
-      <rdaed:P20312>Darkness visible</rdaed:P20312>
+      <rdaed:P20312>Darkness visible : inside the world of Philip Pullman</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text / still image</rdfs:label>
+      <rdaed:P20312>Darkness visible : Philip Pullman and his Dark Materials</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / still image / text</rdfs:label>
       <rdfs:label>Darkness visible / eng / still image / text / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -465,7 +466,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/66588563/darknessvisible/eng/1020">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
-      <rdaed:P20312>Darkness visible</rdaed:P20312>
+      <rdaed:P20312>Darkness visible : a Lambert and Hook mystery</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -473,14 +474,14 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/85313314/darknessvisible/1010">
       <rdaed:P20316>Darknesse visible</rdaed:P20316>
-      <rdaed:P20312>Darknesse visible</rdaed:P20312>
+      <rdaed:P20312>Darknesse visible : for solo piano : after John Dowland : (1992)</rdaed:P20312>
       <rdfs:label>Darknesse visible / notated music</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1010"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/85313314/darknessvisible"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/94303910/darknessvisible/eng/1020">
       <rdaed:P20316>Darkness visible : a study of Vergil's Aeneid</rdaed:P20316>
-      <rdaed:P20312>Darkness visible</rdaed:P20312>
+      <rdaed:P20312>Darkness visible : a study of Vergil's Aeneid</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -488,8 +489,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q5223706/eng/1020">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
-      <rdaed:P20312>Darkness visible</rdaed:P20312>
+      <rdaed:P20312>Darkness visible : a Christian appraisal of freemasonry</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
+      <rdaed:P20312>Darkness visible : a revelation and interpretation of Freemasonry</rdaed:P20312>
+      <rdaed:P20312>Darkness visible : a Christian appraisal of Fremasonry</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q5223706"/>

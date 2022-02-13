@@ -263,11 +263,11 @@
             <datafield tag="740" condition="frbrizer:linked($anchor_field, ., true())">
                 <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20315" label="titlepreferred"/>
             </datafield>
-            <datafield tag="740" condition="frbrizer:linked($anchor_field, ., false())">
-                <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20316" label="varianttitle"/>
-            </datafield>
+            <!--<datafield tag="740" condition="frbrizer:linked($anchor_field, ., false())">
+                <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20316" label="varianttitle"/>'
+            </datafield>-->
             <datafield tag="245">
-                <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="frbrizer:trim(.)" label="has title"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/e/datatype/P20312" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code='b'])), ' : ')" label="has title"/>
                 <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="string-join((frbrizer:trim(.), $record/*:datafield[@tag='041']/*:subfield[@code=('a', 'd')][1], $record/*:datafield[@tag='336']/*:subfield[@code='a'][1]), ' / ')" label="rdf label"/>
             </datafield>
             <!--<datafield tag="336" condition="frbrizer:linked($anchor_field, .)">
@@ -390,7 +390,7 @@
             </datafield>
         </attributes>
         <key order="2">
-            <element>if ((*:datafield[@tag=('020','022','024')][1]/*:subfield[@type = 'http://rdaregistry.info/Elements/x/datatype/P00018'])[1]) then (*:datafield[@tag=('020','022','024')][1]/*:subfield[@type='http://rdaregistry.info/Elements/x/datatype/P00018'])[1]/replace(., '\(.*\)', '') else if (*:controlfield[@tag=('001', '003')]) then *:controlfield[@tag=('001', '003')][1] else generate-id(.)</element>
+            <element>if ((*:datafield[@tag=('020','022','024')][1]/*:subfield[@type = 'http://rdaregistry.info/Elements/x/datatype/P00018'])[1]) then (*:datafield[@tag=('020','022','024')][1]/*:subfield[@type='http://rdaregistry.info/Elements/x/datatype/P00018'])[1]/replace(., '\(.*\)', '') else if (*:controlfield[@tag=('001')]) then *:controlfield[@tag=('001')][1] else replace(*:datafield[@tag='245']/*:subfield[@code='a'],  '[^a-zA-Z0-9 -]', '' ) || '-' || generate-id(.)</element>
         </key>
         <relationships>
             <!--<relationship type="http://rdaregistry.info/Elements/m/object/P30020" itype="http://rdaregistry.info/Elements/m/object/P30033" label="is contained in (manifestation)" ilabel="is container for (manifestation)">
@@ -648,9 +648,9 @@
             <datafield tag="740" condition="frbrizer:linked($anchor_field, ., true())">
                 <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20315" label="titlepreferred"/>
             </datafield>
-            <datafield tag="740" condition="frbrizer:linked($anchor_field, ., false())">
+            <!--<datafield tag="740" condition="frbrizer:linked($anchor_field, ., false())">
                 <subfield code="a" select="frbrizer:trim(.)" type="http://rdaregistry.info/Elements/e/datatype/P20316" label="varianttitle"/>
-            </datafield>
+            </datafield>-->
         </attributes>
         <key order="2">
             <element>(frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1]</element>
@@ -772,7 +772,7 @@
         <xsl:function name="frbrizer:trim" as="xs:string*">
             <xsl:param name="value" as="element()*"/>
             <xsl:for-each select="$value">
-                <xsl:value-of select="replace(., '[ \.,/:]+$', '')"/>
+                <xsl:value-of select="replace(., '[ \.,/:=]+$', '')"/>
             </xsl:for-each>
         </xsl:function>
         

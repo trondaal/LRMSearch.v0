@@ -5059,17 +5059,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/14887593"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Agent"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/306153381"
         },
         "label" : {
@@ -6126,6 +6115,28 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/56807852"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/49344224"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/115199438"
         },
         "label" : {
@@ -7007,17 +7018,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/57886851"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Agent"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -12430,17 +12430,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/24811606"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Agent"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/249934890"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -17930,17 +17919,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.example.org/1234"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Agent"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/12345622"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -30601,6 +30579,105 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/110010491"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/109785773"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/22149445"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/67710701"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/111096798"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/108983174"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/12307238"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/76149066350165600474"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/9850718"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Agent"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://example.org/drwrangelkom/ger/1020/wegesack"
         },
         "label" : {
@@ -34517,17 +34594,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://eksempel.com/miraclemanthegoldenage/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://eksempel.no/the_josh_kirby_poster_book/eng/1020"
         },
         "label" : {
@@ -35969,17 +36035,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/3033160310483158300003/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/306062885/eng/1020"
         },
         "label" : {
@@ -36322,17 +36377,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/309461036/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309547398/eng/1002/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -36982,17 +37026,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/6471161453868364330000/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/6481154923713263780009/eng/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -37807,17 +37840,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/40466034/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/463409352/eng/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -40908,17 +40930,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159227/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159228/eng/1020"
         },
         "label" : {
@@ -42338,17 +42349,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/187061730/eng/1013"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/187562820/eng/1014/1020"
         },
         "label" : {
@@ -43064,17 +43064,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309294914/eng/1013"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/309313050/eng/1020"
         },
         "label" : {
@@ -43130,17 +43119,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309386434/eng/1014"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/309409356/eng/1020"
         },
         "label" : {
@@ -43175,28 +43153,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/309461036/eng/1013/51373936/7990160668120603560009"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/eng/1013"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/eng/1020/95218067"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -43999,17 +43955,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/8757548209325100460002/eng/1010"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/8764161098984329640009/eng/1014/1020"
         },
         "label" : {
@@ -44055,17 +44000,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/9576159478109327990003/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/9702154387438030970006/eng/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -44626,215 +44560,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.example.org/50/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/51/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/52/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/53/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/54/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/55/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/56/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/57/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/58/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/59/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/60/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/61/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/62/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/63/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/64/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/65/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/66/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/67/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/68/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.example.org/9/eng/1020"
         },
         "label" : {
@@ -44890,17 +44615,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.example.org/thecreaturesofnarnia/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.example.org/williamsrowan/thelionsworld/eng/1020"
         },
         "label" : {
@@ -44935,17 +44649,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.goodreads.com/work/editions/37278/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q15272117/mul/1010"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -45022,17 +44725,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1075800598/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/1076666630/eng/1020"
         },
         "label" : {
@@ -45045,28 +44737,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/1108513792/eng/1013"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1113400313/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1118498694/eng/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -45111,17 +44781,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/1152813327/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1157467302/eng/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -45209,17 +44868,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/297224053/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/30026810/eng/1020"
         },
         "label" : {
@@ -45232,17 +44880,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/35216868/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/425051537/eng/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -45309,17 +44946,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/51055643/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/5452022/eng/1013"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -45616,127 +45242,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "https://example.org/escaping-into-ourselves/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/fairy-tales/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/fantasy/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/one-world/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/sometimes-fairy-stories-may-say-best-whats-to-be-said/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/tempest-in-a-looking-glass/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/the-fantastic-story/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/the-wizard-of-chitenango/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/to-wh-auden/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/tolkiens-magic-ring/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/wishful-thinking-or-hopeful-dreaming/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "https://katalogplus.sub.uni-hamburg.de/vufind/Record/561168563/swe/1020"
         },
         "label" : {
@@ -45891,28 +45396,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "https://www.librarything.com/work/1157147/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.librarything.com/work/2266195/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "https://www.librarything.com/work/2415102/eng/1020"
         },
         "label" : {
@@ -45936,17 +45419,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "https://www.librarything.com/work/350402/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.librarything.com/work/5253516/eng/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -48586,6 +48058,17 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/1777145424634486831078/nor/1013/227229707"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/1777145424634486831078/nor/1020"
         },
         "label" : {
@@ -50258,17 +49741,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/nor/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/309569545/nor/1020/275235490/40920814"
         },
         "label" : {
@@ -51204,17 +50676,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/7511161763137222560009/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/7519152865711404940007/nor/1020/222277111"
         },
         "label" : {
@@ -51436,17 +50897,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/9466149068473065730001/nor/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/9702154387438030970006/nor/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -52469,6 +51919,17 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/178224870/nor/1013/27122071/305854922"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/1784145424638186831073/nor/1020/17327709/4946136/563144782720372736990"
         },
         "label" : {
@@ -52789,17 +52250,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/309313050/nor/1013/169576661/223593792"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/nor/1013/12345622/224621493/249934890"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -69497,17 +68947,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1545145424668486830463/nor/1013/70792224"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/176578932/nor/1013/186207064/226306913"
         },
         "label" : {
@@ -69520,17 +68959,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/176578932/nor/1020/186207064"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/1777145424634486831078/nor/1013"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -69575,17 +69003,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/184093601/nno/1020/267471594"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/186301504/nor/1013/65245833"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -69695,29 +69112,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/275497244/nor/1013/65245833"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/275497244/nor/1020/65245833"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/306062885/nor/1013/65245833"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -69751,39 +69146,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/309569545/dan/1020/47059613"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/nor/1013/275235490/40920814"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/nor/1013/40920814"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/312339051/nor/1013/305854922"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -69894,17 +69256,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/7310159477673227990001/nor/1014/74145970284032252074"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/7656150869812122190007/nor/1013/65245833"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -70081,17 +69432,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "https://www.imdb.com/title/tt0077965/eng/spa/1023"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.imdb.com/title/tt0097709/nor/1023"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -70532,50 +69872,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/310245605/eng/1013/39518907"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.imdb.com/title/tt0108309/nor/1023"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://imdb.com/title/tt0011440/nor/1023"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://imdb.com/title/tt0114081/nor/1023"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.imdb.com/title/tt0061042/nor/1023"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -71521,6 +70817,17 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/91236070/lifeanddeathonthenile/eng/1002/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/12155103895976200651/eng/1020"
         },
         "label" : {
@@ -71830,6 +71137,237 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/1421145424662786830168/nor/1020/226311641"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309386434/eng/1002"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/6481154923713263780009/eng/1014"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/7511161763137222560009/eng/1002/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/5452022/eng/1011"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/187061730/eng/1013/108159131"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309294914/eng/1013/9850718"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/eng/1013/95218067"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/eng/1013/1020/95218067"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://eksempel.com/miraclemanthegoldenage/eng/1014"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/1545145424668486830463/nor/1013/226306913/70792224"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/3033160310483158300003/eng/1014"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309547398/eng/1002/1014"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/9388159248476104870007/eng/1014"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/9702154387438030970006/eng/1014"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://www.example.org/thecreaturesofnarnia/eng/1014"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q15272117/eng/1010"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/463409352/eng/1014"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "https://lccn.loc.gov/2019285883/eng/1014"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/19869016/beyondtheforest/eng/1010"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/19869016/feastofstarlight/eng/1010"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/19869016/taurielandkili/eng/1010"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -76548,17 +76086,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/186704793"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/1868153954866905680001"
         },
         "label" : {
@@ -77011,17 +76538,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/211279287"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/2123157342838410100006"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -81564,17 +81080,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/8757548209325100460002"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/8764161098984329640009"
         },
         "label" : {
@@ -83313,205 +82818,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.example.org/48"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.example.org/49"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/50"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/51"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/52"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/53"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/54"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/55"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/56"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/57"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/58"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/59"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/60"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/61"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/62"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/63"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/64"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/65"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/66"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -83534,28 +82841,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.example.org/987654"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/67"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/68"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -83709,17 +82994,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/644247748"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.isfdb.org/cgi-bin/title.cgi?119105"
         },
         "label" : {
@@ -83809,17 +83083,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159225"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159227"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -84171,17 +83434,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1075800598"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/1076666630"
         },
         "label" : {
@@ -84215,29 +83467,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1113400313"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/1118309463"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1118498694"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -84337,17 +83567,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/1152813327"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1157467302"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -84600,17 +83819,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/297224053"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/30026810"
         },
         "label" : {
@@ -84645,17 +83853,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/40466034"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/425051537"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -85370,127 +84567,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "https://example.org/escaping-into-ourselves"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/fairy-tales"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/fantasy"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/one-world"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/sometimes-fairy-stories-may-say-best-whats-to-be-said"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/tempest-in-a-looking-glass"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/the-fantastic-story"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/the-wizard-of-chitenango"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/to-wh-auden"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/tolkiens-magic-ring"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/wishful-thinking-or-hopeful-dreaming"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "https://exemple.org/traet"
         },
         "label" : {
@@ -85832,17 +84908,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "https://www.librarything.com/work/1157147"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "https://www.librarything.com/work/140814"
         },
         "label" : {
@@ -85855,17 +84920,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "https://www.librarything.com/work/17701952"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.librarything.com/work/2266195"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -85899,17 +84953,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "https://www.librarything.com/work/350402"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://www.librarything.com/work/5253516"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -94929,17 +93972,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "https://imdb.com/title/tt0011440"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://exemple.org/firesangeop2"
         },
         "label" : {
@@ -95260,28 +94292,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://openlibrary.org/works/OL9226442W"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.imdb.com/title/tt0108309"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://imdb.com/title/tt0114081"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -95766,6 +94776,39 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/310714691"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Work"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/19869016/beyondtheforest"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Work"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/19869016/feastofstarlight"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Work"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/19869016/taurielandkili"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -97647,17 +96690,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/021874262"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/02905767"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -99780,17 +98812,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/990212181704702202"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://example.org/990212302504702202"
         },
         "label" : {
@@ -100782,17 +99803,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/990511135034702202"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/990513562284702202"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -102641,17 +101651,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/EDZ0001251043"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/IeDuTC"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -111627,29 +110626,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/isbn-8210043005"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://example.org/isbn-8210043099"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8210044044"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -118745,17 +117722,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/isbn-9788210051197"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9788210051500"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -171918,72 +170884,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/d11858e80"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/d6874e55"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/d6881e40"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/d6888e52"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/d6902e52"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/d6986e42"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://example.org/isbn-8205253331-1"
         },
         "label" : {
@@ -173921,6 +172821,237 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/isbn-8203166857"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/02905767-11"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/02905767-12"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/02905767-3"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/02905767-5"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/JRRTolkien-d6853e55"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/MagnusChase-d6860e40"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/PercyJacksonandtheBattleoftheLabyrinth-d6867e52"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/PercyJacksonandtheTitanscurse-d7070e52"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/PercyJacksonandtheseaofmonsters-d7000e52"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/TheSilmarillion-d7028e62"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/Theburningmaze-d6881e52"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/Thehobbit-d6923e54"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/Thelightningthief-d6951e52"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/Thelordoftherings-d6965e42"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/Thereturnoftheking-d6993e55"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/Thetwotowers-d7084e55"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/Tolkien-d7098e55"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/Ringenesherre-d11795e65"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/TheArtsofFalconrieandHawking-d12705e62"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/ThecaseofRobertRobertson-d14497e63"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Manifestation"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/Thefellowshipofthering-d6902e58"
         },
         "label" : {
           "xml:lang" : "gden",

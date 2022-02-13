@@ -116,15 +116,15 @@ set e.names = e.names + " ; " + a.name;
 MATCH (e:Expression)
 set e.titles = "";
 MATCH (e:Expression)-[:REALIZES]-(w:Work)
-set e.titles = e.titles + " ; " + w.title;
+set e.titles = e.titles + " ; " + w.title + " (W)";
 MATCH (e:Expression)-[:EMBODIES]-(m:Manifestation)
-set e.titles = e.titles + " ; " + m.title;
+set e.titles = e.titles + " ; " + m.title + " (M";
 MATCH (e:Expression)-[:REALIZES]-(:Work)-[:SUBJECT]-(w:Work)
-set e.titles = e.titles + " ; " + w.title;
+set e.titles = e.titles + " ; " + w.title + " (S)";
 MATCH (e:Expression)-[:REALIZES]-(:Work)-[:RELATED]->(w:Work)
-set e.titles = e.titles + " ; " + w.title;
+set e.titles = e.titles + " ; " + w.title + " (R)";
 MATCH (e:Expression)-[:REALIZES]-(:Work)-[:PARTOF]-(w:Work)
-set e.titles = e.titles + " ; " + w.title;
+set e.titles = e.titles + " ; " + w.title + " (P)";
 
 
 

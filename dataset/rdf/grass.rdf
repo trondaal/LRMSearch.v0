@@ -2931,7 +2931,7 @@
    </rdac:C10002>
    <rdac:C10006 rdf:about="http://example.org/adventuresofaflounder/eng/1020">
       <rdaed:P20316>Adventures of a flounder</rdaed:P20316>
-      <rdaed:P20312>Adventures of a flounder</rdaed:P20312>
+      <rdaed:P20312>Adventures of a flounder : critical essays on Günter Grass' 'Der Butt'</rdaed:P20312>
       <rdfs:label>Adventures of a flounder / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -2939,7 +2939,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/arkerdieter/nichtsistvorbeialleskommtwieder/ger/1020">
       <rdaed:P20316>Nichts ist vorbei, alles kommt wieder</rdaed:P20316>
-      <rdaed:P20312>Nichts ist vorbei, alles kommt wieder</rdaed:P20312>
+      <rdaed:P20312>Nichts ist vorbei, alles kommt wieder : Untersuchungen zu Günter Grass' ''Blechtrommel''</rdaed:P20312>
       <rdfs:label>Nichts ist vorbei, alles kommt wieder / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -2955,7 +2955,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/artingerkai/hubertusgiebegrafikenzudemromandieblechtrommelvonguntergrass/ger/1014">
       <rdaed:P20316>Hubertus Giebe - Grafiken zu dem Roman "Die Blechtrommel" von Günter Grass</rdaed:P20316>
-      <rdaed:P20312>Hubertus Giebe - Grafiken zu dem Roman "Die Blechtrommel" von Günter Grass</rdaed:P20312>
+      <rdaed:P20312>Hubertus Giebe - Grafiken zu dem Roman "Die Blechtrommel" von Günter Grass : Günter-Grass-Haus, Forum für Literatur und Bildende Kunst, Lübeck 9. April bis 26. Juni 2005 ; [aus Anlaß der Ausstelllung "Hubertus Giebe, Grafiken zur "Blechtrommel" von Günter Grass"]</rdaed:P20312>
       <rdfs:label>Hubertus Giebe - Grafiken zu dem Roman "Die Blechtrommel" von Günter Grass / ger / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -2963,7 +2963,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/auffenbergchristian/vomerzahlendeserzahlensbeiguntergrass/ger/1020">
       <rdaed:P20316>Vom Erzählen des Erzählens bei Günter Grass</rdaed:P20316>
-      <rdaed:P20312>Vom Erzählen des Erzählens bei Günter Grass</rdaed:P20312>
+      <rdaed:P20312>Vom Erzählen des Erzählens bei Günter Grass : Studien zur immanenten Poetik der Romane "Die Blechtrommel" und "Die Rättin"</rdaed:P20312>
       <rdfs:label>Vom Erzählen des Erzählens bei Günter Grass / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -2971,7 +2971,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/beltzbettina/fortsetzungfolgt/ger/1020">
       <rdaed:P20316>«Fortsetzung folgt...»</rdaed:P20316>
-      <rdaed:P20312>«Fortsetzung folgt...»</rdaed:P20312>
+      <rdaed:P20312>«Fortsetzung folgt...» : Zum intertextuellen Trialog zwischen Günter Grass, Salman Rushdie, John Irving und ihrem Ahnherrn Laurence Sterne</rdaed:P20312>
       <rdfs:label>«Fortsetzung folgt...» / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -2987,7 +2987,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/beutinwolfgang/derfallgrass/ger/1020">
       <rdaed:P20316>Der Fall Grass</rdaed:P20316>
-      <rdaed:P20312>Der Fall Grass</rdaed:P20312>
+      <rdaed:P20312>Der Fall Grass : ein deutsches Debakel</rdaed:P20312>
       <rdfs:label>Der Fall Grass / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -2995,7 +2995,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/blummmirjam/modellfallautorenworterbuch/ger/1020">
       <rdaed:P20316>Modellfall Autorenwörterbuch</rdaed:P20316>
-      <rdaed:P20312>Modellfall Autorenwörterbuch</rdaed:P20312>
+      <rdaed:P20312>Modellfall Autorenwörterbuch : die Nomina in Günter Grass' Erzählung Unkenrufe</rdaed:P20312>
       <rdfs:label>Modellfall Autorenwörterbuch / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3003,7 +3003,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/bradyphilip/guntergrasssderbutt/eng/1020">
       <rdaed:P20316>Günter Grass's Der Butt</rdaed:P20316>
-      <rdaed:P20312>Günter Grass's Der Butt</rdaed:P20312>
+      <rdaed:P20312>Günter Grass's Der Butt : sexual politics and the male myth of history</rdaed:P20312>
       <rdfs:label>Günter Grass's Der Butt / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -3011,7 +3011,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/brunkhorsthasencleverannegrit/guntergrassdieblechtrommelkatzundmaus/ger/1020">
       <rdaed:P20316>Günter Grass, Die Blechtrommel, Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Günter Grass, Die Blechtrommel, Katz und Maus</rdaed:P20312>
+      <rdaed:P20312>Günter Grass, Die Blechtrommel, Katz und Maus : Materialien</rdaed:P20312>
       <rdfs:label>Günter Grass, Die Blechtrommel, Katz und Maus / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3027,7 +3027,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/chongjinsok/offenheitundhermetik/ger/1020">
       <rdaed:P20316>Offenheit und Hermetik</rdaed:P20316>
-      <rdaed:P20312>Offenheit und Hermetik</rdaed:P20312>
+      <rdaed:P20312>Offenheit und Hermetik : zur Möglichkeit des Schreibens nach Auschwitz: ein Vergleich zwischen Günther Grass' Lyrik, der Blechtrommel und dem Spätwerk Paul Celans</rdaed:P20312>
       <rdfs:label>Offenheit und Hermetik / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3035,7 +3035,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/cosgrovemary/bornunderauschwitz/eng/1020">
       <rdaed:P20316>Born under Auschwitz</rdaed:P20316>
-      <rdaed:P20312>Born under Auschwitz</rdaed:P20312>
+      <rdaed:P20312>Born under Auschwitz : melancholy traditions in postwar German literature</rdaed:P20312>
       <rdfs:label>Born under Auschwitz / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -3043,7 +3043,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/craciunioana/historischedichtergestaltenimzeitgenossischendeutschendrama/ger/1020">
       <rdaed:P20316>Historische Dichtergestalten im zeitgenössischen deutschen Drama</rdaed:P20316>
-      <rdaed:P20312>Historische Dichtergestalten im zeitgenössischen deutschen Drama</rdaed:P20312>
+      <rdaed:P20312>Historische Dichtergestalten im zeitgenössischen deutschen Drama : Untersuchungen zu Theaterstücken von Tankred Dorst, Günter Grass, Martin Walser und Peter Weiss</rdaed:P20312>
       <rdfs:label>Historische Dichtergestalten im zeitgenössischen deutschen Drama / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3051,7 +3051,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/davidsonanika/advocataaesthetica/ger/1020">
       <rdaed:P20316>Advocata aesthetica</rdaed:P20316>
-      <rdaed:P20312>Advocata aesthetica</rdaed:P20312>
+      <rdaed:P20312>Advocata aesthetica : Studien zum Marienmotiv in der modernen Literatur am Beispiel von Rainer Maria Rilke und Günter Grass</rdaed:P20312>
       <rdfs:label>Advocata aesthetica / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3067,7 +3067,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/deteringheinrich/wasgesagtwurde/ger/1020">
       <rdaed:P20316>Was gesagt wurde</rdaed:P20316>
-      <rdaed:P20312>Was gesagt wurde</rdaed:P20312>
+      <rdaed:P20312>Was gesagt wurde : eine Dokumentation über Günter Grass' "Was gesagt werden muss" und die deutsche Debatte</rdaed:P20312>
       <rdfs:label>Was gesagt wurde / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3091,7 +3091,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/fischerandre/inszeniertenaivitat/ger/1020">
       <rdaed:P20316>Inszenierte Naivität</rdaed:P20316>
-      <rdaed:P20312>Inszenierte Naivität</rdaed:P20312>
+      <rdaed:P20312>Inszenierte Naivität : zur ästhetischen Simulation von Geschichte bei Günter Grass, Albert Drach und Walter Kempowski</rdaed:P20312>
       <rdfs:label>Inszenierte Naivität / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3099,7 +3099,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/flugelarnd/mitworterndasendeaufschieben/ger/1020">
       <rdaed:P20316>"Mit Wörtern das Ende aufschieben"</rdaed:P20316>
-      <rdaed:P20312>"Mit Wörtern das Ende aufschieben"</rdaed:P20312>
+      <rdaed:P20312>"Mit Wörtern das Ende aufschieben" : Konzeptualisierung von Erfahrung in der "Rättin" von Günter Grass</rdaed:P20312>
       <rdfs:label>"Mit Wörtern das Ende aufschieben" / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3115,7 +3115,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/gardebarbara/selbstwenndieweltuntergingewurdendeineweibergeschichtennichtaufhoren/ger/1020">
       <rdaed:P20316>"Selbst wenn die Welt unterginge, würden deine Weibergeschichten nicht aufhören"</rdaed:P20316>
-      <rdaed:P20312>"Selbst wenn die Welt unterginge, würden deine Weibergeschichten nicht aufhören"</rdaed:P20312>
+      <rdaed:P20312>"Selbst wenn die Welt unterginge, würden deine Weibergeschichten nicht aufhören" : zwischen "Butt" u. "Rättin" - Frauen u. Frauenbewegung bei Günter Grass</rdaed:P20312>
       <rdfs:label>"Selbst wenn die Welt unterginge, würden deine Weibergeschichten nicht aufhören" / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3123,7 +3123,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/geschejanina/auszweierleiperspektiven/ger/1020">
       <rdaed:P20316>Aus zweierlei Perspektiven</rdaed:P20316>
-      <rdaed:P20312>Aus zweierlei Perspektiven</rdaed:P20312>
+      <rdaed:P20312>Aus zweierlei Perspektiven : zur Rezeption der Danziger Trilogie von Günter Grass in Polen und Schweden in den Jahren 1958 - 1990</rdaed:P20312>
       <rdfs:label>Aus zweierlei Perspektiven / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3139,7 +3139,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/gorznywilli/diegrassdebatte/ger/1020">
       <rdaed:P20316>Die Grass-Debatte</rdaed:P20316>
-      <rdaed:P20312>Die Grass-Debatte</rdaed:P20312>
+      <rdaed:P20312>Die Grass-Debatte : Berichte, Stellungnahmen, Kommentare, Interviews, Rezensionen, Leserbriefe ; Bibliographie und Pressespiegel (12.8. - 31.8.2006)</rdaed:P20312>
       <rdfs:label>Die Grass-Debatte / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3147,7 +3147,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/griesbritta/diegrassdebatte/ger/1020">
       <rdaed:P20316>Die Grass-Debatte</rdaed:P20316>
-      <rdaed:P20312>Die Grass-Debatte</rdaed:P20312>
+      <rdaed:P20312>Die Grass-Debatte : die NS-Vergangenheit in der Wahrnehmung von drei Generationen</rdaed:P20312>
       <rdfs:label>Die Grass-Debatte / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3157,7 +3157,6 @@
       <rdaed:P20006>spa</rdaed:P20006>
       <rdaed:P20312>Die Landstörzerin Courasche</rdaed:P20312>
       <rdfs:label>Die Landstörzerin Courasche / spa / text</rdfs:label>
-      <rdaed:P20316>Encuentro en Telgte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/estebanjosmanuel"/>
@@ -3174,7 +3173,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/haasemichael/einefragederaufklarung/ger/1020">
       <rdaed:P20316>Eine Frage der Aufklärung</rdaed:P20316>
-      <rdaed:P20312>Eine Frage der Aufklärung</rdaed:P20312>
+      <rdaed:P20312>Eine Frage der Aufklärung : Literatur und Staatssicherheit in Romanen von Fritz Rudolf Fries, Günter Grass und Wolfgang Hilbig</rdaed:P20312>
       <rdfs:label>Eine Frage der Aufklärung / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3182,7 +3181,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/hallkatharina/guntergrasssdanzigquintet/eng/1020">
       <rdaed:P20316>Günter Grass's "Danzig-Quintet"</rdaed:P20316>
-      <rdaed:P20312>Günter Grass's "Danzig-Quintet"</rdaed:P20312>
+      <rdaed:P20312>Günter Grass's "Danzig-Quintet" : explorations in the memory and history of the Nazi era from "Die Blechtrommel" to "Im Krebsgang"</rdaed:P20312>
       <rdfs:label>Günter Grass's "Danzig-Quintet" / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -3190,7 +3189,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/hasselbachingrid/guntergrasskatzundmaus/ger/1020">
       <rdaed:P20316>Günter Grass, Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Günter Grass, Katz und Maus</rdaed:P20312>
+      <rdaed:P20312>Günter Grass, Katz und Maus : Interpretation</rdaed:P20312>
       <rdfs:label>Günter Grass, Katz und Maus / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3198,7 +3197,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/heilmanniris/guntergrassundjohnirving/ger/1020">
       <rdaed:P20316>Günter Grass und John Irving</rdaed:P20316>
-      <rdaed:P20312>Günter Grass und John Irving</rdaed:P20312>
+      <rdaed:P20312>Günter Grass und John Irving : eine transatlantische Intertextualitätsstudie</rdaed:P20312>
       <rdfs:label>Günter Grass und John Irving / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3206,15 +3205,16 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/hernndezmedinajuanjos/delapalabraimpresaalmedioaudiovisual/spa/1020">
       <rdaed:P20316>De la palabra impresa al medio audiovisual</rdaed:P20316>
-      <rdaed:P20312>De la palabra impresa al medio audiovisual</rdaed:P20312>
+      <rdaed:P20312>De la palabra impresa al medio audiovisual : "Die Blechtrommel" de Günter Grass y la adaptación cinematográfica de Volker Schlöndorff : memoria para optar al grado de doctor</rdaed:P20312>
       <rdfs:label>De la palabra impresa al medio audiovisual / spa / text</rdfs:label>
+      <rdaed:P20312>De la palabra impresa al medio audiovisual : "Die Blechtrommel" de Günter Grass y la adaptación cinematográfica de Volker Schlöndorff</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://example.org/hernndezmedinajuanjos/delapalabraimpresaalmedioaudiovisual"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/hernndezmedinajuanjos/dieblechtrommeldevolkerschlndorffylahomnimanoveladegntergrass/spa/1020">
       <rdaed:P20316>"Die Blechtrommel" de Volker Schlöndorff y la homónima novela de Günter Grass</rdaed:P20316>
-      <rdaed:P20312>"Die Blechtrommel" de Volker Schlöndorff y la homónima novela de Günter Grass</rdaed:P20312>
+      <rdaed:P20312>"Die Blechtrommel" de Volker Schlöndorff y la homónima novela de Günter Grass : un análisis comparativo e interdisciplinar entre ambos discursos, literario y fílmico</rdaed:P20312>
       <rdfs:label>"Die Blechtrommel" de Volker Schlöndorff y la homónima novela de Günter Grass / spa / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -3238,7 +3238,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/jahnkewalter/guntergrassdieblechtrommel/ger/1020">
       <rdaed:P20316>Günter Grass: Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Günter Grass: Die Blechtrommel</rdaed:P20312>
+      <rdaed:P20312>Günter Grass: Die Blechtrommel : acht Kapitel zur Erschliessung des Romans</rdaed:P20312>
       <rdfs:label>Günter Grass: Die Blechtrommel / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3246,7 +3246,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/kassemamr/literarischekommunikationundmoderneserzahlen/ger/1020">
       <rdaed:P20316>Literarische Kommunikation und modernes Erzählen</rdaed:P20316>
-      <rdaed:P20312>Literarische Kommunikation und modernes Erzählen</rdaed:P20312>
+      <rdaed:P20312>Literarische Kommunikation und modernes Erzählen : eine textorientierte Interpretation am Beispiel von Günter Grass' Roman "Ein weites Feld“</rdaed:P20312>
       <rdfs:label>Literarische Kommunikation und modernes Erzählen / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3254,7 +3254,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/kimnuri/allegorieoderauthentizitat/ger/1020">
       <rdaed:P20316>Allegorie oder Authentizität</rdaed:P20316>
-      <rdaed:P20312>Allegorie oder Authentizität</rdaed:P20312>
+      <rdaed:P20312>Allegorie oder Authentizität : zwei ästhetische Modelle der Aufarbeitung der Vergangenheit: Günter Grass' Die Blechtrommel und Christa Wolfs Kindheitsmuster</rdaed:P20312>
       <rdfs:label>Allegorie oder Authentizität / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3262,7 +3262,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/kimungjun/literaturalshistorie/ger/1020">
       <rdaed:P20316>Literatur als Historie</rdaed:P20316>
-      <rdaed:P20312>Literatur als Historie</rdaed:P20312>
+      <rdaed:P20312>Literatur als Historie : Zeitgeschichte in Thomas Manns "Doktor Faustus" und Günter Grass' "Die Blechtrommel"</rdaed:P20312>
       <rdfs:label>Literatur als Historie / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3270,7 +3270,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/klichebehnkedorothea/nationalsozialismusundshoahimautobiographischenroman/ger/1020">
       <rdaed:P20316>Nationalsozialismus und Shoah im autobiographischen Roman</rdaed:P20316>
-      <rdaed:P20312>Nationalsozialismus und Shoah im autobiographischen Roman</rdaed:P20312>
+      <rdaed:P20312>Nationalsozialismus und Shoah im autobiographischen Roman : Poetologie des Erinnerns bei Ruth Klüger, Martin Walser, Georg Heller und Günter Grass</rdaed:P20312>
       <rdfs:label>Nationalsozialismus und Shoah im autobiographischen Roman / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3278,7 +3278,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/knieschethomasw/diegenealogiederpostapokalypse/ger/1020">
       <rdaed:P20316>Die Genealogie der Post-Apokalypse</rdaed:P20316>
-      <rdaed:P20312>Die Genealogie der Post-Apokalypse</rdaed:P20312>
+      <rdaed:P20312>Die Genealogie der Post-Apokalypse : Günter Grass' Die Rättin</rdaed:P20312>
       <rdfs:label>Die Genealogie der Post-Apokalypse / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3286,7 +3286,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/kolbelmartin/einbucheinbekenntnis/ger/1020">
       <rdaed:P20316>Ein Buch, ein Bekenntnis</rdaed:P20316>
-      <rdaed:P20312>Ein Buch, ein Bekenntnis</rdaed:P20312>
+      <rdaed:P20312>Ein Buch, ein Bekenntnis : die Debatte um Günter Grass' "Beim Häuten der Zwiebel"</rdaed:P20312>
       <rdfs:label>Ein Buch, ein Bekenntnis / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3302,7 +3302,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/kopckerolf/dieverarbeitungderwiedervereinigungdeutschlandsimwendeundberlinromaneinweitesfeld1995vonguntergrass/ger/1020">
       <rdaed:P20316>Die Verarbeitung der Wiedervereinigung Deutschlands im Wende- und Berlin-Roman "Ein weites Feld" (1995) von Günter Grass</rdaed:P20316>
-      <rdaed:P20312>Die Verarbeitung der Wiedervereinigung Deutschlands im Wende- und Berlin-Roman "Ein weites Feld" (1995) von Günter Grass</rdaed:P20312>
+      <rdaed:P20312>Die Verarbeitung der Wiedervereinigung Deutschlands im Wende- und Berlin-Roman "Ein weites Feld" (1995) von Günter Grass : die Versuche der Einflussnahme des Ministeriums für Staatssicherheit (MfS) auf ihn</rdaed:P20312>
       <rdfs:label>Die Verarbeitung der Wiedervereinigung Deutschlands im Wende- und Berlin-Roman "Ein weites Feld" (1995) von Günter Grass / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3310,7 +3310,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/krammedetlef/guntergrass/ger/1020">
       <rdaed:P20316>Günter Grass</rdaed:P20316>
-      <rdaed:P20312>Günter Grass</rdaed:P20312>
+      <rdaed:P20312>Günter Grass : die Blechtrommel</rdaed:P20312>
       <rdfs:label>Günter Grass / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3318,7 +3318,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/kraussewa/romaningardensschematisierteansichtenunddasproblemderubersetzung/ger/1020">
       <rdaed:P20316>Roman Ingardens „Schematisierte Ansichten“ und das Problem der Übersetzung</rdaed:P20316>
-      <rdaed:P20312>Roman Ingardens „Schematisierte Ansichten“ und das Problem der Übersetzung</rdaed:P20312>
+      <rdaed:P20312>Roman Ingardens „Schematisierte Ansichten“ und das Problem der Übersetzung : "Die Blechtrommel“ von Günter Grass auf Polnisch</rdaed:P20312>
       <rdfs:label>Roman Ingardens „Schematisierte Ansichten“ und das Problem der Übersetzung / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3326,7 +3326,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/krumbholzmartin/ironieimzeitgenossischenichroman/ger/1020">
       <rdaed:P20316>Ironie im zeitgenössischenIch-Roman</rdaed:P20316>
-      <rdaed:P20312>Ironie im zeitgenössischenIch-Roman</rdaed:P20312>
+      <rdaed:P20312>Ironie im zeitgenössischenIch-Roman : Grass, Walser, Böll</rdaed:P20312>
       <rdfs:label>Ironie im zeitgenössischenIch-Roman / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3342,7 +3342,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/kuschelkarljosef/grassundindienhinduismus/ger/1013">
       <rdaed:P20316>Grass und Indien/Hinduismus</rdaed:P20316>
-      <rdaed:P20312>Grass und Indien/Hinduismus</rdaed:P20312>
+      <rdaed:P20312>Grass und Indien/Hinduismus : Vorlesung</rdaed:P20312>
       <rdfs:label>Grass und Indien/Hinduismus / ger / spoken word</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3350,7 +3350,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/labroissegerd/politischhistorischesinliterarischerform/ger/1020">
       <rdaed:P20316>Politisch-Historisches in literarischer Form</rdaed:P20316>
-      <rdaed:P20312>Politisch-Historisches in literarischer Form</rdaed:P20312>
+      <rdaed:P20312>Politisch-Historisches in literarischer Form : zu Günter Grass' Roman Ein weites Feld</rdaed:P20312>
       <rdfs:label>Politisch-Historisches in literarischer Form / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3366,7 +3366,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/liewerscheidtute/guntergrassdieblechtrommel/ger/1020">
       <rdaed:P20316>Günter Grass, Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Günter Grass, Die Blechtrommel</rdaed:P20312>
+      <rdaed:P20312>Günter Grass, Die Blechtrommel : Kommentare, Diskussionsaspekte und Anregungen für produktionsorientiertes Lesen</rdaed:P20312>
       <rdfs:label>Günter Grass, Die Blechtrommel / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3374,7 +3374,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/loroublerichard/erinnerungentstehtaufneueweise/ger/1020">
       <rdaed:P20316>"Erinnerung entsteht auf neue Weise"</rdaed:P20316>
-      <rdaed:P20312>"Erinnerung entsteht auf neue Weise"</rdaed:P20312>
+      <rdaed:P20312>"Erinnerung entsteht auf neue Weise" : Wende und Vereinigung in der deutschen Romanliteratur</rdaed:P20312>
       <rdfs:label>"Erinnerung entsteht auf neue Weise" / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3382,7 +3382,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/mazurekalice/dieerinnerungliebtdasversteckspielderkinder/ger/1020">
       <rdaed:P20316>"Die Erinnerung liebt das Versteckspiel der Kinder"</rdaed:P20316>
-      <rdaed:P20312>"Die Erinnerung liebt das Versteckspiel der Kinder"</rdaed:P20312>
+      <rdaed:P20312>"Die Erinnerung liebt das Versteckspiel der Kinder" : Der Erinnerungsprozess in Günter Grass' "Beim Häuten der Zwiebel"</rdaed:P20312>
       <rdfs:label>"Die Erinnerung liebt das Versteckspiel der Kinder" / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3398,7 +3398,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/mccarthyjohna/remappingreality/eng/1020">
       <rdaed:P20316>Remapping reality</rdaed:P20316>
-      <rdaed:P20312>Remapping reality</rdaed:P20312>
+      <rdaed:P20312>Remapping reality : chaos and creativity in science and literature (Goethe, Nietzsche, Grass)</rdaed:P20312>
       <rdfs:label>Remapping reality / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -3406,7 +3406,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/mosersabine/diesesvolkunterdemeszuleidengalt/ger/1020">
       <rdaed:P20316>"Dieses Volk, unter dem es zu leiden galt"</rdaed:P20316>
-      <rdaed:P20312>"Dieses Volk, unter dem es zu leiden galt"</rdaed:P20312>
+      <rdaed:P20312>"Dieses Volk, unter dem es zu leiden galt" : die deutsche Frage bei Günter Grass</rdaed:P20312>
       <rdfs:label>"Dieses Volk, unter dem es zu leiden galt" / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3414,7 +3414,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/negtoskar/derfallfonty/ger/1020">
       <rdaed:P20316>Der Fall Fonty</rdaed:P20316>
-      <rdaed:P20312>Der Fall Fonty</rdaed:P20312>
+      <rdaed:P20312>Der Fall Fonty : "ein weites Feld" von Günter Grass im Spiegel der Kritik</rdaed:P20312>
       <rdfs:label>Der Fall Fonty / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3446,15 +3446,16 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/neubauermartin/katzundmausguntergrass/ger/1020">
       <rdaed:P20316>Katz und Maus, Günter Grass</rdaed:P20316>
-      <rdaed:P20312>Katz und Maus, Günter Grass</rdaed:P20312>
+      <rdaed:P20312>Katz und Maus, Günter Grass : Inhalt, Hintergrund, Interpretation</rdaed:P20312>
       <rdfs:label>Katz und Maus, Günter Grass / ger / text</rdfs:label>
+      <rdaed:P20312>Katz und Maus, Günter Grass : Inhalt - Hintergrund - Interpretation ; mit Info-Klappe!</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://example.org/neubauermartin/katzundmausguntergrass"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/oberhammergeorg/zerreissprobe/ger/1020">
       <rdaed:P20316>Zerreissprobe</rdaed:P20316>
-      <rdaed:P20312>Zerreissprobe</rdaed:P20312>
+      <rdaed:P20312>Zerreissprobe : der neue Roman von Günter Grass "Ein weites Feld" und die Literaturkritik ; eine Dokumentation ; eine Veröffentlichung des Innsbrucker Zeitungsarchivs</rdaed:P20312>
       <rdfs:label>Zerreissprobe / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3462,7 +3463,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/paamichael/kulturellesgedachtnisalsepischereflexion/ger/1020">
       <rdaed:P20316>Kulturelles Gedächtnis als epische Reflexion</rdaed:P20316>
-      <rdaed:P20312>Kulturelles Gedächtnis als epische Reflexion</rdaed:P20312>
+      <rdaed:P20312>Kulturelles Gedächtnis als epische Reflexion : zum Werk von Günter Grass</rdaed:P20312>
       <rdfs:label>Kulturelles Gedächtnis als epische Reflexion / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3470,7 +3471,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/panlu/ausdemschattenreichdervergangenheit/ger/1020">
       <rdaed:P20316>Aus dem Schattenreich der Vergangenheit</rdaed:P20316>
-      <rdaed:P20312>Aus dem Schattenreich der Vergangenheit</rdaed:P20312>
+      <rdaed:P20312>Aus dem Schattenreich der Vergangenheit : Erinnerungsarbeit in Günter Grass' Blechtrommel und Mo Yans Üppiger Busen, dicker Hintern</rdaed:P20312>
       <rdfs:label>Aus dem Schattenreich der Vergangenheit / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3478,7 +3479,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/paschewolfgang/guntergrasskatzundmaus/ger/1020">
       <rdaed:P20316>Günter Grass, "Katz und Maus"</rdaed:P20316>
-      <rdaed:P20312>Günter Grass, "Katz und Maus"</rdaed:P20312>
+      <rdaed:P20312>Günter Grass, "Katz und Maus" : 32 Arbeitsblätter mit didaktisch-methodischen Kommentaren ; Sekundarstufe II ; [folgt der reformierten Rechtschreibung und Zeichensetzung]</rdaed:P20312>
       <rdfs:label>Günter Grass, "Katz und Maus" / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3502,7 +3503,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/pieczynskasulikanna/idiolektalefigurencharakteristikalsubersetzungsproblem/ger/1020">
       <rdaed:P20316>Idiolektale Figurencharakteristik als Übersetzungsproblem</rdaed:P20316>
-      <rdaed:P20312>Idiolektale Figurencharakteristik als Übersetzungsproblem</rdaed:P20312>
+      <rdaed:P20312>Idiolektale Figurencharakteristik als Übersetzungsproblem : am Beispiel der "Unkenrufe" von Günter Grass</rdaed:P20312>
       <rdfs:label>Idiolektale Figurencharakteristik als Übersetzungsproblem / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3526,8 +3527,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/rahnerthomas/dieblechtrommelguntergrass/ger/1020">
       <rdaed:P20316>Die Blechtrommel, Günter Grass</rdaed:P20316>
-      <rdaed:P20312>Die Blechtrommel, Günter Grass</rdaed:P20312>
+      <rdaed:P20312>Die Blechtrommel, Günter Grass : Inhalt, Hintergrund, Interpretation ; mit Info-Klappe!</rdaed:P20312>
       <rdfs:label>Die Blechtrommel, Günter Grass / ger / text</rdfs:label>
+      <rdaed:P20312>Die Blechtrommel, Günter Grass : Inhalt, Hintergrund, Interpretation</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://example.org/rahnerthomas/dieblechtrommelguntergrass"/>
@@ -3542,7 +3544,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/roehmklausjurgen/polyphonieundimprovisation/ger/1020">
       <rdaed:P20316>Polyphonie und Improvisation</rdaed:P20316>
-      <rdaed:P20312>Polyphonie und Improvisation</rdaed:P20312>
+      <rdaed:P20312>Polyphonie und Improvisation : zur offenen Form in Günter Grass' Die Rättin</rdaed:P20312>
       <rdfs:label>Polyphonie und Improvisation / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3550,7 +3552,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/rosellsteuerpernilla/einallzuweitesfeld/ger/1020">
       <rdaed:P20316>... ein allzu weites Feld?</rdaed:P20316>
-      <rdaed:P20312>... ein allzu weites Feld?</rdaed:P20312>
+      <rdaed:P20312>... ein allzu weites Feld? : zu Übersetzungstheorie und Übersetzungspraxis anhand der Kulturspezifika in fünf Übersetzungen des Romans "Ein weites Feld" von Günter Grass</rdaed:P20312>
       <rdfs:label>... ein allzu weites Feld? / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3566,7 +3568,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/schaalbjorn/jenseitsvonoderundlethe/ger/1020">
       <rdaed:P20316>Jenseits von Oder und Lethe</rdaed:P20316>
-      <rdaed:P20312>Jenseits von Oder und Lethe</rdaed:P20312>
+      <rdaed:P20312>Jenseits von Oder und Lethe : Flucht, Vertreibung und Heimatverlust in Erzähltexten nach 1945 ; (Günter Grass - Siegfried Lenz - Christa Wolf)</rdaed:P20312>
       <rdfs:label>Jenseits von Oder und Lethe / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3582,7 +3584,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/scherfrainer/katzundmausvonguntergrass/ger/1020">
       <rdaed:P20316>"Katz und Maus" von Günter Grass</rdaed:P20316>
-      <rdaed:P20312>"Katz und Maus" von Günter Grass</rdaed:P20312>
+      <rdaed:P20312>"Katz und Maus" von Günter Grass : literarische Ironie nach Auschwitz und der unausgesprochene Appell zu politischem Engagement</rdaed:P20312>
       <rdfs:label>"Katz und Maus" von Günter Grass / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3590,7 +3592,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/schillingklausvon/schuldmotoren/ger/1020">
       <rdaed:P20316>Schuldmotoren</rdaed:P20316>
-      <rdaed:P20312>Schuldmotoren</rdaed:P20312>
+      <rdaed:P20312>Schuldmotoren : artistisches Erzählen in Günter Grass' "Danziger Trilogie"</rdaed:P20312>
       <rdfs:label>Schuldmotoren / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3606,7 +3608,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/schmidtnadine/konstruktionenliterarischerauthentizitatinautobiographischenerzahltexten/ger/1020">
       <rdaed:P20316>Konstruktionen literarischer Authentizität in autobiographischen Erzähltexten</rdaed:P20316>
-      <rdaed:P20312>Konstruktionen literarischer Authentizität in autobiographischen Erzähltexten</rdaed:P20312>
+      <rdaed:P20312>Konstruktionen literarischer Authentizität in autobiographischen Erzähltexten : Exemplarische Analysen zu Christa Wolf, Ruth Klüger, Binjamin Wilkomirski und Günter Grass</rdaed:P20312>
       <rdfs:label>Konstruktionen literarischer Authentizität in autobiographischen Erzähltexten / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3614,7 +3616,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/schmidtnadinejessica/konstruktionenliterarischerauthentizitatinautobiographischenerzahltexten/ger/1020">
       <rdaed:P20316>Konstruktionen literarischer Authentizität in autobiographischen Erzähltexten</rdaed:P20316>
-      <rdaed:P20312>Konstruktionen literarischer Authentizität in autobiographischen Erzähltexten</rdaed:P20312>
+      <rdaed:P20312>Konstruktionen literarischer Authentizität in autobiographischen Erzähltexten : exemplarische Studien zu Christa Wolf, Ruth Klüger, Binjamin Wilkomirski und Günter Grass</rdaed:P20312>
       <rdfs:label>Konstruktionen literarischer Authentizität in autobiographischen Erzähltexten / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3630,7 +3632,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/schulzandrej/chancentatigerresignation/ger/1020">
       <rdaed:P20316>Chancen tätiger Resignation</rdaed:P20316>
-      <rdaed:P20312>Chancen tätiger Resignation</rdaed:P20312>
+      <rdaed:P20312>Chancen tätiger Resignation : zur "melancholischen Struktur" in Günter Grass' Roman "Die Rättin"</rdaed:P20312>
       <rdfs:label>Chancen tätiger Resignation / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3638,7 +3640,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/schwartzekohlerhannelore/dieblechtrommelvonguntergrassbedeutungerzahltechnikundzeitgeschichte/ger/1020">
       <rdaed:P20316>"Die Blechtrommel" von Günter Grass: Bedeutung, Erzähltechnik und Zeitgeschichte</rdaed:P20316>
-      <rdaed:P20312>"Die Blechtrommel" von Günter Grass: Bedeutung, Erzähltechnik und Zeitgeschichte</rdaed:P20312>
+      <rdaed:P20312>"Die Blechtrommel" von Günter Grass: Bedeutung, Erzähltechnik und Zeitgeschichte : Strukturanalysen eines Bestsellers der literarischen Moderne</rdaed:P20312>
       <rdfs:label>"Die Blechtrommel" von Günter Grass: Bedeutung, Erzähltechnik und Zeitgeschichte / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3646,7 +3648,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/sochamonika/komischesselbstverkennen/ger/1020">
       <rdaed:P20316>Komisches Selbstverkennen</rdaed:P20316>
-      <rdaed:P20312>Komisches Selbstverkennen</rdaed:P20312>
+      <rdaed:P20312>Komisches Selbstverkennen : zur Darstellung von Nationalsozialisten in Heinrich Manns „Lidice“, Günter Grass’ „Die Blechtrommel“ und Edgar Hilsenraths „Der Nazi &amp; der Friseur“</rdaed:P20312>
       <rdfs:label>Komisches Selbstverkennen / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3654,7 +3656,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/sopronizsuzsa/erzahleninostundwest/ger/1020">
       <rdaed:P20316>Erzählen in Ost und West</rdaed:P20316>
-      <rdaed:P20312>Erzählen in Ost und West</rdaed:P20312>
+      <rdaed:P20312>Erzählen in Ost und West : Intertextualität bei Irmtraud Morgner und Günter Grass</rdaed:P20312>
       <rdfs:label>Erzählen in Ost und West / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3670,7 +3672,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/standfusskatja/gegenstandlichkeitzurneuenallemeinemoglichkeitenversammelndeform/ger/1020">
       <rdaed:P20316>Gegenständlichkeit zur "neuen, alle meine Möglichkeiten versammelnde Form"</rdaed:P20316>
-      <rdaed:P20312>Gegenständlichkeit zur "neuen, alle meine Möglichkeiten versammelnde Form"</rdaed:P20312>
+      <rdaed:P20312>Gegenständlichkeit zur "neuen, alle meine Möglichkeiten versammelnde Form" : die Text-Bild-Bände von Günter Grass</rdaed:P20312>
       <rdfs:label>Gegenständlichkeit zur "neuen, alle meine Möglichkeiten versammelnde Form" / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3678,7 +3680,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/thomasnl/dieblechtrommel/eng/1020">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Die Blechtrommel</rdaed:P20312>
+      <rdaed:P20312>Die Blechtrommel : Grass</rdaed:P20312>
       <rdfs:label>Die Blechtrommel / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -3702,7 +3704,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/uhlmannfrank/satirischparodistischedarstellungdesdrittenreichesbeiguntergrass/ger/1020">
       <rdaed:P20316>Satirisch-parodistische Darstellung des Dritten Reiches bei Günter Grass</rdaed:P20316>
-      <rdaed:P20312>Satirisch-parodistische Darstellung des Dritten Reiches bei Günter Grass</rdaed:P20312>
+      <rdaed:P20312>Satirisch-parodistische Darstellung des Dritten Reiches bei Günter Grass : eine Untersuchung zu "Die Blechtrommel" und "Katz und Maus"</rdaed:P20312>
       <rdfs:label>Satirisch-parodistische Darstellung des Dritten Reiches bei Günter Grass / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3718,7 +3720,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/wassmannelena/dienovellealsgegenwartsliteratur/ger/1020">
       <rdaed:P20316>Die Novelle als Gegenwartsliteratur</rdaed:P20316>
-      <rdaed:P20312>Die Novelle als Gegenwartsliteratur</rdaed:P20312>
+      <rdaed:P20312>Die Novelle als Gegenwartsliteratur : Intertextualität, Intermedialität und Selbstreferentialität bei Martin Walser, Friedrich Dürrenmatt, Patrick Süskind und Günter Grass</rdaed:P20312>
       <rdfs:label>Die Novelle als Gegenwartsliteratur / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3742,7 +3744,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/works/gg/09/ger/1020">
       <rdaed:P20316>Der Bürger und seine Stimme</rdaed:P20316>
-      <rdaed:P20312>Der Bürger und seine Stimme</rdaed:P20312>
+      <rdaed:P20312>Der Bürger und seine Stimme : Reden, Aufsätze, Kommentare</rdaed:P20312>
       <rdfs:label>Der Bürger und seine Stimme / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3758,7 +3760,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/works/gg/1003/dut/1020/kaaijpeter">
       <rdaed:P20316>Ach Butt, dein Märchen geht böse aus</rdaed:P20316>
-      <rdaed:P20312>Ach bot, je sprookje loopt slecht af</rdaed:P20312>
+      <rdaed:P20312>Ach bot, je sprookje loopt slecht af : gedichten en grafiek</rdaed:P20312>
       <rdfs:label>Ach bot, je sprookje loopt slecht af / dut / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
@@ -3767,8 +3769,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/works/gg/1003/ger/1014/1020">
       <rdaed:P20316>Ach Butt, dein Märchen geht böse aus</rdaed:P20316>
-      <rdaed:P20312>Ach Butt, dein Märchen geht böse aus</rdaed:P20312>
+      <rdaed:P20312>Ach Butt, dein Märchen geht böse aus : Gedichte u. Radierungen</rdaed:P20312>
       <rdfs:label>Ach Butt, dein Märchen geht böse aus / ger / text / still image</rdfs:label>
+      <rdaed:P20312>Ach Butt, dein Märchen geht böse aus : Gedichte und Radierungen</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3776,7 +3779,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/works/gg/1003/ger/1020">
       <rdaed:P20316>Ach Butt, dein Märchen geht böse aus</rdaed:P20316>
-      <rdaed:P20312>Ach Butt, dein Märchen geht böse aus</rdaed:P20312>
+      <rdaed:P20312>Ach Butt, dein Märchen geht böse aus : Gedichte und Radierungen</rdaed:P20312>
       <rdfs:label>Ach Butt, dein Märchen geht böse aus / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3784,31 +3787,36 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/works/gg/1004/ger/1020">
       <rdaed:P20316>Ein Schnäppchen namens DDR: Letzte Reden vorm Glockengeleut</rdaed:P20316>
-      <rdaed:P20312>Ein Schnäppchen namens DDR</rdaed:P20312>
+      <rdaed:P20312>Ein Schnäppchen namens DDR : letzte Reden vorm Glockengeläut</rdaed:P20312>
       <rdfs:label>Ein Schnäppchen namens DDR / ger / text</rdfs:label>
+      <rdaed:P20312>Ein Schnäppchen namens DDR : aus Reden, Gesprächen und Aufsätzen zur deutschen Einheit 1989-1999</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://example.org/works/gg/1004"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/works/gg/1005/ger/1020">
       <rdaed:P20316>Rede über den Standort</rdaed:P20316>
-      <rdaed:P20312>Rede über den Standort</rdaed:P20312>
+      <rdaed:P20312>Rede über den Standort : Günter Grass</rdaed:P20312>
       <rdfs:label>Rede über den Standort / ger / text</rdfs:label>
+      <rdaed:P20312>Rede über den Standort : [Rede am 23. Februar 1997 im Schauspielhaus Dresden im Rahmen der Reihe "Zur Sache: Deutschland"]</rdaed:P20312>
+      <rdaed:P20312>Rede über den Standort</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://example.org/works/gg/1005"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/works/gg/1006/ger/1020">
       <rdaed:P20316>Denkzettel: Politische Reden und Aufsätze 1965–1976</rdaed:P20316>
-      <rdaed:P20312>Denkzettel</rdaed:P20312>
+      <rdaed:P20312>Denkzettel : politische Reden und Aufsätze [1965-1976]</rdaed:P20312>
       <rdfs:label>Denkzettel / ger / text</rdfs:label>
+      <rdaed:P20312>Denkzettel : polit. Reden u. Aufsätze</rdaed:P20312>
+      <rdaed:P20312>Denkzettel : polit. Reden u. Aufsätze ; [1965 - 1976]</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://example.org/works/gg/1006"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://example.org/yoninson/theorieundpraxisinterkulturellerinterpretation/ger/1020">
       <rdaed:P20316>Theorie und Praxis interkultureller Interpretation</rdaed:P20316>
-      <rdaed:P20312>Theorie und Praxis interkultureller Interpretation</rdaed:P20312>
+      <rdaed:P20312>Theorie und Praxis interkultureller Interpretation : Leid-Darstellungen in den Romanen "Ansichten eines Clowns" von Heinrich Böll und "Die Blechtrommel" von Günter Grass ; eine Fremdheitsvermittlung aus koreanischer Perspektive</rdaed:P20312>
       <rdfs:label>Theorie und Praxis interkultureller Interpretation / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3833,7 +3841,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/102319859/stockholm/ger/1014">
       <rdaed:P20316>Stockholm</rdaed:P20316>
-      <rdaed:P20312>Stockholm</rdaed:P20312>
+      <rdaed:P20312>Stockholm : der Literaturnobelpreis für Günter Grass ; ein Tagebuch</rdaed:P20312>
       <rdfs:label>Stockholm / ger / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3841,10 +3849,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/11146153037605250840/eng/1020/44856030">
       <rdaed:P20316>Unterwegs von Deutschland nach Deutschland</rdaed:P20316>
-      <rdaed:P20312>From Germany to Germany</rdaed:P20312>
+      <rdaed:P20312>From Germany to Germany : journal of the year 1990</rdaed:P20312>
       <rdfs:label>From Germany to Germany / eng / text</rdfs:label>
+      <rdaed:P20312>From Germany to Germany : diary 1990</rdaed:P20312>
       <rdaed:P20315>From Germany to Germany</rdaed:P20315>
-      <rdaed:P20316>From Germany to Germany</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/44856030"/>
@@ -3852,7 +3860,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/11146153037605250840/ger/1020">
       <rdaed:P20316>Unterwegs von Deutschland nach Deutschland</rdaed:P20316>
-      <rdaed:P20312>Unterwegs von Deutschland nach Deutschland</rdaed:P20312>
+      <rdaed:P20312>Unterwegs von Deutschland nach Deutschland : Tagebuch 1990</rdaed:P20312>
       <rdfs:label>Unterwegs von Deutschland nach Deutschland / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3860,7 +3868,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/11146153037605250840/rum/1020/hosuruxandra">
       <rdaed:P20316>Unterwegs von Deutschland nach Deutschland</rdaed:P20316>
-      <rdaed:P20312>Între Germania şi Germania</rdaed:P20312>
+      <rdaed:P20312>Între Germania şi Germania : jurnal 1990</rdaed:P20312>
       <rdfs:label>Între Germania şi Germania / rum / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/rum"/>
@@ -3869,10 +3877,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/11146153037605250840/spa/1020/forteacarlos">
       <rdaed:P20316>Unterwegs von Deutschland nach Deutschland</rdaed:P20316>
-      <rdaed:P20312>De Alemania a Alemania</rdaed:P20312>
+      <rdaed:P20312>De Alemania a Alemania : diario, 1990</rdaed:P20312>
       <rdfs:label>De Alemania a Alemania / spa / text</rdfs:label>
       <rdaed:P20315>De Alemania a Alemania</rdaed:P20315>
-      <rdaed:P20316>De Alemania a Alemania</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/forteacarlos"/>
@@ -3883,7 +3890,6 @@
       <rdaed:P20312>Of all that ends</rdaed:P20312>
       <rdfs:label>Of all that ends / eng / text</rdfs:label>
       <rdaed:P20315>Of all that ends</rdaed:P20315>
-      <rdaed:P20316>Of all that ends</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/12146937706213831421"/>
@@ -3893,7 +3899,6 @@
       <rdaed:P20312>Of all that ends</rdaed:P20312>
       <rdfs:label>Of all that ends / eng / text</rdfs:label>
       <rdaed:P20315>Of all that ends</rdaed:P20315>
-      <rdaed:P20316>Of all that ends</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://example.org/mitchellbreon"/>
@@ -3936,7 +3941,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1356158127379215150004/ger/1013/102319859">
       <rdaed:P20316>Eintagsfliegen</rdaed:P20316>
-      <rdaed:P20312>Eintagsfliegen</rdaed:P20312>
+      <rdaed:P20312>Eintagsfliegen : gelegentliche Gedichte</rdaed:P20312>
       <rdfs:label>Eintagsfliegen / ger / spoken word</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -3945,7 +3950,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1356158127379215150004/ger/1014/1020">
       <rdaed:P20316>Eintagsfliegen</rdaed:P20316>
-      <rdaed:P20312>Eintagsfliegen</rdaed:P20312>
+      <rdaed:P20312>Eintagsfliegen : gelegentliche Gedichte</rdaed:P20312>
       <rdfs:label>Eintagsfliegen / ger / text / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
@@ -3982,7 +3987,6 @@
       <rdaed:P20312>Hallazgos para no lectores</rdaed:P20312>
       <rdfs:label>Hallazgos para no lectores / spa / text / still image</rdfs:label>
       <rdaed:P20315>Hallazgos para no lectores</rdaed:P20315>
-      <rdaed:P20316>Hallazgos para no lectores</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -3991,10 +3995,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1656145424679886830470/eng/1020/9864901">
       <rdaed:P20316>Über das Selbstverständliche</rdaed:P20316>
-      <rdaed:P20312>Speak out!</rdaed:P20312>
+      <rdaed:P20312>Speak out! : Speeches, open letters, commentaries</rdaed:P20312>
       <rdfs:label>Speak out! / eng / text</rdfs:label>
       <rdaed:P20315>Speak out! Speeches, Open Letters, Commentaries</rdaed:P20315>
-      <rdaed:P20316>Speak out! Speeches, Open Letters, Commentaries</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -4002,10 +4005,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1656145424679886830470/eng/1020/ralphmanheim">
       <rdaed:P20316>Über das Selbstverständliche. Reden – Aufsätze – Offene Briefe – Kommentare</rdaed:P20316>
-      <rdaed:P20312>Speak out</rdaed:P20312>
+      <rdaed:P20312>Speak out : Speeches, open letters, commentaries</rdaed:P20312>
       <rdfs:label>Speak out / eng / text</rdfs:label>
       <rdaed:P20315>Speak out! Speeches, Open Letters, Commentaries</rdaed:P20315>
-      <rdaed:P20316>Speak out! Speeches, Open Letters, Commentaries</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://example.org/ralphmanheim"/>
@@ -4023,15 +4025,18 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1656145424679886830470/ger/1020">
       <rdaed:P20316>Über das Selbstverständliche. Reden – Aufsätze – Offene Briefe – Kommentare</rdaed:P20316>
-      <rdaed:P20312>Über das Selbstverständliche</rdaed:P20312>
+      <rdaed:P20312>Über das Selbstverständliche : Reden, Aufsätze, Offene Briefe, Kommentare</rdaed:P20312>
       <rdfs:label>Über das Selbstverständliche / ger / text</rdfs:label>
+      <rdaed:P20312>Über das Selbstverständliche : Polit. Schriften</rdaed:P20312>
+      <rdaed:P20312>Über das Selbstverständliche : Briefe über die Grenze</rdaed:P20312>
+      <rdaed:P20312>Über das Selbstverständliche : Aufsätze, Reden, Kommentare, offene Briefe</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/1656145424679886830470"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1656145424679886830470/ger/1020/9864901">
       <rdaed:P20316>Über das Selbstverständliche. Reden – Aufsätze – Offene Briefe – Kommentare</rdaed:P20316>
-      <rdaed:P20312>Speak out!</rdaed:P20312>
+      <rdaed:P20312>Speak out! : speeches, open letters, commentaries</rdaed:P20312>
       <rdfs:label>Speak out! / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -4040,7 +4045,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1659148997630759870001/ger/1014/1020">
       <rdaed:P20316>Sechs Jahrzehnte</rdaed:P20316>
-      <rdaed:P20312>Sechs Jahrzehnte</rdaed:P20312>
+      <rdaed:P20312>Sechs Jahrzehnte : ein Werkstattbericht</rdaed:P20312>
       <rdfs:label>Sechs Jahrzehnte / ger / text / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
@@ -4049,7 +4054,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/1659148997630759870001/ger/1020">
       <rdaed:P20316>Sechs Jahrzehnte</rdaed:P20316>
-      <rdaed:P20312>Sechs Jahrzehnte</rdaed:P20312>
+      <rdaed:P20312>Sechs Jahrzehnte : ein Werkstattbericht</rdaed:P20312>
       <rdfs:label>Sechs Jahrzehnte / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -4073,7 +4078,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/cze/1020/sekalzbynek">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Kočka a myš</rdaed:P20312>
+      <rdaed:P20312>Kočka a myš : Novela</rdaed:P20312>
       <rdfs:label>Kočka a myš / cze / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/cze"/>
@@ -4090,7 +4095,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/dan/1020/boisenmogens">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Kat og mus</rdaed:P20312>
+      <rdaed:P20312>Kat og mus : [Overs. fra tysk]</rdaed:P20312>
       <rdfs:label>Kat og mus / dan / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dan"/>
@@ -4099,7 +4104,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/dut/1020">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Kat en muis</rdaed:P20312>
+      <rdaed:P20312>Kat en muis : novelle</rdaed:P20312>
       <rdfs:label>Kat en muis / dut / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
@@ -4107,8 +4112,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/dut/1020/mangerhermien">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Kat en muis</rdaed:P20312>
+      <rdaed:P20312>Kat en muis : Novelle</rdaed:P20312>
       <rdfs:label>Kat en muis / dut / text</rdfs:label>
+      <rdaed:P20312>Kat en muis : een novelle</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
       <rdaeo:P20037 rdf:resource="http://example.org/mangerhermien"/>
@@ -4121,20 +4127,20 @@
       <rdaed:P20312>Cat and Mouse</rdaed:P20312>
       <rdfs:label>Cat and Mouse / eng / text</rdfs:label>
       <rdaed:P20315>Cat and Mouse</rdaed:P20315>
-      <rdaed:P20316>Cat and Mouse</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/174963765"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/eng/1020/9864901">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Cat and mouse</rdaed:P20312>
+      <rdaed:P20312>Cat and mouse : a novel</rdaed:P20312>
       <rdfs:label>Cat and mouse / eng / text</rdfs:label>
+      <rdaed:P20312>Cat and mouse</rdaed:P20312>
+      <rdaed:P20312>Cat and mouse : [Complete and unabridged]</rdaed:P20312>
       <rdaed:P20006>eng</rdaed:P20006>
       <rdaed:P20312>Katz und Maus</rdaed:P20312>
       <rdfs:label>Katz und Maus / eng / text</rdfs:label>
       <rdaed:P20315>Cat and Mouse</rdaed:P20315>
-      <rdaed:P20316>Cat and Mouse</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -4142,7 +4148,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/fin/1020">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Kissa ja hiiri</rdaed:P20312>
+      <rdaed:P20312>Kissa ja hiiri : kertomus</rdaed:P20312>
       <rdfs:label>Kissa ja hiiri / fin / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fin"/>
@@ -4150,7 +4156,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/fin/1020/peromiesaarno">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Kissa ja hiiri</rdaed:P20312>
+      <rdaed:P20312>Kissa ja hiiri : Kertomus</rdaed:P20312>
       <rdfs:label>Kissa ja hiiri / fin / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fin"/>
@@ -4159,20 +4165,19 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/fre/1020">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Le chat et la souris</rdaed:P20312>
+      <rdaed:P20312>Le chat et la souris : roman</rdaed:P20312>
       <rdfs:label>Le chat et la souris / fre / text</rdfs:label>
       <rdaed:P20315>Le Chat et la Souris</rdaed:P20315>
-      <rdaed:P20316>Le Chat et la Souris</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/174963765"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/fre/1020/amslerjean">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Le Chat et la souris</rdaed:P20312>
+      <rdaed:P20312>Le Chat et la souris : Roman ; [Texte intégral]</rdaed:P20312>
       <rdfs:label>Le Chat et la souris / fre / text</rdfs:label>
+      <rdaed:P20312>Le Chat et la souris : Roman</rdaed:P20312>
       <rdaed:P20315>Le Chat et la Souris</rdaed:P20315>
-      <rdaed:P20316>Le Chat et la Souris</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20037 rdf:resource="http://example.org/amslerjean"/>
@@ -4197,7 +4202,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/ger/1014/1020">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Katz und Maus</rdaed:P20312>
+      <rdaed:P20312>Katz und Maus : e. Novelle</rdaed:P20312>
       <rdfs:label>Katz und Maus / ger / text / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
@@ -4208,6 +4213,8 @@
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
       <rdaed:P20312>Katz und Maus</rdaed:P20312>
       <rdfs:label>Katz und Maus / ger / text</rdfs:label>
+      <rdaed:P20312>Katz und Maus : e. Novelle</rdaed:P20312>
+      <rdaed:P20312>Katz und Maus : eine Novelle</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/174963765"/>
@@ -4241,7 +4248,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/ita/1020/filippinienrico">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Gatto e topo</rdaed:P20312>
+      <rdaed:P20312>Gatto e topo : novella</rdaed:P20312>
       <rdfs:label>Gatto e topo / ita / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ita"/>
@@ -4258,10 +4265,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/nob/1020/273901479">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Katt og mus</rdaed:P20312>
+      <rdaed:P20312>Katt og mus : En novelle</rdaed:P20312>
       <rdfs:label>Katt og mus / nob / text</rdfs:label>
       <rdaed:P20315>Katt og mus</rdaed:P20315>
-      <rdaed:P20316>Katt og mus</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/273901479"/>
@@ -4295,7 +4301,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/rus/1020">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Koški-myški</rdaed:P20312>
+      <rdaed:P20312>Koški-myški : povestʹ</rdaed:P20312>
       <rdfs:label>Koški-myški / rus / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/rus"/>
@@ -4323,7 +4329,6 @@
       <rdaed:P20312>El gato y el ratón</rdaed:P20312>
       <rdfs:label>El gato y el ratón / spa / text</rdfs:label>
       <rdaed:P20315>El gato y el ratón</rdaed:P20315>
-      <rdaed:P20316>El gato y el ratón</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/30910939"/>
@@ -4334,7 +4339,6 @@
       <rdaed:P20312>El gato y el ratón</rdaed:P20312>
       <rdfs:label>El gato y el ratón / spa / text</rdfs:label>
       <rdaed:P20315>El gato y el ratón</rdaed:P20315>
-      <rdaed:P20316>El gato y el ratón</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/moritzjoaqun"/>
@@ -4346,7 +4350,6 @@
       <rdaed:P20312>El gato y el ratón</rdaed:P20312>
       <rdfs:label>El gato y el ratón / spa / text</rdfs:label>
       <rdaed:P20315>El gato y el ratón</rdaed:P20315>
-      <rdaed:P20316>El gato y el ratón</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/mortizjoaqun"/>
@@ -4362,8 +4365,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/swe/1020/walldenjohnw">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Katt och r°atta</rdaed:P20312>
+      <rdaed:P20312>Katt och r°atta : Roman</rdaed:P20312>
       <rdfs:label>Katt och r°atta / swe / text</rdfs:label>
+      <rdaed:P20312>Katt och r°atta</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/swe"/>
       <rdaeo:P20037 rdf:resource="http://example.org/walldenjohnw"/>
@@ -4371,7 +4375,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/bul/1020/furnadzievanadja">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Tenekienijat baraban</rdaed:P20312>
+      <rdaed:P20312>Tenekienijat baraban : roman</rdaed:P20312>
       <rdfs:label>Tenekienijat baraban / bul / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/bul"/>
@@ -4380,7 +4384,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/cze/1020">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Plechový bubínek</rdaed:P20312>
+      <rdaed:P20312>Plechový bubínek : román</rdaed:P20312>
       <rdfs:label>Plechový bubínek / cze / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/cze"/>
@@ -4388,7 +4392,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/dan/1020/boisenmogens">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Bliktrommen</rdaed:P20312>
+      <rdaed:P20312>Bliktrommen : [Overs. fra tysk]</rdaed:P20312>
       <rdfs:label>Bliktrommen / dan / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dan"/>
@@ -4397,7 +4401,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/dut/1020">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>De blikken trommel</rdaed:P20312>
+      <rdaed:P20312>De blikken trommel : [roman]</rdaed:P20312>
       <rdfs:label>De blikken trommel / dut / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
@@ -4405,7 +4409,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/dut/1020/schuurkoos">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>De blikken trommel</rdaed:P20312>
+      <rdaed:P20312>De blikken trommel : Roman</rdaed:P20312>
       <rdfs:label>De blikken trommel / dut / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
@@ -4417,8 +4421,8 @@
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
       <rdaed:P20312>The tin drum</rdaed:P20312>
       <rdfs:label>The tin drum / eng / text</rdfs:label>
+      <rdaed:P20312>The tin drum : [Engl. transl.]</rdaed:P20312>
       <rdaed:P20315>The Tin Drum</rdaed:P20315>
-      <rdaed:P20316>The Tin Drum</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/179378125"/>
@@ -4436,7 +4440,6 @@
       <rdaed:P20312>Blechtrommel</rdaed:P20312>
       <rdfs:label>Blechtrommel / eng / text</rdfs:label>
       <rdaed:P20315>The Tin Drum</rdaed:P20315>
-      <rdaed:P20316>The Tin Drum</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -4447,7 +4450,6 @@
       <rdaed:P20312>The tin drum</rdaed:P20312>
       <rdfs:label>The tin drum / eng / text</rdfs:label>
       <rdaed:P20315>The Tin Drum</rdaed:P20315>
-      <rdaed:P20316>The Tin Drum</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://example.org/mitchellbreon"/>
@@ -4463,7 +4465,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/fin/1020/peromiesaarno">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Peltirumpu</rdaed:P20312>
+      <rdaed:P20312>Peltirumpu : Romaani</rdaed:P20312>
       <rdfs:label>Peltirumpu / fin / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fin"/>
@@ -4472,22 +4474,20 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/fre/1020">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Le tambour</rdaed:P20312>
+      <rdaed:P20312>Le tambour : roman</rdaed:P20312>
       <rdfs:label>Le tambour / fre / text</rdfs:label>
-      <rdaed:P20312>La tambour</rdaed:P20312>
+      <rdaed:P20312>La tambour : roman</rdaed:P20312>
       <rdfs:label>La tambour / fre / text</rdfs:label>
       <rdaed:P20315>Le Tambour</rdaed:P20315>
-      <rdaed:P20316>Le Tambour</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/179378125"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/fre/1020/amslerjean">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Le Tambour</rdaed:P20312>
+      <rdaed:P20312>Le Tambour : Roman</rdaed:P20312>
       <rdfs:label>Le Tambour / fre / text</rdfs:label>
       <rdaed:P20315>Le Tambour</rdaed:P20315>
-      <rdaed:P20316>Le Tambour</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20037 rdf:resource="http://example.org/amslerjean"/>
@@ -4497,6 +4497,7 @@
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
       <rdaed:P20312>Die Blechtrommel</rdaed:P20312>
       <rdfs:label>Die Blechtrommel / ger / spoken word</rdfs:label>
+      <rdaed:P20312>Die Blechtrommel : Auszüge</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/179378125"/>
@@ -4520,21 +4521,24 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/ger/1020">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Die Blechtrommel</rdaed:P20312>
+      <rdaed:P20312>Die Blechtrommel : Roman</rdaed:P20312>
       <rdfs:label>Die Blechtrommel / ger / text</rdfs:label>
       <rdaed:P20312>Le Tambour</rdaed:P20312>
       <rdfs:label>Le Tambour / ger / text</rdfs:label>
+      <rdaed:P20312>Die Blechtrommel : Günter Grass liest aus seinem Roman. Falter und Glühbirnen (Oskars Geburt). Fernwirkender Gesang vom Stockturm aus gesungen</rdaed:P20312>
+      <rdaed:P20312>Die Blechtrommel</rdaed:P20312>
       <rdaed:P20312>Bliktrommen</rdaed:P20312>
       <rdfs:label>Bliktrommen / ger / text</rdfs:label>
       <rdaed:P20312>A bádogdob</rdaed:P20312>
       <rdfs:label>A bádogdob / ger / text</rdfs:label>
+      <rdaed:P20312>Die Blechtrommel : Nobelpreis 1999 Deutschland</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/179378125"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/heb/1020">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Toff ha'pach</rdaed:P20312>
+      <rdaed:P20312>Toff ha'pach : [Roman]</rdaed:P20312>
       <rdfs:label>Toff ha'pach / heb / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/heb"/>
@@ -4550,8 +4554,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/ita/1020/seccilia">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Il tamburo di latta</rdaed:P20312>
+      <rdaed:P20312>Il tamburo di latta : Romanzo</rdaed:P20312>
       <rdfs:label>Il tamburo di latta / ita / text</rdfs:label>
+      <rdaed:P20312>Il tamburo di latta : Romanza</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ita"/>
       <rdaeo:P20037 rdf:resource="http://example.org/seccilia"/>
@@ -4559,10 +4564,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/nob/1020/273901479">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Blikktrommen</rdaed:P20312>
+      <rdaed:P20312>Blikktrommen : roman</rdaed:P20312>
       <rdfs:label>Blikktrommen / nob / text</rdfs:label>
+      <rdaed:P20312>Blikktrommen</rdaed:P20312>
       <rdaed:P20315>Blikktrommen</rdaed:P20315>
-      <rdaed:P20316>Blikktrommen</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/273901479"/>
@@ -4600,7 +4605,6 @@
       <rdaed:P20312>El tambor de hojalata</rdaed:P20312>
       <rdfs:label>El tambor de hojalata / spa / text</rdfs:label>
       <rdaed:P20315>El tambor de hojalata</rdaed:P20315>
-      <rdaed:P20316>El tambor de hojalata</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/179378125"/>
@@ -4610,7 +4614,6 @@
       <rdaed:P20312>El tambor de hojalata</rdaed:P20312>
       <rdfs:label>El tambor de hojalata / spa / text</rdfs:label>
       <rdaed:P20315>El tambor de hojalata</rdaed:P20315>
-      <rdaed:P20316>El tambor de hojalata</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -4622,7 +4625,6 @@
       <rdaed:P20312>El tambor de hojalata</rdaed:P20312>
       <rdfs:label>El tambor de hojalata / spa / text</rdfs:label>
       <rdaed:P20315>El tambor de hojalata</rdaed:P20315>
-      <rdaed:P20316>El tambor de hojalata</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/30910939"/>
@@ -4633,7 +4635,6 @@
       <rdaed:P20312>El tambor de hojalata</rdaed:P20312>
       <rdfs:label>El tambor de hojalata / spa / text</rdfs:label>
       <rdaed:P20315>El tambor de hojalata</rdaed:P20315>
-      <rdaed:P20316>El tambor de hojalata</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/30910939"/>
@@ -4645,7 +4646,6 @@
       <rdaed:P20312>El tambor de hojalata</rdaed:P20312>
       <rdfs:label>El tambor de hojalata / spa / text</rdfs:label>
       <rdaed:P20315>El tambor de hojalata</rdaed:P20315>
-      <rdaed:P20316>El tambor de hojalata</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/mortizjoaqun"/>
@@ -4661,7 +4661,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/swe/1020/holmbergnils">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Blecktrumman</rdaed:P20312>
+      <rdaed:P20312>Blecktrumman : [Roman]</rdaed:P20312>
       <rdfs:label>Blecktrumman / swe / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/swe"/>
@@ -4679,7 +4679,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/181820371/ger/1020">
       <rdaed:P20316>Ausgefragt</rdaed:P20316>
-      <rdaed:P20312>Ausgefragt</rdaed:P20312>
+      <rdaed:P20312>Ausgefragt : Gedichte u. Zeichn</rdaed:P20312>
       <rdfs:label>Ausgefragt / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -4687,7 +4687,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/181820371/hun/1020">
       <rdaed:P20316>Ausgefragt</rdaed:P20316>
-      <rdaed:P20312>Vallató</rdaed:P20312>
+      <rdaed:P20312>Vallató : Válogatott versek</rdaed:P20312>
       <rdfs:label>Vallató / hun / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/hun"/>
@@ -4695,7 +4695,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/181989285/eng/1020">
       <rdaed:P20316>Fortsetzung folgt</rdaed:P20316>
-      <rdaed:P20312>Nobel lecture</rdaed:P20312>
+      <rdaed:P20312>Nobel lecture : 7 December 1999 ; [to be continued ...]</rdaed:P20312>
       <rdfs:label>Nobel lecture / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -4703,15 +4703,16 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/181989285/ger/1020">
       <rdaed:P20316>Fortsetzung folgt</rdaed:P20316>
-      <rdaed:P20312>Fortsetzung folgt- ;</rdaed:P20312>
+      <rdaed:P20312>Fortsetzung folgt- ; : Literatur und Geschichte</rdaed:P20312>
       <rdfs:label>Fortsetzung folgt- ; / ger / text</rdfs:label>
+      <rdaed:P20312>Fortsetzung folgt : [Rede anlässlich der Verleihung des Nobelpreises für Literatur]</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/181989285"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/dan/1020/boisenmogens">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Hundeår</rdaed:P20312>
+      <rdaed:P20312>Hundeår : [Overs. fra tysk]</rdaed:P20312>
       <rdfs:label>Hundeår / dan / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dan"/>
@@ -4720,7 +4721,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/dut/1020/schuurkoos">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Hondejaren</rdaed:P20312>
+      <rdaed:P20312>Hondejaren : Roman</rdaed:P20312>
       <rdfs:label>Hondejaren / dut / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
@@ -4732,7 +4733,6 @@
       <rdaed:P20312>Dog years</rdaed:P20312>
       <rdfs:label>Dog years / eng / text</rdfs:label>
       <rdaed:P20315>Dog Years</rdaed:P20315>
-      <rdaed:P20316>Dog Years</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/185469169"/>
@@ -4747,7 +4747,6 @@
       <rdaed:P20312>Hundejahre</rdaed:P20312>
       <rdfs:label>Hundejahre / eng / text</rdfs:label>
       <rdaed:P20315>Dog Years</rdaed:P20315>
-      <rdaed:P20316>Dog Years</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -4755,7 +4754,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/fin/1020/peromiesaarno">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Koiranvuosia</rdaed:P20312>
+      <rdaed:P20312>Koiranvuosia : Romaani</rdaed:P20312>
       <rdfs:label>Koiranvuosia / fin / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fin"/>
@@ -4764,7 +4763,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/fin/1020/suominenoili">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Koiranvuosia</rdaed:P20312>
+      <rdaed:P20312>Koiranvuosia : romaani</rdaed:P20312>
       <rdfs:label>Koiranvuosia / fin / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fin"/>
@@ -4773,20 +4772,19 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/fre/1020">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Les années de chien</rdaed:P20312>
+      <rdaed:P20312>Les années de chien : roman</rdaed:P20312>
       <rdfs:label>Les années de chien / fre / text</rdfs:label>
       <rdaed:P20315>Les Années de chien</rdaed:P20315>
-      <rdaed:P20316>Les Années de chien</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/185469169"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/fre/1020/amslerjean">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Les Années de chien</rdaed:P20312>
+      <rdaed:P20312>Les Années de chien : Roman</rdaed:P20312>
       <rdfs:label>Les Années de chien / fre / text</rdfs:label>
+      <rdaed:P20312>Les Années de chien : [Texte intégral]</rdaed:P20312>
       <rdaed:P20315>Les Années de chien</rdaed:P20315>
-      <rdaed:P20316>Les Années de chien</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20037 rdf:resource="http://example.org/amslerjean"/>
@@ -4803,8 +4801,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/ger/1020">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Hundejahre</rdaed:P20312>
+      <rdaed:P20312>Hundejahre : Roman</rdaed:P20312>
       <rdfs:label>Hundejahre / ger / text</rdfs:label>
+      <rdaed:P20312>Hundejahre</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/185469169"/>
@@ -4820,7 +4819,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/ita/1020">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Anni di cani</rdaed:P20312>
+      <rdaed:P20312>Anni di cani : romanzo</rdaed:P20312>
       <rdfs:label>Anni di cani / ita / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ita"/>
@@ -4828,10 +4827,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/nob/1020/bjerrehakon">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Hundeår</rdaed:P20312>
+      <rdaed:P20312>Hundeår : Roman</rdaed:P20312>
       <rdfs:label>Hundeår / nob / text</rdfs:label>
       <rdaed:P20315>Hundeår</rdaed:P20315>
-      <rdaed:P20316>Hundeår</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://example.org/bjerrehakon"/>
@@ -4839,10 +4837,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/nob/1020/braarvighans">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Hundeår</rdaed:P20312>
+      <rdaed:P20312>Hundeår : roman</rdaed:P20312>
       <rdfs:label>Hundeår / nob / text</rdfs:label>
       <rdaed:P20315>Hundeår</rdaed:P20315>
-      <rdaed:P20316>Hundeår</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://example.org/braarvighans"/>
@@ -4862,7 +4859,6 @@
       <rdaed:P20312>Años de perro</rdaed:P20312>
       <rdfs:label>Años de perro / spa / text</rdfs:label>
       <rdaed:P20315>Los años de perro</rdaed:P20315>
-      <rdaed:P20316>Los años de perro</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/30910939"/>
@@ -4870,7 +4866,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/swe/1020/freijlars">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Hundår</rdaed:P20312>
+      <rdaed:P20312>Hundår : Roman</rdaed:P20312>
       <rdfs:label>Hundår / swe / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/swe"/>
@@ -4879,7 +4875,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/swe/1020/freijlarsw">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Hundår</rdaed:P20312>
+      <rdaed:P20312>Hundår : Roman</rdaed:P20312>
       <rdfs:label>Hundår / swe / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/swe"/>
@@ -4897,7 +4893,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/189370814/dut/1020/schuurkaspersc">
       <rdaed:P20316>Aus dem Tagebuch einer Schnecke</rdaed:P20316>
-      <rdaed:P20312>Uit het dagboek van cen slak</rdaed:P20312>
+      <rdaed:P20312>Uit het dagboek van cen slak : Roman</rdaed:P20312>
       <rdfs:label>Uit het dagboek van cen slak / dut / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
@@ -4909,7 +4905,6 @@
       <rdaed:P20312>From the diary of a snail</rdaed:P20312>
       <rdfs:label>From the diary of a snail / eng / text</rdfs:label>
       <rdaed:P20315>From the Diary of a Snail</rdaed:P20315>
-      <rdaed:P20316>From the Diary of a Snail</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/189370814"/>
@@ -4919,7 +4914,6 @@
       <rdaed:P20312>From the diary of a snail</rdaed:P20312>
       <rdfs:label>From the diary of a snail / eng / text</rdfs:label>
       <rdaed:P20315>From the Diary of a Snail</rdaed:P20315>
-      <rdaed:P20316>From the Diary of a Snail</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -4930,7 +4924,6 @@
       <rdaed:P20312>Journal d'un escargot</rdaed:P20312>
       <rdfs:label>Journal d'un escargot / fre / text</rdfs:label>
       <rdaed:P20315>Journal d'un escargot</rdaed:P20315>
-      <rdaed:P20316>Journal d'un escargot</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/189370814"/>
@@ -4966,7 +4959,6 @@
       <rdaed:P20312>Av en snegls dagbok</rdaed:P20312>
       <rdfs:label>Av en snegls dagbok / nob / text</rdfs:label>
       <rdaed:P20315>Av en snegls dagbok</rdaed:P20315>
-      <rdaed:P20316>Av en snegls dagbok</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/189370814"/>
@@ -4976,7 +4968,6 @@
       <rdaed:P20312>Av en snegls dagbok</rdaed:P20312>
       <rdfs:label>Av en snegls dagbok / nob / text</rdfs:label>
       <rdaed:P20315>Av en snegls dagbok</rdaed:P20315>
-      <rdaed:P20316>Av en snegls dagbok</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://example.org/engelstadcarlfredrik"/>
@@ -4987,7 +4978,6 @@
       <rdaed:P20312>Diario de un caracol</rdaed:P20312>
       <rdfs:label>Diario de un caracol / spa / text</rdfs:label>
       <rdaed:P20315>Diario de un caracol</rdaed:P20315>
-      <rdaed:P20316>Diario de un caracol</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/189370814"/>
@@ -4997,7 +4987,6 @@
       <rdaed:P20312>Del diario de un caracol</rdaed:P20312>
       <rdfs:label>Del diario de un caracol / spa / text</rdfs:label>
       <rdaed:P20315>Diario de un caracol</rdaed:P20315>
-      <rdaed:P20316>Diario de un caracol</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -5008,7 +4997,6 @@
       <rdaed:P20312>Diario de un caracol</rdaed:P20312>
       <rdfs:label>Diario de un caracol / spa / text</rdfs:label>
       <rdaed:P20315>Diario de un caracol</rdaed:P20315>
-      <rdaed:P20316>Diario de un caracol</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/antonandresangel"/>
@@ -5016,7 +5004,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/189370814/swe/1020/liljegreneva">
       <rdaed:P20316>Aus dem Tagebuch einer Schnecke</rdaed:P20316>
-      <rdaed:P20312>Ur en snigels dagbok</rdaed:P20312>
+      <rdaed:P20312>Ur en snigels dagbok : [Roman]</rdaed:P20312>
       <rdfs:label>Ur en snigels dagbok / swe / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/swe"/>
@@ -5028,7 +5016,6 @@
       <rdaed:P20312>The call of the toad</rdaed:P20312>
       <rdfs:label>The call of the toad / eng / text</rdfs:label>
       <rdaed:P20315>The Call of the Toad</rdaed:P20315>
-      <rdaed:P20316>The Call of the Toad</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/198560112"/>
@@ -5038,7 +5025,6 @@
       <rdaed:P20312>The call of the toad</rdaed:P20312>
       <rdfs:label>The call of the toad / eng / text</rdfs:label>
       <rdaed:P20315>The Call of the Toad</rdaed:P20315>
-      <rdaed:P20316>The Call of the Toad</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -5055,8 +5041,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/198560112/ger/1020">
       <rdaed:P20316>Unkenrufe</rdaed:P20316>
-      <rdaed:P20312>Unkenrufe</rdaed:P20312>
+      <rdaed:P20312>Unkenrufe : eine Erzählung</rdaed:P20312>
       <rdfs:label>Unkenrufe / ger / text</rdfs:label>
+      <rdaed:P20312>Unkenrufe : Erzählung</rdaed:P20312>
+      <rdaed:P20312>Unkenrufe</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/198560112"/>
@@ -5066,7 +5054,6 @@
       <rdaed:P20312>Malos presagios</rdaed:P20312>
       <rdfs:label>Malos presagios / spa / text</rdfs:label>
       <rdaed:P20315>Malos presagios</rdaed:P20315>
-      <rdaed:P20316>Malos presagios</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -5074,7 +5061,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/198568192/ger/1014">
       <rdaed:P20316>Totes Holz</rdaed:P20316>
-      <rdaed:P20312>Totes Holz</rdaed:P20312>
+      <rdaed:P20312>Totes Holz : ein Nachruf</rdaed:P20312>
       <rdfs:label>Totes Holz / ger / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5082,7 +5069,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/198568192/ger/1020">
       <rdaed:P20316>Totes Holz</rdaed:P20316>
-      <rdaed:P20312>Totes Holz</rdaed:P20312>
+      <rdaed:P20312>Totes Holz : ein Nachruf</rdaed:P20312>
       <rdfs:label>Totes Holz / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5102,7 +5089,6 @@
       <rdaed:P20312>My century</rdaed:P20312>
       <rdfs:label>My century / eng / text</rdfs:label>
       <rdaed:P20315>My Century</rdaed:P20315>
-      <rdaed:P20316>My Century</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/202977803"/>
@@ -5143,7 +5129,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/202977803/ger/1020/eftimiegabriella">
       <rdaed:P20316>Mein Jahrhundert</rdaed:P20316>
-      <rdaed:P20312>Secolul meu</rdaed:P20312>
+      <rdaed:P20312>Secolul meu : [povestiri]</rdaed:P20312>
       <rdfs:label>Secolul meu / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5155,7 +5141,6 @@
       <rdaed:P20312>Mitt århundre</rdaed:P20312>
       <rdfs:label>Mitt århundre / nob / text</rdfs:label>
       <rdaed:P20315>Mitt århundre</rdaed:P20315>
-      <rdaed:P20316>Mitt århundre</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -5166,7 +5151,6 @@
       <rdaed:P20312>Mi siglo</rdaed:P20312>
       <rdfs:label>Mi siglo / spa / text</rdfs:label>
       <rdaed:P20315>Mi siglo</rdaed:P20315>
-      <rdaed:P20316>Mi siglo</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/202977803"/>
@@ -5176,7 +5160,6 @@
       <rdaed:P20312>Mi siglo</rdaed:P20312>
       <rdfs:label>Mi siglo / spa / text</rdfs:label>
       <rdaed:P20315>Mi siglo</rdaed:P20315>
-      <rdaed:P20316>Mi siglo</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -5187,7 +5170,6 @@
       <rdaed:P20312>Mi siglo</rdaed:P20312>
       <rdfs:label>Mi siglo / spa / text</rdfs:label>
       <rdaed:P20315>Mi siglo</rdaed:P20315>
-      <rdaed:P20316>Mi siglo</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -5196,7 +5178,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/dan/1020">
       <rdaed:P20316>Das Treffen in Telgte</rdaed:P20316>
-      <rdaed:P20312>Mødet i Telgte</rdaed:P20312>
+      <rdaed:P20312>Mødet i Telgte : en fortaelling</rdaed:P20312>
       <rdfs:label>Mødet i Telgte / dan / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dan"/>
@@ -5204,7 +5186,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/dut/1020/kaaijpeter">
       <rdaed:P20316>Das Treffen in Telgte</rdaed:P20316>
-      <rdaed:P20312>Trefpunt Telgte</rdaed:P20312>
+      <rdaed:P20312>Trefpunt Telgte : een vertelling</rdaed:P20312>
       <rdfs:label>Trefpunt Telgte / dut / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
@@ -5216,7 +5198,6 @@
       <rdaed:P20312>The meeting at Telgte</rdaed:P20312>
       <rdfs:label>The meeting at Telgte / eng / text</rdfs:label>
       <rdaed:P20315>The Meeting at Telgte</rdaed:P20315>
-      <rdaed:P20316>The Meeting at Telgte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -5224,10 +5205,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/fre/1020">
       <rdaed:P20316>Das Treffen in Telgte</rdaed:P20316>
-      <rdaed:P20312>Une rencontre en Westphalie</rdaed:P20312>
+      <rdaed:P20312>Une rencontre en Westphalie : roman</rdaed:P20312>
       <rdfs:label>Une rencontre en Westphalie / fre / text</rdfs:label>
       <rdaed:P20315>Une rencontre en Westphalie</rdaed:P20315>
-      <rdaed:P20316>Une rencontre en Westphalie</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/205890609"/>
@@ -5242,7 +5222,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/ger/1013/102319859">
       <rdaed:P20316>Das Treffen in Telgte</rdaed:P20316>
-      <rdaed:P20312>Das Treffen in Telgte</rdaed:P20312>
+      <rdaed:P20312>Das Treffen in Telgte : Lesung mit Musik</rdaed:P20312>
       <rdfs:label>Das Treffen in Telgte / ger / spoken word</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5251,8 +5231,11 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/ger/1020">
       <rdaed:P20316>Das Treffen in Telgte</rdaed:P20316>
-      <rdaed:P20312>Das Treffen in Telgte</rdaed:P20312>
+      <rdaed:P20312>Das Treffen in Telgte : eine Erzählung</rdaed:P20312>
       <rdfs:label>Das Treffen in Telgte / ger / text</rdfs:label>
+      <rdaed:P20312>Das Treffen in Telgte</rdaed:P20312>
+      <rdaed:P20312>Das Treffen in Telgte : e. Erzählung</rdaed:P20312>
+      <rdaed:P20312>Das Treffen in Telgte : e. Erzählung u. 43 Gedichte aus d. Barock</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/205890609"/>
@@ -5275,10 +5258,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/nob/1020/66142208">
       <rdaed:P20316>Das Treffen in Telgte</rdaed:P20316>
-      <rdaed:P20312>Møtet i Telgte</rdaed:P20312>
+      <rdaed:P20312>Møtet i Telgte : en fortelling</rdaed:P20312>
       <rdfs:label>Møtet i Telgte / nob / text</rdfs:label>
       <rdaed:P20315>Møtet i Telgte: en fortelling</rdaed:P20315>
-      <rdaed:P20316>Møtet i Telgte: en fortelling</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -5297,7 +5279,6 @@
       <rdaed:P20312>Encuentro en Telgte</rdaed:P20312>
       <rdfs:label>Encuentro en Telgte / spa / text</rdfs:label>
       <rdaed:P20315>Encuentro en Telgte</rdaed:P20315>
-      <rdaed:P20316>Encuentro en Telgte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/dieterichgenoveva"/>
@@ -5308,7 +5289,6 @@
       <rdaed:P20312>Das Treffen in Telgte</rdaed:P20312>
       <rdfs:label>Das Treffen in Telgte / spa / text</rdfs:label>
       <rdaed:P20315>Encuentro en Telgte</rdaed:P20315>
-      <rdaed:P20316>Encuentro en Telgte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/estebanjosmanuel"/>
@@ -5320,7 +5300,6 @@
       <rdaed:P20312>Encuentro en Telgte</rdaed:P20312>
       <rdfs:label>Encuentro en Telgte / spa / text</rdfs:label>
       <rdaed:P20315>Encuentro en Telgte</rdaed:P20315>
-      <rdaed:P20316>Encuentro en Telgte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/gregormariah"/>
@@ -5330,6 +5309,7 @@
       <rdaed:P20316>Vatertag</rdaed:P20316>
       <rdaed:P20312>Vatertag</rdaed:P20312>
       <rdfs:label>Vatertag / ger / text</rdfs:label>
+      <rdaed:P20312>Vatertag : [22 Lithogr. zu "Vatertag" aus d. Roman "Der Butt"]</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/2078151433029956420003"/>
@@ -5347,7 +5327,6 @@
       <rdaed:P20312>Headbirths, or, The Germans are dying out</rdaed:P20312>
       <rdfs:label>Headbirths, or, The Germans are dying out / eng / text</rdfs:label>
       <rdaed:P20315>Headbirths, or, the Germans are Dying Out</rdaed:P20315>
-      <rdaed:P20316>Headbirths, or, the Germans are Dying Out</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -5364,17 +5343,16 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/210967285/fre/1020">
       <rdaed:P20316>Kopfgeburten oder die Deutschen sterben aus</rdaed:P20316>
-      <rdaed:P20312>Les enfants par le tête ou les Allemands se meurent</rdaed:P20312>
+      <rdaed:P20312>Les enfants par le tête ou les Allemands se meurent : récit</rdaed:P20312>
       <rdfs:label>Les enfants par le tête ou les Allemands se meurent / fre / text</rdfs:label>
       <rdaed:P20315>Les Enfants par la tête ou les Allemands se meurent</rdaed:P20315>
-      <rdaed:P20316>Les Enfants par la tête ou les Allemands se meurent</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/210967285"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/210967285/ger/1018">
       <rdaed:P20316>Kopfgeburten oder Die Deutschen sterben aus</rdaed:P20316>
-      <rdaed:P20312>Kopfgeburten oder die Deutschen sterben aus</rdaed:P20312>
+      <rdaed:P20312>Kopfgeburten oder die Deutschen sterben aus : Blindendr. d. Dt. Blindenstudienanst</rdaed:P20312>
       <rdfs:label>Kopfgeburten oder die Deutschen sterben aus / ger / tactile text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1018"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5398,7 +5376,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/210967285/spa/1020">
       <rdaed:P20316>Kopfgeburten oder die Deutschen sterben aus</rdaed:P20316>
-      <rdaed:P20312>Engendros de la mente o la extinción del pueblo alemán</rdaed:P20312>
+      <rdaed:P20312>Engendros de la mente o la extinción del pueblo alemán : [un viaje alucinante hacia el futuro de nuestro mondo]</rdaed:P20312>
       <rdfs:label>Engendros de la mente o la extinción del pueblo alemán / spa / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -5411,7 +5389,6 @@
       <rdfs:label>Partos mentales o Los alemanes se extinguen / spa / text</rdfs:label>
       <rdaed:P20312>Partos mortales o Los alemanes se extinguen</rdaed:P20312>
       <rdfs:label>Partos mortales o Los alemanes se extinguen / spa / text</rdfs:label>
-      <rdaed:P20316>Los alemanes se extinguen</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/dieterichgenoveva"/>
@@ -5436,7 +5413,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/213148121/dut/1020/kaaijpeter">
       <rdaed:P20316>Der Butt</rdaed:P20316>
-      <rdaed:P20312>De bot</rdaed:P20312>
+      <rdaed:P20312>De bot : roman</rdaed:P20312>
       <rdfs:label>De bot / dut / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
@@ -5449,7 +5426,6 @@
       <rdaed:P20312>The flounder</rdaed:P20312>
       <rdfs:label>The flounder / eng / text</rdfs:label>
       <rdaed:P20315>The Flounder</rdaed:P20315>
-      <rdaed:P20316>The Flounder</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -5465,20 +5441,18 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/213148121/fre/1020">
       <rdaed:P20316>Der Butt</rdaed:P20316>
-      <rdaed:P20312>Le turbot</rdaed:P20312>
+      <rdaed:P20312>Le turbot : roman</rdaed:P20312>
       <rdfs:label>Le turbot / fre / text</rdfs:label>
       <rdaed:P20315>Le Turbot</rdaed:P20315>
-      <rdaed:P20316>Le Turbot</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/213148121"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/213148121/fre/1020/amslerjean">
       <rdaed:P20316>Der Butt</rdaed:P20316>
-      <rdaed:P20312>Le Turbot</rdaed:P20312>
+      <rdaed:P20312>Le Turbot : Roman</rdaed:P20312>
       <rdfs:label>Le Turbot / fre / text</rdfs:label>
       <rdaed:P20315>Le Turbot</rdaed:P20315>
-      <rdaed:P20316>Le Turbot</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20037 rdf:resource="http://example.org/amslerjean"/>
@@ -5488,8 +5462,8 @@
       <rdaed:P20316>Der Butt</rdaed:P20316>
       <rdaed:P20312>Le Turbot</rdaed:P20312>
       <rdfs:label>Le Turbot / fre / text</rdfs:label>
+      <rdaed:P20312>Le turbot : roman</rdaed:P20312>
       <rdaed:P20315>Le Turbot</rdaed:P20315>
-      <rdaed:P20316>Le Turbot</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20037 rdf:resource="http://example.org/amsterjean"/>
@@ -5514,8 +5488,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/213148121/ger/1020">
       <rdaed:P20316>Der Butt</rdaed:P20316>
-      <rdaed:P20312>Der Butt</rdaed:P20312>
+      <rdaed:P20312>Der Butt : Roman</rdaed:P20312>
       <rdfs:label>Der Butt / ger / text</rdfs:label>
+      <rdaed:P20312>Der Butt</rdaed:P20312>
       <rdaed:P20312>Flynderen</rdaed:P20312>
       <rdfs:label>Flynderen / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -5533,10 +5508,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/213148121/nob/1020/66142208">
       <rdaed:P20316>Der Butt</rdaed:P20316>
-      <rdaed:P20312>Flyndra</rdaed:P20312>
+      <rdaed:P20312>Flyndra : roman</rdaed:P20312>
       <rdfs:label>Flyndra / nob / text</rdfs:label>
       <rdaed:P20315>Flyndra</rdaed:P20315>
-      <rdaed:P20316>Flyndra</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -5567,7 +5541,6 @@
       <rdaed:P20312>Poemas de "El rodaballo"</rdaed:P20312>
       <rdfs:label>Poemas de "El rodaballo" / spa / text</rdfs:label>
       <rdaed:P20315>El rodaballo</rdaed:P20315>
-      <rdaed:P20316>El rodaballo</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -5583,7 +5556,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/214003685/eng/1020">
       <rdaed:P20316>Novemberland. 13 Sonette</rdaed:P20316>
-      <rdaed:P20312>Novemberland</rdaed:P20312>
+      <rdaed:P20312>Novemberland : selected poems 1956 - 1993</rdaed:P20312>
       <rdfs:label>Novemberland / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -5591,7 +5564,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/214003685/ger/1014/1020">
       <rdaed:P20316>Novemberland. 13 Sonette</rdaed:P20316>
-      <rdaed:P20312>Novemberland</rdaed:P20312>
+      <rdaed:P20312>Novemberland : 13 Sonette</rdaed:P20312>
       <rdfs:label>Novemberland / ger / text / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
@@ -5600,7 +5573,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/214003685/ger/1020">
       <rdaed:P20316>Novemberland. 13 Sonette</rdaed:P20316>
-      <rdaed:P20312>Novemberland</rdaed:P20312>
+      <rdaed:P20312>Novemberland : 13 Sonette</rdaed:P20312>
       <rdfs:label>Novemberland / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5608,7 +5581,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/214003685/nob/1020">
       <rdaed:P20316>Novemberland</rdaed:P20316>
-      <rdaed:P20312>Listopadia</rdaed:P20312>
+      <rdaed:P20312>Listopadia : 13 sonetów</rdaed:P20312>
       <rdfs:label>Listopadia / nob / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
@@ -5628,7 +5601,6 @@
       <rdaed:P20312>Show your tongue</rdaed:P20312>
       <rdfs:label>Show your tongue / eng / text</rdfs:label>
       <rdaed:P20315>Show Your Tongue</rdaed:P20315>
-      <rdaed:P20316>Show Your Tongue</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/217034422"/>
@@ -5638,7 +5610,6 @@
       <rdaed:P20312>Show your tongue</rdaed:P20312>
       <rdfs:label>Show your tongue / eng / text</rdfs:label>
       <rdaed:P20315>Show Your Tongue</rdaed:P20315>
-      <rdaed:P20316>Show Your Tongue</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://example.org/woodsjohne"/>
@@ -5666,7 +5637,6 @@
       <rdaed:P20312>Rekke tunge</rdaed:P20312>
       <rdfs:label>Rekke tunge / nob / text</rdfs:label>
       <rdaed:P20315>Rekke tunge</rdaed:P20315>
-      <rdaed:P20316>Rekke tunge</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -5677,7 +5647,6 @@
       <rdaed:P20312>Sacar la lengua</rdaed:P20312>
       <rdfs:label>Sacar la lengua / spa / text</rdfs:label>
       <rdaed:P20315>Sacar la lengua</rdaed:P20315>
-      <rdaed:P20316>Sacar la lengua</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/217034422"/>
@@ -5687,7 +5656,6 @@
       <rdaed:P20312>Sacar la lengua</rdaed:P20312>
       <rdfs:label>Sacar la lengua / spa / text</rdfs:label>
       <rdaed:P20315>Sacar la lengua</rdaed:P20315>
-      <rdaed:P20316>Sacar la lengua</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/dieterichantn"/>
@@ -5695,7 +5663,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/272405923/dieblechtrommel/ger/1020">
       <rdaed:P20316>Die Blechtrommel von Günter Grass</rdaed:P20316>
-      <rdaed:P20312>Die Blechtrommel von Günter Grass</rdaed:P20312>
+      <rdaed:P20312>Die Blechtrommel von Günter Grass : Textanalyse und Interpretation mit ausführlicher Inhaltsangabe und Abituraufgaben mit Lösungen</rdaed:P20312>
       <rdfs:label>Die Blechtrommel von Günter Grass / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5735,7 +5703,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/272405923/grasshundejahre/ger/1020">
       <rdaed:P20316>Grass, Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Grass, Hundejahre</rdaed:P20312>
+      <rdaed:P20312>Grass, Hundejahre : Lektüre- und Interpretationshilfe</rdaed:P20312>
       <rdfs:label>Grass, Hundejahre / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5743,7 +5711,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/272405923/grassimkrebsgang/ger/1020">
       <rdaed:P20316>Grass, Im Krebsgang</rdaed:P20316>
-      <rdaed:P20312>Grass, Im Krebsgang</rdaed:P20312>
+      <rdaed:P20312>Grass, Im Krebsgang : Lektüre- und Interpretationshilfe</rdaed:P20312>
       <rdfs:label>Grass, Im Krebsgang / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5761,8 +5729,8 @@
       <rdaed:P20316>Dummer August</rdaed:P20316>
       <rdaed:P20312>Payaso de Agosto</rdaed:P20312>
       <rdfs:label>Payaso de Agosto / spa / text</rdfs:label>
+      <rdaed:P20312>Payaso de agosto : [edición bilingüe]</rdaed:P20312>
       <rdaed:P20315>Payaso de Agosto</rdaed:P20315>
-      <rdaed:P20316>Payaso de Agosto</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -5783,8 +5751,8 @@
       <rdaed:P20316>Deutscher Lastenausgleich</rdaed:P20316>
       <rdaed:P20312>Two states - one nation?</rdaed:P20312>
       <rdfs:label>Two states - one nation? / eng / text</rdfs:label>
+      <rdaed:P20312>Two states - one nation? : [The case against German reunification]</rdaed:P20312>
       <rdaed:P20315>Two states--one nation</rdaed:P20315>
-      <rdaed:P20316>Two states--one nation</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/44856030"/>
@@ -5792,7 +5760,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/309497759/ger/1020">
       <rdaed:P20316>Deutscher Lastenausgleich</rdaed:P20316>
-      <rdaed:P20312>Deutscher Lastenausgleich</rdaed:P20312>
+      <rdaed:P20312>Deutscher Lastenausgleich : wider das dumpfe Einheitsgebot : Reden und Gespräche</rdaed:P20312>
       <rdfs:label>Deutscher Lastenausgleich / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5809,10 +5777,9 @@
    <rdac:C10006 rdf:about="http://viaf.org/viaf/312403428/eng/1020/44856030">
       <rdaed:P20316>Box</rdaed:P20316>
       <rdaed:P20316>Die Box</rdaed:P20316>
-      <rdaed:P20312>The box</rdaed:P20312>
+      <rdaed:P20312>The box : tales from the darkroom</rdaed:P20312>
       <rdfs:label>The box / eng / text</rdfs:label>
       <rdaed:P20315>The Box</rdaed:P20315>
-      <rdaed:P20316>The Box</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/44856030"/>
@@ -5829,18 +5796,19 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/312403428/ger/1020">
       <rdaed:P20316>Die Box</rdaed:P20316>
-      <rdaed:P20312>Die Box</rdaed:P20312>
+      <rdaed:P20312>Die Box : Dunkelkammergeschichten</rdaed:P20312>
       <rdfs:label>Die Box / ger / text</rdfs:label>
+      <rdaed:P20312>Die Box : Vorzugsausgabe</rdaed:P20312>
+      <rdaed:P20312>Die Box : Grafikmappe</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/312403428"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/312403428/nob/1020/66142208">
       <rdaed:P20316>Die Box</rdaed:P20316>
-      <rdaed:P20312>Boksen</rdaed:P20312>
+      <rdaed:P20312>Boksen : mørkeromshistorier</rdaed:P20312>
       <rdfs:label>Boksen / nob / text</rdfs:label>
       <rdaed:P20315>Boksen</rdaed:P20315>
-      <rdaed:P20316>Boksen</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -5848,10 +5816,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/312403428/spa/1020/22322043/305872623">
       <rdaed:P20316>Die Box</rdaed:P20316>
-      <rdaed:P20312>La caja de los deseos</rdaed:P20312>
+      <rdaed:P20312>La caja de los deseos : historias del cuarto oscuro</rdaed:P20312>
       <rdfs:label>La caja de los deseos / spa / text</rdfs:label>
+      <rdaed:P20312>La caja de los deseos</rdaed:P20312>
       <rdaed:P20315>La caja de los deseos</rdaed:P20315>
-      <rdaed:P20316>La caja de los deseos</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -5860,10 +5828,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/312508045/eng/1020">
       <rdaed:P20316>Davor</rdaed:P20316>
-      <rdaed:P20312>Max</rdaed:P20312>
+      <rdaed:P20312>Max : a play</rdaed:P20312>
       <rdfs:label>Max / eng / text</rdfs:label>
       <rdaed:P20315>Max</rdaed:P20315>
-      <rdaed:P20316>Max</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/312508045"/>
@@ -5879,7 +5846,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/315591424/ger/1014">
       <rdaed:P20316>Vier Jahrzehnte</rdaed:P20316>
-      <rdaed:P20312>Vier Jahrzehnte</rdaed:P20312>
+      <rdaed:P20312>Vier Jahrzehnte : ein Werkstattbericht</rdaed:P20312>
       <rdfs:label>Vier Jahrzehnte / ger / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5887,7 +5854,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/315591424/ger/1020">
       <rdaed:P20316>Vier Jahrzehnte</rdaed:P20316>
-      <rdaed:P20312>Vier Jahrzehnte</rdaed:P20312>
+      <rdaed:P20312>Vier Jahrzehnte : ein Werkstattbericht</rdaed:P20312>
       <rdfs:label>Vier Jahrzehnte / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5898,17 +5865,16 @@
       <rdaed:P20312>The plebeians rehearse the uprising</rdaed:P20312>
       <rdfs:label>The plebeians rehearse the uprising / eng / text</rdfs:label>
       <rdaed:P20315>The Plebeians Rehearse the Uprising</rdaed:P20315>
-      <rdaed:P20316>The Plebeians Rehearse the Uprising</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/315945070"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/315945070/eng/1020/9864901">
       <rdaed:P20316>Die Plebejer proben den Aufstand</rdaed:P20316>
-      <rdaed:P20312>The plebeians rehearse the uprising</rdaed:P20312>
+      <rdaed:P20312>The plebeians rehearse the uprising : a German tragedy</rdaed:P20312>
       <rdfs:label>The plebeians rehearse the uprising / eng / text</rdfs:label>
+      <rdaed:P20312>The Plebeians rehearse the uprising : A German tragedy ; With an introductory address by the author</rdaed:P20312>
       <rdaed:P20315>The Plebeians Rehearse the Uprising</rdaed:P20315>
-      <rdaed:P20316>The Plebeians Rehearse the Uprising</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -5916,10 +5882,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/315945070/fre/1020/amslerjean">
       <rdaed:P20316>Die Plebejer proben den Aufstand</rdaed:P20316>
-      <rdaed:P20312>Les Plébéiens répètent l'insurrection</rdaed:P20312>
+      <rdaed:P20312>Les Plébéiens répètent l'insurrection : Théâtre ; Précédé d'un discours de l'auteur</rdaed:P20312>
       <rdfs:label>Les Plébéiens répètent l'insurrection / fre / text</rdfs:label>
       <rdaed:P20315>Les Plébéiens répètent l'insurrection</rdaed:P20315>
-      <rdaed:P20316>Les Plébéiens répètent l'insurrection</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20037 rdf:resource="http://example.org/amslerjean"/>
@@ -5936,8 +5901,12 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/315945070/ger/1020">
       <rdaed:P20316>Die Plebejer proben den Aufstand</rdaed:P20316>
-      <rdaed:P20312>Die Plebejer proben den Aufstand</rdaed:P20312>
+      <rdaed:P20312>Die Plebejer proben den Aufstand : ein deutsches Trauerspiel</rdaed:P20312>
       <rdfs:label>Die Plebejer proben den Aufstand / ger / text</rdfs:label>
+      <rdaed:P20312>Die Plebejer proben den Aufstand : Ein dt. Trauerspiel</rdaed:P20312>
+      <rdaed:P20312>Die Plebejer proben den Aufstand : e. dt. Trauerspiel</rdaed:P20312>
+      <rdaed:P20312>Die Plebejer proben den Aufstand</rdaed:P20312>
+      <rdaed:P20312>Die Plebejer proben den Aufstand : ein deutsches Trauerspiel ; mit einem Essay und einem Gespräch</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/315945070"/>
@@ -5952,17 +5921,16 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/315945070/spa/1020">
       <rdaed:P20316>Die Plebejer proben den Aufstand</rdaed:P20316>
-      <rdaed:P20312>Los plebeyos ensayan la rebelión</rdaed:P20312>
+      <rdaed:P20312>Los plebeyos ensayan la rebelión : (Una tragedia alemana)</rdaed:P20312>
       <rdfs:label>Los plebeyos ensayan la rebelión / spa / text</rdfs:label>
       <rdaed:P20315>Los plebeyos ensayan la revolución</rdaed:P20315>
-      <rdaed:P20316>Los plebeyos ensayan la revolución</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/315945070"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/315945070/swe/1020">
       <rdaed:P20316>Die Plebejer proben den Aufstand</rdaed:P20316>
-      <rdaed:P20312>Plebejerna repeterar upproret</rdaed:P20312>
+      <rdaed:P20312>Plebejerna repeterar upproret : Ett tyskt sorgespel</rdaed:P20312>
       <rdfs:label>Plebejerna repeterar upproret / swe / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/swe"/>
@@ -5970,7 +5938,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/316730448/ger/1020">
       <rdaed:P20316>Gestern, vor 50 Jahren</rdaed:P20316>
-      <rdaed:P20312>Gestern, vor 50 Jahren</rdaed:P20312>
+      <rdaed:P20312>Gestern, vor 50 Jahren : ein deutsch-japanischer Briefwechsel</rdaed:P20312>
       <rdfs:label>Gestern, vor 50 Jahren / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5988,7 +5956,7 @@
       <rdaed:P20316>Hochwasser</rdaed:P20316>
       <rdaed:P20312>La crue</rdaed:P20312>
       <rdfs:label>La crue / ger / text</rdfs:label>
-      <rdaed:P20312>Hochwasser</rdaed:P20312>
+      <rdaed:P20312>Hochwasser : Ein Stück in 2 Akten</rdaed:P20312>
       <rdfs:label>Hochwasser / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -5996,7 +5964,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/474145858185123022532/cze/1020">
       <rdaed:P20316>Die bösen Köche</rdaed:P20316>
-      <rdaed:P20312>Zlí kuchaři</rdaed:P20312>
+      <rdaed:P20312>Zlí kuchaři : drama o 5 dějstvích</rdaed:P20312>
       <rdfs:label>Zlí kuchaři / cze / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/cze"/>
@@ -6004,15 +5972,16 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/474145858185123022532/ger/1020">
       <rdaed:P20316>Die bösen Köche</rdaed:P20316>
-      <rdaed:P20312>Die bösen Köche</rdaed:P20312>
+      <rdaed:P20312>Die bösen Köche : ein Drama in fünf Akten</rdaed:P20312>
       <rdfs:label>Die bösen Köche / ger / text</rdfs:label>
+      <rdaed:P20312>Die bösen Köche : e. Drama in 5 Akten</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/474145858185123022532"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/6036159477877227990007/ger/1014/1020">
       <rdaed:P20316>Fünf Jahrzehnte</rdaed:P20316>
-      <rdaed:P20312>Fünf Jahrzehnte</rdaed:P20312>
+      <rdaed:P20312>Fünf Jahrzehnte : ein Werkstattbericht</rdaed:P20312>
       <rdfs:label>Fünf Jahrzehnte / ger / text / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
@@ -6021,7 +5990,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/6036159477877227990007/ger/1020">
       <rdaed:P20316>Fünf Jahrzehnte</rdaed:P20316>
-      <rdaed:P20312>Fünf Jahrzehnte</rdaed:P20312>
+      <rdaed:P20312>Fünf Jahrzehnte : ein Werkstattbericht</rdaed:P20312>
       <rdfs:label>Fünf Jahrzehnte / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -6029,7 +5998,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/6036159477877227990007/spa/1020/22322043/305872623">
       <rdaed:P20316>Fünf Jahrzehnte</rdaed:P20316>
-      <rdaed:P20312>Cinco decenios</rdaed:P20312>
+      <rdaed:P20312>Cinco decenios : informe de taller</rdaed:P20312>
       <rdfs:label>Cinco decenios / spa / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -6039,7 +6008,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/61606726/diedanzigertrilogievonguntergrass/ger/1020">
       <rdaed:P20316>Die "Danziger Trilogie" von Günter Grass</rdaed:P20316>
-      <rdaed:P20312>Die "Danziger Trilogie" von Günter Grass</rdaed:P20312>
+      <rdaed:P20312>Die "Danziger Trilogie" von Günter Grass : Texte, Daten, Bilder</rdaed:P20312>
       <rdfs:label>Die "Danziger Trilogie" von Günter Grass / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -6047,15 +6016,17 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/61606726/guntergrassdieblechtrommel/ger/1020">
       <rdaed:P20316>Günter Grass, Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>Günter Grass, Die Blechtrommel</rdaed:P20312>
+      <rdaed:P20312>Günter Grass, Die Blechtrommel : Interpretation</rdaed:P20312>
       <rdfs:label>Günter Grass, Die Blechtrommel / ger / text</rdfs:label>
+      <rdaed:P20312>Günter Grass - Die Blechtrommel : Kommentar und Materialien</rdaed:P20312>
+      <rdaed:P20312>Günter Grass, Die Blechtrommel</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/61606726/guntergrassdieblechtrommel"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/61606726/guntergrasshundejahre/ger/1020">
       <rdaed:P20316>Günter Grass - Hundejahre</rdaed:P20316>
-      <rdaed:P20312>Günter Grass - Hundejahre</rdaed:P20312>
+      <rdaed:P20312>Günter Grass - Hundejahre : Kommentar und Materialien</rdaed:P20312>
       <rdfs:label>Günter Grass - Hundejahre / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -6063,7 +6034,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/61606726/guntergrasskatzundmaus/ger/1020">
       <rdaed:P20316>Günter Grass - Katz und Maus</rdaed:P20316>
-      <rdaed:P20312>Günter Grass - Katz und Maus</rdaed:P20312>
+      <rdaed:P20312>Günter Grass - Katz und Maus : Kommentar und Materialien</rdaed:P20312>
       <rdfs:label>Günter Grass - Katz und Maus / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -6079,7 +6050,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/6194148269702405230001/ger/1013/102319859">
       <rdaed:P20316>Grimms Wörter</rdaed:P20316>
-      <rdaed:P20312>Grimms Wörter</rdaed:P20312>
+      <rdaed:P20312>Grimms Wörter : eine Liebeserklärung</rdaed:P20312>
       <rdfs:label>Grimms Wörter / ger / spoken word</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -6108,34 +6079,37 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/6194148269702405230001/ger/1020">
       <rdaed:P20316>Grimms Wörter</rdaed:P20316>
-      <rdaed:P20312>Grimms Wörter</rdaed:P20312>
+      <rdaed:P20312>Grimms Wörter : eine Liebserklärung</rdaed:P20312>
       <rdfs:label>Grimms Wörter / ger / text</rdfs:label>
+      <rdaed:P20312>Grimms Wörter : eine Liebeserklärung</rdaed:P20312>
+      <rdaed:P20312>Grimms Wörter</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/6194148269702405230001"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/6694158070654408780004/ger/1020">
       <rdaed:P20316>Onkel, Onkel</rdaed:P20316>
-      <rdaed:P20312>Onkel, Onkel</rdaed:P20312>
+      <rdaed:P20312>Onkel, Onkel : Ein Spiel in 4 Akten</rdaed:P20312>
       <rdfs:label>Onkel, Onkel / ger / text</rdfs:label>
+      <rdaed:P20312>Onkel, Onkel : e. Spiel in 4 Akten</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/6694158070654408780004"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/8110148523918320970008/ger/1020">
       <rdaed:P20316>Rede vom Verlust</rdaed:P20316>
-      <rdaed:P20312>Rede vom Verlust</rdaed:P20312>
+      <rdaed:P20312>Rede vom Verlust : über den Niedergang der politischen Kultur im geeinten Deutschland</rdaed:P20312>
       <rdfs:label>Rede vom Verlust / ger / text</rdfs:label>
+      <rdaed:P20312>Rede vom Verlust</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/8110148523918320970008"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/8110148523918320970008/nob/1020/stefansenarnt">
       <rdaed:P20316>Rede vom Verlust</rdaed:P20316>
-      <rdaed:P20312>Tale om det tapte</rdaed:P20312>
+      <rdaed:P20312>Tale om det tapte : om forfallet i den politiske kultur i det forente Tyskland</rdaed:P20312>
       <rdfs:label>Tale om det tapte / nob / text</rdfs:label>
       <rdaed:P20315>Tale om det tapte: om forfallet i den politiske kultur i det forente Tyskland</rdaed:P20315>
-      <rdaed:P20316>Tale om det tapte: om forfallet i den politiske kultur i det forente Tyskland</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://example.org/stefansenarnt"/>
@@ -6143,7 +6117,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/8110148523918320970008/spa/1020">
       <rdaed:P20316>Rede vom Verlust</rdaed:P20316>
-      <rdaed:P20312>Discurso de la pérdida</rdaed:P20312>
+      <rdaed:P20312>Discurso de la pérdida : sobre el declinar de la cultura política en la Alemania unida</rdaed:P20312>
       <rdfs:label>Discurso de la pérdida / spa / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -6159,7 +6133,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/9468156012423449700000/ger/1014/1020">
       <rdaed:P20316>Lyrische Beute</rdaed:P20316>
-      <rdaed:P20312>Lyrische Beute</rdaed:P20312>
+      <rdaed:P20312>Lyrische Beute : Gedichte und Zeichnungen aus fünfzig Jahren</rdaed:P20312>
       <rdfs:label>Lyrische Beute / ger / text / still image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
@@ -6168,7 +6142,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/9468156012423449700000/ger/1020">
       <rdaed:P20316>Lyrische Beute</rdaed:P20316>
-      <rdaed:P20312>Lyrische Beute</rdaed:P20312>
+      <rdaed:P20312>Lyrische Beute : Gedichte und Zeichnungen aus fünfzig Jahren</rdaed:P20312>
       <rdfs:label>Lyrische Beute / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -6176,7 +6150,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/9468156012423449700000/spa/1020/22322043/305872623">
       <rdaed:P20316>Lyrische Beute</rdaed:P20316>
-      <rdaed:P20312>Lírico botín</rdaed:P20312>
+      <rdaed:P20312>Lírico botín : poema y dibujos de cincuenta años</rdaed:P20312>
       <rdfs:label>Lírico botín / spa / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -6189,7 +6163,6 @@
       <rdaed:P20312>Too far afield</rdaed:P20312>
       <rdfs:label>Too far afield / eng / text</rdfs:label>
       <rdaed:P20315>Too Far Afield</rdaed:P20315>
-      <rdaed:P20316>Too Far Afield</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/44856030"/>
@@ -6214,8 +6187,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q1254354/ger/1020">
       <rdaed:P20316>Ein weites Feld</rdaed:P20316>
-      <rdaed:P20312>Ein weites Feld</rdaed:P20312>
+      <rdaed:P20312>Ein weites Feld : Roman</rdaed:P20312>
       <rdfs:label>Ein weites Feld / ger / text</rdfs:label>
+      <rdaed:P20312>Ein weites Feld</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q1254354"/>
@@ -6225,7 +6199,6 @@
       <rdaed:P20312>En lang historie</rdaed:P20312>
       <rdfs:label>En lang historie / nob / text</rdfs:label>
       <rdaed:P20315>En lang historie</rdaed:P20315>
-      <rdaed:P20316>En lang historie</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -6236,7 +6209,6 @@
       <rdaed:P20312>Es cuento largo</rdaed:P20312>
       <rdfs:label>Es cuento largo / spa / text</rdfs:label>
       <rdaed:P20315>Es cuento largo</rdaed:P20315>
-      <rdaed:P20316>Es cuento largo</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -6248,7 +6220,6 @@
       <rdaed:P20312>Crabwalk</rdaed:P20312>
       <rdfs:label>Crabwalk / eng / text</rdfs:label>
       <rdaed:P20315>Crabwalk</rdaed:P20315>
-      <rdaed:P20316>Crabwalk</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/44856030"/>
@@ -6265,18 +6236,18 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q1460598/ger/1020">
       <rdaed:P20316>Im Krebsgang</rdaed:P20316>
-      <rdaed:P20312>Im Krebsgang</rdaed:P20312>
+      <rdaed:P20312>Im Krebsgang : eine Novelle</rdaed:P20312>
       <rdfs:label>Im Krebsgang / ger / text</rdfs:label>
+      <rdaed:P20312>Im Krebsgang</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q1460598"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q1460598/nob/1020/66142208">
       <rdaed:P20316>Im Krebsgang</rdaed:P20316>
-      <rdaed:P20312>I krabbegang</rdaed:P20312>
+      <rdaed:P20312>I krabbegang : en novelle</rdaed:P20312>
       <rdfs:label>I krabbegang / nob / text</rdfs:label>
       <rdaed:P20315>I krabbegang</rdaed:P20315>
-      <rdaed:P20316>I krabbegang</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -6287,7 +6258,6 @@
       <rdaed:P20312>A paso de cangrejo</rdaed:P20312>
       <rdfs:label>A paso de cangrejo / spa / text</rdfs:label>
       <rdaed:P20315>A paso de cangrejo</rdaed:P20315>
-      <rdaed:P20316>A paso de cangrejo</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -6298,6 +6268,8 @@
       <rdaed:P20316>Die Vorzüge der Windhühner</rdaed:P20316>
       <rdaed:P20312>Die Vorzüge der Windhühner</rdaed:P20312>
       <rdfs:label>Die Vorzüge der Windhühner / ger / text</rdfs:label>
+      <rdaed:P20312>Die Vorzüge der Windhühner : [Gedichte und Zeichnungen]</rdaed:P20312>
+      <rdaed:P20312>Die Vorzüge der Windhühner : Gedichte</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q15805843"/>
@@ -6367,6 +6339,7 @@
       <rdaed:P20316>Örtlich betäubt</rdaed:P20316>
       <rdaed:P20312>Plaatselijk verdoofd</rdaed:P20312>
       <rdfs:label>Plaatselijk verdoofd / dut / text</rdfs:label>
+      <rdaed:P20312>Plaatselijk verdoofd : roman</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dut"/>
       <rdaeo:P20037 rdf:resource="http://example.org/schuurkaspersc"/>
@@ -6379,7 +6352,6 @@
       <rdaed:P20312>Local anaesthetie</rdaed:P20312>
       <rdfs:label>Local anaesthetie / eng / text</rdfs:label>
       <rdaed:P20315>Local Anaesthetic</rdaed:P20315>
-      <rdaed:P20316>Local Anaesthetic</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q6663949"/>
@@ -6389,7 +6361,6 @@
       <rdaed:P20312>Anestesia local</rdaed:P20312>
       <rdfs:label>Anestesia local / eng / text</rdfs:label>
       <rdaed:P20315>Local Anaesthetic</rdaed:P20315>
-      <rdaed:P20316>Local Anaesthetic</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/30910939"/>
@@ -6400,7 +6371,6 @@
       <rdaed:P20312>Local Anaesthetic</rdaed:P20312>
       <rdfs:label>Local Anaesthetic / eng / text</rdfs:label>
       <rdaed:P20315>Local Anaesthetic</rdaed:P20315>
-      <rdaed:P20316>Local Anaesthetic</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -6416,7 +6386,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q6663949/fre/1020/amslerjean">
       <rdaed:P20316>Örtlich betäubt</rdaed:P20316>
-      <rdaed:P20312>Anesthésie locale</rdaed:P20312>
+      <rdaed:P20312>Anesthésie locale : Roman</rdaed:P20312>
       <rdfs:label>Anesthésie locale / fre / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
@@ -6425,8 +6395,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q6663949/ger/1020">
       <rdaed:P20316>Örtlich Betäubt</rdaed:P20316>
-      <rdaed:P20312>Örtlich Betäubt</rdaed:P20312>
+      <rdaed:P20312>Örtlich Betäubt : Roman</rdaed:P20312>
       <rdfs:label>Örtlich Betäubt / ger / text</rdfs:label>
+      <rdaed:P20312>örtlich betäubt</rdaed:P20312>
+      <rdaed:P20312>Örtlich betäubt : Günter Grass liest aus seinem Roman</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q6663949"/>
@@ -6441,10 +6413,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q6663949/nob/1020/nedreaastorborg/njaaakselbull">
       <rdaed:P20316>Örtlich Betäubt</rdaed:P20316>
-      <rdaed:P20312>Lokalbedøvet</rdaed:P20312>
+      <rdaed:P20312>Lokalbedøvet : roman</rdaed:P20312>
       <rdfs:label>Lokalbedøvet / nob / text</rdfs:label>
       <rdaed:P20315>Lokalbedøvet</rdaed:P20315>
-      <rdaed:P20316>Lokalbedøvet</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://example.org/njaaakselbull"/>
@@ -6453,10 +6424,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q6663949/nob/1020/nedreaastorborg/njaakselbull">
       <rdaed:P20316>Örtlich Betäubt</rdaed:P20316>
-      <rdaed:P20312>Lokalbedøvet</rdaed:P20312>
+      <rdaed:P20312>Lokalbedøvet : Roman</rdaed:P20312>
       <rdfs:label>Lokalbedøvet / nob / text</rdfs:label>
       <rdaed:P20315>Lokalbedøvet</rdaed:P20315>
-      <rdaed:P20316>Lokalbedøvet</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://example.org/njaakselbull"/>
@@ -6492,7 +6462,6 @@
       <rdaed:P20312>Anestesia local</rdaed:P20312>
       <rdfs:label>Anestesia local / spa / text</rdfs:label>
       <rdaed:P20315>Anestasia local</rdaed:P20315>
-      <rdaed:P20316>Anestasia local</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/30910939"/>
@@ -6503,7 +6472,6 @@
       <rdaed:P20312>The rat</rdaed:P20312>
       <rdfs:label>The rat / eng / text</rdfs:label>
       <rdaed:P20315>The Rat</rdaed:P20315>
-      <rdaed:P20316>The Rat</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
@@ -6511,10 +6479,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q765047/fre/1020">
       <rdaed:P20316>Die Rättin</rdaed:P20316>
-      <rdaed:P20312>La Ratte</rdaed:P20312>
+      <rdaed:P20312>La Ratte : roman</rdaed:P20312>
       <rdfs:label>La Ratte / fre / text</rdfs:label>
       <rdaed:P20315>La Ratte</rdaed:P20315>
-      <rdaed:P20316>La Ratte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q765047"/>
@@ -6523,6 +6490,9 @@
       <rdaed:P20316>Die Rättin</rdaed:P20316>
       <rdaed:P20312>Die Rättin</rdaed:P20312>
       <rdfs:label>Die Rättin / ger / text</rdfs:label>
+      <rdaed:P20312>Die Rättin : Roman</rdaed:P20312>
+      <rdaed:P20312>Die Rättin : 3 Radierungen u.e. Gedicht</rdaed:P20312>
+      <rdaed:P20312>Die Rättin : Kapitel 1,4 und 12</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q765047"/>
@@ -6541,7 +6511,6 @@
       <rdaed:P20312>Rottinnen</rdaed:P20312>
       <rdfs:label>Rottinnen / nob / text</rdfs:label>
       <rdaed:P20315>Rottinnen</rdaed:P20315>
-      <rdaed:P20316>Rottinnen</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -6561,7 +6530,6 @@
       <rdaed:P20312>La ratesa</rdaed:P20312>
       <rdfs:label>La ratesa / spa / text</rdfs:label>
       <rdaed:P20315>La ratesa</rdaed:P20315>
-      <rdaed:P20316>La ratesa</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -6572,7 +6540,6 @@
       <rdaed:P20312>La Ratesa</rdaed:P20312>
       <rdfs:label>La Ratesa / spa / text</rdfs:label>
       <rdaed:P20315>La ratesa</rdaed:P20315>
-      <rdaed:P20316>La ratesa</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -6584,7 +6551,6 @@
       <rdaed:P20312>La ratesa</rdaed:P20312>
       <rdfs:label>La ratesa / spa / text</rdfs:label>
       <rdaed:P20315>La ratesa</rdaed:P20315>
-      <rdaed:P20316>La ratesa</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -6605,7 +6571,6 @@
       <rdaed:P20312>Peeling the onion</rdaed:P20312>
       <rdfs:label>Peeling the onion / eng / text</rdfs:label>
       <rdaed:P20315>Peeling the Onion</rdaed:P20315>
-      <rdaed:P20316>Peeling the Onion</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q814761"/>
@@ -6631,6 +6596,9 @@
       <rdaed:P20316>Beim Häuten der Zwiebel</rdaed:P20316>
       <rdaed:P20312>Beim Häuten der Zwiebel</rdaed:P20312>
       <rdfs:label>Beim Häuten der Zwiebel / ger / text</rdfs:label>
+      <rdaed:P20312>Beim Häuten der Zwiebel : Vorzugsausgabe 2 - Zwiebel mit Messer</rdaed:P20312>
+      <rdaed:P20312>Beim Häuten der Zwiebel : Vorzugsausgabe 1 - Geteilte Zwiebel</rdaed:P20312>
+      <rdaed:P20312>Beim Häuten der Zwiebel : Vorzugsausgabe 3 - Zwiebel mit Aussicht</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q814761"/>
@@ -6640,7 +6608,6 @@
       <rdaed:P20312>Når løken skrelles</rdaed:P20312>
       <rdfs:label>Når løken skrelles / nob / text</rdfs:label>
       <rdaed:P20315>Når løken skrelles</rdaed:P20315>
-      <rdaed:P20316>Når løken skrelles</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -6651,8 +6618,8 @@
       <rdaed:P20316>Beim Häuten der Zwiebel</rdaed:P20316>
       <rdaed:P20312>Pelando la cebolla</rdaed:P20312>
       <rdfs:label>Pelando la cebolla / spa / text</rdfs:label>
+      <rdaed:P20312>Pelando la cebolla : = Beim Häuten der Zwiebel &lt;span.&gt;</rdaed:P20312>
       <rdaed:P20315>Pelando la cebolla</rdaed:P20315>
-      <rdaed:P20316>Pelando la cebolla</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/22322043"/>
@@ -6670,7 +6637,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0078875/ger/spa/1020">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>El tambor de hojalata</rdaed:P20312>
+      <rdaed:P20312>El tambor de hojalata : Die Blechtrommel</rdaed:P20312>
       <rdfs:label>El tambor de hojalata / spa / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -6683,9 +6650,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0078875/mul/1023">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
-      <rdaed:P20312>El tambor de hojalata</rdaed:P20312>
+      <rdaed:P20312>El tambor de hojalata : = Die Blechtrommel = Le tambour</rdaed:P20312>
       <rdfs:label>El tambor de hojalata / mul / moving image</rdfs:label>
-      <rdaed:P20316>Le tambour</rdaed:P20316>
+      <rdaed:P20312>El tambor de hojalata : Le tambour</rdaed:P20312>
+      <rdaed:P20312>El tambor de hojalata : Die Blechtrommel</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
@@ -6696,7 +6664,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="https://www.imdb.com/title/tt0420289/mul/1023">
       <rdaed:P20316>Unkenrufe</rdaed:P20316>
-      <rdaed:P20312>Unkenrufe</rdaed:P20312>
+      <rdaed:P20312>Unkenrufe : der Film nach der Erzählung von Günter Grass</rdaed:P20312>
       <rdfs:label>Unkenrufe / mul / moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>

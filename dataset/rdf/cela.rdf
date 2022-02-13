@@ -1668,8 +1668,6 @@
    <rdac:C10006 rdf:about="http://example.org/vargasllosamario/litumaenlosandes/spa/1020">
       <rdaed:P20312>Lituma en los Andes</rdaed:P20312>
       <rdfs:label>Lituma en los Andes / spa / text / text</rdfs:label>
-      <rdaed:P20316>Lituma en los Andes</rdaed:P20316>
-      <rdaed:P20316>La cruz de San Andrés</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://example.org/vargasllosamario/litumaenlosandes"/>
@@ -1677,7 +1675,6 @@
    <rdac:C10006 rdf:about="http://viaf.org/viaf/14767431/sietepuntoscarpetovetnicos/spa/1020">
       <rdaed:P20312>Siete puntos carpetovetónicos</rdaed:P20312>
       <rdfs:label>Siete puntos carpetovetónicos / spa / text / text</rdfs:label>
-      <rdaed:P20316>Siete puntos carpetovetónicos</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/14767431/sietepuntoscarpetovetnicos"/>
@@ -1696,17 +1693,15 @@
       <rdfs:label>El bonito crimen del carabinero / spa / text / text</rdfs:label>
       <rdaed:P20312>El bonito crimen del carabinero y otras invenciones</rdaed:P20312>
       <rdfs:label>El bonito crimen del carabinero y otras invenciones / spa / text / text</rdfs:label>
-      <rdaed:P20316>El bonito crimen del carabinero</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/175431030"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/176439895/eng/1020/poltjohnhr">
       <rdaed:P20316>San Camilo 1936</rdaed:P20316>
-      <rdaed:P20312>San Camilo, 1936</rdaed:P20312>
+      <rdaed:P20312>San Camilo, 1936 : the eve, feast, and octave of St. Camillus of year 1936 in Madrid</rdaed:P20312>
       <rdfs:label>San Camilo, 1936 / eng / text / text</rdfs:label>
       <rdaed:P20315>San Camilo, 1936 : the Eve, Feast, and Octave of St. Camillus of the year 1936 in Madrid</rdaed:P20315>
-      <rdaed:P20316>San Camilo, 1936 : the Eve, Feast, and Octave of St. Camillus of the year 1936 in Madrid</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://example.org/poltjohnhr"/>
@@ -1724,9 +1719,9 @@
       <rdfs:label>Edición facsimilar del manuscrito de "San Camilo 1936" / spa / text / text</rdfs:label>
       <rdaed:P20312>Visperas, festividad y octava de San Camilo del año 1936 en Madrid</rdaed:P20312>
       <rdfs:label>Visperas, festividad y octava de San Camilo del año 1936 en Madrid / spa / text / text</rdfs:label>
-      <rdaed:P20312>San Camilo, 1936</rdaed:P20312>
+      <rdaed:P20312>San Camilo, 1936 : vísperas, festividad y octava de San Camilo del año 1936 en Madrid</rdaed:P20312>
       <rdfs:label>San Camilo, 1936 / spa / text / text</rdfs:label>
-      <rdaed:P20316>Oficio de tinieblas 5</rdaed:P20316>
+      <rdaed:P20312>San Camilo 1936</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/176439895"/>
@@ -1736,7 +1731,6 @@
       <rdaed:P20312>Pascual Duartes familie</rdaed:P20312>
       <rdfs:label>Pascual Duartes familie / text / text</rdfs:label>
       <rdaed:P20315>Pascual Duartes familie</rdaed:P20315>
-      <rdaed:P20316>Pascual Duartes familie</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/177039865"/>
@@ -1750,7 +1744,6 @@
       <rdaed:P20312>Pascual Duarte's Family</rdaed:P20312>
       <rdfs:label>Pascual Duarte's Family / eng / text / text</rdfs:label>
       <rdaed:P20315>The Family of Pascual Duarte</rdaed:P20315>
-      <rdaed:P20316>The Family of Pascual Duarte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/177039865"/>
@@ -1760,7 +1753,6 @@
       <rdaed:P20312>The Family of Pascual Duarte</rdaed:P20312>
       <rdfs:label>The Family of Pascual Duarte / eng / text / text</rdfs:label>
       <rdaed:P20315>The Family of Pascual Duarte</rdaed:P20315>
-      <rdaed:P20316>The Family of Pascual Duarte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://example.org/kerrigana"/>
@@ -1771,7 +1763,6 @@
       <rdaed:P20312>The family of Pascual Duarte</rdaed:P20312>
       <rdfs:label>The family of Pascual Duarte / eng / text / text</rdfs:label>
       <rdaed:P20315>The Family of Pascual Duarte</rdaed:P20315>
-      <rdaed:P20316>The Family of Pascual Duarte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://example.org/kerrigananthony"/>
@@ -1782,7 +1773,6 @@
       <rdaed:P20312>Ein Vagabund im Dienste Spaniens</rdaed:P20312>
       <rdfs:label>Ein Vagabund im Dienste Spaniens / ger / Text / text</rdfs:label>
       <rdaed:P20315>Die Familie von Pascual Duarte</rdaed:P20315>
-      <rdaed:P20316>Die Familie von Pascual Duarte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/enzenbergcarinavon"/>
@@ -1791,10 +1781,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/177039865/ger/1020/leisewitzgeorg">
       <rdaed:P20316>La familia de Pascual Duarte</rdaed:P20316>
-      <rdaed:P20312>Pascual Duartes Familie</rdaed:P20312>
+      <rdaed:P20312>Pascual Duartes Familie : roman</rdaed:P20312>
       <rdfs:label>Pascual Duartes Familie / ger / text / text</rdfs:label>
       <rdaed:P20315>Die Familie von Pascual Duarte</rdaed:P20315>
-      <rdaed:P20316>Die Familie von Pascual Duarte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/leisewitzgeorg"/>
@@ -1802,10 +1791,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/177039865/ger/1020/leisewitzgeorg/theilebruhnsgerda">
       <rdaed:P20316>La familia de Pascual Duarte</rdaed:P20316>
-      <rdaed:P20312>Pascual Duartes Familie</rdaed:P20312>
+      <rdaed:P20312>Pascual Duartes Familie : Roman</rdaed:P20312>
       <rdfs:label>Pascual Duartes Familie / ger / Text / text</rdfs:label>
+      <rdaed:P20312>Pascual Duartes Familie</rdaed:P20312>
       <rdaed:P20315>Die Familie von Pascual Duarte</rdaed:P20315>
-      <rdaed:P20316>Die Familie von Pascual Duarte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/leisewitzgeorg"/>
@@ -1814,10 +1803,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/177039865/ger/1020/leisewitzgeorge">
       <rdaed:P20316>La familia de Pascual Duarte</rdaed:P20316>
-      <rdaed:P20312>Pascual Duartes Familie</rdaed:P20312>
+      <rdaed:P20312>Pascual Duartes Familie : Roman</rdaed:P20312>
       <rdfs:label>Pascual Duartes Familie / ger / Text / text</rdfs:label>
       <rdaed:P20315>Die Familie von Pascual Duarte</rdaed:P20315>
-      <rdaed:P20316>Die Familie von Pascual Duarte</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/leisewitzgeorge"/>
@@ -1837,7 +1825,6 @@
       <rdaed:P20312>Pascual Duartes familie</rdaed:P20312>
       <rdfs:label>Pascual Duartes familie / nor / text / text</rdfs:label>
       <rdaed:P20315>Pascual Duartes familie</rdaed:P20315>
-      <rdaed:P20316>Pascual Duartes familie</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
@@ -1845,7 +1832,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/177039865/spa/1013/14767431">
       <rdaed:P20316>La familia de Pascual Duarte</rdaed:P20316>
-      <rdaed:P20312>Camilo José Cela lee "La familia de Pascual Duarte"</rdaed:P20312>
+      <rdaed:P20312>Camilo José Cela lee "La familia de Pascual Duarte" : versión íntegra</rdaed:P20312>
       <rdfs:label>Camilo José Cela lee "La familia de Pascual Duarte" / spa / Palabra hablada / spoken word</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -1858,12 +1845,13 @@
       <rdfs:label>La familia de Pascual Duarte / spa / text / text</rdfs:label>
       <rdaed:P20312>Edición facsimilar del manuscrito de "La familia de Pascual Duarte" y recuento de ediciones</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de "La familia de Pascual Duarte" y recuento de ediciones / spa / text / text</rdfs:label>
+      <rdaed:P20312>La familia de Pascual Duarte : Novela</rdaed:P20312>
       <rdaed:P20312>Camilo José Cela lee "La Familia de Pascual Duarte"</rdaed:P20312>
       <rdfs:label>Camilo José Cela lee "La Familia de Pascual Duarte" / spa / text / text</rdfs:label>
+      <rdaed:P20312>La familia de Pascual Duarte : edición facsimilar del manuscrito publicada con motivo de la concesión a su autor del premio Nobel de literatura</rdaed:P20312>
       <rdaed:P20312>La familio de Pascual Duarte</rdaed:P20312>
       <rdfs:label>La familio de Pascual Duarte / spa / text / text</rdfs:label>
-      <rdaed:P20316>Pabellón de reposo</rdaed:P20316>
-      <rdaed:P20316>Nuevas andanzas y desventuras de Lazarillo de Tormes</rdaed:P20316>
+      <rdaed:P20312>La familia de Pascual Duarte : Pabellón de reposo ; Nuevas andanzas y desventuras de Lazarillo de Tormes</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
@@ -1880,7 +1868,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/177039865/spa/1020/14767431">
       <rdaed:P20316>La familia de Pascual Duarte</rdaed:P20316>
-      <rdaed:P20312>Camilo José Cela lee "La familia de Pascual Duarte"</rdaed:P20312>
+      <rdaed:P20312>Camilo José Cela lee "La familia de Pascual Duarte" : : versión íntegra</rdaed:P20312>
       <rdfs:label>Camilo José Cela lee "La familia de Pascual Duarte" / spa / text / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -1892,7 +1880,6 @@
       <rdaed:P20312>Bikuben</rdaed:P20312>
       <rdfs:label>Bikuben / text / text</rdfs:label>
       <rdaed:P20315>Bikuben</rdaed:P20315>
-      <rdaed:P20316>Bikuben</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/66142208"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/178631752"/>
@@ -1902,7 +1889,6 @@
       <rdaed:P20312>La colmena</rdaed:P20312>
       <rdfs:label>La colmena / eng / text / text</rdfs:label>
       <rdaed:P20315>The Hive</rdaed:P20315>
-      <rdaed:P20316>The Hive</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/178631752"/>
@@ -1912,7 +1898,6 @@
       <rdaed:P20312>The hive</rdaed:P20312>
       <rdfs:label>The hive / eng / text / text</rdfs:label>
       <rdaed:P20315>The Hive</rdaed:P20315>
-      <rdaed:P20316>The Hive</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20037 rdf:resource="http://example.org/cohenjm"/>
@@ -1921,18 +1906,19 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/178631752/ger/1020">
       <rdaed:P20316>La colmena</rdaed:P20316>
-      <rdaed:P20312>Der Bienenkorb</rdaed:P20312>
+      <rdaed:P20312>Der Bienenkorb : La Colmena. Roman</rdaed:P20312>
       <rdfs:label>Der Bienenkorb / ger / text / text</rdfs:label>
+      <rdaed:P20312>Der Bienenkorb : Roman</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/178631752"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/178631752/ger/1020/theilebruhnsgerda">
       <rdaed:P20316>La colmena</rdaed:P20316>
-      <rdaed:P20312>Der Bienenkorb</rdaed:P20312>
+      <rdaed:P20312>Der Bienenkorb : Roman</rdaed:P20312>
       <rdfs:label>Der Bienenkorb / ger / Text / text</rdfs:label>
+      <rdaed:P20312>Der Bienenkorb : Roman = La colmena</rdaed:P20312>
       <rdaed:P20315>Der Bienenkorb</rdaed:P20315>
-      <rdaed:P20316>Der Bienenkorb</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/theilebruhnsgerda"/>
@@ -1942,13 +1928,10 @@
       <rdaed:P20316>La colmena</rdaed:P20316>
       <rdaed:P20312>La colmena</rdaed:P20312>
       <rdfs:label>La colmena / spa / text / text</rdfs:label>
+      <rdaed:P20312>La colmena : Pabellón de reposo ; La cucaña ; La rosa</rdaed:P20312>
       <rdaed:P20312>Edición facsimilar del manuscrito de "La colmena"</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de "La colmena" / spa / text / text</rdfs:label>
-      <rdaed:P20316>Mrs. Caldwell habla con su hijo</rdaed:P20316>
-      <rdaed:P20316>Pabellón de reposo</rdaed:P20316>
-      <rdaed:P20316>La cucaña</rdaed:P20316>
-      <rdaed:P20316>La rosa</rdaed:P20316>
-      <rdaed:P20316>Mazurca para dos muertos</rdaed:P20316>
+      <rdaed:P20312>La colmena : caminos muertos</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/178631752"/>
@@ -1957,6 +1940,7 @@
       <rdaed:P20316>Pabellón de reposo</rdaed:P20316>
       <rdaed:P20312>Pabellón de reposo</rdaed:P20312>
       <rdfs:label>Pabellón de reposo / spa / text / text</rdfs:label>
+      <rdaed:P20312>Pabellón de reposo : (Novela)</rdaed:P20312>
       <rdaed:P20312>Edición facsimilar del manuscrito de "Pabellón de reposo"</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de "Pabellón de reposo" / spa / text / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -1981,7 +1965,6 @@
       <rdaed:P20312>Viaje A La Alcarria</rdaed:P20312>
       <rdfs:label>Viaje A La Alcarria / eng / text / text</rdfs:label>
       <rdaed:P20315>Journey to the Alcarria</rdaed:P20315>
-      <rdaed:P20316>Journey to the Alcarria</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/181108754"/>
@@ -1991,7 +1974,6 @@
       <rdaed:P20312>Viaje a la Alcarria</rdaed:P20312>
       <rdfs:label>Viaje a la Alcarria / ger / Text / text</rdfs:label>
       <rdaed:P20315>Die Alcarria</rdaed:P20315>
-      <rdaed:P20316>Die Alcarria</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/181108754"/>
@@ -2001,7 +1983,6 @@
       <rdaed:P20312>Viaje a la Alcarria</rdaed:P20312>
       <rdfs:label>Viaje a la Alcarria / ger / Text / text</rdfs:label>
       <rdaed:P20315>Die Alcarria</rdaed:P20315>
-      <rdaed:P20316>Die Alcarria</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/moralhildegard"/>
@@ -2013,11 +1994,18 @@
       <rdfs:label>Las botas de siete leguas viaje a la alcarria / spa / text / text</rdfs:label>
       <rdaed:P20312>Viaje a la Alcarria</rdaed:P20312>
       <rdfs:label>Viaje a la Alcarria / spa / text / text</rdfs:label>
-      <rdaed:P20312>Cancionero de la Alcarria</rdaed:P20312>
+      <rdaed:P20312>Cancionero de la Alcarria : con los versos manuscritos y su transcripción</rdaed:P20312>
       <rdfs:label>Cancionero de la Alcarria / spa / text / text</rdfs:label>
+      <rdaed:P20312>Viaje a la Alcarria : con los versos manuscritos y su transcripción</rdaed:P20312>
+      <rdaed:P20312>Cancionero de la Alcarria</rdaed:P20312>
+      <rdaed:P20312>Viaje a la Alcarria : las botas de siete leguas</rdaed:P20312>
+      <rdaed:P20312>Viaje a la Alcarria : [texto facsímil de la primera edición y fotografías del viaje]</rdaed:P20312>
+      <rdaed:P20312>Viaje a la Alcarria : Balada del vagabundo sin suerte y otros papeles volanderos ; El espejo y otros cuentos ; Esas nubes que pasan ; La colmena</rdaed:P20312>
       <rdaed:P20312>Edición facsimilar del manuscrito de "Viaje a la Alcarria"</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de "Viaje a la Alcarria" / spa / text / text</rdfs:label>
-      <rdaed:P20316>Del Miño al Bidasoa</rdaed:P20316>
+      <rdaed:P20312>Las botas de siete leguas. Viaje a la Alcarria : Con los versos de su cancionero</rdaed:P20312>
+      <rdaed:P20312>Viaje a la Alcarria : con los versos de su cancionero, cada uno en su debido lugar</rdaed:P20312>
+      <rdaed:P20312>Las botas de siete leguas. Viaje a la Alcarria : Con los versos de su cancionero, cada uno en su debido lugar</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/181108754"/>
@@ -2027,27 +2015,24 @@
       <rdaed:P20312>Mazurka for two dead men</rdaed:P20312>
       <rdfs:label>Mazurka for two dead men / eng / text / text</rdfs:label>
       <rdaed:P20315>Mazurka for two dead men</rdaed:P20315>
-      <rdaed:P20316>Mazurka for two dead men</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/181460365"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/181460365/ger/1020">
       <rdaed:P20316>Mazurca para dos muertos</rdaed:P20316>
-      <rdaed:P20312>Mazurka für zwei Tote</rdaed:P20312>
+      <rdaed:P20312>Mazurka für zwei Tote : Roman</rdaed:P20312>
       <rdfs:label>Mazurka für zwei Tote / ger / Text / text</rdfs:label>
       <rdaed:P20315>Mazurka für zwei Tote</rdaed:P20315>
-      <rdaed:P20316>Mazurka für zwei Tote</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/181460365"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/181460365/ger/1020/enzenbergcarinavon/zahnhartmut">
       <rdaed:P20316>Mazurca para dos muertos</rdaed:P20316>
-      <rdaed:P20312>Mazurka für zwei Tote</rdaed:P20312>
+      <rdaed:P20312>Mazurka für zwei Tote : Roman</rdaed:P20312>
       <rdfs:label>Mazurka für zwei Tote / ger / Text / text</rdfs:label>
       <rdaed:P20315>Mazurka für zwei Tote</rdaed:P20315>
-      <rdaed:P20316>Mazurka für zwei Tote</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/enzenbergcarinavon"/>
@@ -2060,7 +2045,6 @@
       <rdfs:label>Mazurca para dos muertos / spa / text / text</rdfs:label>
       <rdaed:P20312>Edición facsimilar del manuscrito de "Mazurca para dos muertos"</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de "Mazurca para dos muertos" / spa / text / text</rdfs:label>
-      <rdaed:P20316>Cristo versus Arizona</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/181460365"/>
@@ -2068,7 +2052,6 @@
    <rdac:C10006 rdf:about="http://viaf.org/viaf/184746026/spa/1020">
       <rdaed:P20312>Santa Balbina, 37, gas en cada piso</rdaed:P20312>
       <rdfs:label>Santa Balbina, 37, gas en cada piso / spa / text / text</rdfs:label>
-      <rdaed:P20316>El bonito crimen del carabinero</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/184746026"/>
@@ -2078,7 +2061,6 @@
       <rdaed:P20312>Mrs. Caldwell speaks to her son</rdaed:P20312>
       <rdfs:label>Mrs. Caldwell speaks to her son / eng / text / text</rdfs:label>
       <rdaed:P20315>Mrs. Caldwell speaks to her son</rdaed:P20315>
-      <rdaed:P20316>Mrs. Caldwell speaks to her son</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -2086,10 +2068,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185952526/ger/1020/theilebruhnsgerda">
       <rdaed:P20316>Mrs Caldwell habla con su hijo</rdaed:P20316>
-      <rdaed:P20312>Mrs Caldwell spricht mit ihrem Sohn</rdaed:P20312>
+      <rdaed:P20312>Mrs Caldwell spricht mit ihrem Sohn : Roman</rdaed:P20312>
       <rdfs:label>Mrs Caldwell spricht mit ihrem Sohn / ger / Text / text</rdfs:label>
       <rdaed:P20315>Mrs Caldwell spricht mit ihrem Sohn</rdaed:P20315>
-      <rdaed:P20316>Mrs Caldwell spricht mit ihrem Sohn</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/theilebruhnsgerda"/>
@@ -2117,12 +2098,11 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/204615683/spa/1020">
       <rdaed:P20316>Nuevas andanzas y desventuras de Lazarillo de Tormes</rdaed:P20316>
-      <rdaed:P20312>Nuevas andanzas y desventuras de Lazarillo de Tormes</rdaed:P20312>
+      <rdaed:P20312>Nuevas andanzas y desventuras de Lazarillo de Tormes : El gallego y su cuadrilla y otros relatos extraordinarios</rdaed:P20312>
       <rdfs:label>Nuevas andanzas y desventuras de Lazarillo de Tormes / spa / text / text</rdfs:label>
+      <rdaed:P20312>Nuevas andanzas y desventuras de Lazarillo de Tormes</rdaed:P20312>
       <rdaed:P20312>Edición facsimilar del manuscrito de "Nuevas andanzas y desventuras de Lazarillo de Tormes"</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de "Nuevas andanzas y desventuras de Lazarillo de Tormes" / spa / text / text</rdfs:label>
-      <rdaed:P20316>El gallego y su cuadrilla y otros relatos extraordinarios</rdaed:P20316>
-      <rdaed:P20316>Siete puntos carpetovetónicos</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/204615683"/>
@@ -2156,7 +2136,6 @@
       <rdaed:P20312>Gavilla de fábulas sin amor</rdaed:P20312>
       <rdfs:label>Gavilla de fábulas sin amor / ger / Text / text / unbewegtes Bild / still image</rdfs:label>
       <rdaed:P20315>Geschichten ohne Liebe</rdaed:P20315>
-      <rdaed:P20316>Geschichten ohne Liebe</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -2167,7 +2146,6 @@
       <rdaed:P20312>Geschichten ohne Liebe</rdaed:P20312>
       <rdfs:label>Geschichten ohne Liebe / ger / Text / text</rdfs:label>
       <rdaed:P20315>Geschichten ohne Liebe</rdaed:P20315>
-      <rdaed:P20316>Geschichten ohne Liebe</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/309337537"/>
@@ -2178,7 +2156,6 @@
       <rdaed:P20312>Geschichten ohne Liebe</rdaed:P20312>
       <rdfs:label>Geschichten ohne Liebe / ger / text / text</rdfs:label>
       <rdaed:P20315>Geschichten ohne Liebe</rdaed:P20315>
-      <rdaed:P20316>Geschichten ohne Liebe</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20037 rdf:resource="http://example.org/spechtrainer"/>
@@ -2188,8 +2165,7 @@
       <rdaed:P20316>Gavilla de fábulas sin amor</rdaed:P20316>
       <rdaed:P20312>Gavilla de fábulas sin amor</rdaed:P20312>
       <rdfs:label>Gavilla de fábulas sin amor / spa / text / text</rdfs:label>
-      <rdaed:P20316>El solitario</rdaed:P20316>
-      <rdaed:P20316>Once cuentos de futbol</rdaed:P20316>
+      <rdaed:P20312>Gavilla de fábulas sin amor : El solitario ; Once cuentos de fútbol</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/309337537"/>
@@ -2214,6 +2190,7 @@
       <rdaed:P20316>Ávila</rdaed:P20316>
       <rdaed:P20312>Avila</rdaed:P20312>
       <rdfs:label>Avila / spa / text / text</rdfs:label>
+      <rdaed:P20312>Avila : guía turística</rdaed:P20312>
       <rdaed:P20312>Ávila</rdaed:P20312>
       <rdfs:label>Ávila / spa / text / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -2230,9 +2207,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/380145857926123020025/spa/1020">
       <rdaed:P20316>Toreo de salón. Farsa con acompañamiento de clamor y murga</rdaed:P20316>
-      <rdaed:P20312>Toreo de salón</rdaed:P20312>
+      <rdaed:P20312>Toreo de salón : farsa con acompañamiento de clamor y murga</rdaed:P20312>
       <rdfs:label>Toreo de salón / spa / text / text</rdfs:label>
-      <rdaed:P20316>Toreo de salón</rdaed:P20316>
+      <rdaed:P20312>Toreo de salón</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/380145857926123020025"/>
@@ -2241,6 +2218,8 @@
       <rdaed:P20316>Pisando la dudosa luz del día. Poemas de una adolescencia cruel</rdaed:P20316>
       <rdaed:P20312>Pisando la dudosa luz del día</rdaed:P20312>
       <rdfs:label>Pisando la dudosa luz del día / spa / text / text</rdfs:label>
+      <rdaed:P20312>Pisando la dudosa luz del día : (Poemas de una adolescencia crel)</rdaed:P20312>
+      <rdaed:P20312>[Pisando la dudosa luz del día] : Poemas de una adolescencia cruel</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/06"/>
@@ -2307,8 +2286,7 @@
       <rdaed:P20316>Cuaderno del Guadarrama</rdaed:P20316>
       <rdaed:P20312>Cuaderno del Guadarrama</rdaed:P20312>
       <rdfs:label>Cuaderno del Guadarrama / spa / text / text</rdfs:label>
-      <rdaed:P20316>Ávila</rdaed:P20316>
-      <rdaed:P20316>Judíos, moros y critianos</rdaed:P20316>
+      <rdaed:P20312>Cuaderno del Guadarrama : Ávila ; Judíos, moros y cristianos</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/14"/>
@@ -2349,9 +2327,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/20/spa/1020">
       <rdaed:P20316>El molino de viento</rdaed:P20316>
-      <rdaed:P20312>El molino de viento</rdaed:P20312>
+      <rdaed:P20312>El molino de viento : y otras novelas cortas</rdaed:P20312>
       <rdfs:label>El molino de viento / spa / text / text</rdfs:label>
-      <rdaed:P20316>El molino de viento y otras novelas cortas</rdaed:P20316>
+      <rdaed:P20312>El molino de viento</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/20"/>
@@ -2359,12 +2337,13 @@
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/21/spa/1020">
       <rdaed:P20316>La catira. Historias de Venezuela</rdaed:P20316>
       <rdaed:P20316>La catira</rdaed:P20316>
-      <rdaed:P20312>Historias de Venezuela</rdaed:P20312>
+      <rdaed:P20312>Historias de Venezuela : la catira</rdaed:P20312>
       <rdfs:label>Historias de Venezuela / spa / text / text</rdfs:label>
       <rdaed:P20312>La Catira</rdaed:P20312>
       <rdfs:label>La Catira / spa / text / text</rdfs:label>
       <rdaed:P20312>Edición facsimilar del manuscrito de la "La catira"</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de la "La catira" / spa / text / text</rdfs:label>
+      <rdaed:P20312>La Catira : historias de Venezuela</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/21"/>
@@ -2381,6 +2360,7 @@
       <rdaed:P20316>El molino de viento y otras novelas cortas</rdaed:P20316>
       <rdaed:P20312>El Molino de Viento Y Otras Novelas Cortas</rdaed:P20312>
       <rdfs:label>El Molino de Viento Y Otras Novelas Cortas / spa / text / text</rdfs:label>
+      <rdaed:P20312>El molino de viento y otras novelas cortas : Historias de España ; La familia del héroe ; El ciudadano Iscariote Reclús</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/23"/>
@@ -2390,8 +2370,11 @@
       <rdaed:P20316>Judíos, moros y cristianos</rdaed:P20316>
       <rdaed:P20312>Judíos, moros y cristianos</rdaed:P20312>
       <rdfs:label>Judíos, moros y cristianos / spa / text / text</rdfs:label>
-      <rdaed:P20312>Judios, moros y cristianos</rdaed:P20312>
+      <rdaed:P20312>Judios, moros y cristianos : Notas de un vagabundo por Avila, Segovia y sus tierras</rdaed:P20312>
       <rdfs:label>Judios, moros y cristianos / spa / text / text</rdfs:label>
+      <rdaed:P20312>Judios, moros y cristianos</rdaed:P20312>
+      <rdaed:P20312>Judios, moros y cristianos : Notas de un vagabundaje por Avila, Segovia y sus tierras</rdaed:P20312>
+      <rdaed:P20312>Judíos, moros y cristianos : Notas de un vagabundaje por Avila, Segovia y sus tierras</rdaed:P20312>
       <rdaed:P20312>Edición facsimilar del manuscrito de "Judíos, moros y cristianos"</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de "Judíos, moros y cristianos" / spa / text / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -2418,8 +2401,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/27/spa/1020">
       <rdaed:P20316>La obra literaria del pintor Solana</rdaed:P20316>
-      <rdaed:P20312>La obra literaria del pintor Solana</rdaed:P20312>
+      <rdaed:P20312>La obra literaria del pintor Solana : discurso leído ante la Real Academia Española el día 26 de mayo de 1957 en su recepción pública</rdaed:P20312>
       <rdfs:label>La obra literaria del pintor Solana / spa / text / text</rdfs:label>
+      <rdaed:P20312>La obra literaria del pintor Solana : discurso leído ante la Real Academia Española el día 26 de mayo de 1957</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/27"/>
@@ -2428,15 +2412,16 @@
       <rdaed:P20316>La rueda de los ocios</rdaed:P20316>
       <rdaed:P20312>La rueda de los ocios</rdaed:P20312>
       <rdfs:label>La rueda de los ocios / spa / text / text</rdfs:label>
-      <rdaed:P20316>Las compañías convenientes y otros fingimientos y cegueras</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/28"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/29/spa/1020">
       <rdaed:P20316>Nuevo retablo de don Cristobita. Invenciones, figuraciones y alucinaciones</rdaed:P20316>
-      <rdaed:P20312>Nuevo retablo de Don Cristobita</rdaed:P20312>
+      <rdaed:P20312>Nuevo retablo de Don Cristobita : invenciones, figuraciones y alucinaciones</rdaed:P20312>
       <rdfs:label>Nuevo retablo de Don Cristobita / spa / text / text</rdfs:label>
+      <rdaed:P20312>Nuevo retablo de Don Cristobita</rdaed:P20312>
+      <rdaed:P20312>Nuevo retablo de don Cristobita : Esas nubes que pasan ; El bonito crimen del carabinero y otros engaños y ofuscaciones ; Baraja de invenciones</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/29"/>
@@ -2453,16 +2438,16 @@
       <rdaed:P20316>Historias de España. Los ciegos. Los tontos</rdaed:P20316>
       <rdaed:P20312>Historias de Espana los ciegos-los tontos</rdaed:P20312>
       <rdfs:label>Historias de Espana los ciegos-los tontos / spa / text / text</rdfs:label>
-      <rdaed:P20312>Historias de España</rdaed:P20312>
+      <rdaed:P20312>Historias de España : los ciegos, los tontos</rdaed:P20312>
       <rdfs:label>Historias de España / spa / text / text</rdfs:label>
-      <rdaed:P20316>Los tontos</rdaed:P20316>
+      <rdaed:P20312>Historias de España</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/32"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/33/spa/1020">
       <rdaed:P20316>Encarnación Toledano o la perdición de los hombres</rdaed:P20316>
-      <rdaed:P20312>Encarnación toledano o la perdición de los hombres</rdaed:P20312>
+      <rdaed:P20312>Encarnación toledano o la perdición de los hombres : gavilla de pliegos de cordel</rdaed:P20312>
       <rdfs:label>Encarnación toledano o la perdición de los hombres / spa / text / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -2488,7 +2473,7 @@
       <rdfs:label>Edición facsimilar del manuscrito "Primer viaje andaluz" / spa / text / text</rdfs:label>
       <rdaed:P20312>Cela, vagabundo por el condado de Niebla</rdaed:P20312>
       <rdfs:label>Cela, vagabundo por el condado de Niebla / spa / text / text</rdfs:label>
-      <rdaed:P20316>Páginas de geografía errabunda</rdaed:P20316>
+      <rdaed:P20312>Primer viaje andaluz : notas de un vagabundaje por Jaén, Córdoba, Sevilla, Huelva y sus tierras</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/36"/>
@@ -2497,6 +2482,8 @@
       <rdaed:P20316>Los viejos amigos</rdaed:P20316>
       <rdaed:P20312>Los viejos amigos</rdaed:P20312>
       <rdfs:label>Los viejos amigos / spa / text / text</rdfs:label>
+      <rdaed:P20312>Los viejos amigos : Primera y segunda serie</rdaed:P20312>
+      <rdaed:P20312>Los viejos amigos : primera y segunda series</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/37"/>
@@ -2504,10 +2491,11 @@
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/38/spa/1020">
       <rdaed:P20316>Cuatro figuras del 98: Unamuno, Valle-Inclán, Baroja y Azorín</rdaed:P20316>
       <rdaed:P20316>Cuatro figuras del 98</rdaed:P20316>
-      <rdaed:P20312>Cuatro Figuras Del 98</rdaed:P20312>
+      <rdaed:P20312>Cuatro Figuras Del 98 : Unamuno, Valle Inclan, Baroja, Azorin Y Otros Retratos Y Ensayos Espanoles</rdaed:P20312>
       <rdfs:label>Cuatro Figuras Del 98 / spa / text / text</rdfs:label>
       <rdaed:P20312>Cuatro figuras del 98 y otros retratos y ensayos españoles</rdaed:P20312>
       <rdfs:label>Cuatro figuras del 98 y otros retratos y ensayos españoles / spa / text / text</rdfs:label>
+      <rdaed:P20312>Cuatro figuras del 98 : Unamuno, Valle Inclán, Baroja, Azorín y otros retratos y ensayos españoles</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/38"/>
@@ -2536,15 +2524,15 @@
       <rdfs:label>El solitario y los sueños de Quesada / spa / text / text</rdfs:label>
       <rdaed:P20312>El solitario</rdaed:P20312>
       <rdfs:label>El solitario / spa / text / text</rdfs:label>
-      <rdaed:P20316>Los Sueños de Quesada</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/42"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/43/spa/1020">
       <rdaed:P20316>Garito de hospicianos o guirigay de imposturas o bombollas</rdaed:P20316>
-      <rdaed:P20312>Garito de hospicianos</rdaed:P20312>
+      <rdaed:P20312>Garito de hospicianos : guirigay de imposturas y bambollas</rdaed:P20312>
       <rdfs:label>Garito de hospicianos / spa / text / text</rdfs:label>
+      <rdaed:P20312>Garito de hospicianos</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/43"/>
@@ -2559,8 +2547,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/47/spa/1020">
       <rdaed:P20316>Izas, rabizas y colipoterras. Drama con acompañamiento de cachondeo y dolor de corazón</rdaed:P20316>
-      <rdaed:P20312>Izas, rabizas y colipoterras</rdaed:P20312>
+      <rdaed:P20312>Izas, rabizas y colipoterras : drama con acompañamiento de cachondeo y dolor de corazón</rdaed:P20312>
       <rdfs:label>Izas, rabizas y colipoterras / spa / text / text</rdfs:label>
+      <rdaed:P20312>Izas, rabizas y colipoterras</rdaed:P20312>
+      <rdaed:P20312>Izas, rabizas y colipoterras : Toreo de salón ; Rol de cornudos ; La insólita y gloriosa hazaña del cipote de Archidona</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/47"/>
@@ -2575,8 +2565,17 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/50/spa/1020">
       <rdaed:P20316>Nuevas escenas matritenses</rdaed:P20316>
-      <rdaed:P20312>Nuevas escenas matritenses</rdaed:P20312>
+      <rdaed:P20312>Nuevas escenas matritenses : (cuarta serie)</rdaed:P20312>
       <rdfs:label>Nuevas escenas matritenses / spa / text / text</rdfs:label>
+      <rdaed:P20312>Nuevas escenas matritenses : (quinta serie)</rdaed:P20312>
+      <rdaed:P20312>Nuevas escenas matritenses : (sexta serie)</rdaed:P20312>
+      <rdaed:P20312>Nuevas escenas matritenses : (séptima serie)</rdaed:P20312>
+      <rdaed:P20312>Nuevas escenas matritenses : (primera serie)</rdaed:P20312>
+      <rdaed:P20312>Nuevas escenas matritenses : (segunda serie)</rdaed:P20312>
+      <rdaed:P20312>Nuevas escenas Matritenses : (tercera serie)</rdaed:P20312>
+      <rdaed:P20312>Nuevas escenas matritenses</rdaed:P20312>
+      <rdaed:P20312>Nuevas escenas matritenses : (siete series)</rdaed:P20312>
+      <rdaed:P20312>Nuevas escenas matritenses : Madrid</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/50"/>
@@ -2591,14 +2590,10 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/52/spa/1020">
       <rdaed:P20316>Viaje a U.S.A. o el que la sigue la mata</rdaed:P20316>
-      <rdaed:P20312>Viaje a U.S.A.;</rdaed:P20312>
+      <rdaed:P20312>Viaje a U.S.A.; : o El que la sigue la mata</rdaed:P20312>
       <rdfs:label>Viaje a U.S.A.; / spa / text / text</rdfs:label>
-      <rdaed:P20312>Viaje a U.S.A. o El que la sigue la mata</rdaed:P20312>
       <rdfs:label>Viaje a U.S.A. o El que la sigue la mata / spa / text / text</rdfs:label>
-      <rdaed:P20316>Que la sigue la mata</rdaed:P20316>
-      <rdaed:P20316>Viaje a U.S.A</rdaed:P20316>
-      <rdaed:P20316>El que la sigue la mata</rdaed:P20316>
-      <rdaed:P20316>Toreo de salón</rdaed:P20316>
+      <rdaed:P20312>Viaje a U.S.A</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/52"/>
@@ -2607,9 +2602,10 @@
       <rdaed:P20316>Viaje al Pirineo de Lérida</rdaed:P20316>
       <rdaed:P20312>Viaje al Pirineo de Lérida</rdaed:P20312>
       <rdfs:label>Viaje al Pirineo de Lérida / spa / text / text</rdfs:label>
+      <rdaed:P20312>Viaje al Pirineo de Lérida : Notas de una paseo a pie por el Pallars Sobirá, el Valle de Arán y el Condado de Ribagorza</rdaed:P20312>
+      <rdaed:P20312>Viaje al Pirineo de Lérida : notas de un paseo a pie por el Pallars Sobirà, el Valle de Arán y el Condado de Ribagorza</rdaed:P20312>
       <rdaed:P20312>Edición facsimilar del manuscrito de "Viaje al Pirineo de Lérida"</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de "Viaje al Pirineo de Lérida" / spa / text / text</rdfs:label>
-      <rdaed:P20316>Barcelona</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/53"/>
@@ -2634,7 +2630,6 @@
       <rdaed:P20316>Madrid. Calidoscopio callejero, marítimo y campestre de Camilo José Cela para el Reino y Ultramar</rdaed:P20316>
       <rdaed:P20312>Madrid</rdaed:P20312>
       <rdfs:label>Madrid / spa / text / text</rdfs:label>
-      <rdaed:P20316>Barcelona</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/55"/>
@@ -2643,7 +2638,7 @@
       <rdaed:P20316>María Sabina</rdaed:P20316>
       <rdaed:P20312>María Sabina</rdaed:P20312>
       <rdfs:label>María Sabina / spa / text / text</rdfs:label>
-      <rdaed:P20316>El carro de heno</rdaed:P20316>
+      <rdaed:P20312>María Sabina : El carro de heno o El inventor de la guillotina</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/56"/>
@@ -2660,7 +2655,6 @@
       <rdaed:P20316>Barcelona. Calidoscopio callejero, marítimo y campestre de Camilo José Cela para el Reino y Ultramar</rdaed:P20316>
       <rdaed:P20312>Barcelona</rdaed:P20312>
       <rdfs:label>Barcelona / spa / text / text</rdfs:label>
-      <rdaed:P20316>Barcelona</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/59"/>
@@ -2691,7 +2685,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://workid.oslomet.no/cjc/69/spa/1020">
       <rdaed:P20316>El tacatá oxidado. Florilegio de carpetovetonismos y otras lindezas</rdaed:P20316>
-      <rdaed:P20312>El tacatá oxidado</rdaed:P20312>
+      <rdaed:P20312>El tacatá oxidado : (Florilegio de carpetovetonismos y otras lindezas)</rdaed:P20312>
       <rdfs:label>El tacatá oxidado / spa / text / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -2701,7 +2695,7 @@
       <rdaed:P20316>La insólita y gloriosa hazaña del cipote de Archidona</rdaed:P20316>
       <rdaed:P20312>Crónica del cipote de Archidona</rdaed:P20312>
       <rdfs:label>Crónica del cipote de Archidona / spa / text / text</rdfs:label>
-      <rdaed:P20312>La insólita y gloriosa hazaña del cipote de Archidona</rdaed:P20312>
+      <rdaed:P20312>La insólita y gloriosa hazaña del cipote de Archidona : crónica del ejemplar suceso ... la cuentan ... Camilo José Cela ... y ... Alfonso Canales</rdaed:P20312>
       <rdfs:label>La insólita y gloriosa hazaña del cipote de Archidona / spa / text / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
@@ -2727,6 +2721,7 @@
       <rdaed:P20316>Los vasos comunicantes</rdaed:P20316>
       <rdaed:P20312>Los vasos comunicantes</rdaed:P20312>
       <rdfs:label>Los vasos comunicantes / spa / text / text</rdfs:label>
+      <rdaed:P20312>Los vasos comunicantes : ensayos, verdades y libertades</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/75"/>
@@ -2735,7 +2730,6 @@
       <rdaed:P20316>Vuelta de hoja</rdaed:P20316>
       <rdaed:P20312>Vuelta de hoja</rdaed:P20312>
       <rdfs:label>Vuelta de hoja / spa / text / text</rdfs:label>
-      <rdaed:P20316>Conversaciones españolas</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://workid.oslomet.no/cjc/76"/>
@@ -2917,6 +2911,8 @@
       <rdaed:P20316>Del Miño al Bidasoa</rdaed:P20316>
       <rdaed:P20312>Del Miño al Bidasoa</rdaed:P20312>
       <rdfs:label>Del Miño al Bidasoa / spa / text / text</rdfs:label>
+      <rdaed:P20312>Del Miño al Bidasoa : notas de un vagabundaje</rdaed:P20312>
+      <rdaed:P20312>Del Miño al Bidasoa : Notas de un vadabundaje</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q20548166"/>
@@ -2927,7 +2923,6 @@
       <rdfs:label>La cruz de San Andrés / spa / text / text</rdfs:label>
       <rdaed:P20312>Edición facsimilar del manuscrito de "La cruz de San Andrés"</rdaed:P20312>
       <rdfs:label>Edición facsimilar del manuscrito de "La cruz de San Andrés" / spa / text / text</rdfs:label>
-      <rdaed:P20316>Lituma en los Andes</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q24543140"/>

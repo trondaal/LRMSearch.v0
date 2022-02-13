@@ -2938,6 +2938,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/6481154923713263780009"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject agent"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/316794410"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/6594151656247108400008"
         },
         "p" : {
@@ -5047,63 +5066,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.example.org/48"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/48"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/48"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://www.example.org/49"
         },
         "p" : {
@@ -5118,1089 +5080,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/50"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/50"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/50"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/51"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/51"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/51"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/52"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/52"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/52"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/53"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/53"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/53"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/54"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/54"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/54"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/55"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/55"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/55"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/56"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/56"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/56"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/57"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/57"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/57"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/58"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/58"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/58"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/59"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/59"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/59"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/60"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/60"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/60"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/61"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/61"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/61"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/62"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/62"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/62"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/63"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/63"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/63"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/64"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/64"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/64"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/65"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/65"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/65"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/66"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/66"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/66"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/67"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/67"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/67"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/68"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/68"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/101734435"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/68"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/4926394"
         }
       },
       {
@@ -6358,348 +5237,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?118984"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/644247748"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?119105"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?119126"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?125766"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?1299326"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?1917653"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159225"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159227"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159228"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159229"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159230"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159231"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159234"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159236"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159238"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?2159241"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?764593"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://www.librarything.com/work/17526331"
         },
         "p" : {
@@ -6738,25 +5275,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1075800598"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/316794410"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/1098194452"
         },
         "p" : {
@@ -6771,63 +5289,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/98636170"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1113400313"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/316794410"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1118498694"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1157467302"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
         }
       },
       {
@@ -6941,7 +5402,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
+          "value" : "http://viaf.org/viaf/95218067"
         }
       },
       {
@@ -6985,25 +5446,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/297224053"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/30026810"
         },
         "p" : {
@@ -7018,25 +5460,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/54151065"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/425051537"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
         }
       },
       {
@@ -7169,7 +5592,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
+          "value" : "http://viaf.org/viaf/95218067"
         }
       },
       {
@@ -7555,215 +5978,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "https://example.org/escaping-into-ourselves"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/fairy-tales"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/fantasy"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/one-world"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/sometimes-fairy-stories-may-say-best-whats-to-be-said"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/tempest-in-a-looking-glass"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/the-fantastic-story"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/the-wizard-of-chitenango"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/to-wh-auden"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/tolkiens-magic-ring"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/wishful-thinking-or-hopeful-dreaming"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "https://hdl.handle.net/10037/1114"
         },
         "p" : {
@@ -7892,63 +6106,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/116796842"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.librarything.com/work/1157147"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.librarything.com/work/2266195"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.librarything.com/work/5253516"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10319"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject agent"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
         }
       },
       {
@@ -8119,7 +6276,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
+          "value" : "http://viaf.org/viaf/95218067"
         }
       },
       {
@@ -12723,25 +10880,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/316752098"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/186301504"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/1000"
         },
         "p" : {
@@ -13002,7 +11140,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/186704793"
+          "value" : "http://viaf.org/viaf/306062885"
         }
       },
       {
@@ -13401,7 +11539,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/185888925"
+          "value" : "http://viaf.org/viaf/184093601"
         }
       },
       {
@@ -13958,6 +12096,44 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?118984"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/184093601"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.isfdb.org/cgi-bin/title.cgi?118984"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://www.librarything.com/work/6036"
         },
         "p" : {
@@ -13991,25 +12167,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/219438842"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/1075800598"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
         }
       },
       {
@@ -14129,6 +12286,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/231137278"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/2713776"
         },
         "p" : {
@@ -14205,25 +12381,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://www.worldcat.org/oclc/35216868"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has subject work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://www.worldcat.org/oclc/489031260"
         },
         "p" : {
@@ -14257,6 +12414,44 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/219438842"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/5564489"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/184093601"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.worldcat.org/oclc/5564489"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545"
         }
       },
       {
@@ -14732,6 +12927,63 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/183065413"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://www.wikidata.org/wiki/Q83014"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/184093601"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://www.wikidata.org/wiki/Q83014"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/183065413"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "https://www.wikidata.org/wiki/Q83014"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10257"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "has subject work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545"
         }
       },
       {

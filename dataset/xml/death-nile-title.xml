@@ -2910,10 +2910,10 @@
             <marc:subfield code="b">illustrations, maps ;</marc:subfield>
             <marc:subfield code="c">25 cm</marc:subfield>
         </marc:datafield>
-        <!--<marc:datafield tag="336" ind1=" " ind2=" ">
+        <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">cartographic image</marc:subfield>
             <marc:subfield code="0">http://rdaregistry.info/termList/RDAContentType/1002</marc:subfield>
-        </marc:datafield>-->
+        </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">still image</marc:subfield>
             <marc:subfield code="0">http://rdaregistry.info/termList/RDAContentType/1014</marc:subfield>

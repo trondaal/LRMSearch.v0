@@ -348,7 +348,6 @@
       <rdaed:P20312>Mord på Nilen</rdaed:P20312>
       <rdfs:label>Mord på Nilen / nor / spoken word</rdfs:label>
       <rdaed:P20315>Mord på Nilen</rdaed:P20315>
-      <rdaed:P20316>Mord på Nilen</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
       <rdaeo:P20022 rdf:resource="http://viaf.org/viaf/226306913"/>
@@ -359,7 +358,6 @@
       <rdaed:P20316>Death on the Nile</rdaed:P20316>
       <rdaed:P20312>Mord på Nilen</rdaed:P20312>
       <rdfs:label>Mord på Nilen / nor / text</rdfs:label>
-      <rdaed:P20316>Hun fulgte efter</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/51776002"/>
@@ -374,7 +372,7 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/32225387/mynileodyssey/eng/1014/1020">
       <rdaed:P20316>My Nile odyssey</rdaed:P20316>
-      <rdaed:P20312>My Nile odyssey</rdaed:P20312>
+      <rdaed:P20312>My Nile odyssey : the life and death of a child labourer's rise to international leadership : a memoir</rdaed:P20312>
       <rdfs:label>My Nile odyssey / eng / still image / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -391,10 +389,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/3974161575638204730004/nor/1014/1020/72145970376732252972">
       <rdaed:P20316>Hercule Poirot : mort sur le Nil</rdaed:P20316>
-      <rdaed:P20312>Hercule Poirot</rdaed:P20312>
+      <rdaed:P20312>Hercule Poirot : mord på Nilen</rdaed:P20312>
       <rdfs:label>Hercule Poirot / nor / stillbilde / tekst</rdfs:label>
       <rdaed:P20315>Hercule Poirot : mord på Nilen</rdaed:P20315>
-      <rdaed:P20316>Hercule Poirot : mord på Nilen</rdaed:P20316>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
@@ -402,9 +399,19 @@
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/3974161575638204730004"/>
       <rdaeo:P20283 rdf:resource="http://viaf.org/viaf/54153530980048702386"/>
    </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/91236070/lifeanddeathonthenile/eng/1002/1014/1020">
+      <rdaed:P20316>Life and death on the Nile</rdaed:P20316>
+      <rdaed:P20312>Life and death on the Nile : a bioethnography of three ancient Nubian communities</rdaed:P20312>
+      <rdfs:label>Life and death on the Nile / eng / cartographic image / still image / text</rdfs:label>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1002"/>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile"/>
+   </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/91236070/lifeanddeathonthenile/eng/1014/1020">
       <rdaed:P20316>Life and death on the Nile</rdaed:P20316>
-      <rdaed:P20312>Life and death on the Nile</rdaed:P20312>
+      <rdaed:P20312>Life and death on the Nile : a bioethnography of three ancient Nubian communities</rdaed:P20312>
       <rdfs:label>Life and death on the Nile / eng / still image / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -438,8 +445,9 @@
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q214665/lovetheme/1010">
       <rdaed:P20316>Death on the Nile</rdaed:P20316>
-      <rdaed:P20312>Love theme from (the film) Death on the Nile. (Piano solo). By N. Rota</rdaed:P20312>
-      <rdfs:label>Love theme from (the film) Death on the Nile. (Piano solo). By N. Rota / notated music</rdfs:label>
+      <rdaed:P20312>Love theme from Death on the Nile. (Piano solo). By N. Rota</rdaed:P20312>
+      <rdfs:label>Love theme from Death on the Nile. (Piano solo). By N. Rota / notated music</rdfs:label>
+      <rdaed:P20315>Love theme from Death on the Nile (Piano solo)</rdaed:P20315>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1010"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q214665/lovetheme"/>
    </rdac:C10006>
@@ -463,7 +471,7 @@
       <rdamd:P30106>Fontana books-no.374</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/020088231">
-      <rdamd:P30156>Love theme from (the film) Death on the Nile. (Piano solo). By N. Rota</rdamd:P30156>
+      <rdamd:P30156>Love theme from Death on the Nile. (Piano solo). By N. Rota</rdamd:P30156>
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>EMI film and theatre music</rdamd:P30083>
       <rdamd:P30011>1978</rdamd:P30011>
@@ -498,7 +506,7 @@
       <rdaxd:P00018>IAN-8414906236463</rdaxd:P00018>
       <rdamd:P30004>IAN 8414906512277</rdamd:P30004>
       <rdaxd:P00018>IAN-8414906512277</rdaxd:P00018>
-      <rdamd:P30156>Muerte en el Nilo =</rdamd:P30156>
+      <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30142>Agatha Christie's Death on the Nile</rdamd:P30142>
       <rdamd:P30117>directed by John Guillermin ; produced by John Brabourne and Richard Goodwin ; screenplay by Anthony Schaffer ; music by Nino Rota</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
@@ -510,7 +518,7 @@
    <rdac:C10007 rdf:about="http://example.org/IAN-8414906512277">
       <rdamd:P30004>IAN 8414906512277</rdamd:P30004>
       <rdaxd:P00018>IAN-8414906512277</rdaxd:P00018>
-      <rdamd:P30156>Muerte en el Nilo =</rdamd:P30156>
+      <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>dirección, John Guillermin ; guión, Anthony Shaffer ; música, Nino Rota ; fotografía, Jack Cardiff ; produción, Paramount Pictures</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
@@ -522,7 +530,7 @@
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394410398">
       <rdamd:P30004>IAN 8421394410398</rdamd:P30004>
       <rdaxd:P00018>IAN-8421394410398</rdaxd:P00018>
-      <rdamd:P30156>Muerte en el Nilo =</rdamd:P30156>
+      <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>dirigida por John Guillermin ; producida por John Brabourne y Richard Goodwin ; guion de Anthony Shaffer ; música de Nino Rota</rdamd:P30117>
       <rdamd:P30088>Valladolid</rdamd:P30088>
@@ -546,7 +554,7 @@
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394550865">
       <rdamd:P30004>IAN 8421394550865</rdamd:P30004>
       <rdaxd:P00018>IAN-8421394550865</rdaxd:P00018>
-      <rdamd:P30156>Muerte en el Nilo =</rdamd:P30156>
+      <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>dirigida por John Guillermin ; producida por John Brabourne y Richard Goodwin ; guion de Anthony Shaffer ; música de Nino Rota</rdamd:P30117>
       <rdamd:P30088>Valladolid</rdamd:P30088>
@@ -1519,7 +1527,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile/eng/1014/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile/eng/1002/1014/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781405867795">
       <rdamd:P30004>ISBN 9781405867795</rdamd:P30004>
@@ -1869,6 +1877,9 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDACarrierType/1060">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDACarrierType/1060</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAContentType/1002">
+      <skos:subjectIndicator>http://rdaregistry.info/termList/RDAContentType/1002</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAContentType/1010">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDAContentType/1010</skos:subjectIndicator>
