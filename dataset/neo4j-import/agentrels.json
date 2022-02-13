@@ -2463,25 +2463,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/isbn-9788445007693"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/m/object/P30327"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/76408223"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/isbn-9788466348027"
         },
         "p" : {
@@ -11260,6 +11241,44 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/spa/1020/165785718/31280751/76408223"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/165785718"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/spa/1020/165785718/31280751/76408223"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/31280751"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/309569545/spa/1020/31280751"
         },
         "p" : {
@@ -15226,44 +15245,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/221021591"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/spa/1020/165785718/31280751"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/165785718"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/spa/1020/165785718/31280751"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/31280751"
         }
       },
       {
@@ -54081,6 +54062,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/59223340"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/isbn-9788445007693"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/m/object/P30328"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Contributor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/76408223"
         }
       },
       {
@@ -110264,25 +110264,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/279054556"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/eng/1020"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20338"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/70988349"
         }
       },
       {

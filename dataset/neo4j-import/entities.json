@@ -32878,6 +32878,17 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/eng/1020/76408223"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/309569545/nno/1020/267471594"
         },
         "label" : {
@@ -32901,6 +32912,17 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/309569545/nor/1020/9349441"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/spa/1020/165785718/31280751/76408223"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -38610,17 +38632,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/309448553/spa/1020/221021591"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/spa/1020/165785718/31280751"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -71368,6 +71379,17 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/19869016/taurielandkili/eng/1010"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/eng/1020/70988349"
         },
         "label" : {
           "xml:lang" : "gden",
