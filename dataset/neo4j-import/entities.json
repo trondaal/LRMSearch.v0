@@ -71235,17 +71235,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/eng/1013/1020/95218067"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://eksempel.com/miraclemanthegoldenage/eng/1014"
         },
         "label" : {

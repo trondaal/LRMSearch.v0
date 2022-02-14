@@ -104626,6 +104626,101 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/eng/1020/76408223"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/76408223"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/spa/1020/165785718/31280751/76408223"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/76408223"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/179642103/mitchellplay/nno/1020/305077461/90719656"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/305077461"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.example.org/1234567/nno/1020/305077461/90719656"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/305077461"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/309569545/eng/1020/70988349"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/70988349"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "https://www.wikidata.org/wiki/Q56685926/eng/1020"
         },
         "p" : {
@@ -124178,25 +124273,6 @@
         "s" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/309569545/eng/1013/95218067"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20022"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Narrator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/95218067"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/eng/1013/1020/95218067"
         },
         "p" : {
           "type" : "uri",

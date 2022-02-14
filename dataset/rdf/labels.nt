@@ -69,6 +69,7 @@
 <http://rdaregistry.info/Elements/e/object/P20364>	<http://www.w3.org/2000/01/rdf-schema#label>  	"Tecnical director"@gden .
 <http://rdaregistry.info/Elements/e/object/P20036>	<http://www.w3.org/2000/01/rdf-schema#label>  	"Costume designer"@gden .
 <http://rdaregistry.info/Elements/e/object/P20338>    <http://www.w3.org/2000/01/rdf-schema#label>  	"Editor"@gden .
+<http://rdaregistry.info/Elements/e/object/P20330>    <http://www.w3.org/2000/01/rdf-schema#label>  	"Editor"@gden .
 <http://rdaregistry.info/Elements/m/object/P30069>	<http://www.w3.org/2000/01/rdf-schema#label>  	"Designer"@gden .
 <http://rdaregistry.info/Elements/m/object/P30078>	<http://www.w3.org/2000/01/rdf-schema#label>  	"Printer"@gden .
 <http://rdaregistry.info/Elements/m/object/P30083>	<http://www.w3.org/2000/01/rdf-schema#label>  	"Publisher"@gden .
