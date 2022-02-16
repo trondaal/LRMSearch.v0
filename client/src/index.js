@@ -8,28 +8,39 @@ import '@fontsource/roboto/700.css';
 import { ApolloProvider, ApolloClient, } from '@apollo/client';
 //import {FilterContextProvider} from "./FilterContext";
 import {Cache} from "./api/Cache"
-import {BrowserRouter as Router, Routes, Route, Link, useParams} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, Link, useParams} from "react-router-dom";
+import {
+    RecoilRoot,
+    atom,
+    selector,
+    useRecoilState,
+    useRecoilValue,
+} from 'recoil';
 
 const client = new ApolloClient({
-    //uri: 'http://localhost:8080/graphql',
-    uri: 'http://dijon.idi.ntnu.no:8080/graphql',
+    uri: 'http://localhost:8080/graphql',
+    //uri: 'http://dijon.idi.ntnu.no:8080/graphql',
     cache: Cache
 });
 
 ReactDOM.render(
   <React.StrictMode>
+      <RecoilRoot>
           <ApolloProvider client={client}>
               <Router>
                   <Routes>
+                      <Route path="/" element={<App />} >
                       <Route path="/bibsurf2" element={<App />} >
                           <Route path=":checked" element={<App />} >
                               <Route path=":filters" element={<App />} >
                               </Route>
                           </Route>
                       </Route>
+                      </Route>
                   </Routes>
               </Router>
           </ApolloProvider>
+      </RecoilRoot>
   </React.StrictMode>,
   document.getElementById('root')
 );

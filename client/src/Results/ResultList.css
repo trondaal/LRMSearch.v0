@@ -6,9 +6,10 @@
     color: blue;
 }
 
-/*.expressionheading{
-   width : 70%;
-}*/
+.expressionheading{
+   width : 20%;
+    margin-right: 200px;
+}
 
 .worktitle{
     color: dimgray;
@@ -24,4 +25,11 @@
     display: list-item;          /* This has to be "list-item"                                               */
     list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
     list-style-position: outside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+}
+
+.manifestationselected {
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: '\2705\0020';      /* 2714     */
+    list-style-position: outside;
+    align-content: center;/* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }

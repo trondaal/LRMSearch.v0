@@ -41,7 +41,7 @@ export const GET_RESULTS = gql`
                     }
                 }
             },
-            manifestations{
+            manifestations (options: {limit: 4}) {
                 uri,
                 identifier,
                 title,

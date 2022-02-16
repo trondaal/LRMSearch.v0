@@ -9,13 +9,20 @@ import SearchBar from "./Search/SearchBar";
 import CircularProgress from '@mui/material/CircularProgress';
 import FilterList from "./Filters/FilterList";
 import {useParams} from "react-router-dom";
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
+import {filterState} from './state/state';
+import {useSetRecoilState} from 'recoil';
+import {selectedVar} from "./api/Cache";
+
 
 export default function MyApp() {
     const params = useParams();
-    console.log(params);
+    //console.log(params);
 
     const [checkboxes, setCheckboxes] = useState(false);
     const [filters, setFilters] = useState(true);
+    const setChecked = useSetRecoilState(filterState);
 
     const handleCheckboxesChange = (event) => {
         setCheckboxes(event.target.checked);
@@ -24,6 +31,12 @@ export default function MyApp() {
     const handleFiltersChange = (event) => {
         setFilters(event.target.checked);
     };
+
+    const handleClearFilters = (event) => {
+        setChecked([]);
+        selectedVar(new Set([]));
+    }
+
 
     const [search, { loading, data, error, called }] = useLazyQuery(GET_RESULTS);
 
@@ -34,26 +47,30 @@ export default function MyApp() {
         <React.Fragment>
             <CssBaseline/>
             <Grid container spacing={3} marginTop={1}  marginLeft={1} marginRight={1}>
-                <Grid item xs={8}>
+                <Grid item xs={5}>
                         <SearchBar search={search}/>
                 </Grid>
-                <Grid item xs={1}>
-                    <div>Filters:</div>
+                <Grid item xs={2}>
+                    Fi:
                     <Checkbox
                         checked={filters}
                         onChange={handleFiltersChange}>
                     </Checkbox>
+                    Sl:
+                    <Checkbox
+                        checked={checkboxes}
+                        onChange={handleCheckboxesChange}>
+                    </Checkbox>
+                    St:
+                        <Checkbox  defaultChecked />
                 </Grid>
                 <Grid item xs={1}>
-                        <div>Checkboxes:</div>
-                        <Checkbox
-                            checked={checkboxes}
-                            onChange={handleCheckboxesChange}>
-                        </Checkbox>
+                    <Stack spacing={1} direction="row">
+                        <Button variant="contained">Reset</Button>
+                     </Stack>
                 </Grid>
-                <Grid item xs={2}>
-                    <div>Styled:</div>
-                        <Checkbox  defaultChecked />
+                <Grid item xs={4}>
+                        <Button variant="contained" onClick={handleClearFilters}>Clear filters</Button>
                 </Grid>
                 <Grid item xs={filters ? 8 : 12}>
                     {called && loading ? <Grid item xs={12}><CircularProgress /></Grid> : <ResultView checkboxes={checkboxes} results={data ? data.expressions : []}/>}

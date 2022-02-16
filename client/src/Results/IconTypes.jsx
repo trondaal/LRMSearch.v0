@@ -10,32 +10,32 @@ import MapIcon from '@mui/icons-material/Map';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 
-const ExpressionTypeIcon = props => {
+const IconTypes = props => {
     const { type } = props;
     switch (type){
-        case ('Cartographic image'):
-            return <MapIcon fontSize="small"/>;
+        case ('Maps'):
+            return <MapIcon fontSize="large"/>;
         case ('Software'):
-            return <ComputerIcon fontSize="small"/>;
+            return <ComputerIcon fontSize="large"/>;
         case ('Score'):
-            return <QueueMusicIcon fontSize="small"/>;
+            return <QueueMusicIcon fontSize="large"/>;
         case ('Performed music'):
-            return <MusicNoteIcon fontSize="small"/>;
+            return <MusicNoteIcon fontSize="large"/>;
         case ('Audio book'):
-            return <HeadsetIcon fontSize="small"/>;
+            return <HeadsetIcon fontSize="large"/>;
         case ('Illustrations'):
-            return <PhotoIcon fontSize="small"/>;
+            return <PhotoIcon fontSize="large"/>;
         case ('Text'):
-            return <MenuBookIcon fontSize="small"/>;
+            return <MenuBookIcon fontSize="large"/>;
         case ('Movie (3D)'):
-            return <LocalMoviesIcon fontSize="small"/>;
+            return <LocalMoviesIcon fontSize="large"/>;
         case ('Movie'):
-            return <LocalMoviesIcon fontSize="small"/>;
+            return <LocalMoviesIcon fontSize="large"/>;
         case ('Music'):
-            return <AudiotrackIcon fontSize="small"/>;
+            return <AudiotrackIcon fontSize="large"/>;
         default:
-            return <QuestionMarkIcon fontSize="small"/>;
+            return <QuestionMarkIcon fontSize="large"/>;
     }
 };
 
-export default ExpressionTypeIcon;
+export default IconTypes;

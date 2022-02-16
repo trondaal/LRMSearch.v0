@@ -6,7 +6,7 @@ import ListItemAvatar from "@mui/material/ListItemAvatar";
 import Avatar from "@mui/material/Avatar";
 import {grey} from "@mui/material/colors";
 import ListItemText from "@mui/material/ListItemText";
-import ExpressionTypeIcon from "./ExpressionTypeIcon";
+import IconTypes from "./IconTypes";
 import Paper from "@mui/material/Paper";
 import "./ResultList.css";
 import {groupBy} from "lodash";

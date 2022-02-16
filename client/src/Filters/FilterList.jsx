@@ -4,6 +4,9 @@ import ListSubheader from '@mui/material/ListSubheader';
 import FilterGroup from './FilterGroup';
 import {selectedVar} from '../api/Cache';
 import { intersection, without } from 'lodash';
+import {filterState, itemSelectedState} from '../state/state';
+import {useRecoilState} from 'recoil';
+import Button from "@mui/material/Button";
 
 //import {FilterContext} from "./FilterContext";
 //import Button from '@mui/material/Button';
@@ -118,9 +121,9 @@ export default function FilterList(props) {
     const creators = useMemo(() => [...new Set(filters.filter(x => x.source === "Work" && x.target === "Agent").map(f => f.category))].sort(), [filters]);
     const contributors = useMemo(() => [...new Set(filters.filter(x => x.source === "Expression" && x.target === "Agent").map(f => f.category))].sort(), [filters]);
     const supplement = useMemo(() => [...new Set(filters.filter(x => x.source === "Manifestation" && x.target === "Agent").map(f => f.category))].sort(), [filters]);
-    //console.log(roles)
 
-    const [checked, setChecked] = React.useState([]);
+    const [checked, setChecked] = useRecoilState(filterState)
+    //const [checked, setChecked] = React.useState([]);
 
     const handleToggle = (filterKey) => () => {
         const currentIndex = checked.indexOf(filterKey);
@@ -132,29 +135,7 @@ export default function FilterList(props) {
             newChecked.splice(currentIndex, 1);
         }
         setChecked(newChecked);
-        //console.log(newChecked);
 
-        //let selected = new Set([]);
-        //newChecked.forEach(f => filterMap.get(f).selection.forEach(selected.add, selected));
-        //selectedVar(selected);
-
-        //console.log(newChecked);
-
-        /*const selection = new Map();
-        selection.set("Language", []);
-        selection.set("Content", []);
-        selection.set("Media", []);
-        selection.set("Carrier", []);
-        selection.set("Creator", []);
-        selection.set("Contributor", []);
-        selection.set("Supplemental", []);
-        newChecked.forEach(key => selection.get(key.split("+")[0]).push(...filterMap.get(key).selection) );
-
-        for(let k of selection.keys()){
-            if (selection.get(k).length === 0){
-                selection.delete(k);
-            }
-        }*/
         const selection = new Map();
         selection.set("Language", []);
         selection.set("Content", []);
