@@ -1,11 +1,14 @@
 
-import React, {useState, useMemo, useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import TextField from '@mui/material/TextField';
 import {selectedVar} from '../api/Cache';
 import stopwords from './stopwords'
 
 export default function SearchBar(props) {
+
     const [query, setQuery] = useState(sessionStorage.getItem('query') ? sessionStorage.getItem('query') : "Harry Potter");
+
+    const {search} = props;
 
     const changeHandler = (event) => {
         if (event.key === 'Enter') {
@@ -23,8 +26,8 @@ export default function SearchBar(props) {
         }else{
             setQuery(sessionStorage.getItem('query'))
         }
-        props.search({ variables: { query: query.split(" ").join(" AND ") } });
-        }, []
+        search({ variables: { query: query.split(" ").join(" AND ") } });
+        } , [search]
 
     );
 

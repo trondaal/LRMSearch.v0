@@ -1,40 +1,40 @@
 import React from "react";
-import MenuBookIcon from "@mui/icons-material/MenuBook";
-import LocalMoviesIcon from '@mui/icons-material/LocalMovies';
-import PhotoIcon from '@mui/icons-material/Photo';
-import HeadsetIcon from '@mui/icons-material/Headset';
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
-import QueueMusicIcon from '@mui/icons-material/QueueMusic';
-import ComputerIcon from '@mui/icons-material/Computer';
-import MapIcon from '@mui/icons-material/Map';
-import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
-import AudiotrackIcon from '@mui/icons-material/Audiotrack';
+import MenuBookTwoToneIcon from "@mui/icons-material/MenuBookTwoTone";
+import LocalMoviesTwoToneIcon from '@mui/icons-material/LocalMovies';
+import PhotoTwoToneIcon from '@mui/icons-material/PhotoTwoTone';
+import HeadsetTwoToneIcon from '@mui/icons-material/HeadsetTwoTone';
+import MusicNoteTwoToneIcon from '@mui/icons-material/MusicNoteTwoTone';
+import QueueMusicTwoToneIcon from '@mui/icons-material/QueueMusicTwoTone';
+import ComputerTwoToneIcon from '@mui/icons-material/ComputerTwoTone';
+import MapTwoToneIcon from '@mui/icons-material/MapTwoTone';
+import QuestionMarkTwoToneIcon from '@mui/icons-material/QuestionMarkTwoTone';
+import AudiotrackTwoToneIcon from '@mui/icons-material/AudiotrackTwoTone';
 
 const IconTypes = props => {
     const { type } = props;
     switch (type){
         case ('Maps'):
-            return <MapIcon fontSize="large"/>;
+            return <MapTwoToneIcon fontSize="large"/>;
         case ('Software'):
-            return <ComputerIcon fontSize="large"/>;
+            return <ComputerTwoToneIcon fontSize="large"/>;
         case ('Score'):
-            return <QueueMusicIcon fontSize="large"/>;
+            return <QueueMusicTwoToneIcon fontSize="large"/>;
         case ('Performed music'):
-            return <MusicNoteIcon fontSize="large"/>;
+            return <MusicNoteTwoToneIcon fontSize="large"/>;
         case ('Audio book'):
-            return <HeadsetIcon fontSize="large"/>;
+            return <HeadsetTwoToneIcon fontSize="large"/>;
         case ('Illustrations'):
-            return <PhotoIcon fontSize="large"/>;
+            return <PhotoTwoToneIcon fontSize="large"/>;
         case ('Text'):
-            return <MenuBookIcon fontSize="large"/>;
+            return <MenuBookTwoToneIcon fontSize="large"/>;
         case ('Movie (3D)'):
-            return <LocalMoviesIcon fontSize="large"/>;
+            return <LocalMoviesTwoToneIcon fontSize="large"/>;
         case ('Movie'):
-            return <LocalMoviesIcon fontSize="large"/>;
+            return <LocalMoviesTwoToneIcon fontSize="large"/>;
         case ('Music'):
-            return <AudiotrackIcon fontSize="large"/>;
+            return <AudiotrackTwoToneIcon fontSize="large"/>;
         default:
-            return <QuestionMarkIcon fontSize="large"/>;
+            return <QuestionMarkTwoToneIcon fontSize="large"/>;
     }
 };
 

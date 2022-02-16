@@ -1,10 +1,6 @@
 import React from 'react';
 import List from '@mui/material/List';
-import ListItem from "@mui/material/ListItem";
 import Typography from "@mui/material/Typography";
-import ListItemAvatar from "@mui/material/ListItemAvatar";
-import Avatar from "@mui/material/Avatar";
-import {grey} from "@mui/material/colors";
 import ListItemText from "@mui/material/ListItemText";
 import IconTypes from "./IconTypes";
 import Paper from "@mui/material/Paper";
@@ -12,14 +8,12 @@ import "./ResultList.css";
 import {groupBy} from "lodash";
 import {ListItemSecondaryAction} from "@mui/material";
 import ListItemButton from '@mui/material/ListItemButton';
+import ListItem from '@mui/material/ListItem';
 import Manifestation from "./Manifestation";
 import {useRecoilState} from 'recoil';
-import {itemSelectedState, showUriState} from "../state/state";
+import {itemSelectedState, selectableState, showUriState} from "../state/state";
 import ListItemIcon from "@mui/material/ListItemIcon";
-import Checkbox from "@mui/material/Checkbox";
-import AvatarGroup from '@mui/material/AvatarGroup';
-import Badge from '@mui/material/Badge';
-import CheckBoxOutlinedIcon from "@mui/icons-material/CheckBoxOutlined";
+import "./ResultList.css";
 
 function isEmpty(str) {
     return (!str || str.length === 0 );
@@ -28,6 +22,7 @@ function isEmpty(str) {
 export default function Expression(props){
     const [showUri] = useRecoilState(showUriState);
     const [itemSelected, setItemSelected] = useRecoilState(itemSelectedState)
+    const [selectable] = useRecoilState(selectableState)
     const {uri} = props.expression;
 
     //console.log("Expression : " + props.checkboxes);
@@ -73,17 +68,12 @@ export default function Expression(props){
         }
     };
 
-    return <Paper elevation={0} square className={"expression"} key={props.expression.uri} sx={{mt: 2}}>
-        <ListItemButton alignItems="flex-start" onClick={handleClick}>
+    const description = () => {
+        return <React.Fragment>
             <ListItemIcon>
-
-                    <Badge color="success" badgeContent={'✓'} invisible={itemSelected.includes(uri) === false}>
-                        <IconTypes type={content[0]}/>
-                    </Badge>
-
-
+                <IconTypes type={content[0]}/>
             </ListItemIcon>
-            <ListItemText className={"expressionheading"} sx={{width: '20%'}}
+            <ListItemText className={itemSelected.includes(uri) ? "manifestationselected expressionheading" : "expressionheading"}  sx={{width: '20%'} }
                           primary={<React.Fragment>
                               <span className={"expressiontitle"}>{title}</span>
                               {!isTranslation && <span className={"worktitle"}> ({worktitle})</span>}
@@ -97,7 +87,19 @@ export default function Expression(props){
                 <Typography color={"dimgray"} variant={"body2"}>{'Content type: ' +  content.join(", ")}</Typography>
                 {(language.length !== 0) ? <Typography color={"dimgray"} variant={"body2"}>{'Language: ' +  language.join(", ")}</Typography> : ""}
             </ListItemSecondaryAction>
-        </ListItemButton>
+        </React.Fragment>
+    }
+
+    return <Paper elevation={0} square className={"expression"} key={props.expression.uri} sx={{mt: 2}}>
+        {selectable ?
+            <ListItemButton alignItems="flex-start" onClick={handleClick} className="resultitem">
+                {description()}
+            </ListItemButton>
+            :
+            <ListItem alignItems="flex-start" className="resultitem">
+                {description()}
+            </ListItem>
+        }
         <List dense={true} sx={{pt: 0}}>
             {props.expression && props.expression.manifestations.slice(0,5).map(m => (<Manifestation manifestation={m} key={m.uri} checkboxes={props.checkboxes}/>))}
         </List>

@@ -1,16 +1,12 @@
 import {
-    RecoilRoot,
-    atom,
-    selector,
-    useRecoilState,
-    useRecoilValue,
+    atom
 } from 'recoil';
 
 // state with boolean value used to decide if URIs are displayed with entities or not
 // primarily used for debugging
 export const showUriState = atom({
     key: 'showUri', // unique ID (with respect to other atoms/selectors)
-    default: true, // default value (aka initial value)
+    default: false, // default value (aka initial value)
 });
 
 // state to control if the list of filters is visible or not
@@ -22,7 +18,7 @@ export const showFiltersState = atom({
 // state to control if resultitems can be selected or not
 export const selectableState = atom({
     key: 'selectable', // unique ID (with respect to other atoms/selectors)
-    default: true, // default value (aka initial value)
+    default: false, // default value (aka initial value)
 });
 
 // state to control if result listing is styled or not

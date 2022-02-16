@@ -3,13 +3,9 @@ import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
 import FilterGroup from './FilterGroup';
 import {selectedVar} from '../api/Cache';
-import { intersection, without } from 'lodash';
-import {filterState, itemSelectedState} from '../state/state';
+import { intersection } from 'lodash';
+import {filterState} from '../state/state';
 import {useRecoilState} from 'recoil';
-import Button from "@mui/material/Button";
-
-//import {FilterContext} from "./FilterContext";
-//import Button from '@mui/material/Button';
 
 function createFilterList(expressions){
     const filters = new Map();
@@ -159,7 +155,7 @@ export default function FilterList(props) {
             //console.log(true);
             selectedVar(new Set([]));
         }else {
-            const test = intersection(...selection.values())
+            //const test = intersection(...selection.values())
             //console.log(test);
             selectedVar(new Set(intersection(...selection.values())));
             console.log(selectedVar())

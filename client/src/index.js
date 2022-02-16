@@ -6,15 +6,10 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { ApolloProvider, ApolloClient, } from '@apollo/client';
-//import {FilterContextProvider} from "./FilterContext";
 import {Cache} from "./api/Cache"
-import {HashRouter as Router, Routes, Route, Link, useParams} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import {
     RecoilRoot,
-    atom,
-    selector,
-    useRecoilState,
-    useRecoilValue,
 } from 'recoil';
 
 const client = new ApolloClient({

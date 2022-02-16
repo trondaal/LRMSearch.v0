@@ -11,30 +11,33 @@ import FilterList from "./Filters/FilterList";
 import {useParams} from "react-router-dom";
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import {filterState} from './state/state';
-import {useSetRecoilState} from 'recoil';
+import {filterState, showFiltersState, selectableState, itemSelectedState} from './state/state';
+import {useRecoilState, useSetRecoilState} from 'recoil';
 import {selectedVar} from "./api/Cache";
 
 
 export default function MyApp() {
-    const params = useParams();
-    //console.log(params);
-
-    const [checkboxes, setCheckboxes] = useState(false);
-    const [filters, setFilters] = useState(true);
+    const [selectable, setSelectable] = useRecoilState(selectableState);
+    const [showFilters, setShowFilters] = useRecoilState(showFiltersState);
     const setChecked = useSetRecoilState(filterState);
+    const setItemsSelected = useSetRecoilState(itemSelectedState);
 
-    const handleCheckboxesChange = (event) => {
-        setCheckboxes(event.target.checked);
+    const handleSelectableChange = (event) => {
+        setSelectable(event.target.checked);
+        setItemsSelected([]);
     };
 
-    const handleFiltersChange = (event) => {
-        setFilters(event.target.checked);
+    const handleShowFiltersChange = (event) => {
+        setShowFilters(event.target.checked);
     };
 
     const handleClearFilters = (event) => {
         setChecked([]);
         selectedVar(new Set([]));
+    }
+
+    const handleClearSelection = (event) => {
+        setItemsSelected([]);
     }
 
 
@@ -47,87 +50,37 @@ export default function MyApp() {
         <React.Fragment>
             <CssBaseline/>
             <Grid container spacing={3} marginTop={1}  marginLeft={1} marginRight={1}>
-                <Grid item xs={5}>
+                <Grid item xs={4}>
                         <SearchBar search={search}/>
                 </Grid>
                 <Grid item xs={2}>
-                    Fi:
+                    F:
                     <Checkbox
-                        checked={filters}
-                        onChange={handleFiltersChange}>
+                        checked={showFilters}
+                        onChange={handleShowFiltersChange}>
                     </Checkbox>
-                    Sl:
+                    S:
                     <Checkbox
-                        checked={checkboxes}
-                        onChange={handleCheckboxesChange}>
+                        checked={selectable}
+                        onChange={handleSelectableChange}>
                     </Checkbox>
-                    St:
+                    P:
                         <Checkbox  defaultChecked />
                 </Grid>
-                <Grid item xs={1}>
-                    <Stack spacing={1} direction="row">
-                        <Button variant="contained">Reset</Button>
-                     </Stack>
+                <Grid item xs={2}>
+                        <Button variant="contained" onClick={handleClearSelection}>Clear selection</Button>
                 </Grid>
                 <Grid item xs={4}>
-                        <Button variant="contained" onClick={handleClearFilters}>Clear filters</Button>
+                    {showFilters ? <Button variant="contained" onClick={handleClearFilters}>Clear filters</Button> : ""}
+
                 </Grid>
-                <Grid item xs={filters ? 8 : 12}>
-                    {called && loading ? <Grid item xs={12}><CircularProgress /></Grid> : <ResultView checkboxes={checkboxes} results={data ? data.expressions : []}/>}
+                <Grid item xs={showFilters ? 8 : 8}>
+                    {called && loading ? <Grid item xs={8}><CircularProgress /></Grid> : <ResultView results={data ? data.expressions : []}/>}
                 </Grid>
-                {filters ? <Grid item xs={4}>
+                {showFilters ? <Grid item xs={4}>
                     <FilterList results={data ? data.expressions : []}/>
                 </Grid> : ""}
             </Grid>
         </React.Fragment>
     );
-    /*export default function MyApp() {
-        const [search, { loading, error, data, }] = useLazyQuery(GET_RESULTS);
-        const debouncer = useCallback(_.debounce(search, 500), []);
-        const [q, setQuery] = useState("rowling");
-
-        const changeHandler = (event) => {
-            setQuery(event.target.value);
-            search({variables: {query: q, offset: 0}});
-            console.log("change")
-            if (loading) return <p>Loading ...</p>;
-            if (error) return `Error! ${error}`;
-        };
-
-        const debouncedChangeHandler = useMemo(
-            () => _.debounce(changeHandler, 800)
-            , []);
-        useEffect(() => {
-            return () => {
-                debouncedChangeHandler.cancel();
-            }
-        });
-
-        return (
-          <React.Fragment>
-            <CssBaseline />
-            <Grid container spacing={4} marginTop={2}>
-              <Grid item xs={12}>
-                <Item>
-                    <TextField
-                        fullWidth
-                    id="filled-search"
-                    label="Search field"
-                    type="search"
-                    variant="filled"
-                    onChange={e => debouncer({ variables: { query: e.target.value } })}
-                /></Item>
-              </Grid>
-              <Grid item xs={8}>
-                <Item>
-                    ITEM
-                    { <ResultList expressions={data?.expressions && data.expressions}></ResultList> }
-                </Item>
-              </Grid>
-              <Grid item xs={4}>
-                <Item>Filters go here</Item>
-              </Grid>
-            </Grid>
-          </React.Fragment>
-      );*/
 }

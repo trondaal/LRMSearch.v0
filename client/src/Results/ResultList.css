@@ -8,7 +8,7 @@
 
 .expressionheading{
    width : 20%;
-    margin-right: 200px;
+   margin-right: 200px;
 }
 
 .worktitle{
@@ -29,7 +29,11 @@
 
 .manifestationselected {
     display: list-item;          /* This has to be "list-item"                                               */
-    list-style-type: '\2705\0020';      /* 2714     */
+    list-style-type: '\2714\0020';      /* 2714   2705  */
     list-style-position: outside;
     align-content: center;/* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+}
+
+.resultitem {
+    transition: none !important;
 }
