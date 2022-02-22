@@ -61,12 +61,14 @@ export default function Manifestation(props){
     };
 
     const description = () => {
-        return <ListItemText primary={
-            <div className={itemSelected.includes(uri) ? "manifestationselected" : "manifestation"}>
-                    <Typography color={"steelblue"} variant="subtitle2" className={"manifestationtitle"}>{statement.join(" / ")}</Typography>
-                    {extent && <Typography color={"dimgray"} variant="body2" className={"manifestationtitle"}>Extent: {extent}</Typography>}
-                    <Typography color={"dimgray"} variant="body2" className={"manifestationtitle"}>Published: {metadata.join(", ")}</Typography>
-            </div>}>
+        return <ListItemText className={itemSelected.includes(uri) ? "selected" : ""}
+            primary={<Typography color="primary.main" variant="mtitle.light" className={"mtitle"}>{statement.join(" / ")}</Typography>}
+            secondary={
+                    <React.Fragment>
+                        {extent && <Typography variant="body2"  >Extent: {extent}</Typography>}
+                        <Typography variant="body2"  >Published: {metadata.join(", ")}</Typography>
+                    </React.Fragment>}
+        >
         </ListItemText>
     }
 

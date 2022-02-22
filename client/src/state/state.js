@@ -18,7 +18,7 @@ export const showFiltersState = atom({
 // state to control if resultitems can be selected or not
 export const selectableState = atom({
     key: 'selectable', // unique ID (with respect to other atoms/selectors)
-    default: false, // default value (aka initial value)
+    default: true, // default value (aka initial value)
 });
 
 // state to control if result listing is styled or not

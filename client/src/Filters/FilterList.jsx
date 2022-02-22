@@ -204,7 +204,7 @@ export default function FilterList(props) {
 
     return (<React.Fragment>
         <List
-            sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
+            sx={{ width: '100%', bgcolor: 'background.paper' }}
             component="nav"
             aria-labelledby="nested-list-subheader"
             subheader={
@@ -219,7 +219,7 @@ export default function FilterList(props) {
             <FilterGroup filters={filters.filter(entry => entry.category === 'Carrier')} checked={checked} handleToggle={handleToggle} getAvailable={getAvailable} header={"Carrier type"} category={"Carrier"}/>
         </List>
         <List
-            sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
+            sx={{ width: '100%',bgcolor: 'background.paper' }}
             component="nav"
             aria-labelledby="nested-list-subheader"
             subheader={

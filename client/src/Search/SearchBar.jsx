@@ -27,8 +27,7 @@ export default function SearchBar(props) {
             setQuery(sessionStorage.getItem('query'))
         }
         search({ variables: { query: query.split(" ").join(" AND ") } });
-        } , [search]
-
+        }, []
     );
 
     return <TextField

@@ -11,7 +11,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItem from '@mui/material/ListItem';
 import Manifestation from "./Manifestation";
 import {useRecoilState} from 'recoil';
-import {itemSelectedState, selectableState, showUriState} from "../state/state";
+import {itemSelectedState, selectableState, showUriState, styledState} from "../state/state";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import "./ResultList.css";
 
@@ -21,8 +21,9 @@ function isEmpty(str) {
 
 export default function Expression(props){
     const [showUri] = useRecoilState(showUriState);
-    const [itemSelected, setItemSelected] = useRecoilState(itemSelectedState)
-    const [selectable] = useRecoilState(selectableState)
+    const [itemSelected, setItemSelected] = useRecoilState(itemSelectedState);
+    const [selectable] = useRecoilState(selectableState);
+    const [styled] = useRecoilState(styledState);
     const {uri} = props.expression;
 
     //console.log("Expression : " + props.checkboxes);
@@ -73,15 +74,18 @@ export default function Expression(props){
             <ListItemIcon>
                 <IconTypes type={content[0]}/>
             </ListItemIcon>
-            <ListItemText className={itemSelected.includes(uri) ? "manifestationselected expressionheading" : "expressionheading"}  sx={{width: '20%'} }
-                          primary={<React.Fragment>
-                              <span className={"expressiontitle"}>{title}</span>
-                              {!isTranslation && <span className={"worktitle"}> ({worktitle})</span>}
-                              <br/>
-                              {creators.slice(0,2).map(creator => <div className={"creatorname"} key={creator[0] + creator[1]}>{creator[0] + creator[1]}</div>) }
-                              {contributors.slice(0,2).map(contributor => <div className={"creatorname"} key={contributor[0] + contributor[1]}>{contributor[0] + contributor[1]}</div>) }
-                              {showUri && <div className={"creatorname"}>{props.expression.uri}</div>}
-                          </React.Fragment>}
+            <ListItemText className={itemSelected.includes(uri) ? "selected" : ""}
+                          primary={
+                            <React.Fragment>
+                                <Typography color="primary.main" component="span" variant="etitle">{title}</Typography>
+                                {!isTranslation && <Typography color='grey.700' variant="wtitle" component="span"> ({worktitle})</Typography>}
+                            </React.Fragment>}
+                          secondary={
+                              <React.Fragment>
+                                  {creators.slice(0,2).map(creator => <Typography variant="body2" key={creator[0] + creator[1]}>{creator[0] + creator[1]}</Typography>) }
+                                  {contributors.slice(0,2).map(contributor => <Typography variant="body2" key={contributor[0] + contributor[1]}>{contributor[0] + contributor[1]}</Typography>) }
+                                  {showUri && <Typography variant="body2">{props.expression.uri}</Typography>}
+                              </React.Fragment>}
             />
             <ListItemSecondaryAction sx={{top:"0%", marginTop:"35px", width: '20%', textAlign: 'left'}}>
                 <Typography color={"dimgray"} variant={"body2"}>{'Content type: ' +  content.join(", ")}</Typography>
@@ -90,13 +94,14 @@ export default function Expression(props){
         </React.Fragment>
     }
 
-    return <Paper elevation={0} square className={"expression"} key={props.expression.uri} sx={{mt: 2}}>
+    /* Moved expression-classname from paper to expression entry */
+    return <Paper elevation={0} square key={props.expression.uri} sx={{mt: 2}}>
         {selectable ?
-            <ListItemButton alignItems="flex-start" onClick={handleClick} className="resultitem">
+            <ListItemButton alignItems="flex-start" onClick={handleClick} className="expression">
                 {description()}
             </ListItemButton>
             :
-            <ListItem alignItems="flex-start" className="resultitem">
+            <ListItem alignItems="flex-start" className="resultitem expression">
                 {description()}
             </ListItem>
         }

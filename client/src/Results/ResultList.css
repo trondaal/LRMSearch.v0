@@ -1,15 +1,19 @@
-.expression:nth-child(2n) {
+/*.expression:nth-child(2n) {
     background-color: WhiteSmoke;
+}/*/
+
+.expression {
+    background-color: WhiteSmoke !important;
 }
 
-.expressiontitle{
+/*.expressiontitle{
     color: blue;
-}
+}*/
 
-.expressionheading{
+/*.expressionheading{
    width : 20%;
    margin-right: 200px;
-}
+}*/
 
 .worktitle{
     color: dimgray;
@@ -27,7 +31,7 @@
     list-style-position: outside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }
 
-.manifestationselected {
+.selected {
     display: list-item;          /* This has to be "list-item"                                               */
     list-style-type: '\2714\0020';      /* 2714   2705  */
     list-style-position: outside;
