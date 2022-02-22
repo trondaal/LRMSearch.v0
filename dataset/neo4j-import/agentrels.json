@@ -39855,25 +39855,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/dan/1020/47059613"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/47059613"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/312339051/nor/1020/305854922"
         },
         "p" : {
@@ -40743,25 +40724,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/288294356"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309258229/nor/1013/226306913/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Translator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/51776002"
         }
       },
       {
@@ -52110,7 +52072,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/TheSilmarillion-d7028e62"
+          "value" : "http://example.org/TheSilmarillion-d7021e62"
         },
         "p" : {
           "type" : "uri",
@@ -57145,7 +57107,7 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/TheArtsofFalconrieandHawking-d12705e62"
+          "value" : "http://example.org/TheArtsofFalconrieandHawking-d12698e62"
         },
         "p" : {
           "type" : "uri",
@@ -96000,25 +95962,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/32225387/mynileodyssey"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/32225387"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/37144221/deathbeyondthenile"
         },
         "p" : {
@@ -107661,25 +107604,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/216494"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/294348347"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10203"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Screenwriter"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/84213729"
         }
       },
       {
@@ -124191,25 +124115,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/10057685"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/309258229/nor/1013/226306913/51776002"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20022"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Narrator"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/226306913"
         }
       },
       {

@@ -29996,17 +29996,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/32225387"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Agent"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/37144221"
         },
         "label" : {
@@ -69156,17 +69145,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309569545/dan/1020/47059613"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/312339051/nor/1020/305854922"
         },
         "label" : {
@@ -70795,17 +70773,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/309258229/nor/1013/226306913/51776002"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/37144221/deathbeyondthenile/eng/1020"
         },
         "label" : {
@@ -70862,28 +70829,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/184807703/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/32225387/mynileodyssey/eng/1014/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/91236070/lifeanddeathonthenile/eng/1014/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -94467,17 +94412,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/32225387/mynileodyssey"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/37144221/deathbeyondthenile"
         },
         "label" : {
@@ -102223,17 +102157,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/IAN-5051893006537"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/IAN-5051893141450"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -112893,17 +112816,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/isbn-8700648361"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8700969028"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -171907,17 +171819,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/isbn-8242116342"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://example.org/isbn-8408016326"
         },
         "label" : {
@@ -172249,17 +172150,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/isbn-9781907804717"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781910223963"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172886,7 +172776,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/JRRTolkien-d6853e55"
+          "value" : "http://example.org/JRRTolkien-d6846e55"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172897,7 +172787,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/MagnusChase-d6860e40"
+          "value" : "http://example.org/MagnusChase-d6853e40"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172908,7 +172798,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/PercyJacksonandtheBattleoftheLabyrinth-d6867e52"
+          "value" : "http://example.org/PercyJacksonandtheBattleoftheLabyrinth-d6860e52"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172919,7 +172809,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/PercyJacksonandtheTitanscurse-d7070e52"
+          "value" : "http://example.org/PercyJacksonandtheTitanscurse-d7063e52"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172930,7 +172820,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/PercyJacksonandtheseaofmonsters-d7000e52"
+          "value" : "http://example.org/PercyJacksonandtheseaofmonsters-d6993e52"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172941,7 +172831,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/TheSilmarillion-d7028e62"
+          "value" : "http://example.org/Ringenesherre-d11788e65"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172952,7 +172842,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/Theburningmaze-d6881e52"
+          "value" : "http://example.org/TheArtsofFalconrieandHawking-d12698e62"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172963,7 +172853,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/Thehobbit-d6923e54"
+          "value" : "http://example.org/TheSilmarillion-d7021e62"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172974,7 +172864,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/Thelightningthief-d6951e52"
+          "value" : "http://example.org/Theburningmaze-d6874e52"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172985,7 +172875,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/Thelordoftherings-d6965e42"
+          "value" : "http://example.org/ThecaseofRobertRobertson-d14490e63"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172996,7 +172886,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/Thereturnoftheking-d6993e55"
+          "value" : "http://example.org/Thefellowshipofthering-d6895e58"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -173007,7 +172897,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/Thetwotowers-d7084e55"
+          "value" : "http://example.org/Thehobbit-d6916e54"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -173018,7 +172908,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/Tolkien-d7098e55"
+          "value" : "http://example.org/Thelightningthief-d6944e52"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -173029,7 +172919,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/Ringenesherre-d11795e65"
+          "value" : "http://example.org/Thelordoftherings-d6958e42"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -173040,7 +172930,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/TheArtsofFalconrieandHawking-d12705e62"
+          "value" : "http://example.org/Thereturnoftheking-d6986e55"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -173051,7 +172941,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/ThecaseofRobertRobertson-d14497e63"
+          "value" : "http://example.org/Thetwotowers-d7077e55"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -173062,7 +172952,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/Thefellowshipofthering-d6902e58"
+          "value" : "http://example.org/Tolkien-d7091e55"
         },
         "label" : {
           "xml:lang" : "gden",

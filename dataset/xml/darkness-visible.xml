@@ -58,7 +58,7 @@
             <marc:subfield code="c">1991</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">84 p. ;</marc:subfield>
+            <marc:subfield code="a">84 pages ;</marc:subfield>
             <marc:subfield code="c">21 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -125,7 +125,7 @@
             <marc:subfield code="c">1992</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">84 p.</marc:subfield>
+            <marc:subfield code="a">84 pages</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -284,7 +284,7 @@
             <marc:subfield code="c">c1990.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">1 online resource (84 p.)</marc:subfield>
+            <marc:subfield code="a">1 online resource (84 pages)</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -642,7 +642,7 @@
             <marc:subfield code="c">1991</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">95 s.</marc:subfield>
+            <marc:subfield code="a">95 sider</marc:subfield>
             <marc:subfield code="c">21 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -774,7 +774,7 @@
             <marc:subfield code="c">1963</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">viii, 232 p. ;</marc:subfield>
+            <marc:subfield code="a">viii, 232 pages ;</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -845,7 +845,7 @@
             <marc:subfield code="c">1963</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">231 p.</marc:subfield>
+            <marc:subfield code="a">231 pages</marc:subfield>
             <marc:subfield code="b">illus</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -932,7 +932,7 @@
             <marc:subfield code="c">1968 [i.e. 1970]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">231 p. :</marc:subfield>
+            <marc:subfield code="a">231 pages :</marc:subfield>
             <marc:subfield code="b">ill. ;</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
@@ -956,7 +956,7 @@
             <marc:subfield code="0">https://schema.nb.no/Bibliographic/Values/V1000</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="504" ind1=" " ind2=" ">
-            <marc:subfield code="a">Bibliography: p. 225-231</marc:subfield>
+            <marc:subfield code="a">Bibliography: pages 225-231</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="610" ind1="2" ind2="0">
             <marc:subfield code="a">Freemasons.</marc:subfield>
@@ -1114,7 +1114,7 @@
             <marc:subfield code="c">1998.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">viii, 232 p. :</marc:subfield>
+            <marc:subfield code="a">viii, 232 pages :</marc:subfield>
             <marc:subfield code="b">ill. ;</marc:subfield>
             <marc:subfield code="c">22 cm.</marc:subfield>
         </marc:datafield>
@@ -1178,7 +1178,7 @@
             <marc:subfield code="c">1952.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">228 p., [1] leaf of plates :</marc:subfield>
+            <marc:subfield code="a">228 pages, [1] leaf of plates :</marc:subfield>
             <marc:subfield code="b">ill. ;</marc:subfield>
             <marc:subfield code="c">22 cm.</marc:subfield>
         </marc:datafield>
@@ -1239,7 +1239,7 @@
             <marc:subfield code="c">2008.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">xv, 280 p. :</marc:subfield>
+            <marc:subfield code="a">xv, 280 pages :</marc:subfield>
             <marc:subfield code="b">ill. ;</marc:subfield>
             <marc:subfield code="c">21 cm.</marc:subfield>
         </marc:datafield>
@@ -1421,7 +1421,7 @@
             <marc:subfield code="c">c1986.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">v, 87 p. ;</marc:subfield>
+            <marc:subfield code="a">v, 87 pages ;</marc:subfield>
             <marc:subfield code="c">28 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1522,7 +1522,7 @@
             <marc:subfield code="c">c1979</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">xi, 179 p. ;</marc:subfield>
+            <marc:subfield code="a">xi, 179 pages ;</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1608,7 +1608,7 @@
             <marc:subfield code="c">c1976.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">xi, 179 p. ;</marc:subfield>
+            <marc:subfield code="a">xi, 179 pages ;</marc:subfield>
             <marc:subfield code="c">24 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1695,7 +1695,7 @@
             <marc:subfield code="c">[1960]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">256 p.</marc:subfield>
+            <marc:subfield code="a">256 pages</marc:subfield>
             <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1760,7 +1760,7 @@
             <marc:subfield code="c">1952.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">156 p. ;</marc:subfield>
+            <marc:subfield code="a">156 pages ;</marc:subfield>
             <marc:subfield code="c">19 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1877,7 +1877,7 @@
             <marc:subfield code="c">1998.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">5 p. of music ;</marc:subfield>
+            <marc:subfield code="a">5 pages of music ;</marc:subfield>
             <marc:subfield code="c">31 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -2038,7 +2038,7 @@
             <marc:subfield code="c">2003.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">212 p. :</marc:subfield>
+            <marc:subfield code="a">212 pages :</marc:subfield>
             <marc:subfield code="b">ill. ;</marc:subfield>
             <marc:subfield code="c">20 cm.</marc:subfield>
         </marc:datafield>
@@ -2128,7 +2128,7 @@
             <marc:subfield code="c">2003</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">243 p. ;</marc:subfield>
+            <marc:subfield code="a">243 pages ;</marc:subfield>
             <marc:subfield code="c">24 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -2199,7 +2199,7 @@
             <marc:subfield code="c">2005.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">384 p. ;</marc:subfield>
+            <marc:subfield code="a">384 pages ;</marc:subfield>
             <marc:subfield code="c">24 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -2264,7 +2264,7 @@
             <marc:subfield code="c">2007</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">212 p. :</marc:subfield>
+            <marc:subfield code="a">212 pages :</marc:subfield>
             <marc:subfield code="b">ill. ;</marc:subfield>
             <marc:subfield code="c">20 cm.</marc:subfield>
         </marc:datafield>
@@ -2516,7 +2516,7 @@
             <marc:subfield code="c">[1715].</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">1 sheet ([1] p.) :</marc:subfield>
+            <marc:subfield code="a">1 sheet ([1] pages) :</marc:subfield>
             <marc:subfield code="b">chart.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -2656,7 +2656,7 @@
             <marc:subfield code="c">2010.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">468 p. ;</marc:subfield>
+            <marc:subfield code="a">468 pages ;</marc:subfield>
             <marc:subfield code="c">20 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -2779,7 +2779,7 @@
             <marc:subfield code="c">2009.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">468 p. ;</marc:subfield>
+            <marc:subfield code="a">468 pages ;</marc:subfield>
             <marc:subfield code="c">24 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -2891,7 +2891,7 @@
             <marc:subfield code="c">2009.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">196 p. ;</marc:subfield>
+            <marc:subfield code="a">196 pages ;</marc:subfield>
             <marc:subfield code="c">23 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -3192,7 +3192,7 @@
             <marc:subfield code="a">Hook, Theodore Edward, 1788-1841.</marc:subfield>
             <marc:subfield code="t">Darkness visible : a farce, in two acts. Performed with great applause at the Theatre Royal, Haymarket</marc:subfield>
             <marc:subfield code="c">London : Printed for C. Chapple [etc.], 1811.</marc:subfield>
-            <marc:subfield code="e">vii, 45 p.</marc:subfield>
+            <marc:subfield code="e">vii, 45 pages</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="540" ind1=" " ind2=" ">
             <marc:subfield code="a">Copyright (c) 1996 Chadwyck-Healey. Do not export or print from this database without checking the Copyright Conditions to see what is                 permitted.</marc:subfield>
@@ -3955,7 +3955,7 @@
             <marc:subfield code="a">Compact disc.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">Program and biographical notes (6 p.) inserted in container.</marc:subfield>
+            <marc:subfield code="a">Program and biographical notes (6 pages) inserted in container.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="505" ind1="0" ind2=" ">
             <marc:subfield code="a">Cimmerian nocturne (16:30) -- Lament of the bow (17:19) -- Variations (23:00)</marc:subfield>

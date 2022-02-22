@@ -78,7 +78,7 @@
             <marc:subfield code="c">2001</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">576 s.</marc:subfield>
+            <marc:subfield code="a">576 sider</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
             <marc:subfield code="a">1. norske utg. Oslo : Aschehoug, henholdsvis 1939 med tittel: Hun fulgte efter, 1974 og 1952</marc:subfield>
@@ -205,14 +205,14 @@
             <marc:subfield code="c">1939</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">283 s.</marc:subfield>
+            <marc:subfield code="a">283 sider</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Brückenberg, Hans</marc:subfield>
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
     </marc:record>
-    <marc:record>
+<!--    <marc:record>
         <marc:leader>01847cim a2200457 c 4500</marc:leader>
         <marc:controlfield tag="001">990521976464702202</marc:controlfield>
         <marc:controlfield tag="005">20160811094415.0</marc:controlfield>
@@ -342,7 +342,7 @@
             <marc:subfield code="u">http://innhold.bibsys.no/bilde/forside/?size=mini&amp;id=LITE_150068984.jpg</marc:subfield>
             <marc:subfield code="q">image/jpeg</marc:subfield>
         </marc:datafield>
-    </marc:record>
+    </marc:record>-->
     <marc:record>
         <marc:leader>02922cam a2200637 c 4500</marc:leader>
         <marc:controlfield tag="001">991007026864702202</marc:controlfield>
@@ -556,8 +556,8 @@
             <marc:subfield code="c">2008</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">96 s.</marc:subfield>
-            <marc:subfield code="b">ill.</marc:subfield>
+            <marc:subfield code="a">96 sider</marc:subfield>
+            <marc:subfield code="b">illustrasjoner</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="1" ind2=" ">
             <marc:subfield code="a">Penguin readers, Level 5</marc:subfield>
@@ -665,7 +665,7 @@
             <marc:subfield code="c">1980</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">597 s.</marc:subfield>
+            <marc:subfield code="a">597 sider</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="533" ind1=" " ind2=" ">
             <marc:subfield code="a">Elektronisk reproduksjon</marc:subfield>
@@ -769,7 +769,7 @@
             <marc:subfield code="c">1983</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">248 s.</marc:subfield>
+            <marc:subfield code="a">248 sider</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
             <marc:subfield code="a">1. norske utg. 1939 med tittel: Hun fulgte efter</marc:subfield>
@@ -838,7 +838,7 @@
             <marc:subfield code="c">1987</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">248 s.</marc:subfield>
+            <marc:subfield code="a">248 sider</marc:subfield>
             <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
@@ -914,7 +914,7 @@
             <marc:subfield code="c">1995</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">248 s.</marc:subfield>
+            <marc:subfield code="a">248 sider</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="1" ind2=" ">
             <marc:subfield code="a">En Maxibok fra Aschehoug</marc:subfield>
@@ -1024,7 +1024,7 @@
             <marc:subfield code="c">1966</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">248 s.</marc:subfield>
+            <marc:subfield code="a">248 sider</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
             <marc:subfield code="a">1. norske utg. 1939</marc:subfield>
@@ -1123,7 +1123,7 @@
             <marc:subfield code="c">1998</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">248 s.</marc:subfield>
+            <marc:subfield code="a">248 sider</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -1154,7 +1154,7 @@
             <marc:subfield code="a">1. norske utg. 1939 med tittel: Hun fulgte efter</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">2. oppl. med 253 s.</marc:subfield>
+            <marc:subfield code="a">2. oppl. med 253 sider</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
             <marc:subfield code="a">Opplagshistorikk:  Christies beste, 2. oppl. 2003 (Nkr 69.00)</marc:subfield>
@@ -1260,7 +1260,7 @@
             <marc:subfield code="c">©2015</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">1 online resource (327 p.)</marc:subfield>
+            <marc:subfield code="a">1 online resource (327 pages)</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -1969,7 +1969,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">1 volume ;</marc:subfield>
-            <marc:subfield code="c">20 cm.</marc:subfield>
+            <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -2141,7 +2141,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">1 volume ;</marc:subfield>
-            <marc:subfield code="c">18 cm.</marc:subfield>
+            <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -2232,7 +2232,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">1 volume ;</marc:subfield>
-            <marc:subfield code="c">20 cm.</marc:subfield>
+            <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -2566,10 +2566,10 @@
             <marc:subfield code="a">1 online resource :</marc:subfield>
             <marc:subfield code="b">illustrations (black and white), maps (black and white)</marc:subfield>
         </marc:datafield>
-        <!--<marc:datafield tag="336" ind1=" " ind2=" ">
+        <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">cartographic image</marc:subfield>
             <marc:subfield code="0">http://rdaregistry.info/termList/RDAContentType/1002</marc:subfield>
-        </marc:datafield>-->
+        </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">still image</marc:subfield>
             <marc:subfield code="0">http://rdaregistry.info/termList/RDAContentType/1014</marc:subfield>
@@ -3029,7 +3029,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">1 volume ;</marc:subfield>
-            <marc:subfield code="c">20 cm.</marc:subfield>
+            <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -3156,7 +3156,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">1 volume ;</marc:subfield>
-            <marc:subfield code="c">18 cm.</marc:subfield>
+            <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -3236,7 +3236,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">89 pages ;</marc:subfield>
-            <marc:subfield code="c">20 cm.</marc:subfield>
+            <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -3285,7 +3285,7 @@
             <marc:subfield code="t">Death on the Nile.</marc:subfield>
         </marc:datafield>
     </marc:record>
-    <marc:record>
+<!--    <marc:record>
         <marc:leader>01034nam a22003011i 4500</marc:leader>
         <marc:controlfield tag="001">018424969</marc:controlfield>
         <marc:controlfield tag="003">Uk</marc:controlfield>
@@ -3344,10 +3344,10 @@
             <marc:subfield code="b">illustrations (black and white, and colour), maps (colour) ;</marc:subfield>
             <marc:subfield code="c">24 cm</marc:subfield>
         </marc:datafield>
-        <!--<marc:datafield tag="336" ind1=" " ind2=" ">
+        <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">cartographic image</marc:subfield>
             <marc:subfield code="0">http://rdaregistry.info/termList/RDAContentType/1002</marc:subfield>
-        </marc:datafield>-->
+        </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">still image</marc:subfield>
             <marc:subfield code="0">http://rdaregistry.info/termList/RDAContentType/1014</marc:subfield>
@@ -3390,7 +3390,7 @@
             <marc:subfield code="z">Sudan</marc:subfield>
             <marc:subfield code="v">Biography.</marc:subfield>
         </marc:datafield>
-    </marc:record>
+    </marc:record>-->
     <marc:record>
         <marc:leader>01271pam a2200337 i 4500</marc:leader>
         <marc:controlfield tag="001">017695339</marc:controlfield>
@@ -3540,7 +3540,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">373 pages ;</marc:subfield>
-            <marc:subfield code="c">20 cm.</marc:subfield>
+            <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -3643,7 +3643,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">1 v. (large print) ;</marc:subfield>
-            <marc:subfield code="c">23 cm.</marc:subfield>
+            <marc:subfield code="c">23 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -3735,9 +3735,9 @@
             <marc:subfield code="c">2008.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">v, 96 p. :</marc:subfield>
-            <marc:subfield code="b">ill. ;</marc:subfield>
-            <marc:subfield code="c">20 cm.</marc:subfield>
+            <marc:subfield code="a">v, 96 pages :</marc:subfield>
+            <marc:subfield code="b">illustrations ;</marc:subfield>
+            <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -3829,9 +3829,9 @@
             <marc:subfield code="c">2007.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">44 p. :</marc:subfield>
-            <marc:subfield code="b">chiefly col. ill. ;</marc:subfield>
-            <marc:subfield code="c">30 cm.</marc:subfield>
+            <marc:subfield code="a">44 pages :</marc:subfield>
+            <marc:subfield code="b">chiefly colour illustrations ;</marc:subfield>
+            <marc:subfield code="c">30 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -3925,8 +3925,8 @@
             <marc:subfield code="c">2006.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">284 p. ;</marc:subfield>
-            <marc:subfield code="c">19 cm.</marc:subfield>
+            <marc:subfield code="a">284 pages ;</marc:subfield>
+            <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4007,9 +4007,9 @@
             <marc:subfield code="c">1995.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">45p. :</marc:subfield>
-            <marc:subfield code="b">ill. (some col.), maps, plan ;</marc:subfield>
-            <marc:subfield code="c">21cm.</marc:subfield>
+            <marc:subfield code="a">45 pages :</marc:subfield>
+            <marc:subfield code="b">illustrations (some colour), maps, plan ;</marc:subfield>
+            <marc:subfield code="c">21 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4091,8 +4091,8 @@
             <marc:subfield code="c">1978.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">222p. ;</marc:subfield>
-            <marc:subfield code="c">18cm.</marc:subfield>
+            <marc:subfield code="a">222 pages ;</marc:subfield>
+            <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4186,8 +4186,8 @@
             <marc:subfield code="c">[1971]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">[5],466p. ;</marc:subfield>
-            <marc:subfield code="c">23cm.</marc:subfield>
+            <marc:subfield code="a">[5],466 pages ;</marc:subfield>
+            <marc:subfield code="c">23 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4263,7 +4263,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">253 pages ;</marc:subfield>
-            <marc:subfield code="c">18 cm.</marc:subfield>
+            <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4325,8 +4325,8 @@
             <marc:subfield code="c">1969.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">318p. ;</marc:subfield>
-            <marc:subfield code="c">21cm.</marc:subfield>
+            <marc:subfield code="a">318 pages ;</marc:subfield>
+            <marc:subfield code="c">21 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4400,8 +4400,8 @@
             <marc:subfield code="c">c1996.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">43p. ;</marc:subfield>
-            <marc:subfield code="c">19cm.</marc:subfield>
+            <marc:subfield code="a">43 pages ;</marc:subfield>
+            <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4469,7 +4469,7 @@
             <marc:subfield code="c">1988.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">[224]p.</marc:subfield>
+            <marc:subfield code="a">[224] pages</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4548,8 +4548,8 @@
             <marc:subfield code="g">(1984 [printing])</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">222p. ;</marc:subfield>
-            <marc:subfield code="c">18cm.</marc:subfield>
+            <marc:subfield code="a">222 pages ;</marc:subfield>
+            <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4616,8 +4616,8 @@
             <marc:subfield code="c">2001.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">416p. ;</marc:subfield>
-            <marc:subfield code="c">18cm.</marc:subfield>
+            <marc:subfield code="a">416 pages ;</marc:subfield>
+            <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4691,8 +4691,8 @@
             <marc:subfield code="c">1978.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">318p. ;</marc:subfield>
-            <marc:subfield code="c">21cm.</marc:subfield>
+            <marc:subfield code="a">318 pages ;</marc:subfield>
+            <marc:subfield code="c">21 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4775,8 +4775,8 @@
             <marc:subfield code="c">1990, c1937.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">252p. ;</marc:subfield>
-            <marc:subfield code="c">24cm.</marc:subfield>
+            <marc:subfield code="a">252 pages ;</marc:subfield>
+            <marc:subfield code="c">24 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4871,8 +4871,8 @@
             <marc:subfield code="c">1989, c1988.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">238 p. (large print) ;</marc:subfield>
-            <marc:subfield code="c">23 cm.</marc:subfield>
+            <marc:subfield code="a">238 pages (large print) ;</marc:subfield>
+            <marc:subfield code="c">23 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -4942,8 +4942,8 @@
             <marc:subfield code="c">195.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">252p. ;</marc:subfield>
-            <marc:subfield code="c">18cm.</marc:subfield>
+            <marc:subfield code="a">252 pages ;</marc:subfield>
+            <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -5005,8 +5005,8 @@
             <marc:subfield code="c">1999.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">256p. ;</marc:subfield>
-            <marc:subfield code="c">22cm.</marc:subfield>
+            <marc:subfield code="a">256 pages ;</marc:subfield>
+            <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -5202,8 +5202,8 @@
             <marc:subfield code="c">2004.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">256 p. ;</marc:subfield>
-            <marc:subfield code="c">18cm.</marc:subfield>
+            <marc:subfield code="a">256 pages ;</marc:subfield>
+            <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -5286,9 +5286,9 @@
             <marc:subfield code="c">2001.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">578 p. :</marc:subfield>
-            <marc:subfield code="b">ill. ;</marc:subfield>
-            <marc:subfield code="c">20 cm.</marc:subfield>
+            <marc:subfield code="a">578 pages :</marc:subfield>
+            <marc:subfield code="b">illustrations ;</marc:subfield>
+            <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>
@@ -6624,7 +6624,7 @@
             <marc:subfield code="c">2018</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">339 p.</marc:subfield>
+            <marc:subfield code="a">339 pages</marc:subfield>
             <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -6726,7 +6726,7 @@
         </marc:datafield>
         <marc:datafield tag="776" ind1="0" ind2=" ">
             <marc:subfield code="t">Muerte en el Nilo</marc:subfield>
-            <marc:subfield code="h">339 p.</marc:subfield>
+            <marc:subfield code="h">339 pages</marc:subfield>
             <marc:subfield code="z">978-84-670-4542-0</marc:subfield>
             <marc:subfield code="w">a5696885</marc:subfield>
         </marc:datafield>
@@ -6784,7 +6784,7 @@
             <marc:subfield code="c">2015</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">339 p.</marc:subfield>
+            <marc:subfield code="a">339 pages</marc:subfield>
             <marc:subfield code="c">24 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -6863,7 +6863,7 @@
             <marc:subfield code="c">2014</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">313 p.</marc:subfield>
+            <marc:subfield code="a">313 pages</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -7370,7 +7370,7 @@
             <marc:subfield code="c">2012</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">313 p.</marc:subfield>
+            <marc:subfield code="a">313 pages</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -7838,7 +7838,7 @@
             <marc:subfield code="c">2009</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">383 p.</marc:subfield>
+            <marc:subfield code="a">383 pages</marc:subfield>
             <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="1" ind2=" ">
@@ -7900,7 +7900,7 @@
             <marc:subfield code="c">[2008]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">297 p.</marc:subfield>
+            <marc:subfield code="a">297 pages</marc:subfield>
             <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="594" ind1=" " ind2=" ">
@@ -7952,7 +7952,7 @@
             <marc:subfield code="c">[2008]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">277 p.</marc:subfield>
+            <marc:subfield code="a">277 pages</marc:subfield>
             <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="594" ind1=" " ind2=" ">
@@ -8014,7 +8014,7 @@
             <marc:subfield code="f">Lit. Rosés</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">230 p.</marc:subfield>
+            <marc:subfield code="a">230 pages</marc:subfield>
             <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="1" ind2=" ">
@@ -8086,7 +8086,7 @@
             <marc:subfield code="c">2007]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">128 p.</marc:subfield>
+            <marc:subfield code="a">128 pages</marc:subfield>
             <marc:subfield code="c">24 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="534" ind1=" " ind2=" ">
@@ -8147,7 +8147,7 @@
             <marc:subfield code="c">[2007]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">272 p.</marc:subfield>
+            <marc:subfield code="a">272 pages</marc:subfield>
             <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="594" ind1=" " ind2=" ">
@@ -8207,7 +8207,7 @@
             <marc:subfield code="c">[2006]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">475 p.</marc:subfield>
+            <marc:subfield code="a">475 pages</marc:subfield>
             <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="1" ind2=" ">
@@ -8424,7 +8424,7 @@
             <marc:subfield code="c">2006</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">383 p.</marc:subfield>
+            <marc:subfield code="a">383 pages</marc:subfield>
             <marc:subfield code="c">18 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="594" ind1=" " ind2=" ">
@@ -8564,7 +8564,7 @@
             <marc:subfield code="f">Printer</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">284 p.</marc:subfield>
+            <marc:subfield code="a">284 pages</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="440" ind1=" " ind2="0">
@@ -8630,7 +8630,7 @@
             <marc:subfield code="c">2003</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">507 p.</marc:subfield>
+            <marc:subfield code="a">507 pages</marc:subfield>
             <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="1" ind2=" ">
@@ -8814,7 +8814,7 @@
             <marc:subfield code="c">[2003]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">272 p.</marc:subfield>
+            <marc:subfield code="a">272 pages</marc:subfield>
             <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="594" ind1=" " ind2=" ">
@@ -8873,7 +8873,7 @@
             <marc:subfield code="c">2001</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">301 p.</marc:subfield>
+            <marc:subfield code="a">301 pages</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -8941,7 +8941,7 @@
             <marc:subfield code="c">[2000]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">288 p.</marc:subfield>
+            <marc:subfield code="a">288 pages</marc:subfield>
             <marc:subfield code="c">17 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="1" ind2=" ">
@@ -9009,7 +9009,7 @@
             <marc:subfield code="c">[2000]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">377 p.</marc:subfield>
+            <marc:subfield code="a">377 pages</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="2">
@@ -9071,7 +9071,7 @@
             <marc:subfield code="c">[1997]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">46 p.</marc:subfield>
+            <marc:subfield code="a">46 pages</marc:subfield>
             <marc:subfield code="b">principalmente il. col.</marc:subfield>
             <marc:subfield code="c">29 cm</marc:subfield>
         </marc:datafield>
@@ -9142,7 +9142,7 @@
             <marc:subfield code="c">[1996]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">285 p.</marc:subfield>
+            <marc:subfield code="a">285 pages</marc:subfield>
             <marc:subfield code="c">17 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="1" ind2=" ">
@@ -9207,7 +9207,7 @@
             <marc:subfield code="c">1996</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">46 p.</marc:subfield>
+            <marc:subfield code="a">46 pages</marc:subfield>
             <marc:subfield code="b">principalmente il. col.</marc:subfield>
             <marc:subfield code="c">29 cm</marc:subfield>
         </marc:datafield>
@@ -9282,7 +9282,7 @@
             <marc:subfield code="f">Printer Industria Gráf.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">237 p.</marc:subfield>
+            <marc:subfield code="a">237 pages</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="594" ind1=" " ind2=" ">
@@ -9345,7 +9345,7 @@
             <marc:subfield code="c">1996</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">300 p.</marc:subfield>
+            <marc:subfield code="a">300 pages</marc:subfield>
             <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -9662,7 +9662,7 @@
             <marc:subfield code="c">D.L. 1994</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">231 p.</marc:subfield>
+            <marc:subfield code="a">231 pages</marc:subfield>
             <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
@@ -9726,7 +9726,7 @@
             <marc:subfield code="c">D.L. 1994</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">377 p.</marc:subfield>
+            <marc:subfield code="a">377 pages</marc:subfield>
             <marc:subfield code="b">1 retr.</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
@@ -9805,7 +9805,7 @@
             <marc:subfield code="c">D.L. 1993</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">231 p.</marc:subfield>
+            <marc:subfield code="a">231 pages</marc:subfield>
             <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
@@ -9871,7 +9871,7 @@
             <marc:subfield code="c">D.L. 1991</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">334 p.</marc:subfield>
+            <marc:subfield code="a">334 pages</marc:subfield>
             <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
@@ -9932,7 +9932,7 @@
             <marc:subfield code="c">D.L. 1990</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">334 p.</marc:subfield>
+            <marc:subfield code="a">334 pages</marc:subfield>
             <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
@@ -9993,7 +9993,7 @@
             <marc:subfield code="c">D.L. 1987</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">239 p.</marc:subfield>
+            <marc:subfield code="a">239 pages</marc:subfield>
             <marc:subfield code="c">17 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="440" ind1=" " ind2="0">
@@ -10061,7 +10061,7 @@
             <marc:subfield code="c">1986</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">325 p.</marc:subfield>
+            <marc:subfield code="a">325 pages</marc:subfield>
             <marc:subfield code="c">19 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="440" ind1=" " ind2="0">
@@ -10136,7 +10136,7 @@
             <marc:subfield code="c">[1985]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">239 p.</marc:subfield>
+            <marc:subfield code="a">239 pages</marc:subfield>
             <marc:subfield code="c">16 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="0" ind2=" ">
@@ -10197,7 +10197,7 @@
             <marc:subfield code="f">Gráf. Futura</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">533 p., [2] p. de lám.</marc:subfield>
+            <marc:subfield code="a">533 pages, [2] p. de lám.</marc:subfield>
             <marc:subfield code="c">21 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="0" ind2=" ">
@@ -10383,7 +10383,7 @@
             <marc:subfield code="c">[1983]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">239 p.</marc:subfield>
+            <marc:subfield code="a">239 pages</marc:subfield>
             <marc:subfield code="c">17 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="0" ind2=" ">
@@ -10446,7 +10446,7 @@
             <marc:subfield code="c">[1982]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">239 p.</marc:subfield>
+            <marc:subfield code="a">239 pages</marc:subfield>
             <marc:subfield code="c">17 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="0" ind2=" ">
@@ -10512,7 +10512,7 @@
             <marc:subfield code="c">D.L. 1981</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">239 p.</marc:subfield>
+            <marc:subfield code="a">239 pages</marc:subfield>
             <marc:subfield code="c">17 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="0" ind2=" ">
@@ -10572,7 +10572,7 @@
             <marc:subfield code="f">Ponsa]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">220 p.</marc:subfield>
+            <marc:subfield code="a">220 pages</marc:subfield>
             <marc:subfield code="c">17 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="0" ind2=" ">
@@ -10631,7 +10631,7 @@
             <marc:subfield code="f">Ponsa]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">256 p.</marc:subfield>
+            <marc:subfield code="a">256 pages</marc:subfield>
             <marc:subfield code="c">16 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="0" ind2=" ">
@@ -10688,7 +10688,7 @@
             <marc:subfield code="f">Vicente Ferrer]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">128 p.</marc:subfield>
+            <marc:subfield code="a">128 pages</marc:subfield>
             <marc:subfield code="c">23 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="490" ind1="0" ind2=" ">

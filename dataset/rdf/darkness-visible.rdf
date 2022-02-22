@@ -510,7 +510,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>J. Cape</rdamd:P30083>
       <rdamd:P30011>[1960]</rdamd:P30011>
-      <rdamd:P30182>256 p. 20 cm</rdamd:P30182>
+      <rdamd:P30182>256 pages 20 cm</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -524,7 +524,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Regency</rdamd:P30083>
       <rdamd:P30011>1952</rdamd:P30011>
-      <rdamd:P30182>156 p. ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>156 pages ; 19 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -561,7 +561,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Britons</rdamd:P30083>
       <rdamd:P30011>1952</rdamd:P30011>
-      <rdamd:P30182>228 p., [1] leaf of plates : ill. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>228 pages, [1] leaf of plates : ill. ; 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -576,7 +576,7 @@
       <rdamd:P30088>New York</rdamd:P30088>
       <rdamd:P30083>Random House</rdamd:P30083>
       <rdamd:P30011>c1990</rdamd:P30011>
-      <rdamd:P30182>1 online resource (84 p.)</rdamd:P30182>
+      <rdamd:P30182>1 online resource (84 pages)</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Counseling and psychotherapy transcripts, client narratives, and reference works</rdamd:P30106>
@@ -655,7 +655,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Cape</rdamd:P30083>
       <rdamd:P30011>1991</rdamd:P30011>
-      <rdamd:P30182>84 p. ; 21 cm</rdamd:P30182>
+      <rdamd:P30182>84 pages ; 21 cm</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -672,7 +672,7 @@
       <rdamd:P30088>Berkeley</rdamd:P30088>
       <rdamd:P30083>University of California Press</rdamd:P30083>
       <rdamd:P30011>c1976</rdamd:P30011>
-      <rdamd:P30182>xi, 179 p. ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>xi, 179 pages ; 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -689,7 +689,7 @@
       <rdamd:P30088>Berkeley</rdamd:P30088>
       <rdamd:P30083>University of California Press</rdamd:P30083>
       <rdamd:P30011>c1979</rdamd:P30011>
-      <rdamd:P30182>xi, 179 p. ; 22 cm</rdamd:P30182>
+      <rdamd:P30182>xi, 179 pages ; 22 cm</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -708,7 +708,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Faber and Faber</rdamd:P30083>
       <rdamd:P30011>2009</rdamd:P30011>
-      <rdamd:P30182>468 p. ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>468 pages ; 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -727,7 +727,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Faber and Faber</rdamd:P30083>
       <rdamd:P30011>2010</rdamd:P30011>
-      <rdamd:P30182>468 p. ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>468 pages ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -764,7 +764,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Faber Music</rdamd:P30083>
       <rdamd:P30011>1998</rdamd:P30011>
-      <rdamd:P30182>5 p. of music ; 31 cm.</rdamd:P30182>
+      <rdamd:P30182>5 pages of music ; 31 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -806,7 +806,7 @@
       <rdamd:P30088>Sutton</rdamd:P30088>
       <rdamd:P30083>Severn House</rdamd:P30083>
       <rdamd:P30011>2009</rdamd:P30011>
-      <rdamd:P30182>196 p. ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>196 pages ; 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -825,7 +825,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Orion</rdamd:P30083>
       <rdamd:P30011>2003</rdamd:P30011>
-      <rdamd:P30182>243 p. ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>243 pages ; 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -842,7 +842,7 @@
       <rdamd:P30088>Addlestone</rdamd:P30088>
       <rdamd:P30083>Lewis Masonic</rdamd:P30083>
       <rdamd:P30011>2005</rdamd:P30011>
-      <rdamd:P30182>384 p. ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>384 pages ; 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -880,7 +880,7 @@
       <rdamd:P30088>Williamstown, Mass</rdamd:P30088>
       <rdamd:P30083>Sterling &amp; Francine Clark Art Institute</rdamd:P30083>
       <rdamd:P30011>c1986</rdamd:P30011>
-      <rdamd:P30182>v, 87 p. ; 28 cm.</rdamd:P30182>
+      <rdamd:P30182>v, 87 pages ; 28 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -898,7 +898,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Saint Austin Press</rdamd:P30083>
       <rdamd:P30011>1998</rdamd:P30011>
-      <rdamd:P30182>viii, 232 p. : ill. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>viii, 232 pages : ill. ; 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -915,7 +915,7 @@
       <rdamd:P30088>[Oslo]</rdamd:P30088>
       <rdamd:P30083>Aschehoug</rdamd:P30083>
       <rdamd:P30011>1991</rdamd:P30011>
-      <rdamd:P30182>95 s. 21 cm</rdamd:P30182>
+      <rdamd:P30182>95 sider 21 cm</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -1022,7 +1022,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Wizard</rdamd:P30083>
       <rdamd:P30011>2007</rdamd:P30011>
-      <rdamd:P30182>212 p. : ill. ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>212 pages : ill. ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -1039,7 +1039,7 @@
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30083>Baronius</rdamd:P30083>
       <rdamd:P30011>2008</rdamd:P30011>
-      <rdamd:P30182>xv, 280 p. : ill. ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>xv, 280 pages : ill. ; 21 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
