@@ -141,10 +141,10 @@ export default function MyApp() {
 
                 </Grid>
                 <Grid item xs={showFilters ? 8 : 8}>
-                    {called && loading ? <Grid item xs={8}><CircularProgress /></Grid> : <ResultView results={data ? data.expressions : []}/>}
+                    {called && loading ? <Grid item xs={8}><CircularProgress /></Grid> : <ResultView results={data ? data.expressions.slice(0,30) : []}/>}
                 </Grid>
                 {showFilters ? <Grid item xs={2}>
-                    <FilterList results={data ? data.expressions : []}/>
+                    <FilterList results={data ? data.expressions.slice(0,30) : []}/>
                 </Grid> : ""}
             </Grid>
         </React.Fragment>
