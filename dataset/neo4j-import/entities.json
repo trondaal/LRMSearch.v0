@@ -70773,6 +70773,17 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/309258229/nor/1013/226306913/51776002"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Expression"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/37144221/deathbeyondthenile/eng/1020"
         },
         "label" : {
@@ -171753,17 +171764,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/isbn-8203053211"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://example.org/isbn-8203102093"
         },
         "label" : {
@@ -171775,40 +171775,7 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/isbn-8203112579"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203155642"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203201539"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203203787"
+          "value" : "http://example.org/isbn-8242116342"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -172150,17 +172117,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/isbn-9781907804717"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Manifestation"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9788203213083"
         },
         "label" : {
           "xml:lang" : "gden",

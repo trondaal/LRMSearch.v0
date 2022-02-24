@@ -110,6 +110,12 @@
       <rdawo:P10053 rdf:resource="http://www.wikidata.org/entity/Q214665"/>
       <rdawo:P10106 rdf:resource="http://www.wikidata.org/entity/Q1059914"/>
    </rdac:C10001>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/226306913">
+      <rdaxd:P00018>http://viaf.org/viaf/226306913</rdaxd:P00018>
+      <rdaad:P50385>Oftebro, Nils Ole</rdaad:P50385>
+      <rdfs:label>Oftebro, Nils Ole</rdfs:label>
+      <rdaad:P50339>1944-</rdaad:P50339>
+   </rdac:C10002>
    <rdac:C10002 rdf:about="http://viaf.org/viaf/284507812">
       <rdaxd:P00018>http://viaf.org/viaf/284507812</rdaxd:P00018>
       <rdaad:P50385>Callixte</rdaad:P50385>
@@ -122,8 +128,8 @@
    </rdac:C10002>
    <rdac:C10002 rdf:about="http://viaf.org/viaf/51776002">
       <rdaxd:P00018>http://viaf.org/viaf/51776002</rdaxd:P00018>
-      <rdaad:P50385>Brückenberg, Hans</rdaad:P50385>
-      <rdfs:label>Brückenberg, Hans</rdfs:label>
+      <rdaad:P50385>Brückenberg, Hans</rdaad:P50385>
+      <rdfs:label>Brückenberg, Hans</rdfs:label>
    </rdac:C10002>
    <rdac:C10002 rdf:about="http://viaf.org/viaf/54153530980048702386">
       <rdaxd:P00018>http://viaf.org/viaf/54153530980048702386</rdaxd:P00018>
@@ -323,12 +329,14 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/309258229"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/309258229/nor/1020/51776002">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/309258229/nor/1013/226306913/51776002">
       <rdaed:P20316>Death on the Nile</rdaed:P20316>
       <rdaed:P20312>Mord på Nilen</rdaed:P20312>
-      <rdfs:label>Mord på Nilen / nor / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+      <rdfs:label>Mord på Nilen / nor / spoken word</rdfs:label>
+      <rdaed:P20315>Mord på Nilen</rdaed:P20315>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
+      <rdaeo:P20022 rdf:resource="http://viaf.org/viaf/226306913"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/51776002"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/309258229"/>
    </rdac:C10006>
@@ -949,18 +957,6 @@
       <rdamd:P30007>©2018</rdamd:P30007>
       <rdamd:P30182>1 online resource (liv, 427 pages) : illustrations, maps</rdamd:P30182>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-8203053211">
-      <rdamd:P30004>ISBN 8203053211</rdamd:P30004>
-      <rdaxd:P00018>isbn-8203053211</rdaxd:P00018>
-      <rdfs:label>ISBN8203053211</rdfs:label>
-      <rdamd:P30156>Hun fulgte etter</rdamd:P30156>
-      <rdamd:P30117>Agatha Christie ; oversatt av Hans Brückenberg</rdamd:P30117>
-      <rdamd:P30107>2. oppl.</rdamd:P30107>
-      <rdamd:P30088>Oslo</rdamd:P30088>
-      <rdamd:P30083>Aschehoug</rdamd:P30083>
-      <rdamd:P30011>1966</rdamd:P30011>
-      <rdamd:P30182>248 sider</rdamd:P30182>
-   </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8203102093">
       <rdamd:P30004>ISBN 8203102093</rdamd:P30004>
       <rdaxd:P00018>isbn-8203102093</rdaxd:P00018>
@@ -974,57 +970,24 @@
       <rdamd:P30011>1980</rdamd:P30011>
       <rdamd:P30182>597 sider</rdamd:P30182>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-8203112579">
-      <rdamd:P30004>ISBN 8203112579</rdamd:P30004>
-      <rdaxd:P00018>isbn-8203112579</rdaxd:P00018>
-      <rdfs:label>ISBN8203112579</rdfs:label>
+   <rdac:C10007 rdf:about="http://example.org/isbn-8242116342">
+      <rdamd:P30004>ISBN 8242116342</rdamd:P30004>
+      <rdaxd:P00018>isbn-8242116342</rdaxd:P00018>
+      <rdfs:label>ISBN8242116342</rdfs:label>
+      <rdamd:P30004>ISBN 9788242116345</rdamd:P30004>
+      <rdaxd:P00018>isbn-9788242116345</rdaxd:P00018>
+      <rdfs:label>ISBN9788242116345</rdfs:label>
       <rdamd:P30156>Mord på Nilen</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; oversatt av Hans Brückenberg</rdamd:P30117>
-      <rdamd:P30107>6. oppl</rdamd:P30107>
-      <rdamd:P30088>Oslo</rdamd:P30088>
-      <rdamd:P30083>Aschehoug</rdamd:P30083>
-      <rdamd:P30011>1983</rdamd:P30011>
-      <rdamd:P30182>248 sider</rdamd:P30182>
-   </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-8203155642">
-      <rdamd:P30004>ISBN 8203155642</rdamd:P30004>
-      <rdaxd:P00018>isbn-8203155642</rdaxd:P00018>
-      <rdfs:label>ISBN8203155642</rdfs:label>
-      <rdamd:P30156>Mord på Nilen</rdamd:P30156>
-      <rdamd:P30117>Agatha Christie ; oversatt av Hans Brückenberg</rdamd:P30117>
-      <rdamd:P30088>Oslo</rdamd:P30088>
-      <rdamd:P30083>Aschehoug</rdamd:P30083>
-      <rdamd:P30011>1987</rdamd:P30011>
-      <rdamd:P30182>248 sider 19 cm</rdamd:P30182>
-   </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-8203201539">
-      <rdamd:P30004>ISBN 8203201539</rdamd:P30004>
-      <rdaxd:P00018>isbn-8203201539</rdaxd:P00018>
-      <rdfs:label>ISBN8203201539</rdfs:label>
-      <rdamd:P30156>Mord på Nilen</rdamd:P30156>
-      <rdamd:P30117>Agatha Christie ; oversatt av Hans Brückenberg</rdamd:P30117>
-      <rdamd:P30088>Oslo</rdamd:P30088>
-      <rdamd:P30083>Aschehoug</rdamd:P30083>
-      <rdamd:P30011>1995</rdamd:P30011>
-      <rdamd:P30182>248 sider</rdamd:P30182>
-      <rdamd:P30106>En Maxibok fra Aschehoug</rdamd:P30106>
-   </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-8203203787">
-      <rdamd:P30004>ISBN 8203203787</rdamd:P30004>
-      <rdaxd:P00018>isbn-8203203787</rdaxd:P00018>
-      <rdfs:label>ISBN8203203787</rdfs:label>
-      <rdamd:P30156>Mord på Nilen</rdamd:P30156>
-      <rdamd:P30117>Agatha Christie ; oversatt av Hans Brückenberg</rdamd:P30117>
-      <rdamd:P30088>Oslo</rdamd:P30088>
-      <rdamd:P30083>Aschehoug</rdamd:P30083>
-      <rdamd:P30011>1998</rdamd:P30011>
-      <rdamd:P30182>248 sider</rdamd:P30182>
-      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
-      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
-      <rdamd:P30106>Christies beste</rdamd:P30106>
-      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
-      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/nor/1020/51776002"/>
+      <rdamd:P30088>[Melhus]</rdamd:P30088>
+      <rdamd:P30083>Lydbokforl</rdamd:P30083>
+      <rdamd:P30011>2005</rdamd:P30011>
+      <rdamd:P30182>7 plater (CD) (8 t, 54 min) digital 12 cm, i eske</rdamd:P30182>
+      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1013</rdamd:P30001>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1013"/>
+      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/nor/1013/226306913/51776002"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8252545939">
       <rdamd:P30004>ISBN 8252545939</rdamd:P30004>
@@ -1496,23 +1459,6 @@
       <rdamd:P30011>2016</rdamd:P30011>
       <rdamd:P30182>256 pages : illustrations (black and white, and colour), 1 map (colour) ; 30 cm</rdamd:P30182>
    </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-9788203213083">
-      <rdamd:P30004>ISBN 9788203213083</rdamd:P30004>
-      <rdaxd:P00018>isbn-9788203213083</rdaxd:P00018>
-      <rdfs:label>ISBN9788203213083</rdfs:label>
-      <rdamd:P30156>Mord på Nilen</rdamd:P30156>
-      <rdamd:P30117>Agatha Christie ; oversatt av Hans Brückenberg</rdamd:P30117>
-      <rdamd:P30088>Oslo</rdamd:P30088>
-      <rdamd:P30083>Aschehoug</rdamd:P30083>
-      <rdamd:P30011>[2010]</rdamd:P30011>
-      <rdamd:P30007>© 2010</rdamd:P30007>
-      <rdamd:P30182>253 sider 19 cm</rdamd:P30182>
-      <rdamd:P30002>http://www.rdaregistry.info/termList/RDAMediaType/#1007</rdamd:P30002>
-      <rdamd:P30001>http://www.rdaregistry.info/termList/RDACarrierType/#1049</rdamd:P30001>
-      <rdamd:P30106>Poirot</rdamd:P30106>
-      <rdamd:P30001 rdf:resource="http://www.rdaregistry.info/termList/RDACarrierType/#1049"/>
-      <rdamd:P30002 rdf:resource="http://www.rdaregistry.info/termList/RDAMediaType/#1007"/>
-   </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788242969040">
       <rdamd:P30004>ISBN 9788242969040</rdamd:P30004>
       <rdaxd:P00018>isbn-9788242969040</rdaxd:P00018>
@@ -1764,7 +1710,6 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/nob">
       <rdfs:label>nob</rdfs:label>
-      <skos:subjectIndicator>nob</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/nor">
       <skos:subjectIndicator>nor</skos:subjectIndicator>
@@ -1781,6 +1726,9 @@
       <rdfs:label>spa</rdfs:label>
       <skos:subjectIndicator>spa</skos:subjectIndicator>
    </skos:Concept>
+   <skos:Concept rdf:about="http://rdaregistry.info/termList/RDACarrierType/1013">
+      <skos:subjectIndicator>http://rdaregistry.info/termList/RDACarrierType/1013</skos:subjectIndicator>
+   </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDACarrierType/1018">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDACarrierType/1018</skos:subjectIndicator>
    </skos:Concept>
@@ -1795,6 +1743,9 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAContentType/1010">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDAContentType/1010</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAContentType/1013">
+      <skos:subjectIndicator>http://rdaregistry.info/termList/RDAContentType/1013</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAContentType/1014">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDAContentType/1014</skos:subjectIndicator>
@@ -1813,12 +1764,6 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAMediaType/1008">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDAMediaType/1008</skos:subjectIndicator>
-   </skos:Concept>
-   <skos:Concept rdf:about="http://www.rdaregistry.info/termList/RDACarrierType/#1049">
-      <skos:subjectIndicator>http://www.rdaregistry.info/termList/RDACarrierType/#1049</skos:subjectIndicator>
-   </skos:Concept>
-   <skos:Concept rdf:about="http://www.rdaregistry.info/termList/RDAMediaType/#1007">
-      <skos:subjectIndicator>http://www.rdaregistry.info/termList/RDAMediaType/#1007</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="https://schema.nb.no/Bibliographic/Values/V1000">
       <skos:subjectIndicator>https://schema.nb.no/Bibliographic/Values/V1000</skos:subjectIndicator>

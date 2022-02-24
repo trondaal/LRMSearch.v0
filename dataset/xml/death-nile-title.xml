@@ -212,7 +212,7 @@
             <marc:subfield code="4">trl</marc:subfield>
         </marc:datafield>
     </marc:record>
-<!--    <marc:record>
+    <marc:record>
         <marc:leader>01847cim a2200457 c 4500</marc:leader>
         <marc:controlfield tag="001">990521976464702202</marc:controlfield>
         <marc:controlfield tag="005">20160811094415.0</marc:controlfield>
@@ -342,8 +342,8 @@
             <marc:subfield code="u">http://innhold.bibsys.no/bilde/forside/?size=mini&amp;id=LITE_150068984.jpg</marc:subfield>
             <marc:subfield code="q">image/jpeg</marc:subfield>
         </marc:datafield>
-    </marc:record>-->
-    <marc:record>
+    </marc:record>
+<!--    <marc:record>
         <marc:leader>02922cam a2200637 c 4500</marc:leader>
         <marc:controlfield tag="001">991007026864702202</marc:controlfield>
         <marc:controlfield tag="005">20211102174645.0</marc:controlfield>
@@ -495,7 +495,7 @@
             <marc:subfield code="u">https://contents.bibs.aws.unit.no/files/images/original/3/8/9788203213083.jpg</marc:subfield>
             <marc:subfield code="q">image/jpeg</marc:subfield>
         </marc:datafield>
-    </marc:record>
+    </marc:record>-->
     <marc:record>
         <marc:leader>02147cam a2200481 c 4500</marc:leader>
         <marc:controlfield tag="001">991022446774702202</marc:controlfield>
@@ -713,7 +713,7 @@
             <marc:subfield code="z">Søke-URL</marc:subfield>
         </marc:datafield>
     </marc:record>
-    <marc:record>
+<!--    <marc:record>
         <marc:leader>01295cam a2200361 c 4500</marc:leader>
         <marc:controlfield tag="001">998520512804702202</marc:controlfield>
         <marc:controlfield tag="005">20160622162204.0</marc:controlfield>
@@ -787,8 +787,8 @@
             <marc:subfield code="3">Beskrivelse fra Forlagssentralen</marc:subfield>
             <marc:subfield code="u">http://content.bibsys.no/content/?type=descr_forlagssentr&amp;isbn=8203112579</marc:subfield>
         </marc:datafield>
-    </marc:record>
-    <marc:record>
+    </marc:record>-->
+<!--    <marc:record>
         <marc:leader>01226cam a2200337 c 4500</marc:leader>
         <marc:controlfield tag="001">998721469524702202</marc:controlfield>
         <marc:controlfield tag="005">20160622162405.0</marc:controlfield>
@@ -954,8 +954,8 @@
             <marc:subfield code="3">Beskrivelse fra Forlagssentralen</marc:subfield>
             <marc:subfield code="u">http://content.bibsys.no/content/?type=descr_forlagssentr&amp;isbn=8203201539</marc:subfield>
         </marc:datafield>
-    </marc:record>
-    <marc:record>
+    </marc:record>-->
+<!--    <marc:record>
         <marc:leader>02435cam a2200613 c 4500</marc:leader>
         <marc:controlfield tag="001">999606451524702202</marc:controlfield>
         <marc:controlfield tag="005">20211104143350.0</marc:controlfield>
@@ -1194,7 +1194,7 @@
             <marc:subfield code="3">Beskrivelse fra Forlagssentralen</marc:subfield>
             <marc:subfield code="u">http://content.bibsys.no/content/?type=descr_forlagssentr&amp;isbn=8203203787</marc:subfield>
         </marc:datafield>
-    </marc:record>
+    </marc:record>-->
     <marc:record>
         <marc:leader>05077 am a22006733u 450 </marc:leader>
         <marc:controlfield tag="001">999919947021702202</marc:controlfield>
