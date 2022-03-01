@@ -4,7 +4,7 @@ import ListItemText from "@mui/material/ListItemText";
 import "./ResultList.css";
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItem from '@mui/material/ListItem';
-import {itemSelectedState, selectableState} from '../state/state';
+import {itemsSelectedState, selectableState} from '../state/state';
 import {useRecoilState} from 'recoil';
 
 function isEmpty(str) {
@@ -12,7 +12,7 @@ function isEmpty(str) {
 }
 
 export default function Manifestation(props){
-    const [itemSelected, setItemSelected] = useRecoilState(itemSelectedState)
+    const [itemsSelected, setItemsSelected] = useRecoilState(itemsSelectedState)
     const [selectable] = useRecoilState(selectableState)
     const {title, subtitle, numbering, part, responsibility, extent, edition, uri} = props.manifestation;
     const {distributionplace, distributor, distributiondate, publicationdate, publicationplace, publisher, productionplace, producer, productiondate, manufactureplace, manufacturer, manufacturedate} = props.manifestation;
@@ -51,23 +51,22 @@ export default function Manifestation(props){
     //if (!isEmpty(uri)) metadata.push(uri);
 
     const handleClick = () => {
-        console.log(itemSelected);
-        const pos = itemSelected.indexOf(uri)
+        console.log(itemsSelected);
+        const pos = itemsSelected.indexOf(uri)
         if (pos === -1) {
-            setItemSelected([...itemSelected, uri]);
+            setItemsSelected([...itemsSelected, uri]);
         } else {
-            setItemSelected([...itemSelected.slice(0, pos), ...itemSelected.slice(pos + 1)]);
+            setItemsSelected([...itemsSelected.slice(0, pos), ...itemsSelected.slice(pos + 1)]);
         }
     };
 
     const description = () => {
-        return <ListItemText className={itemSelected.includes(uri) ? "selected" : ""}
-            primary={<Typography color="primary.main" variant="mtitle.light" className={"mtitle"}>{statement.join(" / ")}</Typography>}
-            secondary={
-                    <React.Fragment>
-                        {extent && <Typography variant="body2"  >Extent: {extent}</Typography>}
-                        <Typography variant="body2"  >Published: {metadata.join(", ")}</Typography>
-                    </React.Fragment>}
+        return <ListItemText className={itemsSelected.includes(uri) ? "selected" : ""}
+            primary={<React.Fragment>
+            <Typography color="primary.main" variant="mtitle.light" className={"mtitle"}>{statement.join(" / ")}</Typography>
+            {extent && <Typography variant="body2"  >Extent: {extent}</Typography>}
+            <Typography variant="body2"  >Published: {metadata.join(", ")}</Typography>
+            </React.Fragment>}
         >
         </ListItemText>
     }

@@ -11,7 +11,7 @@ import FilterList from "./Filters/FilterList";
 import {useParams} from "react-router-dom";
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import {filterState, showFiltersState, selectableState, itemSelectedState, styledState} from './state/state';
+import {filterState, showFiltersState, selectableState, itemsSelectedState, styledState} from './state/state';
 import {useRecoilState, useSetRecoilState} from 'recoil';
 import {selectedVar} from "./api/Cache";
 import OutlinedInput from '@mui/material/OutlinedInput';
@@ -45,7 +45,7 @@ export default function MyApp() {
     const [selectable, setSelectable] = useRecoilState(selectableState);
     const [showFilters, setShowFilters] = useRecoilState(showFiltersState);
     const setChecked = useSetRecoilState(filterState);
-    const setItemsSelected = useSetRecoilState(itemSelectedState);
+    const setItemsSelected = useSetRecoilState(itemsSelectedState);
     const [styled, setStyled] = useRecoilState(styledState);
 
     const handleSelectableChange = (event) => {
@@ -143,7 +143,7 @@ export default function MyApp() {
                 <Grid item xs={showFilters ? 8 : 8}>
                     {called && loading ? <Grid item xs={8}><CircularProgress /></Grid> : <ResultView results={data ? data.expressions.slice(0,30) : []}/>}
                 </Grid>
-                {showFilters ? <Grid item xs={2}>
+                {showFilters ? <Grid item xs={4}>
                     <FilterList results={data ? data.expressions.slice(0,30) : []}/>
                 </Grid> : ""}
             </Grid>

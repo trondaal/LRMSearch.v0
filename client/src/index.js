@@ -15,7 +15,7 @@ import {
 } from 'recoil';
 
 const client = new ApolloClient({
-    //nuri: 'http://localhost:8080/graphql',
+    //uri: 'http://localhost:8080/graphql',
     uri: 'http://dijon.idi.ntnu.no:8080/graphql',
     cache: Cache
 });
@@ -25,18 +25,7 @@ ReactDOM.render(
       <RecoilRoot>
           <ApolloProvider client={client}>
               <ThemeProvider theme={theme}>
-                  <Router>
-                      <Routes>
-                          <Route path="/" element={<App />} >
-                          <Route path="/bibsurf2" element={<App />} >
-                              <Route path=":checked" element={<App />} >
-                                  <Route path=":filters" element={<App />} >
-                                  </Route>
-                              </Route>
-                          </Route>
-                          </Route>
-                      </Routes>
-                  </Router>
+                  <App/>
               </ThemeProvider>
           </ApolloProvider>
       </RecoilRoot>

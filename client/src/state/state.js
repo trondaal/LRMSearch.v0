@@ -28,8 +28,8 @@ export const styledState = atom({
 });
 
 // state to manage selected items in the resultlist
-export const itemSelectedState = atom({
-    key: 'itemSelected',
+export const itemsSelectedState = atom({
+    key: 'itemsSelected',
     default: []
 });
 
