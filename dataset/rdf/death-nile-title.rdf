@@ -414,24 +414,25 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30083>Pan Books</rdamd:P30083>
       <rdamd:P30011>1950</rdamd:P30011>
-      <rdamd:P30182>256 pages ; 18 cm</rdamd:P30182>
+      <rdamd:P30182>256 pages ; 18 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/008314684">
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30083>Penguin Books</rdamd:P30083>
       <rdamd:P30011>1953</rdamd:P30011>
-      <rdamd:P30182>250 pages ; 18 cm</rdamd:P30182>
+      <rdamd:P30182>250 pages ; 18 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/010932194">
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30083>Collins</rdamd:P30083>
       <rdamd:P30011>1960</rdamd:P30011>
-      <rdamd:P30182>253 pages ; 18 cm</rdamd:P30182>
+      <rdamd:P30182>253 pages ; 18 cm.</rdamd:P30182>
       <rdamd:P30106>Fontana books-no.374</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/020088231">
       <rdamd:P30156>Love theme from Death on the Nile. (Piano solo). By N. Rota</rdamd:P30156>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : EMI film and theatre music, 1978.</rdamd:P30111>
       <rdamd:P30083>EMI film and theatre music</rdamd:P30083>
       <rdamd:P30011>1978</rdamd:P30011>
       <rdamd:P30182>1 score.</rdamd:P30182>
@@ -446,9 +447,10 @@
       <rdamd:P30142>kriminalroman</rdamd:P30142>
       <rdamd:P30117>oversatt av Hans Brückenberg</rdamd:P30117>
       <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30111>Oslo : Aschehoug, 1939.</rdamd:P30111>
       <rdamd:P30083>Aschehoug</rdamd:P30083>
       <rdamd:P30011>1939</rdamd:P30011>
-      <rdamd:P30182>283 sider</rdamd:P30182>
+      <rdamd:P30182>283 sider.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/990501488264702201">
       <rdamd:P30156>The Agatha Christie collection</rdamd:P30156>
@@ -456,9 +458,10 @@
       <rdamd:P30014>4</rdamd:P30014>
       <rdamd:P30134>Døden på Nilen</rdamd:P30134>
       <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30111>[Oslo] : Star media, 2004.</rdamd:P30111>
       <rdamd:P30083>Star media</rdamd:P30083>
       <rdamd:P30011>2004</rdamd:P30011>
-      <rdamd:P30182>1 plate (DVD) digital 12 cm</rdamd:P30182>
+      <rdamd:P30182>1 plate (DVD) : digital ; 12 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8414906236463">
       <rdamd:P30004>IAN 8414906236463</rdamd:P30004>
@@ -469,9 +472,10 @@
       <rdamd:P30142>Agatha Christie's Death on the Nile</rdamd:P30142>
       <rdamd:P30117>directed by John Guillermin ; produced by John Brabourne and Richard Goodwin ; screenplay by Anthony Schaffer ; music by Nino Rota</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
+      <rdamd:P30111>Madrid : distribuido por Paramount Spain, bajo licencia de Universal Pictures Iberia, D.L. 2013.</rdamd:P30111>
       <rdamd:P30083>distribuido por Paramount Spain, bajo licencia de Universal Pictures Iberia</rdamd:P30083>
       <rdamd:P30011>D.L. 2013</rdamd:P30011>
-      <rdamd:P30182>1 Blu-ray (ca. 141 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 Blu-ray (ca. 141 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Colección Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8414906512277">
@@ -481,9 +485,10 @@
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>dirección, John Guillermin ; guión, Anthony Shaffer ; música, Nino Rota ; fotografía, Jack Cardiff ; produción, Paramount Pictures</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
+      <rdamd:P30111>Madrid : Paramount Spain, 2013.</rdamd:P30111>
       <rdamd:P30083>Paramount Spain</rdamd:P30083>
       <rdamd:P30011>2013</rdamd:P30011>
-      <rdamd:P30182>1 Blu-ray (ca. 141 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 Blu-ray (ca. 141 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Colección Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394410398">
@@ -493,10 +498,11 @@
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>dirigida por John Guillermin ; producida por John Brabourne y Richard Goodwin ; guion de Anthony Shaffer ; música de Nino Rota</rdamd:P30117>
       <rdamd:P30088>Valladolid</rdamd:P30088>
+      <rdamd:P30111>Valladolid : StudioCanal : Divisa Home Vídeo, D.L. 2018.</rdamd:P30111>
       <rdamd:P30083>StudioCanal</rdamd:P30083>
       <rdamd:P30083>Divisa Home Vídeo</rdamd:P30083>
       <rdamd:P30011>D.L. 2018</rdamd:P30011>
-      <rdamd:P30182>1 Blu-ray (ca. 140 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 Blu-ray (ca. 140 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394414600">
@@ -505,10 +511,11 @@
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>dirigida por John Guillermin</rdamd:P30117>
       <rdamd:P30088>Valladolid</rdamd:P30088>
+      <rdamd:P30111>Valladolid : edición y diseño, Divisa Home Vídeo, [2020].</rdamd:P30111>
       <rdamd:P30083>edición y diseño, Divisa Home Vídeo</rdamd:P30083>
       <rdamd:P30011>[2020]</rdamd:P30011>
       <rdamd:P30007>©2020</rdamd:P30007>
-      <rdamd:P30182>1 videodisco (aproximadamente 140 min) sonido, color 12 cm</rdamd:P30182>
+      <rdamd:P30182>1 videodisco (aproximadamente 140 min) : sonido, color ; 12 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394550865">
       <rdamd:P30004>IAN 8421394550865</rdamd:P30004>
@@ -517,10 +524,11 @@
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>dirigida por John Guillermin ; producida por John Brabourne y Richard Goodwin ; guion de Anthony Shaffer ; música de Nino Rota</rdamd:P30117>
       <rdamd:P30088>Valladolid</rdamd:P30088>
+      <rdamd:P30111>Valladolid : StudioCanal : Divisa Home Vídeo, D.L. 2018.</rdamd:P30111>
       <rdamd:P30083>StudioCanal</rdamd:P30083>
       <rdamd:P30083>Divisa Home Vídeo</rdamd:P30083>
       <rdamd:P30011>D.L. 2018</rdamd:P30011>
-      <rdamd:P30182>1 DVD-Vídeo (ca. 135 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 DVD-Vídeo (ca. 135 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394556324">
@@ -529,20 +537,22 @@
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>dirigida por John Guillermin</rdamd:P30117>
       <rdamd:P30088>Valladolid</rdamd:P30088>
+      <rdamd:P30111>Valladolid : edición y diseño, Divisa Home Vídeo, [2020].</rdamd:P30111>
       <rdamd:P30083>edición y diseño, Divisa Home Vídeo</rdamd:P30083>
       <rdamd:P30011>[2020]</rdamd:P30011>
       <rdamd:P30007>©2020</rdamd:P30007>
-      <rdamd:P30182>1 videodisco (aproximadamente 140 min) sonido, color 12 cm</rdamd:P30182>
+      <rdamd:P30182>1 videodisco (aproximadamente 140 min) : sonido, color ; 12 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/Mimo0000761934">
       <rdamd:P30156>Poirot en Egipto</rdamd:P30156>
       <rdamd:P30142>(Murder on the Nide)</rdamd:P30142>
       <rdamd:P30117>por Agatha Christie ; versión española de H.C. Granch</rdamd:P30117>
       <rdamd:P30088>[Barcelona]</rdamd:P30088>
+      <rdamd:P30111>[Barcelona] : Molino, [1944.</rdamd:P30111>
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>[1944</rdamd:P30011>
       <rdamd:P30175>Vicente Ferrer]</rdamd:P30175>
-      <rdamd:P30182>128 pages 23 cm</rdamd:P30182>
+      <rdamd:P30182>128 pages ; 23 cm.</rdamd:P30182>
       <rdamd:P30106>De "Biblioteca Oro" Serie Amarilla</rdamd:P30106>
       <rdamd:P30165>n. 158</rdamd:P30165>
    </rdac:C10007>
@@ -550,10 +560,11 @@
       <rdamd:P30156>Poirot en Egipto</rdamd:P30156>
       <rdamd:P30117>por Agatha Christie ; [versión, H.C. Granch]</rdamd:P30117>
       <rdamd:P30088>[Barcelona]</rdamd:P30088>
+      <rdamd:P30111>[Barcelona] : Molino, [1953?.</rdamd:P30111>
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>[1953?</rdamd:P30011>
       <rdamd:P30175>Ponsa]</rdamd:P30175>
-      <rdamd:P30182>256 pages 16 cm</rdamd:P30182>
+      <rdamd:P30182>256 pages ; 16 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Oro de bolsillo</rdamd:P30106>
       <rdamd:P30165>núm. 57</rdamd:P30165>
    </rdac:C10007>
@@ -561,10 +572,11 @@
       <rdamd:P30156>Poirot en Egipto</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; [traducción de H.C. Granch]</rdamd:P30117>
       <rdamd:P30088>[Barcelona</rdamd:P30088>
+      <rdamd:P30111>[Barcelona : Molino, [1958].</rdamd:P30111>
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>[1958]</rdamd:P30011>
       <rdamd:P30175>Ponsa]</rdamd:P30175>
-      <rdamd:P30182>220 pages 17 cm</rdamd:P30182>
+      <rdamd:P30182>220 pages ; 17 cm.</rdamd:P30182>
       <rdamd:P30106>Selecciones de Biblioteca Oro</rdamd:P30106>
       <rdamd:P30165>v. 146</rdamd:P30165>
    </rdac:C10007>
@@ -574,6 +586,7 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>EMI Films ; produced by John Brabourne, Richard Goodwin ; screenplay by Anthony Shaffer ; directed by John Guillermin</rdamd:P30117>
       <rdamd:P30088>[Santa Monica, Calif.]</rdamd:P30088>
+      <rdamd:P30111>[Santa Monica, Calif.] : Lionsgate, [2009].</rdamd:P30111>
       <rdamd:P30083>Lionsgate</rdamd:P30083>
       <rdamd:P30011>[2009]</rdamd:P30011>
       <rdamd:P30182>1 videodisc (140 min.) : sound, color ; 4 3/4 in.</rdamd:P30182>
@@ -588,11 +601,12 @@
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>directed by John Guillermin ; screenplay by Anthony Shaffer ; music by Nino Rota ; director of photography, Jack Cardiff ; produced by John Brabourne, Richard Goodwin</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
+      <rdamd:P30111>Madrid : editado internacionalmente por Universal Pictures International Limited : distribuido en España por Universal Pictures Iberia : Studio Canal, D.L. 2009.</rdamd:P30111>
       <rdamd:P30083>editado internacionalmente por Universal Pictures International Limited</rdamd:P30083>
       <rdamd:P30083>distribuido en España por Universal Pictures Iberia</rdamd:P30083>
       <rdamd:P30083>Studio Canal</rdamd:P30083>
       <rdamd:P30011>D.L. 2009</rdamd:P30011>
-      <rdamd:P30182>1 DVD-Vídeo (ca. 130 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 DVD-Vídeo (ca. 130 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie Collection</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/a5086275">
@@ -600,9 +614,10 @@
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>director, Andy Wilson ; guión, Kevin Elyot ; productor, Margaret Mitchell ; [música, Christopher Gunning ; fotografía, Martin Fuhrer]</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
+      <rdamd:P30111>Madrid : distribuido por Llamentol, D.L. 2011.</rdamd:P30111>
       <rdamd:P30083>distribuido por Llamentol</rdamd:P30083>
       <rdamd:P30011>D.L. 2011</rdamd:P30011>
-      <rdamd:P30182>1 DVD-Vídeo (ca. 94 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 DVD-Vídeo (ca. 94 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie. Hércules Poirot</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/a5120235">
@@ -610,10 +625,11 @@
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>directed by John Guillermin ; screenplay by Anthony Shaffer ; music by Nino Rota ; director of photography, Jack Cardiff ; produced by John Brabourne, Richard Goodwin</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
+      <rdamd:P30111>Madrid : editado internacionalmente por Universal Pictures International Limited : Studio Canal, D.L. 2010.</rdamd:P30111>
       <rdamd:P30083>editado internacionalmente por Universal Pictures International Limited</rdamd:P30083>
       <rdamd:P30083>Studio Canal</rdamd:P30083>
       <rdamd:P30011>D.L. 2010</rdamd:P30011>
-      <rdamd:P30182>1 DVD-Vídeo (ca. 130 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 DVD-Vídeo (ca. 130 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Colección Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000043527">
@@ -621,45 +637,50 @@
       <rdamd:P30142>: el colapso de las civilizaciones = Ancient apocalypse : death[Videograbación]n the Nile</rdamd:P30142>
       <rdamd:P30117>executive producer, Alan Bookbinder ; original music, Paul Lawler</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
+      <rdamd:P30111>Madrid : Círculo Digital, D.L. 2003.</rdamd:P30111>
       <rdamd:P30083>Círculo Digital</rdamd:P30083>
       <rdamd:P30011>D.L. 2003</rdamd:P30011>
-      <rdamd:P30182>1 videodisco (DVD) (ca. 50 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 videodisco (DVD) (ca. 50 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Grandes Documentales de la 2. Ciencia y Cultura</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000080607">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>directed by John Guillermin ; screenplay by Anthony Shaffer ; director of photography, Jack Cardiff ; music by Nino Rota ; produced by John Brabourne, Richard Goodwin</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
+      <rdamd:P30111>Madrid : Thorn Emi Video : Vídeo Britannia Producción, D.L. 1984.</rdamd:P30111>
       <rdamd:P30083>Thorn Emi Video</rdamd:P30083>
       <rdamd:P30083>Vídeo Britannia Producción</rdamd:P30083>
       <rdamd:P30011>D.L. 1984</rdamd:P30011>
-      <rdamd:P30182>1 videocasete (VHS) (135 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 videocasete (VHS) (135 min) : son., col.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000080707">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>directed by John Guillermin ; screenplay by Anthony Shaffer ; director of photography, Jack Cardiff ; music by Nino Rota ; produced by John Brabourne, Richard Goodwin</rdamd:P30117>
       <rdamd:P30088>[Madrid]</rdamd:P30088>
+      <rdamd:P30111>[Madrid] : distribuido en España por Warner Home Vídeo Española, D.L. 1995.</rdamd:P30111>
       <rdamd:P30083>distribuido en España por Warner Home Vídeo Española</rdamd:P30083>
       <rdamd:P30011>D.L. 1995</rdamd:P30011>
-      <rdamd:P30182>1 videocasete (VHS) (aprox. 133 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 videocasete (VHS) (aprox. 133 min) : son., col.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000080755">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>directed by John Guillermin ; screenplay by Anthony Shaffer ; music by Nino Rota ; director of photography, Jack Cardiff ; produced by John Brabourne, Richard Goodwin</rdamd:P30117>
       <rdamd:P30088>[Madrid]</rdamd:P30088>
+      <rdamd:P30111>[Madrid] : distribuido en España por Warner Home Vídeo Española, D.L. 1995.</rdamd:P30111>
       <rdamd:P30083>distribuido en España por Warner Home Vídeo Española</rdamd:P30083>
       <rdamd:P30011>D.L. 1995</rdamd:P30011>
-      <rdamd:P30182>1 videocasete (VHS) (ca. 133 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 videocasete (VHS) (ca. 133 min) : son., col.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000081197">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30142>Death on the Nile</rdamd:P30142>
       <rdamd:P30117>director, Andy Wilson ; argumento, Agatha Christie ; guión, Kevin Elyot ; producción, Margaret Mitchell ; música original, Christopher Gunning ; director de fotoggrafía, Martin Fuhrer</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : editado por Euromedia Visión : distribuido por Llamentol, D.L. 2006.</rdamd:P30111>
       <rdamd:P30083>editado por Euromedia Visión</rdamd:P30083>
       <rdamd:P30083>distribuido por Llamentol</rdamd:P30083>
       <rdamd:P30011>D.L. 2006</rdamd:P30011>
-      <rdamd:P30182>1 DVD-Vídeo (ca. 94 min) son., col.</rdamd:P30182>
+      <rdamd:P30182>1 DVD-Vídeo (ca. 94 min) : son., col.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0002237725">
       <rdamd:P30004>ISBN 0002237725 :</rdamd:P30004>
@@ -668,9 +689,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Collins, 1990, c1937.</rdamd:P30111>
       <rdamd:P30083>Collins</rdamd:P30083>
       <rdamd:P30011>1990, c1937</rdamd:P30011>
-      <rdamd:P30182>252 pages ; 24 cm</rdamd:P30182>
+      <rdamd:P30182>252 pages ; 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -683,12 +705,14 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Collins for the Crime Club, 1978.</rdamd:P30111>
       <rdamd:P30083>Collins for the Crime Club</rdamd:P30083>
       <rdamd:P30011>1978</rdamd:P30011>
+      <rdamd:P30111>London : HarperCollins, 1999.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>1999</rdamd:P30011>
-      <rdamd:P30182>318 pages ; 21 cm</rdamd:P30182>
-      <rdamd:P30182>256 pages ; 22 cm</rdamd:P30182>
+      <rdamd:P30182>318 pages ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>256 pages ; 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0002311704">
       <rdamd:P30004>ISBN 0002311704 :</rdamd:P30004>
@@ -697,9 +721,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>by Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Published for the Crime Club by Collins, 1969.</rdamd:P30111>
       <rdamd:P30083>Published for the Crime Club by Collins</rdamd:P30083>
       <rdamd:P30011>1969</rdamd:P30011>
-      <rdamd:P30182>318 pages ; 21 cm</rdamd:P30182>
+      <rdamd:P30182>318 pages ; 21 cm.</rdamd:P30182>
       <rdamd:P30106>The Greenway edition ;</rdamd:P30106>
       <rdamd:P30165>11</rdamd:P30165>
    </rdac:C10007>
@@ -710,9 +735,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>[London]</rdamd:P30088>
+      <rdamd:P30111>[London] : Fontana, 1978.</rdamd:P30111>
       <rdamd:P30083>Fontana</rdamd:P30083>
       <rdamd:P30011>1978</rdamd:P30011>
-      <rdamd:P30182>222 pages ; 18 cm</rdamd:P30182>
+      <rdamd:P30182>222 pages ; 18 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -726,10 +752,11 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>[London]</rdamd:P30088>
+      <rdamd:P30111>[London] : Fontana, 1960, c1937.</rdamd:P30111>
       <rdamd:P30083>Fontana</rdamd:P30083>
       <rdamd:P30011>1960, c1937</rdamd:P30011>
       <rdamd:P30010>(1984 [printing])</rdamd:P30010>
-      <rdamd:P30182>222 pages ; 18 cm</rdamd:P30182>
+      <rdamd:P30182>222 pages ; 18 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0006751318">
       <rdamd:P30004>ISBN 0006751318</rdamd:P30004>
@@ -738,9 +765,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Collins Children's Books, 195.</rdamd:P30111>
       <rdamd:P30083>Collins Children's Books</rdamd:P30083>
       <rdamd:P30011>195</rdamd:P30011>
-      <rdamd:P30182>252 pages ; 18 cm</rdamd:P30182>
+      <rdamd:P30182>252 pages ; 18 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0007119321">
       <rdamd:P30004>ISBN 0007119321 (pbk) :</rdamd:P30004>
@@ -749,9 +777,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollins, 2001.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
-      <rdamd:P30182>416 pages ; 18 cm</rdamd:P30182>
+      <rdamd:P30182>416 pages ; 18 cm.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie signature collection ;</rdamd:P30106>
       <rdamd:P30165>no.18</rdamd:P30165>
    </rdac:C10007>
@@ -762,9 +791,10 @@
       <rdamd:P30156>Poirot in the Orient</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollins, 2001.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
-      <rdamd:P30182>578 pages : illustrations ; 20 cm</rdamd:P30182>
+      <rdamd:P30182>578 pages : illustrations ; 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-000718123">
       <rdamd:P30004>ISBN 000718123X (pbk) :</rdamd:P30004>
@@ -773,9 +803,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollins, 2004.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2004</rdamd:P30011>
-      <rdamd:P30182>256 pages ; 18 cm</rdamd:P30182>
+      <rdamd:P30182>256 pages ; 18 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0007234473">
       <rdamd:P30004>ISBN 0007234473 (cased) :</rdamd:P30004>
@@ -787,9 +818,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollins, 2006.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2006</rdamd:P30011>
-      <rdamd:P30182>284 pages ; 19 cm</rdamd:P30182>
+      <rdamd:P30182>284 pages ; 19 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0007250584">
       <rdamd:P30004>ISBN 0007250584 :</rdamd:P30004>
@@ -802,9 +834,10 @@
       <rdamd:P30117>adapted by François Rivière ; illustrated by Solidor</rdamd:P30117>
       <rdamd:P30107>Comic bk. ed.</rdamd:P30107>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollins, 2007.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2007</rdamd:P30011>
-      <rdamd:P30182>44 pages : chiefly colour illustrations ; 30 cm</rdamd:P30182>
+      <rdamd:P30182>44 pages : chiefly colour illustrations ; 30 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0007422288">
       <rdamd:P30004>ISBN 0007422288</rdamd:P30004>
@@ -816,6 +849,7 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollins, 2010.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2010</rdamd:P30011>
       <rdamd:P30182>1 online resource.</rdamd:P30182>
@@ -830,9 +864,10 @@
       <rdamd:P30142>life and death on the Nile</rdamd:P30142>
       <rdamd:P30117>Claudine Roland ; translated by Patrick White ; Illustrated by Jean-Michel Payet</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Puffin, 1995.</rdamd:P30111>
       <rdamd:P30083>Puffin</rdamd:P30083>
       <rdamd:P30011>1995</rdamd:P30011>
-      <rdamd:P30182>45 pages : illustrations (some colour), maps, plan ; 21 cm</rdamd:P30182>
+      <rdamd:P30182>45 pages : illustrations (some colour), maps, plan ; 21 cm.</rdamd:P30182>
       <rdamd:P30106>History through objects</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0333480872">
@@ -842,7 +877,7 @@
       <rdamd:P30156>Death beyond the Nile</rdamd:P30156>
       <rdamd:P30083>Macmillan London</rdamd:P30083>
       <rdamd:P30011>1988</rdamd:P30011>
-      <rdamd:P30182>[224] pages</rdamd:P30182>
+      <rdamd:P30182>[224] pages.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -858,9 +893,10 @@
       <rdamd:P30117>by Peter DePietro</rdamd:P30117>
       <rdamd:P30088>New York ;</rdamd:P30088>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>New York ; London : Samuel French, c1996.</rdamd:P30111>
       <rdamd:P30083>Samuel French</rdamd:P30083>
       <rdamd:P30011>c1996</rdamd:P30011>
-      <rdamd:P30182>43 pages ; 19 cm</rdamd:P30182>
+      <rdamd:P30182>43 pages ; 19 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0745195822">
       <rdamd:P30004>ISBN 0745195822 (cased) :</rdamd:P30004>
@@ -876,9 +912,10 @@
       <rdamd:P30117>Jessica Mann</rdamd:P30117>
       <rdamd:P30107>Large print ed.</rdamd:P30107>
       <rdamd:P30088>Bath</rdamd:P30088>
+      <rdamd:P30111>Bath : Chivers, 1989, c1988.</rdamd:P30111>
       <rdamd:P30083>Chivers</rdamd:P30083>
       <rdamd:P30011>1989, c1988</rdamd:P30011>
-      <rdamd:P30182>238 pages (large print) ; 23 cm</rdamd:P30182>
+      <rdamd:P30182>238 pages (large print) ; 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -896,10 +933,11 @@
       <rdamd:P30142>a bioethnography of three ancient Nubian communitiesc</rdamd:P30142>
       <rdamd:P30117>George J. Armelagos and Dennis P. Van Gerven</rdamd:P30117>
       <rdamd:P30088>Gainesville, Florida</rdamd:P30088>
+      <rdamd:P30111>Gainesville, Florida : University Press of Florida, 2017.</rdamd:P30111>
       <rdamd:P30083>University Press of Florida</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
       <rdamd:P30007>©2017</rdamd:P30007>
-      <rdamd:P30182>1 online resource (pages cm)</rdamd:P30182>
+      <rdamd:P30182>1 online resource (pages cm).</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0854560246">
       <rdamd:P30004>ISBN 0854560246 :</rdamd:P30004>
@@ -909,9 +947,10 @@
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30107>[Large print ed.]</rdamd:P30107>
       <rdamd:P30088>Leicester</rdamd:P30088>
+      <rdamd:P30111>Leicester : F.A. Thorpe, [1971].</rdamd:P30111>
       <rdamd:P30083>F.A. Thorpe</rdamd:P30083>
       <rdamd:P30011>[1971]</rdamd:P30011>
-      <rdamd:P30182>[5],466 pages ; 23 cm</rdamd:P30182>
+      <rdamd:P30182>[5],466 pages ; 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Ulverscroft large print series. mystery</rdamd:P30106>
@@ -929,9 +968,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>Leicester</rdamd:P30088>
+      <rdamd:P30111>Leicester : Ulverscroft, 2010.</rdamd:P30111>
       <rdamd:P30083>Ulverscroft</rdamd:P30083>
       <rdamd:P30011>2010</rdamd:P30011>
-      <rdamd:P30182>1 v. (large print) ; 23 cm</rdamd:P30182>
+      <rdamd:P30182>1 v. (large print) ; 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -952,10 +992,11 @@
       <rdamd:P30117>Edited by Lucy Audley-Miller and Beate Dignas</rdamd:P30117>
       <rdamd:P30088>Berlin ;</rdamd:P30088>
       <rdamd:P30088>Boston</rdamd:P30088>
+      <rdamd:P30111>Berlin ; Boston : De Gruyter, [2018].</rdamd:P30111>
       <rdamd:P30083>De Gruyter</rdamd:P30083>
       <rdamd:P30011>[2018]</rdamd:P30011>
       <rdamd:P30007>©2018</rdamd:P30007>
-      <rdamd:P30182>1 online resource (liv, 427 pages) : illustrations, maps</rdamd:P30182>
+      <rdamd:P30182>1 online resource (liv, 427 pages) : illustrations, maps.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8203102093">
       <rdamd:P30004>ISBN 8203102093</rdamd:P30004>
@@ -966,9 +1007,10 @@
       <rdfs:label>ISBN8203102107</rdfs:label>
       <rdamd:P30156>Morder i huset ; Mord på Nilen ; Tre blinde mus og andre historier / Agatha Christie</rdamd:P30156>
       <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30111>Oslo : Aschehoug, 1980.</rdamd:P30111>
       <rdamd:P30083>Aschehoug</rdamd:P30083>
       <rdamd:P30011>1980</rdamd:P30011>
-      <rdamd:P30182>597 sider</rdamd:P30182>
+      <rdamd:P30182>597 sider.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8242116342">
       <rdamd:P30004>ISBN 8242116342</rdamd:P30004>
@@ -980,9 +1022,10 @@
       <rdamd:P30156>Mord på Nilen</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; oversatt av Hans Brückenberg</rdamd:P30117>
       <rdamd:P30088>[Melhus]</rdamd:P30088>
+      <rdamd:P30111>[Melhus] : Lydbokforl., 2005.</rdamd:P30111>
       <rdamd:P30083>Lydbokforl</rdamd:P30083>
       <rdamd:P30011>2005</rdamd:P30011>
-      <rdamd:P30182>7 plater (CD) (8 t, 54 min) digital 12 cm, i eske</rdamd:P30182>
+      <rdamd:P30182>7 plater (CD) (8 t, 54 min) : digital ; 12 cm, i eske.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1013</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1013"/>
@@ -996,9 +1039,10 @@
       <rdamd:P30156>Mord på Nilen ; Morder i huset ; Solen var vitne</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; [oversatt av [henholdsvis] Hans Brückenberg, Axel S. Seeberg, Anders Hagerup]</rdamd:P30117>
       <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30111>[Oslo] : De norske bokklubbene, 2001.</rdamd:P30111>
       <rdamd:P30083>De norske bokklubbene</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
-      <rdamd:P30182>576 sider</rdamd:P30182>
+      <rdamd:P30182>576 sider.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8408016326">
       <rdamd:P30004>ISBN 84-08-01632-6</rdamd:P30004>
@@ -1008,9 +1052,10 @@
       <rdamd:P30117>adaptació i guió, François Rivière ; il·lustració, Jean-François Miniac ; [traducció, Mireia Porta i Arnau]</rdamd:P30117>
       <rdamd:P30107>1ª ed.</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Planeta, 1996.</rdamd:P30111>
       <rdamd:P30083>Planeta</rdamd:P30083>
       <rdamd:P30011>1996</rdamd:P30011>
-      <rdamd:P30182>46 pages principalmente il. col. 29 cm</rdamd:P30182>
+      <rdamd:P30182>46 pages : principalmente il. col. ; 29 cm.</rdamd:P30182>
       <rdamd:P30106>Les millors obres d'Agatha Christie</rdamd:P30106>
       <rdamd:P30165>2</rdamd:P30165>
    </rdac:C10007>
@@ -1021,10 +1066,12 @@
       <rdamd:P30156>Poirot en Egipto</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; traducción de H. C. Granch</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Círculo de Lectores, D.L. 1991.</rdamd:P30111>
       <rdamd:P30083>Círculo de Lectores</rdamd:P30083>
       <rdamd:P30011>D.L. 1991</rdamd:P30011>
+      <rdamd:P30111>Barcelona : Círculo de Lectores, D.L. 1990.</rdamd:P30111>
       <rdamd:P30011>D.L. 1990</rdamd:P30011>
-      <rdamd:P30182>334 pages 19 cm</rdamd:P30182>
+      <rdamd:P30182>334 pages ; 19 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-842720146">
       <rdamd:P30004>ISBN 84-272-0146-X</rdamd:P30004>
@@ -1035,14 +1082,19 @@
       <rdamd:P30117>Agatha Christie ; [traducción, H.C. Granch]</rdamd:P30117>
       <rdamd:P30117>Agatha Christie ; [traducción del inglés, H.C. Granch]</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Molino, D.L. 1987.</rdamd:P30111>
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>D.L. 1987</rdamd:P30011>
+      <rdamd:P30111>Barcelona : Molino, [1985].</rdamd:P30111>
       <rdamd:P30011>[1985]</rdamd:P30011>
+      <rdamd:P30111>Barcelona : Molino, [1983].</rdamd:P30111>
       <rdamd:P30011>[1983]</rdamd:P30011>
+      <rdamd:P30111>Barcelona : Molino, [1982].</rdamd:P30111>
       <rdamd:P30011>[1982]</rdamd:P30011>
+      <rdamd:P30111>Barcelona : Molino, D.L. 1981.</rdamd:P30111>
       <rdamd:P30011>D.L. 1981</rdamd:P30011>
-      <rdamd:P30182>239 pages 17 cm</rdamd:P30182>
-      <rdamd:P30182>239 pages 16 cm</rdamd:P30182>
+      <rdamd:P30182>239 pages ; 17 cm.</rdamd:P30182>
+      <rdamd:P30182>239 pages ; 16 cm.</rdamd:P30182>
       <rdamd:P30106>Selecciones de Biblioteca Oro</rdamd:P30106>
       <rdamd:P30165>146</rdamd:P30165>
    </rdac:C10007>
@@ -1054,11 +1106,13 @@
       <rdamd:P30142>(muerte en el Nilo)</rdamd:P30142>
       <rdamd:P30117>Agatha Christie ; [traducción, H.C. Granch]</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Molino, [2000].</rdamd:P30111>
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>[2000]</rdamd:P30011>
+      <rdamd:P30111>Barcelona : Molino, [1996].</rdamd:P30111>
       <rdamd:P30011>[1996]</rdamd:P30011>
-      <rdamd:P30182>288 pages 17 cm</rdamd:P30182>
-      <rdamd:P30182>285 pages 17 cm</rdamd:P30182>
+      <rdamd:P30182>288 pages ; 17 cm.</rdamd:P30182>
+      <rdamd:P30182>285 pages ; 17 cm.</rdamd:P30182>
       <rdamd:P30106>Colección Agatha Christie</rdamd:P30106>
       <rdamd:P30165>28</rdamd:P30165>
    </rdac:C10007>
@@ -1070,10 +1124,11 @@
       <rdamd:P30117>Agatha Christie ; traducción, H.C. Granch</rdamd:P30117>
       <rdamd:P30107>Edición especial para Círculo de Lectores</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Círculo de Lectores, [2004].</rdamd:P30111>
       <rdamd:P30083>Círculo de Lectores</rdamd:P30083>
       <rdamd:P30011>[2004]</rdamd:P30011>
       <rdamd:P30007>©1937</rdamd:P30007>
-      <rdamd:P30182>272 páginas 19 cm</rdamd:P30182>
+      <rdamd:P30182>272 páginas ; 19 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8427298056">
       <rdamd:P30004>ISBN 84-272-9805-6</rdamd:P30004>
@@ -1082,9 +1137,10 @@
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; [traducción, H.C. Granch]</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Molino, [2003].</rdamd:P30111>
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>[2003]</rdamd:P30011>
-      <rdamd:P30182>272 pages 20 cm</rdamd:P30182>
+      <rdamd:P30182>272 pages ; 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8439527020">
       <rdamd:P30004>ISBN 84-395-2702-0</rdamd:P30004>
@@ -1094,9 +1150,10 @@
       <rdamd:P30142>(Poirot en Egipto)</rdamd:P30142>
       <rdamd:P30117>Agatha Christie ; [traducción, Horacio Grancho]</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Planeta-Agostini, D.L. 1993.</rdamd:P30111>
       <rdamd:P30083>Planeta-Agostini</rdamd:P30083>
       <rdamd:P30011>D.L. 1993</rdamd:P30011>
-      <rdamd:P30182>231 pages 20 cm</rdamd:P30182>
+      <rdamd:P30182>231 pages ; 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8439562349">
       <rdamd:P30004>ISBN 84-395-6234-9</rdamd:P30004>
@@ -1105,9 +1162,10 @@
       <rdamd:P30156>Morte no Nilo</rdamd:P30156>
       <rdamd:P30117>adaptaçâo e guiâo, François Rivière ; desenhos, Jean-François Miniac</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Planeta-De Agostini, [1997].</rdamd:P30111>
       <rdamd:P30083>Planeta-De Agostini</rdamd:P30083>
       <rdamd:P30011>[1997]</rdamd:P30011>
-      <rdamd:P30182>46 pages principalmente il. col. 29 cm</rdamd:P30182>
+      <rdamd:P30182>46 pages : principalmente il. col. ; 29 cm.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8447304973">
@@ -1118,9 +1176,10 @@
       <rdamd:P30142>El misterio del tren azul</rdamd:P30142>
       <rdamd:P30117>Agatha Christie ; [traducciones (para la primera obra) Horacio Granch, (para la segunda obra) José Mallorquí Figuerola]</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : RBA, D.L. 1994.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>D.L. 1994</rdamd:P30011>
-      <rdamd:P30182>377 pages 1 retr. 22 cm</rdamd:P30182>
+      <rdamd:P30182>377 pages : 1 retr. ; 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8447317641">
       <rdamd:P30004>ISBN 84-473-1764-1</rdamd:P30004>
@@ -1130,9 +1189,10 @@
       <rdamd:P30142>El misterio del tren azul</rdamd:P30142>
       <rdamd:P30117>Agatha Christie ; [traducciones (para la primera obra), Horacio Granch, (para la segunda obra) José Mallorquí Figuerola]</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : RBA Coleccionables, [2000].</rdamd:P30111>
       <rdamd:P30083>RBA Coleccionables</rdamd:P30083>
       <rdamd:P30011>[2000]</rdamd:P30011>
-      <rdamd:P30182>377 pages 22 cm</rdamd:P30182>
+      <rdamd:P30182>377 pages ; 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8466401369">
       <rdamd:P30004>ISBN 84-664-0136-9</rdamd:P30004>
@@ -1142,9 +1202,10 @@
       <rdamd:P30117>Agatha Christie ; traducció, Gonçal Oliveros</rdamd:P30117>
       <rdamd:P30107>1ª ed.</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Columna, 2001.</rdamd:P30111>
       <rdamd:P30083>Columna</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
-      <rdamd:P30182>301 pages 22 cm</rdamd:P30182>
+      <rdamd:P30182>301 pages ; 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8472792307">
       <rdamd:P30004>ISBN 84-7279-230-7</rdamd:P30004>
@@ -1154,9 +1215,10 @@
       <rdamd:P30117>Agatha Christie ; versió catalana de Gonçal Oliveros</rdamd:P30117>
       <rdamd:P30107>[1ª ed.]</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : La Llar del Llibre, 1986.</rdamd:P30111>
       <rdamd:P30083>La Llar del Llibre</rdamd:P30083>
       <rdamd:P30011>1986</rdamd:P30011>
-      <rdamd:P30182>325 pages 19 cm</rdamd:P30182>
+      <rdamd:P30182>325 pages ; 19 cm.</rdamd:P30182>
       <rdamd:P30106>Sèrie Agatha Christie</rdamd:P30106>
       <rdamd:P30165>6</rdamd:P30165>
    </rdac:C10007>
@@ -1168,11 +1230,12 @@
       <rdamd:P30142>They do it with mirros</rdamd:P30142>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>[S.l.]</rdamd:P30088>
+      <rdamd:P30111>[S.l.] : Heron Books, [1984].</rdamd:P30111>
       <rdamd:P30083>Heron Books</rdamd:P30083>
       <rdamd:P30011>[1984]</rdamd:P30011>
       <rdamd:P30087>Fuenlabrada, Madrid</rdamd:P30087>
       <rdamd:P30175>Gráf. Futura</rdamd:P30175>
-      <rdamd:P30182>533 pages, [2] p. de lám. 21 cm</rdamd:P30182>
+      <rdamd:P30182>533 pages, [2] p. de lám. ; 21 cm.</rdamd:P30182>
       <rdamd:P30106>Collected works / Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8477511217">
@@ -1183,9 +1246,10 @@
       <rdamd:P30142>(Poirot en Egipto)</rdamd:P30142>
       <rdamd:P30117>Agatha Christie ; [traducción, Horacio Grancho]</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Planeta Internacional, D.L. 1994.</rdamd:P30111>
       <rdamd:P30083>Planeta Internacional</rdamd:P30083>
       <rdamd:P30011>D.L. 1994</rdamd:P30011>
-      <rdamd:P30182>231 pages 20 cm</rdamd:P30182>
+      <rdamd:P30182>231 pages ; 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8478717161">
       <rdamd:P30004>ISBN 84-7871-716-1</rdamd:P30004>
@@ -1196,9 +1260,10 @@
       <rdamd:P30117>Agatha Christie ; traducción de H.C. Granch</rdamd:P30117>
       <rdamd:P30107>1ª ed.</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : RBA, 2006.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2006</rdamd:P30011>
-      <rdamd:P30182>383 pages 18 cm</rdamd:P30182>
+      <rdamd:P30182>383 pages ; 18 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8482562614">
       <rdamd:P30004>ISBN 84-8256-261-4</rdamd:P30004>
@@ -1211,10 +1276,11 @@
       <rdamd:P30117>Agatha Christie ; traducció de Gonçal Oliveros</rdamd:P30117>
       <rdamd:P30107>1ª ed. en aquesta collecció</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Columna : Proa, 1996.</rdamd:P30111>
       <rdamd:P30083>Columna</rdamd:P30083>
       <rdamd:P30083>Proa</rdamd:P30083>
       <rdamd:P30011>1996</rdamd:P30011>
-      <rdamd:P30182>300 pages 19 cm</rdamd:P30182>
+      <rdamd:P30182>300 pages ; 19 cm.</rdamd:P30182>
       <rdamd:P30106>Poirot</rdamd:P30106>
       <rdamd:P30165>1</rdamd:P30165>
    </rdac:C10007>
@@ -1225,9 +1291,10 @@
       <rdamd:P30156>Heriotza Nilo ibaian</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; itzulpena, Xabier Aristegieta Okiñena</rdamd:P30117>
       <rdamd:P30088>Iruñea</rdamd:P30088>
+      <rdamd:P30111>Iruñea : Igela, [2006].</rdamd:P30111>
       <rdamd:P30083>Igela</rdamd:P30083>
       <rdamd:P30011>[2006]</rdamd:P30011>
-      <rdamd:P30182>475 pages 18 cm</rdamd:P30182>
+      <rdamd:P30182>475 pages ; 18 cm.</rdamd:P30182>
       <rdamd:P30106>Enigma</rdamd:P30106>
       <rdamd:P30165>10</rdamd:P30165>
    </rdac:C10007>
@@ -1240,9 +1307,10 @@
       <rdamd:P30117>[Agatha Christie] ; traducción de H.C. Granch, J.M.F</rdamd:P30117>
       <rdamd:P30107>1ª ed.</rdamd:P30107>
       <rdamd:P30088>[Barcelona]</rdamd:P30088>
+      <rdamd:P30111>[Barcelona] : Debolsillo, 2003.</rdamd:P30111>
       <rdamd:P30083>Debolsillo</rdamd:P30083>
       <rdamd:P30011>2003</rdamd:P30011>
-      <rdamd:P30182>507 pages 19 cm</rdamd:P30182>
+      <rdamd:P30182>507 pages ; 19 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Agatha Christie</rdamd:P30106>
       <rdamd:P30165>519/8</rdamd:P30165>
       <rdamd:P30106>Poirot</rdamd:P30106>
@@ -1255,11 +1323,12 @@
       <rdamd:P30156>A morte no Nilo</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; [tradução, Newton Goldman]</rdamd:P30117>
       <rdamd:P30088>Rio de Janeiro</rdamd:P30088>
+      <rdamd:P30111>Rio de Janeiro : Record, D.L. 1996.</rdamd:P30111>
       <rdamd:P30083>Record</rdamd:P30083>
       <rdamd:P30011>D.L. 1996</rdamd:P30011>
       <rdamd:P30087>Barcelona</rdamd:P30087>
       <rdamd:P30175>Printer Industria Gráf</rdamd:P30175>
-      <rdamd:P30182>237 pages 22 cm</rdamd:P30182>
+      <rdamd:P30182>237 pages ; 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8677060200">
       <rdamd:P30004>ISBN 86-7706-020-0</rdamd:P30004>
@@ -1268,11 +1337,12 @@
       <rdamd:P30156>Smrt na Nilu</rdamd:P30156>
       <rdamd:P30117>Agata Kristi ; prevod, Predrag Urosevic</rdamd:P30117>
       <rdamd:P30088>Podgorica</rdamd:P30088>
+      <rdamd:P30111>Podgorica : Daily Press, [2004].</rdamd:P30111>
       <rdamd:P30083>Daily Press</rdamd:P30083>
       <rdamd:P30011>[2004]</rdamd:P30011>
       <rdamd:P30087>Barcelona</rdamd:P30087>
       <rdamd:P30175>Printer</rdamd:P30175>
-      <rdamd:P30182>284 pages 22 cm</rdamd:P30182>
+      <rdamd:P30182>284 pages ; 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9004284346">
       <rdamd:P30004>ISBN 90-04-28434-6</rdamd:P30004>
@@ -1283,10 +1353,11 @@
       <rdamd:P30156>Documents and the history of the early Islamic world</rdamd:P30156>
       <rdamd:P30117>edited by Alexander T. Schubert, Petra M. Sijpesteijn</rdamd:P30117>
       <rdamd:P30088>Leiden, Netherlands</rdamd:P30088>
+      <rdamd:P30111>Leiden, Netherlands : BRILL, 2015.</rdamd:P30111>
       <rdamd:P30083>BRILL</rdamd:P30083>
       <rdamd:P30011>2015</rdamd:P30011>
       <rdamd:P30007>©2015</rdamd:P30007>
-      <rdamd:P30182>1 online resource (327 pages)</rdamd:P30182>
+      <rdamd:P30182>1 online resource (327 pages).</rdamd:P30182>
       <rdamd:P30106>Islamic History and Civilization. Studies and Texts</rdamd:P30106>
       <rdamd:P30165>Volume 111</rdamd:P30165>
    </rdac:C10007>
@@ -1297,9 +1368,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Harper, 2014.</rdamd:P30111>
       <rdamd:P30083>Harper</rdamd:P30083>
       <rdamd:P30011>2014</rdamd:P30011>
-      <rdamd:P30182>373 pages ; 20 cm</rdamd:P30182>
+      <rdamd:P30182>373 pages ; 20 cm.</rdamd:P30182>
       <rdamd:P30106>Poirot</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008249687">
@@ -1309,9 +1381,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>adapted from work of Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Collins, 2017.</rdamd:P30111>
       <rdamd:P30083>Collins</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
-      <rdamd:P30182>89 pages ; 20 cm</rdamd:P30182>
+      <rdamd:P30182>89 pages ; 20 cm.</rdamd:P30182>
       <rdamd:P30106>Collins English readers</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008256074">
@@ -1321,9 +1394,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollinsPublishers, 2017.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 18 cm</rdamd:P30182>
+      <rdamd:P30182>1 volume ; 18 cm.</rdamd:P30182>
       <rdamd:P30106>Poirot</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008280956">
@@ -1334,9 +1408,10 @@
       <rdamd:P30142>six classic cases for the world's greatest detective</rdamd:P30142>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollinsPublishers, 2017.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 20 cm</rdamd:P30182>
+      <rdamd:P30182>1 volume ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Poirot</rdamd:P30106>
@@ -1356,9 +1431,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollinsPublishers, 2020.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2020</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 20 cm</rdamd:P30182>
+      <rdamd:P30182>1 volume ; 20 cm.</rdamd:P30182>
       <rdamd:P30106>Poirot</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008386825">
@@ -1368,9 +1444,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollinsPublishers, 2020.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2020</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 23 cm</rdamd:P30182>
+      <rdamd:P30182>1 volume ; 23 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008483623">
       <rdamd:P30004>ISBN 9780008483623 (pbk.) :</rdamd:P30004>
@@ -1379,9 +1456,10 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30117>Agatha Christie</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : HarperCollinsPublishers, 2022.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2022</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 20 cm</rdamd:P30182>
+      <rdamd:P30182>1 volume ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Poirot</rdamd:P30106>
@@ -1397,9 +1475,10 @@
       <rdamd:P30142>a bioethnography of three ancient Nubian communities</rdamd:P30142>
       <rdamd:P30117>George J. Armelagos and Dennis P. Van Gerven</rdamd:P30117>
       <rdamd:P30088>Gainesville</rdamd:P30088>
+      <rdamd:P30111>Gainesville : University Press of Florida, 2018.</rdamd:P30111>
       <rdamd:P30083>University Press of Florida</rdamd:P30083>
       <rdamd:P30011>2018</rdamd:P30011>
-      <rdamd:P30182>1 online resource : illustrations (black and white), maps (black and white)</rdamd:P30182>
+      <rdamd:P30182>1 online resource : illustrations (black and white), maps (black and white).</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
@@ -1414,10 +1493,11 @@
       <rdamd:P30142>a bioethnography of three ancient Nubian communities</rdamd:P30142>
       <rdamd:P30117>George J. Armelagos and Dennis P. Van Gerven</rdamd:P30117>
       <rdamd:P30088>Gainesville, FL</rdamd:P30088>
+      <rdamd:P30111>Gainesville, FL : University Press of Florida, [2017].</rdamd:P30111>
       <rdamd:P30083>University Press of Florida</rdamd:P30083>
       <rdamd:P30011>[2017]</rdamd:P30011>
       <rdamd:P30007>©2017</rdamd:P30007>
-      <rdamd:P30182>xx, 244 pages : illustrations, maps ; 25 cm</rdamd:P30182>
+      <rdamd:P30182>xx, 244 pages : illustrations, maps ; 25 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -1437,11 +1517,13 @@
       <rdamd:P30117>Agatha Christie ; retold by Nancy Taylor</rdamd:P30117>
       <rdamd:P30088>Harlow</rdamd:P30088>
       <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30111>Harlow ; [Oslo] : Pearson Education : [Cappelen Damm], 2008.</rdamd:P30111>
       <rdamd:P30083>Pearson Education</rdamd:P30083>
       <rdamd:P30083>[Cappelen Damm]</rdamd:P30083>
       <rdamd:P30011>2008</rdamd:P30011>
-      <rdamd:P30182>96 sider illustrasjoner</rdamd:P30182>
-      <rdamd:P30182>v, 96 pages : illustrations ; 20 cm</rdamd:P30182>
+      <rdamd:P30111>Harlow : Pearson Education, 2008.</rdamd:P30111>
+      <rdamd:P30182>96 sider : illustrasjoner.</rdamd:P30182>
+      <rdamd:P30182>v, 96 pages : illustrations ; 20 cm.</rdamd:P30182>
       <rdamd:P30106>Penguin readers, Level 5</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781907804717">
@@ -1455,9 +1537,10 @@
       <rdamd:P30142>uncovering the afterlife of ancient Egypt</rdamd:P30142>
       <rdamd:P30117>foreword by Tim Knox ; curators and editors, Julie Dawson and Helen Strudwick</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : The Fitzwilliam Museum in association with D Giles, London, 2016.</rdamd:P30111>
       <rdamd:P30083>The Fitzwilliam Museum in association with D Giles, London</rdamd:P30083>
       <rdamd:P30011>2016</rdamd:P30011>
-      <rdamd:P30182>256 pages : illustrations (black and white, and colour), 1 map (colour) ; 30 cm</rdamd:P30182>
+      <rdamd:P30182>256 pages : illustrations (black and white, and colour), 1 map (colour) ; 30 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788242969040">
       <rdamd:P30004>ISBN 9788242969040</rdamd:P30004>
@@ -1468,9 +1551,10 @@
       <rdamd:P30117>basert på Agatha Christies roman ; manus: Isabelle Bottier ; tegninger: Callixte ; farger: Fabien Alquier ; oversettelse: Jens Erik Røsåsen</rdamd:P30117>
       <rdamd:P30107>1. utgave</rdamd:P30107>
       <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30111>[Oslo] : Egmont Kids Media Nordic AS, 2020.</rdamd:P30111>
       <rdamd:P30083>Egmont Kids Media Nordic AS</rdamd:P30083>
       <rdamd:P30011>2020</rdamd:P30011>
-      <rdamd:P30182>65 sider illustrasjoner 29 cm</rdamd:P30182>
+      <rdamd:P30182>65 sider : illustrasjoner ; 29 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
@@ -1486,10 +1570,11 @@
       <rdamd:P30117>Agatha Christie ; traducció de Gonçal Oliveros</rdamd:P30117>
       <rdamd:P30107>Primera edició en aquest segell: novembre del 2020</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Labutxaca, [2020].</rdamd:P30111>
       <rdamd:P30083>Labutxaca</rdamd:P30083>
       <rdamd:P30011>[2020]</rdamd:P30011>
       <rdamd:P30007>©2020</rdamd:P30007>
-      <rdamd:P30182>301 páginas 19 cm</rdamd:P30182>
+      <rdamd:P30182>301 páginas ; 19 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788447350063">
       <rdamd:P30004>ISBN 978-84-473-5006-3</rdamd:P30004>
@@ -1499,9 +1584,10 @@
       <rdamd:P30142>(Murder on the Nile)</rdamd:P30142>
       <rdamd:P30117>por Agatha Christie ; versión española de H.C. Granch</rdamd:P30117>
       <rdamd:P30088>[Barcelona</rdamd:P30088>
+      <rdamd:P30111>[Barcelona : RBA, 2007].</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2007]</rdamd:P30011>
-      <rdamd:P30182>128 pages 24 cm</rdamd:P30182>
+      <rdamd:P30182>128 pages ; 24 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788447354092">
       <rdamd:P30004>ISBN 978-84-473-5409-2</rdamd:P30004>
@@ -1510,9 +1596,10 @@
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; [traducción, H.C. Granch]</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : RBA, [2007].</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>[2007]</rdamd:P30011>
-      <rdamd:P30182>272 pages 20 cm</rdamd:P30182>
+      <rdamd:P30182>272 pages ; 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788447356591">
       <rdamd:P30004>ISBN 978-84-473-5659-1</rdamd:P30004>
@@ -1521,9 +1608,10 @@
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; [traducción, H.C. Granch]</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : RBA, [2008].</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>[2008]</rdamd:P30011>
-      <rdamd:P30182>277 pages 20 cm</rdamd:P30182>
+      <rdamd:P30182>277 pages ; 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788447359028">
       <rdamd:P30004>ISBN 978-84-473-5902-8</rdamd:P30004>
@@ -1532,9 +1620,10 @@
       <rdamd:P30156>Morte no Nilo</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; [tradução, Isabel Alves]</rdamd:P30117>
       <rdamd:P30088>[Barcelona]</rdamd:P30088>
+      <rdamd:P30111>[Barcelona] : RBA, [2008].</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>[2008]</rdamd:P30011>
-      <rdamd:P30182>297 pages 20 cm</rdamd:P30182>
+      <rdamd:P30182>297 pages ; 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788467045420">
       <rdamd:P30004>ISBN 978-84-670-4542-0</rdamd:P30004>
@@ -1544,9 +1633,10 @@
       <rdamd:P30117>Agatha Christie ; traducción de H.C. Granch</rdamd:P30117>
       <rdamd:P30107>1ª ed.</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Espasa, 2015.</rdamd:P30111>
       <rdamd:P30083>Espasa</rdamd:P30083>
       <rdamd:P30011>2015</rdamd:P30011>
-      <rdamd:P30182>339 pages 24 cm</rdamd:P30182>
+      <rdamd:P30182>339 pages ; 24 cm.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788467045765">
@@ -1555,9 +1645,10 @@
       <rdfs:label>ISBN9788467045765</rdfs:label>
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : Espasa, 2015.</rdamd:P30111>
       <rdamd:P30083>Espasa</rdamd:P30083>
       <rdamd:P30011>2015</rdamd:P30011>
-      <rdamd:P30182>1 recurso en línea il.</rdamd:P30182>
+      <rdamd:P30182>1 recurso en línea : il.</rdamd:P30182>
       <rdamd:P30106>Espasa narrativa</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788467051629">
@@ -1568,9 +1659,10 @@
       <rdamd:P30117>Agatha Christie ; traducción de H.C. Granch</rdamd:P30117>
       <rdamd:P30107>1ª ed. en colección Booket</rdamd:P30107>
       <rdamd:P30088>[Barcelona]</rdamd:P30088>
+      <rdamd:P30111>[Barcelona] : Booket, 2018.</rdamd:P30111>
       <rdamd:P30083>Booket</rdamd:P30083>
       <rdamd:P30011>2018</rdamd:P30011>
-      <rdamd:P30182>339 pages 19 cm</rdamd:P30182>
+      <rdamd:P30182>339 pages ; 19 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Agatha Christie</rdamd:P30106>
       <rdamd:P30165>5027/1</rdamd:P30165>
    </rdac:C10007>
@@ -1582,10 +1674,11 @@
       <rdamd:P30117>Agatha Christie ; traducción de H.C. Granch</rdamd:P30117>
       <rdamd:P30107>Primera edición en esta presentación en Colección Booket: julio de 2019</rdamd:P30107>
       <rdamd:P30088>[Barcelona]</rdamd:P30088>
+      <rdamd:P30111>[Barcelona] : Booket, [2019].</rdamd:P30111>
       <rdamd:P30083>Booket</rdamd:P30083>
       <rdamd:P30011>[2019]</rdamd:P30011>
       <rdamd:P30007>©2019</rdamd:P30007>
-      <rdamd:P30182>339 páginas 19 cm</rdamd:P30182>
+      <rdamd:P30182>339 páginas ; 19 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788467060737">
@@ -1596,10 +1689,11 @@
       <rdamd:P30117>Agatha Christie ; traducción de H.C. Granch</rdamd:P30117>
       <rdamd:P30107>Primera edición en esta presentación en Colección Booket: octubre de 2020</rdamd:P30107>
       <rdamd:P30088>Barcelona (España)</rdamd:P30088>
+      <rdamd:P30111>Barcelona (España) : Espasa, [2020].</rdamd:P30111>
       <rdamd:P30083>Espasa</rdamd:P30083>
       <rdamd:P30011>[2020]</rdamd:P30011>
       <rdamd:P30007>©2020</rdamd:P30007>
-      <rdamd:P30182>339 páginas 19 cm</rdamd:P30182>
+      <rdamd:P30182>339 páginas ; 19 cm.</rdamd:P30182>
       <rdamd:P30106>Booket</rdamd:P30106>
       <rdamd:P30106>Crimen y misterio</rdamd:P30106>
    </rdac:C10007>
@@ -1610,9 +1704,10 @@
       <rdamd:P30156>Heriotza Nilo ibaian</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; itzulpena, Xabier Aristegieta Okiñena</rdamd:P30117>
       <rdamd:P30088>Iruñea</rdamd:P30088>
+      <rdamd:P30111>Iruñea : Igela Argitaletxea, [2018].</rdamd:P30111>
       <rdamd:P30083>Igela Argitaletxea</rdamd:P30083>
       <rdamd:P30011>[2018]</rdamd:P30011>
-      <rdamd:P30182>491 páginas 20 cm</rdamd:P30182>
+      <rdamd:P30182>491 páginas ; 20 cm.</rdamd:P30182>
       <rdamd:P30106>Enigma</rdamd:P30106>
       <rdamd:P30165>10</rdamd:P30165>
    </rdac:C10007>
@@ -1624,9 +1719,10 @@
       <rdamd:P30117>Agatha Christie ; traducción de H.C. Granch</rdamd:P30117>
       <rdamd:P30107>1ª ed. en esta colección</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : RBA, 2012.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2012</rdamd:P30011>
-      <rdamd:P30182>313 pages 22 cm</rdamd:P30182>
+      <rdamd:P30182>313 pages ; 22 cm.</rdamd:P30182>
       <rdamd:P30106>Serie negra</rdamd:P30106>
       <rdamd:P30165>231</rdamd:P30165>
    </rdac:C10007>
@@ -1638,9 +1734,10 @@
       <rdamd:P30117>Agatha Christie ; traducción de H.C. Granch</rdamd:P30117>
       <rdamd:P30107>1ª ed. en esta colección</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : RBA, 2014.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2014</rdamd:P30011>
-      <rdamd:P30182>313 pages 22 cm</rdamd:P30182>
+      <rdamd:P30182>313 pages ; 22 cm.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie 125 aniversario</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788498675801">
@@ -1650,9 +1747,10 @@
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; traducción de H.C. Granch</rdamd:P30117>
       <rdamd:P30088>Barcelona</rdamd:P30088>
+      <rdamd:P30111>Barcelona : RBA, 2009.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2009</rdamd:P30011>
-      <rdamd:P30182>383 pages 19 cm</rdamd:P30182>
+      <rdamd:P30182>383 pages ; 19 cm.</rdamd:P30182>
       <rdamd:P30106>RBA bolsillo</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9789504916123">
@@ -1662,11 +1760,12 @@
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; [traducción, Horacio Grancho]</rdamd:P30117>
       <rdamd:P30088>[Buenos Aires]</rdamd:P30088>
+      <rdamd:P30111>[Buenos Aires] : Planeta DeAgostini, [2008].</rdamd:P30111>
       <rdamd:P30083>Planeta DeAgostini</rdamd:P30083>
       <rdamd:P30011>[2008]</rdamd:P30011>
       <rdamd:P30087>[Barcelona]</rdamd:P30087>
       <rdamd:P30175>Lit. Rosés</rdamd:P30175>
-      <rdamd:P30182>230 pages 19 cm</rdamd:P30182>
+      <rdamd:P30182>230 pages ; 19 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">

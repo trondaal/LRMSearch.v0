@@ -508,9 +508,10 @@
       <rdamd:P30156>Darkness visible</rdamd:P30156>
       <rdamd:P30142>a novel</rdamd:P30142>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : J. Cape, [1960].</rdamd:P30111>
       <rdamd:P30083>J. Cape</rdamd:P30083>
       <rdamd:P30011>[1960]</rdamd:P30011>
-      <rdamd:P30182>256 pages 20 cm</rdamd:P30182>
+      <rdamd:P30182>256 pages ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -522,6 +523,7 @@
       <rdamd:P30142>the Freemason's answer to darkness visible</rdamd:P30142>
       <rdamd:P30117>by "Vindex."</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Regency, 1952.</rdamd:P30111>
       <rdamd:P30083>Regency</rdamd:P30083>
       <rdamd:P30011>1952</rdamd:P30011>
       <rdamd:P30182>156 pages ; 19 cm.</rdamd:P30182>
@@ -537,6 +539,7 @@
       <rdamd:P30117>[by W.W.T. Hannah]</rdamd:P30117>
       <rdamd:P30107>4th, revised ed.</rdamd:P30107>
       <rdamd:P30088>Lond</rdamd:P30088>
+      <rdamd:P30111>Lond., 1964.</rdamd:P30111>
       <rdamd:P30011>1964</rdamd:P30011>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
@@ -547,6 +550,7 @@
    <rdac:C10007 rdf:about="http://example.org/013929004">
       <rdamd:P30156>Darkness visible, a farce</rdamd:P30156>
       <rdamd:P30088>Lond</rdamd:P30088>
+      <rdamd:P30111>Lond., 1811.</rdamd:P30111>
       <rdamd:P30011>1811</rdamd:P30011>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
@@ -559,6 +563,7 @@
       <rdamd:P30142>a revelation and interpretation of Freemasonry</rdamd:P30142>
       <rdamd:P30117>Walton Hannah</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Britons, 1952.</rdamd:P30111>
       <rdamd:P30083>Britons</rdamd:P30083>
       <rdamd:P30011>1952</rdamd:P30011>
       <rdamd:P30182>228 pages, [1] leaf of plates : ill. ; 22 cm.</rdamd:P30182>
@@ -574,9 +579,10 @@
       <rdamd:P30117>William Styron</rdamd:P30117>
       <rdamd:P30107>1st ed.</rdamd:P30107>
       <rdamd:P30088>New York</rdamd:P30088>
+      <rdamd:P30111>New York : Random House, c1990.</rdamd:P30111>
       <rdamd:P30083>Random House</rdamd:P30083>
       <rdamd:P30011>c1990</rdamd:P30011>
-      <rdamd:P30182>1 online resource (84 pages)</rdamd:P30182>
+      <rdamd:P30182>1 online resource (84 pages).</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Counseling and psychotherapy transcripts, client narratives, and reference works</rdamd:P30106>
@@ -587,9 +593,10 @@
    <rdac:C10007 rdf:about="http://example.org/020735169">
       <rdamd:P30156>Darkness visible</rdamd:P30156>
       <rdamd:P30088>Cambridge</rdamd:P30088>
+      <rdamd:P30111>Cambridge : Chadwyck-Healey, 1996.</rdamd:P30111>
       <rdamd:P30083>Chadwyck-Healey</rdamd:P30083>
       <rdamd:P30011>1996</rdamd:P30011>
-      <rdamd:P30182>1 online resource</rdamd:P30182>
+      <rdamd:P30182>1 online resource.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
@@ -601,6 +608,7 @@
       <rdamd:P30117>[Tarik O'Regan]</rdamd:P30117>
       <rdamd:P30107>Piano &amp; Vocal.</rdamd:P30107>
       <rdamd:P30088>[United Kingdom]</rdamd:P30088>
+      <rdamd:P30111>[United Kingdom] : [Music Sales], [2017].</rdamd:P30111>
       <rdamd:P30083>[Music Sales]</rdamd:P30083>
       <rdamd:P30011>[2017]</rdamd:P30011>
       <rdamd:P30182>1 online resource (1 score (7 pages)).</rdamd:P30182>
@@ -618,6 +626,7 @@
       <rdamd:P30156>Darkness visible</rdamd:P30156>
       <rdamd:P30117>Philip Grange</rdamd:P30117>
       <rdamd:P30088>[United Kingdom]</rdamd:P30088>
+      <rdamd:P30111>[United Kingdom] : Metier, p2005.</rdamd:P30111>
       <rdamd:P30083>Metier</rdamd:P30083>
       <rdamd:P30011>p2005</rdamd:P30011>
       <rdamd:P30182>1 sound disc : digital ; 4 3/4 in.</rdamd:P30182>
@@ -636,6 +645,7 @@
       <rdamd:P30156>Darkness visible</rdamd:P30156>
       <rdamd:P30142>a memoir of madness</rdamd:P30142>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Vintage, 2001.</rdamd:P30111>
       <rdamd:P30083>Vintage</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
       <rdamd:P30182>85 p ; 20 cm.</rdamd:P30182>
@@ -653,9 +663,10 @@
       <rdamd:P30142>a memoir of madness</rdamd:P30142>
       <rdamd:P30117>William Styron</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Cape, 1991.</rdamd:P30111>
       <rdamd:P30083>Cape</rdamd:P30083>
       <rdamd:P30011>1991</rdamd:P30011>
-      <rdamd:P30182>84 pages ; 21 cm</rdamd:P30182>
+      <rdamd:P30182>84 pages ; 21 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -670,6 +681,7 @@
       <rdamd:P30142>a study of Vergil's Aeneid</rdamd:P30142>
       <rdamd:P30117>W. R. Johnson</rdamd:P30117>
       <rdamd:P30088>Berkeley</rdamd:P30088>
+      <rdamd:P30111>Berkeley : University of California Press, c1976.</rdamd:P30111>
       <rdamd:P30083>University of California Press</rdamd:P30083>
       <rdamd:P30011>c1976</rdamd:P30011>
       <rdamd:P30182>xi, 179 pages ; 24 cm.</rdamd:P30182>
@@ -687,9 +699,10 @@
       <rdamd:P30142>a study of Vergil's Aeneid</rdamd:P30142>
       <rdamd:P30117>W. R. Johnson</rdamd:P30117>
       <rdamd:P30088>Berkeley</rdamd:P30088>
+      <rdamd:P30111>Berkeley : University of California Press, c1979.</rdamd:P30111>
       <rdamd:P30083>University of California Press</rdamd:P30083>
       <rdamd:P30011>c1979</rdamd:P30011>
-      <rdamd:P30182>xi, 179 pages ; 22 cm</rdamd:P30182>
+      <rdamd:P30182>xi, 179 pages ; 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -706,6 +719,7 @@
       <rdamd:P30156>A visible darkness</rdamd:P30156>
       <rdamd:P30117>Michael Gregorio</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Faber and Faber, 2009.</rdamd:P30111>
       <rdamd:P30083>Faber and Faber</rdamd:P30083>
       <rdamd:P30011>2009</rdamd:P30011>
       <rdamd:P30182>468 pages ; 24 cm.</rdamd:P30182>
@@ -725,6 +739,7 @@
       <rdamd:P30156>A visible darkness</rdamd:P30156>
       <rdamd:P30117>Michael Gregorio</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Faber and Faber, 2010.</rdamd:P30111>
       <rdamd:P30083>Faber and Faber</rdamd:P30083>
       <rdamd:P30011>2010</rdamd:P30011>
       <rdamd:P30182>468 pages ; 20 cm.</rdamd:P30182>
@@ -745,6 +760,7 @@
       <rdamd:P30117>Michael Gregorio</rdamd:P30117>
       <rdamd:P30107>Main</rdamd:P30107>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Faber &amp; Faber, 2012.</rdamd:P30111>
       <rdamd:P30083>Faber &amp; Faber</rdamd:P30083>
       <rdamd:P30011>2012</rdamd:P30011>
       <rdamd:P30182>1 online resource.</rdamd:P30182>
@@ -762,6 +778,7 @@
       <rdamd:P30142>for solo piano : after John Dowland : (1992)</rdamd:P30142>
       <rdamd:P30117>Thomas Adès</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Faber Music, 1998.</rdamd:P30111>
       <rdamd:P30083>Faber Music</rdamd:P30083>
       <rdamd:P30011>1998</rdamd:P30011>
       <rdamd:P30182>5 pages of music ; 31 cm.</rdamd:P30182>
@@ -781,6 +798,7 @@
       <rdamd:P30142>[a memoir of madness]</rdamd:P30142>
       <rdamd:P30117>by William Styron</rdamd:P30117>
       <rdamd:P30088>[Holmes, Pa.]</rdamd:P30088>
+      <rdamd:P30111>[Holmes, Pa.] : Sound Editions, p1990.</rdamd:P30111>
       <rdamd:P30083>Sound Editions</rdamd:P30083>
       <rdamd:P30011>p1990</rdamd:P30011>
       <rdamd:P30182>2 sound cassettes (2 hr.) : analog, Dolby processed.</rdamd:P30182>
@@ -804,6 +822,7 @@
       <rdamd:P30142>a Lambert and Hook mystery</rdamd:P30142>
       <rdamd:P30117>J.M. Gregson</rdamd:P30117>
       <rdamd:P30088>Sutton</rdamd:P30088>
+      <rdamd:P30111>Sutton : Severn House, 2009.</rdamd:P30111>
       <rdamd:P30083>Severn House</rdamd:P30083>
       <rdamd:P30011>2009</rdamd:P30011>
       <rdamd:P30182>196 pages ; 23 cm.</rdamd:P30182>
@@ -823,6 +842,7 @@
       <rdamd:P30156>A visible darkness</rdamd:P30156>
       <rdamd:P30117>Jonathon King</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Orion, 2003.</rdamd:P30111>
       <rdamd:P30083>Orion</rdamd:P30083>
       <rdamd:P30011>2003</rdamd:P30011>
       <rdamd:P30182>243 pages ; 24 cm.</rdamd:P30182>
@@ -840,6 +860,7 @@
       <rdamd:P30142>making the darkness visible</rdamd:P30142>
       <rdamd:P30117>Robert Lomas</rdamd:P30117>
       <rdamd:P30088>Addlestone</rdamd:P30088>
+      <rdamd:P30111>Addlestone : Lewis Masonic, 2005.</rdamd:P30111>
       <rdamd:P30083>Lewis Masonic</rdamd:P30083>
       <rdamd:P30011>2005</rdamd:P30011>
       <rdamd:P30182>384 pages ; 24 cm.</rdamd:P30182>
@@ -859,6 +880,7 @@
       <rdamd:P30156>A darkness visible</rdamd:P30156>
       <rdamd:P30117>Seamus Murphy ; with essays by Nancy Hatch Dupree and Anthony Loyd</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Saqi, 2008.</rdamd:P30111>
       <rdamd:P30083>Saqi</rdamd:P30083>
       <rdamd:P30011>2008</rdamd:P30011>
       <rdamd:P30182>1 v. (unpaged) : chiefly ill. ; 26 cm.</rdamd:P30182>
@@ -878,6 +900,7 @@
       <rdamd:P30142>the prints of John Martin</rdamd:P30142>
       <rdamd:P30117>by J. Dustin Wees ; with contributions by Michael J. Campbell</rdamd:P30117>
       <rdamd:P30088>Williamstown, Mass</rdamd:P30088>
+      <rdamd:P30111>Williamstown, Mass : Sterling &amp; Francine Clark Art Institute, c1986.</rdamd:P30111>
       <rdamd:P30083>Sterling &amp; Francine Clark Art Institute</rdamd:P30083>
       <rdamd:P30011>c1986</rdamd:P30011>
       <rdamd:P30182>v, 87 pages ; 28 cm.</rdamd:P30182>
@@ -896,6 +919,7 @@
       <rdamd:P30142>a Christian appraisal of freemasonry</rdamd:P30142>
       <rdamd:P30117>Walton Hannah</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Saint Austin Press, 1998.</rdamd:P30111>
       <rdamd:P30083>Saint Austin Press</rdamd:P30083>
       <rdamd:P30011>1998</rdamd:P30011>
       <rdamd:P30182>viii, 232 pages : ill. ; 22 cm.</rdamd:P30182>
@@ -913,9 +937,10 @@
       <rdamd:P30142>erindringer om en depresjon</rdamd:P30142>
       <rdamd:P30117>William Styron ; oversatt av Axel Amlie</rdamd:P30117>
       <rdamd:P30088>[Oslo]</rdamd:P30088>
+      <rdamd:P30111>[Oslo] : Aschehoug, 1991.</rdamd:P30111>
       <rdamd:P30083>Aschehoug</rdamd:P30083>
       <rdamd:P30011>1991</rdamd:P30011>
-      <rdamd:P30182>95 sider 21 cm</rdamd:P30182>
+      <rdamd:P30182>95 sider ; 21 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -931,10 +956,11 @@
       <rdamd:P30117>W.R. Johnson</rdamd:P30117>
       <rdamd:P30088>Chicago ;</rdamd:P30088>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>Chicago ; London : University of Chicago Press, 2015.</rdamd:P30111>
       <rdamd:P30083>University of Chicago Press</rdamd:P30083>
       <rdamd:P30011>2015</rdamd:P30011>
       <rdamd:P30007>©1976</rdamd:P30007>
-      <rdamd:P30182>xi, 179 pages ; 23 cm</rdamd:P30182>
+      <rdamd:P30182>xi, 179 pages ; 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -949,9 +975,10 @@
       <rdamd:P30142>patriarchy's resurgence and feminist resistance</rdamd:P30142>
       <rdamd:P30117>Carol Gilligan, David A.J. Richards</rdamd:P30117>
       <rdamd:P30088>Cambridge</rdamd:P30088>
+      <rdamd:P30111>Cambridge : Cambridge University Press, 2018.</rdamd:P30111>
       <rdamd:P30083>Cambridge University Press</rdamd:P30083>
       <rdamd:P30011>2018</rdamd:P30011>
-      <rdamd:P30182>x, 162 pages ; 24 cm</rdamd:P30182>
+      <rdamd:P30182>x, 162 pages ; 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -966,6 +993,7 @@
       <rdamd:P30117>William Styron</rdamd:P30117>
       <rdamd:P30107>Short edition.</rdamd:P30107>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Vintage, 2017.</rdamd:P30111>
       <rdamd:P30083>Vintage</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
       <rdamd:P30182>78 pages ; 18 cm.</rdamd:P30182>
@@ -985,9 +1013,10 @@
       <rdamd:P30117>Nicholas Tucker</rdamd:P30117>
       <rdamd:P30107>[New] edition.</rdamd:P30107>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Icon Books, 2017.</rdamd:P30111>
       <rdamd:P30083>Icon Books</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
-      <rdamd:P30182>191 pages : illustrations (black and white) ; 20 cm</rdamd:P30182>
+      <rdamd:P30182>191 pages : illustrations (black and white) ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -1003,6 +1032,7 @@
       <rdamd:P30117>Nicholas Tucker</rdamd:P30117>
       <rdamd:P30107>2nd edition.</rdamd:P30107>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Icon Books, 2017.</rdamd:P30111>
       <rdamd:P30083>Icon Books</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
       <rdamd:P30182>1 online resource : illustrations (black and white).</rdamd:P30182>
@@ -1020,6 +1050,7 @@
       <rdamd:P30142>inside the world of Philip Pullman</rdamd:P30142>
       <rdamd:P30117>Nicholas Tucker</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Wizard, 2007.</rdamd:P30111>
       <rdamd:P30083>Wizard</rdamd:P30083>
       <rdamd:P30011>2007</rdamd:P30011>
       <rdamd:P30182>212 pages : ill. ; 20 cm.</rdamd:P30182>
@@ -1037,6 +1068,7 @@
       <rdamd:P30142>a Christian appraisal of Fremasonry</rdamd:P30142>
       <rdamd:P30117>by Walton Hannah</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Baronius, 2008.</rdamd:P30111>
       <rdamd:P30083>Baronius</rdamd:P30083>
       <rdamd:P30011>2008</rdamd:P30011>
       <rdamd:P30182>xv, 280 pages : ill. ; 21 cm.</rdamd:P30182>
