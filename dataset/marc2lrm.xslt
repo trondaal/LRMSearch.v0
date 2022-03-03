@@ -2056,6 +2056,15 @@
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30111'"/>
+                              <xsl:with-param name="select" select="frbrizer:publication(..)"/>
+                           </xsl:call-template>
+                        </xsl:copy>
+                     </xsl:if>
+                     <xsl:if test="@code = 'a'">
+                        <xsl:copy>
+                           <xsl:call-template name="copy-content">
+                              <xsl:with-param name="type"
                                               select="'http://rdaregistry.info/Elements/m/datatype/P30088'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
@@ -2128,6 +2137,15 @@
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30110'"/>
+                              <xsl:with-param name="select" select="frbrizer:publication(..)"/>
+                           </xsl:call-template>
+                        </xsl:copy>
+                     </xsl:if>
+                     <xsl:if test="@code = 'a'">
+                        <xsl:copy>
+                           <xsl:call-template name="copy-content">
+                              <xsl:with-param name="type"
                                               select="'http://rdaregistry.info/Elements/m/datatype/P30086'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
@@ -2169,6 +2187,15 @@
                      <xsl:attribute name="c" select="1"/>
                   </xsl:if>
                   <xsl:for-each select="*:subfield[@code = ('a','b','c')]">
+                     <xsl:if test="@code = 'a'">
+                        <xsl:copy>
+                           <xsl:call-template name="copy-content">
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30111'"/>
+                              <xsl:with-param name="select" select="frbrizer:publication(..)"/>
+                           </xsl:call-template>
+                        </xsl:copy>
+                     </xsl:if>
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
@@ -2218,6 +2245,15 @@
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30108'"/>
+                              <xsl:with-param name="select" select="frbrizer:publication(..)"/>
+                           </xsl:call-template>
+                        </xsl:copy>
+                     </xsl:if>
+                     <xsl:if test="@code = 'a'">
+                        <xsl:copy>
+                           <xsl:call-template name="copy-content">
+                              <xsl:with-param name="type"
                                               select="'http://rdaregistry.info/Elements/m/datatype/P30085'"/>
                               <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                            </xsl:call-template>
@@ -2259,6 +2295,15 @@
                      <xsl:attribute name="c" select="1"/>
                   </xsl:if>
                   <xsl:for-each select="*:subfield[@code = ('a','b','c')]">
+                     <xsl:if test="@code = 'a'">
+                        <xsl:copy>
+                           <xsl:call-template name="copy-content">
+                              <xsl:with-param name="type"
+                                              select="'http://rdaregistry.info/Elements/m/datatype/P30109'"/>
+                              <xsl:with-param name="select" select="frbrizer:publication(..)"/>
+                           </xsl:call-template>
+                        </xsl:copy>
+                     </xsl:if>
                      <xsl:if test="@code = 'a'">
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
@@ -2336,8 +2381,7 @@
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type"
                                               select="'http://rdaregistry.info/Elements/m/datatype/P30182'"/>
-                              <xsl:with-param name="select"
-                                              select="string-join((., ../*:subfield[@code='b'], ../*:subfield[@code='c'], ../*:subfield[@code='e'], ../*:subfield[@code='f'], ../*:subfield[@code='g']), ' ')"/>
+                              <xsl:with-param name="select" select="frbrizer:extent(..)"/>
                            </xsl:call-template>
                         </xsl:copy>
                      </xsl:if>
@@ -6180,6 +6224,89 @@
             <xsl:for-each select="$value">
                 <xsl:value-of select="replace(., '[ \.,/:=]+$', '')"/>
             </xsl:for-each>
+        </xsl:function>
+   <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:rdac="http://rdaregistry.info/Elements/c/"
+                 xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+                 xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+                 xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+                 xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+                 xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+                 xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+                 xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+                 xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
+                 xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+                 xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
+                 xmlns:mmmm="http://www.loc.gov/MARC21/slim/"
+                 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                 xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
+                 xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
+                 xmlns:rdamt="http://rdaregistry.info/termList/RDAMediaType/"
+                 xmlns:rdat="http://rdaregistry.info/termList/"
+                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 name="frbrizer:extent"
+                 as="xs:string">
+            <xsl:param name="datafield" as="element()"/>
+            <xsl:variable name="extent">
+                <xsl:if test="$datafield/*:subfield[@code='a']">
+                    <xsl:value-of select="replace($datafield/*:subfield[@code='a'], '[ ;:]+$', '')"/>
+                </xsl:if>
+                <xsl:if test="$datafield/*:subfield[@code='b']">
+                    <xsl:value-of select="' : ' || replace($datafield/*:subfield[@code='b'], '[ ;:]+$', '')"/>
+                </xsl:if>
+                <xsl:if test="$datafield/*:subfield[@code='c']">
+                    <xsl:value-of select="' ; ' || replace($datafield/*:subfield[@code='c'], '[ ;:]+$', '')"/>
+                </xsl:if>
+            </xsl:variable>
+            <xsl:value-of select="replace(string-join($extent, ''), '[ \.]+$', '') || '.'"/>
+        </xsl:function>
+   <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:rdac="http://rdaregistry.info/Elements/c/"
+                 xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+                 xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+                 xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+                 xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+                 xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+                 xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+                 xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+                 xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
+                 xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+                 xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
+                 xmlns:mmmm="http://www.loc.gov/MARC21/slim/"
+                 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                 xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
+                 xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
+                 xmlns:rdamt="http://rdaregistry.info/termList/RDAMediaType/"
+                 xmlns:rdat="http://rdaregistry.info/termList/"
+                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                 name="frbrizer:publication"
+                 as="xs:string">
+            <xsl:param name="datafield" as="element()"/>
+            <xsl:variable name="formatted" as="xs:string*">
+                <xsl:for-each-group select="$datafield/*:subfield"
+                             group-starting-with="*:subfield[@code = 'a']">
+                    <xsl:variable name="part" as="xs:string*">
+                        <xsl:for-each select="current-group()[@code = 'a']">
+                            <xsl:value-of select="replace(., '[,;:]+$', '')"/>
+                        </xsl:for-each>
+                        <xsl:for-each select="current-group()[@code = 'b']">
+                            <xsl:value-of select="' : ' || replace(., '[,;:]+$', '')"/>
+                        </xsl:for-each>
+                        <xsl:for-each select="current-group()[@code = 'c']">
+                            <xsl:value-of select="', ' || replace(., '[\.]+$', '')"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:value-of select="string-join($part, '')"/>
+                </xsl:for-each-group>
+            </xsl:variable>
+            <xsl:choose>
+                <xsl:when test="matches($formatted[last()], '\.$')">
+                    <xsl:value-of select="string-join($formatted, ' ; ')"/>     
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="string-join($formatted, ' ; ') || '.'"/>    
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:function>
    <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rdac="http://rdaregistry.info/Elements/c/"

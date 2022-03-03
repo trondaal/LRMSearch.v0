@@ -335,6 +335,7 @@
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30107" label="has edition statement"/>
             </datafield>
             <datafield tag="260">
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30111" select="frbrizer:publication(..)" label="has publication statement"/>
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30088" select="frbrizer:trim(.)" label="has place of publication"/>
                 <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30083" select="frbrizer:trim(.)" label="has publisher"/>
                 <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30011" select="frbrizer:trim(.)" label="has date of publication"/>
@@ -343,21 +344,25 @@
                 <subfield code="g" type="http://rdaregistry.info/Elements/m/datatype/P30010" select="frbrizer:trim(.)" label="has manufacture date"/>
             </datafield>
             <datafield tag="264" condition="@ind2='0'"><!-- production -->
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30110" select="frbrizer:publication(..)" label="has production statement"/>
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30086" select="frbrizer:trim(.)" label="has place of production"/>
                 <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30174" select="frbrizer:trim(.)" label="has producer"/>
                 <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30009" select="frbrizer:trim(.)" label="has date of production"/>
             </datafield>
             <datafield tag="264" condition="@ind2='1'"><!-- publication -->
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30111" select="frbrizer:publication(..)" label="has production statement"/>               
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30088" select="frbrizer:trim(.)" label="has place of publication"/>
                 <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30083" select="frbrizer:trim(.)" label="has publisher"/>
                 <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30011" select="frbrizer:trim(.)" label="has date of publication"/>
             </datafield>
             <datafield tag="264" condition="@ind2='2'"><!-- distribution -->
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30108" select="frbrizer:publication(..)" label="has production statement"/>
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30085" select="frbrizer:trim(.)" label="has place of distribution"/>
                 <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30173" select="frbrizer:trim(.)" label="has distributor"/>
                 <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30008" select="frbrizer:trim(.)" label="has date of distribution"/>
             </datafield>
             <datafield tag="264" condition="@ind2='3'"><!-- manufacture -->
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30109" select="frbrizer:publication(..)" label="has production statement"/>
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30087" select="frbrizer:trim(.)" label="has manufacture place"/>
                 <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30175" select="frbrizer:trim(.)" label="has manufacturers name"/>
                 <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30010" select="frbrizer:trim(.)" label="has manufacture date"/>
@@ -366,7 +371,7 @@
                 <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30007" select="frbrizer:trim(.)" label="copyright date"/>
             </datafield>
             <datafield tag="300">
-                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30182" label="has extent" select="string-join((., ../*:subfield[@code='b'], ../*:subfield[@code='c'], ../*:subfield[@code='e'], ../*:subfield[@code='f'], ../*:subfield[@code='g']), ' ')"/>
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30182" label="has extent" select="frbrizer:extent(..)"/>
                 <!--<subfield code="b" type="http://marc21rdf.info/elements/marc/M30000b" label="other physical details"/>-->
                 <!--<subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30169" label="has dimensions"/>-->
                 <!--<subfield code="e" type="http://marc21rdf.info/elements/marc/M30000e" label="accompanying material"/>-->
@@ -776,6 +781,49 @@
             </xsl:for-each>
         </xsl:function>
         
+        <xsl:function name="frbrizer:extent" as="xs:string">
+            <xsl:param name="datafield" as="element()"/>
+            <xsl:variable name="extent">
+                <xsl:if test="$datafield/*:subfield[@code='a']">
+                    <xsl:value-of select="replace($datafield/*:subfield[@code='a'], '[ ;:]+$', '')"/>
+                </xsl:if>
+                <xsl:if test="$datafield/*:subfield[@code='b']">
+                    <xsl:value-of select="' : ' || replace($datafield/*:subfield[@code='b'], '[ ;:]+$', '')"/>
+                </xsl:if>
+                <xsl:if test="$datafield/*:subfield[@code='c']">
+                    <xsl:value-of select="' ; ' || replace($datafield/*:subfield[@code='c'], '[ ;:]+$', '')"/>
+                </xsl:if>
+            </xsl:variable>
+            <xsl:value-of select="replace(string-join($extent, ''), '[ \.]+$', '') || '.'"></xsl:value-of>
+        </xsl:function>
+
+        <xsl:function name="frbrizer:publication" as="xs:string">
+            <xsl:param name="datafield" as="element()"/>
+            <xsl:variable name="formatted" as="xs:string*">
+                <xsl:for-each-group select="$datafield/*:subfield"  group-starting-with="*:subfield[@code = 'a']">
+                    <xsl:variable name="part" as="xs:string*">
+                        <xsl:for-each select="current-group()[@code = 'a']">
+                            <xsl:value-of select="replace(., '[,;:]+$', '')"/>
+                        </xsl:for-each>
+                        <xsl:for-each select="current-group()[@code = 'b']">
+                            <xsl:value-of select="' : ' || replace(., '[,;:]+$', '')"/>
+                        </xsl:for-each>
+                        <xsl:for-each select="current-group()[@code = 'c']">
+                            <xsl:value-of select="', ' || replace(., '[\.]+$', '')"/>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    <xsl:value-of select="string-join($part, '')"/>
+                </xsl:for-each-group>
+            </xsl:variable>
+            <xsl:choose>
+                <xsl:when test="matches($formatted[last()], '\.$')">
+                    <xsl:value-of select="string-join($formatted, ' ; ')"/>     
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="string-join($formatted, ' ; ') || '.'"/>    
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:function>
         
         <xsl:function name="frbrizer:idprefix">
             <xsl:param name="value"/>

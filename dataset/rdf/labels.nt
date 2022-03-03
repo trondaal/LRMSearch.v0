@@ -19,6 +19,12 @@
 <http://rdaregistry.info/Elements/m/datatype/P30086>	<http://www.w3.org/2000/01/rdf-schema#label>   "productionplace"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30174>	<http://www.w3.org/2000/01/rdf-schema#label>   "producer"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30009>	<http://www.w3.org/2000/01/rdf-schema#label>   "productiondate"@gden .
+
+<http://rdaregistry.info/Elements/m/datatype/P30111>	<http://www.w3.org/2000/01/rdf-schema#label>   "publication"@gden .
+<http://rdaregistry.info/Elements/m/datatype/P30110>	<http://www.w3.org/2000/01/rdf-schema#label>   "production"@gden .
+<http://rdaregistry.info/Elements/m/datatype/P30109>	<http://www.w3.org/2000/01/rdf-schema#label>   "manufacture"@gden .
+<http://rdaregistry.info/Elements/m/datatype/P30108>	<http://www.w3.org/2000/01/rdf-schema#label>   "distribution"@gden .
+
 <http://rdaregistry.info/Elements/m/datatype/P30088>	<http://www.w3.org/2000/01/rdf-schema#label>   "publicationplace"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30083>	<http://www.w3.org/2000/01/rdf-schema#label>   "publisher"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30011>	<http://www.w3.org/2000/01/rdf-schema#label>   "publicationdate"@gden .
