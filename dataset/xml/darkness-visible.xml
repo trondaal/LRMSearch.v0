@@ -1953,7 +1953,7 @@
             <marc:subfield code="c">1811</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="c">cm.21</marc:subfield>
+            <marc:subfield code="c">21 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
             <marc:subfield code="a">text</marc:subfield>

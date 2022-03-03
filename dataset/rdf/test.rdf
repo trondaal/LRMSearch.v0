@@ -47,9 +47,13 @@
       <rdamd:P30156>Anansi boys</rdamd:P30156>
       <rdamd:P30117>Neil Gaiman</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30088>Oslo</rdamd:P30088>
+      <rdamd:P30111>London : Review : Review ; Oslo : Review, 2005.</rdamd:P30111>
       <rdamd:P30083>Review</rdamd:P30083>
       <rdamd:P30011>2005</rdamd:P30011>
-      <rdamd:P30182>348 p. 24 cm.</rdamd:P30182>
+      <rdamd:P30182>348 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>555 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>xxx pages : something else ; 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>

@@ -41,12 +41,24 @@
             <marc:subfield code="c">Neil Gaiman.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
-            <marc:subfield code="a">London :</marc:subfield>
-            <marc:subfield code="b">Review,</marc:subfield>
+            <marc:subfield code="a">London</marc:subfield>
+            <marc:subfield code="b">Review</marc:subfield>
+            <marc:subfield code="b">Review</marc:subfield>
+            <marc:subfield code="a">Oslo</marc:subfield>
+            <marc:subfield code="b">Review</marc:subfield>
             <marc:subfield code="c">2005.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">348 p.</marc:subfield>
+            <marc:subfield code="a">348 pages</marc:subfield>
+            <marc:subfield code="c">24 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">555 pages ;</marc:subfield>
+            <marc:subfield code="c">24 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">xxx pages</marc:subfield>
+            <marc:subfield code="b">something else</marc:subfield>
             <marc:subfield code="c">24 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
