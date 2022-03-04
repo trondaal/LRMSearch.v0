@@ -2011,6 +2011,7 @@
    <rdac:C10007 rdf:about="http://example.org/001452473">
       <rdamd:P30156>The pyramid</rdamd:P30156>
       <rdamd:P30011>1969</rdamd:P30011>
+      <rdamd:P30111>, 1969.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -2092,6 +2093,7 @@
    <rdac:C10007 rdf:about="http://example.org/004146915">
       <rdamd:P30156>Lord of the flies</rdamd:P30156>
       <rdamd:P30083>Faber &amp; Faber</rdamd:P30083>
+      <rdamd:P30111>: Faber &amp; Faber, 1967.</rdamd:P30111>
       <rdamd:P30011>1967</rdamd:P30011>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
@@ -2195,7 +2197,7 @@
       <rdamd:P30111>[Lachen am Zürichsee] : Coron, [1994?].</rdamd:P30111>
       <rdamd:P30083>Coron</rdamd:P30083>
       <rdamd:P30011>[1994?]</rdamd:P30011>
-      <rdamd:P30182>307, 251, 348 pages : ill. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>307, 251, 348 pages : illustrations ; 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Nobelpreis für Literatur ;</rdamd:P30106>
@@ -2214,7 +2216,7 @@
       <rdamd:P30111>London : Folio Society, 2009.</rdamd:P30111>
       <rdamd:P30083>Folio Society</rdamd:P30083>
       <rdamd:P30011>2009</rdamd:P30011>
-      <rdamd:P30182>xiii, 225 pages, [6] leaves of plates : col. ill. ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>xiii, 225 pages, [6] leaves of plates : colour illustrations ; 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -2853,7 +2855,7 @@
       <rdfs:label>ISBN0330502956 (pbk)</rdfs:label>
       <rdamd:P30156>Brodie's notes on William Golding's Lord of the flies</rdamd:P30156>
       <rdamd:P30117>Graham Handley</rdamd:P30117>
-      <rdamd:P30107>Rev. ed.</rdamd:P30107>
+      <rdamd:P30107>Rev. edition</rdamd:P30107>
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30111>London : Pan, 1990.</rdamd:P30111>
       <rdamd:P30083>Pan</rdamd:P30083>
@@ -2977,12 +2979,12 @@
       <rdfs:label>ISBN9780399529207 (hbk.)</rdfs:label>
       <rdamd:P30156>Lord of the flies</rdamd:P30156>
       <rdamd:P30117>William Golding ; introduction by E.M. Forster ; with a biographical and critical note by E.L. Epstein ; illustrated by Ben Gibson</rdamd:P30117>
-      <rdamd:P30107>1st Perigee hardcover ed., 50th anniversary ed.</rdamd:P30107>
+      <rdamd:P30107>1st Perigee hardcover edition, 50th anniversary edition</rdamd:P30107>
       <rdamd:P30088>New York</rdamd:P30088>
       <rdamd:P30111>New York : Berkley Pub. Group, 2003.</rdamd:P30111>
       <rdamd:P30083>Berkley Pub. Group</rdamd:P30083>
       <rdamd:P30011>2003</rdamd:P30011>
-      <rdamd:P30182>xii, 315 pages : ill. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>xii, 315 pages : illustrations ; 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -2999,7 +3001,7 @@
       <rdamd:P30111>London : Methuen Paperbacks, 1981, c1980.</rdamd:P30111>
       <rdamd:P30083>Methuen Paperbacks</rdamd:P30083>
       <rdamd:P30011>1981, c1980</rdamd:P30011>
-      <rdamd:P30182>60 pages : 1ill. ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>60 pages : 1 illustration ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Methuen notes</rdamd:P30106>
@@ -3381,6 +3383,7 @@
       <rdfs:label>ISBN0571151671 (pbk)</rdfs:label>
       <rdamd:P30156>Close quarters</rdamd:P30156>
       <rdamd:P30083>Faber</rdamd:P30083>
+      <rdamd:P30111>: Faber, 1987.</rdamd:P30111>
       <rdamd:P30011>1987</rdamd:P30011>
       <rdamd:P30182>281 pages.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -3395,6 +3398,7 @@
       <rdfs:label>ISBN0571152031</rdfs:label>
       <rdamd:P30156>Fire down below</rdamd:P30156>
       <rdamd:P30083>Faber</rdamd:P30083>
+      <rdamd:P30111>: Faber, 1989.</rdamd:P30111>
       <rdamd:P30011>1989</rdamd:P30011>
       <rdamd:P30182>[300]p.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -3409,6 +3413,7 @@
       <rdfs:label>ISBN0571154875 (pbk)</rdfs:label>
       <rdamd:P30156>Fire down below</rdamd:P30156>
       <rdamd:P30083>Faber</rdamd:P30083>
+      <rdamd:P30111>: Faber, 1989.</rdamd:P30111>
       <rdamd:P30011>1989</rdamd:P30011>
       <rdamd:P30182>313p.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -3448,6 +3453,7 @@
       <rdamd:P30142>a sea trilogy</rdamd:P30142>
       <rdamd:P30117>William Golding</rdamd:P30117>
       <rdamd:P30083>Faber and Faber</rdamd:P30083>
+      <rdamd:P30111>: Faber and Faber, 1991.</rdamd:P30111>
       <rdamd:P30011>1991</rdamd:P30011>
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30111>London : Faber and Faber, 1991.</rdamd:P30111>
@@ -3469,6 +3475,7 @@
       <rdamd:P30142>A sea trilogy comprising "Rites of Passage", "Close Quarters" and "Fire Down Below"</rdamd:P30142>
       <rdamd:P30107>Limited ed.</rdamd:P30107>
       <rdamd:P30083>Faber Paperbacks</rdamd:P30083>
+      <rdamd:P30111>: Faber Paperbacks, 1991.</rdamd:P30111>
       <rdamd:P30011>1991</rdamd:P30011>
       <rdamd:P30182>885p.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -3484,6 +3491,7 @@
       <rdamd:P30156>To the ends of the earth</rdamd:P30156>
       <rdamd:P30142>a sea trilogy</rdamd:P30142>
       <rdamd:P30083>Faber and Faber</rdamd:P30083>
+      <rdamd:P30111>: Faber and Faber, 1991.</rdamd:P30111>
       <rdamd:P30011>1991</rdamd:P30011>
       <rdamd:P30182>xii,753p.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -3857,7 +3865,7 @@
       <rdamd:P30111>London : Letts, 1987.</rdamd:P30111>
       <rdamd:P30083>Letts</rdamd:P30083>
       <rdamd:P30011>1987</rdamd:P30011>
-      <rdamd:P30182>79 pages : ill., 1map ; 30 cm.</rdamd:P30182>
+      <rdamd:P30182>79 pages : illustrations, 1 map ; 30 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Guide to literature</rdamd:P30106>
@@ -3891,6 +3899,7 @@
       <rdamd:P30156>Lord of the flies, William Golding</rdamd:P30156>
       <rdamd:P30117>devised by David Self</rdamd:P30117>
       <rdamd:P30083>Mary Glasgow</rdamd:P30083>
+      <rdamd:P30111>: Mary Glasgow, c1987.</rdamd:P30111>
       <rdamd:P30011>c1987</rdamd:P30011>
       <rdamd:P30182>15 pages.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -4147,7 +4156,7 @@
       <rdamd:P30111>[Stabekk] : Den norske bokklubben, 1991.</rdamd:P30111>
       <rdamd:P30083>Den norske bokklubben</rdamd:P30083>
       <rdamd:P30011>1991</rdamd:P30011>
-      <rdamd:P30182>211 sider : ill. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>211 sider : illustrasjoner ; 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -4274,7 +4283,7 @@
       <rdamd:P30111>Madrid : Alianza Editorial, D.L. 1984.</rdamd:P30111>
       <rdamd:P30083>Alianza Editorial</rdamd:P30083>
       <rdamd:P30011>D.L. 1984</rdamd:P30011>
-      <rdamd:P30182>329 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>329 páginas ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -4407,7 +4416,7 @@
       <rdamd:P30156>El dios Escorpión</rdamd:P30156>
       <rdamd:P30142>Clonc, clonc ; El enviado especial</rdamd:P30142>
       <rdamd:P30117>William Golding ; [traductora, Ernestina de Champourcin]</rdamd:P30117>
-      <rdamd:P30107>1. ed.</rdamd:P30107>
+      <rdamd:P30107>1. edition</rdamd:P30107>
       <rdamd:P30107>1ª ed. en "Área de Conocimiento: Literatura"</rdamd:P30107>
       <rdamd:P30088>Madrid</rdamd:P30088>
       <rdamd:P30111>Madrid : Alianza Editorial, 2003.</rdamd:P30111>
@@ -4723,7 +4732,7 @@
       <rdfs:label>ISBN9788445074411 (pbk.)</rdfs:label>
       <rdamd:P30156>Los herederos</rdamd:P30156>
       <rdamd:P30117>William Golding ; traducción de Luis Echávarri</rdamd:P30117>
-      <rdamd:P30107>1a ed.</rdamd:P30107>
+      <rdamd:P30107>1a edition</rdamd:P30107>
       <rdamd:P30088>Barcelona</rdamd:P30088>
       <rdamd:P30111>Barcelona : Minotauro, 2003.</rdamd:P30111>
       <rdamd:P30083>Minotauro</rdamd:P30083>
@@ -4765,7 +4774,7 @@
       <rdamd:P30111>[Esplugues de Llobregat, Barcelona] : Orbis, 1983.</rdamd:P30111>
       <rdamd:P30083>Orbis</rdamd:P30083>
       <rdamd:P30011>1983</rdamd:P30011>
-      <rdamd:P30182>329 pages ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>329 páginas ; 21 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Los Premios Nobel</rdamd:P30106>
@@ -4787,7 +4796,7 @@
       <rdamd:P30088>[Esplugas de Llobregat, Barcelona]</rdamd:P30088>
       <rdamd:P30111>[Esplugas de Llobregat, Barcelona] : Orbis, D.L. 1984.</rdamd:P30111>
       <rdamd:P30011>D.L. 1984</rdamd:P30011>
-      <rdamd:P30182>328 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>328 páginas ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Los Premios Nobel</rdamd:P30106>
@@ -5451,7 +5460,7 @@
       <rdamd:P30142>a play in three acts</rdamd:P30142>
       <rdamd:P30117>by William Golding</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
-      <rdamd:P30111>London, : Faber, 1969.</rdamd:P30111>
+      <rdamd:P30111>London : Faber, 1969.</rdamd:P30111>
       <rdamd:P30083>Faber</rdamd:P30083>
       <rdamd:P30011>1969</rdamd:P30011>
       <rdamd:P30182>1 online resource (80 pages).</rdamd:P30182>
@@ -5472,7 +5481,7 @@
       <rdamd:P30142>three short novels</rdamd:P30142>
       <rdamd:P30117>[by] William Golding</rdamd:P30117>
       <rdamd:P30088>London (3 Queen Sq., WC1N 3AU)</rdamd:P30088>
-      <rdamd:P30111>London (3 Queen Sq., WC1N 3AU), : Faber and Faber Ltd, 1971.</rdamd:P30111>
+      <rdamd:P30111>London (3 Queen Sq., WC1N 3AU) : Faber and Faber Ltd, 1971.</rdamd:P30111>
       <rdamd:P30083>Faber and Faber Ltd</rdamd:P30083>
       <rdamd:P30011>1971</rdamd:P30011>
       <rdamd:P30182>1 online resource (178 pages).</rdamd:P30182>
@@ -5648,7 +5657,7 @@
       <rdamd:P30111>New York : Free Press, 2010.</rdamd:P30111>
       <rdamd:P30083>Free Press</rdamd:P30083>
       <rdamd:P30011>2010</rdamd:P30011>
-      <rdamd:P30182>xii, 573 pages : ill. ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>xii, 573 pages : illustrations ; 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -7480,6 +7489,7 @@
       <rdfs:label>ISBN997149048X (pbk)</rdfs:label>
       <rdamd:P30156>Students' guide to Lord of the flies</rdamd:P30156>
       <rdamd:P30083>Brash</rdamd:P30083>
+      <rdamd:P30111>: Brash, 1987.</rdamd:P30111>
       <rdamd:P30011>1987</rdamd:P30011>
       <rdamd:P30182>254 pages.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>

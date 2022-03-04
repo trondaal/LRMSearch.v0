@@ -282,7 +282,7 @@
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
             <marc:subfield code="a">[Melhus]</marc:subfield>
-            <marc:subfield code="b">Lydbokforl.</marc:subfield>
+            <marc:subfield code="b">Lydbokforlaget</marc:subfield>
             <marc:subfield code="c">2005</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
@@ -3642,7 +3642,7 @@
             <marc:subfield code="c">2010.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">1 v. (large print) ;</marc:subfield>
+            <marc:subfield code="a">1 volume (large print) ;</marc:subfield>
             <marc:subfield code="c">23 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -3735,7 +3735,7 @@
             <marc:subfield code="c">2008.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">v, 96 pages :</marc:subfield>
+            <marc:subfield code="a">1 volume, 96 pages :</marc:subfield>
             <marc:subfield code="b">illustrations ;</marc:subfield>
             <marc:subfield code="c">20 cm</marc:subfield>
         </marc:datafield>
@@ -4186,7 +4186,7 @@
             <marc:subfield code="c">[1971]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">[5],466 pages ;</marc:subfield>
+            <marc:subfield code="a">[5], 466 pages ;</marc:subfield>
             <marc:subfield code="c">23 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -4465,7 +4465,8 @@
             <marc:subfield code="a">Death beyond the Nile.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
-            <marc:subfield code="b">Macmillan London,</marc:subfield>
+            <marc:subfield code="b">London</marc:subfield>
+            <marc:subfield code="b">Macmillan</marc:subfield>
             <marc:subfield code="c">1988.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">

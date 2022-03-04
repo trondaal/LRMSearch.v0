@@ -3011,6 +3011,7 @@
       <rdamd:P30156>The hive</rdamd:P30156>
       <rdamd:P30117>translated by J.M.Cohen in consultation with Arturo Barea</rdamd:P30117>
       <rdamd:P30083>Gollancz</rdamd:P30083>
+      <rdamd:P30111>: Gollancz, 1953.</rdamd:P30111>
       <rdamd:P30011>1953</rdamd:P30011>
       <rdamd:P30182>256p.,20cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -3023,6 +3024,7 @@
       <rdamd:P30156>Viaje a la Alcarria</rdamd:P30156>
       <rdamd:P30117>edited by Philip Polack</rdamd:P30117>
       <rdamd:P30083>Harrap</rdamd:P30083>
+      <rdamd:P30111>: Harrap, 1961.</rdamd:P30111>
       <rdamd:P30011>1961</rdamd:P30011>
       <rdamd:P30182>272p.,ill.,19cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -7194,6 +7196,7 @@
       <rdfs:label>ISBN029903254X</rdfs:label>
       <rdamd:P30156>Journey to the Alcarria</rdamd:P30156>
       <rdamd:P30083>University of Wisconsin Press</rdamd:P30083>
+      <rdamd:P30111>: University of Wisconsin Press, c1964.</rdamd:P30111>
       <rdamd:P30011>c1964</rdamd:P30011>
       <rdamd:P30182>xix,139p., [8]p. of plates.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -13898,7 +13901,7 @@
       <rdamd:P30156>Los cuentos de "El bonito crimen del carabinero" de Camilo José Cela</rdamd:P30156>
       <rdamd:P30142>recuento del cincuentenario (1947-1997)</rdamd:P30142>
       <rdamd:P30088>[Iria Flavia]</rdamd:P30088>
-      <rdamd:P30111>[Iria Flavia] : Fundación Camilo José Cela Marqués de Iria Flavia , 1998.</rdamd:P30111>
+      <rdamd:P30111>[Iria Flavia] : Fundación Camilo José Cela Marqués de Iria Flavia, 1998.</rdamd:P30111>
       <rdamd:P30083>Fundación Camilo José Cela Marqués de Iria Flavia</rdamd:P30083>
       <rdamd:P30011>1998</rdamd:P30011>
       <rdamd:P30182>128 p. ; 18 cm.</rdamd:P30182>
@@ -13915,7 +13918,7 @@
       <rdamd:P30142>recuento del cincuentenario (1948-1998)</rdamd:P30142>
       <rdamd:P30117>Fernando Huarte Morton</rdamd:P30117>
       <rdamd:P30088>Iria Flavia</rdamd:P30088>
-      <rdamd:P30111>Iria Flavia : Fundación Camilo José Cela, Marques de Iria Flavia , 2000.</rdamd:P30111>
+      <rdamd:P30111>Iria Flavia : Fundación Camilo José Cela, Marques de Iria Flavia, 2000.</rdamd:P30111>
       <rdamd:P30083>Fundación Camilo José Cela, Marques de Iria Flavia</rdamd:P30083>
       <rdamd:P30011>2000</rdamd:P30011>
       <rdamd:P30182>203 p. ; 18 cm.</rdamd:P30182>

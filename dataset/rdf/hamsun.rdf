@@ -10410,9 +10410,11 @@
       <rdamd:P30156>Børn av Tiden av Knut Hamsun og Buddenbrooks av Thomas Mann</rdamd:P30156>
       <rdamd:P30117>Olivier Gouchet</rdamd:P30117>
       <rdamd:P30011>1995</rdamd:P30011>
+      <rdamd:P30111>, 1995.</rdamd:P30111>
       <rdamd:P30182>S. [55]-68.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30050>Hamsun i Paris, Hamarøy : Hamsun-selskapet, 1995.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/8450149068552765730000/nor/1020"/>
@@ -10422,9 +10424,11 @@
       <rdamd:P30156>Une révolution de rue</rdamd:P30156>
       <rdamd:P30117>Knut Hamsun</rdamd:P30117>
       <rdamd:P30011>1994</rdamd:P30011>
+      <rdamd:P30111>, 1994.</rdamd:P30111>
       <rdamd:P30182>S. [207]-213.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30050>Présence de Knut Hamsun, Nancy : Presses universitaires de Nancy, cop. 1994.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/59083692/engaderevolution/fre/1020"/>
@@ -10433,9 +10437,11 @@
       <rdamd:P30156>Un peu de Paris</rdamd:P30156>
       <rdamd:P30117>Knut Hamsun</rdamd:P30117>
       <rdamd:P30011>1994</rdamd:P30011>
+      <rdamd:P30111>, 1994.</rdamd:P30111>
       <rdamd:P30182>S. [214]-221.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30050>Présence de Knut Hamsun, Nancy : Presses universitaires de Nancy, cop. 1994.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/59083692/lidtparis/fre/1020"/>
@@ -10445,9 +10451,11 @@
       <rdamd:P30142>prologue</rdamd:P30142>
       <rdamd:P30117>Régis Boyer</rdamd:P30117>
       <rdamd:P30011>2002</rdamd:P30011>
+      <rdamd:P30111>, 2002.</rdamd:P30111>
       <rdamd:P30182>S. 11-[89].</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30050>Knut Hamsun, Lausanne : L'Age d'homme, 2002.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q15062320/fre/1020/boyerregis"/>
@@ -10486,9 +10494,11 @@
       <rdamd:P30156>Telegrafisten</rdamd:P30156>
       <rdamd:P30117>en film av Erik Gustavson ; basert på Knut Hamsuns roman "Sværmere"</rdamd:P30117>
       <rdamd:P30011>2009</rdamd:P30011>
+      <rdamd:P30111>, 2009.</rdamd:P30111>
       <rdamd:P30182>1 videoplate (DVD-video) (1 t, 42 min) : lyd, kol.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1008</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
+      <rdamd:P30050>Hamsun samleboks, Oslo : Nordisk film, 2009.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
       <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0108309/mul/1023"/>
@@ -10497,9 +10507,11 @@
       <rdamd:P30156>Sult</rdamd:P30156>
       <rdamd:P30117>en film af Henning Carlsen ; efter Knut Hamsuns bestseller</rdamd:P30117>
       <rdamd:P30011>2009</rdamd:P30011>
+      <rdamd:P30111>, 2009.</rdamd:P30111>
       <rdamd:P30182>1 videoplate (DVD-video) (1 t, 51 min) : lyd, s./h.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1008</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
+      <rdamd:P30050>Hamsun samleboks, Oslo : Nordisk film, 2009.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
       <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0061042/mul/1023"/>
@@ -10508,9 +10520,11 @@
       <rdamd:P30156>Landstrykere</rdamd:P30156>
       <rdamd:P30117>regi: Ola Solum ; manuskript: Lars Saabye Christensen, Hans Lindgren og Ola Solum</rdamd:P30117>
       <rdamd:P30011>2009</rdamd:P30011>
+      <rdamd:P30111>, 2009.</rdamd:P30111>
       <rdamd:P30182>1 videoplate (DVD-video) (2 t, 18 min) : lyd, kol.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1008</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
+      <rdamd:P30050>Hamsun samleboks, Oslo : Nordisk film, 2009.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
       <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0097709/mul/1023"/>
@@ -10519,9 +10533,11 @@
       <rdamd:P30156>Markens grøde</rdamd:P30156>
       <rdamd:P30117>regi: Gunnar Sommerfeldt</rdamd:P30117>
       <rdamd:P30011>2009</rdamd:P30011>
+      <rdamd:P30111>, 2009.</rdamd:P30111>
       <rdamd:P30182>1 videoplate (DVD-video) (1 t, 29 min) : stum, s./h.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1008</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
+      <rdamd:P30050>Hamsun samleboks, Oslo : Nordisk film, 2009.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
       <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0011440/mul/1023"/>
@@ -10530,9 +10546,11 @@
       <rdamd:P30156>Pan</rdamd:P30156>
       <rdamd:P30117>regi: Henning Carlsen</rdamd:P30117>
       <rdamd:P30011>2009</rdamd:P30011>
+      <rdamd:P30111>, 2009.</rdamd:P30111>
       <rdamd:P30182>1 videoplate (DVD-video) (1 t, 55 min) : lyd, kol.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1008</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
+      <rdamd:P30050>Hamsun samleboks, Oslo : Nordisk film, 2009.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
       <rdamo:P30139 rdf:resource="https://www.imdb.com/title/tt0114081/mul/1023"/>
@@ -10557,6 +10575,7 @@
       <rdamd:P30156>Segelfoss</rdamd:P30156>
       <rdamd:P30117>Knut Hamsun ; en fri dramatisering efter "Börn av tiden" av Carl Fredrik Engelstad</rdamd:P30117>
       <rdamd:P30083>Riksteatret</rdamd:P30083>
+      <rdamd:P30111>: Riksteatret, 1984.</rdamd:P30111>
       <rdamd:P30011>1984</rdamd:P30011>
       <rdamd:P30182>151 bl.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -10569,6 +10588,7 @@
       <rdamd:P30156>Segelfoss</rdamd:P30156>
       <rdamd:P30117>Knut Hamsun ; en fri dramatisering efter "Börn av tiden" av Carl Fredrik Engelstad</rdamd:P30117>
       <rdamd:P30083>Riksteatret</rdamd:P30083>
+      <rdamd:P30111>: Riksteatret, 1984.</rdamd:P30111>
       <rdamd:P30011>1984</rdamd:P30011>
       <rdamd:P30182>Bl. 81-151.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -10649,6 +10669,7 @@
       <rdamd:P30182>X, 311 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30050>Norges nasjonallitteratur, Oslo : Gyldendal, 1967, 17.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/207944253/nor/1020"/>
@@ -11656,6 +11677,7 @@
       <rdamd:P30182>278 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30050>Markens Grøde, Kristiania : Gyldendal, 1917, 1.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/nor/1020"/>
@@ -11670,6 +11692,7 @@
       <rdamd:P30182>229 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30050>Markens Grøde, Kristiania : Gyldendal, 1917, 2.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/nor/1020"/>
@@ -16715,6 +16738,7 @@
       <rdamd:P30182>286 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30050>Søyler i Norges litteratur, [Oslo] : Aschehoug, cop. 1997, 11.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/294124367/nor/1020"/>
@@ -17475,6 +17499,7 @@
       <rdamd:P30182>160 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30050>Norges nasjonallitteratur, [Oslo] : Gyldendal, 1996, 15.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/220443771/nor/1020/gundersendag"/>

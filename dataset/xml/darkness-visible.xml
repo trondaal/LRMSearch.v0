@@ -191,7 +191,7 @@
             <marc:subfield code="c">2001.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
-            <marc:subfield code="a">85 p ;</marc:subfield>
+            <marc:subfield code="a">85 pages ;</marc:subfield>
             <marc:subfield code="c">20 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -276,7 +276,7 @@
             <marc:subfield code="c">William Styron.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="250" ind1=" " ind2=" ">
-            <marc:subfield code="a">1st ed.</marc:subfield>
+            <marc:subfield code="a">1st edition</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
             <marc:subfield code="a">New York :</marc:subfield>
@@ -837,7 +837,7 @@
             <marc:subfield code="b">A revelation and interpretation of Freemasonry</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="250" ind1=" " ind2=" ">
-            <marc:subfield code="a">[10th ed.]</marc:subfield>
+            <marc:subfield code="a">[10th edition]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
             <marc:subfield code="a">London :</marc:subfield>
@@ -924,7 +924,7 @@
             <marc:subfield code="c">Walton Hannah</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="250" ind1=" " ind2=" ">
-            <marc:subfield code="a">[12th ed.]</marc:subfield>
+            <marc:subfield code="a">[12th edition]</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
             <marc:subfield code="a">London :</marc:subfield>
@@ -933,7 +933,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">231 pages :</marc:subfield>
-            <marc:subfield code="b">ill. ;</marc:subfield>
+            <marc:subfield code="b">illustrations ;</marc:subfield>
             <marc:subfield code="c">22 cm</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1115,7 +1115,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">viii, 232 pages :</marc:subfield>
-            <marc:subfield code="b">ill. ;</marc:subfield>
+            <marc:subfield code="b">illustrations ;</marc:subfield>
             <marc:subfield code="c">22 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1179,7 +1179,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">228 pages, [1] leaf of plates :</marc:subfield>
-            <marc:subfield code="b">ill. ;</marc:subfield>
+            <marc:subfield code="b">illustrations ;</marc:subfield>
             <marc:subfield code="c">22 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1240,7 +1240,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">xv, 280 pages :</marc:subfield>
-            <marc:subfield code="b">ill. ;</marc:subfield>
+            <marc:subfield code="b">illustrations ;</marc:subfield>
             <marc:subfield code="c">21 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1263,7 +1263,7 @@
             <marc:subfield code="0">https://schema.nb.no/Bibliographic/Values/V1000</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="500" ind1=" " ind2=" ">
-            <marc:subfield code="a">&quot;This ed. has been re-typeset using the text of the 1998 ed. (17th impression) published by The Saint Austin Press, London.&quot; --T.p.  verso.</marc:subfield>
+            <marc:subfield code="a">&quot;This edition has been re-typeset using the text of the 1998 edition (17th impression) published by The Saint Austin Press, London.&quot; --T.p.  verso.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="504" ind1=" " ind2=" ">
             <marc:subfield code="a">Bibliography (p. [272]-280).</marc:subfield>
@@ -1341,7 +1341,7 @@
             <marc:subfield code="c">by Walton Hannah.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="250" ind1=" " ind2=" ">
-            <marc:subfield code="a">7th (reset) ed.</marc:subfield>
+            <marc:subfield code="a">7th (reset) edition</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="264" ind1=" " ind2="1">
             <marc:subfield code="a">London :</marc:subfield>
@@ -1818,10 +1818,10 @@
             <marc:subfield code="c">[by W.W.T. Hannah].</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="250" ind1=" " ind2=" ">
-            <marc:subfield code="a">4th, revised ed.</marc:subfield>
+            <marc:subfield code="a">4th, revised edition</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
-            <marc:subfield code="a">Lond.,</marc:subfield>
+            <marc:subfield code="a">London,</marc:subfield>
             <marc:subfield code="c">1964.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -1949,7 +1949,7 @@
             <marc:subfield code="a">Darkness visible, a farce.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
-            <marc:subfield code="a">Lond.</marc:subfield>
+            <marc:subfield code="a">London</marc:subfield>
             <marc:subfield code="c">1811</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
@@ -2039,7 +2039,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">212 pages :</marc:subfield>
-            <marc:subfield code="b">ill. ;</marc:subfield>
+            <marc:subfield code="b">illustrations ;</marc:subfield>
             <marc:subfield code="c">20 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -2265,7 +2265,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">212 pages :</marc:subfield>
-            <marc:subfield code="b">ill. ;</marc:subfield>
+            <marc:subfield code="b">illustrations ;</marc:subfield>
             <marc:subfield code="c">20 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">
@@ -2398,7 +2398,7 @@
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">1 v. (unpaged) :</marc:subfield>
-            <marc:subfield code="b">chiefly ill. ;</marc:subfield>
+            <marc:subfield code="b">chiefly illustrations ;</marc:subfield>
             <marc:subfield code="c">26 cm.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="336" ind1=" " ind2=" ">

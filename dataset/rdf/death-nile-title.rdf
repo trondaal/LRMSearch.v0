@@ -875,7 +875,9 @@
       <rdaxd:P00018>isbn-0333480872</rdaxd:P00018>
       <rdfs:label>ISBN0333480872</rdfs:label>
       <rdamd:P30156>Death beyond the Nile</rdamd:P30156>
-      <rdamd:P30083>Macmillan London</rdamd:P30083>
+      <rdamd:P30083>London</rdamd:P30083>
+      <rdamd:P30083>Macmillan</rdamd:P30083>
+      <rdamd:P30111>: London : Macmillan, 1988.</rdamd:P30111>
       <rdamd:P30011>1988</rdamd:P30011>
       <rdamd:P30182>[224] pages.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
@@ -950,7 +952,7 @@
       <rdamd:P30111>Leicester : F.A. Thorpe, [1971].</rdamd:P30111>
       <rdamd:P30083>F.A. Thorpe</rdamd:P30083>
       <rdamd:P30011>[1971]</rdamd:P30011>
-      <rdamd:P30182>[5],466 pages ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>[5], 466 pages ; 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Ulverscroft large print series. mystery</rdamd:P30106>
@@ -971,7 +973,7 @@
       <rdamd:P30111>Leicester : Ulverscroft, 2010.</rdamd:P30111>
       <rdamd:P30083>Ulverscroft</rdamd:P30083>
       <rdamd:P30011>2010</rdamd:P30011>
-      <rdamd:P30182>1 v. (large print) ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>1 volume (large print) ; 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -1022,8 +1024,8 @@
       <rdamd:P30156>Mord på Nilen</rdamd:P30156>
       <rdamd:P30117>Agatha Christie ; oversatt av Hans Brückenberg</rdamd:P30117>
       <rdamd:P30088>[Melhus]</rdamd:P30088>
-      <rdamd:P30111>[Melhus] : Lydbokforl., 2005.</rdamd:P30111>
-      <rdamd:P30083>Lydbokforl</rdamd:P30083>
+      <rdamd:P30111>[Melhus] : Lydbokforlaget, 2005.</rdamd:P30111>
+      <rdamd:P30083>Lydbokforlaget</rdamd:P30083>
       <rdamd:P30011>2005</rdamd:P30011>
       <rdamd:P30182>7 plater (CD) (8 t, 54 min) : digital ; 12 cm, i eske.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
@@ -1523,7 +1525,7 @@
       <rdamd:P30011>2008</rdamd:P30011>
       <rdamd:P30111>Harlow : Pearson Education, 2008.</rdamd:P30111>
       <rdamd:P30182>96 sider : illustrasjoner.</rdamd:P30182>
-      <rdamd:P30182>v, 96 pages : illustrations ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>1 volume, 96 pages : illustrations ; 20 cm.</rdamd:P30182>
       <rdamd:P30106>Penguin readers, Level 5</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781907804717">

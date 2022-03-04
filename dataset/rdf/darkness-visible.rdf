@@ -537,9 +537,9 @@
       <rdamd:P30156>Light invisible</rdamd:P30156>
       <rdamd:P30142>the freemason's answer to Darkness visible</rdamd:P30142>
       <rdamd:P30117>[by W.W.T. Hannah]</rdamd:P30117>
-      <rdamd:P30107>4th, revised ed.</rdamd:P30107>
-      <rdamd:P30088>Lond</rdamd:P30088>
-      <rdamd:P30111>Lond., 1964.</rdamd:P30111>
+      <rdamd:P30107>4th, revised edition</rdamd:P30107>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London, 1964.</rdamd:P30111>
       <rdamd:P30011>1964</rdamd:P30011>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
@@ -549,8 +549,8 @@
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/013929004">
       <rdamd:P30156>Darkness visible, a farce</rdamd:P30156>
-      <rdamd:P30088>Lond</rdamd:P30088>
-      <rdamd:P30111>Lond., 1811.</rdamd:P30111>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London, 1811.</rdamd:P30111>
       <rdamd:P30011>1811</rdamd:P30011>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
@@ -566,7 +566,7 @@
       <rdamd:P30111>London : Britons, 1952.</rdamd:P30111>
       <rdamd:P30083>Britons</rdamd:P30083>
       <rdamd:P30011>1952</rdamd:P30011>
-      <rdamd:P30182>228 pages, [1] leaf of plates : ill. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>228 pages, [1] leaf of plates : illustrations ; 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -577,7 +577,7 @@
       <rdamd:P30156>Darkness visible</rdamd:P30156>
       <rdamd:P30142>a memoir of madness</rdamd:P30142>
       <rdamd:P30117>William Styron</rdamd:P30117>
-      <rdamd:P30107>1st ed.</rdamd:P30107>
+      <rdamd:P30107>1st edition</rdamd:P30107>
       <rdamd:P30088>New York</rdamd:P30088>
       <rdamd:P30111>New York : Random House, c1990.</rdamd:P30111>
       <rdamd:P30083>Random House</rdamd:P30083>
@@ -599,6 +599,7 @@
       <rdamd:P30182>1 online resource.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
+      <rdamd:P30050>English Prose Drama Full-Text Database.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/29524003/darknessvisible/eng/1020"/>
@@ -648,7 +649,7 @@
       <rdamd:P30111>London : Vintage, 2001.</rdamd:P30111>
       <rdamd:P30083>Vintage</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
-      <rdamd:P30182>85 p ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>85 pages ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -883,7 +884,7 @@
       <rdamd:P30111>London : Saqi, 2008.</rdamd:P30111>
       <rdamd:P30083>Saqi</rdamd:P30083>
       <rdamd:P30011>2008</rdamd:P30011>
-      <rdamd:P30182>1 v. (unpaged) : chiefly ill. ; 26 cm.</rdamd:P30182>
+      <rdamd:P30182>1 v. (unpaged) : chiefly illustrations ; 26 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -922,7 +923,7 @@
       <rdamd:P30111>London : Saint Austin Press, 1998.</rdamd:P30111>
       <rdamd:P30083>Saint Austin Press</rdamd:P30083>
       <rdamd:P30011>1998</rdamd:P30011>
-      <rdamd:P30182>viii, 232 pages : ill. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>viii, 232 pages : illustrations ; 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -1053,7 +1054,7 @@
       <rdamd:P30111>London : Wizard, 2007.</rdamd:P30111>
       <rdamd:P30083>Wizard</rdamd:P30083>
       <rdamd:P30011>2007</rdamd:P30011>
-      <rdamd:P30182>212 pages : ill. ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>212 pages : illustrations ; 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -1071,7 +1072,7 @@
       <rdamd:P30111>London : Baronius, 2008.</rdamd:P30111>
       <rdamd:P30083>Baronius</rdamd:P30083>
       <rdamd:P30011>2008</rdamd:P30011>
-      <rdamd:P30182>xv, 280 pages : ill. ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>xv, 280 pages : illustrations ; 21 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>

@@ -13067,6 +13067,7 @@
       <rdamd:P30142>komedie i 2 akter</rdamd:P30142>
       <rdamd:P30117>av Sir Arthur Conan Doyle og William Gillette ; oversatt av Nils Nordberg</rdamd:P30117>
       <rdamd:P30083>[s.n.]</rdamd:P30083>
+      <rdamd:P30111>: [s.n.].</rdamd:P30111>
       <rdamd:P30182>171 bl.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
@@ -13089,6 +13090,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920605580102201">
       <rdamd:P30156>Desert Drama: Being The Tragedy Of The ""Korosko""</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13099,6 +13101,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920605704302201">
       <rdamd:P30156>Baskervillen koira</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13108,6 +13111,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920606918902201">
       <rdamd:P30156>Tajemnica Baskerville'ów dziwne przygody Sherlocka Holmes</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13117,6 +13121,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920607999002201">
       <rdamd:P30156>adventures of Sherlock Holmes</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13126,6 +13131,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608038302201">
       <rdamd:P30156>Parasite</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13135,6 +13141,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608096302201">
       <rdamd:P30156>Hound of the Baskervilles</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13144,6 +13151,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608104802201">
       <rdamd:P30156>Disappearance Of Lady Frances Carfax</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13153,6 +13161,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608114102201">
       <rdamd:P30156>adventures of Gerard</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13162,6 +13171,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608155302201">
       <rdamd:P30156>Uncle Bernac A Memory of the Empire</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13171,6 +13181,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608165702201">
       <rdamd:P30156>Tragedy of The Korosko</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13180,6 +13191,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608180002201">
       <rdamd:P30156>Exploits Of Brigadier Gerard</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13189,6 +13201,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608207302201">
       <rdamd:P30156>Doings Of Raffles Haw</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13198,6 +13211,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608215902201">
       <rdamd:P30156>Valley of Fear</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13207,6 +13221,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608219902201">
       <rdamd:P30156>His Last Bow</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13216,6 +13231,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608222402201">
       <rdamd:P30156>Valley of Fear</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13225,6 +13241,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608252402201">
       <rdamd:P30156>Adventure of the Cardboard Box</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13234,6 +13251,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608252602201">
       <rdamd:P30156>Adventure of the Devil's Foot</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13243,6 +13261,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608263202201">
       <rdamd:P30156>Sign of the Four</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13252,6 +13271,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608263302201">
       <rdamd:P30156>Sign of the Four</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13261,6 +13281,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608327202201">
       <rdamd:P30156>adventures of Sherlock Holmes</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13270,6 +13291,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608351302201">
       <rdamd:P30156>Adventure of the Red Circle</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13279,6 +13301,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608355902201">
       <rdamd:P30156>Adventure of the Bruce-Partington Plans</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13288,6 +13311,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608469302201">
       <rdamd:P30156>Sir Nigel</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13297,6 +13321,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608537202201">
       <rdamd:P30156>Crime of the Congo</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13306,6 +13331,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608565702201">
       <rdamd:P30156>Study In Scarlet</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13315,6 +13341,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608576702201">
       <rdamd:P30156>Rodney Stone</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13324,6 +13351,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608592802201">
       <rdamd:P30156>Hound of the Baskervilles</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13333,6 +13361,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608617802201">
       <rdamd:P30156>Adventure of the Bruce-Partington Plans</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13342,6 +13371,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608618002201">
       <rdamd:P30156>Adventure of the Cardboard Box</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13351,6 +13381,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608626402201">
       <rdamd:P30156>Adventure of the Devil's Foot</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13360,6 +13391,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608634502201">
       <rdamd:P30156>Hound of the Baskervilles</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13369,6 +13401,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608635802201">
       <rdamd:P30156>Sign of the Four</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13378,6 +13411,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608645502201">
       <rdamd:P30156>Sign of the Four</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13387,6 +13421,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608646602201">
       <rdamd:P30156>Disappearance Of Lady Frances Carfax</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13396,6 +13431,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608653802201">
       <rdamd:P30156>Through the Magic Door</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13405,6 +13441,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608658002201">
       <rdamd:P30156>adventures of Sherlock Holmes</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13414,6 +13451,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608667302201">
       <rdamd:P30156>adventures of Sherlock Holmes</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13423,6 +13461,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608668102201">
       <rdamd:P30156>adventures of Gerard</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13432,6 +13471,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608670302201">
       <rdamd:P30156>lost world</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13441,6 +13481,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608679802201">
       <rdamd:P30156>White Company</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13450,6 +13491,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608690202201">
       <rdamd:P30156>Round the Red Lamp</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13459,6 +13501,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608765702201">
       <rdamd:P30156>Adventure of the Red Circle</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13468,6 +13511,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608770802201">
       <rdamd:P30156>Hound of the Baskervilles</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13477,6 +13521,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608771502201">
       <rdamd:P30156>Sir Nigel</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13486,6 +13531,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608774202201">
       <rdamd:P30156>Rodney Stone</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13495,6 +13541,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608779602201">
       <rdamd:P30156>Through the Magic Door</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13504,6 +13551,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608786702201">
       <rdamd:P30156>His Last Bow</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13513,6 +13561,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608794402201">
       <rdamd:P30156>Parasite</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -13522,6 +13571,7 @@
    <rdac:C10007 rdf:about="http://example.org/999920608794802201">
       <rdamd:P30156>Memoirs of Sherlock Holmes</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -15792,6 +15842,7 @@
       <rdfs:label>ISBN0-14-043771-1</rdfs:label>
       <rdamd:P30156>Noble Bachelor (Penguin Classics)</rdamd:P30156>
       <rdamd:P30083>Penguin</rdamd:P30083>
+      <rdamd:P30111>: Penguin.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -15808,6 +15859,7 @@
       <rdamd:P30156>The hound of the Baskervilles</rdamd:P30156>
       <rdamd:P30117>Arthur Conan Doyle ; edited with an introduction and notes by Christopher Frayling</rdamd:P30117>
       <rdamd:P30083>Penguin</rdamd:P30083>
+      <rdamd:P30111>: Penguin.</rdamd:P30111>
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30111>London : Penguin, 2001.</rdamd:P30111>
       <rdamd:P30011>2001</rdamd:P30011>
@@ -15830,6 +15882,7 @@
       <rdamd:P30117>Arthur Conan Doyle</rdamd:P30117>
       <rdamd:P30107>New ed.</rdamd:P30107>
       <rdamd:P30083>Penquin</rdamd:P30083>
+      <rdamd:P30111>: Penquin.</rdamd:P30111>
       <rdamd:P30088>London</rdamd:P30088>
       <rdamd:P30111>London : Penguin, 2001.</rdamd:P30111>
       <rdamd:P30083>Penguin</rdamd:P30083>
@@ -17913,6 +17966,7 @@
       <rdfs:label>ISBN0-585-00794-2</rdfs:label>
       <rdamd:P30156>Memoirs Of Sherlock Holmes</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -17925,6 +17979,7 @@
       <rdfs:label>ISBN0-585-01270-9</rdfs:label>
       <rdamd:P30156>The Adventures Of Gerard</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -17937,6 +17992,7 @@
       <rdfs:label>ISBN0-585-01304-7</rdfs:label>
       <rdamd:P30156>The Adventures Of Sherlock Holmes</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -17949,6 +18005,7 @@
       <rdfs:label>ISBN0-585-01571-6</rdfs:label>
       <rdamd:P30156>A Study In Scarlet</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -17961,6 +18018,7 @@
       <rdfs:label>ISBN0-585-01770-0</rdfs:label>
       <rdamd:P30156>The Return Of Sherlock Holmes</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -17983,6 +18041,7 @@
       <rdamd:P30156>The Case Book Of Sherlock Holmes</rdamd:P30156>
       <rdamd:P30117>by Arthur Conan Doyle</rdamd:P30117>
       <rdamd:P30083>Alex Catalogue ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Alex Catalogue ; NetLibrary.</rdamd:P30111>
       <rdamd:P30088>Raleigh, N.C</rdamd:P30088>
       <rdamd:P30111>Raleigh, N.C. : Alex Catalogue, [199-?].</rdamd:P30111>
       <rdamd:P30083>Alex Catalogue</rdamd:P30083>
@@ -18004,6 +18063,7 @@
       <rdfs:label>ISBN0-585-09944-8</rdfs:label>
       <rdamd:P30156>The Hound Of The Baskervilles</rdamd:P30156>
       <rdamd:P30083>Alex Catalogue ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Alex Catalogue ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18016,6 +18076,7 @@
       <rdfs:label>ISBN0-585-09945-6</rdfs:label>
       <rdamd:P30156>Sign Of Four</rdamd:P30156>
       <rdamd:P30083>Alex Catalogue ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Alex Catalogue ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18028,6 +18089,7 @@
       <rdfs:label>ISBN0-585-09946-4</rdfs:label>
       <rdamd:P30156>Through The Magic Door</rdamd:P30156>
       <rdamd:P30083>Alex Catalogue ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Alex Catalogue ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18040,6 +18102,7 @@
       <rdfs:label>ISBN0-585-09947-2</rdfs:label>
       <rdamd:P30156>Valley Of Fear</rdamd:P30156>
       <rdamd:P30083>Alex Catalogue ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Alex Catalogue ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18052,6 +18115,7 @@
       <rdfs:label>ISBN0-585-09948-0</rdfs:label>
       <rdamd:P30156>His Last Bow</rdamd:P30156>
       <rdamd:P30083>Alex Catalogue ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Alex Catalogue ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18064,6 +18128,7 @@
       <rdfs:label>ISBN0-585-10400-X</rdfs:label>
       <rdamd:P30156>The Poison Belt</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18076,6 +18141,7 @@
       <rdfs:label>ISBN0-585-10408-5</rdfs:label>
       <rdamd:P30156>The Stark Munro Letters</rdamd:P30156>
       <rdamd:P30083>Project Gutenberg ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: Project Gutenberg ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18088,6 +18154,7 @@
       <rdfs:label>ISBN0-585-21576-6</rdfs:label>
       <rdamd:P30156>Beyond The City</rdamd:P30156>
       <rdamd:P30083>University of Virginia Library ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: University of Virginia Library ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18100,6 +18167,7 @@
       <rdfs:label>ISBN0-585-21578-2</rdfs:label>
       <rdamd:P30156>Parasite</rdamd:P30156>
       <rdamd:P30083>University of Virginia Library ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: University of Virginia Library ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18112,6 +18180,7 @@
       <rdfs:label>ISBN0-585-21579-0</rdfs:label>
       <rdamd:P30156>White Company</rdamd:P30156>
       <rdamd:P30083>University of Virginia Library ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: University of Virginia Library ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18124,6 +18193,7 @@
       <rdfs:label>ISBN0-585-22226-6</rdfs:label>
       <rdamd:P30156>Round The Red Lamp</rdamd:P30156>
       <rdamd:P30083>University of Virginia Library ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: University of Virginia Library ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18136,6 +18206,7 @@
       <rdfs:label>ISBN0-585-22227-4</rdfs:label>
       <rdamd:P30156>Lost World</rdamd:P30156>
       <rdamd:P30083>University of Virginia Library ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: University of Virginia Library ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -18148,6 +18219,7 @@
       <rdfs:label>ISBN0-585-23355-1</rdfs:label>
       <rdamd:P30156>Adventure Of Silver Blaze</rdamd:P30156>
       <rdamd:P30083>University of Virginia Library ; NetLibrary</rdamd:P30083>
+      <rdamd:P30111>: University of Virginia Library ; NetLibrary.</rdamd:P30111>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -19833,6 +19905,7 @@
       <rdamd:P30083>Chancellor Press</rdamd:P30083>
       <rdamd:P30011>[1991], c1987</rdamd:P30011>
       <rdamd:P30083>Chancellor</rdamd:P30083>
+      <rdamd:P30111>: Chancellor, 1987.</rdamd:P30111>
       <rdamd:P30011>1987</rdamd:P30011>
       <rdamd:P30182>496p. ; 22cm.</rdamd:P30182>
       <rdamd:P30182>496p.</rdamd:P30182>
@@ -23854,7 +23927,7 @@
       <rdamd:P30156>Aventuras de Sherlock Holmes</rdamd:P30156>
       <rdamd:P30117>Arthur Conan Doyle</rdamd:P30117>
       <rdamd:P30088>Madrid</rdamd:P30088>
-      <rdamd:P30111>Madrid : Club Internacional del Libro, División Coleccionables , [1997].</rdamd:P30111>
+      <rdamd:P30111>Madrid : Club Internacional del Libro, División Coleccionables, [1997].</rdamd:P30111>
       <rdamd:P30083>Club Internacional del Libro, División Coleccionables</rdamd:P30083>
       <rdamd:P30011>[1997]</rdamd:P30011>
       <rdamd:P30182>185 p. ; 19 cm.</rdamd:P30182>
@@ -44652,7 +44725,7 @@
       <rdamd:P30156>Las aventuras de Sherlock Holmes</rdamd:P30156>
       <rdamd:P30117>Arthur Conan Doyle</rdamd:P30117>
       <rdamd:P30088>Arganda del Rey, Madrid</rdamd:P30088>
-      <rdamd:P30111>Arganda del Rey, Madrid : Edimat Libros , D.L. 2014.</rdamd:P30111>
+      <rdamd:P30111>Arganda del Rey, Madrid : Edimat Libros, D.L. 2014.</rdamd:P30111>
       <rdamd:P30083>Edimat Libros</rdamd:P30083>
       <rdamd:P30011>D.L. 2014</rdamd:P30011>
       <rdamd:P30182>172 p. ; 20 cm.</rdamd:P30182>
