@@ -335,7 +335,10 @@
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30107" label="has edition statement"/>
             </datafield>
             <datafield tag="260">
+                <subfield code="x" type="http://rdaregistry.info/Elements/m/datatype/P30111" select="frbrizer:publication(..)" label="has publication statement"/>
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30111" select="frbrizer:publication(..)" label="has publication statement"/>
+                <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30111" select="frbrizer:publication(..)" label="has publication statement"/>
+                <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30111" select="frbrizer:publication(..)" label="has publication statement"/>
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30088" select="frbrizer:trim(.)" label="has place of publication"/>
                 <subfield code="b" type="http://rdaregistry.info/Elements/m/datatype/P30083" select="frbrizer:trim(.)" label="has publisher"/>
                 <subfield code="c" type="http://rdaregistry.info/Elements/m/datatype/P30011" select="frbrizer:trim(.)" label="has date of publication"/>
@@ -392,6 +395,9 @@
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30106" select="frbrizer:trim(.)" label="has series statement"/>
                 <subfield code="v" type="http://rdaregistry.info/Elements/m/datatype/P30165" label="has numbering of serials"/>
                 <!--<subfield code="l" type="http://marc21rdf.info/elements/marc/M49000l"/>-->
+            </datafield>
+            <datafield tag="773">
+                <subfield code="t" condition=". ne $record/*:datafield[@tag='245']/*:subfield[@code='a']" type="http://rdaregistry.info/Elements/m/datatype/P30050" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code='d']), frbrizer:trim(../*:subfield[@code='g'])), ', ') || '.'" label="has note on issue, part..."/>
             </datafield>
         </attributes>
         <key order="2">
@@ -785,13 +791,13 @@
             <xsl:param name="datafield" as="element()"/>
             <xsl:variable name="extent">
                 <xsl:if test="$datafield/*:subfield[@code='a']">
-                    <xsl:value-of select="replace($datafield/*:subfield[@code='a'], '[ ;:]+$', '')"/>
+                    <xsl:value-of select="replace($datafield/*:subfield[@code='a'], '[\s;:]+$', '')"/>
                 </xsl:if>
                 <xsl:if test="$datafield/*:subfield[@code='b']">
-                    <xsl:value-of select="' : ' || replace($datafield/*:subfield[@code='b'], '[ ;:]+$', '')"/>
+                    <xsl:value-of select="' : ' || replace($datafield/*:subfield[@code='b'], '[\s;:]+$', '')"/>
                 </xsl:if>
                 <xsl:if test="$datafield/*:subfield[@code='c']">
-                    <xsl:value-of select="' ; ' || replace($datafield/*:subfield[@code='c'], '[ ;:]+$', '')"/>
+                    <xsl:value-of select="' ; ' || replace($datafield/*:subfield[@code='c'], '[\s;:]+$', '')"/>
                 </xsl:if>
             </xsl:variable>
             <xsl:value-of select="replace(string-join($extent, ''), '[ \.]+$', '') || '.'"></xsl:value-of>
@@ -803,13 +809,13 @@
                 <xsl:for-each-group select="$datafield/*:subfield"  group-starting-with="*:subfield[@code = 'a']">
                     <xsl:variable name="part" as="xs:string*">
                         <xsl:for-each select="current-group()[@code = 'a']">
-                            <xsl:value-of select="replace(., '[,;:]+$', '')"/>
+                            <xsl:value-of select="replace(., '[\s,;:]+$', '')"/>
                         </xsl:for-each>
                         <xsl:for-each select="current-group()[@code = 'b']">
-                            <xsl:value-of select="' : ' || replace(., '[,;:]+$', '')"/>
+                            <xsl:value-of select="' : ' || replace(., '[\s,;:]+$', '')"/>
                         </xsl:for-each>
                         <xsl:for-each select="current-group()[@code = 'c']">
-                            <xsl:value-of select="', ' || replace(., '[\.]+$', '')"/>
+                            <xsl:value-of select="', ' || replace(., '[\s\.]+$', '')"/>
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:value-of select="string-join($part, '')"/>
