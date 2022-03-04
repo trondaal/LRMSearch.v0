@@ -79,6 +79,10 @@ const typeDefs = gql`
         edition: String
         extent: String
         dimensions: String
+        publication: String
+        production: String
+        distribution: String
+        manufacture: String
         productionplace: String
         producer: String
         productiondate: String
@@ -94,6 +98,7 @@ const typeDefs = gql`
         copyright: String
         series: String
         seriesnumbering: String
+        partnote: String
         carrier: [Concept] @relationship(type: "CARRIER", direction: OUT)
         media: [Concept] @relationship(type: "MEDIATYPE", direction: OUT)
         creators: [Agent] @relationship(type: "CREATOR", properties: "roleType", direction: OUT)

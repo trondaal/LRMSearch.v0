@@ -1,5 +1,5 @@
 import CssBaseline from '@mui/material/CssBaseline';
-import React, {useState} from 'react';
+import React from 'react';
 import Grid from '@mui/material/Grid';
 import ResultView from "./Results/ResultView";
 import { useLazyQuery} from '@apollo/client';
@@ -8,11 +8,9 @@ import Checkbox from '@mui/material/Checkbox';
 import SearchBar from "./Search/SearchBar";
 import CircularProgress from '@mui/material/CircularProgress';
 import FilterList from "./Filters/FilterList";
-import {useParams} from "react-router-dom";
 import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
-import {filterState, showFiltersState, selectableState, itemsSelectedState, styledState} from './state/state';
-import {useRecoilState, useSetRecoilState} from 'recoil';
+import {filterState, showFiltersState, selectedState, configState} from './state/state';
+import {useRecoilState, useSetRecoilState, useRecoilValue} from 'recoil';
 import {selectedVar} from "./api/Cache";
 import OutlinedInput from '@mui/material/OutlinedInput';
 import InputLabel from '@mui/material/InputLabel';
@@ -20,6 +18,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import ListItemText from '@mui/material/ListItemText';
 import Select from '@mui/material/Select';
+
 
 // consts for meny item
 const ITEM_HEIGHT = 200;
@@ -35,27 +34,20 @@ const MenuProps = {
 
 const choices = [
     'Filters',
-    'Selectable',
+    'Clickable',
     'Formatting',
+    'Show URIs'
 ];
 
 
 
 export default function MyApp() {
-    const [selectable, setSelectable] = useRecoilState(selectableState);
-    const [showFilters, setShowFilters] = useRecoilState(showFiltersState);
+    const [config, setConfig] = useRecoilState(configState);
+    const showFilters = useRecoilValue(showFiltersState);
     const setChecked = useSetRecoilState(filterState);
-    const setItemsSelected = useSetRecoilState(itemsSelectedState);
-    const [styled, setStyled] = useRecoilState(styledState);
+    const setSelected = useSetRecoilState(selectedState);
 
-    const handleSelectableChange = (event) => {
-        setSelectable(event.target.checked);
-        setItemsSelected([]);
-    };
 
-    const handleShowFiltersChange = (event) => {
-        setShowFilters(event.target.checked);
-    };
 
     const handleClearFilters = (event) => {
         setChecked([]);
@@ -63,24 +55,12 @@ export default function MyApp() {
     }
 
     const handleClearSelection = (event) => {
-        setItemsSelected([]);
+        setSelected([]);
     }
-
-    const handleSetStyled = (event) => {
-        console.log(event.target.checked)
-        setStyled(event.target.checked);
-    }
-
-    const [config, setConfig] = React.useState([]);
 
     const handleConfigChange = (event) => {
-        const {
-            target: { value },
-        } = event;
-        setConfig(
-            // On autofill we get a stringified value.
-            typeof value === 'string' ? value.split(',') : value,
-        );
+        setConfig(event.target.value)
+        console.log(event.target.value);
     };
 
 
@@ -92,26 +72,11 @@ export default function MyApp() {
     return (
         <React.Fragment>
             <CssBaseline/>
-            <Grid container spacing={3} marginTop={1}  marginLeft={1} marginRight={1}>
+            <Grid container spacing={3} marginTop={1} paddingLeft={5} paddingRight={5} >
                 <Grid item xs={4}>
                         <SearchBar search={search}/>
                 </Grid>
                 <Grid item xs={2}>
-                    {/*F:
-                    <Checkbox
-                        checked={showFilters}
-                        onChange={handleShowFiltersChange}>
-                    </Checkbox>
-                    S:
-                    <Checkbox
-                        checked={selectable}
-                        onChange={handleSelectableChange}>
-                    </Checkbox>
-                    P:
-                    <Checkbox
-                        checked={styled}
-                        onChange={handleSetStyled}
-                    ></Checkbox>*/}
                     <FormControl sx={{ m: 0, width: 200 }}>
                         <InputLabel id="demo-multiple-checkbox-label">Config</InputLabel>
                         <Select
@@ -121,7 +86,7 @@ export default function MyApp() {
                             value={config}
                             onChange={handleConfigChange}
                             input={<OutlinedInput label="Config" />}
-                            renderValue={(selected) => selected.join(', ')}
+                            renderValue={(selected) => ' '}
                             MenuProps={MenuProps}
                         >
                             {choices.map((name) => (
@@ -133,17 +98,17 @@ export default function MyApp() {
                         </Select>
                     </FormControl>
                 </Grid>
-                <Grid xs={2} item justifyContent="flex-end">
+                <Grid xs={3} item justifyContent="flex-end">
                         <Button variant="contained" onClick={handleClearSelection}>Clear selection</Button>
                 </Grid>
                 <Grid xs={3} item justifyContent="flex-end">
                     {showFilters ? <Button variant="contained" onClick={handleClearFilters}>Clear filters</Button> : ""}
 
                 </Grid>
-                <Grid item xs={showFilters ? 8 : 8}>
-                    {called && loading ? <Grid item xs={8}><CircularProgress /></Grid> : <ResultView results={data ? data.expressions.slice(0,30) : []}/>}
+                <Grid item xs={showFilters ? 9 : 9}>
+                    {called && loading ? <Grid item xs={9}><CircularProgress /></Grid> : <ResultView results={data ? data.expressions.slice(0,30) : []}/>}
                 </Grid>
-                {showFilters ? <Grid item xs={4}>
+                {showFilters ? <Grid item xs={3}>
                     <FilterList results={data ? data.expressions.slice(0,30) : []}/>
                 </Grid> : ""}
             </Grid>
