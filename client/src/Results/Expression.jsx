@@ -11,7 +11,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItem from '@mui/material/ListItem';
 import Manifestation from "./Manifestation";
 import {useRecoilState} from 'recoil';
-import {itemsSelectedState, selectableState, showUriState, styledState} from "../state/state";
+import {showUriState, clickableState, selectedState} from "../state/state";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import "./ResultList.css";
 
@@ -21,9 +21,8 @@ function isEmpty(str) {
 
 export default function Expression(props){
     const [showUri] = useRecoilState(showUriState);
-    const [itemsSelected, setItemsSelected] = useRecoilState(itemsSelectedState);
-    const [selectable] = useRecoilState(selectableState);
-    const [styled] = useRecoilState(styledState);
+    const [selected, setSelectedState] = useRecoilState(selectedState);
+    const [clickable] = useRecoilState(clickableState);
     const {uri, manifestations} = props.expression;
 
     //console.log("Expression : " + props.checkboxes);
@@ -64,31 +63,31 @@ export default function Expression(props){
 
 
     const toggleSelected = (clicked_uri) => {
-        const pos = itemsSelected.indexOf(clicked_uri)
+        const pos = selected.indexOf(clicked_uri)
         if (pos === -1) {
-            setItemsSelected([...itemsSelected, clicked_uri]);
+            setSelectedState([...selected, clicked_uri]);
             console.log("Selected: " + clicked_uri)
         } else {
-            setItemsSelected([...itemsSelected.slice(0, pos), ...itemsSelected.slice(pos + 1)]);
+            setSelectedState([...selected.slice(0, pos), ...selected.slice(pos + 1)]);
             console.log("Deselected: " + clicked_uri)
         }
     }
 
     const handleClick = () => {
         //console.log(itemsSelected);
-        const epos = itemsSelected.indexOf(uri)
-        const selected = new Set();
-        itemsSelected.forEach(selected.add, selected);
+        const epos = selected.indexOf(uri)
+        const selectedSet = new Set();
+        selected.forEach((e) => selectedSet.add(e));
         if (epos === -1) {
             //Adding expression and child manifestation uri to list of selected
-            selected.add(uri);
-            manifestations.forEach((m) => selected.add(m.uri));
+            selectedSet.add(uri);
+            manifestations.forEach((m) => selectedSet.add(m.uri));
         } else {
             //Removing expression and child manifestation uri to list of selected
-            selected.delete(uri);
-            manifestations.forEach((m) => selected.delete(m.uri));
+            selectedSet.delete(uri);
+            manifestations.forEach((m) => selectedSet.delete(m.uri));
         }
-        setItemsSelected([...selected]);
+        setSelectedState([...selectedSet]);
         //console.log(itemsSelected);
     };
 
@@ -97,7 +96,7 @@ export default function Expression(props){
             <ListItemIcon>
                 <IconTypes type={content[0]}/>
             </ListItemIcon>
-            <ListItemText className={itemsSelected.includes(uri) ? "selected" : ""}
+            <ListItemText className={selected.includes(uri) ? "selected" : ""}
                           primary={
                             <React.Fragment>
                                 <Typography color="primary.main" component="span" variant="etitle">{title}</Typography>
@@ -116,7 +115,7 @@ export default function Expression(props){
 
     /* Moved expression-classname from paper to expression entry */
     return <Paper elevation={0} square key={props.expression.uri} sx={{mt: 2}}>
-        {selectable ?
+        {clickable ?
             <ListItemButton alignItems="flex-start" onClick={handleClick} className="expression">
                 {description()}
             </ListItemButton>

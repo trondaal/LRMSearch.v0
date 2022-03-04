@@ -231,7 +231,7 @@ export default function FilterList(props) {
             {creators.map(category => <FilterGroup filters={filters.filter(entry => entry.target === 'Agent' && entry.category === category)} checked={checked} handleToggle={handleToggle} getAvailable={getAvailable} category={"Carrier"} header={category} key={category}/>)}
         </List>
         <List
-            sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
+            sx={{ width: '100%', bgcolor: 'background.paper' }}
             component="nav"
             aria-labelledby="nested-list-subheader"
             subheader={
@@ -244,7 +244,7 @@ export default function FilterList(props) {
             )}
         </List>
         <List
-            sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
+            sx={{ width: '100%', bgcolor: 'background.paper' }}
             component="nav"
             aria-labelledby="nested-list-subheader"
             subheader={

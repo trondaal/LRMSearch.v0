@@ -27,7 +27,7 @@
 
 .manifestation {
     display: list-item;          /* This has to be "list-item"                                               */
-    list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-type: circle;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
     list-style-position: outside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }
 

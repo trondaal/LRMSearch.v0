@@ -1,42 +1,79 @@
 import {
-    atom
+    atom, selector
 } from 'recoil';
 
 // state with boolean value used to decide if URIs are displayed with entities or not
 // primarily used for debugging
-export const showUriState = atom({
+/*export const showUriState = atom({
     key: 'showUri', // unique ID (with respect to other atoms/selectors)
     default: false, // default value (aka initial value)
-});
-
-// state to control if the list of filters is visible or not
-export const showFiltersState = atom({
-    key: 'showFilters', // unique ID (with respect to other atoms/selectors)
-    default: true, // default value (aka initial value)
-});
-
-// state to control if resultitems can be selected or not
-export const selectableState = atom({
-    key: 'selectable', // unique ID (with respect to other atoms/selectors)
-    default: true, // default value (aka initial value)
-});
-
-// state to control if result listing is styled or not
-export const styledState = atom({
-    key: 'styled', // unique ID (with respect to other atoms/selectors)
-    default: true, // default value (aka initial value)
-});
+});*/
 
 // state to manage selected items in the resultlist
-export const itemsSelectedState = atom({
-    key: 'itemsSelected',
+export const selectedState = atom({
+    key: 'selected',
     default: []
 });
-
+// State to manage if filters are  to be shown or not
 export const filterState = atom({
     key: 'checked',
     default: []
     }
 );
+
+// state to manage configuratio options
+export const configState = atom({
+    key: 'configState',
+    default: ["Filters", "Clickable", "Formatting"]
+});
+
+export const showFiltersState = selector({
+    key: 'showFilters',
+    get: ({get}) => {
+        const config = get(configState);
+        if (config.includes("Filters")){
+            return true;
+        }else{
+            return false;
+        }
+    },
+});
+
+export const clickableState = selector({
+    key: 'clickable',
+    get: ({get}) => {
+        const config = get(configState);
+        if (config.includes("Clickable")){
+            return true;
+        }else{
+            return false;
+        }
+    },
+});
+
+export const formattingState = selector({
+    key: 'formatting',
+    get: ({get}) => {
+        const config = get(configState);
+        if (config.includes("Formatting")){
+            return true;
+        }else{
+            return false;
+        }
+    },
+});
+
+export const showUriState = selector({
+    key: 'showuri',
+    get: ({get}) => {
+        const config = get(configState);
+        if (config.includes("Show URIs")){
+            return true;
+        }else{
+            return false;
+        }
+    },
+});
+
 
 export default showUriState;
