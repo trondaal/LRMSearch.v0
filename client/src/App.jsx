@@ -42,12 +42,11 @@ const choices = [
 
 
 export default function MyApp() {
+
     const [config, setConfig] = useRecoilState(configState);
     const showFilters = useRecoilValue(showFiltersState);
     const setChecked = useSetRecoilState(filterState);
     const setSelected = useSetRecoilState(selectedState);
-
-
 
     const handleClearFilters = (event) => {
         setChecked([]);
@@ -60,7 +59,7 @@ export default function MyApp() {
 
     const handleConfigChange = (event) => {
         setConfig(event.target.value)
-        console.log(event.target.value);
+        //console.log(event.target.value);
     };
 
 

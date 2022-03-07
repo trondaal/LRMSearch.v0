@@ -36,7 +36,7 @@ export default function Manifestation(props){
     //if (!isEmpty(uri)) published.push(uri);
 
     const handleClick = () => {
-        console.log(selected);
+        //console.log(selected);
         const pos = selected.indexOf(uri)
         if (pos === -1) {
             setSelected([...selected, uri]);

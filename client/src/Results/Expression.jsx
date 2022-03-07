@@ -62,19 +62,18 @@ export default function Expression(props){
     content.reverse();
 
 
-    const toggleSelected = (clicked_uri) => {
-        const pos = selected.indexOf(clicked_uri)
-        if (pos === -1) {
-            setSelectedState([...selected, clicked_uri]);
-            console.log("Selected: " + clicked_uri)
-        } else {
-            setSelectedState([...selected.slice(0, pos), ...selected.slice(pos + 1)]);
-            console.log("Deselected: " + clicked_uri)
-        }
-    }
+    // const toggleSelected = (clicked_uri) => {
+    //     const pos = selected.indexOf(clicked_uri)
+    //     if (pos === -1) {
+    //         setSelectedState([...selected, clicked_uri]);
+    //         console.log("Selected: " + clicked_uri)
+    //     } else {
+    //         setSelectedState([...selected.slice(0, pos), ...selected.slice(pos + 1)]);
+    //         console.log("Deselected: " + clicked_uri)
+    //     }
+    // }
 
     const handleClick = () => {
-        //console.log(itemsSelected);
         const epos = selected.indexOf(uri)
         const selectedSet = new Set();
         selected.forEach((e) => selectedSet.add(e));

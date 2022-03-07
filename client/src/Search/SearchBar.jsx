@@ -5,8 +5,13 @@ import {selectedVar} from '../api/Cache';
 import stopwords from './stopwords'
 
 export default function SearchBar(props) {
+    //const query = querystring.parse(window.location.search);
+    const params = new URLSearchParams(window.location.search)
+    const uriquery = params.get("query") || "Hobbit";
+    //console.log(params.get("query"));
+    //console.log(uriquery);
 
-    const [query, setQuery] = useState(sessionStorage.getItem('query') ? sessionStorage.getItem('query') : "Harry Potter");
+    const [query, setQuery] = useState(sessionStorage.getItem('query') ? sessionStorage.getItem('query') : uriquery);
 
     const {search} = props;
 
