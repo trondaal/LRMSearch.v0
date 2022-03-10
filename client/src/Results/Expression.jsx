@@ -95,7 +95,8 @@ export default function Expression(props){
             <ListItemIcon>
                 <IconTypes type={content[0]}/>
             </ListItemIcon>
-            <ListItemText className={selected.includes(uri) ? "selected" : ""}
+            <ListItemText sx={{'max-width': '70%'}}
+                className={selected.includes(uri) ? "selected" : ""}
                           primary={
                             <React.Fragment>
                                 <Typography color="primary.main" component="span" variant="etitle">{title}</Typography>
