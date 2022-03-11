@@ -451,6 +451,7 @@
       <rdaed:P20312>Darkness visible : Philip Pullman and his Dark Materials</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / still image / text</rdfs:label>
       <rdfs:label>Darkness visible / eng / still image / text / text</rdfs:label>
+      <rdaed:P20315>Darkness visible : inside the world of Philip Pullman</rdaed:P20315>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1014"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>

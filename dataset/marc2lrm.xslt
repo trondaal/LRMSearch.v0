@@ -6100,7 +6100,7 @@
                  as="xs:string*">
             <xsl:param name="value" as="element()*"/>
             <xsl:for-each select="$value">
-                <xsl:value-of select="replace(., '[ \.,/:=]+$', '')"/>
+                <xsl:value-of select="replace(., '[\s\.,/:=]+$', '')"/>
             </xsl:for-each>
         </xsl:function>
    <xsl:function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

@@ -2252,6 +2252,11 @@
         <marc:datafield tag="240" ind1=" " ind2=" ">
             <marc:subfield code="a">Darkness visible : inside the world of Philip Pullman</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/49383417/darknessvisible</marc:subfield>
+            <marc:subfield code="8">1/e</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="740" ind1=" " ind2=" ">
+            <marc:subfield code="a">Darkness visible : inside the world of Philip Pullman</marc:subfield>
+            <marc:subfield code="8">1/e</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="245" ind1="1" ind2="0">
             <marc:subfield code="a">Darkness visible :</marc:subfield>
