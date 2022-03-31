@@ -1,6 +1,6 @@
 import {gql} from "@apollo/client";
 
-export const GET_RESULTS = gql`
+export const GET_EXPRESSIONS = gql`
     query ($query: String!){
         expressions(fulltext: {expressions: {phrase: $query}}){
             checked @client,
@@ -54,6 +54,170 @@ export const GET_RESULTS = gql`
                 dimensions,
                 production,
                 publication, 
+                distribution,
+                manufacture,
+                copyright,
+                series,
+                seriesnumbering,
+                partnote,
+                carrier{
+                    uri,
+                    label
+                },
+                media{
+                    uri,
+                    label
+                },
+                creatorsConnection{
+                    edges{
+                        node{
+                            name,
+                            uri
+                        },
+                        role
+                    }
+                }
+            }
+        }
+    }
+`
+
+export const GET_WORKS = gql`
+    query ($query: String!){
+        expressions(fulltext: {expressions: {phrase: $query}}){
+            checked @client,
+            title,
+            titlepreferred,
+            titlevariant,
+            uri,
+            language{
+                label,
+                uri
+            }
+            content{
+                label,
+                uri
+            }
+            creatorsConnection{
+                edges{
+                    node{
+                        name,
+                        uri
+                    },
+                    role
+                }
+            }
+            work{
+                title,
+                type{
+                    label,
+                    uri
+                }
+                creatorsConnection{
+                    edges{
+                        node{
+                            name,
+                            uri
+                        },
+                        role
+                    }
+                }
+            },
+            manifestations (options: {limit: 4}) {
+                uri,
+                identifier,
+                title,
+                subtitle,
+                numbering,
+                part,
+                responsibility,
+                edition,
+                extent,
+                dimensions,
+                production,
+                publication,
+                distribution,
+                manufacture,
+                copyright,
+                series,
+                seriesnumbering,
+                partnote,
+                carrier{
+                    uri,
+                    label
+                },
+                media{
+                    uri,
+                    label
+                },
+                creatorsConnection{
+                    edges{
+                        node{
+                            name,
+                            uri
+                        },
+                        role
+                    }
+                }
+            }
+        }
+    }
+`
+
+export const GET_MANIFESTATIONS = gql`
+    query ($query: String!){
+        expressions(fulltext: {expressions: {phrase: $query}}){
+            checked @client,
+            title,
+            titlepreferred,
+            titlevariant,
+            uri,
+            language{
+                label,
+                uri
+            }
+            content{
+                label,
+                uri
+            }
+            creatorsConnection{
+                edges{
+                    node{
+                        name,
+                        uri
+                    },
+                    role
+                }
+            }
+            work{
+                title,
+                type{
+                    label,
+                    uri
+                }
+                creatorsConnection{
+                    edges{
+                        node{
+                            name,
+                            uri
+                        },
+                        role
+                    }
+                }
+            },
+            manifestations (options: {limit: 4}) {
+                uri,
+                identifier,
+                title,
+                subtitle,
+                numbering,
+                part,
+                responsibility,
+                edition,
+                extent,
+                dimensions,
+                production,
+                publication,
                 distribution,
                 manufacture,
                 copyright,

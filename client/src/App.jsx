@@ -3,7 +3,7 @@ import React from 'react';
 import Grid from '@mui/material/Grid';
 import ResultView from "./Results/ResultView";
 import { useLazyQuery} from '@apollo/client';
-import {GET_RESULTS} from "./api/Queries";
+import {GET_EXPRESSIONS} from "./api/Queries";
 import Checkbox from '@mui/material/Checkbox';
 import SearchBar from "./Search/SearchBar";
 import CircularProgress from '@mui/material/CircularProgress';
@@ -42,7 +42,6 @@ const choices = [
 
 
 export default function MyApp() {
-
     const [config, setConfig] = useRecoilState(configState);
     const showFilters = useRecoilValue(showFiltersState);
     const setChecked = useSetRecoilState(filterState);
@@ -63,7 +62,7 @@ export default function MyApp() {
     };
 
 
-    const [search, { loading, data, error, called }] = useLazyQuery(GET_RESULTS);
+    const [search, { loading, data, error, called }] = useLazyQuery(GET_EXPRESSIONS);
 
     if (error)
         console.log(error);
