@@ -56,17 +56,19 @@ const typeDefs = gql`
         title: String
         titlepreferred: String
         titlevariant: String
-        manifestations: [Manifestation] @relationship(type: "EMBODIES", direction: IN)
-        work: [Work] @relationship(type: "REALIZES", direction: OUT)
-        language: [Concept] @relationship(type: "LANGUAGE", direction: OUT)
-        content: [Concept] @relationship(type: "CONTENT", direction: OUT)
-        creators: [Agent] @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
+        titles: String
+        names: String
+        manifestations: [Manifestation!]! @relationship(type: "EMBODIES", direction: IN)
+        work: [Work!]! @relationship(type: "REALIZES", direction: OUT)
+        language: [Concept!]! @relationship(type: "LANGUAGE", direction: OUT)
+        content: [Concept!]! @relationship(type: "CONTENT", direction: OUT)
+        creators: [Agent!]! @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
     }
     type Work {
         uri: String
         title: String
-        type: [Concept] @relationship(type: "TYPE", direction: OUT)
-        creators: [Agent] @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
+        type: [Concept!]! @relationship(type: "TYPE", direction: OUT)
+        creators: [Agent!]! @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
     }
     type Manifestation {
         uri: String
@@ -99,9 +101,9 @@ const typeDefs = gql`
         series: String
         seriesnumbering: String
         partnote: String
-        carrier: [Concept] @relationship(type: "CARRIER", direction: OUT)
-        media: [Concept] @relationship(type: "MEDIATYPE", direction: OUT)
-        creators: [Agent] @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
+        carrier: [Concept!]! @relationship(type: "CARRIER", direction: OUT)
+        media: [Concept!]! @relationship(type: "MEDIATYPE", direction: OUT)
+        creators: [Agent!]! @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
     }
     type Concept{
         label: String,
@@ -117,20 +119,34 @@ const typeDefs = gql`
 `;
 
 const driver = neo4j.driver(
-    "bolt://dif04.idi.ntnu.no:7687",
-    //"bolt://localhost:7687",
+    //"bolt://dif04.idi.ntnu.no:7687",
+    "bolt://localhost:7687",
     neo4j.auth.basic("neo4j", "letmein")
 );
 
-const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
+//const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
 
-const server = new ApolloServer({
+//console.log(neoSchema.schema);
+
+/*const server = new ApolloServer({
     schema: neoSchema.schema,
 });
 
 server.listen(8080).then(({ url }) => {
     console.log(`🚀 Server ready at ${url}`);
-});
+});*/
+
+const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
+
+neoSchema.getSchema().then((schema) => {
+    const server = new ApolloServer({
+        schema,
+    });
+
+    server.listen(8080).then(({ url }) => {
+        console.log(`🚀 Server ready at ${url}`);
+    });
+})
 
 
 /*
