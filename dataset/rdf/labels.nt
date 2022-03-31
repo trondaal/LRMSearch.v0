@@ -7,6 +7,7 @@
 <http://rdaregistry.info/Elements/e/datatype/P20312>	<http://www.w3.org/2000/01/rdf-schema#label>   "title"@gden .
 <http://rdaregistry.info/Elements/e/datatype/P20315>	<http://www.w3.org/2000/01/rdf-schema#label>   "titlepreferred"@gden .
 <http://rdaregistry.info/Elements/e/datatype/P20316>	<http://www.w3.org/2000/01/rdf-schema#label>   "titlevariant"@gden .
+
 <http://rdaregistry.info/Elements/m/datatype/P30004>	<http://www.w3.org/2000/01/rdf-schema#label>   "identifier"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30156>	<http://www.w3.org/2000/01/rdf-schema#label>   "title"@gden .
 <http://rdaregistry.info/Elements/m/datatype/P30142>	<http://www.w3.org/2000/01/rdf-schema#label>   "subtitle"@gden .
@@ -43,8 +44,10 @@
 
 <http://rdaregistry.info/Elements/w/datatype/P10004>	<http://www.w3.org/2000/01/rdf-schema#label>   "type"@gden .
 <http://rdaregistry.info/Elements/w/datatype/P10219>	<http://www.w3.org/2000/01/rdf-schema#label>   "date"@gden .
-<http://rdaregistry.info/Elements/w/datatype/P10088>	<http://www.w3.org/2000/01/rdf-schema#label>   "title"@gden .
 <http://rdaregistry.info/Elements/w/datatype/P10012>	<http://www.w3.org/2000/01/rdf-schema#label>   "numbering"@gden .
+<http://rdaregistry.info/Elements/w/datatype/P10088>	<http://www.w3.org/2000/01/rdf-schema#label>   "title"@gden .
+<http://rdaregistry.info/Elements/w/datatype/P10223>	<http://www.w3.org/2000/01/rdf-schema#label>   "titlepreferred"@gden .
+<http://rdaregistry.info/Elements/w/datatype/P10086>	<http://www.w3.org/2000/01/rdf-schema#label>   "titlevariant"@gden .
 
 <http://rdaregistry.info/Elements/c/C10002>             <http://www.w3.org/2000/01/rdf-schema#label>    "Agent"@gden .
 <http://rdaregistry.info/Elements/c/C10001>             <http://www.w3.org/2000/01/rdf-schema#label>    "Work"@gden .
