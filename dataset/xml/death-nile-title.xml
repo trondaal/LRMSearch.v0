@@ -4465,7 +4465,7 @@
             <marc:subfield code="a">Death beyond the Nile.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="260" ind1=" " ind2=" ">
-            <marc:subfield code="b">London</marc:subfield>
+            <marc:subfield code="a">London</marc:subfield>
             <marc:subfield code="b">Macmillan</marc:subfield>
             <marc:subfield code="c">1988.</marc:subfield>
         </marc:datafield>
