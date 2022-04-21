@@ -316,7 +316,7 @@
       <rdaad:P50385>Tarik O'Regan</rdaad:P50385>
       <rdfs:label>Tarik O'Regan</rdfs:label>
    </rdac:C10002>
-   <rdac:C10006 rdf:about="http://example.org/vindex/lightinvisible/eng/1020">
+   <rdac:C10006 rdf:about="http://example.org/vindex/lightinvisible/exp/eng/1020">
       <rdaed:P20316>Light invisible</rdaed:P20316>
       <rdaed:P20312>Light invisible : the Freemason's answer to darkness visible</rdaed:P20312>
       <rdfs:label>Light invisible / eng / text</rdfs:label>
@@ -324,7 +324,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://example.org/vindex/lightinvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/116920035/darknessvisible/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/116920035/darknessvisible/exp/eng/1020">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
       <rdaed:P20312>Darkness visible : a novel</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
@@ -332,7 +332,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/116920035/darknessvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/depression/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/depression/exp/eng/1020">
       <rdaed:P20316>Depression</rdaed:P20316>
       <rdaed:P20312>Depression</rdaed:P20312>
       <rdfs:label>Depression / eng / text</rdfs:label>
@@ -340,7 +340,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/1421145424662786830168/depression"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/eng/1013/71398096">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/exp/eng/1013/71398096">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
       <rdaed:P20312>Darkness visible : [a memoir of madness]</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / spoken word</rdfs:label>
@@ -349,7 +349,7 @@
       <rdaeo:P20022 rdf:resource="http://viaf.org/viaf/71398096"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/1421145424662786830168"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/exp/eng/1020">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
       <rdaed:P20312>Darkness visible : a memoir of madness</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
@@ -357,16 +357,17 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/1421145424662786830168"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/nor/1020/226311641">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/1421145424662786830168/exp/nob/nor/1020/226311641">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
       <rdaed:P20312>Synlig mørke : erindringer om en depresjon</rdaed:P20312>
       <rdfs:label>Synlig mørke / nor / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/226311641"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/1421145424662786830168"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/17209922/darknessnowvisible/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/17209922/darknessnowvisible/exp/eng/1020">
       <rdaed:P20316>Darkness visible : patriarchy's resurgence and feminist resistance</rdaed:P20316>
       <rdaed:P20312>Darkness now visible : patriarchy's resurgence and feminist resistance</rdaed:P20312>
       <rdfs:label>Darkness now visible / eng / text</rdfs:label>
@@ -374,7 +375,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/17209922/darknessnowvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/23209515/avisibledarkness/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/23209515/avisibledarkness/exp/eng/1020">
       <rdaed:P20316>A visible darkness</rdaed:P20316>
       <rdaed:P20312>A visible darkness</rdaed:P20312>
       <rdfs:label>A visible darkness / eng / text</rdfs:label>
@@ -382,7 +383,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/23209515/avisibledarkness"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/24751188/darknessvisible/eng/1014">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/24751188/darknessvisible/exp/eng/1014">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
       <rdaed:P20312>Darkness visible : the prints of John Martin : the prints of John Martin</rdaed:P20312>
       <rdfs:label>Darkness visible : the prints of John Martin / eng / still image</rdfs:label>
@@ -390,7 +391,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/24751188/darknessvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/29524003/darknessvisible/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/29524003/darknessvisible/exp/eng/1020">
       <rdaed:P20316>Darkness visible, a farce</rdaed:P20316>
       <rdaed:P20312>Darkness visible, a farce</rdaed:P20312>
       <rdfs:label>Darkness visible, a farce / eng / text</rdfs:label>
@@ -427,7 +428,7 @@
       <rdaeo:P20039 rdf:resource="http://viaf.org/viaf/146015676"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/310714691"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/38119011/avisibledarkness/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/38119011/avisibledarkness/exp/eng/1020">
       <rdaed:P20316>A visible darkness</rdaed:P20316>
       <rdaed:P20312>A visible darkness</rdaed:P20312>
       <rdfs:label>A visible darkness / eng / text / text</rdfs:label>
@@ -436,7 +437,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/4136156991013061180007/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/4136156991013061180007/exp/eng/1020">
       <rdaed:P20316>Turning the Hiram Key</rdaed:P20316>
       <rdaed:P20312>Turning the Hiram Key : making the darkness visible</rdaed:P20312>
       <rdfs:label>Turning the Hiram Key / eng / text</rdfs:label>
@@ -444,7 +445,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/4136156991013061180007"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/49383417/darknessvisible/eng/1014/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/49383417/darknessvisible/exp/eng/1014/1020">
       <rdaed:P20316>Darkness visible : inside the world of Philip Pullman</rdaed:P20316>
       <rdaed:P20312>Darkness visible : inside the world of Philip Pullman</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text / still image</rdfs:label>
@@ -457,7 +458,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/62609556/adarknessvisible/eng/1014">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/62609556/adarknessvisible/exp/eng/1014">
       <rdaed:P20316>A darkness visible</rdaed:P20316>
       <rdaed:P20312>A darkness visible</rdaed:P20312>
       <rdfs:label>A darkness visible / eng / still image</rdfs:label>
@@ -465,7 +466,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/62609556/adarknessvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/66588563/darknessvisible/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/66588563/darknessvisible/exp/eng/1020">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
       <rdaed:P20312>Darkness visible : a Lambert and Hook mystery</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
@@ -473,14 +474,14 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/66588563/darknessvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/85313314/darknessvisible/1010">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/85313314/darknessvisible/exp/1010">
       <rdaed:P20316>Darknesse visible</rdaed:P20316>
       <rdaed:P20312>Darknesse visible : for solo piano : after John Dowland : (1992)</rdaed:P20312>
       <rdfs:label>Darknesse visible / notated music</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1010"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/85313314/darknessvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/94303910/darknessvisible/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/94303910/darknessvisible/exp/eng/1020">
       <rdaed:P20316>Darkness visible : a study of Vergil's Aeneid</rdaed:P20316>
       <rdaed:P20312>Darkness visible : a study of Vergil's Aeneid</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
@@ -488,7 +489,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/94303910/darknessvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q5223706/eng/1020">
+   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q5223706/exp/eng/1020">
       <rdaed:P20316>Darkness visible</rdaed:P20316>
       <rdaed:P20312>Darkness visible : a Christian appraisal of freemasonry</rdaed:P20312>
       <rdfs:label>Darkness visible / eng / text</rdfs:label>
@@ -498,7 +499,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q5223706"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q7686067/darknessvisible/1010">
+   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q7686067/darknessvisible/exp/1010">
       <rdaed:P20316>Darkness Visible (for counter-tenor, tenor &amp; harp)</rdaed:P20316>
       <rdaed:P20312>Darkness Visible (for counter-tenor, tenor &amp; harp)</rdaed:P20312>
       <rdfs:label>Darkness Visible (for counter-tenor, tenor &amp; harp) / notated music</rdfs:label>
@@ -517,7 +518,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/116920035/darknessvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/116920035/darknessvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/012543853">
       <rdamd:P30156>Light invisible</rdamd:P30156>
@@ -532,7 +533,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://example.org/vindex/lightinvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://example.org/vindex/lightinvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/012784972">
       <rdamd:P30156>Light invisible</rdamd:P30156>
@@ -546,7 +547,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://example.org/vindex/lightinvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://example.org/vindex/lightinvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/013929004">
       <rdamd:P30156>Darkness visible, a farce</rdamd:P30156>
@@ -557,7 +558,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/29524003/darknessvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/29524003/darknessvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/016955117">
       <rdamd:P30156>Darkness visible</rdamd:P30156>
@@ -572,7 +573,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q5223706/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q5223706/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/020632434">
       <rdamd:P30156>Darkness visible</rdamd:P30156>
@@ -589,7 +590,7 @@
       <rdamd:P30106>Counseling and psychotherapy transcripts, client narratives, and reference works</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/020735169">
       <rdamd:P30156>Darkness visible</rdamd:P30156>
@@ -603,7 +604,7 @@
       <rdamd:P30050>English Prose Drama Full-Text Database.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/29524003/darknessvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/29524003/darknessvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/021501965">
       <rdamd:P30156>Darkness Visible (for counter-tenor, tenor &amp; harp)</rdamd:P30156>
@@ -618,7 +619,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q7686067/darknessvisible/1010"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q7686067/darknessvisible/exp/1010"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-5060054460323">
       <rdamd:P30004>IAN 5060054460323</rdamd:P30004>
@@ -655,7 +656,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0224030450">
       <rdamd:P30004>ISBN 0224030450</rdamd:P30004>
@@ -673,7 +674,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0520029429">
       <rdamd:P30004>ISBN 0520029429</rdamd:P30004>
@@ -691,7 +692,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/94303910/darknessvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/94303910/darknessvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0520038487">
       <rdamd:P30004>ISBN 0520038487</rdamd:P30004>
@@ -709,7 +710,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/94303910/darknessvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/94303910/darknessvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571237878">
       <rdamd:P30004>ISBN 0571237878 (pbk.) :</rdamd:P30004>
@@ -729,7 +730,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571237886">
       <rdamd:P30004>ISBN 0571237886 (pbk.) :</rdamd:P30004>
@@ -749,7 +750,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571267580">
       <rdamd:P30004>ISBN 0571267580</rdamd:P30004>
@@ -770,7 +771,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571518044">
       <rdamd:P30004>ISBN 0571518044</rdamd:P30004>
@@ -788,7 +789,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/85313314/darknessvisible/1010"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/85313314/darknessvisible/exp/1010"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0679400958">
       <rdamd:P30004>ISBN 0679400958</rdamd:P30004>
@@ -808,7 +809,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1007</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1007"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/eng/1013/71398096"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/exp/eng/1013/71398096"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0727867989">
       <rdamd:P30004>ISBN 0727867989 (cased) :</rdamd:P30004>
@@ -832,7 +833,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/66588563/darknessvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/66588563/darknessvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0752853406">
       <rdamd:P30004>ISBN 0752853406 (hbk.)</rdamd:P30004>
@@ -852,7 +853,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/23209515/avisibledarkness/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/23209515/avisibledarkness/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0853182396">
       <rdamd:P30004>ISBN 0853182396 (hbk.)</rdamd:P30004>
@@ -870,7 +871,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/4136156991013061180007/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/4136156991013061180007/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0863566200">
       <rdamd:P30004>ISBN 0863566200 (hbk.)</rdamd:P30004>
@@ -890,7 +891,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/62609556/adarknessvisible/eng/1014"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/62609556/adarknessvisible/exp/eng/1014"/>
       <rdamo:P30328 rdf:resource="http://viaf.org/viaf/70220086"/>
       <rdamo:P30328 rdf:resource="http://viaf.org/viaf/167193187"/>
    </rdac:C10007>
@@ -910,7 +911,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/24751188/darknessvisible/eng/1014"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/24751188/darknessvisible/exp/eng/1014"/>
       <rdamo:P30328 rdf:resource="http://viaf.org/viaf/13833473"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-1901157709">
@@ -929,7 +930,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q5223706/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q5223706/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8203166857">
       <rdamd:P30004>ISBN 8203166857</rdamd:P30004>
@@ -947,7 +948,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/nor/1020/226311641"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/exp/nob/nor/1020/226311641"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780226252230">
       <rdamd:P30004>ISBN 9780226252230 (pbk.) :</rdamd:P30004>
@@ -967,7 +968,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/94303910/darknessvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/94303910/darknessvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781108470650">
       <rdamd:P30004>ISBN 9781108470650</rdamd:P30004>
@@ -985,7 +986,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/17209922/darknessnowvisible/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/17209922/darknessnowvisible/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781784872618">
       <rdamd:P30004>ISBN 9781784872618</rdamd:P30004>
@@ -1004,7 +1005,7 @@
       <rdamd:P30106>Vintage minis</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/depression/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/depression/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781785782282">
       <rdamd:P30004>ISBN 9781785782282 (pbk.) :</rdamd:P30004>
@@ -1023,7 +1024,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible/eng/1014/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible/exp/eng/1014/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781785782435">
       <rdamd:P30004>ISBN 9781785782435 (ebook) :</rdamd:P30004>
@@ -1042,7 +1043,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible/eng/1014/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible/exp/eng/1014/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781840468489">
       <rdamd:P30004>ISBN 9781840468489</rdamd:P30004>
@@ -1060,7 +1061,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible/eng/1014/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible/exp/eng/1014/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781905574421">
       <rdamd:P30004>ISBN 9781905574421 (pbk.)</rdamd:P30004>
@@ -1078,7 +1079,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q5223706/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q5223706/exp/eng/1020"/>
    </rdac:C10007>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">
       <skos:subjectIndicator>eng</skos:subjectIndicator>

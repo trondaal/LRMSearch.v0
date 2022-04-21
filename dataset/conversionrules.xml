@@ -280,6 +280,7 @@
         <label select="string-join((*:datafield[@tag='336']/*:subfield[@code='a'], *:datafield[@tag='041']/*:subfield[@code=('a', 'd')][1]), '/')"/>
         <key order="2">
             <element>(frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1]</element>
+            <element>'exp'</element>
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/')</element>            
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20001')]/@href), '/')</element>            
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/')</element>
@@ -288,8 +289,11 @@
             <relationship type="http://rdaregistry.info/Elements/e/object/P20231" label="has work expressed" ilabel="has expression of work" >
                 <target entity="MARC21-130240-Work" same-field="true" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
-            <relationship type="{$target_subfield}">
-                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked($anchor_field, $target_field, false())"/>
+            <relationship type="{$target_subfield}" >
+                <target entity="MARC21-100700Person" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked($anchor_field, $target_field, false())"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
+                <target entity="MARC008language" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
                 <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field, false())"/>

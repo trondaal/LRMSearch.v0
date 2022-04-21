@@ -2,56 +2,9 @@ const { Neo4jGraphQL } = require("@neo4j/graphql");
 const { ApolloServer, gql } = require("apollo-server");
 const neo4j = require("neo4j-driver");
 
+// noinspection GraphQLMissingType
 const typeDefs = gql`
-    type Stats{
-        source: String
-        target: String
-        key: String
-        value: String
-        uri: String
-        count: Int
-    }
-    type Query {
-        getStats(searchString: String): [Stats] @cypher(statement: """
-        CALL db.index.fulltext.queryNodes('expressions', $searchString) yield node as expression
-        CALL{
-        WITH expression
-        match (expression)-[r:REALIZES]->(w:Work)-[c:CREATOR]-(p:Agent)
-        return 'work' as source, 'person' as target, c.role as key, p.name as value, p.uri as uri
-        UNION
-        WITH expression
-        match (expression)-[c:CREATOR]->(p:Agent)
-        return 'expression' as source, 'person' as target, c.role as key, p.name as value, p.uri as uri
-        UNION
-        WITH expression
-        match (expression)<-[r:EMBODIES]->(m:Manifestation)-[c:CREATOR]-(p:Agent)
-        return 'manifestation' as source, 'person' as target, c.role as key, p.name as value, p.uri as uri
-        UNION
-        WITH expression
-        MATCH (expression)-[r:REALIZES]->(w:Work)-[t:TYPE]->(c:Concept)
-        return 'expression' as source, 'concept' as target, 'type' as key, c.label as value, c.uri as uri
-        UNION
-        WITH expression
-        MATCH (expression)-[r:CONTENT]->(c:Concept)
-        return 'expression' as source, 'concept' as target, 'content' as key, c.label as value, c.uri as uri
-        UNION
-        WITH expression
-        MATCH (expression)-[r:LANGUAGE]->(c:Concept)
-        return 'expression' as source, 'concept' as target, 'language' as key, c.label as value, c.uri as uri
-        UNION
-        WITH expression
-        MATCH (expression)<-[r:EMBODIES]->(m:Manifestation)-[rm:MEDIATYPE]->(c:Concept)
-        return 'expression' as source, 'concept' as target, 'media' as key, c.label as value, c.uri as uri
-        UNION
-        WITH expression
-        MATCH (expression)<-[r:EMBODIES]->(m:Manifestation)-[rc:CARRIER]->(c:Concept)
-        return 'expression' as source, 'concept' as target, 'carrier' as key, c.label as value, c.uri as uri
-        }
-        return {source: source, target: target, key: key, value: value, uri: uri, count: count(*)} as stat
-        order by stat.source, stat.target, stat.key, stat.count descending
-        """)
-    }
-    type Expression @fulltext(indexes: [{ name: "expressions", fields: ["title"] }]) {
+    type Expression @fulltext(indexes: [{ name: "expressions", fields: ["titles", "names"] }]) {
         uri: String
         title: String
         titlepreferred: String
@@ -64,11 +17,20 @@ const typeDefs = gql`
         content: [Concept!]! @relationship(type: "CONTENT", direction: OUT)
         creators: [Agent!]! @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
     }
-    type Work {
+    type Work @fulltext(indexes: [{ name: "works", fields: ["titles", "names"] }]) {
         uri: String
         title: String
+        titlepreferred: String
+        titlevariant: String
+        titles: String
+        names: String
         type: [Concept!]! @relationship(type: "TYPE", direction: OUT)
         creators: [Agent!]! @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
+        subjectWork: [Work!]! @relationship(type: "SUBJECT", direction: OUT)
+        subjectAgent: [Agent!]! @relationship(type: "SUBJECT", direction: OUT)
+        hasPart: [Work!]! @relationship(type: "REALIZES", direction: OUT)
+        partOf: [Work!]! @relationship(type: "REALIZES", direction: OUT)
+        related: [Work!]! @relationship(type: "REALIZES", direction: OUT)
     }
     type Manifestation {
         uri: String
@@ -125,9 +87,7 @@ const driver = neo4j.driver(
 );
 
 //const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
-
 //console.log(neoSchema.schema);
-
 /*const server = new ApolloServer({
     schema: neoSchema.schema,
 });
@@ -174,4 +134,57 @@ neoSchema.getSchema().then((schema) => {
         WITH 'expression' as source, 'concept' as target, 'content' as key, c.uri as uri, c.label as value, count(*) as co
         order by key ascending, co descending
         return {source: source, target: target, key: key, value: value, uri: uri, count: co} as stat
+ */
+
+
+/*
+
+    type Stats{
+        source: String
+        target: String
+        key: String
+        value: String
+        uri: String
+        count: Int
+    }
+    type Query {
+        getStats(searchString: String): [Stats] @cypher(statement: """
+        CALL db.index.fulltext.queryNodes('expressions', $searchString) yield node as expression
+        CALL{
+        WITH expression
+        match (expression)-[r:REALIZES]->(w:Work)-[c:CREATOR]-(p:Agent)
+        return 'work' as source, 'person' as target, c.role as key, p.name as value, p.uri as uri
+        UNION
+        WITH expression
+        match (expression)-[c:CREATOR]->(p:Agent)
+        return 'expression' as source, 'person' as target, c.role as key, p.name as value, p.uri as uri
+        UNION
+        WITH expression
+        match (expression)<-[r:EMBODIES]->(m:Manifestation)-[c:CREATOR]-(p:Agent)
+        return 'manifestation' as source, 'person' as target, c.role as key, p.name as value, p.uri as uri
+        UNION
+        WITH expression
+        MATCH (expression)-[r:REALIZES]->(w:Work)-[t:TYPE]->(c:Concept)
+        return 'expression' as source, 'concept' as target, 'type' as key, c.label as value, c.uri as uri
+        UNION
+        WITH expression
+        MATCH (expression)-[r:CONTENT]->(c:Concept)
+        return 'expression' as source, 'concept' as target, 'content' as key, c.label as value, c.uri as uri
+        UNION
+        WITH expression
+        MATCH (expression)-[r:LANGUAGE]->(c:Concept)
+        return 'expression' as source, 'concept' as target, 'language' as key, c.label as value, c.uri as uri
+        UNION
+        WITH expression
+        MATCH (expression)<-[r:EMBODIES]->(m:Manifestation)-[rm:MEDIATYPE]->(c:Concept)
+        return 'expression' as source, 'concept' as target, 'media' as key, c.label as value, c.uri as uri
+        UNION
+        WITH expression
+        MATCH (expression)<-[r:EMBODIES]->(m:Manifestation)-[rc:CARRIER]->(c:Concept)
+        return 'expression' as source, 'concept' as target, 'carrier' as key, c.label as value, c.uri as uri
+        }
+        return {source: source, target: target, key: key, value: value, uri: uri, count: count(*)} as stat
+        order by stat.source, stat.target, stat.key, stat.count descending
+        """)
+    }
  */

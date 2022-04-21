@@ -35,7 +35,7 @@
       <rdfs:label>Gaiman, Neil</rdfs:label>
       <rdaad:P50339>1960-</rdaad:P50339>
    </rdac:C10002>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/310504431/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/310504431/exp/eng/1020">
       <rdaed:P20316>Anansi boys</rdaed:P20316>
       <rdaed:P20312>Anansi boys</rdaed:P20312>
       <rdfs:label>Anansi boys / eng / text</rdfs:label>
@@ -43,7 +43,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/310504431"/>
    </rdac:C10006>
-   <rdac:C10007 rdf:about="http://example.org/Anansiboys-d7e57">
+   <rdac:C10007 rdf:about="http://example.org/Anansiboys-d7e58">
       <rdamd:P30156>Anansi boys</rdamd:P30156>
       <rdamd:P30117>Neil Gaiman</rdamd:P30117>
       <rdamd:P30088>London</rdamd:P30088>
@@ -58,7 +58,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310504431/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310504431/exp/eng/1020"/>
    </rdac:C10007>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/eng">
       <rdfs:label>eng</rdfs:label>

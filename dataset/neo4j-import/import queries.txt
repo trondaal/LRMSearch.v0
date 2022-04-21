@@ -105,7 +105,7 @@ MATCH (e:Expression)-[:CREATOR]-(a:Agent) where a.name IS NOT NULL
 WITH e, a,
 CASE
     WHEN e.names IS NULL then a.name
-    ELSE e.name + " : " + a.name
+    ELSE e.names + " : " + a.name
 END AS names
 set e.names = names;
 
@@ -113,7 +113,7 @@ MATCH (e:Expression)-[:REALIZES]-(w:Work)-[:CREATOR]-(a:Agent) where a.name IS N
 WITH e, a,
 CASE
     WHEN e.names IS NULL then a.name
-    ELSE e.name + " : " + a.name
+    ELSE e.names + " : " + a.name
 END AS names
 set e.names = names;
 
@@ -121,7 +121,7 @@ MATCH (e:Expression)-[:EMBODIES]-(m:Manifestation)-[:CREATOR]-(a:Agent) where a.
 WITH e, a,
 CASE
     WHEN e.names IS NULL then a.name
-    ELSE e.name + " : " + a.name
+    ELSE e.names + " : " + a.name
 END AS names
 set e.names = names;
 
@@ -129,7 +129,7 @@ MATCH (e:Expression)-[:REALIZES]-(w:Work)-[:SUBJECT]-(a:Agent) where a.name IS N
 WITH e, a,
 CASE
     WHEN e.names IS NULL then a.name
-    ELSE e.name + " : " + a.name
+    ELSE e.names + " : " + a.name
 END AS names
 set e.names = names;
 
@@ -137,7 +137,7 @@ MATCH (e:Expression)-[:REALIZES]-(w:Work)-[:RELATED]->(:Work)-[:CREATOR]-(a:Agen
 WITH e, a,
 CASE
     WHEN e.names IS NULL then a.name
-    ELSE e.name + " : " + a.name
+    ELSE e.names + " : " + a.name
 END AS names
 set e.names = names;
 
@@ -145,7 +145,7 @@ MATCH (e:Expression)-[:REALIZES]-(w:Work)-[:PARTOF]-(:Work)-[:CREATOR]-(a:Agent)
 WITH e, a,
 CASE
     WHEN e.names IS NULL then a.name
-    ELSE e.name + " : " + a.name
+    ELSE e.names + " : " + a.name
 END AS names
 set e.names = names;
 
@@ -212,7 +212,7 @@ MATCH (w:Work)-[:CREATOR]-(a:Agent) where a.name IS NOT NULL
 WITH w, a,
 CASE
     WHEN w.names IS NULL then a.name
-    ELSE w.name + " : " + a.name
+    ELSE w.names + " : " + a.name
 END AS names
 set w.names = names;
 
@@ -220,7 +220,7 @@ MATCH (w:Work)<-[:REALIZES]-(e:Expression)-[:CREATOR]-(a:Agent) where a.name IS 
 WITH w, a,
 CASE
     WHEN w.names IS NULL then a.name
-    ELSE w.name + " : " + a.name
+    ELSE w.names + " : " + a.name
 END AS names
 set w.names = names;
 
@@ -228,7 +228,7 @@ MATCH (w:Work)<-[:REALIZES]-(e:Expression)-[:EMBODIES]-(m:Manifestation)-[:CREAT
 WITH w, a,
 CASE
     WHEN w.names IS NULL then a.name
-    ELSE w.name + " : " + a.name
+    ELSE w.names + " : " + a.name
 END AS names
 set w.names = names;
 
@@ -236,7 +236,7 @@ MATCH (w:Work)-[:SUBJECT]-(a:Agent) where a.name IS NOT NULL
 WITH w, a,
 CASE
     WHEN w.names IS NULL then a.name
-    ELSE w.name + " : " + a.name
+    ELSE w.names + " : " + a.name
 END AS names
 set w.names = names;
 
@@ -244,7 +244,7 @@ MATCH (w:Work)-[:RELATED]->(:Work)-[:CREATOR]-(a:Agent) where a.name IS NOT NULL
 WITH w, a,
 CASE
     WHEN w.names IS NULL then a.name
-    ELSE w.name + " : " + a.name
+    ELSE w.names + " : " + a.name
 END AS names
 set w.names = names;
 
@@ -252,7 +252,7 @@ MATCH (w:Work)-[:PARTOF]-(:Work)-[:CREATOR]-(a:Agent) where a.name IS NOT NULL
 WITH w, a,
 CASE
     WHEN w.names IS NULL then a.name
-    ELSE w.name + " : " + a.name
+    ELSE w.names + " : " + a.name
 END AS names
 set w.names = names;
 

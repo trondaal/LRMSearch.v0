@@ -322,6 +322,13 @@
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/186192338"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/309258229/eng/1020">
+      <rdaed:P20312>Death on the Nile</rdaed:P20312>
+      <rdfs:label>Death on the Nile / eng / text</rdfs:label>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/309258229"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/309258229/exp/eng/1020">
       <rdaed:P20316>Death on the Nile</rdaed:P20316>
       <rdaed:P20312>Death on the Nile</rdaed:P20312>
       <rdfs:label>Death on the Nile / eng / text</rdfs:label>
@@ -329,12 +336,13 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/309258229"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/309258229/nor/1013/226306913/51776002">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/309258229/exp/nob/nor/1013/226306913/51776002">
       <rdaed:P20316>Death on the Nile</rdaed:P20316>
       <rdaed:P20312>Mord på Nilen</rdaed:P20312>
       <rdfs:label>Mord på Nilen / nor / spoken word</rdfs:label>
       <rdaed:P20315>Mord på Nilen</rdaed:P20315>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1013"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nob"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
       <rdaeo:P20022 rdf:resource="http://viaf.org/viaf/226306913"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/51776002"/>
@@ -347,7 +355,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/310912914"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/37144221/deathbeyondthenile/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/37144221/deathbeyondthenile/exp/eng/1020">
       <rdaed:P20316>Death beyond the Nile</rdaed:P20316>
       <rdaed:P20312>Death beyond the Nile</rdaed:P20312>
       <rdfs:label>Death beyond the Nile / eng / text</rdfs:label>
@@ -355,7 +363,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/37144221/deathbeyondthenile"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/3974161575638204730004/nor/1014/1020/72145970376732252972">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/3974161575638204730004/exp/nor/1014/1020/72145970376732252972">
       <rdaed:P20316>Hercule Poirot : mort sur le Nil</rdaed:P20316>
       <rdaed:P20312>Hercule Poirot : mord på Nilen</rdaed:P20312>
       <rdfs:label>Hercule Poirot / nor / stillbilde / tekst</rdfs:label>
@@ -367,7 +375,7 @@
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/3974161575638204730004"/>
       <rdaeo:P20283 rdf:resource="http://viaf.org/viaf/54153530980048702386"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/91236070/lifeanddeathonthenile/eng/1002/1014/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/91236070/lifeanddeathonthenile/exp/eng/1002/1014/1020">
       <rdaed:P20316>Life and death on the Nile</rdaed:P20316>
       <rdaed:P20312>Life and death on the Nile : a bioethnography of three ancient Nubian communities</rdaed:P20312>
       <rdfs:label>Life and death on the Nile / eng / cartographic image / still image / text</rdfs:label>
@@ -377,11 +385,12 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q1059914/mul/1023">
+   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q1059914/exp/eng/mul/1023">
       <rdaed:P20316>Death on the Nile</rdaed:P20316>
       <rdaed:P20312>Death on the Nile</rdaed:P20312>
       <rdfs:label>Death on the Nile / mul / two-dimensional moving image</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/mul"/>
       <rdaeo:P20012 rdf:resource="http://www.wikidata.org/entity/Q55796"/>
       <rdaeo:P20012 rdf:resource="http://www.wikidata.org/entity/Q71206"/>
@@ -402,7 +411,7 @@
       <rdaeo:P20055 rdf:resource="http://www.wikidata.org/entity/Q18628914"/>
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q1059914"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q214665/lovetheme/1010">
+   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q214665/lovetheme/exp/1010">
       <rdaed:P20316>Death on the Nile</rdaed:P20316>
       <rdaed:P20312>Love theme from Death on the Nile. (Piano solo). By N. Rota</rdaed:P20312>
       <rdfs:label>Love theme from Death on the Nile. (Piano solo). By N. Rota / notated music</rdfs:label>
@@ -440,7 +449,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q214665/lovetheme/1010"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q214665/lovetheme/exp/1010"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/990406928844702202">
       <rdamd:P30156>Hun fulgte etter</rdamd:P30156>
@@ -594,7 +603,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q1059914/mul/1023"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q1059914/exp/eng/mul/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/a4616064">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
@@ -743,7 +752,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0006168957">
       <rdamd:P30004>ISBN 0006168957 (pbk) :</rdamd:P30004>
@@ -875,16 +884,16 @@
       <rdaxd:P00018>isbn-0333480872</rdaxd:P00018>
       <rdfs:label>ISBN0333480872</rdfs:label>
       <rdamd:P30156>Death beyond the Nile</rdamd:P30156>
-      <rdamd:P30083>London</rdamd:P30083>
+      <rdamd:P30088>London</rdamd:P30088>
+      <rdamd:P30111>London : Macmillan, 1988.</rdamd:P30111>
       <rdamd:P30083>Macmillan</rdamd:P30083>
-      <rdamd:P30111>: London : Macmillan, 1988.</rdamd:P30111>
       <rdamd:P30011>1988</rdamd:P30011>
       <rdamd:P30182>[224] pages.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/37144221/deathbeyondthenile/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/37144221/deathbeyondthenile/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0573695989">
       <rdamd:P30004>ISBN 0573695989 (pbk) :</rdamd:P30004>
@@ -922,7 +931,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/37144221/deathbeyondthenile/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/37144221/deathbeyondthenile/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0813052866">
       <rdamd:P30004>ISBN 0-8130-5286-6</rdamd:P30004>
@@ -958,7 +967,7 @@
       <rdamd:P30106>Ulverscroft large print series. mystery</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-1444802585">
       <rdamd:P30004>ISBN 1444802585 (pbk.) :</rdamd:P30004>
@@ -978,7 +987,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-3110421453">
       <rdamd:P30004>ISBN 3-11-042145-3</rdamd:P30004>
@@ -1032,7 +1041,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1013</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1013"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/nor/1013/226306913/51776002"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/nob/nor/1013/226306913/51776002"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8252545939">
       <rdamd:P30004>ISBN 8252545939</rdamd:P30004>
@@ -1467,7 +1476,7 @@
       <rdamd:P30106>Poirot</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780813053196">
       <rdamd:P30004>ISBN 9780813053196 (ebook) :</rdamd:P30004>
@@ -1485,7 +1494,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile/eng/1002/1014/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile/exp/eng/1002/1014/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780813054452">
       <rdamd:P30004>ISBN 9780813054452</rdamd:P30004>
@@ -1504,7 +1513,7 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile/eng/1002/1014/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile/exp/eng/1002/1014/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781405867795">
       <rdamd:P30004>ISBN 9781405867795</rdamd:P30004>
@@ -1562,7 +1571,7 @@
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/3974161575638204730004/nor/1014/1020/72145970376732252972"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/3974161575638204730004/exp/nor/1014/1020/72145970376732252972"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788418572067">
       <rdamd:P30004>ISBN 978-84-18572-06-7</rdamd:P30004>

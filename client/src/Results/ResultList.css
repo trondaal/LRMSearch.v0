@@ -33,9 +33,11 @@
 
 .selected {
     display: list-item;          /* This has to be "list-item"                                               */
-    list-style-type: '\2714\0020';      /* 2714   2705  */
+    /*list-style-type: '\2714\0020';   */   /* 2714   2705  */
+    list-style-image:url('../checkmark.svg');
     list-style-position: outside;
-    align-content: center;/* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+    align-content: center;
+    /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }
 
 .resultitem {
