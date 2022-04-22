@@ -32,7 +32,12 @@ export const showFiltersState = selector({
     get: ({get}) => {
         const config = get(configState);
         if (config.includes("Filters")){
-            return true;
+            const params = new URLSearchParams(window.location.search)
+            if (params.get("filters") == "false"){
+                return false;
+            } else{
+                return true;
+            }
         }else{
             return false;
         }

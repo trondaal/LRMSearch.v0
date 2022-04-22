@@ -47,6 +47,9 @@ export default function MyApp() {
     const setChecked = useSetRecoilState(filterState);
     const setSelected = useSetRecoilState(selectedState);
 
+    const params = new URLSearchParams(window.location.search)
+    const uriquery = params.get("query") || "Hobbit";
+
     const handleClearFilters = (event) => {
         setChecked([]);
         selectedVar(new Set([]));
