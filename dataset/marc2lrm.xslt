@@ -143,41 +143,6 @@
                            select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
             <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
             <xsl:attribute name="templatename" select="$this_template_name"/>
-            <xsl:if test="$include_counters">
-               <xsl:attribute name="c" select="1"/>
-            </xsl:if>
-            <xsl:if test="$include_anchorvalues">
-               <xsl:element name="frbrizer:anchorvalue">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="."/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_templateinfo">
-               <xsl:element name="frbrizer:templatename">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="$this_template_name"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_internal_key">
-               <xsl:element name="frbrizer:intkey">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_MARC001_in_entityrecord">
-               <xsl:element name="frbrizer:mid">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:attribute name="i" select="$marcid"/>
-               </xsl:element>
-            </xsl:if>
             <xsl:for-each select="$record/*:controlfield[@tag='008'][$this_field_position]">
                <xsl:copy>
                   <xsl:call-template name="copy-content">
@@ -212,8 +177,12 @@
          <xsl:for-each select="node()[@code=('a','d')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'a, d'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'a, d'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -223,41 +192,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='041'][generate-id(.) = generate-id($anchor_field)][*:subfield/@code = ('a','d')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -281,14 +215,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -321,10 +247,10 @@
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="this_subfield_code"
                           as="xs:string"
-                          select="'b, e, f, g, i, j, k, l, m, n, p, q, r, t'"/>
+                          select="$this_subfield/@code"/>
             <xsl:variable name="anchor_subfield_code"
                           as="xs:string"
-                          select="'b, e, f, g, i, j, k, l, m, n, p, q, r, t'"/>
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -334,41 +260,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='041'][generate-id(.) = generate-id($anchor_field)][*:subfield/@code = ('b','e','f','g','i','j','k','l','m','n','p','q','r','t')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -500,14 +391,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -536,8 +419,12 @@
          <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'4'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'4'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -547,41 +434,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10002'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='100'][. eq $this_field][*:subfield/@code = ('a','d','1')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -622,14 +474,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='110'][. eq $this_field][*:subfield/@code = ('a','d','1')]">
@@ -672,14 +516,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='111'][. eq $this_field][*:subfield/@code = ('a','d','1')]">
@@ -722,14 +558,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='700'][. eq $this_field][*:subfield/@code = ('a','d','1')]">
@@ -772,14 +600,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='710'][. eq $this_field][*:subfield/@code = ('a','d','1')]">
@@ -822,14 +642,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='711'][. eq $this_field][*:subfield/@code = ('a','d','1')]">
@@ -872,14 +684,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -908,8 +712,12 @@
          <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'1'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'1'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -919,41 +727,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10006'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='130'][*:subfield/@code = ('a')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -968,14 +741,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='240'][*:subfield/@code = ('a')]">
@@ -992,14 +757,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='740'][frbrizer:linked($anchor_field, ., true())][*:subfield/@code = ('a')]">
@@ -1016,14 +773,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='245'][*:subfield/@code = ('a')]">
@@ -1050,14 +799,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/node()[@tag=('130','240')][*:subfield/@code = '1']">
@@ -1070,29 +811,20 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
                      <xsl:if test="($target_field = $this_field)">
                         <frbrizer:relationship>
                            <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/e/object/P20231'"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1108,29 +840,20 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
                      <xsl:if test="(starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked($anchor_field, $target_field, false()))">
                         <frbrizer:relationship>
                            <xsl:attribute name="type" select="$target_subfield"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1148,22 +871,11 @@
                      <frbrizer:relationship>
                         <xsl:attribute name="type"
                                        select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -1178,7 +890,9 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('a','d')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'a, d'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
@@ -1186,22 +900,11 @@
                         <frbrizer:relationship>
                            <xsl:attribute name="type"
                                           select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1219,7 +922,7 @@
                      <xsl:variable name="target_subfield" select="."/>
                      <xsl:variable name="target_subfield_code"
                                    as="xs:string"
-                                   select="'b, e, f, g, i, j, k, l, m, n, p, q, r, t'"/>
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
@@ -1227,22 +930,11 @@
                         <frbrizer:relationship>
                            <xsl:attribute name="type"
                                           select="'http://rdaregistry.info/Elements/e/datatype/P20065'"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1258,7 +950,9 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
@@ -1266,22 +960,11 @@
                         <frbrizer:relationship>
                            <xsl:attribute name="type"
                                           select="'http://rdaregistry.info/Elements/e/datatype/P20001'"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1313,8 +996,12 @@
          <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'1'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'1'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -1324,41 +1011,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10001'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='130'][. eq $this_field][*:subfield/@code = ('a','f','n','1')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -1409,14 +1061,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='240'][. eq $this_field][*:subfield/@code = ('a','f','n','1')]">
@@ -1469,14 +1113,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/node()[@tag=('100','110','111','700','710','711')][exists(*:subfield[@code = '1']/starts-with(., 'http')) and not(*:subfield/@code = 't')]">
@@ -1489,29 +1125,20 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
                      <xsl:if test="(starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked($anchor_field, $target_field, false()))">
                         <frbrizer:relationship>
                            <xsl:attribute name="type" select="$target_subfield"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1528,22 +1155,11 @@
                   <xsl:if test="(not($target_field/*:subfield/@code = 't') and frbrizer:linked($anchor_field, $target_field, false()))">
                      <frbrizer:relationship>
                         <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10319'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -1558,29 +1174,20 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
                      <xsl:if test="(not($this_field/*:subfield/@code = '1') or not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1'])  and frbrizer:linked($anchor_field, $target_field, false()))">
                         <frbrizer:relationship>
                            <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10257'"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1596,29 +1203,20 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
                      <xsl:if test="(starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false()))">
                         <frbrizer:relationship>
                            <xsl:attribute name="type" select="$target_subfield"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1634,29 +1232,20 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('4')][starts-with(., 'http') and exists($this_field/*:subfield[@code = '1']/starts-with(., 'http')) ]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
                      <xsl:if test="(starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false()))">
                         <frbrizer:relationship>
                            <xsl:attribute name="type" select="$target_subfield"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1672,28 +1261,19 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
                      <frbrizer:relationship>
                         <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10019'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:for-each>
@@ -1708,7 +1288,9 @@
                                 select="string(position())"/>
                   <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                      <xsl:variable name="target_subfield" select="."/>
-                     <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
+                     <xsl:variable name="target_subfield_code"
+                                   as="xs:string"
+                                   select="$target_subfield/@code"/>
                      <xsl:variable name="target_subfield_position"
                                    as="xs:string"
                                    select="string(position())"/>
@@ -1716,22 +1298,11 @@
                         <frbrizer:relationship>
                            <xsl:attribute name="type"
                                           select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
                            <xsl:attribute name="href"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                            <xsl:if test="$include_internal_key">
                               <xsl:attribute name="intkey"
                                              select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                           </xsl:if>
-                           <xsl:if test="$include_MARC001_in_relationships">
-                              <xsl:element name="frbrizer:mid">
-                                 <xsl:attribute name="i" select="$marcid"/>
-                                 <xsl:if test="$include_counters">
-                                    <xsl:attribute name="c" select="1"/>
-                                 </xsl:if>
-                              </xsl:element>
                            </xsl:if>
                         </frbrizer:relationship>
                      </xsl:if>
@@ -1765,41 +1336,6 @@
                            select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
             <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10007'"/>
             <xsl:attribute name="templatename" select="$this_template_name"/>
-            <xsl:if test="$include_counters">
-               <xsl:attribute name="c" select="1"/>
-            </xsl:if>
-            <xsl:if test="$include_anchorvalues">
-               <xsl:element name="frbrizer:anchorvalue">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="."/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_templateinfo">
-               <xsl:element name="frbrizer:templatename">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="$this_template_name"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_internal_key">
-               <xsl:element name="frbrizer:intkey">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_MARC001_in_entityrecord">
-               <xsl:element name="frbrizer:mid">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:attribute name="i" select="$marcid"/>
-               </xsl:element>
-            </xsl:if>
             <xsl:for-each select="$record/*:controlfield[@tag='001']">
                <xsl:copy>
                   <xsl:call-template name="copy-content">
@@ -1859,14 +1395,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='022'][*:subfield/@code = ('a')]">
@@ -1892,14 +1420,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='024'][*:subfield/@code = ('a')]">
@@ -1926,14 +1446,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='245'][. = $this_field][*:subfield/@code = ('a','b','c','n','p')]">
@@ -1986,14 +1498,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='250'][*:subfield/@code = ('a')]">
@@ -2010,14 +1514,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='260'][*:subfield/@code = ('x','a','b','c','e','f','g')]">
@@ -2115,14 +1611,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='264'][@ind2='0'][*:subfield/@code = ('a','b','c')]">
@@ -2166,14 +1654,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='264'][@ind2='1'][*:subfield/@code = ('a','b','c')]">
@@ -2217,14 +1697,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='264'][@ind2='2'][*:subfield/@code = ('a','b','c')]">
@@ -2268,14 +1740,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='264'][@ind2='3'][*:subfield/@code = ('a','b','c')]">
@@ -2319,14 +1783,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='264'][@ind2='4'][*:subfield/@code = ('c')]">
@@ -2343,14 +1799,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='300'][*:subfield/@code = ('a')]">
@@ -2367,14 +1815,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='337'][*:subfield/@code = ('0')]">
@@ -2391,14 +1831,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='338'][*:subfield/@code = ('0')]">
@@ -2415,14 +1847,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='490'][*:subfield/@code = ('a','v')]">
@@ -2448,14 +1872,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='773'][*:subfield/@code = ('t')]">
@@ -2473,14 +1889,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/node()[@tag=('100','110','111','700','710','711')][exists(*:subfield[@code = '1']/starts-with(., 'http')) and not(*:subfield/@code = 't')]">
@@ -2493,29 +1901,20 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
                   <xsl:if test="(starts-with($target_subfield, 'http://rdaregistry.info/Elements/m/') and frbrizer:linked($anchor_field, $target_field, false()))">
                      <frbrizer:relationship>
                         <xsl:attribute name="type" select="$target_subfield"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -2531,28 +1930,19 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
                   <frbrizer:relationship>
                      <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/m/object/P30139'"/>
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
                      <xsl:attribute name="href"
                                     select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                      <xsl:if test="$include_internal_key">
                         <xsl:attribute name="intkey"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                     </xsl:if>
-                     <xsl:if test="$include_MARC001_in_relationships">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
                      </xsl:if>
                   </frbrizer:relationship>
                </xsl:for-each>
@@ -2567,22 +1957,11 @@
                              select="string(position())"/>
                <frbrizer:relationship>
                   <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/m/object/P30139'"/>
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
                   <xsl:attribute name="href"
                                  select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
                   <xsl:if test="$include_internal_key">
                      <xsl:attribute name="intkey"
                                     select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
-                  </xsl:if>
-                  <xsl:if test="$include_MARC001_in_relationships">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
                   </xsl:if>
                </frbrizer:relationship>
             </xsl:for-each>
@@ -2596,7 +1975,9 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
@@ -2604,22 +1985,11 @@
                      <frbrizer:relationship>
                         <xsl:attribute name="type"
                                        select="'http://rdaregistry.info/Elements/m/datatype/P30002'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -2635,7 +2005,9 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
@@ -2643,22 +2015,11 @@
                      <frbrizer:relationship>
                         <xsl:attribute name="type"
                                        select="'http://rdaregistry.info/Elements/m/datatype/P30001'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -2692,41 +2053,6 @@
             <xsl:attribute name="type"
                            select="if ($this_field/@tag = '600') then 'http://rdaregistry.info/Elements/c/C10002' else if ($this_field/@tag = '610') then 'http://rdaregistry.info/Elements/c/C10005' else if ($this_field/@tag = '611') then 'http://rdaregistry.info/Elements/c/C10011' else 'http://rdaregistry.info/Elements/c/C10002'"/>
             <xsl:attribute name="templatename" select="$this_template_name"/>
-            <xsl:if test="$include_counters">
-               <xsl:attribute name="c" select="1"/>
-            </xsl:if>
-            <xsl:if test="$include_anchorvalues">
-               <xsl:element name="frbrizer:anchorvalue">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="."/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_templateinfo">
-               <xsl:element name="frbrizer:templatename">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="$this_template_name"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_internal_key">
-               <xsl:element name="frbrizer:intkey">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_MARC001_in_entityrecord">
-               <xsl:element name="frbrizer:mid">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:attribute name="i" select="$marcid"/>
-               </xsl:element>
-            </xsl:if>
             <xsl:for-each select="$record/*:datafield[@tag='600'][. eq $this_field][*:subfield/@code = ('a','d','1')]">
                <xsl:copy>
                   <xsl:call-template name="copy-attributes"/>
@@ -2767,14 +2093,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='610'][. eq $this_field][*:subfield/@code = ('a','d','1')]">
@@ -2817,14 +2135,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='611'][. eq $this_field][*:subfield/@code = ('a','d','1')]">
@@ -2867,14 +2177,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
          </xsl:element>
@@ -2902,8 +2204,12 @@
          <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'1'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'1'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -2913,41 +2219,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10001'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='600'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -2998,14 +2269,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='610'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
@@ -3058,14 +2321,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='611'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
@@ -3118,14 +2373,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='630'][. eq $this_field][*:subfield/@code = ('a','f','n','1')]">
@@ -3178,14 +2425,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -3216,41 +2455,6 @@
                            select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
             <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10006'"/>
             <xsl:attribute name="templatename" select="$this_template_name"/>
-            <xsl:if test="$include_counters">
-               <xsl:attribute name="c" select="1"/>
-            </xsl:if>
-            <xsl:if test="$include_anchorvalues">
-               <xsl:element name="frbrizer:anchorvalue">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="."/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_templateinfo">
-               <xsl:element name="frbrizer:templatename">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="$this_template_name"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_internal_key">
-               <xsl:element name="frbrizer:intkey">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_MARC001_in_entityrecord">
-               <xsl:element name="frbrizer:mid">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:attribute name="i" select="$marcid"/>
-               </xsl:element>
-            </xsl:if>
             <xsl:for-each select="$record/*:datafield[@tag='700'][. eq $this_field][*:subfield/@code = ('t','l')]">
                <xsl:copy>
                   <xsl:call-template name="copy-attributes"/>
@@ -3283,14 +2487,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='710'][. eq $this_field][*:subfield/@code = ('t','l')]">
@@ -3324,14 +2520,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='711'][. eq $this_field][*:subfield/@code = ('t','l')]">
@@ -3365,14 +2553,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='730'][. eq $this_field][*:subfield/@code = ('a','l')]">
@@ -3406,14 +2586,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='740'][frbrizer:linked($anchor_field, ., true())][*:subfield/@code = ('a')]">
@@ -3430,14 +2602,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/node()[@tag=('700','710','711','730')][exists(*:subfield[@code = '1']/starts-with(., 'http'))  and @ind2='2' and (if (@tag eq '730') then true() else *:subfield/@code = 't')]">
@@ -3451,22 +2615,11 @@
                <xsl:if test="($target_field = $this_field)">
                   <frbrizer:relationship>
                      <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/e/object/P20231'"/>
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
                      <xsl:attribute name="href"
                                     select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
                      <xsl:if test="$include_internal_key">
                         <xsl:attribute name="intkey"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
-                     </xsl:if>
-                     <xsl:if test="$include_MARC001_in_relationships">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
                      </xsl:if>
                   </frbrizer:relationship>
                </xsl:if>
@@ -3481,33 +2634,45 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
                   <xsl:if test="(starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked($anchor_field, $target_field, false()))">
                      <frbrizer:relationship>
                         <xsl:attribute name="type" select="$target_subfield"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
-                        </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
                </xsl:for-each>
+            </xsl:for-each>
+            <xsl:for-each select="$record/node()[@tag=('008')][string-length(.) eq 40 and matches(substring(., 36, 3), '[a-z][a-z][a-z]')]">
+               <xsl:variable name="target_template_name" select="'MARC008language'"/>
+               <xsl:variable name="target_tag_value" select="'008'"/>
+               <xsl:variable name="target_field"
+                             select="(ancestor-or-self::*:datafield, ancestor-or-self::*:controlfield)"/>
+               <xsl:variable name="target_field_position"
+                             as="xs:string"
+                             select="string(position())"/>
+               <xsl:if test="(frbrizer:linked($anchor_field, $target_field, false()))">
+                  <frbrizer:relationship>
+                     <xsl:attribute name="type"
+                                    select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
+                     <xsl:attribute name="href"
+                                    select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
+                     <xsl:if test="$include_internal_key">
+                        <xsl:attribute name="intkey"
+                                       select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
+                     </xsl:if>
+                  </frbrizer:relationship>
+               </xsl:if>
             </xsl:for-each>
             <xsl:for-each select="$record/node()[@tag=('041')]">
                <xsl:variable name="target_template_name" select="'MARC041'"/>
@@ -3519,7 +2684,9 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('a','d')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'a, d'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
@@ -3527,22 +2694,11 @@
                      <frbrizer:relationship>
                         <xsl:attribute name="type"
                                        select="'http://rdaregistry.info/Elements/e/datatype/P20006'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -3560,7 +2716,7 @@
                   <xsl:variable name="target_subfield" select="."/>
                   <xsl:variable name="target_subfield_code"
                                 as="xs:string"
-                                select="'b, e, f, g, i, j, k, l, m, n, p, q, r, t'"/>
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
@@ -3568,22 +2724,11 @@
                      <frbrizer:relationship>
                         <xsl:attribute name="type"
                                        select="'http://rdaregistry.info/Elements/e/datatype/P20065'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -3599,7 +2744,9 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
@@ -3607,22 +2754,11 @@
                      <frbrizer:relationship>
                         <xsl:attribute name="type"
                                        select="'http://rdaregistry.info/Elements/e/datatype/P20001'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -3653,8 +2789,12 @@
          <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'4'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'4'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -3664,41 +2804,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10001'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='700'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -3749,14 +2854,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='710'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
@@ -3809,14 +2906,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='711'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
@@ -3869,14 +2958,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='730'][. eq $this_field][*:subfield/@code = ('a','f','n','1')]">
@@ -3929,14 +3010,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -3967,41 +3040,6 @@
                            select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
             <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10001'"/>
             <xsl:attribute name="templatename" select="$this_template_name"/>
-            <xsl:if test="$include_counters">
-               <xsl:attribute name="c" select="1"/>
-            </xsl:if>
-            <xsl:if test="$include_anchorvalues">
-               <xsl:element name="frbrizer:anchorvalue">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="."/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_templateinfo">
-               <xsl:element name="frbrizer:templatename">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="$this_template_name"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_internal_key">
-               <xsl:element name="frbrizer:intkey">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_field_position), ':')"/>
-               </xsl:element>
-            </xsl:if>
-            <xsl:if test="$include_MARC001_in_entityrecord">
-               <xsl:element name="frbrizer:mid">
-                  <xsl:if test="$include_counters">
-                     <xsl:attribute name="c" select="1"/>
-                  </xsl:if>
-                  <xsl:attribute name="i" select="$marcid"/>
-               </xsl:element>
-            </xsl:if>
             <xsl:for-each select="$record/*:datafield[@tag='700'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
                <xsl:copy>
                   <xsl:call-template name="copy-attributes"/>
@@ -4052,14 +3090,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='710'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
@@ -4112,14 +3142,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='711'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
@@ -4172,14 +3194,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/*:datafield[@tag='730'][. eq $this_field][*:subfield/@code = ('a','f','n','1')]">
@@ -4232,14 +3246,6 @@
                         </xsl:copy>
                      </xsl:if>
                   </xsl:for-each>
-                  <xsl:if test="$include_MARC001_in_subfield">
-                     <xsl:element name="frbrizer:mid">
-                        <xsl:attribute name="i" select="$marcid"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
-                     </xsl:element>
-                  </xsl:if>
                </xsl:copy>
             </xsl:for-each>
             <xsl:for-each select="$record/node()[@tag=('130','240')][*:subfield/@code = '1']">
@@ -4252,28 +3258,19 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
                   <frbrizer:relationship>
                      <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10019'"/>
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
                      <xsl:attribute name="href"
                                     select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                      <xsl:if test="$include_internal_key">
                         <xsl:attribute name="intkey"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                     </xsl:if>
-                     <xsl:if test="$include_MARC001_in_relationships">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
                      </xsl:if>
                   </frbrizer:relationship>
                </xsl:for-each>
@@ -4289,22 +3286,11 @@
                <xsl:if test="(frbrizer:linked($anchor_field, $target_field, false()))">
                   <frbrizer:relationship>
                      <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10319'"/>
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
                      <xsl:attribute name="href"
                                     select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
                      <xsl:if test="$include_internal_key">
                         <xsl:attribute name="intkey"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_field_position), ':')"/>
-                     </xsl:if>
-                     <xsl:if test="$include_MARC001_in_relationships">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
                      </xsl:if>
                   </frbrizer:relationship>
                </xsl:if>
@@ -4319,29 +3305,20 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'1'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
                   <xsl:if test="(frbrizer:linked($anchor_field, $target_field, false()) and not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1']))">
                      <frbrizer:relationship>
                         <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/w/object/P10257'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -4357,29 +3334,20 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
                   <xsl:if test="(starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false()))">
                      <frbrizer:relationship>
                         <xsl:attribute name="type" select="$target_subfield"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -4395,29 +3363,20 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('4')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
                   <xsl:if test="(starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false()))">
                      <frbrizer:relationship>
                         <xsl:attribute name="type" select="$target_subfield"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -4433,29 +3392,20 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('4')][starts-with(., 'http') and exists($this_field/*:subfield[@code = '1']/starts-with(., 'http')) ]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'4'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
                   <xsl:if test="(starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked($anchor_field, $target_field, false()))">
                      <frbrizer:relationship>
                         <xsl:attribute name="type" select="$target_subfield"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -4471,7 +3421,9 @@
                              select="string(position())"/>
                <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
                   <xsl:variable name="target_subfield" select="."/>
-                  <xsl:variable name="target_subfield_code" as="xs:string" select="'0'"/>
+                  <xsl:variable name="target_subfield_code"
+                                as="xs:string"
+                                select="$target_subfield/@code"/>
                   <xsl:variable name="target_subfield_position"
                                 as="xs:string"
                                 select="string(position())"/>
@@ -4479,22 +3431,11 @@
                      <frbrizer:relationship>
                         <xsl:attribute name="type"
                                        select="'http://rdaregistry.info/Elements/w/datatype/P10004'"/>
-                        <xsl:if test="$include_counters">
-                           <xsl:attribute name="c" select="1"/>
-                        </xsl:if>
                         <xsl:attribute name="href"
                                        select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
                         <xsl:if test="$include_internal_key">
                            <xsl:attribute name="intkey"
                                           select="string-join(($record/@id,$target_template_name,$target_tag_value,$target_subfield_code,$target_field_position,$target_subfield_position), ':')"/>
-                        </xsl:if>
-                        <xsl:if test="$include_MARC001_in_relationships">
-                           <xsl:element name="frbrizer:mid">
-                              <xsl:attribute name="i" select="$marcid"/>
-                              <xsl:if test="$include_counters">
-                                 <xsl:attribute name="c" select="1"/>
-                              </xsl:if>
-                           </xsl:element>
                         </xsl:if>
                      </frbrizer:relationship>
                   </xsl:if>
@@ -4525,8 +3466,12 @@
          <xsl:for-each select="node()[@code=('4')][starts-with(., 'http') and exists($this_field/*:subfield[@code = '1']/starts-with(., 'http')) ]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'4'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'4'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -4536,41 +3481,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10001'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='758'][. = $this_field][*:subfield/@code = ('a','1')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -4593,14 +3503,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -4629,8 +3531,12 @@
          <xsl:for-each select="node()[@code=('1')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'1'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'1'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -4640,41 +3546,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://rdaregistry.info/Elements/c/C10001'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='800'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -4725,14 +3596,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='810'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
@@ -4785,14 +3648,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='811'][. eq $this_field][*:subfield/@code = ('t','f','n','1')]">
@@ -4845,14 +3700,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
                <xsl:for-each select="$record/*:datafield[@tag='830'][. eq $this_field][*:subfield/@code = ('a','f','n','1')]">
@@ -4905,14 +3752,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -4941,8 +3780,12 @@
          <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'0'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'0'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -4952,41 +3795,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='336'][generate-id(.) = generate-id($this_field)][*:subfield/@code = ('0')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -5001,14 +3809,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -5037,8 +3837,12 @@
          <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'0'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'0'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -5048,41 +3852,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='337'][generate-id(.) = generate-id($this_field)][*:subfield/@code = ('0')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -5097,14 +3866,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -5133,8 +3894,12 @@
          <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'0'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'0'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -5144,41 +3909,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='338'][generate-id(.) = generate-id($this_field)][*:subfield/@code = ('0')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -5193,14 +3923,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -5229,8 +3951,12 @@
          <xsl:for-each select="node()[@code=('0')][starts-with(., 'http')]">
             <xsl:variable name="this_subfield" select="(ancestor-or-self::*:subfield)"/>
             <xsl:variable name="anchor_subfield" select="(ancestor-or-self::*:subfield)"/>
-            <xsl:variable name="this_subfield_code" as="xs:string" select="'0'"/>
-            <xsl:variable name="anchor_subfield_code" as="xs:string" select="'0'"/>
+            <xsl:variable name="this_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
+            <xsl:variable name="anchor_subfield_code"
+                          as="xs:string"
+                          select="$this_subfield/@code"/>
             <xsl:variable name="this_subfield_position"
                           as="xs:string"
                           select="string(position())"/>
@@ -5240,41 +3966,6 @@
                               select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
                <xsl:attribute name="type" select="'http://www.w3.org/2004/02/skos/core#Concept'"/>
                <xsl:attribute name="templatename" select="$this_template_name"/>
-               <xsl:if test="$include_counters">
-                  <xsl:attribute name="c" select="1"/>
-               </xsl:if>
-               <xsl:if test="$include_anchorvalues">
-                  <xsl:element name="frbrizer:anchorvalue">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="."/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_templateinfo">
-                  <xsl:element name="frbrizer:templatename">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="$this_template_name"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_internal_key">
-                  <xsl:element name="frbrizer:intkey">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:value-of select="string-join(($record/@id,$this_template_name,$tag,$this_subfield_code,$this_field_position,$this_subfield_position), ':')"/>
-                  </xsl:element>
-               </xsl:if>
-               <xsl:if test="$include_MARC001_in_entityrecord">
-                  <xsl:element name="frbrizer:mid">
-                     <xsl:if test="$include_counters">
-                        <xsl:attribute name="c" select="1"/>
-                     </xsl:if>
-                     <xsl:attribute name="i" select="$marcid"/>
-                  </xsl:element>
-               </xsl:if>
                <xsl:for-each select="$record/*:datafield[@tag='380'][generate-id(.) = generate-id($this_field)][*:subfield/@code = ('0')]">
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
@@ -5289,14 +3980,6 @@
                            </xsl:copy>
                         </xsl:if>
                      </xsl:for-each>
-                     <xsl:if test="$include_MARC001_in_subfield">
-                        <xsl:element name="frbrizer:mid">
-                           <xsl:attribute name="i" select="$marcid"/>
-                           <xsl:if test="$include_counters">
-                              <xsl:attribute name="c" select="1"/>
-                           </xsl:if>
-                        </xsl:element>
-                     </xsl:if>
                   </xsl:copy>
                </xsl:for-each>
             </xsl:element>
@@ -5365,7 +4048,7 @@
                <xsl:when test="@templatename = 'MARC041additional'">
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
-                        <xsl:value-of select="frbrizer:sort-keys(concat('http://id.loc.gov/vocabulary/iso639-2/', (*:datafield[@tag=('041')]/*:subfield[@code=('a', 'd')])[1]))"/>
+                        <xsl:value-of select="frbrizer:sort-keys(concat('http://id.loc.gov/vocabulary/iso639-2/', (*:datafield[@tag=('041')]/*:subfield[@code=('b', 'e', 'f', 'g', 'i', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 't')])[1]))"/>
                      </xsl:variable>
                      <xsl:variable name="keyvalue"
                                    select="replace(string-join($key[. != ''], '/'), ' ', '')"/>
@@ -5485,7 +4168,7 @@
                      <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys((frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1])"/>
                         <xsl:value-of select="frbrizer:sort-keys('exp')"/>
-                        <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/'))"/>
+                        <xsl:value-of select="frbrizer:sort-keys(if (*:relationship[@type = 'http://rdaregistry.info/Elements/e/datatype/P20001']/@href = 'http://rdaregistry.info/termList/RDAContentType/1023') then () else string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/'))"/>
                         <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20001')]/@href), '/'))"/>
                         <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/'))"/>
                      </xsl:variable>
@@ -5510,6 +4193,7 @@
                   <xsl:element name="frbrizer:keyentry">
                      <xsl:variable name="key" as="xs:string*">
                         <xsl:value-of select="frbrizer:sort-keys((frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1])"/>
+                        <xsl:value-of select="frbrizer:sort-keys('exp')"/>
                         <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/'))"/>
                         <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20001')]/@href), '/'))"/>
                         <xsl:value-of select="frbrizer:sort-keys(string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/'))"/>
@@ -6165,9 +4849,12 @@
                 <xsl:if test="$datafield/*:subfield[@code='b']">
                     <xsl:value-of select="' : ' || replace($datafield/*:subfield[@code='b'], '[\s;:]+$', '')"/>
                 </xsl:if>
-                <xsl:if test="$datafield/*:subfield[@code='c']">
+                <!--<xsl:if test="$datafield/*:subfield[@code='c']">
                     <xsl:value-of select="' ; ' || replace($datafield/*:subfield[@code='c'], '[\s;:]+$', '')"/>
-                </xsl:if>
+                </xsl:if>-->
+                <xsl:for-each select="$datafield/*:subfield[@code='c']/replace(., '[\s\.;:]+$', '')">
+                    <xsl:value-of select="', ' || replace(string-join(., ' ; '), '[\s\.]+$', '')"/>
+                </xsl:for-each>
             </xsl:variable>
             <xsl:value-of select="replace(string-join($extent, ''), '[ \.]+$', '') || '.'"/>
         </xsl:function>
@@ -6203,8 +4890,8 @@
                         <xsl:for-each select="current-group()[@code = 'b']">
                             <xsl:value-of select="' : ' || replace(., '[\s,;:]+$', '')"/>
                         </xsl:for-each>
-                        <xsl:for-each select="current-group()[@code = 'c']">
-                            <xsl:value-of select="', ' || replace(., '[\s\.]+$', '')"/>
+                        <xsl:for-each select="current-group()[@code = 'c']/replace(., '[\s\.]+$', '')">
+                            <xsl:value-of select="', ' || replace(string-join(., ' ; '), '[\s\.]+$', '')"/>
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:value-of select="string-join($part, '')"/>
