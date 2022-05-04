@@ -113,7 +113,7 @@
             </datafield>
         </attributes>
         <key order="1">
-            <element>concat('http://id.loc.gov/vocabulary/iso639-2/', (*:datafield[@tag=('041')]/*:subfield[@code=('a', 'd')])[1])</element>
+            <element>concat('http://id.loc.gov/vocabulary/iso639-2/', (*:datafield[@tag=('041')]/*:subfield[@code=('b', 'e', 'f', 'g', 'i', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 't')])[1])</element>
         </key>
     </entity>
     
@@ -281,7 +281,7 @@
         <key order="2">
             <element>(frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1]</element>
             <element>'exp'</element>
-            <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/')</element>            
+            <element>if (*:relationship[@type = 'http://rdaregistry.info/Elements/e/datatype/P20001']/@href = 'http://rdaregistry.info/termList/RDAContentType/1023') then () else string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/')</element>            
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20001')]/@href), '/')</element>            
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/')</element>
         </key>
@@ -669,6 +669,7 @@
         </attributes>
         <key order="2">
             <element>(frbrizer:sort-relationships(*:relationship[@type = 'http://rdaregistry.info/Elements/e/object/P20231']/@href))[1]</element>
+            <element>'exp'</element>
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20006')]/@href), '/')</element>            
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/datatype/P20001')]/@href), '/')</element>            
             <element>string-join(frbrizer:trimsort-targets(*:relationship[@type =('http://rdaregistry.info/Elements/e/object/P20037', 'http://rdaregistry.info/Elements/e/object/P20022', 'http://rdaregistry.info/Elements/e/object/P20049', 'http://rdaregistry.info/Elements/e/object/P20330')]/@href), '/')</element>
@@ -679,6 +680,9 @@
             </relationship>
             <relationship type="{$target_subfield}">
                 <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/e/') and frbrizer:linked($anchor_field, $target_field, false())"/>
+            </relationship>
+            <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
+                <target entity="MARC008language" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/e/datatype/P20006" label="has language">
                 <target entity="MARC041" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
@@ -800,9 +804,12 @@
                 <xsl:if test="$datafield/*:subfield[@code='b']">
                     <xsl:value-of select="' : ' || replace($datafield/*:subfield[@code='b'], '[\s;:]+$', '')"/>
                 </xsl:if>
-                <xsl:if test="$datafield/*:subfield[@code='c']">
+                <!--<xsl:if test="$datafield/*:subfield[@code='c']">
                     <xsl:value-of select="' ; ' || replace($datafield/*:subfield[@code='c'], '[\s;:]+$', '')"/>
-                </xsl:if>
+                </xsl:if>-->
+                <xsl:for-each select="$datafield/*:subfield[@code='c']/replace(., '[\s\.;:]+$', '')">
+                    <xsl:value-of select="', ' || replace(string-join(., ' ; '), '[\s\.]+$', '')"/>
+                </xsl:for-each>
             </xsl:variable>
             <xsl:value-of select="replace(string-join($extent, ''), '[ \.]+$', '') || '.'"></xsl:value-of>
         </xsl:function>
@@ -818,8 +825,8 @@
                         <xsl:for-each select="current-group()[@code = 'b']">
                             <xsl:value-of select="' : ' || replace(., '[\s,;:]+$', '')"/>
                         </xsl:for-each>
-                        <xsl:for-each select="current-group()[@code = 'c']">
-                            <xsl:value-of select="', ' || replace(., '[\s\.]+$', '')"/>
+                        <xsl:for-each select="current-group()[@code = 'c']/replace(., '[\s\.]+$', '')">
+                            <xsl:value-of select="', ' || replace(string-join(., ' ; '), '[\s\.]+$', '')"/>
                         </xsl:for-each>
                     </xsl:variable>
                     <xsl:value-of select="string-join($part, '')"/>
