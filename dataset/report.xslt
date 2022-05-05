@@ -126,6 +126,7 @@
                         <xsl:copy-of
                                 select="bib:header(('Poster hvor vi ikke finner noe verk identifisert med URI', 'hverken som hovedinnførsel i 130/240 eller som analytt i 700'), $format)"/>
                         <xsl:for-each select="$missingworkuris">
+                                <xsl:sort select="marc:datafield[@tag='245']/marc:subfield[@code='a']"/>
                                 <xsl:variable name="id" select="if (marc:controlfield[@tag = '001']) then '001 = ' || marc:controlfield[@tag = '001'][1] 
                                         else if (marc:controlfield[@tag = '003']) then '003 = ' || marc:controlfield[@tag = '003'][1]
                                         else 'Post som mangler 001 og 003 = '"/>
