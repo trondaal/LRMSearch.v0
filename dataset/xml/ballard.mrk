@@ -6,7 +6,6 @@
 =008  150206s1999\\\\xx#|||||||||||000|u|eng|d
 =020  \\$a0967530008$qh.
 =040  \\$aNO-TrBIB$bnob$ekatreg
-=100  1\$aPatterson, Richard$0(NO-TrBIB)90507137
 =245  10$aRichard Patterson :$bnew paintings$cwith a short story by J.G. Ballard
 =260  \\$aNew York$bJames Cohan Gallery$c1999
 =300  \\$a47 s.$bill.
@@ -15,7 +14,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =500  \\$a"... published to accompany an exhibition of new paintings by Richard Patterson at James Cohan Gallery ... New York, from October 22 to November 27, 1999" - Kolofonsiden
-=600  17$aPatterson, Richard$0(NO-TrBIB)90507137$2bare
+=600  17$aPatterson, Richard$0(NO-TrBIB)90507137$2bare$1http://viaf.org/viaf/37747070
 =600  17$aPatterson, Richard$d1963-$2aatnor
 =650  \7$aMalere$zStorbritannia$2tekord
 =653  \6$aSmåtrykk
@@ -124,7 +123,7 @@
 =008  060711s1987\\\\xx#||||\||||||||||||und|d
 =040  \\$aNO-TrBIB$bnob$ekatreg
 =130  \\$aSuo Gan$1http://www.wikidata.org/entity/Q3724830/suagan
-=100  0\$aThe Ambrosian junior choir$0(NO-TrBIB)6054376
+=100  0\$aThe Ambrosian junior choir$0(NO-TrBIB)6054376$1http://viaf.org/viaf/235160483869704992748$4prf
 =245  10$aSuo Gan$h[lydopptak]
 =260  \\$c1987
 =380  \\$aFilmmusikk$2emnmus
@@ -392,7 +391,7 @@
 =653  \\$afantasy$ascience$afiction
 =700  1\$aAldiss, Brian W.$d1925-$4aut$0(NO-TrBIB)90056060
 =700  1\$aBailey, Hilary.$4aut$0(NO-TrBIB)90062716
-=700  1\$aBallard, J.G.$d1930-2009$4aut$0(NO-TrBIB)90199005
+=700  1\$aBallard, J.G.$d1930-2009$4aut$0(NO-TrBIB)90199005$4att
 =700  1\$aBallard, J.G.$d1930-2009$4aut$0(NO-TrBIB)90199005
 =700  1\$aBayley, B. J..$4aut$0(NO-TrBIB)13013674
 =700  1\$aBonfiglioli, Kyril.$4aut$0(NO-TrBIB)13047696
@@ -409,7 +408,7 @@
 =700  1\$aJones, Roger.$4aut$0(NO-TrBIB)90352759
 =700  1\$aMacBeth, George.$4aut$0(NO-TrBIB)90119481
 =700  1\$aMasson, David I..$4aut$0(NO-TrBIB)2019380
-=700  1\$aMerril, Judith.$4edt$0(NO-TrBIB)8036947
+=700  1\$aMerril, Judith.$4edt$0(NO-TrBIB)8036947$4edc
 =700  1\$aMoorcock, Michael$d1939-$4aut$0(NO-TrBIB)90226506
 =700  1\$aPlatt, Charles$4aut$0(NO-TrBIB)90054352
 =700  1\$aPriest, Chris.$4aut$0(NO-TrBIB)13047693
@@ -1141,35 +1140,6 @@
 =700  1\$aWorthington, Will.$4aut$0(NO-TrBIB)13071824
 =830  \0$aSF the best of the best$v2
 
-=LDR  01327cam a22003497c 4500
-=001  991400801634702201
-=003  BIBSYS
-=005  20190829150824.0
-=007  ta
-=008  150206s1969\\\\xx\|||||||||||000|f|eng|d
-=020  \\$qh.
-=040  \\$aNO-TrBIB$bnob$ekatreg
-=245  00$aCities of wonder$cEdited by Damon Knight
-=260  \\$aNew York$bMacFadden-Bartell$c1967 (1971)
-=300  \\$a251 s.
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=653  \\$afantasy$ascience$afiction
-=700  1\$aAbernathy, Robert.$4aut$0(NO-TrBIB)13022307
-=700  1\$aAldiss, Brian W.$d1925-$4aut$0(NO-TrBIB)90056060
-=700  1\$aBallard, J.G.$d1930-2009$4aut$0(NO-TrBIB)90199005
-=700  1\$aBenét, Stephen Vincent.$4aut$0(NO-TrBIB)90150860
-=700  1\$aBlish, James$d1921-1975$4aut$0(NO-TrBIB)99056514
-=700  1\$aForster, E.M.$d1879-1970$q(Edward Morgan)$4aut$0(NO-TrBIB)90054884
-=700  1\$aHeinlein, Robert A.$d1907-1988$4aut$0(NO-TrBIB)90052809
-=700  1\$aKnight, Damon.$4edt$0(NO-TrBIB)90762006
-=700  1\$aKornbluth, C.M..$4aut$0(NO-TrBIB)90955928
-=700  1\$aKuttner, Henry.$4aut$0(NO-TrBIB)2126815
-=700  1\$aMiller, Walter M. Jr..$4aut$0(NO-TrBIB)12069457
-=700  1\$aStuart, Don A..$4aut$0(NO-TrBIB)13069773
-
 =LDR  01039cam a22003017c 4500
 =001  991401124804702201
 =003  BIBSYS
@@ -1478,6 +1448,22 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =655  \7$ascience fiction$2noubmn
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
+=700  12$aBallard, J. G.$d1930-2009$tThe drowned giant
+=700  12$aBallard, J. G.$d1930-2009$tThe terminal beach
+=700  12$aBallard, J. G.$d1930-2009$tManhole 69
+=700  12$aBallard, J. G.$d1930-2009$tStorm-bird, storm-dreamer
+=700  12$aBallard, J. G.$d1930-2009$tThe sound-sweep
+=700  12$aBallard, J. G.$d1930-2009$tBillenium
+=700  12$aBallard, J. G.$d1930-2009$tChronopolis
+=700  12$aBallard, J. G.$d1930-2009$tBuild-up
+=700  12$aBallard, J. G.$d1930-2009$tThe garden of time
+=700  12$aBallard, J. G.$d1930-2009$tEnd game
+=700  12$aBallard, J. G.$d1930-2009$tThe watchtowers
+=700  12$aBallard, J. G.$d1930-2009$tNow wakes the sea
+=700  12$aBallard, J. G.$d1930-2009$tZone of terror
+=700  12$aBallard, J. G.$d1930-2009$tThe cage of sand
+=700  12$aBallard, J. G.$d1930-2009$tDeep end
 
 =LDR  03359cam a22007217c 4500
 =001  991420559804702201
@@ -1565,7 +1551,7 @@
 =856  42$3Omslagsbilde$uhttp://innhold.bibsys.no/bilde/forside/?size=mini&id=9780007221837.jpg$qimage/jpeg
 
 =LDR  00756cam a22002537c 4500
-=001  991421324894702201
+=001  
 =003  BIBSYS
 =005  20170926143438.0
 =007  ta
@@ -1573,14 +1559,13 @@
 =020  \\$qib.
 =040  \\$aNO-TrBIB$bnob$ekatreg
 =100  1\$aBallard, J.G.$d1930-2009$0(NO-TrBIB)90199005$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=240  10$aThe drownd world$1http://viaf.org/viaf/309277534
 =245  14$aThe drowned world$cJ. G. Ballard
 =260  \\$aNew York$bDouble Day$c1962
 =300  \\$a316 s.
 =500  \\$aInneholder også: The wind from nowhere
 =653  \\$afantasy$ascience$afiction
 =655  \7$aScience fiction$2noubomn$0(NO-TrBIB)REAL030105
-=700  \2$aBallard, J.G.$d1930-2009$tThe Drowned World$1http://viaf.org/viaf/309277534
+=700  \2$aBallard, J.G.$d1930-2009$tThe drowned world$1http://viaf.org/viaf/309277534
 =700  \2$aBallard, J.G.$d1930-2009$tThe wind from nowhere$1http://viaf.org/viaf/3869162301514520270000
 =740  0\$aThe wind from nowhere
 
@@ -1601,38 +1586,6 @@
 =337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-
-=LDR  01780cam a22004337c 4500
-=001  991421772704702201
-=003  BIBSYS
-=005  20150206120624.0
-=007  ta
-=008  150206s1990\\\\xx#|||||||||||000|||eng|d
-=020  \\$a0450531201$qh.
-=040  \\$aNO-TrBIB$bnob$ekatreg
-=245  00$aInterzone :$bThe 4th anthology$cEdited by John Clute, David Pringle & Simon Ounsley
-=260  \\$aLondon$bNew English Library$c1990
-=300  \\$a208 s.
-=653  \\$afantasy$ascience$afiction
-=700  1\$aBallard, J.G.$d1930-2009$4aut$0(NO-TrBIB)90199005
-=700  1\$aBaxter, S. M..$4aut$0(NO-TrBIB)90192800
-=700  1\$aBayley, Barrington J..$4aut$0(NO-TrBIB)12069567
-=700  1\$aBrown, Eric$4aut$0(NO-TrBIB)14030381
-=700  1\$aCalder, Richard$4aut$0(NO-TrBIB)14030390
-=700  1\$aClute, John$4edt$0(NO-TrBIB)90196026
-=700  1\$aEgan, Freg.$4aut$0(NO-TrBIB)14030391
-=700  1\$aGoldstein, Lisa.$4aut$0(NO-TrBIB)14030392
-=700  1\$aGriffith, Nicola.$4aut$0(NO-TrBIB)11040414
-=700  1\$aLangford, David$4aut$0(NO-TrBIB)90054351
-=700  1\$aLee, Ian.$4aut$0(NO-TrBIB)14030389
-=700  1\$aNewman, Kim.$4aut$0(NO-TrBIB)90842109
-=700  1\$aOunsley, Simon$4edt$0(NO-TrBIB)14030384
-=700  1\$aPollack, Rachel.$4aut$0(NO-TrBIB)12074391
-=700  1\$aPringle, David$4edt$0(NO-TrBIB)90982246
-=700  1\$aRobinson, Kim Stanley$d1952-$4aut$0(NO-TrBIB)90808994
-=700  1\$aSladek, John$d1937-2000$4aut$0(NO-TrBIB)90257574
-=700  1\$aStableford, Brian$d1948-$4aut$0(NO-TrBIB)90234850
-=856  42$3Beskrivelse fra forlaget (kort)$uhttp://content.bibsys.no/content/?type=descr_publ_brief&isbn=0450531201
 
 =LDR  01100cam a22002777c 4500
 =001  991422059744702201
@@ -1678,44 +1631,6 @@
 =653  \\$afantasy$ascience$afiction
 =655  \7$aScience fiction$2noubomn$0(NO-TrBIB)REAL030105
 
-=LDR  01808cam a22004577c 4500
-=001  991429239744702201
-=003  BIBSYS
-=005  20180202102928.0
-=007  ta
-=008  150206s1974\\\\xx#|||||||||||000|f|eng|d
-=020  \\$a0722132999$qh.
-=040  \\$aNO-TrBIB$bnob$ekatreg
-=245  00$aDangerous visions 3$cEdited and introduced by Harlan Ellison
-=260  \\$aLondon$bSphere Books$c1974
-=300  \\$a270 s.
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=490  1\$aDangersous vision$v3
-=653  \\$afantasy$ascience$afiction
-=655  \7$aScience fiction$2noubonm
-=700  1\$aBallard, J.G.$d1930-2009$4aut$0(NO-TrBIB)90199005
-=700  1\$aBrand, Jonathan.$4aut$0(NO-TrBIB)14037969
-=700  1\$aBrunner, John$d1934-1995$4aut$0(NO-TrBIB)90763497
-=700  1\$aDelany, Samuel R.$d1942-$4aut$0(NO-TrBIB)90697672
-=700  1\$aDillon, Diane$d1933-$4ill$0(NO-TrBIB)97014042
-=700  1\$aDillon, Leo$d1933-2012$4ill$0(NO-TrBIB)97014043
-=700  1\$aDorman, Sonya.$4aut$0(NO-TrBIB)13020582
-=700  1\$aEisenberg, Larry$4aut$0(NO-TrBIB)14037970
-=700  1\$aEllison, Harlan$d1934-$4edt$0(NO-TrBIB)5015711
-=700  1\$aEllison, Harlan,$d1934-$4aut$0(NO-TrBIB)5015711
-=700  1\$aLafferty, R. A.$4aut$0(NO-TrBIB)99006126
-=700  1\$aLaumer, Keith$d1925-1993$4aut$0(NO-TrBIB)12049256
-=700  1\$aNeville, Kris.$4aut$0(NO-TrBIB)90081339
-=700  1\$aSladek, John T..$4aut$0(NO-TrBIB)14027114
-=700  1\$aSlesar, Henry$d1927-2002$4aut$0(NO-TrBIB)6045971
-=700  1\$aSpinrad, Norman$d1940-$4aut$0(NO-TrBIB)90127778
-=700  1\$aSturgeon, Theodore$d1918-1985$4aut$0(NO-TrBIB)90967876
-=700  1\$aZelazny, Roger$4aut$0(NO-TrBIB)90114292
-=830  \0$aDangersous vision$v3
-
 =LDR  00863cam a22002417c 4500
 =001  991440138604702201
 =003  BIBSYS
@@ -1736,36 +1651,6 @@
 =653  \\$afantasy$ascience$afiction
 =856  42$3Beskrivelse fra forlaget (kort)$uhttp://content.bibsys.no/content/?type=descr_publ_brief&isbn=0881844225
 =856  42$3Beskrivelse fra forlaget (lang)$uhttp://content.bibsys.no/content/?type=descr_publ_full&isbn=0881844225
-
-=LDR  01671cam a2200445 c 4500
-=001  991500939504702201
-=003  BIBSYS
-=005  20211104080525.0
-=007  ta
-=008  150928s2014\\\\no#|||||||||||000|0|mul|\
-=015  \\$a1509219$2nbf
-=020  \\$qh.
-=040  \\$aNO-OsNB$bnob$ekatreg
-=041  \\$aeng$anob
-=042  \\$anorbibl
-=044  \\$cno
-=082  74$a823$qNO-OsNB$25/nor
-=245  00$aJ.G. Ballard :$bOnly Connect Festival of Sound$c[redaktører: Anne Hilde Neset, Audun Vinger ; bidragsytere: Leif Bull ... [et al.]]
-=246  14$aJ.G. Ballard x Oslo
-=260  \\$aOslo$bnyMusikk$c2014
-=300  \\$a127 s.$bill.
-=500  \\$aBidrag på norsk og engelsk
-=500  \\$aMed festivalprogram foldet som magebind rundt boken
-=533  \\$aElektronisk reproduksjon$b[Norge]$cNasjonalbiblioteket Digital$d2018-07-18
-=600  17$aBallard, J.G.$d1930-2009$0(NO-TrBIB)90199005$2bare$1http://viaf.org/viaf/9842556
-=700  1\$aBull, Leif$d1977-$4aut$0(NO-TrBIB)15006569
-=700  1\$aNeset, Anne Hilde,$d1973-$4edt$0(NO-TrBIB)3079453
-=700  1\$aVinger, Audun$d1974-$4edt$0(NO-TrBIB)11053816
-=710  2\$aNy musikk.$4pbl$0(NO-TrBIB)90087985
-=711  2\$aOnly Connect Festival of Sound$0(NO-TrBIB)15006568
-=740  0\$aJ.G. Ballard ganger Oslo
-=740  0\$aJ.G. Ballard x Oslo
-=856  41$3Fulltekst$uhttps://www.nb.no/search?q=oaiid:"oai:nb.bibsys.no:991500939504702202"&mediatype=bøker$yNettbiblioteket$zSøke-URL
 
 =LDR  01246cgm a22003737c 4500
 =001  991502280234702201
@@ -1839,7 +1724,7 @@
 =008  150703s1957\\\\xx#|||||||||||000|||eng|d
 =020  \\$qh.
 =040  \\$aNO-TrBIB$bnob$ekatreg
-=100  1\$aMerril, Judith.$4edt$0(NO-TrBIB)8036947
+=100  1\$aMerril, Judith.$4edt$0(NO-TrBIB)8036947$1http://viaf.org/viaf/84170355
 =245  10$aSF the year's greatest science-fiction and fantasy :$b18 stories and novelettes, Second annual volume$cEdited by Judith Merril
 =260  \\$aNew York$bDell Publication$c1957
 =300  \\$a320 s.
@@ -1877,7 +1762,7 @@
 =008  150806s1960\\\\xx#|||||||||||000|||eng|d
 =020  \\$qh.
 =040  \\$aNO-TrBIB$bnob$ekatreg
-=100  1\$aMerril, Judith.$4edt$0(NO-TrBIB)8036947
+=100  1\$aMerril, Judith.$4edt$0(NO-TrBIB)8036947$1http://viaf.org/viaf/84170355
 =245  10$aSF the year's greatest science-fiction and fantasy :$b5th annual edition$cEdited by Judith Merril
 =260  \\$aNew York$bDell Publication$c1960
 =300  \\$a320 s.
@@ -1909,48 +1794,6 @@
 =700  1\$aSturgeon, Theodore$d1918-1985$4aut$0(NO-TrBIB)90967876
 =700  1\$aWorthington, Will.$4aut$0(NO-TrBIB)13071824
 =830  \0$aSF the year's greatest science-fiction and fantasy$v5
-
-=LDR  02177cam a22005057c 4500
-=001  991514454514702201
-=003  BIBSYS
-=005  20180202103420.0
-=007  ta
-=008  150803s1968\\\\xx#|||||||||||000|||eng|d
-=040  \\$aNO-TrBIB$bnob$ekatreg
-=100  1\$aLangelaan, George.$4aut$0(NO-TrBIB)13013329
-=245  14$aThe playboy book of science fiction and fantasy$cSelected by the editors of Playboy
-=260  \\$aChicago$bPalyboy Press$c1968
-=300  \\$a403 s.
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=700  1\$aAtherton, John.$4aut$0(NO-TrBIB)4027708
-=700  1\$aBallard, J.G.$d1930-2009$4aut$0(NO-TrBIB)90199005
-=700  1\$aBeaumont, Charles.$4aut$0(NO-TrBIB)13012026
-=700  1\$aBloch, Robert$d1917-1994$4aut$0(NO-TrBIB)90086845
-=700  1\$aBradbury, Ray$d1920-2012$4aut$0(NO-TrBIB)90083059
-=700  1\$aBrown, Fredric.$4aut$0(NO-TrBIB)98051350
-=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$4aut$0(NO-TrBIB)90725602
-=700  1\$aDavidson, Avram.$4aut$0(NO-TrBIB)13000919
-=700  1\$aFinney, Jack.$4aut$0(NO-TrBIB)90850934
-=700  1\$aFriedman, Bruce Jay.$4aut$0(NO-TrBIB)90240953
-=700  1\$aGrove, Walt.$4aut$0(NO-TrBIB)3070666
-=700  1\$aNeal, H.C..$4aut$0(NO-TrBIB)15032302
-=700  1\$aNissenson, Huge.$4aut$0(NO-TrBIB)15032301
-=700  1\$aNourse, Alan E..$4aut$0(NO-TrBIB)99003479
-=700  1\$aPohl, Frederik$d1919-2013$4aut$0(NO-TrBIB)90058471
-=700  1\$aPohl, Frederik,$d1919-2013$4aut$0(NO-TrBIB)90058471
-=700  1\$aPurdy, Ken W..$4aut$0(NO-TrBIB)4097734
-=700  1\$aRussell, Ray.$4aut$0(NO-TrBIB)7066954
-=700  1\$aSheckley, Robert.$4aut$0(NO-TrBIB)90222749
-=700  1\$aSlesar, Henry$d1927-2002$4aut$0(NO-TrBIB)6045971
-=700  1\$aSturgeon, Theodore$d1918-1985$4aut$0(NO-TrBIB)90967876
-=700  1\$aTenn, William$d1920-2010$4aut$0(NO-TrBIB)12069468
-=700  1\$aThomas, Theodore L..$4aut$0(NO-TrBIB)90073818
-=700  1\$aWebb, Leland.$4aut$0(NO-TrBIB)15032303
-=700  1\$aWolfe, Bernard$4aut$0(NO-TrBIB)1028321
-=700  1\$aWolfe, Bernard$4aut$0(NO-TrBIB)1028321
 
 =LDR  01370cam a2200385 c 4500
 =001  998521676524702201
@@ -2096,6 +1939,7 @@
 =044  \\$cno
 =082  74$a823$qNO-OsNB$24/nor
 =100  1\$aBallard, J.G.$d1930-2009$0(NO-TrBIB)90199005$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  14$aThe day of creation$lSvenska$1http://viaf.org/viaf/308025936
 =245  10$aSkapelsens dag$cJ. G. Ballard ; oversatt av Odd Kvaal Pedersen
 =246  1\$aThe day of creation$iOriginaltittel
 =260  \\$aOslo$bAschehoug$c1988
@@ -2562,6 +2406,7 @@
 =082  74$a823$qNO-OsNB$24/nor
 =084  \\$aS 13 Ballard, J. G.$2oosk
 =100  1\$aBallard, J.G.$d1930-2009$0(NO-TrBIB)90199005$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe kindness of women$1http://viaf.org/viaf/8009153289944232770002
 =245  10$aKvinners vennlighet$cJ. G. Ballard ; oversatt av Bjørn Alex Herrman
 =246  1\$aThe kindness of women$iOriginaltittel
 =260  \\$aOslo$bAschehoug$c1993
@@ -2929,6 +2774,7 @@
 =041  \\$aeng
 =050  00$aPR6052.A46$bZ693 2008
 =082  04$a823.914$222
+=130  00$aJ.G. Ballard$1http://viaf.org/viaf/11777409/jgballard
 =245  00$aJ.G. Ballard $cedited by Jeannette Baxter.
 =264  \1$aLondon $aNew York $bContinuum $c2008.
 =300  \\$a1 online resource (170 p.)
@@ -2949,7 +2795,8 @@
 =546  \\$aEnglish
 =600  10$aBallard, J. G.,$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
 =650  \7$2Literary studies: from c 1900 -
-=700  1\$aBaxter, Jeannette,$eeditor.
+=700  1\$aBaxter, Jeannette,$eeditor.$4edc$1http://viaf.org/viaf/11777409
+=700  10$aBallard, J. G.,$d1930-2009$1http://viaf.org/viaf/9842556$4ive
 =776  \\$z0-8264-9725-X
 =776  \\$z0-8264-9726-8
 =830  \0$aContinuum contemporary critical perspectives series.
@@ -2993,73 +2840,10 @@
 =650  \0$aEthics in literature.
 =650  \0$aPsychic trauma in literature.
 =655  \4$aElectronic books.
-=700  1\$aGanteau, Jean-Michel.
-=700  1\$aOnega Jaén, Susana.
+=700  1\$aGanteau, Jean-Michel.$4edc
+=700  1\$aOnega Jaén, Susana.$4edc
 =776  \\$z90-420-3326-6
 =830  \0$aDQR studies in literature ;$v48.
-
-=LDR  01855nam a22004695c 4500
-=001  999920142384302201
-=003  BIBSYS
-=005  20180226123540.0
-=007  ta
-=008  160802s2016\\\\xxu\\\\|\|||||00||0\eng|c
-=020  \\$qh.
-=040  \\$aNO-TrBIB$bnob$ekatreg
-=100  1\$aMerril, Judith$0(NO-TrBIB)8036947$4edt
-=245  10$aSF12$bNew dimentions in science fiction, fantasy, and imaginative writing$cEdited by Judith Merril
-=260  \\$aNew York$bDell Publishing$c1969
-=700  1\$aAldiss, Brian$0(NO-TrBIB)10050019
-=700  1\$aAllen, Dick
-=700  1\$aBailey, Hilary$0(NO-TrBIB)90062716
-=700  1\$aBallard, J.G.$d1930-2009$0(NO-TrBIB)90199005
-=700  1\$aBarthelme, Donald$d1931-1989$0(NO-TrBIB)90102337
-=700  1\$aBurroughs, William James$0(NO-TrBIB)90527228$1http://viaf.org/viaf/108916275$4aut
-=700  1\$aCalisher, Hortense$0(NO-TrBIB)90069983
-=700  1\$aDelany, Samuel R.$d1942-$0(NO-TrBIB)90697672
-=700  1\$aDisch, Thomas$0(NO-TrBIB)13013676
-=700  1\$aDorman, Sonya$0(NO-TrBIB)13020582
-=700  1\$aEmshwiller, Carol$d1921-$0(NO-TrBIB)13020578
-=700  1\$aGrass, Günter$d1927-2015$0(NO-TrBIB)90061209
-=700  1\$aHarness, Charles L.$0(NO-TrBIB)90952721
-=700  1\$aJacobs, Harvey$0(NO-TrBIB)13013763
-=700  1\$aKupferberg, Tuli$0(NO-TrBIB)7053956
-=700  1\$aLafferty, R.A.
-=700  1\$aLandolfi, Tommaso$0(NO-TrBIB)90128530
-=700  1\$aLeiber, Fritz$d1910-1992$0(NO-TrBIB)90705550
-=700  1\$aMacBeth, George$0(NO-TrBIB)90119481
-=700  1\$aMacLean, Katherine$0(NO-TrBIB)12070900
-=700  1\$aMichaux, Henri$d1899-1984$0(NO-TrBIB)90097681
-=700  1\$aReed, Kit$0(NO-TrBIB)12047194
-=700  1\$aShaw, Bob$0(NO-TrBIB)9069015
-=700  1\$aTate, Peter$0(NO-TrBIB)90853436
-=700  1\$aThomas, Gilbert
-=700  1\$aUpdike, John$d1932-2009$0(NO-TrBIB)90058949
-
-=LDR  01030nam a22002655c 4500
-=001  999920204114402201
-=003  BIBSYS
-=005  20180226123920.0
-=007  ta
-=008  161228s1968\\\\xxu\\\\|\|||||00||0\eng|c
-=040  \\$aNO-TrBIB$bnob$ekatreg
-=100  1\$aPohl, Frederik$d1919-2013$0(NO-TrBIB)90058471
-=245  10$aFrederik Pohl's The second if reader of science fiction$cIntroduction by Frederik Pohl
-=260  \\$aNew York$bAce Books$c1968
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=700  1\$aAldiss, Brian$0(NO-TrBIB)10050019
-=700  1\$aAsimov, Isaac$d1920-1992$0(NO-TrBIB)90104376
-=700  1\$aBallard, J.G.$d1930-2009$0(NO-TrBIB)90199005
-=700  1\$aBudrys, Algis$d1931-$0(NO-TrBIB)12064560
-=700  1\$aClement, Hal$0(NO-TrBIB)8046659
-=700  1\$aKyle, David A.$0(NO-TrBIB)15015118
-=700  1\$aLaumer, Keith$d1925-1993$0(NO-TrBIB)12049256
-=700  1\$aNiven, Larry$d1938-$0(NO-TrBIB)90950466
-=700  1\$aPohl, Frederik$d1919-2013$0(NO-TrBIB)90058471
-=700  1\$aSaberhagen, Fred$0(NO-TrBIB)12050925
 
 =LDR  06275nam  2200913 i 4500
 =001  999920272832802201
@@ -3159,6 +2943,7 @@
 =072  \7$aDSK$2bicssc
 =072  \7$aLIT000000$2bisacsh
 =082  0\$a823/.914$223
+=130  00$aJ.G. Ballard : landscapes of tomorrow$1$1http://viaf.org/viaf/292466633/jgballard
 =245  00$aJ.G. Ballard :$blandscapes of tomorrow /$cedited by Richard Brown, Christopher Duffy, Elizabeth Stainforth.
 =264  \1$aLeiden, [The Netherlands] ;$aBoston, [Massachusetts] :$bBrill Rodopi,$c2016.
 =264  \4$c©2016
@@ -3176,10 +2961,11 @@
 =520  \\$aAn innovative volume of interdisciplinary essays on the significant British writer J. G. Ballard (1930-2009), exploring the physical, cultural and intertextual landscapes in several key novels with a central focus on The Atrocity Exhibition (1970), one of the most challenging texts in contemporary literature. Contributors include established critics of Ballard alongside newcomers. Different spatial concepts underpin the essays, from the landscapes of Ballard's youth in Shanghai and his life in suburban London, to nuclear testing spaces and outer space exploration. Figurative locations typical of Ballard's work are explored, including the beach, the motorway, the high-rise and the shopping mall. Textual spaces are explored through Ballard's affiliation with modernist literary forms, including surrealist prose writing and collage, and poetic romanticism.
 =588  \\$aDescription based on print version record.
 =600  10$aBallard, J. G.,$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
+=600  10$aBallard, J. G.,$tThe atrocity exhibition$1http://viaf.org/viaf/182227002
 =655  \4$aElectronic books.
-=700  1\$aBrown, Richard,$d1954-$eeditor.
-=700  1\$aDuffy, Christopher,$d1977-$eeditor.
-=700  1\$aStainforth, Elizabeth,$d1986-$eeditor.
+=700  1\$aBrown, Richard,$d1954-$eeditor.$4edc$1http://viaf.org/viaf/292466633
+=700  1\$aDuffy, Christopher,$d1977-$eeditor.$4edc
+=700  1\$aStainforth, Elizabeth,$d1986-$eeditor.$4edc
 =776  \\$z90-04-31385-0
 =830  \0$aDialogue (Brill Rodopi (Firm)) ;$vv. 22.
 
@@ -3530,54 +3316,6 @@
 =650  \7$aFiction and related items / Science fiction$2bicssc
 =655  \4$aElectronic books.
 
-=LDR  04153aam a2200601 i 4500
-=001  018677669
-=003  Uk
-=005  20180831094119.0
-=008  980619s1969\\\\nyua\\\\\\\\\\000\0\eng\d
-=040  \\$aAVA$beng$cAVA$dAVA$dUk$erda
-=042  \\$aukblsr
-=245  00$aAspen 7 :$bBritish box in 15 sections ; (Spring-Summer [1969]) /$c[compiled and edited by Mario Amaya].
-=260  \\$aNew York, New York :$bRoaring Fork Press,$c[1969]
-=300  \\$a1 box, 12 pieces :$billustrations ;$c30 x 30 cm
-=336  \\$atext$btxt$2rdacontent
-=337  \\$aunmediated$bn$2rdamedia
-=338  \\$avolume$bnc$2rdacarrier
-=500  \\$a"Aspen is published quarterly by Roaring Fork Press ... Phyllis Johnson, editor and publisher--Inside box cover.
-=500  \\$a"Compiled and edited by Mario Amaya ; designed by John Cosh ; cover by Richard Smith"--Inside box cover.
-=500  \\$aArtist's periodical consisting of a box (numbered "Section 1, Aspen no. 7") and containing various other parts numbered 2-14.
-=500  \\$aExhibited in "Aspen Magazine 1965-1971", Whitechapel Art Gallery, 11 Sept 2012 - 3 March 2013.
-=500  \\$aSubtitle: "British Box in 15 sections".
-=505  0\$aDetails of contents (taken from supplier's list) : Section 1 : Box (unconstructed), with cover by Richard Smith and printed contents list inside cover -- Section 2 : "British Knickers" / Ossie Clark (fashion pattern from 'Quorum' magazine) -- Section 3 : "Aspen" magazine subscription form -- Section 4 : "The Gay Atomic colouring book" / Eduardo Paolozzi -- Section 5 : Book containing six pieces : "The London decade" / Mario Amaya ; "London subcultures" / Michael Instone ; "Communicators" / Christopher Finch ; "New names in British cinema" / David Robinson ; "British poetry now" / J. G. Ballard -- Sections 6 : "Souvenir number 1" / Peter Blake -- Section 7 : "An artist's endorsement. Souvenir no. 7" / Peter Blake -- Section 8 : "The Lennon Diary 196" (facsimile) / John Lennon -- Section 9 : Transcripts of the Flexi-disc recordings (sections 10 and 11) / Yoko Ono -- Section 10 : Flexi-disc containing two pieces : "New numbers" / Christopher Logue ; "Three songs for Surrealists" / John Tavener -- Section 11 : Flexi-disc containing two pieces : "Radio Play" / John Lennon ; "Song for John : Let's go on flying all the time, Mum's only looking for her hand in the snow" / Yoko Ono -- Section 12 : "Europa and her Bull" / John Furnival (folded poster print) -- Section 13 : "Wave / Rock" / Ian Hamilton Findlay (folded sheet) -- Section 14 : "Notes on Rumpelstiltskin" / David Hockney (single sheet) -- Section 15 : Advertisements folder.
-=600  10$aLennon, John,$d1940-1980.
-=600  10$aLogue, Christopher,$d1926-2011.
-=600  10$aOno, Yōko.
-=600  10$aPaolozzi, Eduardo,$d1924-2005.
-=650  \0$aArtists' book$vperiodical$zU.S.A.$y1969.
-=650  \0$aArts, English$y20th century.
-=650  \0$aConceptual art.
-=650  \0$aConcrete art.
-=700  1\$aAmaya, Mario,$eeditor.
-=700  1\$aBallard, J. G.$q(James Graham),$d1930-2009,$econtributor.
-=700  1\$aBlake, Peter,$d1932-$econtributor.
-=700  1\$aClark, Ossie,$d1942-1996,$econtributor.
-=700  1\$aFinch, Christopher,$econtributor.
-=700  1\$aFinlay, Ian Hamilton,$d1925-2006,$econtributor.
-=700  1\$aFurnival, John,$d1933-$econtributor.
-=700  1\$aHockney, David,$d1937-$econtributor.
-=700  1\$aInstone, Michael,$econtributor.
-=700  1\$aKosh, John,$edesigner.
-=700  1\$aLennon, John,$d1940-1980,$econtributor.
-=700  1\$aLogue, Christopher,$d1926-2011,$econtributor.
-=700  1\$aLucie-Smith, Edward,$econtributor.
-=700  1\$aOno, Yōko,$econtributor.
-=700  1\$aPaolozzi, Eduardo,$d1924-2005,$econtributor.
-=700  1\$aRobinson, David,$d1936 Dec. 9-$econtributor.
-=700  1\$aSmith, Richard,$d1931-2016,$eillustrator,$ebook designer.
-=700  1\$aTavener, John,$d1944-2013,$econtributor.
-=710  2\$aRoaring Fork Press,$epublisher.
-=856  4\$3Full text and media available on Ubu Web:$uhttp://www.ubu.com/aspen/aspen7/
-
 =LDR  01005aam a22003371i 4500
 =001  018511696
 =003  Uk
@@ -3699,34 +3437,6 @@
 =700  1\$aBeckett, Chris,$d1955-$eeditor.
 =776  08$iPrint version :$z9780007287024
 
-=LDR  01302aam a2200349 i 4500
-=001  017969260
-=003  Uk
-=005  20170706212005.0
-=008  160628s2016\\\\ne\a\\\\\b\\\\001\0\eng\\
-=010  \\$a2016022436
-=015  \\$aGBB6B0529$2bnb
-=016  7\$a017969260$2Uk
-=020  \\$a9789004313859 (cased) :$cNo price
-=040  \\$aStDuBDS$beng$cStDuBDS$dUk$erda
-=042  \\$aukblsr
-=050  00$aPR6052.A46$bZ697 2016
-=082  00$a823.914$223
-=245  00$aJ. G. Ballard :$blandscapes of tomorrow /$cedited by Richard Brown, Christopher Duffy, Elizabeth Stainforth.
-=264  \1$aLeiden ;$aBoston :$bBrill,$c[2016].
-=300  \\$ax, 160 pages :$bcolor illustrations ;$c25 cm.
-=336  \\$atext$btxt$2rdacontent
-=337  \\$aunmediated$bn$2rdamedia
-=338  \\$avolume$bnc$2rdacarrier
-=490  0\$aDialogue ;$v22
-=500  \\$aFormerly CIP.$5Uk
-=504  \\$aIncludes bibliographical references and index.
-=600  10$aBallard, J. G.,$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
-=700  1\$aBrown, Richard,$d1954-$eeditor.
-=700  1\$aDuffy, Christopher,$d1977-$eeditor.
-=700  1\$aStainforth, Elizabeth,$d1986-$eeditor.
-=776  08$iOnline version:$tJ. G. Ballard$w(DLC) 2016030903$dLeiden ; Boston : Brill, [2016]$z9789004313866
-
 =LDR  01244aam a22004091a 4500
 =001  017847370
 =003  Uk
@@ -3786,30 +3496,6 @@
 =500  \\$aIncludes 1 sheet of acetate which animates cover art, attached to inside front cover.
 =500  \\$aOriginally published: Great Britain: Jonathan Cape, 1973.
 =650  \0$aDystopias$vFiction.
-
-=LDR  00932nam a22002777i 4500
-=001  017427738
-=003  Uk
-=005  20150702013112.0
-=006  m\\\\\\\\d\\\\\\\\
-=007  cr\|||||||||||
-=008  150702s2011\\\\xxk\\\\\obm\\\000\0\eng\\
-=040  \\$aUk$beng$cUk$dUk$erda
-=082  04$a813$223
-=100  1\$aPaknadel, Alexis,$eauthor.
-=245  10$aAnywhere but here :$bThe Competing (and complementary) postmodern nostalgias of J. G Ballard and Douglas Coupland.
-=264  \1$a[Great Britain] :$bLancaster University,$c2011.
-=300  \\$a1 online resource
-=336  \\$atext$2rdacontent
-=337  \\$acomputer$2rdamedia
-=338  \\$aonline resource$2rdacarrier
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$adatamaskin$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=502  \\$aThesis (Ph.D.)--Lancaster University, 2011.
-=504  \\$aIncludes bibliographical references.
-=710  2\$aUniversity of Lancaster,$edegree granting institution.
 
 =LDR  00947pam a2200313 i 4500
 =001  017379931
@@ -3871,7 +3557,7 @@
 =050  00$aPR6052.A46$bA16 1996
 =082  04$a824/.914$220
 =100  1\$aBallard, J. G.,$d1930-2009,$eauthor.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=240  10$aEssays.$kSelections
+=240  10$aA user's guide to the millennium$1http://www.wikidata.org/entity/Q4660390
 =245  12$aA user's guide to the millennium :$bessays and reviews /$cJ.G. Ballard.
 =250  \\$aFirst Picador USA edition.
 =264  \1$aNew York :$bPicador USA,$cMay 1996.
@@ -4038,13 +3724,22 @@
 =250  \\$aFirst edition.
 =264  \1$aSauk City, Wisconson :$bArkham House Publishers, Inc.,$c[1988]
 =300  \\$a216 pages :$billustrations (black and white) ;$c21 cm
-=336  \\$atext$2rdacontent
-=337  \\$aunmediated$2rdamedia
-=338  \\$avolume$2rdacarrier
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
+=700  \2$aBallard, J. G.$tThe Cage of Sand
+=700  \2$aBallard, J. G.$tA Question of re-entry
+=700  \2$aBallard, J. G.$tThe dead astronaut
+=700  \2$aBallard, J. G.$tMy dream of flying to wake island
+=700  \2$aBallard, J. G.$tNews from the sun
+=700  \2$aBallard, J. G.$tMemories of the space age
+=700  \2$aBallard, J. G.$tMyths of the near future
+=700  \2$aBallard, J. G.$tThe Man Who Walked on the Moon
 =500  \\$aEight stories originally published between 1962 and 1985.
 =505  0\$aThe cage of sand -- A question of re-entry -- The dead astronaut -- My dream of flying to Wake Island -- News from the sun -- Memories of the space age -- Myths of the near future -- The man who walked on the moon.
 =650  \0$aScience fiction, English.
-=700  1\$aPotter, J. K.,$eillustrator.
+=700  1\$aPotter, J. K.,$eillustrator.$4ill
 
 =LDR  01299cam a2200385 i 4500
 =001  016659368
@@ -4091,6 +3786,7 @@
 =042  \\$aukblcatcopy
 =082  04$a823.914$223
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10059
+=240  \\$aExtreme methaphores$1http://www.wikidata.org/entity/Q18208804
 =245  10$aExtreme metaphors :$bselected interviews with J.G. Ballard, 1967-2008 /$cby J.G. Ballard ; edited by Simon Sellars and Dan O'Hara.
 =260  \\$aLondon :$bFourth Estate,$c2012.
 =300  \\$axxiii, 503 p. ;$c24 cm.
@@ -4100,31 +3796,8 @@
 =500  \\$aFormerly CIP.$5Uk
 =504  \\$aIncludes bibliographical references and index.
 =600  10$aBallard, J. G.,$d1930-2009$vInterviews.$1http://viaf.org/viaf/9842556
-=700  1\$aO'Hara, Daniel Finbarr John,$d1972-
-=700  1\$aSellars, Simon.
-
-=LDR  01023nam a2200301 a 4500
-=001  015118840
-=003  Uk
-=005  20120514183026.0
-=008  081114s2008\\\\fr\a\\\\\\\\\\000\0|fre\d
-=020  \\$a2915453470 (pbk.)
-=020  \\$a9782915453478 (pbk.)
-=040  \\$aTZT$beng$cTZT$dUk
-=042  \\$aukblsr
-=072  \7$aPR$2lcco
-=082  04$a823.914$223
-=245  00$aJ.G. Ballard :$bhautes altitudes /$csous la direction de Jérôme Schmidt & Émilie Notéris ; avec J.G. Ballard ... [et al.].
-=260  \\$aAlfortville :$bÈre,$c[2008]
-=300  \\$a216 p. :$bill. ;$c19 cm.
-=336  \\$atext$2rdacontent
-=337  \\$aunmediated$2rdamedia
-=338  \\$avolume$2rdacarrier
-=600  10$aBallard, J. G.,$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
-=653  \\$aBritish Science Fiction Literature$a20th Century$aCritical Essays
-=700  1\$aBallard, J. G.,$d1930-2009.
-=700  1\$aNotéris, Émilie.
-=700  1\$aSchmidt, Jérôme.
+=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt
+=700  1\$aSellars, Simon,$eeditor.$4edt
 
 =LDR  00740nam a2200253 a 4500
 =001  014785570
@@ -4537,29 +4210,6 @@
 =655  \0$aBildungsromans.
 =830  \0$aHarper Perennial modern classics.
 
-=LDR  00924pam a2200289 a 4500
-=001  013086489
-=003  Uk
-=005  20070315180742.0
-=008  041221s2005\\\\caua\\\\\b\\\\001\0\eng\\
-=015  \\$aGBA505294$2bnb
-=016  7\$a013086489$2Uk
-=020  \\$a1889307130 (pbk.) :$c£11.99
-=040  \\$aStDuBDS$beng$cStDuBDS$dUk
-=042  \\$aukblsr
-=082  04$a828.91409$222
-=100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=245  10$aConversations /$cJ.G. Ballard ; with V. Vale ... [et al.] ; edited by V. Vale.
-=260  \\$aSan Francisco, Calif. :$bRE/Search,$cc2005.
-=300  \\$a358 p. :$bill. ;$c18 cm.
-=336  \\$atext$2rdacontent
-=337  \\$aunmediated$2rdamedia
-=338  \\$avolume$2rdacarrier
-=500  \\$aFormerly CIP.$5Uk
-=504  \\$aIncludes bibliographical references and index.
-=600  10$aBallard, J. G.,$d1930-2009$vInterviews.$1http://viaf.org/viaf/9842556
-=700  1\$aVale, V.
-
 =LDR  00932pam a22003011a 4500
 =001  013086488
 =003  Uk
@@ -4583,26 +4233,6 @@
 =700  1\$aBarrado, Ana.
 =700  1\$aVale, V.
 
-=LDR  00860nam a22002772a 4500
-=001  013062641
-=003  Uk
-=005  20041214091703.0
-=006  m\\\\|\\\d\|\\\\\\
-=007  cr||||||||||||
-=008  040609s2002\\\\enk\\\\\sm\\\\000\0\eng\\
-=040  \\$aUk$beng$cUk
-=082  04$a823.914$222
-=100  1\$aMcNamara, Liam Thomas.
-=245  14$aThe postmodern Jarry :$bJ. G. Ballard and 'the real' /$cLiam Thomas McNamara.$h[electronic resource].
-=260  \\$aLondon :$bUniversity of London,$c2002.
-=300  \\$a1 v. ;$c31 cm.
-=336  \\$atext$2rdacontent
-=337  \\$acomputer$2rdamedia
-=338  \\$aonline resource$2rdacarrier
-=502  \\$aThesis (Ph.D.)--University of London, 2003.
-=538  \\$aMode of access: World Wide Web.
-=710  2\$aUniversity of London.
-
 =LDR  00696 am a2200241 a 4500
 =001  013056102
 =003  Uk
@@ -4620,35 +4250,6 @@
 =337  \\$aunmediated$2rdamedia
 =338  \\$avolume$2rdacarrier
 =650  \0$aEnglish literature$x20th century.
-
-=LDR  01579cam a2200361 a 4500
-=001  013035790
-=003  Uk
-=005  20050531081132.0
-=008  040709s2004\\\\fr\a\\\\\bc\\\000\0dfre\d
-=020  \\$a286847974X
-=040  \\$aCGU$cCGU$dOCLCQ$dUk
-=245  00$aDoubtiful, dans les plis du réel :$bGilles Barbier, François Curlet, Leandro Erlich, Carsten Höller, Didier Marcel, Aernout Mik, Amy O'Neil, Cerith Wyn Evans /$cJames Graham Ballard ... [et al.].
-=260  \\$aRennes :$bPresses universitaires de Rennes,$c2004.
-=300  \\$a144 p. :$bcol. ill. ;$c23 cm.
-=336  \\$atext$2rdacontent
-=337  \\$aunmediated$2rdamedia
-=338  \\$avolume$2rdacarrier
-=490  1\$aCollection Métiers de l'exposition
-=500  \\$a"Publication éditée à l'occasion de l'exposition présentée à la galerie art et essai de l'université Rennes 2 du 19 mai au 26 juin 2004"--Prelim. p.
-=504  \\$aIncludes bibliographical references.
-=600  10$aBarbier, Gilles,$d1965-$vExhibitions.
-=600  10$aCurlet, Franc̦ois,$d1967-$vExhibitions.
-=600  10$aErlich, Leandro,$d1973-$vExhibitions.
-=600  10$aEvans, Cerith Wyn,$d1958-$vExhibitions.
-=600  10$aHöller, Carsten$vExhibitions.
-=600  10$aMarcel, Didier,$d1961-$vExhibitions.
-=600  10$aMik, Aernout$vExhibitions.
-=600  10$aO'Neil, Amy,$d1971-$vExhibitions.
-=650  \0$aArt, Modern$y21st century$vExhibitions.
-=700  1\$aBallard, J. G.,$d1930-2009.
-=710  2\$aGalerie Art & essai.
-=830  \0$aCollection Métiers de l'exposition.
 
 =LDR  00952 am a2200325ua 4500
 =001  012636128
@@ -4719,6 +4320,7 @@
 =040  \\$aUk$cUk
 =082  04$a823/.914$219
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aWhy I want to fuck Ronald Reagan$1http://www.wikidata.org/entity/Q593182
 =245  10$aWhy I want to fuck Ronald Reagan.
 =260  \\$bPlashet,$c1988.
 =300  \\$a[7]leaves.
@@ -5335,34 +4937,6 @@
 =650  \0$aFiction in English.
 =653  \\$aFiction in English$a1900-$aTexts
 
-=LDR  01173 am a2200349ua 4500
-=001  010129072
-=003  UK
-=005  20160601115100.0
-=008  970508s1984\\\\enkac\\||\\\\\001\||eng\\
-=015  \\$aGB9735426$2bnb
-=019  1\$a0965046974
-=019  9\$a0965046974
-=019  y\$ab9735426
-=020  \\$a0965046974 (pbk) :$cNo price
-=039  0\$a2440
-=040  \\$aUk$cUk
-=082  04$a823.914$221
-=245  00$aJ. G. Ballard /$c[publishers/editors: V.Vale, Andrea Juno].
-=260  \\$aSan Francisco, Calif. :$bV/Search Publications ;$aEnfield :$bAirlift [distributor],$cc1984.
-=300  \\$a171p. :$bill., ports. ;$c28cm.
-=336  \\$atext$2rdacontent
-=337  \\$aunmediated$2rdamedia
-=338  \\$avolume$2rdacarrier
-=490  1\$aRE/Search ;$vno.8/9
-=500  \\$aBibliography: p166-171. _ Includes index.
-=500  \\$aCover title.
-=600  14$aBallard, J. G.,$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
-=650  \0$aScience fiction, English$xHistory and criticism.
-=700  1\$aJuno, Andrea.
-=700  1\$aVale, Vivian.
-=830  \0$aRE/Search ;$vno.8/9.
-
 =LDR  00916 am a2200325ua 4500
 =001  010078059
 =003  UK
@@ -5530,6 +5104,7 @@
 =040  \\$aUk$cUk
 =082  04$a823/.9/1$218
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe overloaded man$1http://viaf.org/viaf/311471561
 =245  14$aThe overloaded man /$cJ.G. Ballard.
 =260  \\$aLondon :$bPanther,$c1971.
 =300  \\$a158p. ;$c18cm.
@@ -5772,6 +5347,7 @@
 =040  \\$aUk$cUk
 =082  04$a824.914$220
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aA user's guide to the millennium$1http://www.wikidata.org/entity/Q4660390
 =245  12$aA user's guide to the millennium :$bessays and reviews /$cJ. G. Ballard.
 =260  \\$aLondon :$bHarperCollins,$c1996.
 =300  \\$a304p. ;$c24 cm.
@@ -5935,7 +5511,6 @@
 =020  \\$a0850310059
 =040  \\$aUk$cUk
 =082  04$a823/.91$218
-=100  1\$aPeake, Mervyn,$d1911-1968.
 =245  14$aThe inner landscape /$cMervyn Peake, J. G. Ballard, Brian W. Aldiss.
 =260  \\$aLondon :$bAllison & Busby,$c1969.
 =300  \\$a151p.
@@ -5944,8 +5519,9 @@
 =338  \\$avolume$2rdacarrier
 =500  \\$aOriginally published (B56-16737) in 'Sometime never'. London: Eyre & Spottiswoode, 1956.
 =650  \0$aScience fiction.
-=700  1\$aAldiss, Brian W.$q(Brian Wilson),$d1925-2017.
-=700  1\$aBallard, J. G.,$d1930-2009.
+=700  12$aAldiss, Brian W.$d1925-$tDanger, Religion!$1http://viaf.org/viaf/183421260
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
+=700  12$aPeake, Mervyn Laurence$d1911-1968$tBoy in darkness$1http://viaf.org/viaf/309308512
 
 =LDR  00767 am a22002773u 4500
 =001  007688047
@@ -6145,37 +5721,6 @@
 =490  0\$aEveryman fiction
 =500  \\$aOriginally published: London : Gollancz, 1962.
 =653  \\$aFiction in English$a1945-$aTexts
-
-=LDR  01329 am a2200385ua 4500
-=001  007375349
-=003  UK
-=005  20160601115100.0
-=008  900704s1989\\\\enka\\\||\\\\\000\||eng\\
-=015  \\$aGB8931860$2bnb
-=019  1\$a043516418x
-=019  9\$a043516418x
-=019  y\$ab8931860
-=020  \\$a043516418X (unbound) :$c£5.95
-=039  0\$a2096
-=040  \\$aUk$cUk
-=043  \\$ae-uk---
-=050  00$aPR51.G7
-=082  04$a823.0071241$220
-=100  1\$aHales, Sheila.
-=245  10$aEmpire of the sun, J.G. Ballard /$cunit written by Sheila Hales.
-=260  \\$aOxford :$bHeinemann Educational,$c1989.
-=300  \\$a48p. :$bill. ;$c30cm.
-=336  \\$atext$2rdacontent
-=337  \\$aunmediated$2rdamedia
-=338  \\$avolume$2rdacarrier
-=490  0\$aHeinemann fiction project
-=490  1\$aTeaching strategies for literature and language
-=500  \\$aIn plastic slip case.
-=650  \0$aEnglish literature$xStudy and teaching (Secondary)$zGreat Britain.
-=650  \0$aFiction$xStudy and teaching (Secondary)$zGreat Britain.
-=653  \\$aGreat Britain$aSecondary schools$aCurriculum subjects$aFiction in English$aTeaching
-=700  1\$aBallard, J. G.,$d1930-2009.$tEmpire of the sun.
-=830  \0$aTeaching strategies for literature and language
 
 =LDR  00704 am a2200265ua 4500
 =001  007375120
@@ -6407,6 +5952,7 @@
 =050  00$aPR6052.A46Z/
 =082  04$a823/.9/14$218
 =082  04$a823/.914$219
+=130  00$aJ.G. Ballard, the first twenty years$1http://viaf.org/viaf/9408966/jgballard
 =245  00$aJ.G. Ballard, the first twenty years /$cedited and compiled by James Goddard & David Pringle ; with illustrations by Carol Gregory.
 =260  \\$aHayes (91 Wimborne Ave., Hayes, Middlesex) :$bBran's Head Books Ltd,$c1976.
 =300  \\$a[10],76,[24]p. :$bill., 1port. ;$c22cm.
@@ -6419,10 +5965,10 @@
 =650  \0$aScience fiction, English$xBibliography.
 =650  \0$aScience fiction, English$xHistory and criticism.
 =653  \\$aFiction in English$aBallard, J$aG$a(James Graham)$a1930-
-=700  1\$aBallard, J. G.,$d1930-2009.
-=700  1\$aGoddard, James.
-=700  1\$aGregory, Carol.
-=700  1\$aPringle, David,$d1950-
+=700  1\$aBallard, J. G.,$d1930-2009.$4att$4ive$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10059
+=700  1\$aGoddard, James.$4edt$4edc$1http://viaf.org/viaf/9408966
+=700  1\$aGregory, Carol.$4ill$1http://viaf.org/viaf/296601530
+=700  1\$aPringle, David,$d1950-$4edt$4edc$1http://viaf.org/viaf/22226089
 
 =LDR  00860 am a2200253ua 4500
 =001  006716274
@@ -6453,12 +5999,14 @@
 =019  a\$aG01720252
 =020  \\$a0313279225
 =040  \\$aBook Data$dUk
-=100  1\$aStephenson, Gregory.
+=100  1\$aStephenson, Gregory$1http://viaf.org/viaf/70381159$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aOut of the night and into the dream$1http://viaf.org/viaf/70381159/outofthenightandintothedream
 =245  00$aOut of the night and into the dream :$bA thematic study of the fiction of J G Ballard.
 =260  \\$bGreenwood Press,$c1991.
-=336  \\$atext$2rdacontent
-=337  \\$aunmediated$2rdamedia
-=338  \\$avolume$2rdacarrier
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =540  \\$aBritish Library not licensed to copy$c0$5Uk
 
 =LDR  00563nam a22002053  4500
@@ -6505,30 +6053,17 @@
 =245  14$aThe inner landscape. [Stories by] Mervyn Peake, J. G. Ballard, Brian W. Aldiss. (Reissued.).
 =260  \\$aEaling :$bCorgi Books, Transworld Publishers,$c1975.
 =300  \\$a186 p. ;$c18 cm.
-=336  \\$atext$2rdacontent
-=337  \\$aunmediated$2rdamedia
-=338  \\$avolume$2rdacarrier
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  0\$a(Corgi SF collector's library.)
 =500  \\$aPrinted in New York.
+=700  12$aAldiss, Brian W.$d1925-$tDanger, Religion!$1http://viaf.org/viaf/183421260
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
+=700  12$aPeake, Mervyn Laurence$d1911-1968$tBoy in darkness$1http://viaf.org/viaf/309308512
 =720  \\$aINNER LANDSCAPE$emain entry
 =866  \0$z[Another copy.] The inner landscape. 1975.
-
-=LDR  00798nam a22002293  4500
-=001  001443673
-=003  UK
-=005  20220128184854.0
-=008  880920|1970|||||||\\\\||\\\\\|||\||eng\\
-=019  x\$a1264170122
-=040  \\$aUk$cUk
-=100  1\$aGODDARD, James,$cof Lymington.
-=245  10$aJ. G. Ballard. A bibliography, etc.
-=260  \\$aLymington :$bCypher Press,$c[1970]
-=300  \\$a27 p. ;$c26 cm.
-=336  \\$atext$2rdacontent
-=337  \\$aunmediated$2rdamedia
-=338  \\$avolume$2rdacarrier
-=500  \\$aReproduced from typewriting.
-=700  1\$aBallard, J. G.,$d1930-2009.
 
 =LDR  00549nam a22001933  4500
 =001  000184373
@@ -6638,6 +6173,7 @@
 =019  x\$a0173840299
 =040  \\$aUk$cUk
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe overloaded man$1http://viaf.org/viaf/311471561
 =245  14$aThe Overloaded man.
 =264  \1$aLondon :$bPanther Books,$c1967.
 =300  \\$a158 pages ;$c(8º)
@@ -6671,6 +6207,7 @@
 =019  x\$a0173840272
 =040  \\$aUk$cUk
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe four-dimensional nightmare$1http://viaf.org/viaf/183430784
 =245  14$aThe Four-Dimensional Nightmare.
 =264  \1$aHarmondsworth :$bPenguin Books,$c1965.
 =300  \\$a222 pages ;$c(8º)
@@ -6687,6 +6224,7 @@
 =019  x\$a0173840264
 =040  \\$aUk$cUk
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe four-dimensional nightmare$1http://viaf.org/viaf/183430784
 =245  14$aThe Four-dimensional Nightmare. [Short stories.]
 =264  \1$aLondon :$bVictor Gollancz,$c1963.
 =300  \\$a208 pages ;$c(8º)
@@ -6735,6 +6273,7 @@
 =019  x\$a017384023X
 =040  \\$aUk$cUk
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe disaster area$1http://viaf.org/viaf/307986100
 =245  14$aThe Disaster area.
 =264  \1$aLondon :$bJonathan Cape,$c1967.
 =300  \\$a205 pages ;$c(8º)
@@ -6832,6 +6371,7 @@
 =019  x\$a0173840086
 =040  \\$aUk$cUk
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aWhy I want to fuck Ronald Reagan$1http://www.wikidata.org/entity/Q593182
 =245  10$aWhy I want to fuck Ronald Reagan.
 =260  \\$aBrighton :$bUnicorn Bookshop,$c[1968]
 =300  \\$aPages not numbered ;$c26 cm.
@@ -7152,28 +6692,6 @@
 =700  1\$aWilliams, John$d1932-$ecompositor$4cmp
 =776  0\$tEl imperio del Sol$hGrabación sonora$wbiso0000772518
 
-=LDR  01050nam a2200337 c 4500
-=001  a5437426
-=003  SpMaBN
-=005  20200114011706.3
-=008  131127s2013\\\\sp\\\\\|\||||\000\j\spa\\
-=015  \\$aMON13
-=017  \\$aB 24299-2013$bOficina Depósito Legal Barcelona
-=020  \\$a978-84-9006-980-6
-=040  \\$aSpMaBN$bspa$cSpMaBN$erdc
-=041  1\$aspa$heng
-=080  \\$a821.111-32"19"
-=100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=243  10$aCuentos$lEspañol
-=245  10$aCuentos completos$cJ.G. Ballard ; traducción de Manuel Manzano y Rafael González del Solar
-=250  \\$a1ª ed.
-=260  \\$aBarcelona$bRBA$c2013
-=300  \\$a1275 p.$c24 cm
-=336  \\$aTexto (visual)$2isbdcontent
-=337  \\$asin mediación$2isbdmedia
-=700  1\$aGonzález del Solar, Rafael
-=700  1\$aManzano, Manuel$d1965-
-
 =LDR  01082nam a2200349 c 4500
 =001  a5321024
 =003  SpMaBN
@@ -7433,29 +6951,6 @@
 =600  17$aBallard, J. G.$d1930-2009$2embne$1http://viaf.org/viaf/9842556
 =830  \0$aLiteratura Mondadori$v371
 
-=LDR  01236cam a2200301   4500
-=001  a4343386
-=003  SpMaBN
-=005  20210929030726.4
-=008  080926s2008\\\\sp\a\\\|\||||o000\0\cat\\
-=015  \\$aMON0903
-=017  \\$aS 1013-2008$bOficina Depósito Legal Salamanca
-=020  \\$a978-84-9803-291-8
-=040  \\$aSpMaBN$bspa$cSpMaBN$erdc
-=041  0\$acat$aeng$aspa
-=080  \\$a7 Ballard, J. G. (060.64)
-=100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=245  10$aAutòpsia del nou mil·lenni$h[Texto impreso] :$b[Centre de Cultura Contemporània de Barcelona on es presenta entre el 22 de juliol i el 2 de novembre de 2008]$cJ.G. Ballard
-=260  \\$a[Barcelona]$bCentre de Cultura Contemporània de Barcelona$bXarxa de Municipis$c[2008]
-=300  \\$a208 p.$bil. col. y n., mapa, plano$c24 cm
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=546  \\$aTextos en catalán, inglés y español
-=600  17$aBallard, J. G.$d1930-2009$vExposiciones$2embne$1http://viaf.org/viaf/9842556
-=710  2\$aCentre de Cultura Contemporània de Barcelona
-
 =LDR  01315cam a2200373   4500
 =001  a4342002
 =003  SpMaBN
@@ -7665,29 +7160,6 @@
 =594  \\$aTraducción de: Drowned world
 =830  \0$aBiblioteca de ciencia ficción (Barcelona)
 
-=LDR  02760nam a2200457   4500
-=001  bimo0002109979
-=003  SpMaBN
-=005  20150204101200.4
-=008  060608s2005\\\\sp\|\\\\\\\\\\|||\||spa\\
-=016  7\$abimoBNE20060557849$2SpMaBN
-=017  \\$aB 51728-2005$bOficina Depósito Legal Barcelona
-=020  \\$a84-341-0180-7$z84-341-0180-0
-=040  \\$aSpMaBN$bspa$cSpMaBN$erdc
-=080  \\$a821.111(73)-34"19"(082.2)
-=080  \\$a821.134.2-34"19"(082.2)
-=245  01$a¡Castigados sin tele!$h[Texto impreso]
-=260  \\$a[s.l.$bs.n.$c2006]$eSanta Perpètua de Mogoda (Barcelona)$fCayfosa-Quebecor
-=300  \\$a3 v.$c19 cm
-=440  \0$a50 años de televisión$v1-3
-=505  0\$av. 1. Cuentos para que no veas la televisión / [cuentos de Andreu Buenafuente ... et al. ; prólogo de Juan_Cruz] v. 2. Más cuentos para que sigas sin ver la televisión / [cuentos de J.G. Ballard ... et al. ; prólogo de Javier Calvo] v. 3. La televisión, definitivamente, es un cuento / [textos de Pierre Bourdieu ... et al. ; prólogo de Juan Cueto]
-=594  \\$aEn la cub.: Fnac
-=650  \7$aCuentos españoles$yS.XX$2embne
-=650  \7$aCuentos norteamericanos$yS.XX$2embne
-=700  1\$aBallard, J. G.$d1930-2009
-=700  1\$aBourdieu, Pierre$d1930-2002
-=700  1\$aBuenafuente, Andreu$d1965-
-
 =LDR  01458nam a2200373   4500
 =001  bimo0002023740
 =003  SpMaBN
@@ -7849,12 +7321,13 @@
 =041  1\$aspa$heng
 =080  \\$a821.111-92"19"
 =100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=240  12$aA user's guide to the millennium$lEspañol
+=240  12$aA user's guide to the millennium$lEspañol$1http://www.wikidata.org/entity/Q4660390
 =245  10$aGuía del usuario para el nuevo milenio$h[Texto impreso] :$bensayos y reseñas$cJ.G. Ballard ; [traducción de Octavio di Leo]
 =250  \\$a1ª ed.
 =260  \\$aBarcelona$bMinotauro$c2002
 =300  \\$a319 p.$c24 cm
 =594  \\$aTraducción de: A user's guide to the millennium
+=700  \\$aLeo, Octavio di$4trl
 
 =LDR  01474nam a2200361   4500
 =001  bimo0001830150
@@ -8027,7 +7500,7 @@
 =041  1\$aspa$heng
 =080  \\$a820-31"19"
 =100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=240  10$aRushing to paradise$lEspañol
+=240  10$aRushing to paradise$lEspañol$1http://viaf.org/viaf/1313145424719986830495
 =245  10$aFuga al paraíso$h[Texto impreso]$cJ.G. Ballard
 =260  \\$aBarcelona$bEmecé$cD.L. 1995
 =300  \\$a299 p.$c22 cm
@@ -8147,6 +7620,7 @@
 =041  1\$aspa$heng
 =080  \\$a820-31"19"
 =100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  14$aThe cristal world$lEspañol$1http://viaf.org/viaf/307967896
 =245  13$aEl mundo de cristal$h[Texto impreso]$cJ. G. Ballard ; [traducción de Marcial Souto]
 =250  \\$a[1ª ed. ]
 =260  \\$aBarcelona$bMinotauro$c1991
@@ -8166,6 +7640,7 @@
 =041  1\$aspa$heng
 =080  \\$a820-34"19"
 =100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aMyths of the near future$lEspañol$1http://viaf.org/viaf/311468611
 =245  10$aMitos del futuro próximo$h[Texto impreso]$cJ. G. Ballard ; [traducción de Marcial Souto]
 =250  \\$a[1ª ed. ]
 =260  \\$aBarcelona$bMinotauro$c1990
@@ -8184,13 +7659,14 @@
 =040  \\$aSpMaBN$bspa$cSIC
 =080  \\$a820-31"19"
 =100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe unlimited dream company$1http://viaf.org/viaf/307972381
 =245  10$aCompañia de sueños ilimitada$h[Texto impreso]$cJ.G. Ballard ; [traducción de Enrique Pezzoni y Marcial Souto]
 =250  \\$a[1ª ed.]
 =260  \\$aBarcelona$bMinotauro$c1990
 =300  \\$a263 p.$c21 cm
 =500  \\$aTraducción de: The unlimited dream company
-=700  1\$aPezzoni, Enrique$d1926-1989
-=700  1\$aSouto, Marcial
+=700  1\$aPezzoni, Enrique$d1926-1989$4trl
+=700  1\$aSouto, Marcial$4trl
 
 =LDR  01301nam a2200349 i 4500
 =001  bimo0000327002
@@ -8514,6 +7990,7 @@
 =041  1\$aspa$heng
 =080  \\$a820-31"19"
 =100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aHello America$1http://viaf.org/viaf/202977755
 =245  10$aHola América$h[Texto impreso]$cJ.G. Ballard ; [traducción de Carlos Peralta]
 =250  \\$a1ª ed.
 =260  \\$aBarcelona$bMinotauro$c1986
@@ -8536,13 +8013,17 @@
 =245  13$aEl paisaje interior$h[Texto impreso]$cMervyn Peake, J.G. Ballard, Brian W. Aldiss ; [traducción, Marta Muñiz Moreno]
 =260  \\$aBarcelona$bOrbis$cD.L. 1986
 =300  \\$a160 p.$c20 cm
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =440  \0$aBiblioteca de ciencia ficción$v71
 =500  \\$aTraducción de: The inner landscape
 =505  0\$aNiño en tinieblas / Mervyn Peake. Las voces del tiempo / J.G. Ballard. Peligro, ¡Religión! / Brian W. Aldiss
-=700  1\$aAldiss, Brian W.$d1925-$tDanger, Religion!$lEspañol
-=700  1\$aBallard, J. G.$d1930-2009$tThe voices of time$lEspañol
-=700  1\$aMuñiz Moreno, Marta
-=700  1\$aPeake, Mervyn Laurence$d1911-1968$tBoy in darkness$lEspañol
+=700  1\$aMuñiz Moreno, Marta$4trl
+=700  12$aAldiss, Brian W.$d1925-$tDanger, Religion!$1http://viaf.org/viaf/183421260
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
+=700  12$aPeake, Mervyn Laurence$d1911-1968$tBoy in darkness$1http://viaf.org/viaf/309308512
 
 =LDR  01091nam a2200313   4500
 =001  bimo0000242829
@@ -8631,6 +8112,7 @@
 =041  1\$aspa$heng
 =080  \\$a820-32"19"
 =100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe atrocity exhibition$1http://viaf.org/viaf/182227002
 =245  13$aLa exhibición de atrocidades$h[Texto impreso]$cJ.G. Ballard ; [traducción del inglés de Marcelo Cohen y F. Abelenda]
 =260  \\$aBarcelona$bE.D.H.A.S.A.$cD.L. 1981
 =300  \\$a177 p., 1 h.$c19 cm
@@ -8714,38 +8196,6 @@
 =300  \\$a250 p., 1 h.$c19 cm
 =700  1\$aAbelenda, Francisco$d1922-2014
 
-=LDR  02018njm a2200433 c 4500
-=001  a7071363
-=003  SpMaBN
-=005  20220321130636.2
-=007  sd*cmmcnnmplne
-=008  220309s1966\\\\sp\ppn\\\\\\\\\\\\\\eng\\
-=015  \\$aSON66
-=017  \\$aM 3882-1966$bOficina Depósito Legal Madrid
-=028  00$a460 959 TE$bFontana
-=040  \\$aSpMaBN$bspa$cSpMaBN$erda
-=245  00$aTu me hiciste lo que soy hoy día =$bYou made me what I am today$cMitch Murray, Robin Conrad. Fue fácil buscarla = It was easier to hunt her / J. Ragavoy, B. Rusell. Tal como lo hice = I like I did / G. Ellis. Necesita amor = She needs love / Clint Ballard, Jr.
-=246  31$aYou made me what I am today
-=264  \1$a[Madrid]$bFontana,$c[1966]
-=264  \2$a[Madrid]$bfabric. y distribuido por Fonogram, S.A.,$c[1966]
-=300  \\$a1 disco sonoro$c18 cm
-=336  \\$aMúsica interpretada$2rdacontent
-=337  \\$aaudio$2rdamedia
-=338  \\$adisco sonoro$2rdacarrier
-=344  \\$aanalógico$c45 rpm$dmicrosurco$gmono
-=500  \\$aCarpeta con publicidad de las grabaciones recientes de Fontana
-=500  \\$aG. Ellis es un apodo de Wayne Fontana
-=511  1\$aWayne Fontana con acompañamiento dirigido por Les Reed (cara A) -- Wayne Fontana con The Mindbenders (cara B)
-=655  \7$aPop (Música)$2tgfbne
-=700  1\$aBallard, Clint,$cJr.$d1931−2008$ecompositor$eletrista$4cmp $4lyr
-=700  1\$aCallander, Peter$d1939-2014$ecompositor$eletrista$4cmp $4lyr
-=700  1\$aFontana, Wayne$d1945-$ecompositor$eletrista$ecantante$4cmp $4lyr $4sng
-=700  1\$aMurray, Mitch$d1940-$ecompositor$eletrista$4cmp $4lyr
-=700  1\$aRagavoy, Jerry$d1930-2011$ecompositor$eletrista$4cmp $4lyr
-=700  1\$aReed, Les$d1935-2019$edirector$4cnd
-=700  1\$aRussell, Bertrand$d1872-1970$ecompositor$eletrista$4cmp $4lyr
-=710  2\$aThe Mindbenders (Grupo musical)$eintérprete$4prf
-
 =LDR  01142nam a22003131i 4500
 =001  bimo0000640523
 =003  SpMaBN
@@ -8800,22 +8250,6 @@
 =700  1\$aBallard, J. G.$d1930-2009$4aui$1http://viaf.org/viaf/9842556
 =700  1\$aLarkin, David
 
-=LDR  01080nam a22002771  4500
-=001  bimo0000640521
-=003  SpMaBN
-=005  20200515013706.6
-=008  900725s1966\\\\sp\\\\\\\\\\\\\\\\\\spa\\
-=016  7\$abimoBNE19971201701$zIND9100057258$2SpMaBN
-=017  \\$aB 37414-1966$bOficina Depósito Legal Barcelona
-=040  \\$aSpMaBN$bspa$cA2
-=080  \\$a82-312.9"19"
-=100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=245  13$aEl huracán cósmico$h[Texto impreso]$cTraducción de Francisco Cazorla Olmo
-=260  \\$aBarcelona [etc.]$bEdhasa$c1966
-=300  \\$a238 p.$c17 cm
-=490  0\$aColección "Nebulas"$vv. 125
-=700  1\$aCazorla Olmo, Francisco
-
 =LDR  00553nam a2200205 a 4500
 =001  010023395
 =003  UkOxU
@@ -8832,6 +8266,10 @@
 =245  14$aThe day of creation /$cJ.G. Ballard
 =260  \\$aLondon :$bGollancz,$c1987
 =300  \\$a254 p. ;$c24 cm
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 
 =LDR  00629nam a2200217 a 4500
 =001  010029715
@@ -8849,6 +8287,10 @@
 =245  10$aEmpire of the sun /$cJ. G. Ballard
 =260  \\$aLondon :$bGrafton,$c1988, c1984
 =300  \\$a351 p. :$b1 map ;$c18 cm
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =500  \\$aOriginally published: London : Gollancz, 1984
 
 =LDR  00476nam a2200181   4500
@@ -8865,6 +8307,10 @@
 =245  14$aThe day of creation
 =260  \\$aLondon :$bGrafton,$c1988
 =300  \\$a287 p ;$c18 cm
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 
 =LDR  00524nam a2200193 a 4500
 =001  010261200
@@ -8880,6 +8326,10 @@
 =245  14$aThe day of creation
 =260  \\$aLeicester :$bCharnwood,$c1988
 =300  \\$a378 p. (large print)
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  0\$aCharnwood large type
 
 =LDR  00463nam a2200181   4500
@@ -8896,6 +8346,10 @@
 =245  10$aRunning wild
 =260  \\$aLondon :$bHutchinson,$c1988
 =300  \\$a72 p.
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 
 =LDR  00607nam a2200217 a 4500
 =001  010425257
@@ -8912,6 +8366,10 @@
 =245  10$aWar fever /$cJ.G. Ballard
 =260  \\$aLondon :$bCollins,$c1990
 =300  \\$a176 p. ;$c24 cm
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 
 =LDR  00478nam a2200181   4500
 =001  010472720
@@ -8927,6 +8385,10 @@
 =245  10$aEmpire of the sun
 =260  \\$aOxford :$bHeinemann Educational,$c1989
 =300  \\$a269 p
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 
 =LDR  00600nam a2200217 a 4500
 =001  010517178
@@ -8942,6 +8404,10 @@
 =245  14$aThe kindness of women
 =260  \\$aLondon :$bHarper Collins,$c1991
 =300  \\$a286 p
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 
 =LDR  00459nam a2200181 a 4500
 =001  010578512
@@ -8957,6 +8423,10 @@
 =245  14$aThe drought
 =260  \\$aLondon :$bPaladin,$c1990
 =300  \\$a188 p
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 
 =LDR  00475nam a2200181 a 4500
 =001  010578520
@@ -8972,6 +8442,10 @@
 =245  14$aThe Unlimited Dream Company
 =260  \\$aLondon :$bPaladin,$c1990
 =300  \\$a220 p
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 
 =LDR  00497nam a2200181   4500
 =001  010588381
@@ -8987,6 +8461,10 @@
 =260  \\$aLondon :$bPaladin,$c1990
 =300  \\$a171 p
 =500  \\$afirst published in Great Britain by Jonathan Cape, 1973
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 
 =LDR  00588nam a22002051  4500
 =001  010654531
@@ -9180,6 +8658,7 @@
 =020  \\$a0586090711
 =092  \\$aD0501465275
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe disaster area$1http://viaf.org/viaf/307986100
 =245  14$aThe Disaster area
 =260  \\$aLondon :$bPaladin,$c1992
 =300  \\$a191 p.
@@ -9223,6 +8702,7 @@
 =020  \\$a0586090711
 =092  \\$aD0501821818
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe disaster area$1http://viaf.org/viaf/307986100
 =245  14$aThe Disaster area
 =260  \\$aLondon :$bFlamingo,$c1992
 =300  \\$a191 p.
@@ -9700,6 +9180,7 @@
 =082  \\$a823.91$218
 =092  \\$aD0503362880
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe disaster area$1http://viaf.org/viaf/307986100
 =245  14$aThe Disaster area /$c[by] J. G. Ballard
 =260  \\$aLondon :$bCape,$c1967
 =300  \\$a206 p.$c19 1/2 cm
@@ -9714,6 +9195,7 @@
 =090  \\$aPR6052.A46$bW49
 =092  \\$aD0503362929
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aWhy I want to fuck Ronald Reagan$1http://www.wikidata.org/entity/Q593182
 =245  10$aWhy I want to fuck Ronald Reagan /$cJ.G. Ballard
 =260  \\$aBrighton :$bUnicorn Bookshop,$cc1968
 =300  \\$a[9] p. ;$c26 cm
@@ -9774,6 +9256,22 @@
 =260  \\$aNew York :$bPutnam,$c[1971]
 =300  \\$a319 p.$c21 cm
 =505  0\$aThe voices of time.--The drowned giant.--The terminal beach.--Manhole 69.--Storm-bird, storm-dreamer.--The sound-sweep.--Billenium.--Chronopolis.--Build-up.--The garden of time.--End game.--The watchtowers.--Now wakes the sea.--Zone of terror.--The cage of sand.--Deep end
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
+=700  12$aBallard, J. G.$d1930-2009$tThe drowned giant
+=700  12$aBallard, J. G.$d1930-2009$tThe terminal beach
+=700  12$aBallard, J. G.$d1930-2009$tManhole 69
+=700  12$aBallard, J. G.$d1930-2009$tStorm-bird, storm-dreamer
+=700  12$aBallard, J. G.$d1930-2009$tThe sound-sweep
+=700  12$aBallard, J. G.$d1930-2009$tBillenium
+=700  12$aBallard, J. G.$d1930-2009$tChronopolis
+=700  12$aBallard, J. G.$d1930-2009$tBuild-up
+=700  12$aBallard, J. G.$d1930-2009$tThe garden of time
+=700  12$aBallard, J. G.$d1930-2009$tEnd game
+=700  12$aBallard, J. G.$d1930-2009$tThe watchtowers
+=700  12$aBallard, J. G.$d1930-2009$tNow wakes the sea
+=700  12$aBallard, J. G.$d1930-2009$tZone of terror
+=700  12$aBallard, J. G.$d1930-2009$tThe cage of sand
+=700  12$aBallard, J. G.$d1930-2009$tDeep end
 =650  \0$aScience fiction, English.
 
 =LDR  00601cam a22002292a 4500
@@ -10011,24 +9509,9 @@
 =040  \\$aEQO$cEQO
 =092  \\$aD0503410115
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe disaster area$1http://viaf.org/viaf/307986100
 =245  14$aThe Disaster area
 =260  \\$aLond,$c1984
-
-=LDR  00716cam a2200241 a 4500
-=001  011712399
-=003  UkOxU
-=005  19961105001429.0
-=008  960119s1996\\\\enk\\\\\\\\\\\000\0\eng\\
-=015  \\$aGB 96-7631
-=020  \\$a0002555522
-=050  \4$aPR6052.A46$bA16 1996b
-=082  \\$a824.914$220
-=092  \\$aD0503414119
-=100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=245  12$aA user's guide to the millennium :$bessays and reviews /$cJ.G. Ballard
-=260  \\$aLondon :$bHarperCollins,$c1996
-=300  \\$a304 p ;$c24 cm
-=650  \0$aCivilization, Modern$y20th century
 
 =LDR  00719nam a2200241 a 4500
 =001  011938748
@@ -11014,68 +10497,6 @@
 =300  \\$a238 p. ;$c20 cm.
 =500  \\$aOriginally published: Flamingo, 1994.
 
-=LDR  01251cam a2200301 a 4500
-=001  017349901
-=003  UkOxU
-=005  20120329144507.0
-=008  101208s2010\\\\enka\\\\\bc\\\000\0\eng\d
-=020  \\$a9781935263074
-=040  \\$aUkOxU$beng$cUkOxU
-=245  00$aCrash :$bHomage to J G Ballard /$c[Editors Mark Francis and Kay Pallister].
-=246  30$aHomage to J G Ballard
-=260  \\$aLondon :$bGagosian Gallery,$c2010.
-=300  \\$a198 p. (some folded) :$bill. (chiefly col.) ;$c30 cm.
-=500  \\$aBound in plastic cover with two-pronged metal slide fastener.
-=500  \\$aIncludes texts by J.G. Ballard.
-=500  \\$aPublished on the occasion of the exhibition ... 11 February - 1 April 2010, Gagosian Gallery, London.
-=501  \\$aIncludes loose photographs held in plastic pouch on front and rear cover.
-=504  \\$aIncludes bibliographical references.
-=600  10$aBallard, J. G.,$d1930-2009$xInfluence$vExhibitions.
-=650  \0$aArt, Modern$y20th century$vExhibitions.
-=650  \0$aArt, Modern$y21st century$vExhibitions.
-=700  1\$aBallard, J. G.,$d1930-2009.
-=700  1\$aFrancis, Mark,$d1952-
-=700  1\$aPallister, Kay
-=710  2\$aGagosian Gallery (London, England)
-
-=LDR  01561ngm a2200445 a 4500
-=001  017659888
-=003  UkOxU
-=005  20120329150557.0
-=007  vd\cvaizu
-=008  110608s2004\\\\enk100\\\\\\\\\\\\vleng\d
-=038  \\$aUkLCURL
-=040  \\$aUkLUC$cUkLUC$dUkOxU
-=049  \\$jCU$k10001133972$lc
-=090  \\$aUCL$bISSUE DESK DVD 727
-=130  0\$aLondon Orbital (2002)
-=245  10$aLondon Orbital.
-=260  \\$a[England] :$bIlluminations,$cc2004.
-=300  \\$a1 DVD (100 min.) :$bsd., col. ;$c4 3/4 in.
-=336  \\$atodimensjonalt levende bilde$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1023
-=337  \\$avideo$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1008
-=338  \\$avideoplate$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1060
-=380  \\$afilmverk$0https://schema.nb.no/Bibliographic/Values/V1002
-=500  \\$aOriginally released as a motion picture: 2002.
-=500  \\$aTitle from disc label.
-=508  \\$aDirectors, cinematographers, Iain Sinclair, Chris Petit; producer, Keith Griffiths; editor, Emma Matthews.
-=511  0\$aFeaturing: J.G. Ballard, Renchi Bicknell, Nick Ferrari, Rachel Lichtenstein, Bernard O. Mahoney, Effie Paleologou, John Sergeant, Liat Uziel, John Whomes.
-=538  \\$aWidescreen DVD PAL.
-=651  \0$aLondon Orbital Motorway (England)
-=700  1\$aBallard, J. G.,$d1930-2009.
-=700  1\$aBicknell, Renchi.
-=700  1\$aFerrari, Nick.
-=700  1\$aGriffiths, Keith,$d1947-
-=700  1\$aLichtenstein, Rachel,$d1969-
-=700  1\$aMahoney, Bernard O.
-=700  1\$aMatthews, Emma,$cfilm editor.
-=700  1\$aPaleologou, Effie.
-=700  1\$aPetit, Christopher.
-=700  1\$aSergeant, John.
-=700  1\$aSinclair, Iain,$d1943-
-=700  1\$aUziel, Liat.
-=700  1\$aWhomes, John.
-
 =LDR  00327nam a22001095a 4500
 =001  017878414
 =003  UkOxU
@@ -11083,6 +10504,13 @@
 =008  111101s1969\\\\enk\\\\\\\\\\\|||\|\eng\d
 =245  04$aThe inner landscape /$cMervyn Peake, J. G. Ballard, Brian W. Aldiss.
 =260  \\$aLondon :$bAllison & Busby,$c1969.
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
+=700  12$aAldiss, Brian W.$d1925-$tDanger, Religion!$1http://viaf.org/viaf/183421260
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
+=700  12$aPeake, Mervyn Laurence$d1911-1968$tBoy in darkness$1http://viaf.org/viaf/309308512
 
 =LDR  00847nam a2200265 a 4500
 =001  019310566
@@ -11095,10 +10523,15 @@
 =045  \\$ax4x-
 =050  \4$aPR
 =082  14$a823$221
-=100  1\$aBrioni, Simone.
+=100  1\$aBrioni, Simone.$1http://viaf.org/viaf/251079462$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aIl futuro quotidiano : saggi su J. G. Ballard$1http://viaf.org/viaf/251079462/ilfuturoquotidiano
 =245  13$aIl futuro quotidiano :$bsaggi su J. G. Ballard /$cSimone Brioni ; con una prefazione di Paolo Simonetti.
 =260  \\$aCivitavecchia :$bProspettiva,$c2011.
 =300  \\$a150 p. ;$c20 cm.
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  1\$aCostellazione Orione ;$v67
 =504  \\$aIncludes bibliographical references.
 =600  10$aBallard, J. G.,$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
@@ -11120,6 +10553,7 @@
 =082  04$a823.914$223
 =090  \\$aNLS$bHB2.213.2.853
 =100  1\$aBallard, J. G.,$d1930-2009.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10059
+=240  \\$aExtreme methaphores$1http://www.wikidata.org/entity/Q18208804
 =245  10$aExtreme metaphors :$bselected interviews with J.G. Ballard, 1967-2008 /$cedited by Simon Sellars and Dan O'Hara.
 =260  \\$aLondon :$bFourth Estate,$cc2012.
 =300  \\$axxiii, 503 p. ;$c24 cm.
@@ -11127,8 +10561,8 @@
 =600  10$aBallard, J. G.,$d1930-2009$vInterviews.$1http://viaf.org/viaf/9842556
 =650  \0$aNovelists, English$y20th century$vInterviews.
 =650  \0$aNovelists, English$y21st century$vInterviews.
-=700  1\$aO'Hara, Daniel Finbarr John,$d1972-
-=700  1\$aSellars, Simon.
+=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt
+=700  1\$aSellars, Simon,$eeditor.$4edt
 
 =LDR  00938cam a2200313   4500
 =001  019560616
@@ -11224,7 +10658,7 @@
 =042  \\$aukblsr
 =082  04$a823.914$223
 =100  1\$aBallard, J. G.,$d1930-2009,$eauthor.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10059
-=240  10$aWorks.$kSelections
+=240  \\$aExtreme methaphores$1http://www.wikidata.org/entity/Q18208804
 =245  10$aExtreme metaphors :$bselected interviews with J.G. Ballard, 1967-2008 /$cedited by Simon Sellars and Dan O'Hara.
 =264  \1$aLondon :$bFourth Estate,$c2014.
 =300  \\$a503 pages ;$c20 cm
@@ -11236,8 +10670,8 @@
 =500  \\$aOriginally published: 2012.
 =600  10$aBallard, J. G.,$d1930-2009$vInterviews.$1http://viaf.org/viaf/9842556
 =650  \0$aAuthors, English$y20th century$vInterviews.
-=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.
-=700  1\$aSellars, Simon,$eeditor.
+=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt
+=700  1\$aSellars, Simon,$eeditor.$4edt
 
 =LDR  00541nam a2200193ui 4500
 =001  019989964
@@ -11600,6 +11034,14 @@
 =490  1\$aPenguin books ;$v2345
 =500  \\$a"First published by Victor Gollancz 1963. Published in Penguin Books 1965" -- title page verso.
 =505  0\$aThe voices of time -- The sound-sweep -- Prima belladonna -- Studio 5, the stars -- The garden of time -- The cage of sand -- The watch-tower -- Chronopolis.
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
+=700  12$aBallard, J. G.$d1930-2009$tThe sound-sweep
+=700  12$aBallard, J. G.$d1930-2009$tPrima belladonna
+=700  12$aBallard, J. G.$d1930-2009$tStudio 5, the stars
+=700  12$aBallard, J. G.$d1930-2009$tThe garden of time
+=700  12$aBallard, J. G.$d1930-2009$tThe cage of sand
+=700  12$aBallard, J. G.$d1930-2009$tThe watch-tower
+=700  12$aBallard, J. G.$d1930-2009$tChronopolis.
 =830  \0$aPenguin books (Series) ;$v2345
 
 =LDR  01141cam a2200253 i 4500
@@ -11621,6 +11063,7 @@
 =338  \\$avolume$2rdacarrier
 =500  \\$a"First published by Victor Gollancz 1963. Published in Penguin Books 1965. Reprinted with the two stories 'Prima Belladonna' and 'Studio 5, The Stars' replaced by 'The Overloaded Man' and 'Thirteen to Centaurus', 1977" -- title page verso.
 =505  0\$aThe voices of time -- The sound-sweep -- The overloaded man -- Thirteen to Centaurus -- The garden of time -- The cage of sand -- The watch-tower -- Chronopolis.
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
 
 =LDR  00905pam a2200253 i 4500
 =001  021201915
@@ -12995,22 +12438,6 @@
 =700  1\$aNousiainen, Jussi.
 =830  \0$aOtavan kirjasto.
 
-=LDR  00788cam a22002057i 4500
-=001  003127231
-=003  FI-MELINDA
-=005  20210927163031.0
-=008  910923s1987\\\\fi\||||||m\\\|||||||eng||
-=041  0\$aeng
-=100  1\$aTapio, Juha.
-=245  10$aQuest for the sun: the ontological tragicomedy of J. G. Ballard /$cJuha Tapio.
-=260  \\$aOulu :$b[J. Tapio],$c1987.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=338  \\$anide$bnc$2rdacarrier
-=509  \\$aPro gradu -tutkielma :$cOulun yliopisto, Englannin kielen laitos, englannin kieli.
-=655  \7$apro gradu -tutkielmat$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s1244
-=655  \7$apro gradu-avhandlingar$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s1244
-
 =LDR  01173cam a22003014i 4500
 =001  003199451
 =003  FI-MELINDA
@@ -13192,174 +12619,6 @@
 =740  0\$aWas there a Victorian ecology?.
 =740  4\$aThe commodious ark : nature's voice in early modern poetry.
 
-=LDR  12043cam a22020294i 4500
-=001  003357813
-=003  FI-MELINDA
-=005  20190704212253.0
-=008  010425s2002\\\\xxk|||||||||||||||||eng||
-=020  \\$a1-85317-939-6$qsidottu
-=041  0\$aeng
-=060  \4$aWM 220
-=245  00$aVascular cognitive impairment /$cedited by Timo Erkinjuntti, Serge Gauthier.
-=260  \\$aLondon :$bMartin Dunitz,$c2002.
-=300  \\$axii, 660 sivua :$bill. ;$c25cm
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=338  \\$anide$bnc$2rdacarrier
-=505  0\$aThe early history of vascular dementia / Gustavo Román -- The concept of vascular cognitive impairment / John V. Bowler and Vladimir Hachinski -- Classification and subtypes of vascular dementia / Anders Wallin, Veronica Milos, Magnus Sjögren, Leonardo Pantoni and Timo Erkinjuntti -- Diagnostic criteria / Timo Erkinjuntti, Gustavo Romain and Helena Chui -- Occurrence and determinants of vascular cognitive impairment / Chengxuan Qiu, Ingmar Skoog and Laura Fratiglioni -- Genetic factors / Helena Schmidt and Reinhold Schmidt -- Large vessel pathology / David G. Muñoz and Didier Leys -- Cerebral small vessel disease : pathological and pathophysiological aspects in relation to vascular cognitive impairment / Leonardo Pantoni and Alistair Lammie -- White matter lesions / Franz Fazekas and Elisabet Englund -- Overlap with Alzheimer's disease / Raj N. Kalaria and Ingmar Skoog -- Neuropsychological examination of memory / Marja Hietanen, Tuomo Hänninen, Ove Almkvist -- Language / Andrew Kertesz -- Cognitive outcome measures in vascular dementia / Steven Ferris and Serge Gauthier -- Assessment of behavioural disturbances and psychiatric symptoms in vascular dementia / Alistair Burns and Charlotte Busby -- Evaluation of daily activities in vascular cognitive impairment / Serge Gauthier and Isabelle Gélinas -- Functional brain imaging / Etsuro Mori -- Structural brain imaging / Charles DeCarli & Philip Scheltens -- Cerebrospinal fluid findings in vascular cognitive impairment with special reference to subcortical vascular dementia / Magnus Sjögren, Anders Wallin and Kaj Blennow -- Differential diagnosis with degenerative dementias / Ian G. McKeith and Juha O. Rinne -- Differential diagnosis with leukodystrophies and non-vascular acquired white matter disorders / Frederik Barkhof and Marjo S. van der Knaap -- The mixed dementias / Kenneth Rockwood -- Transcultural problems in clinical assessment : Japan / Kenichi Meguro and Akira Homma : Singapore / Christopher PL-H Chen : South Korea / Jae-Hong Lee and Hee-Jung Yoo : South America / Raúl Luciano Arizaga -- Natural history of vascular dementia / Arousiak Varpetian, Rumi Gonthier and Helena Chui -- Staging : relevance for trial design in vascular burden of the brain / Barry Reisberg, Steven Ferris, Thet Oo and Emile Franssen -- Prevention / Philip B. Gorelick -- Prevention and treatment of vascular dementia / Kenneth Rockwood, Serge Gauthier and Timo Erkinjuntti -- Pharmacotherapy of mood and behavior symptoms / Edmond Chui, Olga Yastrubetskaya and Monica Williams -- Early and chronic complications of stroke / Jeffrey Minuk, Liam Durcan and Robert Côté -- Regulatory guidelines for antidementia drugs / Tohru Sawada and Peter J. Whitehouse -- Societal burden and pharmacoeconomics of vascular dementia / Anders Wimo, L. Jönsson and Bengrt Winblad -- Vascular cause of cognitive impairment - the perspective / Timo Erkinjuntti and Serge GauthierNeurotransmitter control of the cerebral vasculature and abnormalities in vascular dementia / Jennifer A. Court, Elaine K. Perry and Raj N. Kalaria -- Global cognitive syndromes / David W. Desmond and Florence Pasquier -- Focal stroke syndromes / Gabriel r. de Freitas and Julien Bogousslavsky -- Vascular cognitive impairment and disability / Domenico Inzitari, Anna Maria Basile and Giovanna Carlucci -- Behavioural and psychological symptoms / Clive Ballard and John T. O'Brien -- Associated neurological featurees / Teodoro del Ser and Pablo Martinez-Lage -- The neurological examination in aging, dementia and cerebrovascular disease / David J. Gladstone and Sandra E. Black -- Bedside assessment of vascular dementia / Donald R. Royall -- General approaches to neuropsychological assessment / David W. Desmond -- Neuropsychological examination of executive functions / Kathleen Tingus, Susan McPherson and Jeffrey L. Cummings --
-=650  \2$adementia$xvascular
-=650  \2$aDementia$xvascular
-=650  \7$aaivot$2yso/fin$0http://www.yso.fi/onto/yso/p7040
-=650  \7$aaivoverenkiertohäiriöt$2yso/fin$0http://www.yso.fi/onto/yso/p1710
-=650  \7$ablodkärlssjukdomar$2yso/swe$0http://www.yso.fi/onto/yso/p1660
-=650  \7$acirkulationsstörningar i hjärnan$2yso/swe$0http://www.yso.fi/onto/yso/p1710
-=650  \7$ademens$2yso/swe$0http://www.yso.fi/onto/yso/p1711
-=650  \7$adementia$2yso/fin$0http://www.yso.fi/onto/yso/p1711
-=650  \7$adiagnoosi$2yso/fin$0http://www.yso.fi/onto/yso/p14134
-=650  \7$adiagnos$2yso/swe$0http://www.yso.fi/onto/yso/p14134
-=650  \7$agenetik$2yso/swe$0http://www.yso.fi/onto/yso/p5147
-=650  \7$ahjärna$2yso/swe$0http://www.yso.fi/onto/yso/p7040
-=650  \7$ahjärt-kärlsjukdomar$2yso/swe$0http://www.yso.fi/onto/yso/p9886
-=650  \7$ahoito$2yso/fin$0http://www.yso.fi/onto/yso/p824
-=650  \7$akänslor$2yso/swe$0http://www.yso.fi/onto/yso/p3485
-=650  \7$akognitiiviset prosessit$2yso/fin$0http://www.yso.fi/onto/yso/p5283
-=650  \7$akognitiva processer$2yso/swe$0http://www.yso.fi/onto/yso/p5283
-=650  \7$alääkehoito$2yso/fin$0http://www.yso.fi/onto/yso/p10851
-=650  \7$amedicinering$2yso/swe$0http://www.yso.fi/onto/yso/p10851
-=650  \7$aneurologi$2yso/swe$0http://www.yso.fi/onto/yso/p17305
-=650  \7$aneurologia$2yso/fin$0http://www.yso.fi/onto/yso/p17305
-=650  \7$aneuropsykologi$2yso/swe$0http://www.yso.fi/onto/yso/p14664
-=650  \7$aneuropsykologia$2yso/fin$0http://www.yso.fi/onto/yso/p14664
-=650  \7$apatologi$2yso/swe$0http://www.yso.fi/onto/yso/p7343
-=650  \7$apatologia$2yso/fin$0http://www.yso.fi/onto/yso/p7343
-=650  \7$aperinnöllisyystiede$2yso/fin$0http://www.yso.fi/onto/yso/p5147
-=650  \7$asydän- ja verisuonitaudit$2yso/fin$0http://www.yso.fi/onto/yso/p9886
-=650  \7$atunteet$2yso/fin$0http://www.yso.fi/onto/yso/p3485
-=650  \7$avård$2yso/swe$0http://www.yso.fi/onto/yso/p824
-=650  \7$averisuonitaudit$2yso/fin$0http://www.yso.fi/onto/yso/p1660
-=700  1\$aAlmkvist, Ove.
-=700  1\$aArizaga, Raúl Luciano.
-=700  1\$aBallard, Clive.
-=700  1\$aBarkhof, Frederik.
-=700  1\$aBasile, Anna Maria.
-=700  1\$aBlack, Sandra E.
-=700  1\$aBlennow, Kaj.
-=700  1\$aBogousslavsky, Julien.
-=700  1\$aBowler, John V.
-=700  1\$aBurns, Alistair.
-=700  1\$aBusby, Charlotte.
-=700  1\$aCarlucci, Giovanna.
-=700  1\$aChen, Christopher PL-H.
-=700  1\$aChui, Edmond.
-=700  1\$aChui, Helena.
-=700  1\$aCôté, Robert.
-=700  1\$aCourt, Jennifer A.
-=700  1\$aCummings, Jeffrey L.
-=700  1\$aDeCarli, Charles.
-=700  1\$aDesmond, David W,.
-=700  1\$aDesmond, David W.
-=700  1\$aDurcan, Liam.
-=700  1\$aEnglund, Elisabet.
-=700  1\$aErkinjuntti, Timo.
-=700  1\$aFazekas, Franz.
-=700  1\$aFerris, Steven.
-=700  1\$aFranssen, Emile.
-=700  1\$aFratiglioni, Laura.
-=700  1\$aFreitas, Gabriel R. de.
-=700  1\$aGauthier, Serge.
-=700  1\$aGélinas, Isabelle.
-=700  1\$aGladstone, David J.
-=700  1\$aGonthier, Rumi.
-=700  1\$aGorelick, Philip B.
-=700  1\$aHachinski, Vladimir.
-=700  1\$aHänninen, Tuomo.
-=700  1\$aHietanen, Marja.
-=700  1\$aHomma, Akira.
-=700  1\$aInzitari, Domenico.
-=700  1\$aJönsson, L.
-=700  1\$aKalaria, Raj N.
-=700  1\$aKertesz, Andrew.
-=700  1\$aKnaap, Marjo S. van der.
-=700  1\$aLammie, Alistair.
-=700  1\$aLee, Jae-Hong.
-=700  1\$aLeys, Didier.
-=700  1\$aMartinez-Lage, Pablo.
-=700  1\$aMcKeith, Ian G.
-=700  1\$aMcPherson, Susan.
-=700  1\$aMeguro, Kenichi.
-=700  1\$aMilos, Veronica.
-=700  1\$aMinuk, Jeffrey.
-=700  1\$aMori, Etsuro.
-=700  1\$aMuñoz, David G.
-=700  1\$aO'Brien, John T.
-=700  1\$aOo, Thet.
-=700  1\$aPantoni, Leonardo.
-=700  1\$aPasquier, Florence.
-=700  1\$aPerry, Elaine K.
-=700  1\$aQiu, Chengxuan.
-=700  1\$aReisberg, Barry.
-=700  1\$aRinne, Juha O.
-=700  1\$aRockwood, Kenneth.
-=700  1\$aRomán, Gustavo.
-=700  1\$aRoyall, Donald R.
-=700  1\$aSawada, Tohru.
-=700  1\$aScheltens, Philip.
-=700  1\$aSchmidt, Helena.
-=700  1\$aSchmidt, Reinhold.
-=700  1\$aSer, Teodoro del.
-=700  1\$aSjögren, Magnus.
-=700  1\$aSkoog, Ingmar.
-=700  1\$aTingus, Kathleen.
-=700  1\$aVarpetian, Arousiak.
-=700  1\$aWallin, Anders.
-=700  1\$aWhitehouse, Peter J.
-=700  1\$aWilliams, Monica.
-=700  1\$aWimo, Anders.
-=700  1\$aWinblad, Bengt.
-=700  1\$aYastrubetskaya, Olga.
-=700  1\$aYoo, Hee-Jung.
-=740  0\$aAssessment of behavioural disturbances and psychiatric symptoms in vascular dementia.
-=740  0\$aAssociated neurological featurees.
-=740  0\$aBedside assessment of vascular dementia.
-=740  0\$aBehavioural and psychological symptoms.
-=740  0\$aCerebral small vessel disease : pathological and pathophysiological aspects in relation to vascular cognitive impairment.
-=740  0\$aCerebrospinal fluid findings in vascular cognitive impairment with special reference to subcortical vascular dementia.
-=740  0\$aClassification and subtypes of vascular dementia.
-=740  0\$aCognitive outcome measures in vascular dementia.
-=740  0\$aDiagnostic criteria.
-=740  0\$aDifferential diagnosis with degenerative dementias.
-=740  0\$aDifferential diagnosis with leukodystrophies and non-vascular acquired white matter disorders.
-=740  0\$aEarly and chronic complications of stroke.
-=740  0\$aEvaluation of daily activities in vascular cognitive impairment.
-=740  0\$aFocal stroke syndromes.
-=740  0\$aFunctional brain imaging.
-=740  0\$aGeneral approaches to neuropsychological assessment.
-=740  0\$aGenetic factors.
-=740  0\$aGlobal cognitive syndromes.
-=740  0\$aLanguage.
-=740  0\$aLarge vessel pathology.
-=740  0\$aNatural history of vascular dementia.
-=740  0\$aNeuropsychological examination of executive functions.
-=740  0\$aNeuropsychological examination of memory.
-=740  0\$aNeurotransmitter control of the cerebral vasculature and abnormalities in vascular dementia.
-=740  0\$aOccurrence and determinants of vascular cognitive impairment.
-=740  0\$aOverlap with Alzheimer's disease.
-=740  0\$aPharmacotherapy of mood and behavior symptoms.
-=740  0\$aPrevention and treatment of vascular dementia.
-=740  0\$aPrevention.
-=740  0\$aRegulatory guidelines for antidementia drugs.
-=740  0\$aSocietal burden and pharmacoeconomics of vascular dementia.
-=740  0\$aStaging : relevance for trial design in vascular burden of the brain.
-=740  0\$aStructural brain imaging.
-=740  0\$aTranscultural problems in clinical assessment : Japan : Singapore : South Korea : South America.
-=740  0\$aVascular cause of cognitive impairment - the perspective.
-=740  0\$aVascular cognitive impairment and disability.
-=740  0\$aWhite matter lesions.
-=740  4\$aThe concept of vascular cognitive impairment.
-=740  4\$aThe early history of vascular dementia.
-=740  4\$aThe mixed dementias.
-=740  4\$aThe neurological examination in aging, dementia and cerebrovascular disease.
-
 =LDR  00555cam a22002054i 4500
 =001  004011395
 =003  FI-MELINDA
@@ -13399,6 +12658,7 @@
 =020  \\$a91-20-06589-2
 =041  0\$aswe
 =100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe unlimited dream company$1http://viaf.org/viaf/307972381
 =245  10$aDrömbolaget.
 =260  \\$aStockholm :$bAWE/Gebers,$c1981.
 =336  \\$ateksti$btxt$2rdacontent
@@ -13511,6 +12771,7 @@
 =336  \\$ateksti$btxt$2rdacontent
 =337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
 =338  \\$anide$bnc$2rdacarrier
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
 
 =LDR  00582cam a22002053i 4500
 =001  004516205
@@ -13552,6 +12813,7 @@
 =008  981022s1971\\\\xx\|||||||||||||||||swe||
 =041  0\$aswe
 =100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe crystal world$1http://viaf.org/viaf/307967896
 =245  10$aKristallvärlden.
 =260  \\$aStockholm :$bWahlström & Widstrand,$c1971.
 =300  \\$a195 s.
@@ -13798,6 +13060,7 @@
 =020  \\$a91-46-16195-3$qinbunden
 =041  1\$aswe$heng
 =100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe kindness of women$1http://viaf.org/viaf/8009153289944232770002
 =245  10$aKvinnors godhet /$cJ.G. Ballard ; översättning: Hans-Jacob Nilsson.
 =260  \\$aStockholm :$bWahlström & Widstrand,$c1992.
 =300  \\$a322 s
@@ -13902,6 +13165,7 @@
 =041  0\$aeng
 =050  00$aPR6052.A46$bZ72 2011
 =082  00$a823/.914$223
+=130  00$aJ. G. Ballard : Visions and Revisions$1http://viaf.org/viaf/11777409/jgballardvisionsandrevisions
 =245  00$aJ. G. Ballard :$bvisions and revisions /$cedited by Jeannette Baxter and Rowland Wymer.
 =260  \\$aHoundmills, Basingstoke, Hampshire ;$aNew York :$bPalgrave Macmillan,$c2012.
 =300  \\$ax, 255 pages ;$c23 cm
@@ -13919,8 +13183,8 @@
 =650  \7$atieteiskirjallisuus$2yso/fin$0http://www.yso.fi/onto/yso/p15527
 =651  \7$aIso-Britannia$2yso/fin$0http://www.yso.fi/onto/yso/p104990
 =651  \7$aStorbritannien$2yso/swe$0http://www.yso.fi/onto/yso/p104990
-=700  1\$aBaxter, Jeannette.
-=700  1\$aWymer, Rowland.
+=700  1\$aBaxter, Jeannette.$4edc$1http://viaf.org/viaf/11777409
+=700  1\$aWymer, Rowland.$4edc
 
 =LDR  02964cam a2200721 i 4500
 =001  006163373
@@ -14252,17 +13516,6 @@
 =337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
 =773  0\$7nnam$w(FI-MELINDA)007237491$tConstellations : stories of the future. -$dLondon : Puffin, 1983. -$z0-14-031582-9
 
-=LDR  00515caa a22001454i 4500
-=001  007971221
-=003  FI-MELINDA
-=005  20160510084245.0
-=008  040416s2002\\\\xxk||||||||||\||||||||||c
-=100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=245  10$aDream cargoes.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=773  0\$7nnam$w(FI-MELINDA)007267389$aByatt, A. S.$tThe Oxford book of English short stories. -$dOxford : Oxford University Press, 2002. -$z0-1-9280376-X
-
 =LDR  00497caa a22001454i 4500
 =001  008587357
 =003  FI-MELINDA
@@ -14342,79 +13595,26 @@
 =856  42$uhttps://en.wikipedia.org/wiki/Empire_of_the_Sun_(film)$yWikipedia
 
 =LDR  00550caa a22001574i 4500
-=001  008945547
-=003  FI-MELINDA
-=005  20151009012618.0
-=008  950915s1988\\\\xx\||||||||||\||||||||||c
-=100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=245  10$aMemories of the space age.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=773  0\$7nnam$w(FI-MELINDA)002652604$tThe Penguin book of modern British short stories. -$b[New ed.]. -$dLondon ; New York : Penguin, 1988. -$z0-14-006306-4
-
-=LDR  00567caa a22001694i 4500
-=001  008950330
-=003  FI-MELINDA
-=005  20210426142603.0
-=008  960705s1995\\\\fi\||||||||||\||||||||||c
-=100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=240  12$aA host of furious fancies
-=245  10$aHurjia haluja.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=773  0\$7nnam$w(FI-MELINDA)000813053$tVärisyttävä kosketus. -$dHyvinkää : Book Studio. -$kCollector antologia ; 13. -$z951-611-745-7. -$g2
-
-=LDR  00603caa a22001454i 4500
-=001  009062114
-=003  FI-MELINDA
-=005  20201211094014.0
-=008  091106s2009\\\\fi\||||||||||\||||||||||c
-=100  1\$aKujansivu, Heikki.
-=245  10$aJ. G. Ballard :$bihminen, teknologia ja yhteiskunta /$cHeikki Kujansivu.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=773  0\$7nnam$w(FI-MELINDA)005621782$tImperiumin perilliset : esseitä brittiläisestä nykykirjallisuudesta. -$d[Helsinki] : Avain, 2009. -$kCafé Voltaire. -$z978-952-5524-73-4
-
-=LDR  00635caa a22001814i 4500
-=001  009098898
-=003  FI-MELINDA
-=005  20211224101326.0
-=008  130220s2013\\\\xxua|||g\6|||\000\1\eng\c
-=041  0\$aeng
-=084  \\$a85.35$2ykl
-=100  0\$aOnsmith.
-=240  10$aCrash$1http://viaf.org/viaf/305922109
-=245  10$aCrash.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=700  1\$aBallard, J. G.
-=773  0\$7nnam$w(FI-MELINDA)007041173$tThe graphic canon. Volume 3, From Heart of darkness to Hemingway to Infinite jest. -$b1st ed$dNew York, NY : Seven Stories Press, 2013. -$mxii, 563 s. -$z978-1-60980-380-3
-
-=LDR  00550caa a22001574i 4500
 =001  009145814
 =003  FI-MELINDA
 =005  20210128125645.0
 =008  960124s1987\\\\xx\||||||||||\||||||||||c
 =100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
 =245  10$aMemories of the space age.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
+=264  \1$aLondon; New York$bPenguin$c1988
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
+=700  \2$aBallard, J. G.$tThe Cage of Sand
+=700  \2$aBallard, J. G.$tA Question of Re-entry
+=700  \2$aBallard, J. G.$tThe Dead Astronaut
+=700  \2$aBallard, J. G.$tMy Dream of Flying to Wake Island
+=700  \2$aBallard, J. G.$tNews from the Sun
+=700  \2$aBallard, J. G.$tMemories of the Space Age
+=700  \2$aBallard, J. G.$tMyths of the Near Future
+=700  \2$aBallard, J. G.$tThe Man Who Walked on the Moon
 =773  0\$7nnam$w(FI-MELINDA)000013510$tThe Penguin book of modern British short stories. -$b[New ed.]. -$dLondon ; New York : Penguin, 1988. -$z0-14-006306-4
-
-=LDR  00506cam a22001937i 4500
-=001  009258071
-=003  FI-MELINDA
-=005  20160209022007.0
-=008  040524s1988\\\\xx\||||\||||||||||||swe||
-=020  \\$a91-46-15543-0
-=041  1\$aswe$heng
-=084  \\$a84.31
-=100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=245  10$aSkapelsens dag /$cJ. G. Ballard
-=260  \\$c1988
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=338  \\$anide$bnc$2rdacarrier
 
 =LDR  01548cam a22004214i 4500
 =001  009345285
@@ -14450,21 +13650,6 @@
 =655  \7$apsykologiset romaanit$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s604
 =655  \7$apsykologiska romaner$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s604
 =655  \7$asvart humor$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s270
-
-=LDR  00632caa a22001814i 4500
-=001  009658692
-=003  FI-MELINDA
-=005  20211224130321.0
-=008  130220s2013\\\\xxua|||g\6|||\000\1\eng\c
-=041  0\$aeng
-=084  \\$a85.35$2ykl
-=100  0\$aOnsmith.
-=240  10$aCrash$1http://viaf.org/viaf/305922109
-=245  10$aCrash.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=700  1\$aBallard, J. G.
-=773  0\$7nnam$w(FI-MELINDA)009600305$tThe graphic canon. Volume 3, From Heart of darkness to Hemingway to Infinite jest$b1st ed$dNew York, NY : Seven Stories Press, 2013. -$mxii, 563 s. -$z978-1-60980-380-3
 
 =LDR  00671cam a22002534i 4500
 =001  009920480
@@ -14762,30 +13947,6 @@
 =700  1\$aLindholm, Juhani.$0(FI-ASTERI-N)000111549
 =830  \0$aOtavan kirjasto.
 
-=LDR  01188cab a22003494i 4500
-=001  013959919
-=003  FI-MELINDA
-=005  20190704174609.0
-=008  011030s2001\\\\fi\|||||\||||\|||||0fin|c
-=040  \\$aFI-BTJ
-=041  \\$afin
-=084  \\$a80$2ykl
-=084  \\$a81$2ykl
-=084  \\$a82$2ykl
-=084  \\$a83$2ykl
-=084  \\$a84$2ykl
-=084  \\$a85$2ykl
-=100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=245  10$aTäällä on ihanaa /$csuomennos: Ville Keynäs.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=500  \\$aTieteisnovelli.
-=650  \7$anoveller$2yso/swe$0http://www.yso.fi/onto/yso/p2126
-=650  \7$anovellit$2yso/fin$0http://www.yso.fi/onto/yso/p2126
-=650  \7$ascience fiction-litteratur$2yso/swe$0http://www.yso.fi/onto/yso/p15527
-=650  \7$atieteiskirjallisuus$2yso/fin$0http://www.yso.fi/onto/yso/p15527
-=773  0\$w(FI-MELINDA)000590328$7nnas$w(FI-Arto)1386296$tTähtivaeltaja. -$x0781-271X. -$g20(2001) : 2, s.70-75
-
 =LDR  01214cab a22003494i 4500
 =001  013960066
 =003  FI-MELINDA
@@ -14893,36 +14054,6 @@
 =337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
 =773  0\$7nnam$w(FI-MELINDA)005724602$tThe SF collection. -$dLondon : Chancellor Press, 1994. -$z1-85152-317-0
 
-=LDR  01500cja a22003734i 4500
-=001  015732409
-=003  FI-MELINDA
-=005  20211104193002.0
-=007  sd|f||g|||m|||
-=008  160222s2001\\\\xx\ptnn\|||||||nn\|\nor|\
-=024  0\$aUSCWA0101704
-=040  \\$aFI-NLD
-=041  0\$dnor
-=042  \\$afinbd
-=084  \\$a78.3411$2ykl
-=100  1\$aMeidell, Jacob Gerhard,$esäveltäjä.$0(FI-ASTERI-N)000196754
-=245  10$aDeilig er den himmel blå.
-=246  13$aDeilig er den himmel blaa
-=306  \\$a000234
-=336  \\$aesitetty musiikki$bprm$2rdacontent
-=337  \\$aaudio$bs$2rdamedia
-=500  \\$aAihepiiri: joulu.
-=511  0\$aChoral Arts Nortwest (kuoro). Sparks, Richard (kuoronjohtaja). Sunde, Stacey (sopraano). Ballard, Berith (altto). McCaffery-Lent, Robert (tenori). Braun, Timothy (basso).
-=518  \\$aÄänitys: 1999-2000.
-=700  1\$aBallard, Berith,$eesittäjä.
-=700  1\$aBraun, Timothy,$eesittäjä.
-=700  1\$aChristiansen, Paul J.,$esovittaja.$0(FI-ASTERI-N)000187052
-=700  1\$aGrundtvig, N. F. S.,$esanoittaja.$0(FI-ASTERI-N)000104616
-=700  1\$aMcCaffery-Lent, Robert,$eesittäjä.
-=700  1\$aSparks, Richard,$ejohtaja.
-=700  1\$aSunde, Stacey,$eesittäjä.
-=710  2\$aChoral Arts Northwest,$eesittäjä.
-=773  0\$7nnjm$w(FI-MELINDA)015602217$tA scandinavian christmas. -$d[Kustannuspaikka tuntematon] : [Loft Recordings], [2001]. -$h1 CD-äänilevy + tekstiliite. -$oLoft LRCD1017. -$gRaita 4
-
 =LDR  02105cim a22005054i 4500
 =001  016714436
 =003  FI-MELINDA
@@ -14964,21 +14095,6 @@
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =700  1\$aSill, Alastair,$elukija.
 =700  1\$aSmith, Zadie,$eesipuheen kirjoittaja.
-
-=LDR  00828caa a22002054i 4500
-=001  017393489
-=003  FI-MELINDA
-=005  20220210121424.0
-=008  100114s2009\\\\fi\\\\\\\\\\\\\\\\\\fin\c
-=041  \\$afin
-=080  \\$a82
-=100  1\$aKujansivu, Heikki.
-=245  10$aJ. G. Ballard :$bihminen, teknologia ja yhteiskunta.
-=336  \\$ateksti$btxt$2rdacontent
-=337  \\$akäytettävissä ilman laitetta$bn$2rdamedia
-=600  14$aBallard, J. G.$1http://viaf.org/viaf/9842556
-=650  \4$aromaani$xteema$xyhteiskunta$zIso-Britannia$y1960-2000-luku
-=773  0\$w(FI-MELINDA)005621782$7nnam$w(FI-Arto)1452229$tImperiumin perilliset : esseitä brittiläisestä nykykirjallisuudesta / Päivi Kosonen, Päivi Mäkirinta & Eila Rantonen (toim.). -$d[Helsinki] : Avain, 2009. -$z978-952-5524-73-4. -$gS. 100-111
 
 =LDR  02512cam a22004574i 4500
 =001  017414417
@@ -15575,6 +14691,7 @@
 =655  \7$aShort stories.$2fast
 =700  1\$aVanderMeer, Ann$4edt
 =700  1\$aVanderMeer, Jeff$4edt
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
 =830  \0$aVintage crime/Black Lizard
 =830  \0$aVintage crime/Black Lizard original
 
@@ -15601,7 +14718,8 @@
 =650  \7$aScience fiction, American.$2fast
 =650  \7$aScience fiction, English.$2fast
 =653  \0$aScience fiction, English
-=700  1\$aAmis, Kingsley.
+=700  1\$aAmis, Kingsley.$4edc$4edt
+=700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
 =776  08$iOnline version:$tGolden age of science fiction.$dLondon : Hutchinson, 1981$w(OCoLC)558543024
 
 =LDR  03506cam a22004217a 4500
@@ -15718,6 +14836,7 @@
 =082  04$a822$222 (machine generated)
 =084  \\$aHe.025$2kssb/8
 =084  \\$aHe.025/VC$2kssb/8
+=130  10$aHigh Rise$1http://www.wikidata.org/entity/Q16994014
 =245  10$aHigh-rise$h[Videoupptagning] /$ca film by Ben Wheatley ; written by Amy Jump ; directed by Ben Wheatley ; produced by Jeremy Thomas.
 =264  \1$aStockholm :$bUniversal Sony Pictures Home Entertainment Nordic,$c2017
 =264  \1$c2016
@@ -16048,10 +15167,15 @@
 =084  \\$5Mo$aGe.5$2kssb/8
 =084  \\$aGe.01$2kssb/7
 =084  \\$aGe.55$2kssb/7
-=100  1\$aTew, Philip$4aut
+=100  1\$aTew, Philip$4aut$1http://viaf.org/viaf/51908413$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aThe contemporary British novel$1http://viaf.org/viaf/3432155708697122580002
 =245  14$aThe contemporary British novel /$cPhilip Tew.
 =264  \1$aNew York :$bContinuum,$c2004
 =300  \\$axv, 205 s.$c22 cm
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =500  \\$5Mo$aengelska
 =520  8\$5Mo$aAnalys: Martin Amis ; J.G Ballard ; A.S Byatt ; Jonathan Coe ; Angela Carter ; Jim Grace ; John Fowles ; Kazuo Ishiguro ; James Kelman ; A.L Kennedy ; Hanif Kureishi ; Toby Litt ; Ian McEwan ; Caryl Phillips ; Salman Rushdie ; Iain Sinclair ; Zadie Smith ; Will Self ; Jeanette Winterson
 =650  \0$aEnglish fiction$y20th century$xHistory and criticism.
@@ -16150,26 +15274,6 @@
 =700  1\$aHoward, Richard,$d1929-$4trl
 =700  1\$aBallard, J. G.$d1930-2009$4aui$1http://viaf.org/viaf/9842556
 
-=LDR  01653cam a22003133a 4500
-=001  17360389
-=003  SE-LIBR
-=005  20160906190943.0
-=007  cr\|||\\\|||||\\\\\\\\\
-=008  150106s2015\\\\sw\|||||o|||||000\f|swe|d
-=020  \\$a9789187711299
-=024  7\$5Elib$a1028127$2Distributör: Elib
-=040  \\$ea
-=041  \\$aswe
-=072  \7$aFL$2bicssc
-=072  \7$aFYB$2bicssc
-=100  1\$aJohansson, KG$4aut
-=245  10$aFyra kvinnor fyra flickor$h[Elektronisk resurs]
-=264  \1$bWela Förlag,$c2015
-=380  \\$aFantasy & SF
-=380  \\$aNoveller$2barngf
-=520  \\$aKG Johansson är mångfaldigt prisbelönt som författare med stipendier, utmärkelser och förstaplaceringar i olika litterära tävlingar. De här novellerna är skrivna under åren runt 2010 och har kvinnor eller flickor som huvudpersoner, även om det någon gång inte verkar så. Det är postapokalyptiskt, poetiskt och fantastiskt, och författaren nämner framför allt William Blake och J.G. Ballard som inspirationskällor. I ett efterord lika läsvärt som de åtta novellerna berättar författaren om novellernas uppkomst. Omslag av Peter Öberg (Affront). [Elib]
-=856  42$uhttps://images.elib.se/cover/1028127/1028127.jpg$xdigipic$zOmslagsbild
-
 =LDR  01867cam a22005177a 4500
 =001  11661580
 =003  SE-LIBR
@@ -16203,46 +15307,6 @@
 =700  1\$aGrauerholz, James.
 =700  1\$aMiles, Barry,$d1943-$0220911
 
-=LDR  04923cam a22006733i 4500
-=001  19856605
-=003  SE-LIBR
-=005  20170110151004.0
-=007  cr\|||\\\|||||\\\\\\\\\
-=008  161115s2016\\\\xxu|||||o|||||000\0|eng|c
-=020  \\$a9781137581655
-=020  \\$z9781137590619 (Print)
-=024  7\$a10.1057/978-1-137-58165-5$2doi
-=040  \\$dLdig$ei$erda
-=041  \\$aeng
-=050  \4$aPN1-PN6790
-=072  \7$aD$2bicssc
-=072  \7$aLIT000000$2bisacsh
-=082  04$a800$223
-=100  1\$aDini, Rachele.$4aut
-=245  10$aConsumerism, Waste, and Re-Use in Twentieth-Century Fiction$bLegacies of the Avant-Garde /$cby Rachele Dini.
-=264  \1$aNew York :$bPalgrave Macmillan US :$bImprint: Palgrave Macmillan,$c2016
-=300  \\$aXIV, 253 p. 15 illus.$bonline resource.
-=336  \\$atext$btxt$2rdacontent
-=337  \\$acomputer$bc$2rdamedia
-=338  \\$aonline resource$bcr$2rdacarrier
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$adatamaskin$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=347  \\$atext file$bPDF
-=505  8\$aIntroduction -- Chapter One: In search of an epiphany: Redeeming waste and irrupting into the everyday -- Chapter Two: Samuel Beckett's personnes perdues: Human waste in The Trilogy, Texts for Nothing, and How it I -- Chapter Three: Waste in Donald Barthelme, J.G Ballard, and William Gaddis -- Chapter Four: "Most of our longings go unfulfilled": DeLillo's historiographical readings of landfills and nuclear fallout -- Conclusion -- Bibliography.
-=520  \\$aThis book examines manufactured waste and remaindered humans in literary critiques of capitalism by twentieth-century writers associated with the historical avant-garde and their descendants. Building on recent work in new materialism and waste studies, Rachele Dini reads waste as a process or phase amenable to interruption. From an initial exploration of waste and re-use in three Surrealist texts by Giorgio de Chirico, André Breton, and Mina Loy, Dini traces the conceptualization of waste in the writing of Samuel Beckett, Donald Barthelme, J.G. Ballard, William Gaddis, and Don DeLillo. In exploring the relationship between waste, capitalism, and literary experimentation, this book shows that the legacy of the historical avant-garde is bound up with an enduring faith in the radical potential of waste. The first study to focus specifically on waste in the twentieth-century imagination, this is a valuable contribution to the expanding field of waste studies.
-=650  \0$aLiterature.
-=650  14$aLiterature.
-=650  24$aLiterature, general.
-=710  2\$aSpringerLink (Online service)
-=776  08$iPrinted edition:$tConsumerism, Waste, and Re-Use in Twentieth-Century Fiction$z9781137590619
-=856  40$5Miun$uhttp://sfxeu11.hosted.exlibrisgroup.com/sfxmiu/?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=3710000000915282&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&$zStudent portal login$zSpringer DDA:Full Text
-=856  40$5Qdig$uhttps://search.ub.umu.se/openurl/46UMEA_INST/46UMEA_INST:UmUB?u.ignore_date_coverage=true&rft.mms_id=9921712318204996$zOnline access for UMUB$zfulltext$zEbook Central (UmU)
-=856  40$5Tdig$uhttp://pmt-eu.hosted.exlibrisgroup.com/openurl/46KTH/46KTH_services_page?u.ignore_date_coverage=true&rft.mms_id=99495676902456$zOnline access for KTHB$zfulltext$zSpringer
-=856  40$5Udix$uhttp://ezproxy.its.uu.se/login?url=https://link.springer.com/10.1057/978-1-137-58165-5$zTillgänglig för användare inom Uppsala universitet$zSpringer English/International eBooks 2016 - Full Set
-=856  42$uhttp://dx.doi.org/10.1057/978-1-137-58165-5$x856other$zTable of Contents / Abstracts
-
 =LDR  03859cam a22004573a 4500
 =001  12518426
 =003  SE-LIBR
@@ -16259,10 +15323,15 @@
 =072  \7$aHBWQ$2bicssc
 =072  \7$aHIS$2eflch
 =072  \7$aJFC$2bicssc
-=100  1\$aCrosthwaite, Paul,$d1980-
+=100  1\$aCrosthwaite, Paul,$d1980-$1http://viaf.org/viaf/85978105$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aTrauma, postmodernism and the aftermath of World War II$1http://viaf.org/viaf/85978105/trauma
 =245  10$aTrauma, postmodernism and the aftermath of World War II$h[Elektronisk resurs] /$cPaul Crosthwaite.
 =264  \1$aBasingstoke :$bPalgrave Macmillan,$c2009
 =300  \\$a240 p.
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$adatamaskin$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =365  \\$a02$b57.50$cGBP$d00$hS 50.00 15.0 57.50 7.50$jGB$kxxk$mPalgrave Macmillan$2onix-pt
 =366  \\$b20090129$cIP 20090826$jGB$kxxk$mPalgrave Macmillan$2UK-WkNB
 =500  \\$aEbook.
@@ -16296,15 +15365,16 @@
 =042  \\$9BULB
 =050  \4$aPN56.A69
 =082  04$a809/.93353$223
-=100  1\$aTate, Andrew,$d1971-$4aut
+=100  1\$aTate, Andrew,$d1971-$4aut$1http://viaf.org/viaf/24930412$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aApocalyptic fiction$1http://viaf.org/viaf/24930412/apocalypticfiction
 =245  10$aApocalyptic fiction /$cAndrew Tate.
 =264  \1$aLondon, UK ;$aNew York, NY, USA :$bBloomsbury Academic, an imprint of Bloomsbury Publishing Plc,$c[2017]
-=264  \1$aLondon, UK ;$aNew York, NY, USA :$bBloomsbury Academic, an imprint of Bloomsbury Publishing Plc,$c[2017].
 =264  \4$c©2017.
 =300  \\$a179 pages$c23 cm.
-=336  \\$atext$btxt$2rdacontent
-=337  \\$aunmediated$bn$2rdamedia
-=338  \\$avolume$bnc$2rdacarrier
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  1\$a21st century genre fiction
 =504  \\$aIncludes bibliographical references (pages 139-171) and index
 =505  8\$a1. Introduction: Dreams of the 'ruined' future -- 2. 'God rains over everything': Two floods -- 3. 'Sudden departure': Rapture writing -- 4. 'In the beginning, there was chaos': Atwood, apocalypse, art -- 5. Empty roads: Walking after catastrophe -- 6. Keep watching: Spectacle, rebellion and apocalyptic rites of passage -- 7. Conclusion: 'Survival is insufficient.'
@@ -16327,10 +15397,15 @@
 =040  \\$aAU@$beng$cAU@$dGbg
 =082  04$a813.6$222
 =084  \\$aHe.01$2kssb/8
-=100  1\$aCoupland, Douglas.
+=100  1\$aCoupland, Douglas.$1http://viaf.org/viaf/84536439$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aPlayer One$1http://viaf.org/viaf/4283154260563724480007
 =245  10$aPlayer One :$bwhat is to become of us; a novel in five hours /$cby Douglas Coupland
 =260  \\$aLondon :$bWilliam Heinemann,$c2010
 =300  \\$a246 p. ;$c22 cm.
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =520  \\$aThis is a real-time five-hour story set in an airport cocktail lounge during a global disaster. Five disparate people are trapped inside: Karen, a single mother waiting for her online date; Rick, the down-on-his-luck airport lounge bartender; Luke, a pastor on the run; Rachel, a cool Hitchcock blonde incapable of true human contact; and finally a mysterious voice known as Player One. Slowly, each reveals the truth about themselves while the world as they know it comes to an end. In the tradition of Kurt Vonnegut and J.G. Ballard, Coupland explores the modern crises of time, human identity, society, religion and the afterlife. The book asks as many questions as it answers and readers will leave the story with no doubt that we are in a new phase of existence as a species o and that there is no turning back.
 =650  \0$aBars (Drinking establishments)$vFiction
 =650  \0$aDisasters$vFiction
@@ -16350,7 +15425,8 @@
 =072  \7$aDSBH$2bicssc
 =072  \7$aLIT024050$2bisacsh
 =082  04$a809.04$223
-=100  1\$aHammond, Andrew.$4aut
+=100  1\$aHammond, Andrew.$4aut$1http://viaf.org/viaf/100332406$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aCold War Stories$1http://viaf.org/viaf/100332406/coldwarstories
 =245  10$aCold War Stories$bBritish Dystopian Fiction, 1945-1990 /$cby Andrew Hammond.
 =264  \1$aCham :$bSpringer International Publishing :$bImprint: Palgrave Macmillan,$c2017
 =300  \\$aV, 168 p.$bonline resource.
@@ -16392,10 +15468,15 @@
 =072  \7$aDNF$2bicssc
 =072  \7$aJMH$2bicssc
 =072  \7$aLIT$2eflch
-=100  1\$aNg, Andrew Hock-soon,$d1972-$4aut
+=100  1\$aNg, Andrew Hock-soon,$d1972-$4aut$1http://viaf.org/viaf/6037362$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aDimensions of monstrosity in contemporary narratives$1http://viaf.org/viaf/6037362/dimensions
 =245  10$aDimensions of monstrosity in contemporary narratives$h[Elektronisk resurs]$bTheory, psychoanalysis, postmodernism /$cAndrew Hock-soon Ng.
 =264  \1$aBasingstoke :$bPalgrave Macmillan,$c2004
 =300  \\$a240 p.
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$adatamaskin$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =365  \\$a02$b64.40$cGBP$d00$hS 56.00 15.0 64.40 8.40$jGB$kxxk$mPalgrave Macmillan$2onix-pt
 =366  \\$b20040914$cIP 20090826$jGB$kxxk$mPalgrave Macmillan$2UK-WkNB
 =500  \\$aEbook.
@@ -16411,44 +15492,6 @@
 =856  40$5Hdig$uhttp://link.sub.su.se/sfxsub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=1000000000343206&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&$zTillgänglig för användare inom Stockholms universitet$zSpringerLink Books - AutoHoldings:Full Text
 =856  40$5Tdig$uhttp://pmt-eu.hosted.exlibrisgroup.com/openurl/46KTH/46KTH_services_page?u.ignore_date_coverage=true&rft.mms_id=99525053202456$zOnline access for KTHB$zfulltext$zSpringer
 =856  42$uhttp://dx.doi.org/10.1057/9780230502987$x856other$zTable of Contents / Abstracts
-
-=LDR  02863nam a22004933i 4500
-=001  9pbjz4lx70w01t4p
-=003  SE-LIBR
-=005  20210512092419.0
-=008  210512s2018\\\\enka|||||b||||001\0|eng|d
-=015  \\$aGBB8I6882$2bnb
-=015  \\$aGBB9F7102$2bnb
-=016  7\$a018373701$2Uk
-=016  7\$a019273267$2Uk
-=020  \\$a0995455066
-=020  \\$a9780995455061$q(paperback)
-=040  \\$aGk$beng$cNZAUC$dOCLCO$dUKMGB$dOCLCF$dNDD$dOCLCQ$ei$erda
-=041  \\$aeng
-=050  \4$aBF1999
-=082  04$a130$223
-=084  \\$aDop$2kssb/8 (machine generated)
-=245  10$aCCRU writings 1997-2003 /$cCCRU.
-=246  1\$aCybernetic Culture Research Unit writings 1997-2003
-=246  1\$aWritings 1997-2003
-=250  \\$aSecond edition
-=264  \1$aFalmouth, United Kingdom :$bUrbanomic Media Ltd,$c2018
-=300  \\$a378 pages$billustrations$c21 cm
-=336  \\$atext$btxt$2rdacontent
-=337  \\$aunmediated$bn$2rdamedia
-=338  \\$avolume$bnc$2rdacarrier
-=500  \\$aOriginally published as an e-book by Time Spiral Press in 2015.
-=504  \\$aIncludes bibliographical references and index.
-=505  8\$aID(endtity) -- The Cthulhu Club -- AOE/AXSYS -- Black Atlantis -- Barker -- Sarkon -- Cybergothic -- Pandemonium.
-=520  \\$a"The texts collected here document the CCRU's perilous efforts to catalogue the traces of Lemurian occulture, bringing together the scattered accounts of those who had stumbled upon lagooned relics of nonhuman intelligence--a project that led ultimately to the recovery of the Numogram and the reconstruction of the principles of Lemurian time-sorcery--before disintegrating into collective schizophrenia and two decades of absolute obscurity. Meshing together fiction, number theory, voodoo, philosophy, anthropology, palate tectonics, information science, semiotics, geotraumatics, occultism, and other nameless knowledges, in these pages the incomplete evidence gathered by explorers including Burroughs, Blavatsky, Lovecraft, Jung, Barker, J.G. Ballard, William Gibson, and Octavia Butler, but also the testimony of more obscure luminaries such as Echidna Stillwell, Oskar Sarkon, and Madame Centauri, are clarified and subjected to systematic investigation, comparison, and assessment so as to gauge the real stakes of the Time-War still raging behind the collapsing façade of reality ..."--Publisher's description.
-=650  \0$aCybernetics.
-=650  \0$aLemuria.
-=650  \0$aOccultism.
-=650  \0$aOcculture.
-=650  \7$aCybernetics.$2fast
-=650  \7$aLemuria.$2fast
-=650  \7$aOccultism.$2fast
-=710  2\$aCybernetic Culture Research Unit$4aut
 
 =LDR  02607cam a22004093a 4500
 =001  14700725
@@ -16597,7 +15640,8 @@
 =041  \\$aeng
 =050  \4$aPR478.S57 H36 2013
 =082  00$a820.900914$223/swe
-=100  1\$aHanson, Clare.$4aut
+=100  1\$aHanson, Clare.$4aut$1http://viaf.org/viaf/51718292$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aEugenics, literature, and culture in post-war Britain$1http://viaf.org/viaf/51718292/eugenics
 =245  10$aEugenics, literature, and culture in post-war Britain$h[Elektronisk resurs] /$cClare Hanson.
 =264  \1$aNew York :$bRoutledge,$c2013
 =300  \\$a1 online resource (201 p.)
@@ -16627,35 +15671,6 @@
 =655  \4$aElectronic books.
 =776  08$iPrint:$aHanson, Clare$tEugenics, Literature, and Culture in Post-war Britain$d2012$z9780415806985
 =830  \0$aRoutledge interdisciplinary perspectives on literature ;$v11
-
-=LDR  03845cam a22004937i 4500
-=001  w7h11chmtlwb645h
-=003  SE-LIBR
-=005  20201127122203.0
-=008  200513s2019\\\\xxka||||||||||001\0|eng|d
-=020  \\$a9781913029562$qhäftad
-=040  \\$aUm$beng$cYDX$dBDX$dERASA$dUKMGB$dOCLCO$dOCLCF$dYDXIT$dOCL$dZYU$dGUA$ei$erda
-=041  \\$aeng
-=082  04$a190$223
-=084  \\$aDbc$2kssb/8 (machine generated)
-=100  1\$aMoynihan, Thomas T.$4aut
-=245  10$aSpinal catastrophism :$ba secret history /$cThomas Moynihan.
-=264  \1$aFalmouth :$bUrbanomic Media Ltd.$c2019
-=300  \\$axx, 332 pages$billustrationer$c18 cm
-=336  \\$atext$btxt$2rdacontent
-=337  \\$aunmediated$bn$2rdamedia
-=338  \\$avolume$bnc$2rdacarrier
-=490  1\$aMono ;$v007
-=504  \\$aIncludes bibliographical references (pages 305-332) and indexes.
-=520  8\$aThe historical continuity of spinal catastrophism, traced across multiform encounters between philosophy, psychology, biology, and geology. Drawing on cryptic intimations in the work of J. G. Ballard, Georges Bataille, William Burroughs, Andre Leroi-Gourhan, Elaine Morgan, and Friedrich Nietzsche, in the late twentieth century Daniel Barker formulated the axioms of spinal catastrophism: If human morphology, upright posture, and the possibility of language are the ramified accidents of natural history, then psychic ailments are ultimately afflictions of the spine, which itself is a scale model of biogenetic trauma, a portable map of the catastrophic events that shaped that atrocity exhibition of evolutionary traumata, the sick orthograde talking mammal. Tracing its provenance through the biological notions of phylogeny and "organic memory" that fueled early psychoanalysis, back into idealism, nature philosophy, and romanticism, and across multiform encounters between philosophy, psychology, biology, and geology, Thomas Moynihan reveals the historical continuity of spinal catastrophism. From psychoanalysis and myth to geology and neuroanatomy, from bioanalysis to chronopathy, from spinal colonies of proto-minds to the retroparasitism of the CNS, from "railway spine" to Elizabeth Taylor's lost gill-slits, this extravagantly comprehensive philosophical adventure uses the spinal cord as a guiding thread to rediscover forgotten pathways in modern thought.  Moynihan demonstrates that, far from being an fanciful notion rendered obsolete by advances in biology, spinal catastrophism dramatizes fundamental philosophical problematics of time, identity, continuity, and the transcendental that remain central to any attempt to reconcile human experience with natural history.
-=650  \0$aHuman body
-=650  \0$aPhilosophy
-=650  \0$aSpinal cord
-=650  \0$aSpine
-=650  \7$aFilosofi$0https://id.kb.se/term/sao/Filosofi$2sao
-=650  \7$aMänniskokroppen$0https://id.kb.se/term/sao/M%C3%A4nniskokroppen$2sao
-=650  \7$aRyggmärg$0https://id.kb.se/term/sao/Ryggm%C3%A4rg$2sao
-=650  \7$aRyggrad$0https://id.kb.se/term/sao/Ryggrad$2sao
 
 =LDR  04056cam a22005297i 4500
 =001  t3ckxrnpr62z4343
@@ -16689,41 +15704,6 @@
 =650  \7$aNarratologi$0https://id.kb.se/term/sao/Narratologi$2sao
 =655  \7$aAnalys och tolkning$0https://id.kb.se/term/saogf/Analys%20och%20tolkning$2saogf
 =830  \0$aTheory and interpretation of narrative series
-
-=LDR  04163cam a22005897i 4500
-=001  p17x0ksrmng803dd
-=003  SE-LIBR
-=005  20200824101038.0
-=008  200427s2020\\\\enk||||||b||||001\0|eng|\
-=010  \\$a2019049200
-=015  \\$aGBC036006$2bnb
-=016  7\$a019737671$2Uk
-=020  \\$a0262538857
-=020  \\$a0854882812
-=020  \\$a9780262538855$q(paperback)
-=020  \\$a9780854882816
-=040  \\$aKo$beng$cDLC$dOCLCO$dOCLCF$dYDX$dERASA$dUKMGB$ei$erda
-=041  \\$aeng
-=042  \\$apcc
-=050  \0$aPN3433.6
-=082  00$a809.3/8762$223
-=245  10$aScience fiction /$cedited by Dan Byrne-Smith.
-=264  \1$aLondon :$bWhitechapel Gallery ;$aCambridge, Massachusetts :$bThe MIT Press,$c2020
-=300  \\$a238 pages$c21 cm.
-=336  \\$atext$btxt$2rdacontent
-=337  \\$aunmediated$bn$2rdamedia
-=338  \\$avolume$bnc$2rdacarrier
-=490  0\$aDocuments of contemporary art
-=504  \\$aIncludes bibliographical references and index.
-=520  \\$a"In the past two decades, artists, and writers have increasingly adopted the idea that science fiction can be understood as a lens through which to search for fragments of truth emerging from the past or the future, and the proliferation of science fiction in contemporary art practice and discourse reflects an increased understanding of how this narrative field continues to grow in relevance. Split into four distinct approaches, "estrangement," "futures," "posthumanism," and "ecologies," this unique collection gathers key examples of the influence of science fiction in recent cultural development: from the integration and acceleration of technological change, to global urbanization and concepts of futurity; from the boundaries of social structures and non-human life, to the threatening self-evidence of climate change. This book is the first major anthology to focus on relationships between science fiction and contemporary art, and is an essential read for all those exploring this vital genre. Artists surveyed include Denenge Akpem, Laylah Ali, Allora & Calzadilla, Pawel Althamer, Carol Bove, Lee Bul, Mark Dion, Jimmie Durham, Ellen Gallagher, Robert Gober, Eduardo Kac, Mikhail Karikis, Patrick Keiller, Karen Kilimnik, Jeff Koons, Moon Kyungwon and Jeon Joonho, Lawrence Lek, Paul McCarthy, Mariko Mori, David Musgrave, Otolith Group, Eduardo Paolozzi, Kiki Smith, Sun Ra, Suzanne Treister, Jeff Wall. Writers include Peio Aguirre, Margaret Atwood, J.G. Ballard, Tiffany E. Barber, Jean Baudrillard, Franco 'Bifo' Beradi, Rosie Braidotti, Rachel Carson, Jeffrey Deitch, Donna Haraway, Cathy Lane, Amna Malik, Tom McCarthy, Alondra Nelson, Gwyneth Shanks, Jan Tumlir, Xin Wang, Gilda Williams"--$cProvided by publisher.
-=650  \0$aArt and literature.
-=650  \0$aScience fiction
-=650  \0$aScience fiction$xHistory and criticism.
-=650  \7$aArt and literature.$2fast
-=650  \7$aScience fiction$0https://id.kb.se/term/sao/Science%20fiction$2sao
-=650  \7$aScience fiction.$2fast
-=655  \7$aCriticism, interpretation, etc.$2fast
-=700  1\$aByrne-Smith, Dan$4edt
 
 =LDR  05240cam a22007217i 4500
 =001  0bvfzttpxf9mjgb4
@@ -16773,57 +15753,6 @@
 =700  1\$aGuignery, Vanessa,$d1972-$4edt
 =830  \0$aSeries in literary studies
 
-=LDR  13153cam a22017897i 4500
-=001  jsccdkllgr9qkxcr
-=003  SE-LIBR
-=005  20190325085034.0
-=008  190227t20182018enk|||||||||||000\0|eng|d
-=020  \\$a191224828X$q(pbk.)
-=020  \\$a9781912248285$q(pbk.)
-=040  \\$aGbg$beng$cYDX$ei$erda
-=041  \\$aeng
-=050  \4$aPR6106.I75
-=050  \4$aPR6106.I845
-=082  04$a824/.92$223
-=084  \\$aBfk$2kssb/8
-=084  \\$aIj:oa$2kssb/8
-=084  \\$aOabkba-e$2kssb/8
-=084  \\$aOcgc$2kssb/8
-=100  1\$aFisher, Mark,$d1968-2017$4aut
-=245  10$aK-punk :$bthe collected and unpublished writings of Mark Fisher (2004-2016) /$cedited by Darren Ambrose ; foreword by Simon Reynolds.
-=264  \1$aLondon, UK :$bRepeater,$c2018
-=264  \4$c©2018
-=300  \\$a817 sidor$c24 cm
-=336  \\$atext$btxt$2rdacontent
-=337  \\$aunmediated$bn$2rdamedia
-=338  \\$avolume$bnc$2rdacarrier
-=504  \\$aIncludes bibliographical references (pages 773-814).
-=505  8\$aForeword / Simon Reynolds -- Editor's introduction / Darren Ambrose -- Why K?
-=505  8\$aPart five: We have to invent the future: interviews (They can be different in the future too: interviewed by Rowan Wilson for Ready, steady book (2010) ; Capitalism realism: : interviewed by for Richard Capes (2011) ; Preoccupying: : interviewed by the Occupied Times (2012) ; We need a post-capitalist vision: : interviewed by AntiCapitalist Initiative (2012) ; "We have to invent the future" an unseen interview with Mark Fisher (2012) ; Hauntology, nostalgia and lost futures : interviewed by Valerio Mannucci and Valerio Mattioli for Nero (2014))
-=505  8\$aPart four: For now, our desire is nameless: political writings (Don't vote, don't encourage them ; October 6, 1979: capitalism and bipolar disorder ; What if they had a protest and everyone came ; Defeating the Hydra ; The face of terrorism without a face ; Conspicuous force and verminisation ; My card, my life: comments on the AMEX Red campaign ; The great Bullingdon Club swindle ; The privatisation of stress ; Kettle logic ; Winter of discontent 2.0: notes on a month of militancy ; Football / capitalist realism / Utopia ; The game has changed ; Reality management ; UK tabloid ; The future is still ours: autonomy and post-capitalism ; Aesthetic poverty ; The only certainties are death and capital ; Why mental health is a political issue ; The London hunger games ; Time-wars: towards an alternative for the neo-capitalist era ; Not failing better, but fighting to win ; The happiness of Margaret Thatcher ; Suffering with a smile ; How to kill a zombie: strategising the end of neoliberalism ; Getting away with murder ; No one is bored, everything is boring ; A time for shadows ; Limbo is over ; Communist realism ; Pain now ; Abandon hope (Summer is coming) ; For now, our desire is nameless ; Anti-therapy ; Democracy is joy ; Cybergothic vs. steampunk ; Mannequin challenge)
-=505  8\$aPart one: Methods of dreaming: books (Book meme ; Space, time, light, all the essentials: reflections on J.G. Ballard season (BBC 4) ; Why I want to fuck Ronald Reagan ; A fairground's pastoral swings ; What are the politics of boredom?: (Ballard 2003 Remix) ; Let me be your fantasy ; Fantasy kits: Steven Meisel's "State of emergency" ; The assassination of J. G. Ballard ; A world of dread and fear ; Ripley's glam ; Methods of dreaming ; Atwood's anti-capitalism ; Toy stories: puppets, dolls and horror stories ; Zer0 Books statement)
-=505  8\$aPart six: We are not here to entertain you: reflections (One year later ... ; Spinoza, k-punk, Neuropunk ; Why Dissensus? ; New comments policy ; Comments policy (latest) ; Chronic demotivation ; How to keep Oedipus alive in cyberspace ; We dogmatists ; London litened ; No future 2012 ; Ridicule is nothing to be scared of (Slight return) ; Breakthrough in Grey lair ; Real abstractions: the application of theory in the modern world ; No I've never had a job ... ; Fear and misery in neoliberal Britain ; Exiting the vampire castle ; Good for nothing)
-=505  8\$aPart three: Choose your weapons: writing on music (The by now traditional Glasto rant ; Art pop, no, really ; k-punk, or the glampunk art pop discontinuum ; Noise as anti-capital: As the veneer of democracy starts to fade ; Lions after slumber, or what is sublimation today? ; The outside of everything now ; For your unpleasure: the hauter-couture of Goth ; It doesn't matter if we all die: the Cure's unholy trinity ; Look at the light ; Is pop undead? ; Memorex for the kraken: the Fall's pulp modernism ; Scritti's sweet sickness ; Postmodernism as pathology: Part 2 ; Choose your weapons ; Variations on a theme ; Running on empty ; You remind me of gold: dialogue with Mark Fisher and Simon Reynolds ; Militant tendencies feed music ; Autonomy in the UK ; The secret sadness of the twenty-first century: James Blake's Overgrown ; Review: David Bowie's The next day ; The man who has everything: Drake's Nothing was the same ; Break it down: DJ Rashad's Double cup ; Start your nonsense! on eMMplekz and Dolly Dolly ; Review: Sleaford Mods' Divide and exit and Clubbed up: The singles collection ; Test Dept: where leftist idealism and popular modernism collide ; No romance without finance)
-=505  8\$aPart two: Screens, dreams and spectres: film and television (A spoonful of sugar ; She's not my mother ; Stand up, Nigel Barton ; Portmeiron: an ideal for living ; Golgothic materialism ; This movie doesn't move me ; Fear and misery in the Third Reich 'n' Roll ; We want it all ; Gothic Oedipus: subjectivity and capitalism in Christiopher Nolan's Batman begins ; When we dream, do we dream we're Joey? ; Notes on Cronenberg's eXistenZ ; I filmed it so I didn't have to remember it myself ; Spectres of marker and the reality of the Third Way ; Dis-identity politics ; "You have always been the caretaker": the spectral spaces of the Overlook Hotel ; Coffee bars and internment camps ; Rebel without a cause ; Robot historian in the ruins ; Review of Tyson ; "They killed their mother"; Avatar as ideological symbol ; Precarity and paternalism ; Return of the gift: Richard Kelly's The box ; Contributing to society ; 'Just relax and enjoy it": Gewarfenheit on the BBC ; Star Wars was a sell-out from the start ; Gilliam Wearing: Self made ; Batman's political right turn ; Remember who the enemy is ; Beyond good and evil: Breaking bad ; Classless broadcasting: Benefits Street ; Rooting for the enemy: The Americans ; How to let go: The leftovers, Broadchurch and The missing ; The strange death of British satire ; Review: Terminator Genisys ; The house that fame built: Celebrity Big Brother ; Sympathy for the androids: the twisted morality of Westworld)
-=650  \0$aCulture ¡ Philosophy
-=650  \0$aEssay
-=650  \0$aEssays
-=650  \0$aNeoliberalism
-=650  \0$aPhilosophy
-=650  \0$aPhilosophy, Modern$y21st century.
-=650  \0$aPunk culture
-=650  \7$aEssäer$0https://id.kb.se/term/sao/Ess%C3%A4er$2sao
-=650  \7$aFilosofi$0https://id.kb.se/term/sao/Filosofi$2sao
-=650  \7$aKulturteori$0https://id.kb.se/term/sao/Kulturteori$2sao
-=650  \7$aMusik och samhälle$0https://id.kb.se/term/sao/Musik%20och%20samh%C3%A4lle$2sao
-=650  \7$aNyliberalism$0https://id.kb.se/term/sao/Nyliberalism$2sao
-=650  \7$aPopkultur$0https://id.kb.se/term/sao/Popkultur$2sao
-=650  \7$aPunkare$0https://id.kb.se/term/sao/Punkare$2sao
-=650  \7$aUngdomskultur$0https://id.kb.se/term/sao/Ungdomskultur$2sao
-=651  \7$aStorbritannien$0https://id.kb.se/term/sao/Storbritannien$2sao
-=700  1\$aAmbrose, Darren$4edt
-=700  1\$aReynolds, Simon,$d1963-$4ctb
-
 =LDR  02813cam a22005178a 4500
 =001  9510423
 =003  SE-LIBR
@@ -16837,49 +15766,20 @@
 =050  \0$aPN49
 =082  00$a801/.3$222
 =084  \\$aG:df$2kssb/7
-=100  1\$aTighe, Carl,$d1950-$4aut
+=100  1\$aTighe, Carl,$d1950-$4aut$1http://viaf.org/viaf/27118274$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aWriting and responsibility$1http://viaf.org/viaf/27118274/writingandresponsibility
 =245  10$aWriting and responsibility /$cCarl Tighe.
 =264  \1$aNew York :$bRoutledge,$c2005
 =300  \\$a165 s.
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =504  \\$aIncludes bibliographical references and index.
 =505  8\$aIntroduction -- Tradition -- Power -- Accuracy -- Kitsch -- Censorship -- Political correctness -- New kinds of sex: J.G. Ballard, crash -- Sex, satire, and sadism: Bret Easton Ellis, American psycho -- Faking a life: Binjamin Wilkomirski, Fragments -- Between Poland and Germany: Gunter Grass, The tin drum -- African reality: Wole Soyinka, 'The writer in a modern African state' -- Witches of Croatia: Dubravka Ugresic, The culture of lies.
 =650  \0$aLiterature and morals.
 =650  \0$aLiterature, Modern$y20th century$xHistory and criticism.
 =856  40$5Odig$uhttps://openurl.oru.se?u.ignore_date_coverage=true&rft.mms_id=999354079403663$zTillgänglig inom Örebro universitet och externt för studenter och anställda vid universitetet$zfulltext$zEbook Central Perpetual, DDA and Subscription Titles
-
-=LDR  04198cam a22003853u 4500
-=001  13410333
-=003  SE-LIBR
-=005  20130211105702.0
-=006  m\\\\\\\\d\\\\\\\\
-=007  cr\-n---------
-=008  120510s2011||||at\\\\\\s|||||||||||eng|d
-=020  \\$a978-1-74269-379-8$c35.988 (NL)
-=020  \\$z978-1-74237-739-1 (print)
-=040  \\$aAU-PeEL$beng$cAU-PeEL$dAU-PeEL$dUdig$9EBL_PDA
-=050  \4$aPN4874.H52 .H889 2011
-=082  00$a814.54
-=100  1\$aHitchens, Christopher,$d1949-2011$0308918
-=245  10$aArguably$h[Elektronisk resurs].
-=260  \\$aSydney :$bAllen & Unwin,$c2011.
-=300  \\$a1 online resource (809 p.)
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$adatamaskin$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=500  \\$aDescription based upon print version of record.
-=505  0\$aTitle page; Contents; Introduction; I. ALL AMERICAN; Gods of Our Fathers: The United States of Enlightenment; The Private Jefferson; Jefferson Versus the Muslim Pirates; Benjamin Franklin: Free and Easy; John Brown: The Man Who Ended Slavery; Abraham Lincoln: Misery's Child; Mark Twain: American Radical; Upton Sinclair: A Capitalist Primer; JFK: In Sickness and by Stealth; Saul Bellow: The Great Assimilator; Vladimir Nabokov: Hurricane Lolita; John Updike, Part One: No Way; John Updike, Part Two: Mr. Geniality; Vidal Loco; America the Banana Republic; An Anglosphere Future; Political Animals
-=505  8\$aHoliday in IraqTunisia: At the Desert's Edge; What Happened to the Suicide Bombers of Jerusalem?; Childhood's End: An African Nightmare; The Vietnam Syndrome; Once Upon a Time in Germany; Worse Than Nineteen Eighty-four; North Korea: A Nation of Racist Dwarves; The Eighteenth Brumaire of the Castro Dynasty; Hugo Boss; Is the Euro Doomed?; Overstating Jewish Power; The Case for Humanitarian Intervention; V. LEGACIES OF TOTALITARIANISM; Victor Serge: Pictures from an Inquisition; Andre Malraux: One Man's Fate; Arthur Koestler: The Zealot; Isabel Allende: Chile Redux; The Persian Version
-=505  8\$aMartin Amis: Lightness at Midnight
-=505  8\$aOld Enough to DieIn Defense of Foxhole Atheists; In Search of the Washington Novel; II. ECLECTIC AFFINITIES; Isaac Newton: Flaws of Gravity; The Men Who Made England: Hilary Mantel's Wolf Hall; Edmund Burke: Reactionary Prophet; Samuel Johnson: Demons and Dictionaries; Gustav Flaubert: I'm with Stupide; The Dark Side of Dickens; Marx's Journalism: The Grub Street Years; Rebecca West: Things Worth Fighting For; Ezra Pound: A Revolutionary Simpleton; On Animal Farm; Jessica Mitford's Poison Pen; W. Womerset Maugham: Poor Old Willie; Evelyn Waugh: The Permanent Adolescent
-=505  8\$aP. G. Wodehouse: The Honorable SchoolboyAnthony Powell: An Omnivorous Curiosity; John Buchan: Spy Thriller's Father; Graham Greene: I'll Be Damned; Death from a Salesman: Graham Greene's Bottled Ontology; Loving Philip Larkin; Stephen Spender: A Nice Bloody Fool; Edward Upward: The Captive Mind; C. L. R. James: Mid Off, Not Right On; J. G. Ballard: The Catastrophist; Fraser's Flashman: Scoundrel Time; Fleet Street's Finest: From Waugh to Frayn; Saki: Where the Wild Things Are; Harry Potter: The Boy Who Lived; III. AMUSEMENTS, ANNOYANCES, AND DISAPPOINTMENTS; Why Women Aren't Funny
-=505  8\$aStieg Larsson: The Author Who Played with FireAs American as Apple Pie; So Many Men's Rooms, So Little Time; The New Commandments; In Your Face; Wine Drinkers of the World, Unite; Charles, Prince of Piffle; IV. OFFSHORE ACCOUNTS; Afghanistan's Dangerous Bet; First, Silence the Whistle-Blower; Believe Me, It's Torture; Iran's Waiting Game; Long Live Democratic Seismology; Benazir Bhutto: Daughter of Destiny; From Abbottabad to Worse; The Perils of Partition; Algeria: A French Quarrel; The Case of Orientalism; Edward Said: Where the Twain Should Have Met; The Swastika and the Cedar
-=520  \\$aA collection of the most important and controversial writings from the unapologetically provocative yet universally admired Christopher Hitchens.
-=650  \4$aEssays -- 20th century.
-=650  \4$aEssays -- 21st century.
-=650  \4$aEssays.
-=655  \0$aElectronic books.
-=776  08$iPrint:$aHitchens, Christopher$tArguably$d2011$z9781742377391
 
 =LDR  03113nam a2200577 i 4500
 =001  q205pglbnz9tplbb
@@ -17003,30 +15903,6 @@
 =856  40$5ThsE$uhttps://ebookcentral.proquest.com/lib/[[SiteID]]/detail.action?docID=233085$zOnline access for Enskilda Högskolan Stockholm$zProQuest Ebook Central - Academic Complete
 =856  40$5Zdig$uhttps://ebookcentral.proquest.com/lib/chalmers/detail.action?docID=233085$zOnline access for Chalmers$zProQuest Ebook Central - Academic Complete International
 =856  42$3John Wiley$uhttp://dx.doi.org/10.1002/9780470997055$x856other$zTable of Contents / Abstracts
-
-=LDR  01998cam a22003251a 4500
-=001  8395578
-=003  SE-LIBR
-=005  20020212104042.0
-=008  020212s1969\\\\bl\\\\\\\\\\\\000\0ceng\c
-=010  \\$a72217690
-=040  \\$aDLC$cNmPE$dNmPE$dOCoLC$dDLC
-=041  0\$aeng$apor
-=084  \\$aF735.1
-=111  2\$aSF Symposium$d(1969 :$cRio de Janeiro, Brazil)
-=245  10$aSF symposium =$bFC simps̤io /$cedited by Jos ̌Sanz
-=260  \\$aRio de Janeiro :$bInstituto do Cinema,$c1969
-=300  \\$a188 s. :$bill. ;$c20 cm
-=500  \\$a"A Arruda traduziu os textos."
-=500  \\$aContributions in English and Portuguese; introd. and biographical material in Portuguese
-=505  0\$aIntroduction / J. Sanz -- Homage to Boris Karloff and John Wyndham ; The shape of films to come in science fiction / F.J. Ackerman -- The debt of the film industry to science fiction classics / S. Moskowitz -- Men, myths and monsters / R. Bloch -- Problems of mutants of the human race / A.E. van Vogt --The empire of science fiction / B.W. Aldiss -- Word and image / P. Anderson -- A special kind of science fiction film / L. Gasca -- Science fiction in the real world / J. Brunner -- Films to come / H. Harrison -- How a science fiction author works / A. Bester -- Some aspects of movie-making in science fiction / W. Rilla -- The science fiction of social comment / F. Pohl -- Science fiction cannot be immune from change / J.G. Ballard -- The science fiction literature in France / J. Sadoul -- The role of the science fiction writer in the visual medium / H. Ellison -- The future isn't what it used to be / A.C. Clarke
-=650  \0$aScience fiction films$xCongresses
-=650  \0$aScience fiction$xCongresses
-=650  \4$aSciencefictionfilm, kongresser
-=700  1\$aSanz, Jos ̌
-=710  2\$aInstituto Nacional do Cinema (Brazil)
-=740  0\$aFC simps̤io
-=740  0\$aS F symposium
 
 =LDR  05216cam a2200613 i 4500
 =001  14742896
@@ -17243,38 +16119,6 @@
 =260  \\$aLondon :$bFourth Estate,$c2008
 =300  \\$a278 s. :$bill.
 
-=LDR  01798cam a22003977a 4500
-=001  9991608
-=003  SE-LIBR
-=005  20111014153538.0
-=008  051006s2005\\\\xxk|||||||||||000\||eng|c
-=020  \\$a071907052X$qinb.
-=020  \\$a0719070538$qhft.
-=040  \\$aNob$ea
-=041  \\$aeng
-=082  04$a820.9$222 (machine generated)
-=084  \\$aGez Ballard, J.G.$2kssb/7
-=100  1\$aGasiorek, Andrzej,$d1960-
-=245  10$aJ.G. Ballard /$cAndrzej Gasiorek.
-=264  \1$aManchester :$bManchester Univ. Press,$c2005
-=300  \\$a228 s.
-=490  1\$aContemporary British novelists
-=600  14$aBallard, James Graham,$d1930-$1http://viaf.org/viaf/9842556
-=830  \0$aContemporary British novelists
-
-=LDR  00682cam a22002055a 4500
-=001  17116817
-=003  SE-LIBR
-=005  20141105172523.0
-=008  141105s2010\\\\us\|||||||||||00|\1|eng\c
-=020  \\$a9781582435701
-=082  04$a810$222 (machine generated)
-=084  \\$aHeq$2kssb/8
-=100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
-=245  10$aCocaine Nights /$cJ. G. Ballard
-=260  \\$bCounterpoint LLC,$c2010
-=300  \\$a332 s. ;$c2.5 cm
-
 =LDR  01565cam a22003975a 4500
 =001  21978714
 =003  SE-LIBR
@@ -17370,10 +16214,10 @@
 =082  \4$a813$222
 =084  \\$aH$2kssb/8
 =100  1\$aBallard, J. G.$4aut$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe atrocity exhibition$1http://viaf.org/viaf/182227002
 =245  10$aThe Atrocity Exhibition /$cJ. G. Ballard.
 =263  \\$a200105
 =264  \1$bHarpercollins Publishers,$c2001
-=264  \1$bHARPERCOLLINS PUBLISHERS,$c2001
 =300  \\$a192 sidor$c1.8 cm
 =336  \\$btxt$2rdacontent
 =337  \\$bn$2rdamedia
@@ -17512,6 +16356,7 @@
 =040  \\$aBOKR$ei
 =041  \\$aeng
 =100  1\$aBallard, J. G.$4aut$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe crystal world$1http://viaf.org/viaf/307967896
 =245  10$aCrystal world
 =263  \\$a201806
 =264  \1$bMacmillan Usa,$c2018
@@ -17567,10 +16412,13 @@
 =020  \\$a9780007469529
 =040  \\$dH
 =082  \\$a823.914$223
-=100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aBallard, J. G.$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10059
+=240  \\$aExtreme methaphores$1http://www.wikidata.org/entity/Q18208804
 =245  10$aExtreme Metaphors
 =250  \\$aUnabridged
 =260  \\$aLondon$bHarperCollins Publishers$c2012
+=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt
+=700  1\$aSellars, Simon,$eeditor.$4edt
 
 =LDR  00855cam a22002538i 4500
 =001  22064164
@@ -17802,6 +16650,7 @@
 =082  04$a823$222 (machine generated)
 =084  \\$aHe.01$2kssb/8
 =100  1\$aBallard, J. G.,$d1930-2009$0https://libris.kb.se/dbqssg6x38zr5cn#it$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe crystal world$1http://viaf.org/viaf/307967896
 =245  14$aThe Crystal World /$cJ.G. Ballard.
 =264  \1$aLondon :$bFourth Estate,$c2014
 =264  \1$c1985
@@ -18285,6 +17134,7 @@
 =084  \\$5Umdp$aHcee.01$2kssb/6
 =084  \\$aHe=c$2kssb/7
 =100  1\$aBallard, J. G.,$d1930-2009$0176668$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe crystal world$1http://viaf.org/viaf/307967896
 =245  00$aKristallvärlden /$cJ. G. Ballard ; översättning: Peter Stewart
 =249  \4$aThe crystal world
 =260  \\$aStockholm :$bWahlström & Widstrand,$c1971 ;$e(Malmö :$fNorden)
@@ -18397,6 +17247,7 @@
 =084  \\$aHcee.01$2kssb/6
 =084  \\$aHe.01=c$2kssb/6
 =100  1\$aBallard, J. G.,$d1930-2009$0https://libris.kb.se/dbqssg6x38zr5cn#it$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe kindness of women$1http://viaf.org/viaf/8009153289944232770002
 =245  00$aKvinnors godhet /$cJ.G. Ballard ; översättning: Hans-Jacob Nilsson.
 =249  \4$aThe kindness of women.
 =264  \1$aStockholm :$bWahlström & Widstrand,$c1992
@@ -18430,6 +17281,7 @@
 =084  \\$5NB$aHce$2kssb/5
 =084  \\$aHcee.01$2kssb/5
 =100  1\$aBallard, J. G.,$d1930-2009$0https://libris.kb.se/dbqssg6x38zr5cn#it$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe unlimited dream company$1http://viaf.org/viaf/307972381
 =245  00$aDrömbolaget /$cJ. G. Ballard ; till svenska av Peter Stewart.
 =249  \4$aThe unlimited dream company.
 =264  \1$aStockholm :$bAWE/Geber,$c1981
@@ -18583,6 +17435,7 @@
 =082  04$a823$222 (machine generated)
 =084  \\$aHe.01=j$2kssb/7
 =100  1\$aBallard, J. G.,$d1930-2009$0176668$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aThe day of creation$1http://viaf.org/viaf/308025936
 =245  03$aLe jour de la création :$b[roman] /$cJ.-G. Ballard ; traduit de l'anglais par Robert Louit
 =260  \\$aParis :$bFlammarion,$c1988
 =300  \\$a287 s.
@@ -18607,6 +17460,7 @@
 =084  \\$aHcee.016$2kssb/6
 =084  \\$aHe.016=c$2kssb/6
 =100  1\$aBallard, J. G.,$d1930-2009$0https://libris.kb.se/dbqssg6x38zr5cn#it$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aWar fever$1http://www.wikidata.org/entity/Q7968436
 =245  00$aKrigsfeber /$cJ.G. Ballard ; till svenska av Hans-Jacob Nilsson.
 =249  \0$aWar fever.
 =264  \1$aStockholm :$bWahlström & Widstrand,$c1993
@@ -18727,6 +17581,9 @@
 =653  \\$5Mo$aNoveller
 =653  \\$5Mo$aScience fiction
 =655  \4$5Mo$aBok
+=700  \2$aBallard, J. G.,$d1930-2009$tMordvapnet
+=700  \2$aBallard, J. G.,$d1930-2009$tVarför jag vill knulla Ronald Reagan
+=700  \2$aBallard, J. G.,$d1930-2009$tMordet på John Fitzgerald Kennedy betraktat som en biltävling i nedförsbacke
 
 =LDR  04727cam a22010577a 4500
 =001  17978179
@@ -19053,6 +17910,7 @@
 =072  \7$aDSK$2bicssc
 =072  \7$aLIT$2eflch
 =082  04$a823.914$222
+=130  00$aJ. G. Ballard : Visions and Revisions$1http://viaf.org/viaf/11777409/jgballardvisionsandrevisions
 =245  10$aJ. G. Ballard: Visions and revisions$h[Elektronisk resurs] /$cEdited by Jeannette Baxter, Rowland Wymer.
 =264  \1$aBasingstoke :$bPalgrave Macmillan,$c2011
 =300  \\$a272 p.
@@ -19070,8 +17928,8 @@
 =650  \7$aLiterary studies: fiction, novelists & prose writers$xEnglish.$2bicssc
 =650  \7$aLiterary studies: from c 1900 -$xEnglish.$2bicssc
 =650  \7$aLiterature.$2eflch
-=700  1\$aBaxter, Jeannette.
-=700  1\$aWymer, Rowland.
+=700  1\$aBaxter, Jeannette.$4edc$4aui$1http://viaf.org/viaf/11777409
+=700  1\$aWymer, Rowland.$4edc$4aui
 =776  08$iPrint version:$tJ. G. Ballard: Visions and revisions$z9780230278127 (Print)
 =856  40$5Hdig$uhttp://link.sub.su.se/sfxsub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=2670000000127741&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&$zTillgänglig för användare inom Stockholms universitet$zEBSCOhost Ebooks:Full Text
 =856  42$uhttp://dx.doi.org/10.1057/9780230346482$x856other$zTable of Contents / Abstracts
@@ -19089,10 +17947,15 @@
 =082  \4$a823.914$220
 =084  \\$5G$aGez Ballard, James Graham$2kssb/6
 =084  \\$aGez Ballard, James Graham$2kssb/6
-=100  1\$aLuckhurst, Roger$4aut
+=100  1\$aLuckhurst, Roger$4aut$1http://viaf.org/viaf/59236034$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$a"The angle between two walls" : the fiction of J. G. Ballard$1http://viaf.org/viaf/59236034/theangle
 =245  15$a"The angle between two walls" :$bthe fiction of J. G. Ballard /$cRoger Luckhurst.
 =264  \1$aLiverpool :$bLiverpool University Press,$c1997
 =300  \\$a2213 s.
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  1\$aLiverpool science fiction texts and studies,$x99-2277214-0 ;$v11
 =600  14$aBallard, J. G.,$d1930-2009$0https://libris.kb.se/dbqssg6x38zr5cn#it$1http://viaf.org/viaf/9842556
 =650  \7$aEngelsk science fiction$xhistoria$2sao
@@ -19139,48 +18002,6 @@
 =655  \4$5Mo$aBok
 =710  2\$aBibliotekstjänst$4pbl
 =740  0\$aFrån J.G. Ballard  till Gene Wolfe
-
-=LDR  11806nam a22017295a 4500
-=001  q17lwxc4nq7n7m9h
-=003  SE-LIBR
-=005  20190815080825.0
-=007  cr\|||\\\|||||\\\\\\\\\
-=008  190815s2016\\\\xx\|||||o|||||000\0|eng|d
-=020  \\$z9789004313859 (Print)
-=040  \\$aSEK$ea
-=041  \\$aund
-=100  1\$aStainforth, Elizabeth
-=245  10$aJ. G. Ballard: Landscapes of Tomorrow$h[Elektronisk resurs]
-=264  \1$bBrill,$c2016
-=500  \\$aBook
-=650  \4$aLITERARY CRITICISM / European / English, Irish, Scottish, Welsh
-=700  1\$aBrown, Richard
-=700  1\$aDuffy, Christopher
-=776  08$iPrint$tJ. G. Ballard: Landscapes of Tomorrow$z978-90-04-31385-9
-=856  40$5AlbE$uhttps://anna-lindh.primo.exlibrisgroup.com/openurl/46LIBRIS_ALB_INST/46LIBRIS_ALB_INST:46ALB_VU1?u.ignore_date_coverage=true&rft.mms_id=991001022570703631$zTillgänglig för användare inom Försvarshögskolan/Anna Lindh-biblioteket$zfulltext$zEBSCOhost Ebook Academic Collection
-=856  40$5Bthd$uhttps://miman.bib.bth.se/login?url=https://ebookcentral.proquest.com/lib/bthbib-ebooks/detail.action?docID=4750790$zOnline access for BTH$zEbook Central All Subscribed Titles
-=856  40$5HdE$uhttp://www.du.se/proxy.aspx?url=https://ebookcentral.proquest.com/lib/dalarna/detail.action?docID=4750790$zOnline access for Högskolan Dalarna$zEbook Central All Subscribed Titles
-=856  40$5Hdig$uhttp://link.sub.su.se/sfxsub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=3710000000749633&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&$zTillgänglig för användare inom Stockholms universitet$zBrill - All E-Book Titles:Full Text$zEbook Central Academic Complete International Edition:Full Text
-=856  40$5Hibd$uhttps://gslg-hb.primo.exlibrisgroup.com/openurl/46GSLG_BORAS/46GSLG_BORAS:46BORAS_V1?u.ignore_date_coverage=true&rft.mms_id=993728991603662$zTillgänglig för användare inom Högskolan i Borås$zfulltext$zEbook Central Academic Complete
-=856  40$5HigE$uhttps://search.ebscohost.com/login.aspx?direct=true&scope=site&db=e000xww&AN=1939902&authtype=shib&custid=s3912055$zEndast för användare inom Högskolan i Gävle$zeBook Academic Collection (EBSCOhost) - Worldwide$zfulltext
-=856  40$5HigE$uhttps://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=1939902&authtype=shib&custid=s3912055$zEndast för användare inom Högskolan i Gävle$zEBSCO eBooks$zfulltext
-=856  40$5JonE$uhttps://primo.library.ju.se/openurl/JUL/46JUL_INST:jul?u.ignore_date_coverage=true&rft.mms_id=998246125203831$zOnline access for JON$zfulltext$zEbook Central
-=856  40$5Jsld$uhttps://slu.primo.exlibrisgroup.com/openurl/46SLUB_INST/46SLUB_INST:SLUB_V1?u.ignore_date_coverage=true&rft.mms_id=9920950030105121$zOnline access for SLUB$zfulltext$zEbook Central
-=856  40$5Kdig$uhttps://login.bibproxy.kau.se:8443/login?url=https://search.ebscohost.com/login.aspx?direct=true&scope=site&db=e000xww&AN=1939902$zOnline access for KaU$zeBook Academic Collection (EBSCOhost) - Worldwide$zfulltext
-=856  40$5Kdig$uhttps://login.bibproxy.kau.se:8443/login?url=https://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=1939902$zOnline access for KaU$zEBSCO eBooks$zfulltext
-=856  40$5LiUd$uhttps://login.e.bibl.liu.se/login?url=https://ebookcentral.proquest.com/lib/linkoping-ebooks/detail.action?docID=4750790$zExtern tillgång endast anställda och studenter vid LiU$zProQuest Ebook Central - Academic Complete
-=856  40$5LnuE$uhttp://link.lnu.se/openurl?u.ignore_date_coverage=true&rft.mms_id=997221360003661$zOnline access for Linnaeus University$zfulltext$zEbook Central Academic Complete International Edition
-=856  40$5LTUd$uhttp://proxy.lib.ltu.se/login?url=https://search.ebscohost.com/login.aspx?direct=true&scope=site&db=e000xww&AN=1939902$zOnline access for LTU$zeBook Academic Collection (EBSCOhost) - Worldwide
-=856  40$5LTUd$uhttp://proxy.lib.ltu.se/login?url=https://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=1939902$zOnline access for LTU$zEBSCO eBooks
-=856  40$5Maud$uhttps://proxy.mau.se/login?url=https://search.ebscohost.com/login.aspx?direct=true&scope=site&db=e000xww&AN=1939902$zOnline access for MAU$zeBook Academic Collection (EBSCOhost) - Worldwide$zfulltext
-=856  40$5Maud$uhttps://proxy.mau.se/login?url=https://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=1939902$zOnline access for MAU$zEBSCO eBooks$zfulltext
-=856  40$5Mdhd$uhttps://mdh.primo.exlibrisgroup.com/openurl/46MH_INST/46MH_INST:46MH_V1?u.ignore_date_coverage=true&rft.mms_id=991001237297603211$zTillgänglig för användare inom Mälardalens högskola$zfulltext$zEbook Central Academic Complete International Edition
-=856  40$5Miun$uhttp://sfxeu11.hosted.exlibrisgroup.com/sfxmiu/?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=3710000000749633&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&$zStudent portal login$zEbook Central Academic Complete:Full Text
-=856  40$5Odig$uhttps://openurl.oru.se?u.ignore_date_coverage=true&rft.mms_id=999614092103663$zTillgänglig inom Örebro universitet och externt för studenter och anställda vid universitetet$zfulltext$zEbook Central Perpetual, DDA and Subscription Titles
-=856  40$5Pvd$uhttps://search.ebscohost.com/login.aspx?direct=true&scope=site&db=e000xww&AN=1939902$zTillgänglig på PRV$zeBook Academic Collection (EBSCOhost) - Worldwide$zfulltext
-=856  40$5Qdig$uhttps://search.ub.umu.se/openurl/46UMEA_INST/46UMEA_INST:UmUB?u.ignore_date_coverage=true&rft.mms_id=9921801573804996$zOnline access for UMUB$zfulltext$zEbook Central Academic Complete
-=856  40$5ThsE$uhttps://ebookcentral.proquest.com/lib/[[SiteID]]/detail.action?docID=4750790$zOnline access for Enskilda Högskolan Stockholm$zProQuest Ebook Central - Academic Complete
-=856  40$5Udix$uhttp://ezproxy.its.uu.se/login?url=https://ebookcentral.proquest.com/lib/uu/detail.action?docID=4750790$zTillgänglig för användare inom Uppsala universitet$zEbook Central All Subscribed Titles
 
 =LDR  00935cam a22002777a 4500
 =001  12497278
@@ -19282,20 +18103,6 @@
 =800  \\$aHolmberg, John-Henri$tInre landskap och yttre rymd$1http://www.wikidata.org/entity/Q59191181
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C30572$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
-=LDR  00499caa a22001577a 4500
-=001  12281861
-=003  SE-LIBR
-=005  20110815095804.0
-=008  110815s1987\\\\sw\||||\\\\\\|00|\||swe\c
-=040  \\$aSfi
-=042  \\$9SFIB
-=100  1\$aNordlund, Solveig
-=245  10$aKrigets Robinson:$bom J G. Ballard och "Solens rike" /$cSolveig Nordlund
-=630  04$aEmpire of the sun (US, Steven Spielberg, 1987)
-=630  10$aEmpire of the sun$1http://viaf.org/viaf/293611582
-=650  \7$aAdaptation fill film$2sfit
-=773  0\$tChaplin$x0045-6349$w3432521$g29(1987):6 (=nr.213), s. 287: ill.
-
 =LDR  01116cam a22003257a 4500
 =001  11496404
 =003  SE-LIBR
@@ -19307,27 +18114,19 @@
 =050  \4$aPN98
 =082  04$a809.933251$222
 =084  \\$aNoea.07$2kssb/8
-=100  1\$aWood, Frances,$d1948-
+=100  1\$aWood, Frances,$d1948-$1http://viaf.org/viaf/38092539$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aThe lure of China : writers from Marco Polo to J.G. Ballard$1http://viaf.org/viaf/4129164782053308600001
 =245  14$aThe lure of China :$bwriters from Marco Polo to J.G. Ballard /$cFrances Wood.
 =260  \\$aNew Haven, [Conn.] ;$aLondon :$bYale University Press,$c2009.
 =300  \\$a283 p. :$bill. (some col.), ports. (some col.) ;$c22 cm.
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =504  \\$aIncludes bibliographical references and index.
 =650  \0$aTravel in literature.
 =650  \7$aResenärer$zKina$2sao
 =651  \0$aChina$xIn literature.
-
-=LDR  01400nam a22002535  4500
-=001  16586361
-=003  SE-LIBR
-=005  20140610125725.0
-=007  cr\|||\\\|||||\\\\\\\\\
-=008  140610s2013\\\\xx\|||||o|||||000\||eng|d
-=020  \\$z8866331287 (print)
-=041  \\$aeng
-=245  10$aLà dove finisce la città : riflessioni sull'opera di J.G. Ballard$h[Elektronisk resurs]
-=264  \1$bClueb,$c2013
-=776  08$iPrint:$tLà dove finisce la città : riflessioni sull'opera di J.G. Ballard$z8866331287
-=856  40$5Hdig$uhttp://link.sub.su.se/sfxsub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=3790000000000670&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&$zTillgänglig för användare inom Stockholms universitet$zCasalini Torrossa Monographs & Proceedings:Full Text
 
 =LDR  05723cam a22009857i 4500
 =001  crljq0xm9x9q0r5z
@@ -19340,7 +18139,8 @@
 =040  \\$aLsol$beng$cEEM$dOCLCO$dOCLCA$dPAU$dOCL$dOCLCO$dOCLCA$dLsol$ei$erda
 =041  \\$aeng
 =082  04$a823.009/36$223
-=100  1\$aMieszkowski, Sylvia$4aut
+=100  1\$aMieszkowski, Sylvia$4aut$1http://viaf.org/viaf/89826060$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aResonant Alterities : Sound, Desire and Anxiety in Non-Realist Fiction$1http://viaf.org/viaf/89826060/resonantalterities
 =245  10$aResonant alterities :$bsound, desire and anxiety in non-realist fiction /$cSylvia Mieszkowski.
 =264  \1$aBielefeld :$bTranscript,$c[2014]
 =264  \4$c©2014
@@ -19868,7 +18668,8 @@
 =044  \\$cXA-DE-BW
 =082  74$83\p$a720$qDE-101$223sdnb
 =084  \\$a710$2sdnb
-=100  1\$82\p$aBraghieri, Nicola$eVerfasser$4aut
+=100  1\$82\p$aBraghieri, Nicola$eVerfasser$4aut$1http://viaf.org/viaf/230359460$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$a'The Towers of Terror': A Critical Analysis of Ernő Goldfinger's Balfron and Trellick Towers$1http://viaf.org/viaf/230359460/thetowersofterror
 =245  10$a'The Towers of Terror': A Critical Analysis of Ernő Goldfinger's Balfron and Trellick Towers
 =264  \1$aMannheim$bSSOAR - Social Science Open Access Repository$c2019
 =300  \\$aOnline-Ressource
@@ -20105,7 +18906,7 @@
 =085  \\$82\u$b823
 =090  \\$ab
 =100  1\$0(DE-588)1124249702$0https://d-nb.info/gnd/1124249702$0(DE-101)1124249702$aCord, Florian$d1982-$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/12148570682924312852$4http://rdaregistry.info/Elements/w/object/P10061
-=245  \\$aJ.G. Ballard's politics : late capitalism, power, and the pataphysics of resistance$1http://viaf.org/viaf/12148570682924312852/jgballard
+=240  \\$aJ.G. Ballard's politics : late capitalism, power, and the pataphysics of resistance$1http://viaf.org/viaf/12148570682924312852/jgballard
 =245  10$aJ.G. Ballard's politics$blate capitalism, power, and the pataphysics of resistance$cFlorian Cord
 =264  \1$aBerlin$bDe Gruyter$c[2017]
 =300  \\$a264 Seiten$c24 cm
@@ -20157,8 +18958,9 @@
 =082  04$83\u$a823.914$qDE-101$222/ger
 =083  7\$84\p$a820$qDE-101$223sdnb
 =085  \\$83\u$b823
-=100  1\$81\p$0(DE-588)1124249702$0https://d-nb.info/gnd/1124249702$0(DE-101)1124249702$aCord, Florian$d1982-$eVerfasser$4aut$2gnd
-=245  10$aJ.G. Ballard's Politics$bLate Capitalism, Power, and the Pataphysics of Resistance$cFlorian  Cord
+=100  1\$81\p$0(DE-588)1124249702$0https://d-nb.info/gnd/1124249702$0(DE-101)1124249702$aCord, Florian$d1982-$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/12148570682924312852$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aJ.G. Ballard's politics : late capitalism, power, and the pataphysics of resistance$1http://viaf.org/viaf/12148570682924312852/jgballard
+=245  10$aJ.G. Ballard's Politics$bLate Capitalism, Power, and the Pataphysics of Resistance$cFlorian Cord
 =264  \1$aBerlin/Boston$bDe Gruyter$bDe Gruyter Mouton$c2017
 =300  \\$aOnline-Ressourcen, 274 Seiten
 =336  \\$aText$btxt$2rdacontent
@@ -20199,49 +19001,6 @@
 =856  \0$uhttps://d-nb.info/112931720X/34$xLangzeitarchivierung Nationalbibliothek
 =856  4\$qepub$uhttp://www.degruyter.com/search?f_0=isbnissn&q_0=9783110488302&searchTitles=true$xVerlag
 =856  40$uhttps://nbn-resolving.org/urn:nbn:de:101:1-2017040525473$xResolving-System
-
-=LDR  02078naa a2200529uc 4500
-=001  114372934X
-=003  DE-101
-=005  20171108214811.0
-=007  cr||||||||||||
-=008  171108s2017\\\\gw\|||||o||||\00||||ger\\
-=016  7\$2DE-101$a114372934X
-=024  7\$2urn$aurn:nbn:de:hebis:30:3-433321
-=040  \\$a1240$bger$cDE-101$d9999
-=041  \\$ager
-=044  \\$cXA-DE
-=082  74$82\p$a800$a820$qDE-101$223sdnb
-=100  1\$81\p$aNicklas, Pascal$eVerfasser$4aut
-=245  10$a[Rezension zu:] Stephan-Alexander Ditze: America and the Americans in Postwar British Fiction$cPascal Nicklas
-=300  \\$aOnline-Ressource
-=336  \\$aText$btxt$2rdacontent
-=337  \\$aComputermedien$bc$2rdamedia
-=338  \\$aOnline-Ressource$bcr$2rdacarrier
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$adatamaskin$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=583  1\$aArchivierung/Langzeitarchivierung gewährleistet$5DE-101$2pdager
-=650  \7$aAmerikabild$2gnd
-=650  \7$aAmis, Kingsley$2gnd
-=650  \7$aBallard, J. G.$2gnd
-=650  \7$aChanging places$2gnd
-=650  \7$aGreene, Graham$2gnd
-=650  \7$aHello America$2gnd
-=650  \7$aImagologie$2gnd
-=650  \7$aLodge, David$2gnd
-=650  \7$aOne fat englishman$2gnd
-=650  \7$aRezension$2gnd
-=650  \7$aThe loved one$2gnd
-=650  \7$aThe quiet American$2gnd
-=650  \7$aVergleichende Literaturwissenschaft$2gnd
-=650  \7$aWaugh, Evelyn$2gnd
-=773  08$iEnthalten in$tKomparatistik$dBielefeld : Aisthesis, 1999-2015$g2007 (2008), S. 202-205$w(DE-600)2892781-3$w(DE-101)1130814440
-=773  18$7|||s$g2007 (2008), S. 202-205
-=856  \0$uhttps://d-nb.info/114372934X/34$xLangzeitarchivierung Nationalbibliothek
-=856  4\$uhttp://publikationen.ub.uni-frankfurt.de/frontdoor/index/index/docId/43332$xVerlag$zkostenfrei
-=856  40$uhttps://nbn-resolving.org/urn:nbn:de:hebis:30:3-433321$xResolving-System
 
 =LDR  01952pam a2200469 c 4500
 =001  1119355117
@@ -20514,56 +19273,6 @@
 =830  \0$aSF Personality$v25$w(DE-101)975901540$w(DE-600)2197943-1$9225$7as
 =856  42$mB:DE-101$qapplication/pdf$uhttps://d-nb.info/1117097005/04$3Inhaltsverzeichnis
 
-=LDR  03250nam a2200589uc 4500
-=001  1191595994
-=003  DE-101
-=005  20190729181634.0
-=007  cr||||||||||||
-=008  190727s2015\\\\gw\|||||o||||\00||||eng\\
-=015  \\$a19,O08$2dnb
-=016  7\$2DE-101$a1191595994
-=024  7\$2urn$aurn:nbn:de:101:1-2019072713175130586236
-=024  7\$a10.18052/www.scipress.com/ILSHS.60.17$2doi
-=024  8\$aoai:gesis.izsoz.de:document/56671
-=040  \\$a1240$bger$cDE-101$d9999
-=041  \\$aeng
-=044  \\$cXA-DE-BW
-=082  74$81\p$a820$qDE-101$223sdnb
-=084  \\$a800$2sdnb
-=100  1\$aMirenayat, Sayyed Ali$eVerfasser$4aut
-=240  10$aThe drownd world$1http://viaf.org/viaf/309277534
-=245  10$aPsyche in Eco-Apocalypse: A Reading of Ballard's 'The Drowned World'
-=264  \1$aMannheim$c2015
-=300  \\$aOnline-Ressource
-=336  \\$aText$btxt$2rdacontent
-=337  \\$aComputermedien$bc$2rdamedia
-=338  \\$aOnline-Ressource$bcr$2rdacarrier
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$adatamaskin$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=500  \\$abegutachtet (peer reviewed)
-=500  \\$aIn: International Letters of Social and Humanistic Sciences (2015) 60 ; 17-21
-=500  \\$aVeröffentlichungsversion
-=506  0\$aOpen Access$fUnrestricted online access$uhttp://purl.org/coar/access_right/c_abf2$2star
-=506  0\$aOpen Access$fUnrestricted online access$uhttp://purl.org/coar/access_right/c_abf2$2star
-=506  0\$aOpen Access$fUnrestricted online access$uhttp://purl.org/coar/access_right/c_abf2$2star
-=520  \\$aAbstract: Embodiment of apocalyptic imagination has been a major theme in which many writers have pointed it out especially from the midst of twentieth century onwards. Earth today is vulnerable and would be so dangerous for future generation from now on. Although, J. G. Ballard's narrations do not create an ordinary apocalyptic apprehension of human abolition, but he enters the core of the apocalyptic theme by intertwining our world with an altering people's psyche who try to develop a new relationship with nature. This paper examines Ballard's The Drowned World (1962) from the view of the human psyche in an apocalyptic setting. It follows and analyzes the characters of Dr. Robert Kerans (a biologist) and his team in which they are transformed in the story - both mentally and physically
-=540  \\$aCreative Commons - Namensnennung 4.0$uhttp://creativecommons.org/licenses/by/4.0$2cc
-=583  1\$aArchivierung/Langzeitarchivierung gewährleistet$5DE-101$2pdager
-=653  \\$aApocalypse
-=653  \\$aBallard
-=653  \\$aClimate Change
-=653  \\$aEnvironment
-=653  \\$aHuman Psyche
-=653  \\$aThe Drowned World
-=700  1\$aSoofastaei, Elaheh$eVerfasser$4aut
-=856  \0$uhttps://d-nb.info/1191595994/34$xLangzeitarchivierung Nationalbibliothek
-=856  4\$qapplication/pdf$s bytes$uhttp://www.scipress.com/ILSHS.60.17.pdf
-=856  4\$qapplication/pdf$s bytes$uhttps://www.ssoar.info/ssoar/handle/document/56671
-=856  40$uhttps://doi.org/10.18052/www.scipress.com/ILSHS.60.17$xResolving-System
-=856  40$uhttps://nbn-resolving.org/urn:nbn:de:101:1-2019072713175130586236$xResolving-System
-
 =LDR  02266nam a2200553 c 4500
 =001  1101800941
 =003  DE-101
@@ -20580,6 +19289,7 @@
 =041  \\$aeng
 =044  \\$cXA-GB
 =082  74$81\p$a830$aB$qDE-101$223sdnb
+=130  00$aJ. G. Ballard : Visions and Revisions$1http://viaf.org/viaf/11777409/jgballardvisionsandrevisions
 =245  00$aJ. G. Ballard: Visions and Revisions
 =250  \\$a1st ed. 2012
 =259  \\$a11st
@@ -20588,6 +19298,7 @@
 =336  \\$aText$btxt$2rdacontent
 =337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia
 =338  \\$aBand$bnc$2rdacarrier
+=600  10$aBallard, J. G.,$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
 =653  \\$a(BIC Subject Heading)F
 =653  \\$a(BISAC Subject Heading)FIC000000
 =653  \\$a(Produktform)Paperback / softback
@@ -20602,8 +19313,8 @@
 =653  \\$anovel
 =653  \\$aWilliam Blake
 =655  \7$0(DE-101)1010789759$aErzählende Literatur$2gatbeg
-=700  1\$aBaxter, J.$eHerausgeber$4edt
-=700  1\$aWymer, R.$eHerausgeber$4edt
+=700  1\$aBaxter, J.$eHerausgeber$4edt$4edc$1http://viaf.org/viaf/11777409
+=700  1\$aWymer, R.$eHerausgeber$4edt$4edc
 =776  08$iErscheint auch als$nDruck-Ausgabe$z9780230278127
 =856  4\$uhttp://www.springer.com/$xVerlag
 =856  42$mX:MVB$qtext/html$uhttp://deposit.dnb.de/cgi-bin/dokserv?id=cdb24375b91443b29de3a7a65ed68f69&prov=M&dok_var=1&dok_ext=htm$3Inhaltstext
@@ -20625,7 +19336,8 @@
 =083  7\$82\p$a820$a810$qDE-101$223sdnb
 =085  \\$81\u$b823
 =085  \\$81\u$z3C$s36
-=100  1\$0(DE-588)136911498$0https://d-nb.info/gnd/136911498$0(DE-101)136911498$aMieszkowski, Sylvia$eVerfasser$4aut$2gnd
+=100  1\$0(DE-588)136911498$0https://d-nb.info/gnd/136911498$0(DE-101)136911498$aMieszkowski, Sylvia$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/89826060$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aResonant Alterities : Sound, Desire and Anxiety in Non-Realist Fiction$1http://viaf.org/viaf/89826060/resonantalterities
 =245  10$aResonant Alterities$bSound, Desire and Anxiety in Non-Realist Fiction$cSylvia Mieszkowski
 =264  \1$aBielefeld$btranscript Verlag$c2014
 =300  \\$aOnline-Ressource
@@ -20700,7 +19412,8 @@
 =085  \\$81\u$b823
 =085  \\$81\u$z3C$s36
 =090  \\$ab
-=100  1\$0(DE-588)136911498$0https://d-nb.info/gnd/136911498$0(DE-101)136911498$aMieszkowski, Sylvia$eVerfasser$4aut$2gnd
+=100  1\$0(DE-588)136911498$0https://d-nb.info/gnd/136911498$0(DE-101)136911498$aMieszkowski, Sylvia$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/89826060$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aResonant Alterities : Sound, Desire and Anxiety in Non-Realist Fiction$1http://viaf.org/viaf/89826060/resonantalterities
 =245  10$aResonant alterities$bsound, desire and anxiety in non-realist fiction$cSylvia Mieszkowski
 =264  \1$aBielefeld$bTranscript$c2014
 =300  \\$a402 S.$c23 cm, 603 g
@@ -20709,10 +19422,10 @@
 =338  \\$aBand$bnc$2rdacarrier
 =490  0\$aCultural and media studies
 =500  \\$aLiteraturangaben
-=600  17$0(DE-588)1067701850$0https://d-nb.info/gnd/1067701850$0(DE-101)1067701850$aBlackwood, Algernon$d1869-1951$tThe human chord$9rswk-swf$2gnd
-=600  17$0(DE-588)1067702563$0https://d-nb.info/gnd/1067702563$0(DE-101)1067702563$aLee, Vernon$d1856-1935$tA wicked voice$9rswk-swf$2gnd
-=600  17$0(DE-588)1067703608$0https://d-nb.info/gnd/1067703608$0(DE-101)1067703608$aBallard, J. G.$d1930-2009$tThe sound-sweep$9rswk-swf$2gnd
-=600  17$0(DE-588)7630810-8$0https://d-nb.info/gnd/7630810-8$0(DE-101)990894754$aDeLillo, Don$d1936-$tThe body artist$9rswk-swf$2gnd
+=600  17$0(DE-588)1067701850$0https://d-nb.info/gnd/1067701850$0(DE-101)1067701850$aBlackwood, Algernon$d1869-1951$tThe human chord$9rswk-swf$2gnd
+=600  17$0(DE-588)1067702563$0https://d-nb.info/gnd/1067702563$0(DE-101)1067702563$aLee, Vernon$d1856-1935$tA wicked voice$9rswk-swf$2gnd
+=600  17$0(DE-588)1067703608$0https://d-nb.info/gnd/1067703608$0(DE-101)1067703608$aBallard, J. G.$d1930-2009$tThe sound-sweep$9rswk-swf$2gnd$1http://www.wikidata.org/entity/Q7765388
+=600  17$0(DE-588)7630810-8$0https://d-nb.info/gnd/7630810-8$0(DE-101)990894754$aDeLillo, Don$d1936-$tThe body artist$9rswk-swf$2gnd
 =650  \7$0(DE-588)4242485-9$0https://d-nb.info/gnd/4242485-9$0(DE-101)042424852$aGeräusch$gMotiv$9rswk-swf$2gnd
 =650  \7$0(DE-588)4413513-0$0https://d-nb.info/gnd/4413513-0$0(DE-101)947831347$aKlang$gMotiv$9rswk-swf$2gnd
 =653  \\$a(BIC subject category)AVA
@@ -20764,8 +19477,9 @@
 =040  \\$a1140$bger$cDE-101$d9999
 =041  \\$ager
 =044  \\$cXA-DE-BE
-=100  1\$aPlamper, Paul$eVerfasser$4aut
-=245  10$aHochhaus Teil 1$cPaul Plamper, J.G. Ballard
+=100  1\$aPlamper, Paul$eVerfasser$4aut$1http://viaf.org/viaf/72276058$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aHochhaus$1http://viaf.org/viaf/72276058/hochhaus
+=245  10$aHochhaus$cPaul Plamper, J.G. Ballard
 =250  \\$aProduktion des WDR 2006
 =259  \\$a42006
 =264  \1$aBerlin$bHoerspielpark$c2011
@@ -20776,11 +19490,10 @@
 =336  \\$atale$0http://rdaregistry.info/termList/RDAContentType/1013
 =337  \\$alydmedier$0http://rdaregistry.info/termList/RDAMediaType/1001
 =338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
+=380  \\$aFremføringsverk$1https://schema.nb.no/Bibliographic/Values/V1009
 =583  1\$aArchivierung/Langzeitarchivierung gewährleistet$5DE-101$2pdager
 =653  \\$a(Produktform (spezifisch))WAV format
 =653  \\$a(Produktform)Downloadable audio file
-=700  1\$aBallard, J.G.$eVerfasser$4aut
 =700  1\$aBroich, Margarita$eErzähler$4nrt
 =700  1\$aHaseney, Tina$eErzähler$4nrt
 =700  1\$aKönig, Cristin$eErzähler$4nrt
@@ -20790,138 +19503,10 @@
 =700  1\$aSpengler, Volker$eErzähler$4nrt
 =700  1\$aTM, Schneider$eKomponist$4cmp
 =700  1\$aWuttke, Martin$eErzähler$4nrt
+=758  \\$aHigh-rise$1http://viaf.org/viaf/308016990$4http://rdaregistry.info/Elements/w/object/P10142
 =856  \0$uhttps://d-nb.info/1189747073/34$xLangzeitarchivierung Nationalbibliothek
 =856  4\$qwav$uhttp://www.hoerspielpark.de/website/titel/hochhaus-teil-1$xVerlag
 =856  40$uhttps://nbn-resolving.org/urn:nbn:de:101:1-2019070310013071423580$xResolving-System
-
-=LDR  02948nim a2200685uc 4500
-=001  1130617866
-=003  DE-101
-=005  20170424233503.0
-=007  cr||||||||||||
-=007  s|||||||||||||
-=008  170424s2011\\\\gw\|||||o|||||||||||ger\\
-=015  \\$a17,O05$2dnb
-=016  7\$2DE-101$a1130617866
-=020  \\$a9783941998292$9978-3-941998-29-2
-=024  3\$a9783941998292
-=024  7\$2urn$aurn:nbn:de:101:1-201704244131
-=040  \\$a1140$bger$cDE-101$d9999
-=041  \\$ager
-=044  \\$cXA-DE-BE
-=100  1\$81\p$aPlamper, Paul$eVerfasser$4aut
-=245  10$aHochhaus Teil 2$cPaul Plamper, J.G. Ballard
-=250  \\$aProduktion des WDR 2006
-=259  \\$a42006
-=264  \1$aBerlin$bHoerspielpark$c2011
-=300  \\$aOnline-Ressource, 64 Min.$b1 Track
-=336  \\$agesprochenes Wort$bspw$2rdacontent
-=337  \\$aComputermedien$bc$2rdamedia
-=338  \\$aOnline-Ressource$bcr$2rdacarrier
-=336  \\$atale$0http://rdaregistry.info/termList/RDAContentType/1013
-=337  \\$alydmedier$0http://rdaregistry.info/termList/RDAMediaType/1001
-=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=500  \\$aLizenzpflichtig
-=583  1\$aArchivierung/Langzeitarchivierung gewährleistet$5DE-101$2pdager
-=653  \\$a(Produktform (spezifisch))WAV format
-=653  \\$a(Produktform)Downloadable audio file
-=700  1\$810\p$aMinichmayr, Birgit$eErzähler$4nrt
-=700  1\$811\p$aHaseney, Tina$eErzähler$4nrt
-=700  1\$82\p$aBallard, J.G.$eVerfasser$4aut
-=700  1\$83\p$aTM, Schneider$eKomponist$4cmp
-=700  1\$84\p$aSpengler, Volker$eErzähler$4nrt
-=700  1\$85\p$aKönig, Cristin$eErzähler$4nrt
-=700  1\$86\p$aBroich, Margarita$eErzähler$4nrt
-=700  1\$87\p$aPeschel, Milan$eErzähler$4nrt
-=700  1\$88\p$aRudolph, Lars$eErzähler$4nrt
-=700  1\$89\p$aWuttke, Martin$eErzähler$4nrt
-=856  \0$uhttps://d-nb.info/1130617866/34$xLangzeitarchivierung Nationalbibliothek
-=856  4\$qwav$uhttp://www.hoerspielpark.de/website/titel/hochhaus-teil-2$xVerlag
-=856  40$uhttps://nbn-resolving.org/urn:nbn:de:101:1-201704244131$xResolving-System
-
-=LDR  02948nim a2200685uc 4500
-=001  1130617874
-=003  DE-101
-=005  20170424233503.0
-=007  cr||||||||||||
-=007  s|||||||||||||
-=008  170424s2011\\\\gw\|||||o|||||||||||ger\\
-=015  \\$a17,O05$2dnb
-=016  7\$2DE-101$a1130617874
-=020  \\$a9783941998308$9978-3-941998-30-8
-=024  3\$a9783941998308
-=024  7\$2urn$aurn:nbn:de:101:1-201704244141
-=040  \\$a1140$bger$cDE-101$d9999
-=041  \\$ager
-=044  \\$cXA-DE-BE
-=100  1\$81\p$aPlamper, Paul$eVerfasser$4aut
-=245  10$aHochhaus Teil 3$cPaul Plamper, J.G. Ballard
-=250  \\$aProduktion des WDR 2006
-=259  \\$a42006
-=264  \1$aBerlin$bHoerspielpark$c2011
-=300  \\$aOnline-Ressource, 67 Min.$b1 Track
-=336  \\$agesprochenes Wort$bspw$2rdacontent
-=337  \\$aComputermedien$bc$2rdamedia
-=338  \\$aOnline-Ressource$bcr$2rdacarrier
-=336  \\$atale$0http://rdaregistry.info/termList/RDAContentType/1013
-=337  \\$alydmedier$0http://rdaregistry.info/termList/RDAMediaType/1001
-=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=500  \\$aLizenzpflichtig
-=583  1\$aArchivierung/Langzeitarchivierung gewährleistet$5DE-101$2pdager
-=653  \\$a(Produktform (spezifisch))WAV format
-=653  \\$a(Produktform)Downloadable audio file
-=700  1\$810\p$aMinichmayr, Birgit$eErzähler$4nrt
-=700  1\$811\p$aHaseney, Tina$eErzähler$4nrt
-=700  1\$82\p$aBallard, J.G.$eVerfasser$4aut
-=700  1\$83\p$aTM, Schneider$eKomponist$4cmp
-=700  1\$84\p$aSpengler, Volker$eErzähler$4nrt
-=700  1\$85\p$aKönig, Cristin$eErzähler$4nrt
-=700  1\$86\p$aBroich, Margarita$eErzähler$4nrt
-=700  1\$87\p$aPeschel, Milan$eErzähler$4nrt
-=700  1\$88\p$aRudolph, Lars$eErzähler$4nrt
-=700  1\$89\p$aWuttke, Martin$eErzähler$4nrt
-=856  \0$uhttps://d-nb.info/1130617874/34$xLangzeitarchivierung Nationalbibliothek
-=856  4\$qwav$uhttp://www.hoerspielpark.de/website/titel/hochhaus-teil-3$xVerlag
-=856  40$uhttps://nbn-resolving.org/urn:nbn:de:101:1-201704244141$xResolving-System
-
-=LDR  02989nam a2200565uc 4500
-=001  1079280480
-=003  DE-101
-=005  20210430164607.0
-=007  cr||||||||||||
-=008  151125s2011\\\\gw\|||||o||||\00||||ger\\
-=015  \\$a15,O12$2dnb
-=016  7\$2DE-101$a1079280480
-=024  7\$2urn$aurn:nbn:de:bsz:352-opus-1320
-=040  \\$a1240$bger$cDE-101$d9999
-=041  \\$ager
-=044  \\$cXA-DE-BW
-=082  74$89\p$a810$qDE-101$223sdnb
-=100  1\$81\p$aFischer, Axel$eVerfasser$4aut
-=245  10$aLogik der Devianz in J. G. Ballards Crash$cAxel Fischer
-=264  \1$aKonstanz$bBibliothek der Universität Konstanz$c2011
-=300  \\$aOnline-Ressource
-=336  \\$aText$btxt$2rdacontent
-=337  \\$aComputermedien$bc$2rdamedia
-=338  \\$aOnline-Ressource$bcr$2rdacarrier
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$adatamaskin$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=502  \\$aKonstanz, Universität Konstanz, Magisterarbeit, 1997
-=583  1\$aArchivierung/Langzeitarchivierung gewährleistet$5DE-101$2pdager
-=600  17$82\p$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$aBallard, J. G.$d1930-2009$2gnd$1http://viaf.org/viaf/9842556
-=650  \7$83\p$0(DE-588)4408599-0$0https://d-nb.info/gnd/4408599-0$0(DE-101)947411712$aSystemzusammenbruch$2gnd
-=650  \7$84\p$0(DE-588)4050479-7$0https://d-nb.info/gnd/4050479-7$0(DE-101)040504794$aRoman$2gnd
-=650  \7$85\p$0(DE-588)4000320-6$0https://d-nb.info/gnd/4000320-6$0(DE-101)040003205$aAbweichendes Verhalten$2gnd
-=650  \7$86\p$0(DE-588)4036202-4$0https://d-nb.info/gnd/4036202-4$0(DE-101)040362027$aLogik$2gnd
-=650  \7$87\p$0(DE-588)4184198-0$0https://d-nb.info/gnd/4184198-0$0(DE-101)041841980$aSymbolismus$2gnd
-=650  \7$88\p$0(DE-588)4054021-2$0https://d-nb.info/gnd/4054021-2$0(DE-101)040540219$aScience-Fiction-Literatur$2gnd
-=856  \0$uhttps://d-nb.info/1079280480/34$xLangzeitarchivierung Nationalbibliothek
-=856  4\$uhttp://kops.uni-konstanz.de/handle/123456789/3602$xVerlag$zkostenfrei
-=856  40$uhttps://nbn-resolving.org/urn:nbn:de:bsz:352-opus-1320$xResolving-System
 
 =LDR  01960pam a2200493 c 4500
 =001  1004755074
@@ -20959,45 +19544,6 @@
 =689  01$Af$aAutobiographie
 =700  1\$0(DE-588)120147955$0https://d-nb.info/gnd/120147955$0(DE-101)120147955$aKörber, Joachim$d1958-$eÜbersetzer$4trl$2gnd
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tMiracles of life$gdt.$1http://www.wikidata.org/entity/Q6872514
-
-=LDR  02019pam a2200517 c 4500
-=001  987273795
-=003  DE-101
-=005  20171202055134.0
-=007  tu
-=008  080124s2008\\\\gw\|||||\||||\00||||ger\\
-=015  \\$a09,A10,0002$z08,N07,0001$2dnb
-=016  7\$2DE-101$a987273795
-=020  \\$a9783631560440$ckart. : EUR 34.00$9978-3-631-56044-0
-=024  3\$a9783631560440
-=040  \\$a1245$bger$cDE-101$d9999
-=041  \\$ager
-=044  \\$cXA-DE-HE$cXA-CH$cXA-AT
-=082  04$81\u$a001.1$qDE-101$222/ger
-=083  7\$a000$qDE-101$222sdnb
-=085  \\$81\u$b001.1
-=090  \\$ab
-=245  00$aAlles fließt$bDimensionen des Wassers in Natur und Kultur$cElmar Schenkel/Alexandra Lembert (Hrsg.)
-=264  \1$aFrankfurt, M.$aBerlin$aBern$aBruxelles$aNew York, NY$aOxford$aWien$bLang$c2008
-=300  \\$a199 S.$bIll., graph. Darst.$c21 cm
-=336  \\$aText$btxt$2rdacontent
-=337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia
-=338  \\$aBand$bnc$2rdacarrier
-=500  \\$aLiteratur- und URL-Angaben
-=650  \7$0(DE-588)4064689-0$0https://d-nb.info/gnd/4064689-0$0(DE-101)040646890$aWasser$9rswk-swf$2gnd
-=653  \\$a(VLB-FS)Ballard, J.G.
-=653  \\$a(VLB-FS)Ökologie
-=653  \\$a(VLB-FS)Wasser
-=653  \\$a(VLB-FS)Wells, H.G.
-=653  \\$a(VLB-PF)BC: Paperback
-=653  \\$a(VLB-WN)1676: HC/Biologie/Ökologie
-=655  \7$0(DE-588)4143413-4$0https://d-nb.info/gnd/4143413-4$0(DE-101)041434137$aAufsatzsammlung$2gnd-content
-=655  \7$aAufsatzsammlung$9rswk-swf$2gnd
-=689  0\$5DE-101$5DE-101
-=689  00$0(DE-588)4064689-0$0https://d-nb.info/gnd/4064689-0$0(DE-101)040646890$Ds$aWasser
-=689  01$Af$aAufsatzsammlung
-=700  1\$0(DE-588)122812387$0https://d-nb.info/gnd/122812387$0(DE-101)122812387$aSchenkel, Elmar$d1953-$eHerausgeber$4edt$2gnd
-=856  42$mB:DE-101$qapplication/pdf$uhttps://d-nb.info/987273795/04$3Inhaltsverzeichnis
 
 =LDR  03048pam a2200625 c 4500
 =001  988466864
@@ -21080,37 +19626,6 @@
 =830  \0$aPhantasia-Paperback / Science-Fiction$n[...]$pScience-Fiction$tPhantasia-Paperback$vBd. 1010$w(DE-101)974088293$w(DE-600)2282270-7$941010$7as
 =856  42$mX:MVB$qtext/html$uhttp://deposit.dnb.de/cgi-bin/dokserv?id=3062570&prov=M&dok_var=1&dok_ext=htm$3Inhaltstext
 
-=LDR  01503nam a2200385uc 4500
-=001  1005432074
-=003  DE-101
-=005  20171202162706.0
-=007  cr||||||||||||
-=008  100806s2008\\\\gw\|||||o||||\00||||ger\\
-=015  \\$a10,O09$2dnb
-=016  7\$2DE-101$a1005432074
-=020  \\$a9783639096286$9978-3-639-09628-6
-=024  7\$2urn$aurn:nbn:de:101:1-201008064779
-=040  \\$a1240$bger$cDE-101$d9999
-=041  \\$ager
-=044  \\$cXA-DE-SL
-=082  74$a400$qDE-101$222sdnb
-=100  1\$aMATEOS-APARICIO, ANGEL$eVerfasser$4aut
-=245  10$aVISIONES SOMBRÍAS DE UN PAÍS INEXPLORADO$bCiencia-ficción y humanismo en la narrativa norteamericana y británica de posguerra: W. Golding, K. Vonnegut, R. Bradbury y J.G. Ballard$cANGEL MATEOS-APARICIO
-=264  \1$aSaarbrücken$bVDM Verlag Dr. Müller$c2008
-=300  \\$aOnline-Ressource
-=336  \\$aText$btxt$2rdacontent
-=337  \\$aComputermedien$bc$2rdamedia
-=338  \\$aOnline-Ressource$bcr$2rdacarrier
-=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$adatamaskin$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$aonline ressurs$0http://rdaregistry.info/termList/RDACarrierType/1018
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=500  \\$aLizenzpflichtig. - Vom Verlag als Druckwerk on demand angeboten
-=583  1\$aArchivierung/Langzeitarchivierung gewährleistet$5DE-101$2pdager
-=856  \0$uhttps://d-nb.info/1005432074/34$xLangzeitarchivierung Nationalbibliothek
-=856  4\$uhttp://www.vdm-verlag.de$xVerlag
-=856  40$uhttps://nbn-resolving.org/urn:nbn:de:101:1-201008064779$xResolving-System
-
 =LDR  01375pam a2200385 cc4500
 =001  979686768
 =003  DE-101
@@ -21184,20 +19699,22 @@
 =044  \\$cXA-DE-BW
 =082  74$a820$qDE-101$222sdnb
 =090  \\$ab
-=100  1\$0(DE-588)132167913$0https://d-nb.info/gnd/132167913$0(DE-101)132167913$aDitze, Stephan-Alexander$dca. 20./21. Jh.$eVerfasser$4aut$2gnd
+=100  1\$0(DE-588)132167913$0https://d-nb.info/gnd/132167913$aDitze, Stephan-Alexander$1http://viaf.org/viaf/15923842$4http://rdaregistry.info/Elements/w/object/P10061
+=240  \\$aAmerica and the Americans in postwar British fiction$1http://viaf.org/viaf/15923842/americaandtheamericans
 =245  10$aAmerica and the Americans in postwar British fiction$ban imagological study of selected novels$cStephan-Alexander Ditze
 =264  \1$aHeidelberg$bWinter$c2006
 =300  \\$aXIII, 368 S.$c22 cm
-=336  \\$aText$btxt$2rdacontent
-=337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia
-=338  \\$aBand$bnc$2rdacarrier
+=336  \\$atekst$0http://rdaregistry.info/termList/RDAContentType/1020
+=337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
+=338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
+=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  1\$aAmerican studies$vVol. 138
 =502  \\$aZugl.: Vechta, Hochsch., Diss., 2004
 =600  17$0(DE-588)4390644-8$0https://d-nb.info/gnd/4390644-8$0(DE-101)945949308$aLodge, David$d1935-$tChanging places$9rswk-swf$2gnd
 =600  17$0(DE-588)4575212-6$0https://d-nb.info/gnd/4575212-6$0(DE-101)958195757$aWaugh, Evelyn$d1903-1966$tThe loved one$9rswk-swf$2gnd
 =600  17$0(DE-588)4678069-5$0https://d-nb.info/gnd/4678069-5$0(DE-101)964019140$aGreene, Graham$d1904-1991$tThe quiet American$9rswk-swf$2gnd
 =600  17$0(DE-588)7546757-4$0https://d-nb.info/gnd/7546757-4$0(DE-101)981604684$aAmis, Kingsley$d1922-1995$tOne fat englishman$9rswk-swf$2gnd
-=600  17$0(DE-588)7546759-8$0https://d-nb.info/gnd/7546759-8$0(DE-101)98160482X$aBallard, J. G.$d1930-2009$tHello America$9rswk-swf$2gnd
+=600  17$0(DE-588)7546759-8$0https://d-nb.info/gnd/7546759-8$0(DE-101)98160482X$aBallard, J. G.$d1930-2009$tHello America$9rswk-swf$2gnd$1http://viaf.org/viaf/202977755
 =650  \7$0(DE-588)4001671-7$0https://d-nb.info/gnd/4001671-7$0(DE-101)040016714$aAmerikabild$9rswk-swf$2gnd
 =650  \7$0(DE-588)4001671-7$0https://d-nb.info/gnd/4001671-7$0(DE-101)040016714$aAmerikabild$9rswk-swf$2gnd
 =650  \7$0(DE-588)4001671-7$0https://d-nb.info/gnd/4001671-7$0(DE-101)040016714$aAmerikabild$9rswk-swf$2gnd
@@ -21389,6 +19906,7 @@
 =084  \\$a59$a810$a820$a830$a839$a840$a850$a860$a870$a880$a890$aB$qDE-101$2sdnb
 =090  \\$ab
 =100  1\$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$aBallard, J. G.$d1930-2009$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aCocaine nights$1http://viaf.org/viaf/7815148574285124430000
 =245  10$aWeißes Feuer$bRoman$cJ. G. Ballard. Aus dem Engl. von Joachim Körber
 =250  \\$aPrint-on-Demand-Ausg.
 =259  \\$aprod
@@ -21417,6 +19935,7 @@
 =084  \\$a59$a810$a820$a830$a839$a840$a850$a860$a870$a880$a890$aB$qDE-101$2sdnb
 =090  \\$ab
 =100  1\$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$aBallard, J. G.$d1930-2009$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aCocaine nights$1http://viaf.org/viaf/7815148574285124430000
 =245  10$aWeißes Feuer$bRoman$cJ. G. Ballard. Aus dem Engl. von Joachim Körber
 =250  \\$aDt. Erstveröff.
 =259  \\$adte
@@ -21443,6 +19962,7 @@
 =044  \\$cXA-DE
 =084  \\$a59$a810$a820$a830$a839$a840$a850$a860$a870$a880$a890$aB$qDE-101$2sdnb
 =100  1\$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$aBallard, J. G.$d1930-2009$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aRushing to paradise$1http://viaf.org/viaf/1313145424719986830495
 =245  10$aHöllentrip ins Paradies$bRoman$cJ. G. Ballard. Dt. von Bernhard Riettz
 =250  \\$aDt. Erstausg.
 =259  \\$adte
@@ -21520,6 +20040,7 @@
 =044  \\$cXA-DE
 =084  \\$a59$a810$a820$a830$a839$a840$a850$a860$a870$a880$a890$aB$qDE-101$2sdnb
 =100  1\$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$aBallard, J. G.$d1930-2009$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aWar fever$1http://www.wikidata.org/entity/Q7968436
 =245  10$aKriegsfieber$cJ. G. Ballard. Aus dem Engl. von Joachim Körber
 =264  \1$aBellheim$bEd. Phantasia$c1996
 =300  \\$a231 S.$c20 cm
@@ -21543,6 +20064,7 @@
 =044  \\$cXA-DE
 =084  \\$a59$a810$a820$a830$a839$a840$a850$a860$a870$a880$a890$aB$qDE-101$2sdnb
 =100  1\$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$aBallard, J. G.$d1930-2009$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aRushing to paradise$1http://viaf.org/viaf/1313145424719986830495
 =245  10$aStürmt das Paradies!$cJ. G. Ballard. Aus dem Engl. von Bernhard Riettz
 =264  \1$aBellheim$bEd. Phantasia$c1996
 =300  \\$a315 S.$c20 cm
@@ -21645,6 +20167,7 @@
 =044  \\$cXA-DE
 =084  \\$a59$a810$a820$a830$a839$a840$a850$a860$a870$a880$a890$aB$qDE-101$2sdnb
 =100  1\$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$aBallard, J. G.$d1930-2009$eVerfasser$4aut$2gnd$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
+=240  10$aHigh Rise$1http://viaf.org/viaf/308016990
 =245  10$aHochhaus$bRoman$cJ. G. Ballard. Aus dem Engl. von Michael Koseler
 =250  \\$aErstausg., 1. Aufl.
 =259  \\$a11
@@ -22034,39 +20557,6 @@
 =338  \\$aBand$bnc$2rdacarrier
 =500  \\$aDieses Buch erscheint in e. einmaligen, auf 200 Ex. limitierten u. numerierten Ausg. Die röm. I - XXX numerierten Ex. gelangen nicht in d. Handel
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tThe atrocity exhibition$gdt.$1http://viaf.org/viaf/183430784
-
-=LDR  01798pam a2200433 c 4500
-=001  850541085
-=003  DE-101
-=005  20171202095502.0
-=007  tu
-=008  870518s1985\\\\gw\|||||\||||\00||||ger\\
-=015  \\$a87,A23,0936$z85,N25,0228$2dnb
-=016  7\$2DE-101$a850541085
-=020  \\$a3890482066$ckart. : DM 19.80$93-89048-206-6
-=020  \\$a9783890482064$ckart. : DM 19.80$9978-3-89048-206-4
-=040  \\$a1200$bger$cDE-101$d9999
-=041  \\$ager
-=043  \\$cXA-GB
-=044  \\$cXA-DE
-=084  \\$a12.2p$qDE-101$2sswd
-=084  \\$a52$a420$a810$a820$qDE-101$2sdnb
-=245  00$aJ. G. Ballard - der Visionär des Phantastischen$chrsg. von Joachim Körber
-=264  \1$aMeitingen$bCorian-Verlag Wimmer$c1985
-=300  \\$a176 S.$c21 cm
-=336  \\$aText$btxt$2rdacontent
-=337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia
-=338  \\$aBand$bnc$2rdacarrier
-=490  1\$aEdition Futurum$vBd. 6
-=600  17$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$aBallard, J. G.$d1930-2009$9rswk-swf$2gnd$1http://viaf.org/viaf/9842556
-=655  \7$0(DE-588)4143413-4$0https://d-nb.info/gnd/4143413-4$0(DE-101)041434137$aAufsatzsammlung$2gnd-content
-=655  \7$aAufsatzsammlung$9rswk-swf$2gnd
-=689  0\$5DE-101$5DE-101
-=689  00$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$Dp$aBallard, J. G.$d1930-2009
-=689  01$Af$aAufsatzsammlung
-=700  1\$0(DE-588)120147955$0https://d-nb.info/gnd/120147955$0(DE-101)120147955$aKörber, Joachim$d1958-$eHerausgeber$4edt$2gnd
-=830  \0$aEdition Futurum$vBd. 6$w(DE-101)011516437$w(DE-600)252313-9$916$7as
-=856  42$mV:DE-605$qapplication/pdf$uhttps://d-nb.info/850541085/04$3Inhaltsverzeichnis
 
 =LDR  01501nam a2200385 c 4500
 =001  850831253
@@ -22809,33 +21299,7 @@
 =338  \\$aBand$bnc$2rdacarrier
 =490  0\$aScience-fiction & fantastica
 =500  \\$aAus d. Amerikan. übers.
-=700  12$aBallard, J. G.$d1930-2009$2gnd$tThe impossible man and other stories$gdt.$1http://www.wikidata.org/entity/Q7741590
-
-=LDR  01562nam a2200349 c 4500
-=001  720045495
-=003  DE-101
-=005  20171201223721.0
-=007  tu
-=008  720325s1971\\\\gw\|||||\||||\00||||ger\\
-=015  \\$a72,A13,0219$2dnb
-=016  7\$2DE-101$a720045495
-=020  \\$a3785220111$ckart. : DM 11.00$93-7852-2011-1
-=020  \\$a9783785220115$ckart. : DM 11.00$9978-3-7852-2011-5
-=040  \\$a1200$bger$cDE-101$d9999
-=041  \\$ager
-=044  \\$cXA-DE
-=084  \\$a59$a810$a820$a830$a839$a840$a850$a860$a870$a880$a890$aB$qDE-101$2sdnb
-=245  00$aEispiloten$bScience-fiction-Erzählungen.$cHrsg. von Roger Zelazny. [Aus d. Amerikan. übertr. von Ursula Richter u. a.]
-=264  \1$aMünchen$bLichtenberg-Verlag$c1971
-=300  \\$a204 S.;$c21 cm.
-=336  \\$aText$btxt$2rdacontent
-=337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia
-=338  \\$aBand$bnc$2rdacarrier
-=490  0\$ascience-fiction für kenner.
-=490  1\$aNebula award stories$v3.
-=500  \\$aEnthält u. a.: Wolkenspiele. / Von J. G. Ballard. [Einheitssacht.: The cloud-sculptors of Coral D. <Dt.>] - Hübsche Maggie Moneyeyes. / Von Harlan Ellison. [Einheitssacht.: Pretty Maggie Moneyeyes. <Dt.>] - Imitatio Christi. / Von Michael Moorcock. [Einheitssacht.: Behold the man. <Dt.>]
-=700  1\$0(DE-588)119204428$0https://d-nb.info/gnd/119204428$0(DE-101)119204428$aZelazny, Roger$d1937-1995$eHerausgeber$4edt$2gnd
-=830  \0$aNebula award stories$v3.$913
+=700  12$aBallard, J. G.$d1930-2009$2gnd$tThe impossible man and other stories$gdt.$1http://www.wikidata.org/entity/Q7741590
 
 =LDR  01396nam a2200373 c 4500
 =001  730259102
