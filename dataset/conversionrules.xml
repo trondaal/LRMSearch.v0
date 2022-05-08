@@ -202,6 +202,9 @@
                 <!--<subfield code="k" select="lower-case(.)"  type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>-->
                 <subfield code="1" type="http://rdaregistry.info/Elements/x/datatype/P00018" label="has identifier for work"/>
             </datafield>
+            <datafield tag="520">
+                <subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10330" label="note"/>
+            </datafield>
             <!--<datafield tag="380" condition="frbrizer:linked($anchor_field, ., false())">
                 <subfield code="a" select="lower-case(.)" type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has category of work"/>
                 <subfield code="0" select="." type="http://rdaregistry.info/Elements/w/datatype/P10004" label="has form of work"/>
@@ -399,6 +402,15 @@
                 <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30106" select="frbrizer:trim(.)" label="has series statement"/>
                 <subfield code="v" type="http://rdaregistry.info/Elements/m/datatype/P30165" label="has numbering of serials"/>
                 <!--<subfield code="l" type="http://marc21rdf.info/elements/marc/M49000l"/>-->
+            </datafield>
+            <datafield tag="500">
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30137" label="note"/>
+            </datafield>
+            <datafield tag="505">
+                <subfield code="a" type="http://rdaregistry.info/Elements/m/datatype/P30137" label="note"/>
+                <subfield code="g" type="http://rdaregistry.info/Elements/m/datatype/P30137" label="note"/>
+                <subfield code="r" type="http://rdaregistry.info/Elements/m/datatype/P30137" label="note"/>
+                <subfield code="t" type="http://rdaregistry.info/Elements/m/datatype/P30137" label="note"/>
             </datafield>
             <datafield tag="773">
                 <subfield code="t" condition=". ne $record/*:datafield[@tag='245']/*:subfield[@code='a']" type="http://rdaregistry.info/Elements/m/datatype/P30050" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code='d']), frbrizer:trim(../*:subfield[@code='g'])), ', ') || '.'" label="has note on issue, part..."/>
