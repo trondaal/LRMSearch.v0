@@ -340,8 +340,8 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=600  10$aDalí, Salvador,$d1904-1989.
-=700  1\$aLarkin, David.$4edt
+=600  10$aDalí, Salvador,$d1904-1989.$1http://viaf.org/viaf/64004109
+=700  1\$aLarkin, David.$4edt$1http://viaf.org/viaf/277669549
 =700  1\$aBallard, J. G.$d1930-2009$4aui$1http://viaf.org/viaf/9842556
 
 =LDR  00891cam a2200217 i 4500
@@ -563,6 +563,13 @@
 =500  \\$a"First published by Victor Gollancz 1963. Published in Penguin Books 1965. Reprinted with the two stories 'Prima Belladonna' and 'Studio 5, The Stars' replaced by 'The Overloaded Man' and 'Thirteen to Centaurus', 1977" -- title page verso.
 =505  0\$aThe voices of time -- The sound-sweep -- The overloaded man -- Thirteen to Centaurus -- The garden of time -- The cage of sand -- The watch-tower -- Chronopolis.
 =700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
+=700  12$aBallard, J. G.$d1930-2009$tThe sound-sweep
+=700  12$aBallard, J. G.$d1930-2009$tThe overloaded man
+=700  12$aBallard, J. G.$d1930-2009$tThirteen to Centaurus
+=700  12$aBallard, J. G.$d1930-2009$tThe garden of time
+=700  12$aBallard, J. G.$d1930-2009$tThe cage of sand
+=700  12$aBallard, J. G.$d1930-2009$tThe watch-tower
+=700  12$aBallard, J. G.$d1930-2009$tChronopolis.
 
 =LDR  00986cam a2200265   4500
 =001  a4283714
@@ -1337,7 +1344,6 @@
 =700  1\$aMiles, Barry$1http://viaf.org/viaf/109756036$4http://rdaregistry.info/Elements/e/object/P20327
 =700  1\$aBallard, J.G.$d1930-2009$1http://viaf.org/viaf/9842556$4aui$4http://rdaregistry.info/Elements/m/object/P30328
 
-
 =LDR  00991 am a2200289ui 4500
 =001  010705360
 =003  UK
@@ -1389,10 +1395,10 @@
 =520  \\$a»Resonant Alterities« bridges the gap between sound studies and literary criticism. A queer ghost story by Vernon Lee, an occultist novel of psychic adventure by Algernon Blackwood, a dystopian science fiction tale by J.G. Ballard and a post-traumatic short novel by Don DeLillo are its primary objects of analysis. Each is explored within the context of its contemporary cultural debates on sound. Meanwhile, all four theory-enriched readings focus on intersecting and desire-laden processes of meaning making, knowledge production and subject formation. Focal points are aurally/audio-visually structured phenomena expressive of both collective and individual anxieties.
 =600  10$aBallard, J. G.,$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
 =600  10$aBlackwood, Algernon,$d1869-1951$xCriticism and interpretation.
-=600  10$aDeLillo, Don$xCriticism and interpretation.
+=600  10$aDeLillo, Don$xCriticism and interpretation.$1http://www.wikidata.org/entity/Q7718980
 =600  10$aLee, Vernon,$d1856-1935$xCriticism and interpretation.
 =600  14$aBallard, J. G.,$d1930-2009$0https://libris.kb.se/dbqssg6x38zr5cn#it$1http://viaf.org/viaf/9842556
-=600  14$aDeLillo, Don,$d1936-$0https://libris.kb.se/53hkldbp3t4pbj2#it
+=600  14$aDeLillo, Don,$d1936-$0https://libris.kb.se/53hkldbp3t4pbj2#it$1http://www.wikidata.org/entity/Q7718980
 =600  14$aLee, Vernon,$d1856-1935$0https://libris.kb.se/b8nqs8rv5700gkz#it
 =600  17$aBlackwood, Algernon,$d1869-1951$2fast
 =648  \7$a1900-talet$0https://id.kb.se/term/sao/1900-talet$2sao
@@ -2297,7 +2303,7 @@
 =650  \7$aFiction and related items / Modern and contemporary fiction (post c. 1945).$2bicssc
 =650  \7$aFiction$xLiterary.$2bisacsh
 =650  \7$aFICTION$xLiterary.$2bisacsh
-=700  1\$aBeckett, Chris,$d1955-$eeditor.
+=700  1\$aBeckett, Chris,$d1955-$eeditor.$4edt
 =776  08$iPrint version :$z9780007287024
 
 =LDR  01234pam a2200313 a 4500
@@ -2323,8 +2329,8 @@
 =500  \\$aFormerly CIP.$5Uk
 =504  \\$aIncludes bibliographical references and index.
 =600  10$aBallard, J. G.,$d1930-2009$vInterviews.$1http://viaf.org/viaf/9842556
-=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt
-=700  1\$aSellars, Simon,$eeditor.$4edt
+=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt$4edc$1http://viaf.org/viaf/66433403
+=700  1\$aSellars, Simon,$eeditor.$4edt$1http://viaf.org/viaf/58855728
 
 =LDR  00918 am a2200301ua 4500
 =001  010705691
@@ -2933,8 +2939,8 @@
 =380  \\$aFiction
 =650  \0$aLiterature, Experimental.
 =650  \0$aPhysicians$vFiction.
-=700  1\$aBurroughs, William S.,$d1914-1997,$ewriter of preface.$1http://viaf.org/viaf/108916275
-=700  1\$aKunzru, Hari,$d1969-$ewriter of introduction.
+=700  1\$aBurroughs, William S.,$d1914-1997,$4wrp$ewriter of preface.$1http://viaf.org/viaf/108916275
+=700  1\$aKunzru, Hari,$d1969-$ewriter of introduction.$4win
 
 =LDR  01271cam a2200301 a 4500
 =001  015744765
@@ -3042,7 +3048,6 @@
 =700  1\$aGrauerholz, James$1http://viaf.org/viaf/195632924$4http://rdaregistry.info/Elements/e/object/P20327
 =700  1\$aMiles, Barry$1http://viaf.org/viaf/109756036$4http://rdaregistry.info/Elements/e/object/P20327
 =700  1\$aBallard, J.G.$d1930-2009$1http://viaf.org/viaf/9842556$4aui$4http://rdaregistry.info/Elements/m/object/P30328
-
 
 =LDR  00965 am a2200313ua 4500
 =001  007390693
@@ -3472,7 +3477,6 @@
 =700  \2$aBallard, J. G.$tNew stories for the American edition
 =700  \2$aBallard, J. G.$tThe secret autobiography of J.G.B.
 =700  \2$aBallard, J. G.$tThe dying fall
-
 
 =LDR  00849 am a2200277ua 4500
 =001  009379653
@@ -4233,16 +4237,16 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  0\$aSpectrum$v3
-=700  1\$aAmis, Kingsley$d1922-1995$0(NO-TrBIB)90096252$4edt$4edc
-=700  1\$aAnderson, Poul$d1926-2001$0(NO-TrBIB)90135259$4ctb
+=700  1\$aAmis, Kingsley$d1922-1995$0(NO-TrBIB)90096252$4edt$4edc$1http://viaf.org/viaf/311112707
+=700  1\$aAnderson, Poul$d1926-2001$0(NO-TrBIB)90135259$4ctb$1http://viaf.org/viaf/12304119
 =700  1\$aBallard, J.G.$d1930-2009$0(NO-TrBIB)90199005$4ctb$1http://viaf.org/viaf/9842556
 =700  1\$aBester, Alfred$d1913-1987$0(NO-TrBIB)90083185$4ctb
-=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$0(NO-TrBIB)90725602
+=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$0(NO-TrBIB)90725602$4ctb$1http://viaf.org/viaf/27062571
 =700  1\$aConquest, Robert$d1917-2015$0(NO-TrBIB)90092680$4edt$4edc
 =700  1\$aLeinster, Murray$0(NO-TrBIB)12071884$4ctb
 =700  1\$aPhillips, Peter$0(NO-TrBIB)8030292$4ctb
 =700  1\$aRose, Mark$0(NO-TrBIB)90231592$4ctb
-=700  1\$aSturgeon, Theodore$d1918-1985$0(NO-TrBIB)90967876$4ctb
+=700  1\$aSturgeon, Theodore$d1918-1985$0(NO-TrBIB)90967876$4ctb$1http://viaf.org/viaf/100257330
 
 =LDR  01289nam a2200313 i 4500
 =001  018394316
@@ -4267,8 +4271,8 @@
 =500  \\$a"The text of this edition follows that of the first edition, with minor emendations"--Title page verso.
 =500  \\$aIn slipcase.
 =500  \\$aOriginally published: London : Victor Gollancz, 1984.
-=700  1\$aBoyd, William,$d1952-$ewriter of introduction.
-=700  1\$aLaing, Tim,$eillustrator.
+=700  1\$aBoyd, William,$d1952-$ewriter of introduction.$4wri
+=700  1\$aLaing, Tim,$eillustrator.$4ill
 =710  2\$aFolio Society (London, England)
 
 =LDR  01323nam a22003012a 4500
@@ -5108,7 +5112,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =700  1\$aBallard, J. G.$d1930-2009$4aui$1http://viaf.org/viaf/9842556
-=700  1\$aLarkin, David
+=700  1\$aLarkin, David$$1http://viaf.org/viaf/277669549$4edt
 
 =LDR  00694cam a22002052a 4500
 =001  011691246
@@ -5331,7 +5335,7 @@
 =521  \\$aUK Cert. 18.
 =538  \\$aPAL Region 2.
 =650  \0$aFeature films.
-=700  1\$aArquette, Rosanna,$d1959-http://viaf.org/viaf/32190722
+=700  1\$aArquette, Rosanna,$d1959-$1http://viaf.org/viaf/32190722$4act
 =700  1\$aCronenberg, David,$d1943-$4fmd$4pro$4aus$1http://viaf.org/viaf/97752099
 =700  1\$aHunter, Holly,$d1958-$4act$1http://viaf.org/viaf/34649834
 =700  1\$aJulian, Yolande.$4act$1https://www.imdb.com/name/nm0432223/
@@ -5498,8 +5502,8 @@
 =500  \\$a"The text of this edition follows that of the first edition, with minor emendations"--Title page verso.
 =500  \\$aIn slipcase.
 =500  \\$aOriginally published: London : Victor Gollancz, 1984.
-=700  1\$aBoyd, William,$d1952-$ewriter of introduction.
-=700  1\$aLaing, Tim,$eillustrator.
+=700  1\$aBoyd, William,$d1952-$ewriter of introduction.$4wri
+=700  1\$aLaing, Tim,$eillustrator.$4ill
 =710  2\$aFolio Society (London, England)
 
 =LDR  01626cam a2200349 i 4500
@@ -5810,6 +5814,7 @@
 =650  \7$anovellit$2yso/fin$0http://www.yso.fi/onto/yso/p2126
 =650  \7$ascience fiction-litteratur$2yso/swe$0http://www.yso.fi/onto/yso/p15527
 =650  \7$atieteiskirjallisuus$2yso/fin$0http://www.yso.fi/onto/yso/p15527
+=700  \\$aRuokosenmäki, Jouko$4trl
 =773  0\$w(FI-MELINDA)000590328$7nnas$w(FI-Arto)1386296$tTähtivaeltaja. -$x0781-271X. -$g17(1998) : 1, s.44-47
 
 =LDR  02875cgm a22006254i 4500
@@ -6935,8 +6940,7 @@
 =653  \\$aromaanit$aenglannin kieli$asuomenkielinen käännös
 =655  \7$akaunokirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
-=700  1\$aNousiainen, Jussi$c(kääntäjä)$0(FI-ASTERI-N)000111824
-=700  1\$aNousiainen, Jussi.
+=700  1\$aNousiainen, Jussi$c(kääntäjä)$0(FI-ASTERI-N)000111824$4trl
 =830  \0$aOtavan kirjasto.
 
 =LDR  01444nam a2200313 c 4500
@@ -7232,7 +7236,7 @@
 =655  \7$atieteiskirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s418
 =655  \7$autopiat$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s149
 =655  \7$autopier$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s149
-=700  1\$aTervaharju, Hannu,$ekääntäjä.$0(FI-ASTERI-N)000112855
+=700  1\$aTervaharju, Hannu,$ekääntäjä.$0(FI-ASTERI-N)000112855$4trl
 =830  \0$aLike-pokkari ;$v[152]
 
 =LDR  01437cam a2200385 i 4500
@@ -7434,7 +7438,7 @@
 =700  1\$aJonas, Gerald$4ctb$0(NO-TrBIB)7079141
 =700  1\$aKagan, Norman$4ctb$0(NO-TrBIB)90161779
 =700  1\$aLafferty, R. A.$4ctb$0(NO-TrBIB)99006126
-=700  1\$aLeiber, Fritz$d1910-1992$0(NO-TrBIB)90705550
+=700  1\$aLeiber, Fritz$d1910-1992$4ctb$0(NO-TrBIB)90705550
 =700  1\$aMundis, Jerrod J.$4ctb$0(NO-TrBIB)13006943
 =700  1\$aRush, Norman$4ctb$0(NO-TrBIB)90721345
 =700  1\$aVonnegut, Kurt jr.$4ctb$0(NO-TrBIB)10062183
@@ -7601,13 +7605,13 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =653  \\$afantasy$ascience$afiction
 =700  1\$aAldiss, Brian W.$d1925-$4ctb$0(NO-TrBIB)90056060$1http://viaf.org/viaf/2465493
-=700  1\$aAlexander, David$4cb$0(NO-TrBIB)90127249$4ctb
+=700  1\$aAlexander, David$4cb$0(NO-TrBIB)90127249$4ctb$1http://viaf.org/viaf/66475206
 =700  1\$aBallard, J.G.$d1930-2009$4ctb$0(NO-TrBIB)90199005$4ctb$1http://viaf.org/viaf/9842556
 =700  1\$aBrunner, John$d1934-1995$0(NO-TrBIB)90763497$4ctb$1http://viaf.org/viaf/103212466
-=700  1\$aHill, Douglas$4edt$0(NO-TrBIB)90844817$4edt$4edc
-=700  1\$aHillman, Martin.$4ctb$0(NO-TrBIB)14004306$4ctb
-=700  1\$aSellings, Arthur.$4ctb$0(NO-TrBIB)12061623$4ctb
-=700  1\$aTubb, E. C..$4aut$0(NO-TrBIB)90916487$4ctb
+=700  1\$aHill, Douglas$4edt$0(NO-TrBIB)90844817$4edt$4edc$1http://viaf.org/viaf/102014804
+=700  1\$aHillman, Martin.$4ctb$0(NO-TrBIB)14004306$4ctb$1http://viaf.org/viaf/755149068352865730003
+=700  1\$aSellings, Arthur.$4ctb$0(NO-TrBIB)12061623$4ctb$1http://viaf.org/viaf/78470190
+=700  1\$aTubb, E. C..$4ctb$0(NO-TrBIB)90916487$4ctb$1http://viaf.org/viaf/295452826
 
 =LDR  00719cam a22002057i 4500
 =001  010038453
@@ -7778,8 +7782,8 @@
 =338  \\$avolume$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =500  \\$aFormerly CIP.$5Uk
 =600  10$aBallard, J. G.,$d1930-2009$vQuotations.$1http://viaf.org/viaf/9842556
-=700  1\$aBarrado, Ana.
-=700  1\$aVale, V.
+=700  1\$aBarrado, Ana.$4pht
+=700  1\$aVale, V.$4edt
 
 =LDR  01636 am a2200373ui 4500
 =001  006742115
@@ -8060,22 +8064,22 @@
 =490  1\$aSF the best of the best$v2
 =655  \7$ascience fiction$2noubonm
 =700  1\$aAldiss, Brian W.$d1925-$4ctb$0(NO-TrBIB)90056060$1http://viaf.org/viaf/2465493
-=700  1\$aAllen, Steve.$4aut$0(NO-TrBIB)11017809$4ctb
-=700  1\$aAsimov, Isaac$d1920-1992$4aut$0(NO-TrBIB)90104376$4ctb
-=700  1\$aBallard, J.G.$d1930-2009$4aut$0(NO-TrBIB)90199005$4ctb$1http://viaf.org/viaf/9842556
-=700  1\$aBryam, George$4aut$0(NO-TrBIB)13071823$4ctb
-=700  1\$aBudrys, Algis$d1931-$4aut$0(NO-TrBIB)12064560$4ctb
-=700  1\$aClifton, Mark.$4aut$0(NO-TrBIB)90246771$4ctb
-=700  1\$aCogswell, Theodore R.$4aut$0(NO-TrBIB)13002069$4ctb
-=700  1\$aDavidson, Avram.$4aut$0(NO-TrBIB)13000919$4ctb
-=700  1\$aEmshwiller, Carol$d1921-$4aut$0(NO-TrBIB)13020578$4ctb
-=700  1\$aGehman, Richard.$4aut$0(NO-TrBIB)13071822$4ctb
-=700  1\$aJackson, Shirley$d1916-1965$0(NO-TrBIB)1533887371795$4aut
-=700  1\$aKnight, Damon.$4aut$0(NO-TrBIB)90762006$4ctb
-=700  1\$aLeiber, Fritz$d1910-1992$4aut$0(NO-TrBIB)90705550$4ctb
-=700  1\$aMerril, Judith.$4edt$0(NO-TrBIB)8036947$4edt$4edc
-=700  1\$aSheckley, Robert.$4aut$0(NO-TrBIB)90222749$4ctb
-=700  1\$aWorthington, Will.$4aut$0(NO-TrBIB)13071824$4ctb
+=700  1\$aAllen, Steve.$0(NO-TrBIB)11017809$4ctb
+=700  1\$aAsimov, Isaac$d1920-1992$0(NO-TrBIB)90104376$4ctb$1http://viaf.org/viaf/24597135
+=700  1\$aBallard, J.G.$d1930-2009$0(NO-TrBIB)90199005$4ctb$1http://viaf.org/viaf/9842556
+=700  1\$aBryam, George$0(NO-TrBIB)13071823$4ctb
+=700  1\$aBudrys, Algis$d1931-$0(NO-TrBIB)12064560$4ctb$1http://viaf.org/viaf/93054017
+=700  1\$aClifton, Mark.$0(NO-TrBIB)90246771$4ctb
+=700  1\$aCogswell, Theodore R.$0(NO-TrBIB)13002069$4ctb
+=700  1\$aDavidson, Avram.$0(NO-TrBIB)13000919$4ctb
+=700  1\$aEmshwiller, Carol$d1921-$0(NO-TrBIB)13020578$4ctb
+=700  1\$aGehman, Richard.$0(NO-TrBIB)13071822$4ctb
+=700  1\$aJackson, Shirley$d1916-1965$0(NO-TrBIB)1533887371795$4ctb
+=700  1\$aKnight, Damon.$0(NO-TrBIB)90762006$4ctb
+=700  1\$aLeiber, Fritz$d1910-1992$0(NO-TrBIB)90705550$4ctb
+=700  1\$aMerril, Judith.$4edt$4edc$0(NO-TrBIB)8036947$1http://viaf.org/viaf/84170355
+=700  1\$aSheckley, Robert.$0(NO-TrBIB)90222749$4ctb
+=700  1\$aWorthington, Will.$0(NO-TrBIB)13071824$4ctb
 =830  \0$aSF the best of the best$v2
 
 =LDR  01918cam a22004577a 4500
@@ -8266,8 +8270,8 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt
-=700  1\$aSellars, Simon,$eeditor.$4edt
+=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt$4edc$1http://viaf.org/viaf/66433403
+=700  1\$aSellars, Simon,$eeditor.$4edt$1http://viaf.org/viaf/58855728
 
 =LDR  01455nam a2200325 c 4500
 =001  860997057
@@ -9315,8 +9319,8 @@
 =655  \7$aConference proceedings.$2fast
 =655  \7$aCriticism, interpretation, etc.$2fast
 =655  \7$aRiverside (Calif., 1987)$2swd
-=700  1\$aRabkin, Eric S.
-=700  1\$aSlusser, George Edgar.
+=700  1\$aRabkin, Eric S.$4edt$4edc
+=700  1\$aSlusser, George Edgar.$4edt$edc
 =711  2\$aEaton Conference on Science Fiction and Fantasy Literature$n(9th :$d1987 :$cUniversity of California, Riverside)
 =776  \\$z0-8093-1454-1
 
@@ -9471,7 +9475,7 @@
 =700  12$aBrown, Fredric$tExperimentet
 =700  12$aClarke, Arthur C.$q(Arthur Charles),$d1917-2008$0https://libris.kb.se/qn2440884nx4nwn#it$tEn historielektion
 =700  12$aDick, Philip K$tMinnen en gros$1http://www.isfdb.org/cgi-bin/title.cgi?18834
-=700  12$aDraper, Hal$1Ms fnt i t bltk
+=700  12$aDraper, Hal$tMs fnt i t bltk
 =700  12$aHedberg, Gunnar$4trl
 =700  12$aLundwall, Sam J.,$d1941-$4edt$0https://libris.kb.se/53hkfclp22khvjx#it
 =700  12$aPohl, Frederik$tMördande reklam
@@ -9539,7 +9543,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =440  \0$aSolar art directives ;$v1
 =546  \\$aTranslated from the French.
-=600  14$aDalí, Salvador,$d1904-1989$0183291$0268501
+=600  14$aDalí, Salvador,$d1904-1989$0183291$0268501$1http://viaf.org/viaf/64004109
 =650  \0$aSurrealism (Literature)
 =650  \7$aKonstnärer$zSpanien$2sao
 =650  \7$aSurrealism (litteratur)$2sao$0163347
@@ -10211,7 +10215,7 @@
 =080  \\$a820-31"19"
 =100  1\$aBallard, J. G.$d1930-2009$0XX1721261$1http://viaf.org/viaf/9842556$4http://rdaregistry.info/Elements/w/object/P10061
 =240  10$aEmpire of the sun$lCatalán$1http://viaf.org/viaf/180997771
-=245  12$aL'imperi del sol$h[Texto impreso]$cJ.G. Ballard ; traducciÓ de Carles Boluda i Torrella
+=245  12$aL'imperi del sol$h[Texto impreso]$cJ.G. Ballard ; traduccion de Carles Boluda i Torrella
 =250  \\$a[1ª ed.]
 =260  \\$aBarcelona$bEdicions 62$c1987
 =300  \\$a269 pages$c20 cm
@@ -10220,7 +10224,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =440  \3$aEl balancí$v192
 =500  \\$aTraducción de: Empire of the sun
-=700  1\$aBoluda i Torrella, Carles
+=700  1\$aBoluda i Torrella, Carles$4trl
 
 =LDR  00818cam a22002297i 4500
 =001  007302195
@@ -10240,7 +10244,7 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =500  \\$aIntroduction by Anthony Burgess. - Valikoima ilmestynyt alun perin 1978.
 =650  \7$anovellit$xtieteiskirjallisuus$zIso-Britannia$2kaunokki
-=700  1\$aBurgess, Anthony.
+=700  1\$aBurgess, Anthony.$4aui$1http://viaf.org/viaf/71388189
 
 =LDR  00966cam a2200289   4500
 =001  019560616
@@ -10442,7 +10446,7 @@
 =650  \0$aScience fiction$xHistory and criticism.
 =650  17$aScience fiction.$2gtt
 =655  \4$aElectronic books.
-=700  1\$aSeed, David.
+=700  1\$aSeed, David.$4edt$4edc
 =710  2\$aWiley InterScience (Online service)
 =776  08$iPrint$tA companion to science fiction Original$z9781405112185
 =830  \0$aBlackwell companions to literature and culture ;$v34
@@ -10605,9 +10609,61 @@
 =650  \7$aScience fiction.$2fast
 =655  \7$aScience fiction.$2lcsh
 =655  \7$aTranslations.$2fast
-=700  1\$aFadiman, Clifton,$d1904-1999.
-=700  1\$aHartwell, David G.
+=700  1\$aFadiman, Clifton,$d1904-1999.$4aui$4edt
+=700  1\$aHartwell, David G.$4edt$edc
 =830  \0$aWorld treasury.
+=700  02$tHarrison Bergeron / Kurt Vonnegut, Jr.
+=700  02$tForgetfulness / John W. Campbell, Jr.
+=700  02$tSpecial flight / John Berryman
+=700  02$tChronopolis / J.G. Ballard
+=700  02$tTriceratops / Kono Tensei
+=700  02$tThe man who lost the sea / Theodore Sturgeon
+=700  02$tOn the inside track / Karl Michael Armer
+=700  02$tThe Golem / Avram Davidson
+=700  02$tThe new prehistory / René Rebetez-Cortes
+=700  02$tA meeting with Medusa / Arthur C. Clarke
+=700  02$tThe valley of echoes / Gérard Klein
+=700  02$tThe fifth head of Cerberus / Gene Wolfe
+=700  02$tThe chaste planet / John Updike
+=700  02$tThe blind pilot / Nathalie-Charles Henneberg
+=700  02$tThe men who murdered Mohammed / Alfred Bester
+=700  02$tPairpuppets / Manuel van Loggem
+=700  02$tTwo dooms / C.M. Kornbluth
+=700  02$tTale of the computer that fought a dragon / Stanislaw Lem
+=700  02$tThe green hills of Earth / Robert A. Heinlein
+=700  02$tGhost V / Robert Sheckley
+=700  02$tThe phantom of Kansas / John Varley
+=700  02$tCaptain Nemo's last adventure / Josef Nesvadba
+=700  02$tInconstant moon / Larry Niven
+=700  02$tThe gold at the starbow's end / Frederik Pohl
+=700  02$tA sign in space / Italo Calvino
+=700  02$tThe spiral / Italo Calvino.
+=700  02$tThe dead past / Isaac Asimov
+=700  02$tThe lens / Annemarie van Ewyck
+=700  02$tThe hurkle is a happy beast / Theodore Sturgeon
+=700  02$tZero hour / Ray Bradbury
+=700  02$tNine lives / Ursula K. Le Guin
+=700  02$tThe muse / Anthony Burgess
+=700  02$tThe public hating / Steve Allen
+=700  02$tPoor superman / Fritz Leiber
+=700  02$tAngouleme / Thomas M. Disch
+=700  02$tStranger station / Damon Knight
+=700  02$tThe dead fish / Boris Vian
+=700  02$tI was the first to find you / Kirill Bulychev
+=700  02$tThe lineman / Walter M. Miller, Jr.
+=700  02$tTlön, Uqbar, Orbis Tertius / Jorge Luis Borges
+=700  02$tCodemus / Tor Åge Bringsvaerd
+=700  02$tA kind of artistry / Brian Aldiss
+=700  02$tSecond variety / Philip K. Dick
+=700  02$tWeihnachtsabend / Keith Roberts
+=700  02$tI do not love thee, Doctor Fell / Robert Bloch
+=700  02$tAye, and Gomorrah-- / Samuel R. Delany
+=700  02$tHow Erg the Self-inducting slew a paleface / Stanislaw Lem
+=700  02$tNobody's home / Joanna Russ
+=700  02$tParty line / Gérard Klein
+=700  02$tThe proud robot / Lewis Padgett
+=700  02$tVintage season / Henry Kuttner and C.L. Moore
+=700  02$tWay to Amalteia / Arkady and Boris Strugatsky.
 
 =LDR  00639nam a22002053  4500
 =001  000184370
@@ -10643,19 +10699,19 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  1\$aSF the best of the best$v1
 =655  \7$ascience fiction$2noubonm
-=700  1\$aAbernathy, Robert.$4aut$0(NO-TrBIB)13022307
-=700  1\$aBallard, J.G.$d1930-2009$4aut$0(NO-TrBIB)90199005$4ctb$1http://viaf.org/viaf/9842556
-=700  1\$aEmshwiller, Carol$d1921-$4aut$0(NO-TrBIB)13020578
-=700  1\$aKnight, Damon.$4aut$0(NO-TrBIB)90762006
-=700  1\$aLeiber, Fritz$d1910-1992$4aut$0(NO-TrBIB)90705550
-=700  1\$aMcKenna, Richard M.$4aut$0(NO-TrBIB)13071806
-=700  1\$aMerril, Judith.$4edt$0(NO-TrBIB)8036947
-=700  1\$aMiller, Walter M. Jr..$4aut$0(NO-TrBIB)12069457
-=700  1\$aReynolds, Mack.$4aut$0(NO-TrBIB)12056609
-=700  1\$aSimak, Clifford D..$4aut$0(NO-TrBIB)90127777
-=700  1\$aSmith, Cordwainer$d1913-1966$4aut$0(NO-TrBIB)8046668
-=700  1\$aSturgeon, Theodore$d1918-1985$4aut$0(NO-TrBIB)90967876
-=700  1\$aThomas, Theodore L..$4aut$0(NO-TrBIB)90073818
+=700  1\$aAbernathy, Robert.$4ctb$0(NO-TrBIB)13022307$1http://viaf.org/viaf/85394371
+=700  1\$aBallard, J.G.$d1930-2009$4ctb$0(NO-TrBIB)90199005$4ctb$1http://viaf.org/viaf/9842556
+=700  1\$aEmshwiller, Carol$d1921-$4ctb$0(NO-TrBIB)13020578
+=700  1\$aKnight, Damon.$4ctb$0(NO-TrBIB)90762006
+=700  1\$aLeiber, Fritz$d1910-1992$4ctb$0(NO-TrBIB)90705550
+=700  1\$aMcKenna, Richard M.$4ctb$0(NO-TrBIB)13071806
+=700  1\$aMerril, Judith.$4edt$4edc$0(NO-TrBIB)8036947$1http://viaf.org/viaf/84170355
+=700  1\$aMiller, Walter M. Jr..$4ctb$0(NO-TrBIB)12069457
+=700  1\$aReynolds, Mack.$4ctb$0(NO-TrBIB)12056609
+=700  1\$aSimak, Clifford D..$4ctb$0(NO-TrBIB)90127777
+=700  1\$aSmith, Cordwainer$d1913-1966$4ctb$0(NO-TrBIB)8046668
+=700  1\$aSturgeon, Theodore$d1918-1985$4ctb$0(NO-TrBIB)90967876$1http://viaf.org/viaf/100257330
+=700  1\$aThomas, Theodore L..$4ctb$0(NO-TrBIB)90073818
 =830  \0$aSF the best of the best$v1
 
 =LDR  01405cam a2200337   4500
@@ -10778,7 +10834,7 @@
 =650  \7$aScience fiction, American.$2fast
 =650  \7$aScience fiction, English.$2fast
 =653  \0$aScience fiction, English
-=700  1\$aAmis, Kingsley.$4edc$4edt
+=700  1\$aAmis, Kingsley.$4edc$4edt$1http://viaf.org/viaf/311112707
 =700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
 =776  08$iOnline version:$tGolden age of science fiction.$dLondon : Hutchinson, 1981$w(OCoLC)558543024
 
@@ -10924,7 +10980,7 @@
 =650  \0$aScience fiction, American
 =650  \0$aScience fiction, English
 =655  \7$aScience fiction$0https://id.kb.se/term/saogf/Science%20fiction$2saogf
-=700  1\$aAldiss, Brian W.,$d1925-2017$4edt$0https://libris.kb.se/sq47b23b4m1qhtb#it
+=700  1\$aAldiss, Brian W.,$d1925-2017$4edt$4edc$0https://libris.kb.se/sq47b23b4m1qhtb#it$1http://viaf.org/viaf/2465493
 
 =LDR  02714cam a2200541 c 4500
 =001  999219328124702201
@@ -11090,7 +11146,7 @@
 =655  \7$aromaner$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s518
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$asvart humor$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s270
-=700  1\$aKeynäs, Ville,$ekääntäjä.$0(FI-ASTERI-N)000108428
+=700  1\$aKeynäs, Ville,$ekääntäjä.$0(FI-ASTERI-N)000108428$4trl
 =710  2\$aLoki-kirjat (yhtiö),$ekustantaja.$0(FI-ASTERI-N)000216267
 
 =LDR  00905nam a2200241 i 4500
@@ -11357,9 +11413,9 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aAntolín Rato, Mariano$d1943-$4trl
+=700  1\$aAntolín Rato, Mariano$d1943-$4trl$1http://viaf.org/viaf/7406407
 =700  1\$aBallard, J. G.$d1930-2009$4aui$1http://viaf.org/viaf/9842556
-=700  1\$aLarkin, David
+=700  1\$aLarkin, David$4edt$1http://viaf.org/viaf/277669549
 
 =LDR  00901nam a2200253   4500
 =001  bimo0001814178
@@ -11491,7 +11547,7 @@
 =650  \7$asuomenkielinen kirjallisuus$2yso/fin$0http://www.yso.fi/onto/yso/p16810
 =655  \7$akaunokirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
-=700  1\$aNousiainen, Jussi$c(kääntäjä)$0(FI-ASTERI-N)000111824
+=700  1\$aNousiainen, Jussi$c(kääntäjä)$0(FI-ASTERI-N)000111824$4trl
 =830  \0$aTop books.
 
 =LDR  00582cam a22001695a 4500
@@ -11545,7 +11601,7 @@
 =655  \7$apsykologiska romaner$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s604
 =655  \7$ascience fiction-litteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s418
 =655  \7$atieteiskirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s418
-=700  1\$aKeynäs, Ville,$0(FI-ASTERI-N)000108428
+=700  1\$aKeynäs, Ville,$0(FI-ASTERI-N)000108428$4trl
 =710  2\$aLoki-kirjat (yhtiö),$ekustantaja.$0(FI-ASTERI-N)000216267
 =740  0\$aKolari.
 
@@ -11714,7 +11770,7 @@
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$athrillers (litteratur)$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s382
 =655  \7$atieteiskirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s418
-=700  1\$aTervaharju, Hannu,$ekääntäjä.$0(FI-ASTERI-N)000112855
+=700  1\$aTervaharju, Hannu,$ekääntäjä.$0(FI-ASTERI-N)000112855$4trl
 =830  \0$aLike-scifi.
 
 =LDR  02546pam a2200397 c 4500
@@ -11837,10 +11893,10 @@
 =650  \7$aLiterary studies: fiction, novelists & prose writers.$2bicssc
 =650  \7$aLiterary studies: from c 1900 -.$2bicssc
 =650  \7$aLiterature.$2eflch
-=700  1\$aBrown, B.J.
-=700  1\$aCarter, Ronald,$d1947-$0https://libris.kb.se/75kmmf3r52p9gxs#it
-=700  1\$aCrawford, Paul.
-=700  1\$aLipsedge, Maurice.
+=700  1\$aBrown, B.J.$4aut
+=700  1\$aCarter, Ronald,$d1947-$0https://libris.kb.se/75kmmf3r52p9gxs#it$4aut
+=700  1\$aCrawford, Paul.$4aut
+=700  1\$aLipsedge, Maurice.$4aut
 =856  40$5Hdig$uhttp://link.sub.su.se/sfxsub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=2670000000070161&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&$zTillgänglig för användare inom Stockholms universitet$zSpringerLink Books - AutoHoldings:Full Text
 =856  42$uhttp://dx.doi.org/10.1057/9780230290440$x856other$zTable of Contents / Abstracts
 
@@ -11945,7 +12001,6 @@
 =500  \\$awith an introduction by Martin Amis
 =505  8\$a"The Drowned World imagines a terrifying world in which global warming has melted the ice caps and primordial jungles have overrun a tropical London. Set during the year 2145, this novel follows biologist Dr. Robert Kearns and his team of scientists as they confront a cityscape in which nature is on the rampage and giant lizards, dragonflies, and insects fiercely compete for domination." -- Provided by publisher.
 =520  \\$a"The Drowned World imagines a terrifying world in which global warming has melted the ice caps and primordial jungles have overrun a tropical London. Set during the year 2145, this novel follows biologist Dr. Robert Kearns and his team of scientists as they confront a cityscape in which nature is on the rampage and giant lizards, dragonflies, and insects fiercely compete for domination."--Provided by publisher.
-=600  17$aEnglisch, ...$2gnd
 =650  \0$aGlobal warming$vFiction.
 =650  \7$aEnvironmental degradation$2lcsh
 =650  \7$aFloods$2lcsh
@@ -12113,7 +12168,7 @@
 =655  \7$ascience fiction-litteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s418
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$atieteiskirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s418
-=700  1\$aRosvall, Matti,$ekääntäjä,$esuom.$0(FI-ASTERI-N)000076610
+=700  1\$aRosvall, Matti,$ekääntäjä,$esuom.$0(FI-ASTERI-N)000076610$4trl
 =830  \0$aSaturnus SciFi.
 
 =LDR  01434nam a2200349 c 4500
@@ -12463,7 +12518,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =655  \7$ascience fiction$2noubonm
-=700  1\$aAldiss, Brian W.$d1925-$4ctb$0(NO-TrBIB)90056060
+=700  1\$aAldiss, Brian W.$d1925-$4ctb$0(NO-TrBIB)90056060$1http://viaf.org/viaf/2465493
 =700  1\$aBallard, J.G.$d1930-2009$4ctb$0(NO-TrBIB)90199005$4ctb$1http://viaf.org/viaf/9842556
 =700  1\$aButterworth, Michael.$4ctb$0(NO-TrBIB)13013759
 =700  1\$aDisch, Thomas M..$4ctb$0(NO-TrBIB)90705277$1http://viaf.org/viaf/51688624
@@ -12865,22 +12920,22 @@
 =650  \7$anaturskydd$2yso/swe$0http://www.yso.fi/onto/yso/p11
 =650  \7$askönlitteratur$2yso/swe$0http://www.yso.fi/onto/yso/p4
 =653  \\$aekokritiikki
-=700  1\$aDavies, Paul.
-=700  1\$aGarforth, Lisa.
-=700  1\$aGifford, Terry.
-=700  1\$aGuttman, Naomi.
-=700  1\$aHead, Dominic.
-=700  1\$aHuffman, Bennett.
-=700  1\$aJurgis, Andy.
-=700  1\$aKerridge, Richard.
-=700  1\$aMcColley, Diane.
-=700  1\$aMurray, Gavin.
+=700  1\$aDavies, Paul.$4ctb
+=700  1\$aGarforth, Lisa.$4ctb
+=700  1\$aGifford, Terry.$4ctb
+=700  1\$aGuttman, Naomi.$4ctb
+=700  1\$aHead, Dominic.$4ctb
+=700  1\$aHuffman, Bennett.$4ctb
+=700  1\$aJurgis, Andy.$4ctb
+=700  1\$aKerridge, Richard.$4ctb
+=700  1\$aMcColley, Diane.$4ctb
+=700  1\$aMurray, Gavin.$4ctb
 =700  1\$aParham, John.$4edc$4edt
-=700  1\$aPite, Ralph.
-=700  1\$aRawlinson, Jo.
-=700  1\$aRudd, Gillian.
-=700  1\$aRyle, Martin.
-=700  1\$aWalker, Charlotte Zoë.
+=700  1\$aPite, Ralph.$4ctb
+=700  1\$aRawlinson, Jo.$4ctb
+=700  1\$aRudd, Gillian.$4ctb
+=700  1\$aRyle, Martin.$4ctb
+=700  1\$aWalker, Charlotte Zoë.$4ctb
 =740  0\$aAfter 'Organic Community' : ecocriticism, nature, and human nature.
 =740  0\$aBeyond 2000 : Raymond Williams and the ecocritic's talk.
 =740  0\$aCosmos as metaphor : eco-spiritual poetics.
@@ -13028,15 +13083,14 @@
 =653  \\$afantasy$ascience$afiction
 =655  \7$aScience fiction$2noubomn$0(NO-TrBIB)REAL030105
 =655  \7$aScience fiction$2noubomn$0(NO-TrBIB)REAL030105
-=700  1\$aAsimov, Isaac$d1920-1992$4ctb$0(NO-TrBIB)90104376
+=700  1\$aAsimov, Isaac$d1920-1992$4ctb$0(NO-TrBIB)90104376$1http://viaf.org/viaf/24597135
 =700  1\$aBallard, J.G.$d1930-2009$0(NO-TrBIB)90199005$4ctb$1http://viaf.org/viaf/9842556
 =700  1\$aBear, Greg$d1951-$4ctb$0(NO-TrBIB)99017997
 =700  1\$aBenford, Gregory$d1941-$4ctb$0(NO-TrBIB)90771280
-=700  1\$aBlish, James$d1921-1975$4ctb$0(NO-TrBIB)99056514
+=700  1\$aBlish, James$d1921-1975$4ctb$0(NO-TrBIB)99056514$1http://viaf.org/viaf/111470216
 =700  1\$aBreuer, Miles J..$4ctb$0(NO-TrBIB)13011945
 =700  1\$aCampbell, John W..$4ctb$0(NO-TrBIB)90210657
-=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$4ctb$0(NO-TrBIB)90725602
-=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$4ctb$0(NO-TrBIB)90725602
+=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$4ctb$0(NO-TrBIB)90725602$1http://viaf.org/viaf/27062571
 =700  1\$aCramer, Kathryn.$4edt$0(NO-TrBIB)10010740
 =700  1\$aForeward, Robert L.$4ctb$0(NO-TrBIB)14027116
 =700  1\$aGibson, William,$d1948-$4ctb$0(NO-TrBIB)14068323
@@ -13061,7 +13115,6 @@
 =700  1\$aThomas, Theodore L..$4ctb$0(NO-TrBIB)90073818
 =700  1\$aVinge, Verner$4ctb$0(NO-TrBIB)14027117
 =700  1\$aWatson, Iain.$4ctb$0(NO-TrBIB)3028252
-=700  1\$aWells, H.G.$d1866-1946$q(Herbert George)$4ctb$0(NO-TrBIB)90059385
 =700  1\$aWells, H.G.$d1866-1946$q(Herbert George)$4ctb$0(NO-TrBIB)90059385
 =700  1\$aWilhelm, Kate.$4ctb$0(NO-TrBIB)90073819
 =700  1\$aWolfe, Gene.$4ctb$0(NO-TrBIB)97049116
@@ -13127,16 +13180,16 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  1\$aSpectrum$v3
 =655  \7$ascience fiction$2noubonm
-=700  1\$aAmis, Kingsley$d1922-1995$4edt$0(NO-TrBIB)90096252
-=700  1\$aAnderson, Poul$d1926-2001$4ctb$0(NO-TrBIB)90135259
+=700  1\$aAmis, Kingsley$d1922-1995$4edt$4edc$0(NO-TrBIB)90096252$1http://viaf.org/viaf/311112707
+=700  1\$aAnderson, Poul$d1926-2001$4ctb$0(NO-TrBIB)90135259$1http://viaf.org/viaf/12304119
 =700  1\$aBallard, J.G.$d1930-2009$4ctb$0(NO-TrBIB)90199005$1http://viaf.org/viaf/9842556
 =700  1\$aBester, Alfred$d1913-1987$4ctb$0(NO-TrBIB)90083185
-=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$4ctb$0(NO-TrBIB)90725602
+=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$4ctb$0(NO-TrBIB)90725602$1http://viaf.org/viaf/27062571
 =700  1\$aConquest, Robert$d1917-2015$4edt$0(NO-TrBIB)90092680
 =700  1\$aLeinster, Murray.$4ctb$0(NO-TrBIB)12071884
 =700  1\$aPhillips, Peter.$4ctb$0(NO-TrBIB)97054954
 =700  1\$aRose, Poul.$4ctb$0(NO-TrBIB)13011960
-=700  1\$aSturgeon, Theodore$d1918-1985$4ctb$0(NO-TrBIB)90967876
+=700  1\$aSturgeon, Theodore$d1918-1985$4ctb$0(NO-TrBIB)90967876$1http://viaf.org/viaf/100257330
 =830  \0$aSpectrum$v3
 
 =LDR  00831nam a2200229 i 4500
@@ -13223,9 +13276,9 @@
 =650  \7$aEngelsk litteratur$0https://id.kb.se/term/sao/Engelsk%20litteratur$2sao
 =650  \7$aEnglish fiction.$2fast
 =655  \7$aCriticism, interpretation, etc.$2fast
-=700  1\$aRiley, James,$d1981-$4edt$4aut
-=700  1\$aSeddon, Melanie$4edt$4aut
-=700  1\$aTew, Philip$4edt$4aut
+=700  1\$aRiley, James,$d1981-$4edt$4aui$4edc
+=700  1\$aSeddon, Melanie$4edt$4aui$4edc
+=700  1\$aTew, Philip$4edt$4edt$4aui$4edc
 =830  \0$aDecades series (Bloomsbury (Firm))
 
 =LDR  00670cam a22001937a 4500
@@ -13294,8 +13347,8 @@
 =655  \7$aEssäer$0https://id.kb.se/term/saogf/Ess%C3%A4er$2saogf
 =655  \7$aNoveller$0https://id.kb.se/term/saogf/Noveller$2saogf
 =700  1\$aOlsson, Jesper$4aui
-=700  12$aBallard, J. G.,$d1930-2009$tPrima Belladonna$lSvenska$4aut$1http://viaf.org/viaf/311471585
-=700  12$aBennett, Jane$tSystems and things$lSvenska$4aut
+=700  12$aBallard, J. G.,$d1930-2009$tPrima Belladonna$lSvenska$1http://viaf.org/viaf/311471585
+=700  12$aBennett, Jane$tSystems and things$lSvenska
 =740  0\$aPrima Belladonna
 =830  \0$aKartotek ;$v4A-B
 
@@ -13398,8 +13451,8 @@
 =500  \\$aOriginally published: 2012.
 =600  10$aBallard, J. G.,$d1930-2009$vInterviews.$1http://viaf.org/viaf/9842556
 =650  \0$aAuthors, English$y20th century$vInterviews.
-=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt
-=700  1\$aSellars, Simon,$eeditor.$4edt
+=700  1\$aO'Hara, Daniel Finbarr John,$d1972-$eeditor.$4edt$4edc$1http://viaf.org/viaf/66433403
+=700  1\$aSellars, Simon,$eeditor.$4edt$4edc$1http://viaf.org/viaf/58855728
 
 =LDR  00882nam a22002415  4500
 =001  bimo0000456402
@@ -13756,7 +13809,7 @@
 =650  \7$avankileirit$2yso/fin$0http://www.yso.fi/onto/yso/p145
 =655  \7$akaunokirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
-=700  1\$aLindholm, Juhani.$0(FI-ASTERI-N)000111549
+=700  1\$aLindholm, Juhani.$0(FI-ASTERI-N)000111549$4trl
 =830  \0$aOtavan kirjasto.
 
 =LDR  01359cam a22003257i 4500
@@ -13935,7 +13988,6 @@
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tThe unlimited dream company$gdt.$1http://viaf.org/viaf/307972381
 =700  12$aWalter, Michael$4trl$1https://isni.org/isni/0000000110758382
 
-
 =LDR  01736cam a22003614i 4500
 =001  006083637
 =003  FI-MELINDA
@@ -14054,6 +14106,28 @@
 =655  \7$aUtopian fiction.$2gsafd
 =655  \7$aUtopian fiction.$2lcgft
 =700  1\$aSaladin, Matthieu,$d1978-$eeditor.$4edt
+=700  \2$atListening to utopia is straining toward an impossible ear / Matthieu Saladin
+=700  02$tThe story of Agatha / Cornelius Cardew
+=700  02$tThe sound-sweep / J.G. Ballard
+=700  02$tThe acousmatic non-place / François J. Bonnet
+=700  02$tField recordings and shared places / pali meursault
+=700  02$tWhere water is boss sound must obey / Em'kal Eyongakpa & Amal Alhaag
+=700  02$tMusical utopianism in the Princeton School, pre- and post-turn / Scott Gleason
+=700  02$tUtopian atmospheres: an ethnographic account of music in the Richmond City Jail / Andy McGraw
+=700  02$tThe meaning of my avant-garde hillbilly and blues music / Henry A. Flynt, Jr.
+=700  02$tHenry Flynt and the reinvention of cultural roots / Christophe Levaux
+=700  02$tSound plasma: Horatio Radulescu's Oto-utopia / Francis Heery
+=700  02$tFrom the voices of the dead to algorithmic golems: utopias and distopias in sound technology / Jonathan Sterne
+=700  02$tSonic utopias in the realm of science fiction: the silence and music of gravity / Filipe  Barros Beltrão & Andrew Gray
+=700  02$tLexicon / Pascal Broccolichi
+=700  02$tThe mobilisation and cosmologisation of sound in Zbigniew Karkowski and Michael Gendreau / Thibault Walter
+=700  02$tMoments of (in)attention: on suspended temporality in the works of Max Neuhaus / Anne Zeitz
+=700  02$tWhite noise: the establishment of a musical object / Loïc Bertrand
+=700  02$tThe world's musics as languages: phases of cross-cultural analysis of mainstream music / Henry A. Flynt, Jr.
+=700  02$tCorrespondence with Pierre Schaeffer: 3 letters / Luc Ferrari
+=700  02$tCollection rip on/off / by Xavier Hug
+=700  02$tUltra-red, URXX nos. 1-9 / by G. Douglas Barrett.
+
 =830  \0$aTacet ;$vno. 4.
 
 =LDR  02744cam a22004097a 4500
@@ -14089,8 +14163,8 @@
 =650  \0$aShort stories, English.
 =655  \7$aNoveller$0https://id.kb.se/term/saogf/Noveller$2saogf
 =655  \7$aTecknade serier$0https://id.kb.se/term/saogf/Tecknade%20serier$2saogf
-=700  1\$aLovecraft, H. P.$q(Howard Phillips),$d1890-1937.
-=700  1\$aMitchell, D. M.
+=600  1\$aLovecraft, H. P.$q(Howard Phillips),$d1890-1937.$1Lovecraft, H. P.
+=700  1\$aMitchell, D. M.$4edt$4edc
 
 =LDR  01351nam a2200337 c 4500
 =001  840319940
@@ -14297,6 +14371,44 @@
 =655  \7$aScience fiction.$2gsafd
 =655  \7$aShort stories.$2gsafd
 =700  1\$aAdams, John Joseph,$d1976-$4edt
+=799  \2$aContents note continued: The minority report / Philip K. Dick
+=700  02$tJust do it / Heather Lindsley
+=700  02$tHarrison Bergeron / Kurt Vonnegut, Jr.
+=700  02$tCaught in the organ draft / Robert Silverberg
+=700  02$tGeriatric ward / Orson Scott Card
+=700  02$tArties aren't stupid / Jeremiah Tolbert
+=700  02$tJordan's waterhammer / Joe Mastroianni
+=700  02$tOf a sweet slow dance in the wake of temporary dogs / Adam-Troy Castro
+=700  02$tResistance / Tobias S. Buckell
+=700  02$tCivilization / Vylar Kaftan
+=700  02$tEditor's note on second edition material
+=700  02$tThe cull / Robert Reed
+=700  02$tPersonal Jesus / Jennifer Pelland
+=700  02$tThe perfect match / Ken Liu
+=700  02$tStudy Guide and filmography / Gary K. Wolfe.
+=505  \2$aThe lottery / Shirley Jackson
+=700  02$tRed card / S.L. Gilbow
+=700  02$tTen with a flag / Joseph Paul Haines
+=700  02$tThe ones who walk away from Omelas / Ursula K. Le Guin
+=700  02$tEvidence of love in a case of abandonment / M. Rickert
+=700  02$tThe funeral / Kate Wilhelm
+=700  02$tO happy day! / Geoff Ryman
+=700  02$tPervert / Charles Coleman Finlay
+=700  02$tFrom homogenous to honey / Bryan Talbot
+=700  02$tBillennium / J.G. Ballard
+=700  02$tAmaryllis / Carrie Vaughn
+=700  02$tPop squad / Paolo Bacigalupi
+=700  02$tAuspicious eggs / James Morrow
+=700  02$tPeter Skilling / Alex Irvine
+=700  02$tThe pedestrian / Ray Bradbury
+=700  02$tThe things that make me weak and strange get engineered away / Cory Doctorow
+=700  02$tThe pearl diver / Caitlin R. Kiernan
+=700  02$tDead space for the unexpected / Geoff Ryman
+=700  02$t"Repent, Harlequin!" said the Ticktockman / Harlan Ellison
+=700  02$tIs this your day to join the revolution? / Genevieve Valentine
+=700  02$tIndependence Day / Sarah Langan
+=700  02$tThe lunatics / Kim Stanley Robinson
+=700  02$tSacrament / Matt Williamson
 
 =LDR  01493nam a2200349 c 4500
 =001  870522035
@@ -14345,7 +14457,7 @@
 =337  \\$akäytettävissä ilman laitetta$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$anide$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDAContentType/1020
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=700  1\$aGloeckner, Phoebe.
+=700  1\$aGloeckner, Phoebe.$4ill$4bjd
 
 =LDR  01395cam a2200325   4500
 =001  a4545651
@@ -14375,7 +14487,6 @@
 =700  1\$aSouto, Marcial$d1965-$4trl$1https://isni.org/isni/0000000119351140
 =800  1\$aBallard, J. G.$d1930-2009$tBiblioteca J.G. Ballard (Debolsillo)$v758/4
 =830  \0$aBestseller (Barcelona)$v4
-
 
 =LDR  01309cam a22002894i 4500
 =001  005007455
@@ -14565,8 +14676,8 @@
 =655  \7$aromaanit$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s518
 =655  \7$aromaner$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s518
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
-=700  1\$aSill, Alastair,$elukija.
-=700  1\$aSmith, Zadie,$eesipuheen kirjoittaja.
+=700  1\$aSill, Alastair,$elukija.$4nrt
+=700  1\$aSmith, Zadie,$eesipuheen kirjoittaja.$4aui
 
 =LDR  01343cam a2200325   4500
 =001  a4342002
@@ -14656,16 +14767,16 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  1\$aPenguin science fiction
 =655  \7$ascience fiction$2noubonm
-=700  1\$aAbernathy, Robert.$4ctb$0(NO-TrBIB)13022307
-=700  1\$aAldiss, Brian W.$d1925-$4edt$4edc$0(NO-TrBIB)90056060
-=700  1\$aAsimov, Isaac$d1920-1992$4ctb$0(NO-TrBIB)90104376
+=700  1\$aAbernathy, Robert.$4ctb$0(NO-TrBIB)13022307$1http://viaf.org/viaf/85394371
+=700  1\$aAldiss, Brian W.$d1925-$4edt$4edc$0(NO-TrBIB)90056060$1http://viaf.org/viaf/2465493
+=700  1\$aAsimov, Isaac$d1920-1992$4ctb$0(NO-TrBIB)90104376$1http://viaf.org/viaf/24597135
 =700  1\$aBallard, J.G.$d1930-2009$4ctb$0(NO-TrBIB)90199005$4ctb$1http://viaf.org/viaf/9842556
-=700  1\$aBlish, James$d1921-1975$4ctb$0(NO-TrBIB)99056514
+=700  1\$aBlish, James$d1921-1975$4ctb$0(NO-TrBIB)99056514$1http://viaf.org/viaf/111470216
 =700  1\$aBrunner, John$d1934-1995$0(NO-TrBIB)90763497$4ctb$1http://viaf.org/viaf/103212466
-=700  1\$aBudrys, Algis$d1931-$4ctb$0(NO-TrBIB)12064560
-=700  1\$aChandler, Bertram$4ctb$0(NO-TrBIB)12068553
-=700  1\$aChandler, Bertram$4ctb$0(NO-TrBIB)12068553
-=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$4ctb$0(NO-TrBIB)90725602
+=700  1\$aBudrys, Algis$d1931-$4ctb$0(NO-TrBIB)12064560$1http://viaf.org/viaf/93054017
+=700  1\$aChandler, Bertram$4ctb$0(NO-TrBIB)12068553$1http://viaf.org/viaf/85444448
+=700  1\$aChandler, Bertram$4ctb$0(NO-TrBIB)12068553$1http://viaf.org/viaf/85444448
+=700  1\$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$4ctb$0(NO-TrBIB)90725602$1http://viaf.org/viaf/27062571
 =700  1\$aCogswell, Theodore.$4ctb$0(NO-TrBIB)13022306
 =700  1\$aDickson, Gordon.$4ctb$0(NO-TrBIB)3106869
 =700  1\$aFast, Howard.$4ctb$0(NO-TrBIB)90085247
@@ -14800,7 +14911,7 @@
 =600  17$0(DE-588)4390644-8$0https://d-nb.info/gnd/4390644-8$0(DE-101)945949308$aLodge, David$d1935-$tChanging places$9rswk-swf$2gnd$1http://viaf.org/viaf/190447471
 =600  17$0(DE-588)4575212-6$0https://d-nb.info/gnd/4575212-6$0(DE-101)958195757$aWaugh, Evelyn$d1903-1966$tThe loved one$9rswk-swf$2gnd$1http://viaf.org/viaf/181821021
 =600  17$0(DE-588)4678069-5$0https://d-nb.info/gnd/4678069-5$0(DE-101)964019140$aGreene, Graham$d1904-1991$tThe quiet American$9rswk-swf$2gnd$1http://viaf.org/viaf/313335324
-=600  17$0(DE-588)7546757-4$0https://d-nb.info/gnd/7546757-4$0(DE-101)981604684$aAmis, Kingsley$d1922-1995$tOne fat englishman$9rswk-swf$2gnd$1http://viaf.org/viaf/206874458
+=600  17$0(DE-588)7546757-4$0https://d-nb.info/gnd/7546757-4$0(DE-101)981604684$aAmis, Kingsley$d1922-1995$tOne fat englishman$9rswk-swf$2gnd$1http://viaf.org/viaf/311112707
 =600  17$0(DE-588)7546759-8$0https://d-nb.info/gnd/7546759-8$0(DE-101)98160482X$aBallard, J. G.$d1930-2009$tHello America$9rswk-swf$2gnd$1http://viaf.org/viaf/202977755
 =653  \\$a(VLB-FS)Amerikabild, britisches
 =653  \\$a(VLB-FS)Amis, Kingsley
@@ -14878,7 +14989,7 @@
 =337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=700  1\$aFrench, Dick.
+=700  1\$aFrench, Dick.$4ill
 
 =LDR  01245pam a2200361 a 4500
 =001  014100189
@@ -15030,7 +15141,7 @@
 =347  \\$aaudio file$bCD audio$2rda
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =511  0\$aRead by David Rintoul.
-=700  1\$aRintoul, David,$eesittäjä.
+=700  1\$aRintoul, David,$eesittäjä.$4nrt
 
 =LDR  00862nam a22002415  4500
 =001  bimo0000293339
@@ -15447,7 +15558,6 @@
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tCrash$gdt.$1http://viaf.org/viaf/305922109
 =700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
 
-
 =LDR  01137cam a2200289   4500
 =001  a4724726
 =003  SpMaBN
@@ -15476,7 +15586,6 @@
 =600  17$aBallard, J. G.$d1930-2009$xBiografías$2embne$1http://viaf.org/viaf/9842556
 =700  1\$aCalv, Ignacio Gómez$trl
 =830  \0$aBiografía (Nuevas Ediciones de Bolsillo)$v237
-
 
 =LDR  01063cam a2200277   4500
 =001  a4341876
@@ -15815,6 +15924,28 @@
 =655  \7$aFiction.$2fast
 =700  1\$aDalrymple, Theodore$4edt
 =830  \0$aEveryman's pocket classics
+=700  \2$tA doctor's visit / Anton Chekhov
+=700  02$tThe forger / Samuel Warren
+=700  02$tThe hard and the human / Elizabeth Berridge
+=700  02$tSweethearts / Arthur Conan Doyle
+=700  02$tThe embroidered towel / Mikhail Bulgakov
+=700  02$tThe body-snatcher / Robert Louis Stevenson
+=700  02$tMinus one / J.G. Ballard
+=700  02$tInterpreter of maladies / Jhumpa Lahiri
+=700  02$tBack to back / W.W. Jacobs
+=700  02$tA coup d'état / Guy de Maupassant
+=700  02$tDoctor Crombie / Graham Greene
+=700  02$tAiring a grievance / Anna Kavan
+=700  02$tLord Mountdrago / W. Somerset Maugham
+=700  02$tI had to go sick / Julian Maclaren-Ross
+=700  02$t'Swept and garnished' / Rudyard Kipling
+=700  02$tLet me feel your pulse / O. Henry
+=700  02$tThe paid nurse / William Carlos Williams
+=700  02$tAmy Foster / Joseph Conrad
+=700  02$tLady with a lamp / Dorothy Parker
+=700  02$tLife-line / Robert A. Heinlein
+=700  02$tI will keep her company / Rhys Davies
+=700  02$tThe moons of Jupiter / Alice Munro.
 
 =LDR  01948cam a2200409 i 4500
 =001  016659370
@@ -15933,7 +16064,8 @@
 =650  \0$aScience in literature.
 =650  \0$aScientific literature$xHistory and criticism.
 =655  \4$aElectronic books.
-=700  1\$aHerbrechter, Stefan,$eeditor.
+=700  1\$aHerbrechter, Stefan,$eeditor.$4edt$4edc
+=700  1\$aFriis, Elisabeth$eeditor.$4edt$4edc
 =776  \\$z90-04-30259-X
 =830  \0$aExperimental Practices$v1.
 
@@ -16024,7 +16156,7 @@
 =650  \7$aTrädgårdar$0https://id.kb.se/term/sao/Tr%C3%A4dg%C3%A5rdar$2sao
 =653  \\$5La$aSkönlitteratur
 =655  \7$aShort stories.$2gsafd.
-=700  1\$aSlung, Michele B.,$d1947-
+=700  1\$aSlung, Michele B.,$d1947-$4edt$4edc
 
 =LDR  01315cam a2200289 c 4500
 =001  990000068664702201
@@ -16113,38 +16245,10 @@
 =650  \0$aHuman-animal relationships.
 =650  \0$aNature (Aesthetics)
 =655  \7$aEssays.$2lcgft
-=655  \7$aLiterary criticism.$2lcgft$4edt
-=700  1\$aDiMarco, Danette,$eeditor.$4edt
-=700  1\$aRuppert, Timothy,$d1969-$eeditor.
+=655  \7$aLiterary criticism.$2lcgft
+=700  1\$aDiMarco, Danette,$eeditor.$4edt$4edc
+=700  1\$aRuppert, Timothy,$d1969-$eeditor.$4edt$4edc
 =776  08$iOnline version:$tAvian aesthetics in literature and culture$dLanham : Lexington Books, [2022]$z9781666901825$w(DLC) 2022001942
-
-=LDR  01845cam a2200289 a 4500
-=001  12220763
-=003  LC
-=005  20170213175408.0
-=008  001102s1999\\\\nyu\\\\\\bd\\\001\0deng\\
-=010  \\$a   00710620 
-=020  \\$a0684806150 (Suppl. 5 : alk. paper)
-=035  \\$a(OCoLC)ocm42677458
-=040  \\$aDLC$cDZM$dHIR$dDLC
-=042  \\$alccopycat
-=043  \\$ae-uk---
-=050  00$aPR85$b.B688 Suppl. 5
-=082  00$a820.9$aB$221
-=245  00$aBritish writers.$nSupplement V,$pAyckbourn to G. Swift /$cGeorge Stade, Sarah Hannah Goldstein, editors.
-=260  \\$aNew York :$bCharles Scribner's Sons,$cc1999.
-=300  \\$axxxiii, 571 pages ;$c29 cm.
-=336  \\$atext$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
-=337  \\$aunmediated$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
-=338  \\$avolume$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=504  \\$aIncludes bibliographical references and cumulative index.
-=505  0\$aAllan Ayckbourn / Kenneth Krauss -- J.G. Ballard / Brian Stableford -- Eavan Boland / Karen Odden -- Anita Desai / A. Michael Matin -- Roddy Doyle / David Hawkes -- Penelope Fitzgerald / Karen Karbiener -- Brian Friel / Joseph Devlin -- Wilson Harris / Vera Kutzinski -- Tony Harrison / Robert Squillace -- Patricia Highsmith / Blythe Frank -- Geoffrey Hill / Tyrus Miller -- Elizabeth Jennings / Angelyn Hays -- Ruth Prawer Jhabvala / Radhika Jones -- James Kelman / Angus Cochran -- Thomas Kinsella / Susana Powell -- Medbh McGuckian / Clair Wills -- A.A. Milne / Lisa Makman -- Richard Murphy / Benjamin La Farge -- Edna O'Brien / Laura Engels -- Ben Okri / Gabriel Brownstein -- Joe Orton / Martin Puchner -- Caryl Phillips / Louise Yelin -- Will Self / Maura Spiegel -- Alan Sillitoe / John Tucker -- Graham Swift / Gita May.
-=650  \0$aAuthors, English$y20th century$vBiography$vDictionaries.
-=650  \0$aEnglish literature$y20th century$vBio-bibliography$vDictionaries.
-=650  \0$aEnglish literature$y20th century$vDictionaries.
-=700  1\$aGoldstein, Sarah Hannah.
-=700  1\$aStade, George.
 
 =LDR  02429cam a2200265 i 4500
 =001  20497066
@@ -16193,7 +16297,7 @@
 =505  0\$aIntroduction : Approaching science fiction -- pt. I. Surveying the field.  Hard reading : the hard reading : the challenges of science fiction / Tom Shippey -- The origins of science fiction / George Slusser -- Science fiction/criticism / Istvan Csicsery-Ronay, Jr. -- Science-fiction magazines : the crucibles of change / MIke Ashley -- pt. II. Topics and debates.  Utopia / Phillip E. Wegner -- Science, fiction and religion / Stephen R.L. Clark -- "Monsters of the imagination" : Gothic,science, fiction / Fred Botting -- Science fiction and ecology / Brian Stableford -- Feminist fabulation / Marleen S. Barr -- Time and identity in feminist science fiction / Jenny Wolmark -- Science fiction and the Cold War / M. Keith Booker -- pt. III. Genres and movements.  Hard science fiction / Gary Westfahl -- The new wave / Rob Latham -- Cyberpunk / Mark Bould -- Science fiction and postmodernism / Veronica Hollinger -- The renewal of "hard" science fiction / Donald M. Hassler -- pt. IV. Science fiction film.  American science fiction film : an overview / Vivian Sobchack -- Figurations of the cyborg in contemporary science fiction novels and fiction / Christine Cornea -- British television science fiction / Peter Wright -- pt. V. The international scene.  Canadian science fiction / Douglas Barbour -- Japanese and Asian science fiction / Takayuki Tatsumi -- Australian science fiction / Van Ikin and Sean McMullen --
 =505  0\$apt. VI. Key writers.  The grandeur of H.G. Wells / Robert Crossley -- Isaac Asimov / John Clute -- John Wyndham : the facts of life sextet / David Ketterer -- Philip Dick / Christopher Palmer -- Samuel Delaney : a biographical and critical overview / Carl Freedman -- Ursula K. Le Guin /  Warren G. Rochelle -- Gwyneth Jones anxietiesanxities of science fiction / Andy Sawyer -- Arthur C. Clarke / Edward James -- Greg Egan / Russell Blackford -- pt. VII. Readings.  Mary Shelley : Frankenstein : or, the modern Prometheus / Susan E. Lederer and Richard M. Ratzan -- Charlotte Perkins Gilman : Herland / Jill Rudd -- Aldous Huxley : Brave new world / David Seed -- Ray Bradbury : Fahrenheit 451 / Brian Baker -- Joanna Russ : The female man / Jeanne Cortiel -- J.G. Ballard : Crash / Roger Luckhurst -- Margaret Atwood : The handmaid's tale / Faye Hammill -- William Gibson : Neuromancer / Andrew M. Butler -- Kim Stanley Robinson : Mars trilogy / Carol Franko -- Iain M. Banks : Excession / Farah Mendlesohn.
 =650  \0$aScience fiction$xHistory and criticism.
-=700  1\$aSeed, David.
+=700  1\$aSeed, David.$4edc$e4dt
 =856  41$3Table of contents$uhttp://www.loc.gov/catdir/toc/ecip053/2004025185.html
 
 =LDR  01093cam a2200229 a 4500
@@ -16217,7 +16321,19 @@
 =505  0\$aLight of other days / Bob Shaw -- A pail of air / Fritz Leiber -- Beyond lies the wub / Philip K. Dick -- Let's go to Golgotha / Garry Kilworth -- Of mist, and grass, and sand / Vonda N. McIntyre -- Harrison Bergeron / Kurt Vonnegut, Jr. -- Rescue operation / Harry Harrison -- It's a good life / Jerome Bixby -- Mister da V / Kit Reed -- Billennium / J.G. Ballard -- The store of the worlds / Robert Sheckley -- The wind from the sun / Arthur C. Clarke.
 =650  \0$aScience fiction, American.
 =650  \0$aScience fiction, English.
-=700  1\$aEdwards, Malcolm,$d1949-
+=700  1\$aEdwards, Malcolm,$d1949-$4edt$edc
+=700  02$tLight of other days / Bob Shaw
+=700  02$tA pail of air / Fritz Leiber
+=700  02$tBeyond lies the wub / Philip K. Dick
+=700  02$tLet's go to Golgotha / Garry Kilworth
+=700  02$tOf mist, and grass, and sand / Vonda N. McIntyre
+=700  02$tHarrison Bergeron / Kurt Vonnegut, Jr.
+=700  02$tRescue operation / Harry Harrison
+=700  02$tIt's a good life / Jerome Bixby
+=700  02$tMister da V / Kit Reed
+=700  02$tBillennium / J.G. Ballard
+=700  02$tThe store of the worlds / Robert Sheckley
+=700  02$tThe wind from the sun / Arthur C. Clarke.
 
 =LDR  03026cam a2200421 a 4500
 =001  16895088
@@ -16253,9 +16369,9 @@
 =650  \0$aCrime in literature.
 =650  \0$aEnglish fiction$y20th century$xHistory and criticism.
 =650  \0$aEnglish fiction$y21st century$xHistory and criticism.
-=700  1\$aMcNulty, Eugene.
-=700  1\$aNicol, Bran,$d1969-
-=700  1\$aPulham, Patricia,$d1959-
+=700  1\$aMcNulty, Eugene.$4edt$edc
+=700  1\$aNicol, Bran,$d1969-$4edt$edc
+=700  1\$aPulham, Patricia,$d1959-$4edt$edc
 =830  \0$aContinuum literary studies.
 
 =LDR  02520cam a22003855i 4500
@@ -16325,8 +16441,8 @@
 =650  \7$aScience fiction.$2fast$0(OCoLC)fst01108566
 =650  \7$aSocial movements in literature.$2fast$0(OCoLC)fst01122677
 =655  \7$aCriticism, interpretation, etc.$2fast$0(OCoLC)fst01411635
-=700  1\$aMcIntyre, Iain,$d1970-$eeditor.
-=700  1\$aNette, Andrew,$eeditor.
+=700  1\$aMcIntyre, Iain,$d1970-$eeditor.$4edt$4edc
+=700  1\$aNette, Andrew,$eeditor.$4edt$4edc
 =776  08$iebook version :$z9781629639024
 
 =LDR  01426cam a22002533a 4500
@@ -16351,8 +16467,30 @@
 =505  0\$aThe Isolinguals / L. Sprague de Camp -- The Faithful / L. del Ray -- Black destroyer / A.E. van Vogt -- Life-line / R.A. Heinlein -- Ether breather / T. Sturgeon -- Proof / H. Clement -- Loophole / A.C. Clarke -- Tomorrow's children / P. Anderson -- That only a mother / J. Merril -- Scanners live in vain / C. Smith -- Time trap / C.L. Harness -- Defense mechanism / K. MacLean -- Angel's egg / E. Panhorn -- Come on, wagon! / Z. Henderson -- Walk to the world / A. Budrys -- Beyond lies the wub / P.K. Dick -- My boy friend's name is Jello / A. Davidson -- T / B.W. Aldiss -- Prima Belladonna / J.G. Ballard -- April in Paris / U.K. Le Guin.
 =650  \0$aScience fiction.
 =655  \7$aScience fiction.$2gsafd
-=700  1\$aKnight, Damon,$d1922-2002.
+=700  1\$aKnight, Damon,$d1922-2002.$4edt$edc
+=700  1\$aGreenberg, Martin H.$4edt$edc
+=700  1\$aOlander, Joseph D.$4edt$edc
 =710  2\$aCopyright Paperback Collection (Library of Congress)$5DLC
+=700  02$tThe Isolinguals / L. Sprague de Camp
+=700  02$tThe Faithful / L. del Ray
+=700  02$tBlack destroyer / A.E. van Vogt
+=700  02$tLife-line / R.A. Heinlein
+=700  02$tEther breather / T. Sturgeon
+=700  02$tProof / H. Clement
+=700  02$tLoophole / A.C. Clarke
+=700  02$tTomorrow's children / P. Anderson
+=700  02$tThat only a mother / J. Merril
+=700  02$tScanners live in vain / C. Smith
+=700  02$tTime trap / C.L. Harness
+=700  02$tDefense mechanism / K. MacLean
+=700  02$tAngel's egg / E. Panhorn
+=700  02$tCome on, wagon! / Z. Henderson
+=700  02$tWalk to the world / A. Budrys
+=700  02$tBeyond lies the wub / P.K. Dick
+=700  02$tMy boy friend's name is Jello / A. Davidson
+=700  02$tT / B.W. Aldiss
+=700  02$tPrima Belladonna / J.G. Ballard
+=700  02$tApril in Paris / U.K. Le Guin.
 
 =LDR  01947cam a22003138i 4500
 =001  22338654
@@ -16379,7 +16517,33 @@
 =520  \\$a"An anthology of classic short fiction about or set in gardens"--$cProvided by publisher.
 =650  \0$aGardens$vFiction.
 =655  \7$aShort stories.$2lcgft
-=700  1\$aTesdell, Diana Secker,$eeditor.
+=700  1\$aTesdell, Diana Secker,$eeditor.$4edt$4edc
+=700  02$tThe garden I have in mind / Jamaica Kincaid
+=700  02$tFrom Elizabeth and her German garden / Elizabeth Von Arnim
+=700  02$tFlavours of exile / Doris Lessing
+=700  02$tFrom Walden / Henry David Thoreau
+=700  02$tUp the garden path / L.P. Hartley
+=700  02$tThe French scarecrow / William Maxwell
+=700  02$tBygone spring / Colette
+=700  02$tKen Gardens / Virginia Woolf
+=700  02$tThe garden-party / Katherine Mansfield
+=700  02$tThe shadow in the rose garden / D.H. Lawrence
+=700  02$tFrom My Antonia / Willa Cather
+=700  02$tBlue poppies / Jane Gardam
+=700  02$tFrom The secret garden / Frances Hodgson Burnett
+=700  02$tThe monkey garden / Sandra Cisneros
+=700  02$tFrom Rebecca / Daphne Du Maurier
+=700  02$tThe lippia lawn /  Jean Stafford
+=700  02$tA night in the garden / Meir Shalev
+=700  02$tThe occasional garden / Saki
+=700  02$tA garden plot / W.W. Jacobs
+=700  02$tRoses, ruses and romance / O. Henry
+=700  02$tThe serial gardener
+=700  02$tGreen thoughts / John Collier
+=700  02$tRappucini's daughter / Nathaniel Hawthorne
+=700  02$tThe enchanted garden / Italo Calvino
+=700  02$tThe garden of time / J.G. Ballard
+=700  02$tPlanting / Matsuda Aoko
 
 =LDR  01407cam a2200241 a 4500
 =001  16373192
@@ -16403,7 +16567,25 @@
 =505  0\$aThe machine stops / E. M. Forster -- The Veldt / Ray Bradbury -- The star / Arthur C. Clarke -- The voices of time / J. G. Ballard -- The ship who sang / Anne McCaffrey -- Harrison Bergeron / Kurt Vonnegut -- The streets of Ashkelon / Harry Harrison -- The days of perky Pat / Philip K. Dick -- Vaster than empires and more slow / Ursula K. Le Guin -- As simple as that / Zenna Henderson -- The bicentennial man / Isaac Asimov -- Houston, Houston, do you read? / James Tiptree Jr. -- Ender's game / Orson Scott Card -- Bloodchild / Octavia Butler -- Promises to keep / Jack McDevitt -- Face value / Karen Joy Fowler -- Even the queen / Connie Willis -- Mortimer Gray's history of death / Brian Stableford.
 =650  \0$aScience fiction, American.
 =650  \0$aScience fiction, English.
-=700  1\$aBorn, Daniel.
+=700  1\$aBorn, Daniel.$4edt$4edc
+=700  \2$tThe machine stops / E. M. Forster
+=700  02$tThe Veldt / Ray Bradbury
+=700  02$tThe star / Arthur C. Clarke
+=700  02$tThe voices of time / J. G. Ballard
+=700  02$tThe ship who sang / Anne McCaffrey
+=700  02$tHarrison Bergeron / Kurt Vonnegut
+=700  02$tThe streets of Ashkelon / Harry Harrison
+=700  02$tThe days of perky Pat / Philip K. Dick
+=700  02$tVaster than empires and more slow / Ursula K. Le Guin
+=700  02$tAs simple as that / Zenna Henderson
+=700  02$tThe bicentennial man / Isaac Asimov
+=700  02$tHouston, Houston, do you read? / James Tiptree Jr.
+=700  02$tEnder's game / Orson Scott Card
+=700  02$tBloodchild / Octavia Butler
+=700  02$tPromises to keep / Jack McDevitt
+=700  02$tFace value / Karen Joy Fowler
+=700  02$tEven the queen / Connie Willis
+=700  02$tMortimer Gray's history of death / Brian Stableford
 
 =LDR  03485cam a2200373 i 4500
 =001  20496427
@@ -16433,9 +16615,9 @@
 =610  20$aJoy Division (Musical group)
 =650  \0$aPost-punk music$zEngland$xHistory and criticism.
 =650  \0$aRock music$zEngland$y1971-1980$xHistory and criticism.
-=700  1\$aDevereux, Eoin,$eeditor.
-=700  1\$aDillane, Aileen,$eeditor.
-=700  1\$aPower, Martin J.,$eeditor.
+=700  1\$aDevereux, Eoin,$eeditor.$4edt$4edc
+=700  1\$aDillane, Aileen,$eeditor.$4edt$4edc
+=700  1\$aPower, Martin J.,$eeditor.$4edt$4edc
 =776  08$iOnline version:$tHeart and soul$dLondon ; New York : Rowman & Littlefield International, 2018$z9781786603364$w(DLC) 2018025393
 
 =LDR  04469cgm a22008777i 4500
@@ -16536,8 +16718,19 @@
 =505  0\$aMariana / Friez Leiber -- The day the icicle works closed / Frederick Pohl -- The fellow who married the Maxill girl / Ward Moore -- Mine own ways / Richard McKenna -- Make mine-- homogenized / Rich Raphael -- The lady who sailed The soul -- I remember Babylon / Arthur C. Clarke -- Chief / Henry Slesar -- Mind partner / Christopher Anvil -- The handler / Damon Knight -- The voices of time / J.G. Ballard.
 =650  \0$aScience fiction, American.
 =650  \0$aScience fiction, English.
-=700  1\$aAsimov, Isaac,$d1920-1992.
-=700  1\$aGreenberg, Martin Harry.
+=700  1\$aAsimov, Isaac,$d1920-1992.$4edc$4edt$1http://viaf.org/viaf/24597135
+=700  1\$aGreenberg, Martin Harry.$4edc$4edt
+=700  02$tMariana / Friez Leiber
+=700  \2$tThe day the icicle works closed / Frederick Pohl
+=700  \2$tThe fellow who married the Maxill girl / Ward Moore
+=700  \2$tMine own ways / Richard McKenna
+=700  \2$tMake mine-- homogenized / Rich Raphael
+=700  \2$tThe lady who sailed The soul
+=700  \2$tI remember Babylon / Arthur C. Clarke
+=700  \2$tChief / Henry Slesar
+=700  \2$tMind partner / Christopher Anvil
+=700  \2$tThe handler / Damon Knight
+=700  \2$tThe voices of time / J.G. Ballard.
 =740  0\$aGreat SF stories #22 (1959)
 =856  42$3Contributor biographical information$uhttp://www.loc.gov/catdir/enhancements/fy1405/92162118-b.html
 
@@ -16563,8 +16756,22 @@
 =500  \\$aSpine title: The great SF stories, 24.
 =505  0\$aThe insane ones / J.G. Ballard -- Christmas treason / James White -- Seven-day terror / R.A. Lafferty -- Kings who die / Poul Anderson -- The man who made friends with electricity / Fritz Leiber -- Hang head, vandal! / Mark Clifton -- The weather man / Theodore L. Thomas -- Earthlings go home! / Mack Reynolds -- The streets of ashkelon / Harry Harrison -- When you care, when you love / Theodore Sturgeon -- The ballad of lost c'mell / Cordwainer Smith -- Gadget vs. trend / Christopher Anvil -- Roofs of silver / Gordon R. Dickson.
 =650  \0$aScience fiction, American.
-=700  1\$aAsimov, Isaac,$d1920-1992.
-=700  1\$aGreenberg, Martin Harry.
+=700  1\$aAsimov, Isaac,$d1920-1992.$4edc$4edt$1http://viaf.org/viaf/24597135
+=700  1\$aGreenberg, Martin Harry.$4edc$4edt
+=700  0\$tThe insane ones / J.G. Ballard
+=700  \2$tChristmas treason / James White
+=700  \2$tSeven-day terror / R.A. Lafferty
+=700  \2$tKings who die / Poul Anderson
+=700  \2$tThe man who made friends with electricity / Fritz Leiber
+=700  \2$tHang head, vandal! / Mark Clifton
+=700  \2$tThe weather man / Theodore L. Thomas
+=700  \2$tEarthlings go home! / Mack Reynolds
+=700  \2$tThe streets of ashkelon / Harry Harrison
+=700  \2$tWhen you care, when you love / Theodore Sturgeon
+=700  \2$tThe ballad of lost c'mell / Cordwainer Smith
+=700  \2$tGadget vs. trend / Christopher Anvil
+=700  \2$tRoofs of silver / Gordon R. Dickson.
+
 =740  0\$aGreat SF stories, 24.
 =856  42$3Contributor biographical information$uhttp://www.loc.gov/catdir/enhancements/fy1405/92188624-b.html
 
@@ -16647,9 +16854,9 @@
 =490  0\$aDialogue ;$vvolume 22
 =504  \\$aIncludes bibliographical references and index.
 =600  10$aBallard, J. G.,$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
-=700  1\$aBrown, Richard,$d1954-$eeditor.
-=700  1\$aDuffy, Christopher,$d1977-$eeditor.
-=700  1\$aStainforth, Elizabeth,$d1986-$eeditor.
+=700  1\$aBrown, Richard,$d1954-$eeditor.$4edt$4edc
+=700  1\$aDuffy, Christopher,$d1977-$eeditor.$4edt$4edc
+=700  1\$aStainforth, Elizabeth,$d1986-$eeditor.$4edt$4edc
 =776  08$iOnline version:$tJ. G. Ballard$dLeiden ; Boston : Brill, [2016]$z9789004313866$w(DLC) 2016030903
 
 =LDR  02285cam a2200349 a 4500
@@ -16682,7 +16889,7 @@
 =650  \0$aModernism (Literature)
 =650  \0$aPostmodernism (Literature)
 =650  \0$aShort stories, English$xHistory and criticism.
-=700  1\$aSacido, Jorge.
+=700  1\$aSacido, Jorge.$4edt$4edc
 =830  \0$aPostmodern studies ;$v48.
 
 =LDR  02953cam a2200361 i 4500
@@ -16711,8 +16918,8 @@
 =650  \0$aLiterature and science.
 =650  \0$aScience in literature.
 =650  \0$aScientific literature$xHistory and criticism.
-=700  1\$aFriis, Elisabeth,$eeditor.
-=700  1\$aHerbrechter, Stefan,$eeditor.
+=700  1\$aFriis, Elisabeth,$eeditor.$4edt$4edc
+=700  1\$aHerbrechter, Stefan,$eeditor.$4edt$4edc
 =776  08$iOnline version:$tNarrating life$dLeiden ; Boston : Brill Rodopi, 2016$z9789004312074$w(DLC) 2016007874
 
 =LDR  01992cam a2200265 a 4500
@@ -16738,7 +16945,37 @@
 =505  00$tGravity / Harvey Jacobs -- Concentrate 3 / Michael Butterworth -- Dr. Gelabius / Hilary Bailey -- Four-colour problem / Barrington Bayley -- Running down / M. John Harrison -- Eye of the lens / Langdon Jones -- Assassination weapon / J.G. Ballard -- Heat death of the universe / Pamela Zoline -- Valve transcript / Joel Zoss -- Tank trapeze / Michael Moorcock -- Angouleme / Thomas M. Disch -- Scream / Giles Gordon -- Masterson and the clerks / John T. Sladek -- Multi-value motorway / Brian W. Aldiss -- Traveler's rest / David I. Masson -- Landscape of shallows / Christopher Finch -- Disaster story / Charles Platt -- Conversations at Ma Maia Metron / Robert Meadley -- No direction home / Norman Spinrad -- Realms of Tolkien / Daphne Castell -- Jeremiad / James Sallis -- Party at Lady Cusp-Canine's / Mervyn Peake -- Soft world sequence / George MacBeth -- Space hopping with Captain God / John T. Sladek -- Scholia, seasoned with crabs, blish is / John Clute -- Sweet analytics / M. John Harrison -- Literature of acceptance / James Colvin -- Alphabets of unreason / J.G. Ballard -- Language mechanisms / Christopher Finch -- Languages of science / David Harvey.
 =650  \0$aScience fiction, American.
 =650  \0$aScience fiction, English.
-=700  1\$aMoorcock, Michael,$d1939-
+=700  1\$aMoorcock, Michael,$d1939-$4edt$4edc
+=700  \2$tGravity / Harvey Jacobs
+=700  \2$tConcentrate 3 / Michael Butterworth
+=700  \2$tDr. Gelabius / Hilary Bailey
+=700  \2$tFour-colour problem / Barrington Bayley
+=700  \2$tRunning down / M. John Harrison
+=700  \2$tEye of the lens / Langdon Jones
+=700  \2$tAssassination weapon / J.G. Ballard
+=700  \2$tHeat death of the universe / Pamela Zoline
+=700  \2$tValve transcript / Joel Zoss
+=700  \2$tTank trapeze / Michael Moorcock
+=700  \2$tAngouleme / Thomas M. Disch
+=700  \2$tScream / Giles Gordon
+=700  \2$tMasterson and the clerks / John T. Sladek
+=700  \2$tMulti-value motorway / Brian W. Aldiss
+=700  \2$tTraveler's rest / David I. Masson
+=700  \2$tLandscape of shallows / Christopher Finch
+=700  \2$tDisaster story / Charles Platt
+=700  \2$tConversations at Ma Maia Metron / Robert Meadley
+=700  \2$tNo direction home / Norman Spinrad
+=700  \2$tRealms of Tolkien / Daphne Castell
+=700  \2$tJeremiad / James Sallis
+=700  \2$tParty at Lady Cusp-Canine's / Mervyn Peake
+=700  \2$tSoft world sequence / George MacBeth
+=700  \2$tSpace hopping with Captain God / John T. Sladek
+=700  \2$tScholia, seasoned with crabs, blish is / John Clute
+=700  \2$tSweet analytics / M. John Harrison
+=700  \2$tLiterature of acceptance / James Colvin
+=700  \2$tAlphabets of unreason / J.G. Ballard
+=700  \2$tLanguage mechanisms / Christopher Finch
+=700  \2$tLanguages of science / David Harvey.
 =856  42$3Publisher description$uhttp://www.loc.gov/catdir/enhancements/fy0831/2005273377-d.html
 
 =LDR  01778cam a2200277 a 4500
@@ -16766,7 +17003,32 @@
 =505  00$aLost city of Mars / Ray Bradbury -- Nine lives / Ursula K. Le Guin -- Deathwatch / Norman Spinrad -- Masks / Damon Knight -- Welcome to the Monkey House / Kurt Vonnegut -- Dead astronaut / J.G. Ballard -- Schematic man / Frederik Pohl -- Can you feel anything when I do this? / Robert Sheckley -- Transit of Earth / Arthur C. Clarke -- Report on the threatened city / Doris Lessing -- Leviathan / Larry Niven -- All the birds come home to roost / Harlan Ellison -- Apotheosis of Myra / Walter Tevis -- Frozen journey / Philip K. Dick -- Gianni / Robert Silverberg -- Word processor / Stephen King -- Interstellar pigeon / Donald E. Westlake -- Heirs of the perisphere / Howard Waldrop  -- Earth Station Charley / Billy Crystal -- Slow, slow burn / George Alec Effinger -- More than the sum of his parts / Joe Haldeman -- Sen Yen Babbo & the heavenly host / Chet Williamson -- Fire zone emerald / Lucius Shepard -- Ghost standard / William Tenn -- Office romance / Terry Bisson.
 =650  \0$aScience fiction, American.
 =650  \0$aScience fiction, English.
-=700  1\$aTurner, Alice K.
+=700  1\$aTurner, Alice K.$4edt$4edc
+=700  \2$tLost city of Mars / Ray Bradbury
+=700  \2$tNine lives / Ursula K. Le Guin
+=700  \2$tDeathwatch / Norman Spinrad
+=700  \2$tMasks / Damon Knight
+=700  \2$tWelcome to the Monkey House / Kurt Vonnegut
+=700  \2$tDead astronaut / J.G. Ballard
+=700  \2$tSchematic man / Frederik Pohl
+=700  \2$tCan you feel anything when I do this? / Robert Sheckley
+=700  \2$tTransit of Earth / Arthur C. Clarke
+=700  \2$tReport on the threatened city / Doris Lessing
+=700  \2$tLeviathan / Larry Niven
+=700  \2$tAll the birds come home to roost / Harlan Ellison
+=700  \2$tApotheosis of Myra / Walter Tevis
+=700  \2$tFrozen journey / Philip K. Dick
+=700  \2$tGianni / Robert Silverberg
+=700  \2$tWord processor / Stephen King
+=700  \2$tInterstellar pigeon / Donald E. Westlake
+=700  \2$tHeirs of the perisphere / Howard Waldrop 
+=700  \2$tEarth Station Charley / Billy Crystal
+=700  \2$tSlow, slow burn / George Alec Effinger
+=700  \2$tMore than the sum of his parts / Joe Haldeman
+=700  \2$tSen Yen Babbo & the heavenly host / Chet Williamson
+=700  \2$tFire zone emerald / Lucius Shepard
+=700  \2$tGhost standard / William Tenn
+=700  \2$tOffice romance / Terry Bisson.
 
 =LDR  02034cam a2200301 a 4500
 =001  3079922
@@ -16795,7 +17057,39 @@
 =505  0\$aDorothy Allison: Monkeybites -- J.G. Ballard: Love in a colder climate -- Frederick Barthelme: Cut Glass -- Saul Bellow: Something to remember me by -- Bonnie Burnard: Nipple man -- Angela Carter: Black Venus -- John Cheever: The world of apples -- Colette: One evening -- Julio Corta'zar -- Andre Dubus: The lover -- Mary Gaitskill: Civilization and it discontents -- Allan Gurganus: Adult Art -- Amelia House: Conspiracy -- Isabel Huggan: Sawdust -- Neil Jordan: Seduction -- Yehudit Katzir: Schlaffstunde -- Ko'no Taeko: Ants swarm -- Robin Metcalfe: The shirt -- Lourdes Ortiz: Alice -- Alejandra Pizarnik: The bloody countess -- James Purdy: Lily's party -- Diane Schoemperlen: Love in the time of cliche's -- Marilyn Sides: The island of the mapmaker's wife -- Michel Tournier: The red dwarf -- Dubravka Ugresic: A hot dog in a warm bun -- John Updike: Wife-wooing -- Alice Walker: Porn -- Denton Welch: Alex Fairburn -- Denton Welch -- John Edgar Wideman: The Statue of Liberty -- Tennessee Williams: Desire and the Black Messeur -- David Wojnarowicz: Losing th form in darkness -- Zhang Xiguo: The conquerors.
 =650  \0$aErotic stories.
 =650  \6$aHistoires érotiques.
-=700  1\$aManguel, Alberto.
+=700  1\$aManguel, Alberto.$4edt$4edc
+=700  \2$aDorothy Allison$tMonkeybites
+=700  \2$aJ.G. Ballard$tLove in a colder climate
+=700  \2$aFrederick Barthelme$tCut Glass
+=700  \2$aSaul Bellow$tSomething to remember me by
+=700  \2$aBonnie Burnard$tNipple man
+=700  \2$aAngela Carter$tBlack Venus
+=700  \2$aJohn Cheever$tThe world of apples
+=700  \2$aColette$tOne evening
+=700  \2$aJulio Corta'zar
+=700  \2$aAndre Dubus$tThe lover
+=700  \2$aMary Gaitskill$tCivilization and it discontents
+=700  \2$aAllan Gurganus$tAdult Art
+=700  \2$aAmelia House$tConspiracy
+=700  \2$aIsabel Huggan$tSawdust
+=700  \2$aNeil Jordan$tSeduction
+=700  \2$aYehudit Katzir$tSchlaffstunde
+=700  \2$aKo'no Taeko$tAnts swarm
+=700  \2$aRobin Metcalfe$tThe shirt
+=700  \2$aLourdes Ortiz$tAlice
+=700  \2$aAlejandra Pizarnik$tThe bloody countess
+=700  \2$aJames Purdy$tLily's party
+=700  \2$aDiane Schoemperlen$tLove in the time of cliche's
+=700  \2$aMarilyn Sides$tThe island of the mapmaker's wife
+=700  \2$aMichel Tournier$tThe red dwarf
+=700  \2$aDubravka Ugresic$tA hot dog in a warm bun
+=700  \2$aJohn Updike$tWife-wooing
+=700  \2$aAlice Walker$tPorn
+=700  \2$aDenton Welch$tAlex Fairburn
+=700  \2$aJohn Edgar Wideman$tThe Statue of Liberty
+=700  \2$aTennessee Williams$tDesire and the Black Messeur
+=700  \2$aDavid Wojnarowicz$tLosing th form in darkness
+=700  \2$aZhang Xiguo$tThe conquerors.
 
 =LDR  01136cam a2200229 a 4500
 =001  4715873
@@ -16818,7 +17112,19 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =505  0\$aThe slaying of the dragon / Dino Buzzati -- Axolotl / Julio Cortázar -- The lottery in Babylon / Jorge Luis Borges -- With the gypsy girls / Mircea Eliade -- Aura / Carlos Fuentes -- Adam, one afternoon / Italo Calvino -- Story in a mirror / Ilse Aichinger -- The drowned giant / J.G. Ballard -- The emerald / Donald Barthelme -- Further confessions / Joyce Carol Oates -- The mask / Stanislaw Lem -- Biographical notes on the authors.
 =650  \0$aFantasy fiction.
-=700  1\$aRottensteiner, Franz.
+=700  1\$aRottensteiner, Franz.$4edt$4edc
+=700  \2$tThe slaying of the dragon / Dino Buzzati
+=700  \2$tAxolotl / Julio Cortázar
+=700  \2$tThe lottery in Babylon / Jorge Luis Borges
+=700  \2$tWith the gypsy girls / Mircea Eliade
+=700  \2$tAura / Carlos Fuentes
+=700  \2$tAdam, one afternoon / Italo Calvino
+=700  \2$tStory in a mirror / Ilse Aichinger
+=700  \2$tThe drowned giant / J.G. Ballard
+=700  \2$tThe emerald / Donald Barthelme
+=700  \2$tFurther confessions / Joyce Carol Oates
+=700  \2$tThe mask / Stanislaw Lem
+=700  \2$tBiographical notes on the authors.
 
 =LDR  01136cam a2200265   4500
 =001  1237466
@@ -16888,6 +17194,22 @@
 =350  \\$a{dollar}6.95
 =505  0\$aThe voices of time -- The drowned giant  -- The terminal beach -- Manhole 69 -- Storm-bird, storm-dreamer -- The sound-sweep -- Millenium -- Chronopolis -- Build-up -- The garden of time -- End game -- The watchtowers -- Now wakes the sea -- Zone of terror -- The cage of sand -- Deep end.
 =650  \0$aScience fiction, English.
+=700  \2$aThe voices of time
+=700  \2$aBallard, J. G.$tThe drowned giant 
+=700  \2$aBallard, J. G.$tThe terminal beach
+=700  \2$aBallard, J. G.$tManhole 69
+=700  \2$aBallard, J. G.$tStorm-bird, storm-dreamer
+=700  \2$aBallard, J. G.$tThe sound-sweep
+=700  \2$aBallard, J. G.$tMillenium
+=700  \2$aBallard, J. G.$tChronopolis
+=700  \2$aBallard, J. G.$tBuild-up
+=700  \2$aBallard, J. G.$tThe garden of time
+=700  \2$aBallard, J. G.$tEnd game
+=700  \2$aBallard, J. G.$tThe watchtowers
+=700  \2$aBallard, J. G.$tNow wakes the sea
+=700  \2$aBallard, J. G.$tZone of terror
+=700  \2$aBallard, J. G.$tThe cage of sand
+=700  \2$aBallard, J. G.$tDeep end
 
 =LDR  00646cam a2200205   4500
 =001  1725585
@@ -17613,10 +17935,9 @@
 =504  \\$aIncludes bibliographical references.
 =505  00$tPuma --$tScience fiction --$tThe last day --$tThe eyes of New York --$tIntroduction to The best short stories of J.G. Ballard --$tGalactic cuckooland --$tThe apocalypse and after.
 =520  \\$a"Set some way into the future, the story details the crushing of the planet Earth by a heavyweight intruder from a distant galaxy--the dreaded Puma"--From jacket.
-=600  10$aBurgess, Anthony,$d1917-1993$xCriticism and interpretation.
 =650  \0$aEnd of the world$vFiction.
-=700  1\$aWake, Paul,$eeditor,$ewriter of introduction,$ewriter of added commentary.$cwt$aui$1http://viaf.org/viaf/19994016
-=700  02$aBurgess, Anthony$tPuma
+=700  1\$aWake, Paul,$eeditor,$ewriter of introduction,$ewriter of added commentary.$4cwt$4aui$1http://viaf.org/viaf/19994016
+=700  02$aBurgess, Anthony$tPuma$1http://www.isfdb.org/cgi-bin/title.cgi?2440469
 =700  02$aBurgess, Anthony$tScience fiction
 =700  02$aBurgess, Anthony$tThe last day
 =700  02$aBurgess, Anthony$tThe eyes of New York
@@ -17736,7 +18057,7 @@
 =338  \\$avolume$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =600  10$aDalí, Salvador$d1904-1989$1http://viaf.org/viaf/64004109
-=700  1\$aLarkin, David,$d1936-$4edt
+=700  1\$aLarkin, David,$d1936-$4edt$1http://viaf.org/viaf/277669549
 =700  \\$aBallard, J. G.$4aui$1http://viaf.org/viaf/9842556$4aui
 
 =LDR  01287cam a22002291  4500
@@ -17795,7 +18116,6 @@
 =700  \2$tA night in elf hill$aN. Spinrad
 =700  \2$tSulwen's planet$aJ. Vance.
 
-
 =LDR  01275cam a2200313 a 4500
 =001  14179495
 =003  LC
@@ -17852,7 +18172,7 @@
 =650  \0$aHorror tales, English.
 =650  \0$aMotion picture industry$xFiction.
 =651  \0$aHollywood (Los Angeles, Calif.)$xFiction.
-=700  \2$aThe prehistoric producer$aR. Bradbury
+=700  \2$tThe prehistoric producer$aR. Bradbury
 =700  \2$tThe plot is the thing$aR. Bloch
 =700  \2$tThe shadow on the screen$aH. Kuttner
 =700  \2$tReturn to the Sabbath$aT. Fiske
@@ -17871,7 +18191,6 @@
 =700  \2$tThe screen game$aJ. G. Ballard
 =700  \2$tDeath warmed over$aR. Bradbury
 =700  \\$aLee, Christopher$4aui
-
 
 =LDR  04303cam a22002534a 4500
 =001  16802995
@@ -18193,7 +18512,6 @@
 =700  02$tThe Cohen dog exclusion ac$aS. Schrader
 =700  02$tIt's such a beautiful day$aby I. Asimov
 =700  02$tThe hummingbird that lived through winter$aW. Saroyan.
-
 
 =LDR  02216cam a2200409 i 4500
 =001  17892906
