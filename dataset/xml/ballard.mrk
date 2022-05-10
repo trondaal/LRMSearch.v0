@@ -116,8 +116,8 @@
 =490  1\$aMaxi-bok
 =500  \\$a1. norske utg. 1985
 =533  \\$aElektronisk reproduksjon$b[Norge]$cNasjonalbiblioteket Digital$d2016-11-03
-=700  1\$aRisvik, Kari$d1932-$4trl$0(NO-TrBIB)90181750$1http://viaf.org/viaf/106222856
-=700  1\$aRisvik, Kjell$d1941-$4trl$0(NO-TrBIB)90330576$1http://viaf.org/viaf/66142208
+=700  1\$aRisvik, Kari$d1932-$4trl$0(NO-TrBIB)90181750$1http://viaf.org/viaf/106222856$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aRisvik, Kjell$d1941-$4trl$0(NO-TrBIB)90330576$1http://viaf.org/viaf/66142208$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aMaxi-bok
 =856  41$3Fulltekst$uhttps://www.nb.no/search?q=oaiid:"oai:nb.bibsys.no:999002364264702202"&mediatype=bøker$yNettbiblioteket$zSøke-URL
 
@@ -596,8 +596,8 @@
 =594  \\$aTraducción de: Cocaine nights
 =596  \\$a"Minotauro"
 =830  \0$aNovela (Booket (Editorial))$v2226
-=700  \\$aKomet, Silvia$4trl$1http://viaf.org/viaf/36514731
-=700  \\$aFigueroa, M.$4trl$1http://viaf.org/viaf/87721105
+=700  \\$aKomet, Silvia$4trl$1http://viaf.org/viaf/36514731$4http://rdaregistry.info/Elements/e/object/P20037
+=700  \\$aFigueroa, M.$4trl$1http://viaf.org/viaf/87721105$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00930cam a2200265 i 4500
 =001  016659441
@@ -762,7 +762,7 @@
 =650  \4$5Mo$amän
 =650  \4$5Mo$apersonlig utveckling
 =655  \4$5Mo$aBok
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00944 am a22003013u 4500
 =001  007688047
@@ -1153,7 +1153,7 @@
 =500  \\$5Um$aSkönlitteratur. Annan uppl. kan finnas vid biblioteket
 =653  \\$5Mo$aScience fiction
 =655  \4$5Mo$aBok
-=700  1\$aStewart, Peter$4trl
+=700  1\$aStewart, Peter$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02997aam a22006251i 4500
 =001  020989068
@@ -1769,7 +1769,7 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00844nam a22002291i 4500
 =001  bimo0000640520
@@ -1791,7 +1791,7 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00827nam a22002171i 4500
 =001  bimo0000640519
@@ -1812,7 +1812,7 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00863 am a2200289ua 4500
 =001  007364210
@@ -1980,7 +1980,7 @@
 =500  \\$aFörsta svenska uppl. 1993
 =653  \\$5Mo$aScience fiction
 =655  \4$5Mo$aBok
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00797 am a22002777a 4500
 =001  010705077
@@ -2268,7 +2268,7 @@
 =340  \\$b22 cm
 =380  \\$aNovel
 =500  \\$5Um$aSkönlitteratur. Annan uppl. kan finnas vid biblioteket
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01671pam a22004091i 4500
 =001  018263881
@@ -2466,7 +2466,7 @@
 =500  \\$aFörsta svenska upplaga 2007
 =650  \4$5Mo$aSkönlitteratur
 =655  \4$5Mo$aBok
-=700  1\$aJohansson, KG,$d1952-$4trl$0https://libris.kb.se/wt79bj7f1zdrlnr#it
+=700  1\$aJohansson, KG,$d1952-$4trl$0https://libris.kb.se/wt79bj7f1zdrlnr#it$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aÖverträdelsens klassiker,$x1402-652X ;$v15
 
 =LDR  01554cam a2200301 c 4500
@@ -2596,7 +2596,7 @@
 =500  \\$5Um$aSkönlitteratur. Annan uppl. kan finnas vid biblioteket
 =653  \\$5Mo$aScience fiction
 =655  \4$5Mo$aBok
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00939 am a2200301ua 4500
 =001  010077750
@@ -3131,7 +3131,7 @@
 =500  \\$aFörsta svenska uppl. 1989
 =653  \\$5Mde$aRelationer mellan föräldrar och barn
 =653  \\$5Mde$aRoman
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 =700  1\$aWooley, Janet$4ill
 =830  \0$aLegenda novella,$x99-0681833-6
 
@@ -5812,7 +5812,7 @@
 =650  \7$anovellit$2yso/fin$0http://www.yso.fi/onto/yso/p2126
 =650  \7$ascience fiction-litteratur$2yso/swe$0http://www.yso.fi/onto/yso/p15527
 =650  \7$atieteiskirjallisuus$2yso/fin$0http://www.yso.fi/onto/yso/p15527
-=700  \\$aRuokosenmäki, Jouko$4trl
+=700  \\$aRuokosenmäki, Jouko$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =773  0\$w(FI-MELINDA)000590328$7nnas$w(FI-Arto)1386296$tTähtivaeltaja. -$x0781-271X. -$g17(1998) : 1, s.44-47
 
 =LDR  02875cgm a22006254i 4500
@@ -5999,7 +5999,7 @@
 =538  \\$aFilstorlek: 93.1 MB.
 =653  \\$aTalboksinläsning för högskolestudier
 =655  \4$aDAISY text och ljud
-=700  1\$aWahlstedt, Malin$4nrt
+=700  1\$aWahlstedt, Malin$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tConcrete island$z9780007287048
 =856  4\$s98102894
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=CA53485$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
@@ -6034,7 +6034,7 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aSällsam och fascinerande SF-roman, där en afrikansk skog drabbas av en underlig tidscancer från yttre rymden, som förvandlar allt - träd, vatten, djur, människor, själva luften - till glänsande kristaller. Som kanske innebär en ny sorts odödlighet. Både huvudpersonerna och den yttre ramen har starka drag av Graham Greenes Utbränd
 =655  \4$aDAISY
-=700  1\$aGillett, Eric$4nrt
+=700  1\$aGillett, Eric$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tThe crystal world
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C01405$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6090,7 +6090,7 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aEn samling science fiction-noveller. I titelnovellen roterar jorden inte längre, tiden står stilla och människan måste resa till ljuset
 =655  \4$aDAISY
-=700  1\$aLivesey, John$4nrt
+=700  1\$aLivesey, John$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tThe day of forever$z0586023070
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C01607$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6124,7 +6124,7 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aEn samling science fiction-noveller. Dagens trender sätts in i framtiden och författaren utforskar de psykosociala trauman som blir följden
 =655  \4$aDAISY
-=700  1\$aBlake, Arthur$4nrt
+=700  1\$aBlake, Arthur$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tThe disaster area$z0224611887
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C01626$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6159,7 +6159,7 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aNär japanerna intar Shanghai 1941 skiljs Jim, 11 år, från sina föräldrar. Han flackar ensam runt i den kaotiska staden och upplever åtskilliga strapatser innan han hamnar i fångläger. Där möter han förnedring och sjukdom med en okuvlig vilja att överleva. Boken bygger på förf:s egna upplevelser
 =655  \4$aDAISY
-=700  1\$aCraig, Ian$4nrt
+=700  1\$aCraig, Ian$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tEmpire of the Sun$z0575034831
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C03637$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6193,7 +6193,7 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aEtt klasskrig utbryter i ett lyxigt bostadshus. Plötsligt blir hissarna våldsamma slagfält och cocktailbjudningarna urartar till plundringsräder på fiendevåningar. Tillvaron förvandlas när de tidigare fridsamma invånarna, nu styrda av primitiva drifter, återskapar en värld där djungelns lag råder
 =655  \4$aDAISY
-=700  1\$aRuthven, Malcolm$4nrt
+=700  1\$aRuthven, Malcolm$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tHigh-rise$z0224011685
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C01507$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6227,7 +6227,7 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aBoken innehåller tio science fiction-noveller. I titelberättelsen har det gått trettio år sedan USA:s rymdforskningsprogram avslutades. Floridas skogar och sumpmarker bebos fortfarande av människor som drömmer om att utforska rymden. Men nu är det fråga om ett annat slags rymdforskning
 =655  \4$aDAISY
-=700  1\$aOliver, Jonathan$4nrt
+=700  1\$aOliver, Jonathan$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tMyths of the near future$z0224029363
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C01540$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6262,7 +6262,7 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aEn samling science fiction-noveller. I titelnovellen åker en man bort till en ö som en gång användes för kärnvapenprov. Bland de sönderfallande husen får läsaren följa hans mentala och psykiska förfall
 =655  \4$aDAISY
-=700  1\$aAbney, William$4nrt
+=700  1\$aAbney, William$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tThe terminal beach$z0460022652
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C01608$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6298,7 +6298,7 @@
 =520  \\$aSvensk titel: Solens rike. När japanerna intar Shanghai 1941, skiljs Jim, 11 år, från sina föräldrar. Han flackar ensam runt i den kaotiska staden och upplever åtskilliga strapatser, innan han hamnar i fångläger. Där möter han förnedring och sjukdom med en okuvlig vilja att överleva. Boken bygger på förf:s egna upplevelser. Inläsn. på engelska
 =653  \\$aFilmad bok
 =655  \4$aDAISY
-=700  1\$aEgan, Peter$4nrt
+=700  1\$aEgan, Peter$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C09253$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
 =LDR  01729cgm a22003617a 4500
@@ -6328,7 +6328,7 @@
 =546  \\$aTal på engelska, textad på svenska, norska, danska och finska.
 =655  \7$aDrama (film)$0https://id.kb.se/term/saogf/Drama%20%28film%29$2saogf
 =655  \7$aThrillers (film)$0https://id.kb.se/term/saogf/Thrillers%20%28film%29$2saogf
-=700  1\$aJansson, Thomas$4trl
+=700  1\$aJansson, Thomas$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =700  1\$aMansell, Clint$4msd$4cmp$1https://www.imdb.com/name/nm0543739/
 =700  1\$aRose, Laurie$4cng$1http://viaf.org/viaf/310657608
 =700  1\$aWheatley, Ben$4fmd$1http://viaf.org/viaf/252508880
@@ -6366,8 +6366,8 @@
 =520  \\$aSällsam och fascinerande SF-roman, där en afrikansk skog drabbas av en underlig tidscancer från yttre rymden, som förvandlar allt - träd, vatten, djur, människor, själva luften - till glänsande kristaller. Som kanske innebär en ny sorts odödlighet. Både huvudpersonerna och den yttre ramen har starka drag av Graham Greenes Utbränd
 =653  \\$aScience fiction
 =655  \4$aDAISY
-=700  1\$aFrancke, Annika$4nrt
-=700  1\$aStewart, Peter$4trl
+=700  1\$aFrancke, Annika$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aStewart, Peter$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =776  08$iInläst ur$tKristallvärlden
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C35673$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6402,7 +6402,7 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aMordet på John F. Kennedy, Marilyn Monroes död, USA:s bombningar i Vietnam, månlandningen: Allt är stora händelser från 1960-talet som författaren använder som fixeringspunkter i ett flöde av bilder kring människans behov av kändisdyrkan. Det är ett förstadium av medieåldern där ytan får en stark förankring på det privata planet. Allt blir till ett textlandskap där våld och sexualitet bildar en mörk förening. Kultklassiker. Förlaga: Vertigo, 2007
 =655  \4$aDAISY
-=700  1\$aGodenius, Per$4nrt
+=700  1\$aGodenius, Per$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tSkändlighetsutställningen$z9789185000517
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C84028$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6440,8 +6440,8 @@
 =653  \\$aKärlek
 =653  \\$aKrigsromaner
 =655  \4$aDAISY
-=700  1\$aIsberg, Björn$4nrt
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467
+=700  1\$aIsberg, Björn$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 =776  08$iInläst ur$tKvinnors godhet
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C35780$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6478,8 +6478,8 @@
 =653  \\$aFilmad bok
 =653  \\$aKrigsromaner
 =655  \4$aDAISY
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467
-=700  1\$aSundin, Else-Marie$4nrt
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aSundin, Else-Marie$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tSolens rike
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C41253$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6515,8 +6515,8 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aI ett exklusivt bostadsområde i London hittas 32 vuxna brutalt mördade; deras barn är försvunna. Polisen kan inte hitta några spår eller någon orsak till brottet. Bokens tyngdpunkt som har formen av en rapport av en rättspsykiater, ligger på "varför" och inte på "vem". Oroande historia som underminerar våra mest omhuldade föreställningar om förhållandet föräldrar-barn. JGB eng. 1930-
 =655  \4$aDAISY
-=700  1\$aEriksson, Dick$4nrt
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467
+=700  1\$aEriksson, Dick$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0https://libris.kb.se/53hlqmjp5grtqrd#it$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 =776  08$iInläst ur$tPangbournemassakern$z9158212655
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C04025$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
 
@@ -6551,8 +6551,8 @@
 =520  \\$aTio science fiction-noveller, utvalda av science fiction-författaren Sam. J. Lundwall. Här finns ingredienser som uppsluppen satir, svindlande fantasi och poetisk vision. Den närliggande framtiden i skildringarna är obehagligt lik vår egen tid. Författarna är: Brian W. Aldiss, Isaac Asimov, J.G. Ballard, Ray Bradbury, Fredric Brown, Arthur C. Clarke, Philip K. Dick, Hal Draper, Frederik Pohl och Robert Sheckley
 =538  \\$aFilstorlek: 153 MB
 =655  \4$aDAISY
-=700  1\$aGripe, Helena$4nrt
-=700  1\$aHedberg, Gunnar$4trl
+=700  1\$aGripe, Helena$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aHedberg, Gunnar$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =700  1\$aLundwall, Sam J.$4pbl
 =776  08$iInläst ur$tDet hände i morgon$z9172280131
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=CA23673$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
@@ -6668,7 +6668,7 @@
 =506  1\$aTillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen$uhttp://www.mtm.se/om-oss/uppdrag-och-lagar/upphovsrattslagen/
 =520  \\$aDel 2 i förf:s science fiction-historik sträcker sig från 1970-talet fram till sekelskiftet: "Från J. G. Ballard till Gene Wolf". Drygt halva boken består av en kronologisk genomgång av genrens utveckling under de senaste 30 åren. Andra halvan ägnas åt 52 författarporträtt där även bibliografi ingår. Ett avsnitt om science fiction i Sverige samt mindre texter om andra språkområden än det engelskläsande ingår också. Inläst ur Btj, 2003
 =655  \4$aDAISY
-=700  1\$aStröm, Ove$4nrt
+=700  1\$aStröm, Ove$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =776  08$iInläst ur$tInre landskap och yttre rymd
 =800  \\$aHolmberg, John-Henri$tInre landskap och yttre rymd$1http://www.wikidata.org/entity/Q59191181
 =856  40$5Mtm$uhttp://www.legimus.se/work/redirect?MedieNr=C30572$zLadda ner. Tillgänglig för personer med läsnedsättning enligt § 17 Upphovsrättslagen
@@ -6691,8 +6691,8 @@
 =336  \\$aText$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aHerrmann, Angela$eMitwirkender$4trl$1https://d-nb.info/gnd/1204277397$0https://d-nb.info/gnd/1204277397
-=700  1\$aRiffel, Hannes$eMitwirkender$4trl$1http://viaf.org/viaf/37634899
+=700  1\$aHerrmann, Angela$eMitwirkender$4trl$1https://d-nb.info/gnd/1204277397$0https://d-nb.info/gnd/1204277397$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aRiffel, Hannes$eMitwirkender$4trl$1http://viaf.org/viaf/37634899$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00884njm a2200265 c 4500
 =001  1236595602
@@ -6796,7 +6796,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aNovel
 =440  \0$aBokklubben Vår bok (Bra böcker),$x99-0181078-7
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0322971$1http://viaf.org/viaf/237688467
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0322971$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  03781cam a22004693a 4500
 =001  12518026
@@ -6936,7 +6936,7 @@
 =653  \\$aromaanit$aenglannin kieli$asuomenkielinen käännös
 =655  \7$akaunokirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
-=700  1\$aNousiainen, Jussi$c(kääntäjä)$0(FI-ASTERI-N)000111824$4trl
+=700  1\$aNousiainen, Jussi$c(kääntäjä)$0(FI-ASTERI-N)000111824$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aOtavan kirjasto.
 
 =LDR  01444nam a2200313 c 4500
@@ -7017,8 +7017,8 @@
 =490  1\$aAutores
 =594  \\$aTraducción de: The atrocity exhibition
 =830  \0$aAutores (Barcelona)
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
-=700  1\$aCohen, Marcelo$d1951-$4trl$1http://viaf.org/viaf/116307066
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aCohen, Marcelo$d1951-$4trl$1http://viaf.org/viaf/116307066$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01539nam a2200361 c 4500
 =001  880202572
@@ -7099,7 +7099,7 @@
 =380  \\$aNovel
 =490  0\$aRunas
 =594  \\$aTítulo original: High-rise
-=700  1\$aTejera Expósito, David$etraductor$4trl
+=700  1\$aTejera Expósito, David$etraductor$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01232nam a2200301 c 4500
 =001  931287782
@@ -7232,7 +7232,7 @@
 =655  \7$atieteiskirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s418
 =655  \7$autopiat$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s149
 =655  \7$autopier$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s149
-=700  1\$aTervaharju, Hannu,$ekääntäjä.$0(FI-ASTERI-N)000112855$4trl
+=700  1\$aTervaharju, Hannu,$ekääntäjä.$0(FI-ASTERI-N)000112855$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aLike-pokkari ;$v[152]
 
 =LDR  01437cam a2200385 i 4500
@@ -7291,7 +7291,7 @@
 =490  1\$aAutores$v7
 =590  \\$aEn la portada: Minotauro
 =594  \\$aTraducción de: High-rise
-=700  \\$aFigueroa, Manuel$4trl$1http://viaf.org/viaf/87721105
+=700  \\$aFigueroa, Manuel$4trl$1http://viaf.org/viaf/87721105$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aAutores (Booket (Editorial))$v7
 
 =LDR  00636cam a22001933i 4500
@@ -7332,7 +7332,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =594  \\$aTraducción de: A user's guide to the millennium
-=700  \\$aLeo, Octavio di$4trl
+=700  \\$aLeo, Octavio di$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00659nam a2200193 a 4500
 =001  011608067
@@ -7375,7 +7375,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  0\$aNarrativas contemporáneas
-=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374
+=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01362nam a2200337 c 4500
 =001  831079215
@@ -7461,7 +7461,7 @@
 =440  \0$aBiblioteca de ciencia ficción$v71
 =500  \\$aTraducción de: The inner landscape
 =505  0\$aNiño en tinieblas / Mervyn Peake. Las voces del tiempo / J.G. Ballard. Peligro, ¡Religión! / Brian W. Aldiss
-=700  1\$aMuñiz Moreno, Marta$4trl$1http://viaf.org/viaf/87810800
+=700  1\$aMuñiz Moreno, Marta$4trl$1http://viaf.org/viaf/87810800$4http://rdaregistry.info/Elements/e/object/P20037
 =700  12$aAldiss, Brian W.$d1925-$tDanger, Religion!$1http://viaf.org/viaf/183421260
 =700  12$aBallard, J. G.$d1930-2009$tThe voices of time$1http://viaf.org/viaf/311471559
 =700  12$aPeake, Mervyn Laurence$d1911-1968$tBoy in darkness$1http://viaf.org/viaf/309308512
@@ -7524,8 +7524,8 @@
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =653  \\$a(VLB-PF)BC: Paperback
 =653  \\$a(VLB-WN)2131: TB/Belletristik/Science Fiction
-=700  1\$0https://d-nb.info/gnd/1204277397$aHerrmann, Angela$eMitwirkender$4trl$1https://d-nb.info/gnd/1204277397
-=700  1\$aRiffel, Hannes$eMitwirkender$4trl$1http://viaf.org/viaf/37634899
+=700  1\$0https://d-nb.info/gnd/1204277397$aHerrmann, Angela$eMitwirkender$4trl$1https://d-nb.info/gnd/1204277397$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aRiffel, Hannes$eMitwirkender$4trl$1http://viaf.org/viaf/37634899$4http://rdaregistry.info/Elements/e/object/P20037
 =773  08$q12$w(DE-101)984138587
 
 =LDR  00981nam a2200277 c 4500
@@ -7550,7 +7550,7 @@
 =380  \\$aNovel
 =490  0\$aLiteratura fantástica$v5
 =594  \\$aTítulo original: Concrete island
-=700  1\$aManzano, Manuel$d1965-$4trl
+=700  1\$aManzano, Manuel$d1965-$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01656nam a22003618i 4500
 =001  999920983216002201
@@ -7677,8 +7677,8 @@
 =347  \\$adata file$2rda
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =533  \\$aElektronisk reproduksjon$b[Norge]$cNasjonalbiblioteket Digital$d2013-02-14
-=700  1\$aRisvik, Kari$d1932-$4trl$0(NO-TrBIB)90181750$1http://viaf.org/viaf/106222856
-=700  1\$aRisvik, Kjell$d1941-$4trl$0(NO-TrBIB)90330576$1http://viaf.org/viaf/66142208
+=700  1\$aRisvik, Kari$d1932-$4trl$0(NO-TrBIB)90181750$1http://viaf.org/viaf/106222856$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aRisvik, Kjell$d1941-$4trl$0(NO-TrBIB)90330576$1http://viaf.org/viaf/66142208$4http://rdaregistry.info/Elements/e/object/P20037
 =856  41$3Fulltekst$uhttps://www.nb.no/search?q=oaiid:"oai:nb.bibsys.no:998521676524702202"&mediatype=bøker$yNettbiblioteket$zSøke-URL
 =856  42$3Beskrivelse fra Forlagssentralen$uhttp://content.bibsys.no/content/?type=descr_forlagssentr&isbn=8203150462
 
@@ -7729,7 +7729,7 @@
 =490  1\$aNovela$v2181
 =594  \\$aTraducción de: Running wild
 =596  \\$a"Minotauro"
-=700  \\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  \\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aNovela (Booket (Editorial))$v2181
 
 =LDR  02001cam a22003017a 4500
@@ -7855,7 +7855,7 @@
 =594  \\$aTraducción de: The drought
 =800  1\$aBallard, J. G.$d1930-2009$tBiblioteca J.G. Ballard (Debolsillo)$v3
 =830  \0$aBestseller (Barcelona)$v758/3
-=700  1\$aDomènech, Luis$d1965-$4trl$1http://viaf.org/viaf/2296633
+=700  1\$aDomènech, Luis$d1965-$4trl$1http://viaf.org/viaf/2296633$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02405nam a2200553 c 4500
 =001  1101800941
@@ -7963,15 +7963,15 @@
 =583  1\$aArchivierung/Langzeitarchivierung gewährleistet$5DE-101$2pdager
 =653  \\$a(Produktform (spezifisch))WAV format
 =653  \\$a(Produktform)Downloadable audio file
-=700  1\$aBroich, Margarita$eErzähler$4nrt
-=700  1\$aHaseney, Tina$eErzähler$4nrt
-=700  1\$aKönig, Cristin$eErzähler$4nrt
-=700  1\$aMinichmayr, Birgit$eErzähler$4nrt
-=700  1\$aPeschel, Milan$eErzähler$4nrt
-=700  1\$aRudolph, Lars$eErzähler$4nrt
-=700  1\$aSpengler, Volker$eErzähler$4nrt
+=700  1\$aBroich, Margarita$eErzähler$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aHaseney, Tina$eErzähler$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aKönig, Cristin$eErzähler$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aMinichmayr, Birgit$eErzähler$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aPeschel, Milan$eErzähler$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aRudolph, Lars$eErzähler$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
+=700  1\$aSpengler, Volker$eErzähler$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =700  1\$aTM, Schneider$eKomponist$4cmp
-=700  1\$aWuttke, Martin$eErzähler$4nrt
+=700  1\$aWuttke, Martin$eErzähler$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =758  \\$aHigh-rise$1http://viaf.org/viaf/308016990$4http://rdaregistry.info/Elements/w/object/P10142
 =856  \0$uhttps://d-nb.info/1189747073/34$xLangzeitarchivierung Nationalbibliothek
 =856  4\$qwav$uhttp://www.hoerspielpark.de/website/titel/hochhaus-teil-1$xVerlag
@@ -8192,7 +8192,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  0\$acolección Minotauro-Edhasa$v8
 =500  \\$aIndice
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02952pam a2200649 c 4500
 =001  1117097005
@@ -8293,7 +8293,7 @@
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  1\$aBastei-Lübbe-Taschenbuch$vBd. 13053 : Allgemeine Reihe
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tCrash$gdt.$1http://viaf.org/viaf/305922109
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aBastei-Lübbe-Taschenbuch$vBd. 13053 : Allgemeine Reihe$w(DE-101)010434747$w(DE-600)49563-3$9513053$7as
 
 =LDR  01988pam a2200445 c 4500
@@ -8330,7 +8330,7 @@
 =689  0\$5DE-101$5DE-101
 =689  00$0(DE-588)118656929$0https://d-nb.info/gnd/118656929$0(DE-101)118656929$Dp$aBallard, J. G.$d1930-2009
 =689  01$Af$aAutobiographie
-=700  1\$0(DE-588)120147955$0https://d-nb.info/gnd/120147955$0(DE-101)120147955$aKörber, Joachim$d1958-$eÜbersetzer$4trl$1http://viaf.org/viaf/37083705
+=700  1\$0(DE-588)120147955$0https://d-nb.info/gnd/120147955$0(DE-101)120147955$aKörber, Joachim$d1958-$eÜbersetzer$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tMiracles of life$gdt.$1http://www.wikidata.org/entity/Q6872514
 
 =LDR  00980nam a2200277 c 4500
@@ -8355,7 +8355,7 @@
 =490  0\$a13/20
 =594  \\$aTraducción de: Empire of the sun
 =655  \7$aNovelas autobiográficas$2tgfbne
-=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374
+=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01321nam a2200337 c 4500
 =001  956206212
@@ -8383,7 +8383,7 @@
 =337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  1\$aGoldmann$v43961
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aGoldmann$v43961$w(DE-101)01079042X$w(DE-600)135758-X$9543961$7as
 
 =LDR  01953cam a22003378a 4500
@@ -8496,7 +8496,7 @@
 =650  \7$aTvångssyndrom$0https://id.kb.se/term/sao/Tv%C3%A5ngssyndrom$2sao
 =655  \7$aPsykologiska skildringar$0https://id.kb.se/term/saogf/Psykologiska%20skildringar$2saogf
 =655  \7$aRomaner$0https://id.kb.se/term/saogf/Romaner$2saogf
-=700  1\$aPedersen, Daniel,$d1978-$4trl$0https://libris.kb.se/vs69gvgd4qtj446#it
+=700  1\$aPedersen, Daniel,$d1978-$4trl$0https://libris.kb.se/vs69gvgd4qtj446#it$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  03134pam a2200625 c 4500
 =001  981383270
@@ -8635,7 +8635,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  1\$aAutores
 =594  \\$aTraducción de: Hello America
-=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374
+=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aAutores (Barcelona)
 
 =LDR  00961nam a2200277 i 4500
@@ -8687,7 +8687,7 @@
 =490  1\$aHeyne-Bücher$vNr. 3394 : Science-fiction
 =500  \\$aOrig.-Ausg. u. d. T.: Ballard, James Graham: The four-dimensional nightmare. - Lizenz d. Marion-von-Schroeder-Verl., Düsseldorf, Hamburg.
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tVermilion Sands$gdt.$1http://viaf.org/viaf/307991538
-=700  12$aScholz, Alfred$4trl$1http://viaf.org/viaf/1660159234598103372119
+=700  12$aScholz, Alfred$4trl$1http://viaf.org/viaf/1660159234598103372119$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aHeyne-Bücher$vNr. 3394 : Science-fiction$943394
 
 =LDR  00738nam a2200205   4500
@@ -8708,7 +8708,7 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aFigueroa, Manuel$c(traductor)$4trl$1http://viaf.org/viaf/87721105
+=700  1\$aFigueroa, Manuel$c(traductor)$4trl$1http://viaf.org/viaf/87721105$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01427nam a2200349 i 4500
 =001  016659405
@@ -8767,7 +8767,7 @@
 =490  1\$aSuhrkamp Taschenbuch$v833
 =500  \\$aLizenz d. v.-Schröder-Verl., Hamburg, Düsseldorf
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tVermilion Sands$gdt.$1http://viaf.org/viaf/307991538
-=700  12$aScholz, Alfred$4trl$1http://viaf.org/viaf/1660159234598103372119
+=700  12$aScholz, Alfred$4trl$1http://viaf.org/viaf/1660159234598103372119$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aPhantastische Bibliothek$vBd. 79$w(DE-101)012995118$w(DE-600)547149-7$9279$7as
 =830  \0$aSuhrkamp Taschenbuch$v833$w(DE-101)015103463$w(DE-600)968207-7$93833$7as
 
@@ -8792,7 +8792,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =440  \0$aLetras de bolsillo
 =594  \\$aTraducción de: The kindness of women
-=700  1\$aFort, Luis Murillo$4trl
+=700  1\$aFort, Luis Murillo$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00842nam a2200229   4500
 =001  bimo0000242829
@@ -8814,7 +8814,7 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aFigueroa, Manuel$c(traductor)$4trl$1http://viaf.org/viaf/87721105
+=700  1\$aFigueroa, Manuel$c(traductor)$4trl$1http://viaf.org/viaf/87721105$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00798nam a22002175  4500
 =001  bimo0000448508
@@ -8988,7 +8988,7 @@
 =689  02$0(DE-588)4003157-3$0https://d-nb.info/gnd/4003157-3$0(DE-101)040031578$Ds$aArzt
 =689  03$0(DE-588)4052527-2$0https://d-nb.info/gnd/4052527-2$0(DE-101)040525279$Ds$aSchizophrenie
 =689  04$Af$aBelletristische Darstellung
-=700  1\$0(DE-588)107849410$0https://d-nb.info/gnd/107849410$0(DE-101)107849410$aWeissner, Carl$d1940-2012$eÜbersetzer$4trl$2gnd
+=700  1\$0(DE-588)107849410$0https://d-nb.info/gnd/107849410$0(DE-101)107849410$aWeissner, Carl$d1940-2012$eÜbersetzer$4trl$2gnd$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aExquisite corpse$vBd. 2$w(DE-101)989486729$w(DE-600)2435968-3$912$7as
 =856  42$mX:MVB$qtext/html$uhttp://deposit.dnb.de/cgi-bin/dokserv?id=3095877&prov=M&dok_var=1&dok_ext=htm$3Inhaltstext
 
@@ -9010,7 +9010,7 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aLouit, Robert$c(traductor)$4trl
+=700  1\$aLouit, Robert$c(traductor)$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00898 am a2200289uu 4500
 =001  009938052
@@ -9410,7 +9410,7 @@
 =490  1\$aPhantastische Bibliothek$vBd. 107
 =490  1\$aSuhrkamp Taschenbuch$v940
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tLow flying aircraft$gdt.$1http://www.wikidata.org/entity/Q6692707
-=700  12$aWalter, Michael$4trl$1https://isni.org/isni/0000000110758382
+=700  12$aWalter, Michael$4trl$1https://isni.org/isni/0000000110758382$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aPhantastische Bibliothek$vBd. 107$w(DE-101)012995118$w(DE-600)547149-7$93107$7as
 =830  \0$aSuhrkamp Taschenbuch$v940$w(DE-101)015103463$w(DE-600)968207-7$93940$7as
 
@@ -9435,7 +9435,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =440  \3$aEl libro de arena$v9
 =594  \\$aTraducción de: The kidness of women
-=700  1\$aMurillo Fort, Luis$d1951-$4trl
+=700  1\$aMurillo Fort, Luis$d1951-$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02308cam a22005413a 4500
 =001  109698
@@ -9473,7 +9473,7 @@
 =700  12$aClarke, Arthur C.$q(Arthur Charles),$d1917-2008$0https://libris.kb.se/qn2440884nx4nwn#it$tEn historielektion
 =700  12$aDick, Philip K$tMinnen en gros$1http://www.isfdb.org/cgi-bin/title.cgi?18834
 =700  12$aDraper, Hal$tMs fnt i t bltk
-=700  12$aHedberg, Gunnar$4trl
+=700  12$aHedberg, Gunnar$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =700  12$aLundwall, Sam J.$d1941-$4edt$0https://libris.kb.se/53hkfclp22khvjx#it
 =700  12$aPohl, Frederik$tMördande reklam
 =700  12$aScheckley, Robert$tEn biljett till Tranai
@@ -9545,7 +9545,7 @@
 =650  \7$aKonstnärer$zSpanien$2sao
 =650  \7$aSurrealism (litteratur)$2sao$0163347
 =655  \7$aDagböcker$2saogf$0243975$0352952
-=700  1\$aHoward, Richard,$d1929-$4trl
+=700  1\$aHoward, Richard,$d1929-$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =700  1\$aBallard, J. G.$d1930-2009$4aui$1http://viaf.org/viaf/9842556
 
 =LDR  00973caa a22002173u 4500
@@ -9587,7 +9587,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =500  \\$aTraducción de : The Day of Creation
-=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374
+=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02033cam a22003137a 4500
 =001  12192053
@@ -9742,7 +9742,7 @@
 =583  1\$aArchivierung/Langzeitarchivierung gewährleistet$5DE-101$2pdager
 =655  \7$0(DE-101)1010008188$aErzählende Literatur: Gegenwartsliteratur ab 1945$2gatbeg
 =655  \7$81\p$0(DE-588)1071854844$0https://d-nb.info/gnd/1071854844$0(DE-101)1071854844$aFiktionale Darstellung$2gnd-content
-=700  1\$0(DE-588)111039894$0https://d-nb.info/gnd/111039894$0(DE-101)111039894$aSchönfeld, Eike$d1949-$eÜbersetzer$4trl$2gnd
+=700  1\$0(DE-588)111039894$0https://d-nb.info/gnd/111039894$0(DE-101)111039894$aSchönfeld, Eike$d1949-$eÜbersetzer$4trl$2gnd$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$82\p$0(DE-588)1064211070$0https://d-nb.info/gnd/1064211070$0(DE-101)1064211070$aDiaphanes$eVerlag$4pbl$2gnd
 =776  08$iErscheint auch als$nDruck-Ausgabe$aBallard, J. G., 1930-2009$tDas Reich kommt$dZürich : Diaphanes, 2019$h365 Seiten$w(DE-101)1173345353$b1. Auflage
 =776  08$iErscheint auch als$nOnline-Ausgabe$z9783035802153
@@ -9846,7 +9846,7 @@
 =490  1\$aLanterne-bøkene$v164
 =533  \\$aElektronisk reproduksjon$b[Norge]$cNasjonalbiblioteket Digital$d2012-07-12
 =653  \\$askjønnlitteratur$aroman$afantasy$ascience$afiction
-=700  1\$aBing, Jon$4trl
+=700  1\$aBing, Jon$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aLanterne science fiction
 =830  \0$aLanterne-bøkene$v164
 =856  41$3Fulltekst$uhttps://www.nb.no/search?q=oaiid:"oai:nb.bibsys.no:999007476414702202"&mediatype=bøker$yNettbiblioteket$zSøke-URL
@@ -9904,8 +9904,8 @@
 =500  \\$aUtgitt første gang på norsk: Oslo : Aschehoug, 1985
 =533  \\$aElektronisk reproduksjon$b[Norge]$cNasjonalbiblioteket Digital$d2014-09-17
 =653  \\$averdenskrigen$a1939-1945$afortellinger
-=700  1\$aRisvik, Kari$d1932-$4trl$0(NO-TrBIB)90181750$1http://viaf.org/viaf/106222856
-=700  1\$aRisvik, Kjell$d1941-$4trl$0(NO-TrBIB)90330576$1http://viaf.org/viaf/66142208
+=700  1\$aRisvik, Kari$d1932-$4trl$0(NO-TrBIB)90181750$1http://viaf.org/viaf/106222856$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aRisvik, Kjell$d1941-$4trl$0(NO-TrBIB)90330576$1http://viaf.org/viaf/66142208$4http://rdaregistry.info/Elements/e/object/P20037
 =856  41$3Fulltekst$uhttps://www.nb.no/search?q=oaiid:"oai:nb.bibsys.no:998900368454702202"&mediatype=bøker$yNettbiblioteket$zSøke-URL
 
 =LDR  00558nam a22001693i 4500
@@ -10063,7 +10063,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =594  \\$aTraducción de: Millenium people
-=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01249nam a2200289 c 4500
 =001  901227854
@@ -10115,7 +10115,7 @@
 =490  1\$aPhantastische Bibliothek$vBd. 56
 =490  1\$aSuhrkamp Taschenbuch$v727
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tThe day of forever$gdt.$1http://viaf.org/viaf/307992426
-=700  12$aWalter, Michael$4trl$1https://isni.org/isni/0000000110758382
+=700  12$aWalter, Michael$4trl$1https://isni.org/isni/0000000110758382$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aPhantastische Bibliothek$vBd. 56$w(DE-101)012995118$w(DE-600)547149-7$9256$7as
 =830  \0$aSuhrkamp Taschenbuch$v727$w(DE-101)015103463$w(DE-600)968207-7$93727$7as
 
@@ -10221,7 +10221,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =440  \3$aEl balancí$v192
 =500  \\$aTraducción de: Empire of the sun
-=700  1\$aBoluda i Torrella, Carles$4trl
+=700  1\$aBoluda i Torrella, Carles$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00818cam a22002297i 4500
 =001  007302195
@@ -10307,7 +10307,7 @@
 =653  \\$a(Produktform)Electronic book text
 =653  \\$a(VLB-WN)9112: Nonbooks, PBS / Belletristik/Gegenwartsliteratur (ab 1945)
 =655  \7$0(DE-101)1010008188$aErzählende Literatur: Gegenwartsliteratur ab 1945$2gatbeg
-=700  1\$82\p$aKoseler, Michael$eÜbersetzer$4trl
+=700  1\$82\p$aKoseler, Michael$eÜbersetzer$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$83\p$0(DE-588)1064211070$0https://d-nb.info/gnd/1064211070$0(DE-101)1064211070$aDiaphanes$eVerlag$4pbl$2gnd
 =776  08$iElektronische Reproduktion von$z9783037349328
 =776  08$iErscheint auch als$nDruck-Ausgabe$aBallard, J. G., 1930-2009$tHigh-Rise$dZürich : Diaphanes, 2016$h252 Seiten$w(DE-101)1101956690$b1. Auflage, revidierte Fassung der 1992 im Suhrkamp Verlag publizierten Übersetzung
@@ -10410,7 +10410,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  1\$aAutores
 =594  \\$aTraducción de: Myths of the near future
-=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aAutores (Barcelona)
 
 =LDR  07581cam a22005653a 4500
@@ -10515,8 +10515,8 @@
 =653  \\$a(VLB-PF)BC: Paperback
 =653  \\$a(VLB-WG)130: Belletristik / Science Fiction, Fantasy
 =653  \\$a(VLB-WI)2: Taschenbuch
-=700  1\$0https://d-nb.info/gnd/1204277397$aHerrmann, Angela$eMitwirkender$4trl$1https://d-nb.info/gnd/1204277397
-=700  1\$aRiffel, Hannes$eMitwirkender$4trl$1http://viaf.org/viaf/37634899
+=700  1\$0https://d-nb.info/gnd/1204277397$aHerrmann, Angela$eMitwirkender$4trl$1https://d-nb.info/gnd/1204277397$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aRiffel, Hannes$eMitwirkender$4trl$1http://viaf.org/viaf/37634899$4http://rdaregistry.info/Elements/e/object/P20037
 =773  08$q11$w(DE-101)984138587
 
 =LDR  01969cam a22004577i 4500
@@ -10913,7 +10913,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aNovel
-=700  \\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  \\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00610nam a2200169 a 4500
 =001  013161079
@@ -11071,8 +11071,8 @@
 =347  \\$adata file$2rda
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =533  \\$aElektronisk reproduksjon$b[Norge]$cNasjonalbiblioteket Digital$d2009-04-26
-=700  1\$aPedersen, Odd Kvaal$d1935-1990$0(NO-TrBIB)90052113$4trl$1http://viaf.org/viaf/29585795
-=700  1\$aTjomsland, Lajla M. Jensen$d1944-$4trl$0(NO-TrBIB)14006933$4trl$1http://viaf.org/viaf/66145969953332250358
+=700  1\$aPedersen, Odd Kvaal$d1935-1990$0(NO-TrBIB)90052113$4trl$1http://viaf.org/viaf/29585795$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aTjomsland, Lajla M. Jensen$d1944-$4trl$0(NO-TrBIB)14006933$4trl$1http://viaf.org/viaf/66145969953332250358$4http://rdaregistry.info/Elements/e/object/P20037
 =856  41$3Fulltekst$uhttps://www.nb.no/search?q=oaiid:"oai:nb.bibsys.no:999102198184702202"&mediatype=bøker$yNettbiblioteket$zSøke-URL
 =856  42$3Beskrivelse fra Forlagssentralen$uhttp://content.bibsys.no/content/?type=descr_forlagssentr&isbn=8203157742
 
@@ -11143,7 +11143,7 @@
 =655  \7$aromaner$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s518
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$asvart humor$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s270
-=700  1\$aKeynäs, Ville,$ekääntäjä.$0(FI-ASTERI-N)000108428$4trl
+=700  1\$aKeynäs, Ville,$ekääntäjä.$0(FI-ASTERI-N)000108428$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$aLoki-kirjat (yhtiö),$ekustantaja.$0(FI-ASTERI-N)000216267
 
 =LDR  00905nam a2200241 i 4500
@@ -11167,7 +11167,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =500  \\$aTraducción de: Empire of the sun
-=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374
+=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01103nam a2200277 c 4500
 =001  949081140
@@ -11191,7 +11191,7 @@
 =336  \\$aText$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01329nam a2200325 c 4500
 =001  730233030
@@ -11219,7 +11219,7 @@
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  0\$ascience-fiction und fantastica
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tVermilion Sands$gdt.$1http://viaf.org/viaf/307991538
-=700  12$aScholz, Alfred$4trl$1http://viaf.org/viaf/1660159234598103372119
+=700  12$aScholz, Alfred$4trl$1http://viaf.org/viaf/1660159234598103372119$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00951cam a2200277   4500
 =001  7281177
@@ -11246,7 +11246,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aNovel
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0322971$1http://viaf.org/viaf/237688467
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0322971$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00882nam a22002415  4500
 =001  bimo0000276275
@@ -11269,7 +11269,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =594  \\$aTraducción de: The voices of time
-=700  1\$aGardini, Carlos$d1948-$4trl
+=700  1\$aGardini, Carlos$d1948-$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00902nam a2200241 i 4500
 =001  bimo0000340313
@@ -11292,7 +11292,7 @@
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =500  \\$aTraducción de : Myths of the Near Future
-=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00690cam a22001933  4500
 =001  2836612
@@ -11383,7 +11383,7 @@
 =653  \\$aSexualität
 =655  \7$0(DE-101)1010008188$aErzählende Literatur: Gegenwartsliteratur ab 1945$2gatbeg
 =655  \7$81\p$0(DE-588)1071854844$0https://d-nb.info/gnd/1071854844$0(DE-101)1071854844$aFiktionale Darstellung$2gnd-content
-=700  1\$0(DE-588)1043531394$0https://d-nb.info/gnd/1043531394$0(DE-101)1043531394$aSchulz, Sabine$eÜbersetzer$4trl$2gnd
+=700  1\$0(DE-588)1043531394$0https://d-nb.info/gnd/1043531394$0(DE-101)1043531394$aSchulz, Sabine$eÜbersetzer$4trl$2gnd$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$82\p$0(DE-588)1064211070$0https://d-nb.info/gnd/1064211070$0(DE-101)1064211070$aDiaphanes$eVerlag$4pbl$2gnd
 =776  08$iErscheint auch als$nDruck-Ausgabe$aBallard, J. G., 1930-2009$tCrash$dZürich : Diaphanes, 2019$h238 Seiten$w(DE-101)1159721165$b1. Auflage
 =776  08$iErscheint auch als$nOnline-Ausgabe$z9783035802573
@@ -11410,7 +11410,7 @@
 =336  \\$atext$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aunmediated$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aAntolín Rato, Mariano$d1943-$4trl$1http://viaf.org/viaf/7406407
+=700  1\$aAntolín Rato, Mariano$d1943-$4trl$1http://viaf.org/viaf/7406407$4http://rdaregistry.info/Elements/e/object/P20037
 =700  1\$aBallard, J. G.$d1930-2009$4aui$1http://viaf.org/viaf/9842556
 =700  1\$aLarkin, David$4edt$1http://viaf.org/viaf/277669549
 
@@ -11436,7 +11436,7 @@
 =338  \\$avolume$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  1\$aAutores
 =594  \\$aTraducción de: Concrete island
-=700  1\$aFigueroa, Manuel$4trl$1http://viaf.org/viaf/87721105
+=700  1\$aFigueroa, Manuel$4trl$1http://viaf.org/viaf/87721105$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aAutores (Barcelona)
 
 =LDR  02719nam a2200541uc 4500
@@ -11544,7 +11544,7 @@
 =650  \7$asuomenkielinen kirjallisuus$2yso/fin$0http://www.yso.fi/onto/yso/p16810
 =655  \7$akaunokirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
-=700  1\$aNousiainen, Jussi$c(kääntäjä)$0(FI-ASTERI-N)000111824$4trl
+=700  1\$aNousiainen, Jussi$c(kääntäjä)$0(FI-ASTERI-N)000111824$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aTop books.
 
 =LDR  00582cam a22001695a 4500
@@ -11598,7 +11598,7 @@
 =655  \7$apsykologiska romaner$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s604
 =655  \7$ascience fiction-litteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s418
 =655  \7$atieteiskirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s418
-=700  1\$aKeynäs, Ville,$0(FI-ASTERI-N)000108428$4trl
+=700  1\$aKeynäs, Ville,$0(FI-ASTERI-N)000108428$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$aLoki-kirjat (yhtiö),$ekustantaja.$0(FI-ASTERI-N)000216267
 =740  0\$aKolari.
 
@@ -11767,7 +11767,7 @@
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$athrillers (litteratur)$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s382
 =655  \7$atieteiskirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s418
-=700  1\$aTervaharju, Hannu,$ekääntäjä.$0(FI-ASTERI-N)000112855$4trl
+=700  1\$aTervaharju, Hannu,$ekääntäjä.$0(FI-ASTERI-N)000112855$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aLike-scifi.
 
 =LDR  02546pam a2200397 c 4500
@@ -11801,7 +11801,7 @@
 =653  \\$a(VLB-WG)130: Belletristik / Science Fiction, Fantasy
 =653  \\$a(VLB-WI)1: Hardcover, Softcover, Karte
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tThe crystal world$gdt.$1http://viaf.org/viaf/307967896
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aPhantasia-Paperback / Science-Fiction$n[...]$pScience-Fiction$tPhantasia-Paperback$vBd. 1003$w(DE-101)974088293$w(DE-600)2282270-7$941003$7as
 
 =LDR  02506nam a2200577uc 4500
@@ -11890,10 +11890,10 @@
 =650  \7$aLiterary studies: fiction, novelists & prose writers.$2bicssc
 =650  \7$aLiterary studies: from c 1900 -.$2bicssc
 =650  \7$aLiterature.$2eflch
-=700  1\$aBrown, B.J.$4aut$4http://rdaregistry.info/Elements/w/object/P10061
-=700  1\$aCarter, Ronald,$d1947-$0https://libris.kb.se/75kmmf3r52p9gxs#it$4aut$4http://rdaregistry.info/Elements/w/object/P10061
-=700  1\$aCrawford, Paul.$4aut$4http://rdaregistry.info/Elements/w/object/P10061
-=700  1\$aLipsedge, Maurice.$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=700  1\$aBrown, B.J.$4aut
+=700  1\$aCarter, Ronald,$d1947-$0https://libris.kb.se/75kmmf3r52p9gxs#it$4aut
+=700  1\$aCrawford, Paul.$4aut
+=700  1\$aLipsedge, Maurice.$4aut
 =856  40$5Hdig$uhttp://link.sub.su.se/sfxsub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=2670000000070161&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&$zTillgänglig för användare inom Stockholms universitet$zSpringerLink Books - AutoHoldings:Full Text
 =856  42$uhttp://dx.doi.org/10.1057/9780230290440$x856other$zTable of Contents / Abstracts
 
@@ -11972,7 +11972,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =500  \\$aTraducción de: The drowned world
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$4trl$1http://viaf.org/viaf/76117483
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02605cam a22004457a 4500
 =001  14971500
@@ -12057,7 +12057,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =500  \\$aTraducción de : The crystal world
-=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00868nam a22002415  4500
 =001  bimo0000096631
@@ -12081,7 +12081,7 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =440  \3$aEl brot$v63
 =594  \\$aTraducción de: Concrete island
-=700  1\$aBoixadós, Jordi$d1958-$4trl
+=700  1\$aBoixadós, Jordi$d1958-$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =700  1\$aRamoneda, Josep$4aui
 
 =LDR  00929nam a2200241   4500
@@ -12107,7 +12107,7 @@
 =490  1\$aBiblioteca de ciencia ficción
 =594  \\$aTraducción de: Drowned world
 =830  \0$aBiblioteca de ciencia ficción (Barcelona)
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  03004cam a2200697 i 4500
 =001  006163373
@@ -12165,7 +12165,7 @@
 =655  \7$ascience fiction-litteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s418
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$atieteiskirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s418
-=700  1\$aRosvall, Matti,$ekääntäjä,$esuom.$0(FI-ASTERI-N)000076610$4trl
+=700  1\$aRosvall, Matti,$ekääntäjä,$esuom.$0(FI-ASTERI-N)000076610$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aSaturnus SciFi.
 
 =LDR  01434nam a2200349 c 4500
@@ -12222,7 +12222,7 @@
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  0\$aScience-fiction & fantastica
 =500  \\$aAus d. Amerikan. übers.
-=700  12$aScholz, Alfred$4trl$1http://viaf.org/viaf/1660159234598103372119
+=700  12$aScholz, Alfred$4trl$1http://viaf.org/viaf/1660159234598103372119$4http://rdaregistry.info/Elements/e/object/P20037
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tThe impossible man and other stories$gdt.$1http://www.wikidata.org/entity/Q7741590
 
 =LDR  00661cam a22002178i 4500
@@ -12473,7 +12473,7 @@
 =337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=700  1\$aDomènech, Luis$d1922-2014$4trl$1http://viaf.org/viaf/2296633
+=700  1\$aDomènech, Luis$d1922-2014$4trl$1http://viaf.org/viaf/2296633$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00857cam a2200229   4500
 =001  a4329639
@@ -12497,7 +12497,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =594  \\$aTraducción de: Drowned world
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01612cam a22003737c 4500
 =001  991313701464702201
@@ -12560,7 +12560,7 @@
 =653  \\$a(VLB-PF)BC: Paperback
 =653  \\$a(VLB-WN)1131: HC/Belletristik/Science Fiction
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tThe drowned world$gdt.$1http://viaf.org/viaf/309277534
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aPhantasia-Paperback / Science-Fiction$n[...]$pScience-Fiction$tPhantasia-Paperback$vBd. 1010$w(DE-101)974088293$w(DE-600)2282270-7$941010$7as
 =856  42$mX:MVB$qtext/html$uhttp://deposit.dnb.de/cgi-bin/dokserv?id=3062570&prov=M&dok_var=1&dok_ext=htm$3Inhaltstext
 
@@ -12586,8 +12586,8 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  0\$aEdiciones Minotauro
 =500  \\$aÍndice
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
-=700  1\$aCohen, Marcelo$d1951-$4trl$1http://viaf.org/viaf/116307066
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aCohen, Marcelo$d1951-$4trl$1http://viaf.org/viaf/116307066$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01174nam a2200277 c 4500
 =001  a5263005
@@ -12713,7 +12713,7 @@
 =490  1\$aHeyne-Bücher$vNr. 3803 : Science fiction
 =500  \\$aAus d. Engl. übers.
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tConcrete island$gdt.$1http://viaf.org/viaf/174604532
-=700  12$aWalter, Brumm$4trl$1https://isni.org/isni/0000000388879998
+=700  12$aWalter, Brumm$4trl$1https://isni.org/isni/0000000388879998$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aHeyne-Bücher$vNr. 3803 : Science fiction$943803
 
 =LDR  01404cam a2200385 i 4500
@@ -12776,7 +12776,7 @@
 =347  \\$adata file$2rda
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =533  \\$aElektronisk reproduksjon$b[Norge]$cNasjonalbiblioteket Digital$d2010-02-26
-=700  1\$aHerrman, Bjørn Alex$4trl
+=700  1\$aHerrman, Bjørn Alex$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =856  41$3Fulltekst$uhttps://www.nb.no/search?q=oaiid:"oai:nb.bibsys.no:999319092604702202"&mediatype=bøker$yNettbiblioteket$zSøke-URL
 =856  42$3Beskrivelse fra Forlagssentralen$uhttp://content.bibsys.no/content/?type=descr_forlagssentr&isbn=8203168779
 
@@ -13019,7 +13019,7 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =440  \0$a2001$v12
 =500  \\$aTraducción de: The vermilion sands
-=700  1\$aSantamaria, Laura$4trl
+=700  1\$aSantamaria, Laura$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02380pam a2200469 c 4500
 =001  1173345353
@@ -13054,7 +13054,7 @@
 =653  \\$a(VLB-WN)1112: Hardcover, Softcover / Belletristik/Gegenwartsliteratur (ab 1945)
 =655  \7$0(DE-101)1010008188$aErzählende Literatur: Gegenwartsliteratur ab 1945$2gatbeg
 =655  \7$0(DE-588)1071854844$0https://d-nb.info/gnd/1071854844$0(DE-101)1071854844$aFiktionale Darstellung$2gnd-content
-=700  1\$0(DE-588)111039894$0https://d-nb.info/gnd/111039894$0(DE-101)111039894$aSchönfeld, Eike$d1949-$eÜbersetzer$4trl$2gnd
+=700  1\$0(DE-588)111039894$0https://d-nb.info/gnd/111039894$0(DE-101)111039894$aSchönfeld, Eike$d1949-$eÜbersetzer$4trl$2gnd$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$81\p$0(DE-588)1064211070$0https://d-nb.info/gnd/1064211070$0(DE-101)1064211070$aDiaphanes$eVerlag$4pbl$2gnd
 =776  08$iErscheint auch als$nOnline-Ausgabe$tDas Reich kommt$dZürich : Diaphanes, 2019$hOnline-Ressource, 368 Seiten$w(DE-101)1187661414
 =856  42$mB:DE-101$qapplication/pdf$uhttps://d-nb.info/1173345353/04$3Inhaltsverzeichnis
@@ -13233,8 +13233,8 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =500  \\$aTraducción de: The unlimited dream company
-=700  1\$aPezzoni, Enrique$d1926-1989$4trl
-=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  1\$aPezzoni, Enrique$d1926-1989$4trl$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02632nam a2200505 i 4500
 =001  q205pglbnz9tplbb
@@ -13297,7 +13297,7 @@
 =337  \\$auformidlet$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=700  1\$aGille, Elisabeth$d1922-2014$4trl
+=700  1\$aGille, Elisabeth$d1922-2014$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00605cam a22001812i 4500
 =001  011691239
@@ -13370,7 +13370,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =500  \\$aIndices
-=700  1\$aDomènech, Luis$d1922-2014$4trl$1http://viaf.org/viaf/2296633
+=700  1\$aDomènech, Luis$d1922-2014$4trl$1http://viaf.org/viaf/2296633$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01572cam a22003377  4500
 =001  6122682
@@ -13422,7 +13422,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =594  \\$aTraducción de: Empire of the sun
-=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374
+=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01251nam a22003251i 4500
 =001  019683176
@@ -13473,7 +13473,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =594  \\$aTraducción de: The disaster area
-=700  11$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  11$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00891nam a2200241   4500
 =001  Mimo0002142599
@@ -13498,7 +13498,7 @@
 =490  1\$aBiblioteca de ciencia ficción
 =594  \\$aTraducción de: Crash
 =830  \0$aBiblioteca de ciencia ficción (Barcelona)
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01077cam a2200325 i 4500
 =001  016659420
@@ -13617,8 +13617,8 @@
 =490  1\$aAutores$v8
 =590  \\$aEn la portada: Minotauro
 =594  \\$aTraducción de: Cocaine nights
-=700  1\$aKomet, Silvia$4trl$1http://viaf.org/viaf/36514731
-=700  1\$aFigueroa, M.$4trl$1http://viaf.org/viaf/87721105
+=700  1\$aKomet, Silvia$4trl$1http://viaf.org/viaf/36514731$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aFigueroa, M.$4trl$1http://viaf.org/viaf/87721105$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aAutores (Booket (Editorial))$v8
 
 =LDR  00756cam a22002538i 4500
@@ -13665,8 +13665,8 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =594  \\$aTraducción de: Cocaine nights
-=700  1\$aKomet, Silvia$4trl$1http://viaf.org/viaf/36514731
-=700  1\$aFigueroa, M.$4trl$1http://viaf.org/viaf/87721105
+=700  1\$aKomet, Silvia$4trl$1http://viaf.org/viaf/36514731$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aFigueroa, M.$4trl$1http://viaf.org/viaf/87721105$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00940nam a2200253   4500
 =001  Mimo0001817151
@@ -13691,7 +13691,7 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  1\$a[Biblioteca J.G. Ballard]
 =594  \\$aTraducción de: Super-Cannes
-=700  1\$aLeo, Octavio di$4trl
+=700  1\$aLeo, Octavio di$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =800  1\$aBallard, J. G.$d1930-2009$tBiblioteca J.G. Ballard
 
 =LDR  02584pam a2200553 i 4500
@@ -13806,7 +13806,7 @@
 =650  \7$avankileirit$2yso/fin$0http://www.yso.fi/onto/yso/p145
 =655  \7$akaunokirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
-=700  1\$aLindholm, Juhani.$0(FI-ASTERI-N)000111549$4trl
+=700  1\$aLindholm, Juhani.$0(FI-ASTERI-N)000111549$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aOtavan kirjasto.
 
 =LDR  01359cam a22003257i 4500
@@ -13861,7 +13861,7 @@
 =337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tCrash$gdt.$1http://viaf.org/viaf/305922109
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02515pam a2200541 c 4500
 =001  1159721165
@@ -13903,7 +13903,7 @@
 =653  \\$aSexualität
 =655  \7$0(DE-101)1010008188$aErzählende Literatur: Gegenwartsliteratur ab 1945$2gatbeg
 =655  \7$0(DE-588)1071854844$0https://d-nb.info/gnd/1071854844$0(DE-101)1071854844$aFiktionale Darstellung$2gnd-content
-=700  1\$0(DE-588)1043531394$0https://d-nb.info/gnd/1043531394$0(DE-101)1043531394$aSchulz, Sabine$eÜbersetzer$4trl$2gnd
+=700  1\$0(DE-588)1043531394$0https://d-nb.info/gnd/1043531394$0(DE-101)1043531394$aSchulz, Sabine$eÜbersetzer$4trl$2gnd$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$81\p$0(DE-588)1064211070$0https://d-nb.info/gnd/1064211070$0(DE-101)1064211070$aDiaphanes$eVerlag$4pbl$2gnd
 =776  08$iErscheint auch als$nOnline-Ausgabe$tCrash$dZürich : Diaphanes, 2019$hOnline-Ressource, 240 Seiten$w(DE-101)1200917782
 =856  42$mX:MVB$qtext/html$uhttp://deposit.dnb.de/cgi-bin/dokserv?id=740f1f87e21c45fdb41b14508e78ebc6&prov=M&dok_var=1&dok_ext=htm$3Inhaltstext
@@ -13951,7 +13951,7 @@
 =653  \\$aTerror
 =655  \7$0(DE-101)1010008188$aErzählende Literatur: Gegenwartsliteratur ab 1945$2gatbeg
 =655  \7$81\p$0(DE-588)1071854844$0https://d-nb.info/gnd/1071854844$0(DE-101)1071854844$aFiktionale Darstellung$2gnd-content
-=700  1\$aBender, Jan$eÜbersetzer$4trl
+=700  1\$aBender, Jan$eÜbersetzer$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$82\p$0(DE-588)1064211070$0https://d-nb.info/gnd/1064211070$0(DE-101)1064211070$aDiaphanes$eVerlag$4pbl$2gnd
 =776  08$iErscheint auch als$nDruck-Ausgabe$aBallard, J. G., 1930-2009$tMillennium people$dZürich : diaphanes, 2018$h356 Seiten$w(DE-101)1132723493$b1. Auflage
 =776  08$iErscheint auch als$nOnline-Ausgabe$z9783035801644
@@ -13983,7 +13983,7 @@
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  0\$3Bibliothek des Abenteuers $aRobinsons Neue Welten
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tThe unlimited dream company$gdt.$1http://viaf.org/viaf/307972381
-=700  12$aWalter, Michael$4trl$1https://isni.org/isni/0000000110758382
+=700  12$aWalter, Michael$4trl$1https://isni.org/isni/0000000110758382$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01736cam a22003614i 4500
 =001  006083637
@@ -14112,7 +14112,7 @@
 =490  1\$aHeyne-Bücher : 06, Science-fiction$vNr. 3855
 =500  \\$aAus d. Engl. übers.
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tHigh rise$gdt.$1http://viaf.org/viaf/308016990
-=700  12$aWalter, Brumm$4trl$1https://isni.org/isni/0000000388879998
+=700  12$aWalter, Brumm$4trl$1https://isni.org/isni/0000000388879998$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aHeyne-Bücher / 06$vNr. 3855$943855
 
 =LDR  00784cam a22002417a 4500
@@ -14402,8 +14402,8 @@
 =490  1\$aBestseller$v758/4
 =490  1\$aBiblioteca J.G. Ballard$v4
 =594  \\$aTraducción de: The unlimited dream company
-=700  1\$aPezzoni, Enrique$d1965-$4trl
-=700  1\$aSouto, Marcial$d1965-$4trl$1https://isni.org/isni/0000000119351140
+=700  1\$aPezzoni, Enrique$d1965-$4trl$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aSouto, Marcial$d1965-$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 =800  1\$aBallard, J. G.$d1930-2009$tBiblioteca J.G. Ballard (Debolsillo)$v758/4
 =830  \0$aBestseller (Barcelona)$v4
 
@@ -14454,7 +14454,7 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  0\$aLiteratura fantástica$v8
 =594  \\$aTítulo original: The cristal world
-=700  1\$aManzano, Manuel$d1965-$4trl
+=700  1\$aManzano, Manuel$d1965-$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01891cam a2200349 c 4500
 =001  990811140954702201
@@ -14535,7 +14535,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =594  \\$aTraducción de: The drought
-=700  1\$aDomènech, Luis$4trl$1http://viaf.org/viaf/2296633
+=700  1\$aDomènech, Luis$4trl$1http://viaf.org/viaf/2296633$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00583nam a2200169 a 4500
 =001  010874071
@@ -14595,7 +14595,7 @@
 =655  \7$aromaanit$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s518
 =655  \7$aromaner$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s518
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
-=700  1\$aSill, Alastair,$elukija.$4nrt
+=700  1\$aSill, Alastair,$elukija.$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 =700  1\$aSmith, Zadie,$eesipuheen kirjoittaja.$4aui
 
 =LDR  01343cam a2200325   4500
@@ -14622,7 +14622,7 @@
 =490  1\$aBest seller$v758/1
 =490  1\$aBiblioteca J.G. Ballard$v1
 =594  \\$aTraducción de: Empire of the sun
-=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374
+=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374$4http://rdaregistry.info/Elements/e/object/P20037
 =800  1\$aBallard, J. G.$d1930-2009$tBiblioteca J.G. Ballard (Debolsillo)
 =830  \0$aBestseller (Barcelona)$v758/1
 
@@ -14773,7 +14773,7 @@
 =655  \7$ascience fiction-litteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s418
 =655  \7$askönlitteratur$2slm/swe$0http://urn.fi/URN:NBN:fi:au:slm:s975
 =655  \7$atieteiskirjallisuus$2slm/fin$0http://urn.fi/URN:NBN:fi:au:slm:s418
-=700  1\$aRenvall, Mika,$ekääntäjä.$0(FI-ASTERI-N)000112023$4trl
+=700  1\$aRenvall, Mika,$ekääntäjä.$0(FI-ASTERI-N)000112023$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aSaturnus SciFi.
 
 =LDR  00780cam a2200229   4500
@@ -14798,7 +14798,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =594  \\$aTraducción de: Crash
-=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483
+=700  1\$aAbelenda, Francisco$d1922-2014$4trl$1http://viaf.org/viaf/76117483$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  05102pam a2200829 c 4500
 =001  981025323
@@ -14885,7 +14885,7 @@
 =653  \\$aTerror
 =655  \7$0(DE-101)1010008188$aErzählende Literatur: Gegenwartsliteratur ab 1945$2gatbeg
 =655  \7$0(DE-588)1071854844$0https://d-nb.info/gnd/1071854844$0(DE-101)1071854844$aFiktionale Darstellung$2gnd-content
-=700  1\$aBender, Jan$eÜbersetzer$4trl
+=700  1\$aBender, Jan$eÜbersetzer$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$81\p$0(DE-588)1064211070$0https://d-nb.info/gnd/1064211070$0(DE-101)1064211070$aDiaphanes$eVerlag$4pbl$2gnd
 =776  08$iErscheint auch als$nOnline-Ausgabe$tMillennium People$dZürich : Diaphanes, 2018$hOnline-Ressource, 360 Seiten$w(DE-101)1172212848
 =856  42$mB:DE-101$qapplication/pdf$uhttps://d-nb.info/1132723493/04$3Inhaltsverzeichnis
@@ -14963,7 +14963,7 @@
 =338  \\$abind$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =500  \\$aTraducción de: Hello América
-=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374
+=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  03429cam a22005053a 4500
 =001  12517647
@@ -15035,7 +15035,7 @@
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =490  1\$aGoldmann$v83947
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tCocaine nights$gdt.$1http://viaf.org/viaf/7815148574285124430000
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aGoldmann$v83947$w(DE-101)01079042X$w(DE-600)135758-X$9583947$7as
 
 =LDR  00827cim a22002534i 4500
@@ -15060,7 +15060,7 @@
 =347  \\$aaudio file$bCD audio$2rda
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =511  0\$aRead by David Rintoul.
-=700  1\$aRintoul, David,$eesittäjä.$4nrt
+=700  1\$aRintoul, David,$eesittäjä.$4nrt$4http://rdaregistry.info/Elements/e/object/P20022
 
 =LDR  00862nam a22002415  4500
 =001  bimo0000293339
@@ -15084,7 +15084,7 @@
 =338  \\$avolume$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =594  \\$aTraducción de: Vermilion Sands
-=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00987nam a2200265   4500
 =001  bimo0001912235
@@ -15110,7 +15110,7 @@
 =490  1\$aAutores$v16
 =590  \\$aEn la portada: Minotauro
 =594  \\$aTraducción de: The day of creation
-=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374
+=700  1\$aPeralta, Carlos$4trl$1http://viaf.org/viaf/7284374$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aAutores (Booket (Editorial))$v16
 
 =LDR  00923nam a2200241 a 4500
@@ -15156,7 +15156,7 @@
 =337  \\$aunmediated$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$avolume$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
-=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0322971$1http://viaf.org/viaf/237688467
+=700  1\$aNilsson, Hans-Jacob,$d1949-$4trl$0322971$1http://viaf.org/viaf/237688467$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00911cam a22002297c 4500
 =001  991418343584702201
@@ -15277,7 +15277,7 @@
 =336  \\$aText$btxt$2rdacontent$0http://rdaregistry.info/termList/RDAContentType/1020
 =337  \\$aohne Hilfsmittel zu benutzen$bn$2rdamedia$0http://rdaregistry.info/termList/RDAMediaType/1007
 =338  \\$aBand$bnc$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  00694nam a2200193 a 4500
 =001  017186844
@@ -15332,7 +15332,7 @@
 =653  \\$a(VLB-WN)1112: Hardcover, Softcover / Belletristik/Gegenwartsliteratur (ab 1945)
 =655  \7$0(DE-101)1010008188$aErzählende Literatur: Gegenwartsliteratur ab 1945$2gatbeg
 =655  \7$0(DE-588)1071854844$0https://d-nb.info/gnd/1071854844$0(DE-101)1071854844$aFiktionale Darstellung$2gnd-content
-=700  1\$0(DE-588)107849410$0https://d-nb.info/gnd/107849410$0(DE-101)107849410$aWeissner, Carl$d1940-2012$eÜbersetzer$4trl$2gnd
+=700  1\$0(DE-588)107849410$0https://d-nb.info/gnd/107849410$0(DE-101)107849410$aWeissner, Carl$d1940-2012$eÜbersetzer$4trl$2gnd$4http://rdaregistry.info/Elements/e/object/P20037
 =710  2\$81\p$0(DE-588)1064211070$0https://d-nb.info/gnd/1064211070$0(DE-101)1064211070$aDiaphanes$eVerlag$4pbl$2gnd
 =776  08$iErscheint auch als$nOnline-Ausgabe$tLiebe & Napalm: Export USA$dZürich : Diaphanes, 2020$hOnline-Ressource, 176 Seiten$w(DE-101)1222675749
 =856  42$mB:DE-101$qapplication/pdf$uhttps://d-nb.info/1201894808/04$3Inhaltsverzeichnis
@@ -15360,7 +15360,7 @@
 =338  \\$avolume$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =594  \\$aTraducción de: Low-flying aircraft
-=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01220camsa2200265ba 4500
 =001  10245321
@@ -15475,7 +15475,7 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =700  12$aBallard, J. G.$d1930-2009$tConcrete Island$1http://viaf.org/viaf/174604532
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tCrash$gdt.$1http://viaf.org/viaf/305922109
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01137cam a2200289   4500
 =001  a4724726
@@ -15503,7 +15503,7 @@
 =490  1\$aBiografía$v237
 =594  \\$aTítulo original: Miracles of life
 =600  17$aBallard, J. G.$d1930-2009$xBiografías$2embne$1http://viaf.org/viaf/9842556
-=700  1\$aCalv, Ignacio Gómez$4trl
+=700  1\$aCalv, Ignacio Gómez$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aBiografía (Nuevas Ediciones de Bolsillo)$v237
 
 =LDR  01063cam a2200277   4500
@@ -15530,7 +15530,7 @@
 =490  1\$aBest seller$v758/2
 =490  1\$aBiblioteca J.G. Ballard$v2
 =594  \\$aTraducción de: The kindness of women
-=700  1\$aFort, Luis Murillo$4trl
+=700  1\$aFort, Luis Murillo$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 =800  1\$aBallard, J. G.$d1930-2009$tBiblioteca J.G. Ballard (Debolsillo)$v2
 =830  \0$aBestseller (Barcelona)$v758/2
 
@@ -15560,7 +15560,7 @@
 =347  \\$adata file$2rda
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =533  \\$aElektronisk reproduksjon$b[Norge]$cNasjonalbiblioteket Digital$d2012-02-25
-=700  1\$aPedersen, Odd Kvaal$d1935-1990$0(NO-TrBIB)90052113$4trl$1http://viaf.org/viaf/29585795
+=700  1\$aPedersen, Odd Kvaal$d1935-1990$0(NO-TrBIB)90052113$4trl$1http://viaf.org/viaf/29585795$4http://rdaregistry.info/Elements/e/object/P20037
 =856  41$3Fulltekst$uhttps://www.nb.no/search?q=oaiid:"oai:nb.bibsys.no:998821673324702202"&mediatype=bøker$yNettbiblioteket$zSøke-URL
 =856  42$3Beskrivelse fra Forlagssentralen$uhttp://content.bibsys.no/content/?type=descr_forlagssentr&isbn=8203158137
 
@@ -15702,9 +15702,9 @@
 =338  \\$avolume$2rdacarrier$0http://rdaregistry.info/termList/RDACarrierType/1049
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =594  \\$aTraducción de: The day of forever
-=700  1\$aBernárdez, Aurora$d1920-2014$4trl
-=700  1\$aGardini, Carlos$d1948-$4trl
-=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140
+=700  1\$aBernárdez, Aurora$d1920-2014$4trl$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aGardini, Carlos$d1948-$4trl$4http://rdaregistry.info/Elements/e/object/P20037
+=700  1\$aSouto, Marcial$4trl$1https://isni.org/isni/0000000119351140$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  04458nam a22005411c 4500
 =001  999919912665102201
@@ -15779,7 +15779,7 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  1\$aGoldmann$v43574
 =700  12$aBallard, J. G.$d1930-2009$2gnd$tCrash$gdt.$1http://viaf.org/viaf/305922109
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 =830  \0$aGoldmann$v43574$w(DE-101)01079042X$w(DE-600)135758-X$9543574$7as
 
 =LDR  00949nam a2200277 c 4500
@@ -15807,7 +15807,7 @@
 =380  \\$aSpråkbasert verk$1https://schema.nb.no/Bibliographic/Values/V1000
 =490  0\$aLiteratura fantástica
 =594  \\$aTítulo del original en inglés: Crash
-=700  1\$aManzano, Manuel$d1965-$4trl
+=700  1\$aManzano, Manuel$d1965-$4trl$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  02406cam a2200409 i 4500
 =001  w9xsv1nztwphbhrd
@@ -16716,7 +16716,7 @@
 =505  0\$aRaum, Zeit und Entropie / Michael K. Iwoleit -- Das Lächeln / J.G. Ballard -- Von Shanghai nach Shepperton / J.G. Ballard & David Pringle -- J.G. Ballard und die Grenzen der Mainstream-SF / Charles Nicol -- Das Angriffsziel / J.G. Ballard -- Ein Interview mit J.G. Ballard / Werner Fuchs, Joachim Körber -- Die Einheit der Welt / Franz Rottensteiner -- Die hermetische Welt der Moderne / Joachim Körber -- Die Schreckensgalerie / Heinrich Keim -- Das Attentat auf John F. Kennedy, als Bergab-Autorennen inszeniert / J.G. Ballard -- Bibliographie / Joachim Körber & Uli Kohnle.
 =600  10$aBallard, J. G.$d1930-2009$xCriticism and interpretation.$1http://viaf.org/viaf/9842556
 =650  \0$aScience fiction, English$xHistory and criticism.
-=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705
+=700  1\$aKörber, Joachim$4trl$1http://viaf.org/viaf/37083705$4http://rdaregistry.info/Elements/e/object/P20037
 
 =LDR  01339cam a2200349 a 4500
 =001  15768747
@@ -17509,7 +17509,7 @@
 =650  \0$aBoys$vFiction.
 =650  \0$aWorld War, 1939-1945$zChina$zShanghai$vFiction.
 =651  \0$aShanghai (China)$vFiction.
-=700  1\$aIrons, Jeremy,$d1948-$4nrt$1http://viaf.org/viaf/114783177
+=700  1\$aIrons, Jeremy,$d1948-$4nrt$1http://viaf.org/viaf/114783177$4http://rdaregistry.info/Elements/e/object/P20022
 
 =LDR  00665cam a2200217 a 4500
 =001  17445871
@@ -17809,7 +17809,7 @@
 =040  \\$aDLC$cDLC$dDLC
 =050  10$aPR6052.A46$bZ59 1985b
 =082  00$a823/.914$219
-=100  1\$aBrigg, Peter,$d1942-$1http://viaf.org/viaf/115397340$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aBrigg, Peter,$d1942-$1http://viaf.org/viaf/115397340$4aut
 =245  10$aJ.G. Ballard /$cby Peter Brigg.
 =260  \\$aSan Bernandino, Calif. :$bBorgo Press,$c1985.
 =300  \\$a138 pages ;$c22 cm.
@@ -17839,7 +17839,7 @@
 =042  \\$alccopycat
 =050  00$aPR6052.U638$bP86 2018
 =082  04$a823/.914$223
-=100  1\$aBurgess, Anthony,$d1917-1993,$eauthor.$4aut$1http://viaf.org/viaf/71388189$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aBurgess, Anthony,$d1917-1993,$eauthor.$4aut$1http://viaf.org/viaf/71388189
 =245  10$aPuma /$cedited with an introduction and notes by Paul Wake.
 =264  \1$aManchester :$bManchester University Press,$c2018.
 =300  \\$avii, 315 pages ;$c23 cm.
@@ -17874,7 +17874,7 @@
 =040  \\$aDLC$cDLC$dDLC
 =043  \\$ae-uk---
 =050  00$aPR6052.A46$bZ6 1993
-=100  1\$aCapanna, Pablo,$d1939-$1http://viaf.org/viaf/11306820$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aCapanna, Pablo,$d1939-$1http://viaf.org/viaf/11306820$4aut
 =240  10$aJ.G. Ballard : el tiempo desolado$1http://viaf.org/viaf/11306820/jgballard
 =245  10$aJ.G. Ballard :$bel tiempo desolado /$cPablo Capanna.
 =260  \\$aBuenos Aires :$bEditorial Almagesto,$c[1993]
@@ -17900,7 +17900,7 @@
 =040  \\$aItFiC$beng$cItFiC$erda$dDLC
 =042  \\$alccopycat
 =050  00$aPR6052.A46$bZ62 2013
-=100  1\$aChiurato, Andrea,$eauthor.$4aut$1http://viaf.org/viaf/254932920$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aChiurato, Andrea,$eauthor.$4aut$1http://viaf.org/viaf/254932920
 =240  10$aLà dove finisce la città : riflessioni sull'opera di J.G. Ballard$1http://viaf.org/viaf/254932920/ladovefiniscelacitta
 =245  10$aLà dove finisce la città :$briflessioni sull'opera di J.G. Ballard /$cAndrea Chiurato ; prefazione di Stefano Calabrese.
 =264  \1$aBologna :$bArchetipolibri,$c[2013]
@@ -18048,7 +18048,7 @@
 =042  \\$aukscp$alccopycat
 =050  00$aPR6052.A46$bZ65 2005
 =082  04$a823.914$222
-=100  1\$aGa̧siorek, Andrzej,$d1960-$1http://viaf.org/viaf/114178741$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aGa̧siorek, Andrzej,$d1960-$1http://viaf.org/viaf/114178741$4aut
 =240  10$aJ.G. Ballard$1http://viaf.org/viaf/114178741/jgballard
 =245  10$aJ.G. Ballard /$cAndrzej Gasiorek.
 =260  \\$aManchester ;$aNew York :$bManchester University Press ;$aNew York :$bDistributed exclusively in the USA by Palgrave,$cc2005.
@@ -18121,7 +18121,7 @@
 =042  \\$apcc
 =050  00$aPN4874.H52$bA5 2011
 =082  00$a814/.54$223
-=100  1\$aHitchens, Christopher.$1http://viaf.org/viaf/98819926$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aHitchens, Christopher.$1http://viaf.org/viaf/98819926$4aut
 =240  10$aArguably$1http://viaf.org/viaf/316379471
 =245  10$aArguably :$bessays /$cby Christopher Hitchens.
 =250  \\$a1st ed.
@@ -18176,7 +18176,7 @@
 =042  \\$alccopycat
 =050  00$aPR6052.A46$bZ82 2015
 =082  04$a823.9/14$223
-=100  1\$aPaddy, David Ian,$eauthor.$4aut$1http://viaf.org/viaf/56144782952778562919$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aPaddy, David Ian,$eauthor.$4aut$1http://viaf.org/viaf/56144782952778562919
 =240  14$aThe empires of J.G. Ballard : an imagined geography$1http://viaf.org/viaf/56144782952778562919/theempires
 =245  14$aThe empires of J.G. Ballard :$ban imagined geography /$cDavid Ian Paddy.
 =264  \1$aCanterbury, UK :$bGylphi,$c2015.
@@ -18202,7 +18202,7 @@
 =040  \\$aItFiC$beng$cItFiC$erda$dDLC
 =042  \\$alccopycat
 =050  00$aPR6052.A46$bZ83 2013
-=100  1\$aPolcini, Valentina,$eauthor.$4aut$1http://viaf.org/viaf/309629825$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aPolcini, Valentina,$eauthor.$4aut$1http://viaf.org/viaf/309629825
 =240  10$aOltre la fantascienza$1http://viaf.org/viaf/309629825/oltrelafantascienza
 =245  10$aOltre la fantascienza :$bparadigmi e intertestualità nella narrativa di J.G. Ballard /$cValentina Polcini.
 =250  \\$aI edizione.
@@ -18230,7 +18230,7 @@
 =040  \\$aDLC$cDLC$dDLC
 =050  00$aZ8068.94$b.P74 1984$aPR6052.A46
 =082  00$a016.823/914$219
-=100  1\$aPringle, David.$1http://viaf.org/viaf/22226089$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aPringle, David.$1http://viaf.org/viaf/22226089$4aut
 =245  10$aJ.G. Ballard :$ba primary and secondary bibliography /$cDavid Pringle.
 =260  \\$aBoston, Mass. :$bG.K. Hall,$cc1984.
 =300  \\$axxxvi, 156 pages ;$c25 cm.
@@ -18338,7 +18338,7 @@
 =043  \\$ae-uk---
 =050  00$aDA110$b.S676 2013
 =082  00$a398.20941/0904$223
-=100  1\$aSterenberg, Matthew,$d1975-$eauthor.$4aut$1http://viaf.org/viaf/305277516$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aSterenberg, Matthew,$d1975-$eauthor.$4aut$1http://viaf.org/viaf/305277516
 =240  10$aMythic thinking in twentieth-century Britain$1http://viaf.org/viaf/305277516/mythicthinking
 =245  10$aMythic thinking in twentieth-century Britain :$bmeaning for modernity /$cMatthew Sterenberg, Assistant Professor,Waseda University, Japan.
 =264  \1$aHoundmills, Basingstoke, Hampshire ;$aNew York, NY :$bPalgrave Macmillan,$c2013.
@@ -18375,7 +18375,7 @@
 =050  00$aPR6052.A46
 =082  00$a823/.914$223
 =084  \\$aLIT004260$aBIO007000$2bisacsh
-=100  1\$aWilson, D. Harlan,$eauthor.$1http://viaf.org/viaf/162176817$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=100  1\$aWilson, D. Harlan,$eauthor.$1http://viaf.org/viaf/162176817$4aut
 =240  \\$aJ. G. Ballard$1http://viaf.org/viaf/162176817/jgballard
 =245  10$aJ. G. Ballard /$cD. Harlan Wilson.
 =264  \1$aUrbana :$bUniversity of Illinois Press,$c2017.
