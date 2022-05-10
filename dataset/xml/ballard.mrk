@@ -9088,12 +9088,14 @@
 =651  \7$aUSA$2humord$0(NO-TrBIB)HUME01695
 =653  \\$ascience$afiction$afortellinger$aprosa$a1990-tallet$afantasy
 =700  1\$aHaraldsen, Egil$d1945-$0(NO-TrBIB)11024750$4bjd
-=700  12$aAsimov, Isaac$d1920-1992$tFornuft$0(NO-TrBIB)90104376
+=700  12$aAsimov, Isaac$d1920-1992$tFornuft$0(NO-TrBIB)90104376$1http://www.isfdb.org/cgi-bin/title.cgi?44192
 =700  12$aBallard, J.G.$d1930-2009$tStellavistas tusen drømmer$0(NO-TrBIB)90199005$1http://www.isfdb.org/cgi-bin/title.cgi?57629
 =700  12$aBester, Alfred$d1913-1987$tHerlige Celsius$0(NO-TrBIB)90083185
-=700  12$aBing, Jon$d1944-2014$tKart over fantastisk litteratur$ered.$0(NO-TrBIB)90065026$4edt
-=700  12$aBradbury, Ray$d1920-2012$tDen korte sommeren$0(NO-TrBIB)90083059
+=700  12$aBing, Jon$d1944-2014$tKart over fantastisk litteratur
+=700  12$aBing, Jon$d1944-2014$ered.$0(NO-TrBIB)90065026$4edt$4edc
 =700  12$aBringsværd, Tor Åge$d1939-$tKart over fantastisk litteratur$ered.$0(NO-TrBIB)90058926$4edt
+=700  12$aBringsværd, Tor Åge$d1939-$0(NO-TrBIB)90058926$$4edt$4edc
+=700  12$aBradbury, Ray$d1920-2012$tDen korte sommeren$0(NO-TrBIB)90083059$1http://www.isfdb.org/cgi-bin/title.cgi?542089
 =700  12$aBrown, Fredric$tEn slutt$0(NO-TrBIB)98051350
 =700  12$aEllison, Harlan$d1934-$tJeg vil skrike, men har ingen munn$0(NO-TrBIB)5015711
 =700  12$aGlaser, Alice$tDet er en tunnel i din fremtid$0(NO-TrBIB)10053174
@@ -9464,9 +9466,9 @@
 =500  \\$aÖvers. av valda noveller
 =505  8\$aEn biljett till Tranai / Robert Scheckley -- Robot på avvägar / Isaac Asimov -- Sanningens ögonblick / Brian W. Aldiss -- Till ett bättre klot / Ray Bradbury -- Subliminal reklam / J.G. Ballard -- Minnen en gros / Philip K. Dick -- Experimentet / Fredric Brown -- Mördande reklam / Frederik Pohl -- Ms fnt i t bltk / Hal Draper -- En historielektion / Arthur C. Clarke
 =700  12$aAldiss, Brian W.$d1925-2017.$tSanningens ögonblick
-=700  12$aAsimov, Isaac$d1920-1992$0https://libris.kb.se/sq466txb40653h3#it$tRobot på avvägar
+=700  12$aAsimov, Isaac$d1920-1992$0https://libris.kb.se/sq466txb40653h3#it$tRobot på avvägar$1http://www.isfdb.org/cgi-bin/title.cgi?45670
 =700  12$aBallard, J. G.$d1930-2009$0https://libris.kb.se/dbqssg6x38zr5cn#it$tSubliminal reklam$1http://www.isfdb.org/cgi-bin/title.cgi?44459
-=700  12$aBradbury, Ray$d1920-2012.$tTill ett bättre klot
+=700  12$aBradbury, Ray$d1920-2012.$tTill ett bättre klot$1http://www.isfdb.org/cgi-bin/title.cgi?62959
 =700  12$aBrown, Fredric$tExperimentet
 =700  12$aClarke, Arthur C.$q(Arthur Charles),$d1917-2008$0https://libris.kb.se/qn2440884nx4nwn#it$tEn historielektion
 =700  12$aDick, Philip K$tMinnen en gros$1http://www.isfdb.org/cgi-bin/title.cgi?18834
@@ -10633,10 +10635,10 @@
 =700  02$aPohl, Frederik$tThe gold at the starbow's end
 =700  02$aCalvino, Italo$tA sign in space
 =700  02$aCalvino, Italo$tThe spiral
-=700  02$aAsimov, Isaac$tThe dead past
+=700  02$aAsimov, Isaac$tThe dead past$1http://www.isfdb.org/cgi-bin/title.cgi?55741
 =700  02$aEwyck, Annemarie van$tThe lens
 =700  02$aSturgeon, Theodore$tThe hurkle is a happy beast
-=700  02$aBradbury, Ray$tZero hour
+=700  02$aBradbury, Ray$tZero hour$1http://www.isfdb.org/cgi-bin/title.cgi?2825264
 =700  02$aGuin, Ursula K. Le$tNine lives
 =700  02$aBurgess, Anthony$tThe muse
 =700  02$aAllen, Steve$tThe public hating
@@ -11007,8 +11009,8 @@
 =700  12$aAldiss, Brian W.$d1925-$tHvem kan erstatte et menneske?$0(NO-TrBIB)90056060
 =700  12$aBallard, J.G.$d1930-2009$tKutt 12$0(NO-TrBIB)90199005$1http://www.isfdb.org/cgi-bin/title.cgi?57632
 =700  12$aBixby, Jerome$tDet er et fint liv$0(NO-TrBIB)10050830
-=700  12$aBradbury, Ray$d1920-2012$tDragen$0(NO-TrBIB)90083059
-=700  12$aBradbury, Ray$d1920-2012$tSavanne$0(NO-TrBIB)90083059
+=700  12$aBradbury, Ray$d1920-2012$tDragen$0(NO-TrBIB)90083059$1http://www.isfdb.org/cgi-bin/title.cgi?62960
+=700  12$aBradbury, Ray$d1920-2012$tSavanne$0(NO-TrBIB)90083059$1http://www.isfdb.org/cgi-bin/title.cgi?64827
 =700  12$aCalvino, Italo$d1923-1985$tAvstanden til månen$0(NO-TrBIB)90069217
 =700  12$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$tEt problem for historikere$0(NO-TrBIB)90725602
 =700  12$aClarke, Arthur C.$d1917-2008$q(Arthur Charles)$tStjernen$0(NO-TrBIB)90725602
@@ -11888,10 +11890,10 @@
 =650  \7$aLiterary studies: fiction, novelists & prose writers.$2bicssc
 =650  \7$aLiterary studies: from c 1900 -.$2bicssc
 =650  \7$aLiterature.$2eflch
-=700  1\$aBrown, B.J.$4aut
-=700  1\$aCarter, Ronald,$d1947-$0https://libris.kb.se/75kmmf3r52p9gxs#it$4aut
-=700  1\$aCrawford, Paul.$4aut
-=700  1\$aLipsedge, Maurice.$4aut
+=700  1\$aBrown, B.J.$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=700  1\$aCarter, Ronald,$d1947-$0https://libris.kb.se/75kmmf3r52p9gxs#it$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=700  1\$aCrawford, Paul.$4aut$4http://rdaregistry.info/Elements/w/object/P10061
+=700  1\$aLipsedge, Maurice.$4aut$4http://rdaregistry.info/Elements/w/object/P10061
 =856  40$5Hdig$uhttp://link.sub.su.se/sfxsub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=2670000000070161&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&$zTillgänglig för användare inom Stockholms universitet$zSpringerLink Books - AutoHoldings:Full Text
 =856  42$uhttp://dx.doi.org/10.1057/9780230290440$x856other$zTable of Contents / Abstracts
 
@@ -14317,7 +14319,7 @@
 =700  02$aBacigalupi, Paolo$tPop squad
 =700  02$aMorrow, James$tAuspicious eggs
 =700  02$aIrvine, Alex$tPeter Skilling
-=700  02$aBradbury, Ray$tThe pedestrian
+=700  02$aBradbury, Ray$tThe pedestrian$1http://www.isfdb.org/cgi-bin/title.cgi?56011
 =700  02$aDoctorow, Cory$tThe things that make me weak and strange get engineered away
 =700  02$aKiernan, Caitlin R.$tThe pearl diver
 =700  02$aRyman, Geoff$tDead space for the unexpected
@@ -16485,7 +16487,7 @@
 =650  \0$aScience fiction, English.
 =700  1\$aBorn, Daniel.$4edt$4edc
 =700  \2$aForster, E. M.$tThe machine stops
-=700  02$aBradbury, Ray$tThe Veldt
+=700  02$aBradbury, Ray$tThe Veldt$1http://www.isfdb.org/cgi-bin/title.cgi?64827
 =700  02$aClarke, Arthur C.$tThe star
 =700  02$aBallard, J. G.$d1930-2009$tThe voices of time$1http://www.isfdb.org/cgi-bin/title.cgi?40816
 =700  02$aMcCaffrey, Anne$tThe ship who sang
@@ -16494,7 +16496,7 @@
 =700  02$aDick, Philip K.$tThe days of perky Pat
 =700  02$aGuin, Ursula K. Le$tVaster than empires and more slow
 =700  02$aHenderson, Zenna$tAs simple as that
-=700  02$aAsimov, Isaac$tThe bicentennial man
+=700  02$aAsimov, Isaac$tThe bicentennial man$1http://www.isfdb.org/cgi-bin/title.cgi?41611
 =700  02$aTiptree, James Jr.$tHouston, Houston, do you read?
 =700  02$aCard, Orson Scott$tEnder's game
 =700  02$aButler, Octavia$tBloodchild
@@ -16920,7 +16922,7 @@
 =650  \0$aScience fiction, American.
 =650  \0$aScience fiction, English.
 =700  1\$aTurner, Alice K.$4edt$4edc
-=700  \2$aBradbury, Ray$tLost city of Mars
+=700  \2$aBradbury, Ray$tLost city of Mars$1http://www.isfdb.org/cgi-bin/title.cgi?64878
 =700  \2$aGuin, Ursula K. Le$tNine lives
 =700  \2$aSpinrad, Norman$tDeathwatch
 =700  \2$aKnight, Damon$tMasks
@@ -17791,7 +17793,7 @@
 =700  \2$tMr. Costello, hero$aSturgeon, Theodore
 =700  \2$tQuit zoomin' those hands through the air$aFinney, J.
 =700  \2$tBuild-up$aBallard, J. G.$d1930-2009$1http://www.isfdb.org/cgi-bin/title.cgi?44451
-=700  \2$tThe fun they had$aAsimov, Isaac
+=700  \2$tThe fun they had$aAsimov, Isaac$1http://www.isfdb.org/cgi-bin/title.cgi?58943
 =700  \2$tDiabologic$aRussell, E.F.
 =700  \2$tMade in U.S.A.$aMcIntosh, J.T.
 =700  \2$tThe waveries$aBrown, F.
@@ -17807,7 +17809,7 @@
 =040  \\$aDLC$cDLC$dDLC
 =050  10$aPR6052.A46$bZ59 1985b
 =082  00$a823/.914$219
-=100  1\$aBrigg, Peter,$d1942-$1http://viaf.org/viaf/115397340$4aut
+=100  1\$aBrigg, Peter,$d1942-$1http://viaf.org/viaf/115397340$4aut$4http://rdaregistry.info/Elements/w/object/P10061
 =245  10$aJ.G. Ballard /$cby Peter Brigg.
 =260  \\$aSan Bernandino, Calif. :$bBorgo Press,$c1985.
 =300  \\$a138 pages ;$c22 cm.
@@ -17837,7 +17839,7 @@
 =042  \\$alccopycat
 =050  00$aPR6052.U638$bP86 2018
 =082  04$a823/.914$223
-=100  1\$aBurgess, Anthony,$d1917-1993,$eauthor.$4aut$1http://viaf.org/viaf/71388189
+=100  1\$aBurgess, Anthony,$d1917-1993,$eauthor.$4aut$1http://viaf.org/viaf/71388189$4http://rdaregistry.info/Elements/w/object/P10061
 =245  10$aPuma /$cedited with an introduction and notes by Paul Wake.
 =264  \1$aManchester :$bManchester University Press,$c2018.
 =300  \\$avii, 315 pages ;$c23 cm.
@@ -17872,7 +17874,7 @@
 =040  \\$aDLC$cDLC$dDLC
 =043  \\$ae-uk---
 =050  00$aPR6052.A46$bZ6 1993
-=100  1\$aCapanna, Pablo,$d1939-$1http://viaf.org/viaf/11306820$4aut
+=100  1\$aCapanna, Pablo,$d1939-$1http://viaf.org/viaf/11306820$4aut$4http://rdaregistry.info/Elements/w/object/P10061
 =240  10$aJ.G. Ballard : el tiempo desolado$1http://viaf.org/viaf/11306820/jgballard
 =245  10$aJ.G. Ballard :$bel tiempo desolado /$cPablo Capanna.
 =260  \\$aBuenos Aires :$bEditorial Almagesto,$c[1993]
@@ -17898,7 +17900,7 @@
 =040  \\$aItFiC$beng$cItFiC$erda$dDLC
 =042  \\$alccopycat
 =050  00$aPR6052.A46$bZ62 2013
-=100  1\$aChiurato, Andrea,$eauthor.$4aut$1http://viaf.org/viaf/254932920
+=100  1\$aChiurato, Andrea,$eauthor.$4aut$1http://viaf.org/viaf/254932920$4http://rdaregistry.info/Elements/w/object/P10061
 =240  10$aLà dove finisce la città : riflessioni sull'opera di J.G. Ballard$1http://viaf.org/viaf/254932920/ladovefiniscelacitta
 =245  10$aLà dove finisce la città :$briflessioni sull'opera di J.G. Ballard /$cAndrea Chiurato ; prefazione di Stefano Calabrese.
 =264  \1$aBologna :$bArchetipolibri,$c[2013]
@@ -18046,7 +18048,7 @@
 =042  \\$aukscp$alccopycat
 =050  00$aPR6052.A46$bZ65 2005
 =082  04$a823.914$222
-=100  1\$aGa̧siorek, Andrzej,$d1960-$1http://viaf.org/viaf/114178741$4aut
+=100  1\$aGa̧siorek, Andrzej,$d1960-$1http://viaf.org/viaf/114178741$4aut$4http://rdaregistry.info/Elements/w/object/P10061
 =240  10$aJ.G. Ballard$1http://viaf.org/viaf/114178741/jgballard
 =245  10$aJ.G. Ballard /$cAndrzej Gasiorek.
 =260  \\$aManchester ;$aNew York :$bManchester University Press ;$aNew York :$bDistributed exclusively in the USA by Palgrave,$cc2005.
@@ -18087,7 +18089,7 @@
 =650  \0$aHorror tales, English.
 =650  \0$aMotion picture industry$xFiction.
 =651  \0$aHollywood (Los Angeles, Calif.)$xFiction.
-=700  \2$tThe prehistoric producer$aBradbury, Ray
+=700  \2$tThe prehistoric producer$aBradbury, Ray$1http://www.isfdb.org/cgi-bin/title.cgi?64859
 =700  \2$tThe plot is the thing$aBloch, R.
 =700  \2$tThe shadow on the screen$aKuttner, H.
 =700  \2$tReturn to the Sabbath$aFiske, T.
@@ -18104,7 +18106,7 @@
 =700  \2$tMantage$aMatheson, R.
 =700  \2$tTechnical adviser$aOliver, C.
 =700  \2$tThe screen game$aBallard, J. G.$d1930-2009$1http://www.isfdb.org/cgi-bin/title.cgi?57622
-=700  \2$tDeath warmed over$aBradbury, Ray
+=700  \2$tDeath warmed over$aBradbury, Ray$1http://www.isfdb.org/cgi-bin/title.cgi?132856
 =700  \\$aLee, Christopher$4aui
 
 =LDR  04303cam a22002534a 4500
@@ -18119,7 +18121,7 @@
 =042  \\$apcc
 =050  00$aPN4874.H52$bA5 2011
 =082  00$a814/.54$223
-=100  1\$aHitchens, Christopher.$1http://viaf.org/viaf/98819926$4aut
+=100  1\$aHitchens, Christopher.$1http://viaf.org/viaf/98819926$4aut$4http://rdaregistry.info/Elements/w/object/P10061
 =240  10$aArguably$1http://viaf.org/viaf/316379471
 =245  10$aArguably :$bessays /$cby Christopher Hitchens.
 =250  \\$a1st ed.
@@ -18174,7 +18176,7 @@
 =042  \\$alccopycat
 =050  00$aPR6052.A46$bZ82 2015
 =082  04$a823.9/14$223
-=100  1\$aPaddy, David Ian,$eauthor.$4aut$1http://viaf.org/viaf/56144782952778562919
+=100  1\$aPaddy, David Ian,$eauthor.$4aut$1http://viaf.org/viaf/56144782952778562919$4http://rdaregistry.info/Elements/w/object/P10061
 =240  14$aThe empires of J.G. Ballard : an imagined geography$1http://viaf.org/viaf/56144782952778562919/theempires
 =245  14$aThe empires of J.G. Ballard :$ban imagined geography /$cDavid Ian Paddy.
 =264  \1$aCanterbury, UK :$bGylphi,$c2015.
@@ -18200,7 +18202,7 @@
 =040  \\$aItFiC$beng$cItFiC$erda$dDLC
 =042  \\$alccopycat
 =050  00$aPR6052.A46$bZ83 2013
-=100  1\$aPolcini, Valentina,$eauthor.$4aut$1http://viaf.org/viaf/309629825
+=100  1\$aPolcini, Valentina,$eauthor.$4aut$1http://viaf.org/viaf/309629825$4http://rdaregistry.info/Elements/w/object/P10061
 =240  10$aOltre la fantascienza$1http://viaf.org/viaf/309629825/oltrelafantascienza
 =245  10$aOltre la fantascienza :$bparadigmi e intertestualità nella narrativa di J.G. Ballard /$cValentina Polcini.
 =250  \\$aI edizione.
@@ -18228,7 +18230,7 @@
 =040  \\$aDLC$cDLC$dDLC
 =050  00$aZ8068.94$b.P74 1984$aPR6052.A46
 =082  00$a016.823/914$219
-=100  1\$aPringle, David.$1http://viaf.org/viaf/22226089$4aut
+=100  1\$aPringle, David.$1http://viaf.org/viaf/22226089$4aut$4http://rdaregistry.info/Elements/w/object/P10061
 =245  10$aJ.G. Ballard :$ba primary and secondary bibliography /$cDavid Pringle.
 =260  \\$aBoston, Mass. :$bG.K. Hall,$cc1984.
 =300  \\$axxxvi, 156 pages ;$c25 cm.
@@ -18267,7 +18269,7 @@
 =700  0\$aSilverberg, Robert$4aui$1http://viaf.org/viaf/109386240
 =700  02$tThe star$aWells, H. G.
 =700  02$tTwilight$aCampbell, J. W. 
-=700  02$tNightfall$aAsimov, Isaac
+=700  02$tNightfall$aAsimov, Isaac$1http://www.isfdb.org/cgi-bin/title.cgi?46434
 =700  02$tPrivate eye$aPadgett, L.
 =700  02$tThe sentinel$aClarke, Arthur C.
 =700  02$tSpecialist$aSheckley, R.
@@ -18303,7 +18305,7 @@
 =650  \0$aHuman ecology$xFiction.
 =650  \0$aShort stories, American.
 =650  \0$aShort stories, English.
-=700  02$tA sound of thunder$aBradbury, Ray
+=700  02$tA sound of thunder$aBradbury, Ray$1http://www.isfdb.org/cgi-bin/title.cgi?61488
 =700  02$tThe turtle$aSteinbeck, John
 =700  02$tThe conversation of Eiros and Charmion$aPoe, E. A.
 =700  02$tThe fair young willowy tree$aCoppard, A. E.
@@ -18319,7 +18321,7 @@
 =700  02$tThe toys of peace$aSaki (Munro, H. H.)
 =700  02$tThe subliminal man$aBallard, J. G.$d1930-2009$1http://www.isfdb.org/cgi-bin/title.cgi?44459
 =700  02$tThe Cohen dog exclusion ac$aSchrader, S.
-=700  02$tIt's such a beautiful day$aAsimov, Isaac
+=700  02$tIt's such a beautiful day$aAsimov, Isaac$1http://www.isfdb.org/cgi-bin/title.cgi?62723
 =700  02$tThe hummingbird that lived through winter$aSaroyan, W.
 
 =LDR  02216cam a2200409 i 4500
@@ -18336,7 +18338,7 @@
 =043  \\$ae-uk---
 =050  00$aDA110$b.S676 2013
 =082  00$a398.20941/0904$223
-=100  1\$aSterenberg, Matthew,$d1975-$eauthor.$4aut$1http://viaf.org/viaf/305277516
+=100  1\$aSterenberg, Matthew,$d1975-$eauthor.$4aut$1http://viaf.org/viaf/305277516$4http://rdaregistry.info/Elements/w/object/P10061
 =240  10$aMythic thinking in twentieth-century Britain$1http://viaf.org/viaf/305277516/mythicthinking
 =245  10$aMythic thinking in twentieth-century Britain :$bmeaning for modernity /$cMatthew Sterenberg, Assistant Professor,Waseda University, Japan.
 =264  \1$aHoundmills, Basingstoke, Hampshire ;$aNew York, NY :$bPalgrave Macmillan,$c2013.
@@ -18373,7 +18375,7 @@
 =050  00$aPR6052.A46
 =082  00$a823/.914$223
 =084  \\$aLIT004260$aBIO007000$2bisacsh
-=100  1\$aWilson, D. Harlan,$eauthor.$1http://viaf.org/viaf/162176817$4aut
+=100  1\$aWilson, D. Harlan,$eauthor.$1http://viaf.org/viaf/162176817$4aut$4http://rdaregistry.info/Elements/w/object/P10061
 =240  \\$aJ. G. Ballard$1http://viaf.org/viaf/162176817/jgballard
 =245  10$aJ. G. Ballard /$cD. Harlan Wilson.
 =264  \1$aUrbana :$bUniversity of Illinois Press,$c2017.
