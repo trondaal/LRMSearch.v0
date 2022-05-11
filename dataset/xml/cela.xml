@@ -1407,7 +1407,7 @@
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Urrutia, Jorge</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
             <marc:subfield code="1">http://example.org/urrutiajorge</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="830" ind1=" " ind2="0">
@@ -1798,13 +1798,13 @@
             <marc:subfield code="a">Boudreau, Harold L.</marc:subfield>
             <marc:subfield code="1">http://example.org/boudreauharoldl</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Kronik, John W.</marc:subfield>
             <marc:subfield code="1">http://example.org/kronikjohnw</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNB-Spain-Camilo-Jose-Cela.xml">
@@ -3276,7 +3276,7 @@
             <marc:subfield code="a">Polack, Philip.</marc:subfield>
             <marc:subfield code="1">http://example.org/polackphilip</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -3824,13 +3824,13 @@
             <marc:subfield code="a">Boudreau, Harold L.</marc:subfield>
             <marc:subfield code="1">http://example.org/boudreauharoldl</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Kronik, John W.</marc:subfield>
             <marc:subfield code="1">http://example.org/kronikjohnw</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -5108,7 +5108,7 @@
             <marc:subfield code="a">Urrutia, Jorge.</marc:subfield>
             <marc:subfield code="1">http://example.org/urrutiajorge</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNB-Spain-Camilo-Jose-Cela.xml">
@@ -6739,7 +6739,7 @@
             <marc:subfield code="a">Márquez, Gemma</marc:subfield>
             <marc:subfield code="e">editor literario</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
             <marc:subfield code="1">http://example.org/mrquezgemma</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -8653,7 +8653,7 @@
             <marc:subfield code="d">1953-</marc:subfield>
             <marc:subfield code="1">http://example.org/sotelovzquezadolfo</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -10197,7 +10197,7 @@
             <marc:subfield code="a">Asún, Raquel</marc:subfield>
             <marc:subfield code="1">http://example.org/asnraquel</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -19461,7 +19461,7 @@
             <marc:subfield code="a">Jurado Morales, José</marc:subfield>
             <marc:subfield code="1">http://example.org/juradomoralesjos</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -21238,7 +21238,7 @@
             <marc:subfield code="d">1914-1995</marc:subfield>
             <marc:subfield code="1">http://example.org/plajaume</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -24127,7 +24127,7 @@
             <marc:subfield code="d">1945-</marc:subfield>
             <marc:subfield code="1">http://example.org/urrutiajorge</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -25736,14 +25736,14 @@
             <marc:subfield code="a">Boudreau, Harold L.</marc:subfield>
             <marc:subfield code="1">http://example.org/boudreauharoldl</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2="1">
             <marc:subfield code="a">Kronik, John W.</marc:subfield>
             <marc:subfield code="d">1931-2006</marc:subfield>
             <marc:subfield code="1">http://example.org/kronikjohnw</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -25905,7 +25905,7 @@
             <marc:subfield code="a">Polack, Philip</marc:subfield>
             <marc:subfield code="1">http://example.org/polackphilip</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -25991,7 +25991,7 @@
             <marc:subfield code="a">Polack, Philip</marc:subfield>
             <marc:subfield code="1">http://example.org/polackphilip</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="740" created="true">
             <marc:subfield code="8">1</marc:subfield>
@@ -28586,7 +28586,7 @@
             <marc:subfield code="d">1945-</marc:subfield>
             <marc:subfield code="1">http://example.org/urrutiajorge</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -31331,7 +31331,7 @@
             <marc:subfield code="a">Navas Villalba, Luciano José</marc:subfield>
             <marc:subfield code="e">editor literario</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
             <marc:subfield code="1">http://example.org/navasvillalbalucianojos</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -33515,7 +33515,7 @@
             <marc:subfield code="e">editor literario</marc:subfield>
             <marc:subfield code="e">prologuista</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
             <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30328</marc:subfield>
             <marc:subfield code="1">http://example.org/sobejanogonzalo</marc:subfield>
@@ -33672,7 +33672,7 @@
             <marc:subfield code="d">1950-</marc:subfield>
             <marc:subfield code="1">http://example.org/villanuevadaro</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -34589,7 +34589,7 @@
             <marc:subfield code="d">1953-</marc:subfield>
             <marc:subfield code="1">http://example.org/sotelovzquezadolfo</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -37931,7 +37931,7 @@
             <marc:subfield code="d">1945-</marc:subfield>
             <marc:subfield code="1">http://example.org/urrutiajorge</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -41218,7 +41218,7 @@
             <marc:subfield code="d">1950-</marc:subfield>
             <marc:subfield code="1">http://example.org/villanuevadaro</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -55567,7 +55567,7 @@
             <marc:subfield code="d">1984-</marc:subfield>
             <marc:subfield code="e">editor literario</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
             <marc:subfield code="1">http://example.org/fustergarcafrancisco</marc:subfield>
         </marc:datafield>
     </marc:record>
@@ -56975,7 +56975,7 @@
             <marc:subfield code="d">1945-</marc:subfield>
             <marc:subfield code="1">http://example.org/urrutiajorge</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1989-BNE-Spain-Camilo-Jose-Cela.xml">
@@ -61591,7 +61591,7 @@
             <marc:subfield code="d">1950-</marc:subfield>
             <marc:subfield code="e">editor literario</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
             <marc:subfield code="1">http://example.org/villanuevadaro</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
@@ -64453,7 +64453,7 @@
             <marc:subfield code="d">1950-</marc:subfield>
             <marc:subfield code="1">http://example.org/villanuevadaro</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Rodríguez Fontela, María de los Ángeles</marc:subfield>

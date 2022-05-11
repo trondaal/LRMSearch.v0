@@ -4019,13 +4019,13 @@
             <marc:subfield code="a">Ziegler, Arthur P.</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/75131190</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Baker, J. R.</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/53313431</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1983-BNB-UK-William-Golding.xml">
@@ -4083,13 +4083,13 @@
             <marc:subfield code="a">Ziegler, Arthur P.</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/75131190</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Baker, J. R.</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/53313431</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1983-BNB-UK-William-Golding.xml">
@@ -4199,13 +4199,13 @@
             <marc:subfield code="a">Ziegler, Arthur P.</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/75131190</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="700" ind1="1" ind2=" ">
             <marc:subfield code="a">Baker, J. R.</marc:subfield>
             <marc:subfield code="1">http://viaf.org/viaf/53313431</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
         </marc:datafield>
     </marc:record>
     <marc:record source="1983-BNB-UK-William-Golding.xml">
@@ -18553,7 +18553,7 @@
             <marc:subfield code="a">Richter, Irmgard</marc:subfield>
             <marc:subfield code="e">Mitwirkender</marc:subfield>
             <marc:subfield code="4">edt</marc:subfield>
-            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30327</marc:subfield>
+            <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30267</marc:subfield>
             <marc:subfield code="4">aui</marc:subfield>
             <marc:subfield code="4">http://rdaregistry.info/Elements/m/object/P30328</marc:subfield>
             <marc:subfield code="1">http://example.org/names/richterirmgard</marc:subfield>
