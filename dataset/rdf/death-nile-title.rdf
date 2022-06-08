@@ -293,40 +293,33 @@
       <rdfs:label>Davis, Bette</rdfs:label>
       <rdaad:P50339>1908-1989</rdaad:P50339>
    </rdac:C10002>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/12155103895976200651/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/12155103895976200651/exp/eng/1020">
       <rdaed:P20312>Murder in Mesapotamia</rdaed:P20312>
       <rdfs:label>Murder in Mesapotamia / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/12155103895976200651"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/174999513/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/174999513/exp/eng/1020">
       <rdaed:P20312>Cat among the pigeons</rdaed:P20312>
       <rdfs:label>Cat among the pigeons / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/174999513"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/184807703/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/184807703/exp/eng/1020">
       <rdaed:P20312>Evil under the sun</rdaed:P20312>
       <rdfs:label>Evil under the sun / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/184807703"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/186192338/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/186192338/exp/eng/1020">
       <rdaed:P20312>Hollow</rdaed:P20312>
       <rdfs:label>Hollow / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/186192338"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/309258229/eng/1020">
-      <rdaed:P20312>Death on the Nile</rdaed:P20312>
-      <rdfs:label>Death on the Nile / eng / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/309258229"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/309258229/exp/eng/1020">
       <rdaed:P20316>Death on the Nile</rdaed:P20316>
@@ -348,7 +341,7 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/51776002"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/309258229"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/310912914/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/310912914/exp/eng/1020">
       <rdaed:P20312>Appointment with death</rdaed:P20312>
       <rdfs:label>Appointment with death / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -1428,12 +1421,12 @@
       <rdamd:P30106>Poirot</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310912914/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174999513/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184807703/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/186192338/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/12155103895976200651/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310912914/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174999513/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184807703/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/186192338/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/12155103895976200651/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008328931">
       <rdamd:P30004>ISBN 9780008328931 (pbk.) :</rdamd:P30004>

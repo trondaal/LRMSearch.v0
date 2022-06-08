@@ -1071,7 +1071,8 @@
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
                                  <xsl:with-param name="type" select="'http://www.w3.org/2000/01/rdf-schema#label'"/>
-                                 <xsl:with-param name="select" select="frbrizer:trim(.)"/>
+                                 <xsl:with-param name="select"
+                                                 select="frbrizer:trim(.) || ' (' || $record/*:datafield[@tag='100']/*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'"/>
                               </xsl:call-template>
                            </xsl:copy>
                         </xsl:if>
@@ -2302,6 +2303,15 @@
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
                                  <xsl:with-param name="type" select="'http://www.w3.org/2000/01/rdf-schema#label'"/>
+                                 <xsl:with-param name="select"
+                                                 select="frbrizer:trim(.) || ' (' || ../*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'"/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
+                        <xsl:if test="@code = 't'">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type" select="'http://www.w3.org/2000/01/rdf-schema#label'"/>
                                  <xsl:with-param name="select" select="frbrizer:trim(.)"/>
                               </xsl:call-template>
                            </xsl:copy>
@@ -2887,7 +2897,8 @@
                            <xsl:copy>
                               <xsl:call-template name="copy-content">
                                  <xsl:with-param name="type" select="'http://www.w3.org/2000/01/rdf-schema#label'"/>
-                                 <xsl:with-param name="select" select="frbrizer:trim(.)"/>
+                                 <xsl:with-param name="select"
+                                                 select="frbrizer:trim(.) || ' (' || ../*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'"/>
                               </xsl:call-template>
                            </xsl:copy>
                         </xsl:if>
@@ -3123,7 +3134,8 @@
                         <xsl:copy>
                            <xsl:call-template name="copy-content">
                               <xsl:with-param name="type" select="'http://www.w3.org/2000/01/rdf-schema#label'"/>
-                              <xsl:with-param name="select" select="frbrizer:trim(.)"/>
+                              <xsl:with-param name="select"
+                                              select="frbrizer:trim(.) || ' (' || ../*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'"/>
                            </xsl:call-template>
                         </xsl:copy>
                      </xsl:if>
@@ -3625,6 +3637,15 @@
                   <xsl:copy>
                      <xsl:call-template name="copy-attributes"/>
                      <xsl:for-each select="*:subfield[@code = ('t','f','n','1')]">
+                        <xsl:if test="@code = 't'">
+                           <xsl:copy>
+                              <xsl:call-template name="copy-content">
+                                 <xsl:with-param name="type" select="'http://www.w3.org/2000/01/rdf-schema#label'"/>
+                                 <xsl:with-param name="select"
+                                                 select="frbrizer:trim(.) || ' (' || ../*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'"/>
+                              </xsl:call-template>
+                           </xsl:copy>
+                        </xsl:if>
                         <xsl:if test="@code = 't'">
                            <xsl:copy>
                               <xsl:call-template name="copy-content">

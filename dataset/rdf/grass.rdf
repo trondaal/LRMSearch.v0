@@ -3153,7 +3153,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://example.org/griesbritta/diegrassdebatte"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://example.org/grimmelshausenhansjakobchristophvon/dielandstrzerincourasche/spa/1020/dieterichgenoveva/estebanjosmanuel">
+   <rdac:C10006 rdf:about="http://example.org/grimmelshausenhansjakobchristophvon/dielandstrzerincourasche/exp/spa/1020/dieterichgenoveva/estebanjosmanuel">
       <rdaed:P20006>spa</rdaed:P20006>
       <rdaed:P20312>Die Landstörzerin Courasche</rdaed:P20312>
       <rdfs:label>Die Landstörzerin Courasche / spa / text</rdfs:label>
@@ -3799,13 +3799,7 @@
       <rdaed:P20312>Rede über den Standort : Günter Grass</rdaed:P20312>
       <rdfs:label>Rede über den Standort / ger / text</rdfs:label>
       <rdaed:P20312>Rede über den Standort : [Rede am 23. Februar 1997 im Schauspielhaus Dresden im Rahmen der Reihe "Zur Sache: Deutschland"]</rdaed:P20312>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
-      <rdaeo:P20231 rdf:resource="http://example.org/works/gg/1005"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://example.org/works/gg/1005/ger/1020">
       <rdaed:P20312>Rede über den Standort</rdaed:P20312>
-      <rdfs:label>Rede über den Standort / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://example.org/works/gg/1005"/>
@@ -3838,7 +3832,7 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/305872623"/>
       <rdaeo:P20231 rdf:resource="http://example.org/zhangxinyi/formenundfunktionenderintertextualitatinerzahlwerkenvonguntergrass"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/102319859/lernendelehrer/ger/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/102319859/lernendelehrer/exp/ger/1020">
       <rdaed:P20312>Lernende Lehrer</rdaed:P20312>
       <rdfs:label>Lernende Lehrer / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -4066,16 +4060,6 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/1659148997630759870001"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/eng/1020/9864901">
-      <rdaed:P20006>eng</rdaed:P20006>
-      <rdaed:P20312>Katz und Maus</rdaed:P20312>
-      <rdfs:label>Katz und Maus / eng / text</rdfs:label>
-      <rdaed:P20315>Cat and Mouse</rdaed:P20315>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/174963765"/>
-   </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/exp/bul/1020">
       <rdaed:P20316>Katz und Maus</rdaed:P20316>
       <rdaed:P20312>Kotka i miška</rdaed:P20312>
@@ -4153,6 +4137,9 @@
       <rdfs:label>Cat and mouse / eng / text</rdfs:label>
       <rdaed:P20312>Cat and mouse</rdaed:P20312>
       <rdaed:P20312>Cat and mouse : [Complete and unabridged]</rdaed:P20312>
+      <rdaed:P20006>eng</rdaed:P20006>
+      <rdaed:P20312>Katz und Maus</rdaed:P20312>
+      <rdfs:label>Katz und Maus / eng / text</rdfs:label>
       <rdaed:P20315>Cat and Mouse</rdaed:P20315>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -4386,23 +4373,6 @@
       <rdaeo:P20037 rdf:resource="http://example.org/walldenjohnw"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/174963765"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/174963765/ger/1020">
-      <rdaed:P20312>Katz und Maus</rdaed:P20312>
-      <rdfs:label>Katz und Maus / ger / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/174963765"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/eng/1020/9864901">
-      <rdaed:P20006>eng</rdaed:P20006>
-      <rdaed:P20312>Blechtrommel</rdaed:P20312>
-      <rdfs:label>Blechtrommel / eng / text</rdfs:label>
-      <rdaed:P20315>The Tin Drum</rdaed:P20315>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/179378125"/>
-   </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/exp/bul/1020/furnadzievanadja">
       <rdaed:P20316>Die Blechtrommel</rdaed:P20316>
       <rdaed:P20312>Tenekienijat baraban : roman</rdaed:P20312>
@@ -4466,6 +4436,9 @@
       <rdfs:label>The Tin Drum. Translated ... by Ralph Manheim / eng / text</rdfs:label>
       <rdaed:P20312>The tin drum. Translated ... by Ralph Manheim. (Reprinted.)</rdaed:P20312>
       <rdfs:label>The tin drum. Translated ... by Ralph Manheim. (Reprinted.) / eng / text</rdfs:label>
+      <rdaed:P20006>eng</rdaed:P20006>
+      <rdaed:P20312>Blechtrommel</rdaed:P20312>
+      <rdfs:label>Blechtrommel / eng / text</rdfs:label>
       <rdaed:P20315>The Tin Drum</rdaed:P20315>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -4695,13 +4668,6 @@
       <rdaeo:P20037 rdf:resource="http://example.org/holmbergnils"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/179378125"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/179378125/ger/1020">
-      <rdaed:P20312>Die Blechtrommel</rdaed:P20312>
-      <rdfs:label>Die Blechtrommel / ger / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/179378125"/>
-   </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/181820371/exp/eng/1020/hamburgermichael">
       <rdaed:P20316>Ausgefragt</rdaed:P20316>
       <rdaed:P20312>New Poems</rdaed:P20312>
@@ -4744,16 +4710,6 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/181989285"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/eng/1020/9864901">
-      <rdaed:P20006>eng</rdaed:P20006>
-      <rdaed:P20312>Hundejahre</rdaed:P20312>
-      <rdfs:label>Hundejahre / eng / text</rdfs:label>
-      <rdaed:P20315>Dog Years</rdaed:P20315>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/9864901"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/185469169"/>
-   </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/exp/dan/1020/boisenmogens">
       <rdaed:P20316>Hundejahre</rdaed:P20316>
       <rdaed:P20312>Hundeår : [Overs. fra tysk]</rdaed:P20312>
@@ -4787,6 +4743,9 @@
       <rdfs:label>Dog Years. Translated by Ralph Manheim / eng / text</rdfs:label>
       <rdaed:P20312>Dog years</rdaed:P20312>
       <rdfs:label>Dog years / eng / text</rdfs:label>
+      <rdaed:P20006>eng</rdaed:P20006>
+      <rdaed:P20312>Hundejahre</rdaed:P20312>
+      <rdfs:label>Hundejahre / eng / text</rdfs:label>
       <rdaed:P20315>Dog Years</rdaed:P20315>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
@@ -4921,13 +4880,6 @@
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/swe"/>
       <rdaeo:P20037 rdf:resource="http://example.org/freijlarsw"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/185469169"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/185469169/ger/1020">
-      <rdaed:P20312>Hundejahre</rdaed:P20312>
-      <rdfs:label>Hundejahre / ger / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/185469169"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/189370814/exp/dan/1020/berthelsenleifg">
@@ -5332,17 +5284,7 @@
       <rdaeo:P20037 rdf:resource="http://example.org/dieterichgenoveva"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/205890609"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/exp/spa/1020/gregormariah">
-      <rdaed:P20316>Das Treffen in Telgte</rdaed:P20316>
-      <rdaed:P20312>Encuentro en Telgte</rdaed:P20312>
-      <rdfs:label>Encuentro en Telgte / spa / text</rdfs:label>
-      <rdaed:P20315>Encuentro en Telgte</rdaed:P20315>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
-      <rdaeo:P20037 rdf:resource="http://example.org/gregormariah"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/205890609"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/spa/1020/dieterichgenoveva/estebanjosmanuel">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/exp/spa/1020/dieterichgenoveva/estebanjosmanuel">
       <rdaed:P20006>spa</rdaed:P20006>
       <rdaed:P20312>Das Treffen in Telgte</rdaed:P20312>
       <rdfs:label>Das Treffen in Telgte / spa / text</rdfs:label>
@@ -5351,6 +5293,16 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://example.org/estebanjosmanuel"/>
       <rdaeo:P20037 rdf:resource="http://example.org/dieterichgenoveva"/>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/205890609"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/205890609/exp/spa/1020/gregormariah">
+      <rdaed:P20316>Das Treffen in Telgte</rdaed:P20316>
+      <rdaed:P20312>Encuentro en Telgte</rdaed:P20312>
+      <rdfs:label>Encuentro en Telgte / spa / text</rdfs:label>
+      <rdaed:P20315>Encuentro en Telgte</rdaed:P20315>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
+      <rdaeo:P20037 rdf:resource="http://example.org/gregormariah"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/205890609"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/2078151433029956420003/exp/ger/1020">
@@ -6148,6 +6100,7 @@
       <rdaed:P20316>Rede vom Verlust</rdaed:P20316>
       <rdaed:P20312>Rede vom Verlust : über den Niedergang der politischen Kultur im geeinten Deutschland</rdaed:P20312>
       <rdfs:label>Rede vom Verlust / ger / text</rdfs:label>
+      <rdaed:P20312>Rede vom Verlust</rdaed:P20312>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/8110148523918320970008"/>
@@ -6168,13 +6121,6 @@
       <rdfs:label>Discurso de la pérdida / spa / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/8110148523918320970008"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/8110148523918320970008/ger/1020">
-      <rdaed:P20312>Rede vom Verlust</rdaed:P20312>
-      <rdfs:label>Rede vom Verlust / ger / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/8110148523918320970008"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/9468156012423449700000/exp/ger/1013">
@@ -10566,9 +10512,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/exp/ger/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/870833677">
       <rdamd:P30156>Die Blechtrommel</rdamd:P30156>
@@ -12077,9 +12023,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/eng/1020/9864901"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/eng/1020/9864901"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/eng/1020/9864901"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/exp/eng/1020/9864901"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/exp/eng/1020/9864901"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/exp/eng/1020/9864901"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0436187728">
       <rdamd:P30004>ISBN 0436187728 :</rdamd:P30004>
@@ -13562,9 +13508,9 @@
       <rdamd:P30165>146</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/102319859/lernendelehrer/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://example.org/works/gg/1005/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/8110148523918320970008/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/102319859/lernendelehrer/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://example.org/works/gg/1005/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/8110148523918320970008/exp/ger/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-3882437014">
       <rdamd:P30004>ISBN 3882437014 (pbk.)</rdamd:P30004>
@@ -16896,9 +16842,9 @@
       <rdamd:P30165>8439</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/exp/ger/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9783423118217">
       <rdamd:P30004>ISBN 9783423118217</rdamd:P30004>
@@ -18428,9 +18374,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/exp/ger/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9783472820505">
       <rdamd:P30004>ISBN 9783472820505</rdamd:P30004>
@@ -22702,9 +22648,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/185469169/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/179378125/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174963765/exp/ger/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9783882433999">
       <rdamd:P30004>ISBN 9783882433999</rdamd:P30004>
@@ -24929,8 +24875,8 @@
       <rdamd:P30106>Polifonías</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://example.org/grimmelshausenhansjakobchristophvon/dielandstrzerincourasche/spa/1020/dieterichgenoveva/estebanjosmanuel"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/205890609/spa/1020/dieterichgenoveva/estebanjosmanuel"/>
+      <rdamo:P30139 rdf:resource="http://example.org/grimmelshausenhansjakobchristophvon/dielandstrzerincourasche/exp/spa/1020/dieterichgenoveva/estebanjosmanuel"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/205890609/exp/spa/1020/dieterichgenoveva/estebanjosmanuel"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788493982713">
       <rdamd:P30004>ISBN 978-84-939827-1-3</rdamd:P30004>

@@ -1020,13 +1020,6 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/1180145424574586830081"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/119144648592107423604/eng/1020">
-      <rdaed:P20312>Lord of the Flies</rdaed:P20312>
-      <rdfs:label>Lord of the Flies / eng / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/119144648592107423604"/>
-   </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/119144648592107423604/exp/eng/1020">
       <rdaed:P20316>Lord of the Flies</rdaed:P20316>
       <rdaed:P20312>Lord of the flies</rdaed:P20312>
@@ -1129,13 +1122,6 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/86744222"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/119144648592107423604"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/174553895/eng/1020">
-      <rdaed:P20312>Fire down below</rdaed:P20312>
-      <rdfs:label>Fire down below / eng / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/174553895"/>
-   </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/174553895/exp/eng/1020">
       <rdaed:P20316>Fire Down Below</rdaed:P20316>
       <rdaed:P20312>Fire down below</rdaed:P20312>
@@ -1164,13 +1150,6 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/19389226"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/174553895"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/176165653/eng/1020">
-      <rdaed:P20312>Rites of passage</rdaed:P20312>
-      <rdfs:label>Rites of passage / eng / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/176165653"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/176165653/exp/eng/1020">
       <rdaed:P20316>Rites of Passage</rdaed:P20316>
@@ -1220,14 +1199,14 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/19389226"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/176165653"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/177762289/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/177762289/exp/eng/1020">
       <rdaed:P20312>Envoy Extraordinary</rdaed:P20312>
       <rdfs:label>Envoy Extraordinary / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/177762289"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/177762289/ger/1020/81823873">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/177762289/exp/ger/1020/81823873">
       <rdaed:P20006>ger</rdaed:P20006>
       <rdaed:P20312>Envoy Extraordinary</rdaed:P20312>
       <rdfs:label>Envoy Extraordinary / ger / text</rdfs:label>
@@ -1237,7 +1216,7 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/81823873"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/177762289"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/177762289/spa/1020/12367718">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/177762289/exp/spa/1020/12367718">
       <rdaed:P20006>spa</rdaed:P20006>
       <rdaed:P20312>Envoy Extraordinary</rdaed:P20312>
       <rdfs:label>Envoy Extraordinary / spa / text</rdfs:label>
@@ -1260,6 +1239,9 @@
       <rdaed:P20316>The Spire</rdaed:P20316>
       <rdaed:P20312>Der Turm der Kathedrale : Nobelpreis 1983 England</rdaed:P20312>
       <rdfs:label>Der Turm der Kathedrale / ger / text</rdfs:label>
+      <rdaed:P20006>ger</rdaed:P20006>
+      <rdaed:P20312>Spire</rdaed:P20312>
+      <rdfs:label>Spire / ger / text</rdfs:label>
       <rdaed:P20315>Der Turm der Kathedrale</rdaed:P20315>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -1305,23 +1287,14 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/87945378"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/178994871"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/178994871/ger/1020">
-      <rdaed:P20006>ger</rdaed:P20006>
-      <rdaed:P20312>Spire</rdaed:P20312>
-      <rdfs:label>Spire / ger / text</rdfs:label>
-      <rdaed:P20315>Der Turm der Kathedrale</rdaed:P20315>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/178994871"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/180585027/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/180585027/exp/eng/1020">
       <rdaed:P20312>Clonk Clonk</rdaed:P20312>
       <rdfs:label>Clonk Clonk / eng / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/180585027"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/180585027/ger/1020/81823873">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/180585027/exp/ger/1020/81823873">
       <rdaed:P20006>ger</rdaed:P20006>
       <rdaed:P20312>Clonk Clonk</rdaed:P20312>
       <rdfs:label>Clonk Clonk / ger / text</rdfs:label>
@@ -1331,7 +1304,7 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/81823873"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/180585027"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/180585027/spa/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/180585027/exp/spa/1020">
       <rdaed:P20006>spa</rdaed:P20006>
       <rdaed:P20312>Clonk Clonk</rdaed:P20312>
       <rdfs:label>Clonk Clonk / spa / text</rdfs:label>
@@ -1340,7 +1313,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/180585027"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/180585027/spa/1020/12367718">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/180585027/exp/spa/1020/12367718">
       <rdaed:P20006>spa</rdaed:P20006>
       <rdaed:P20312>Clonk Clonk</rdaed:P20312>
       <rdfs:label>Clonk Clonk / spa / text</rdfs:label>
@@ -1349,13 +1322,6 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/12367718"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/180585027"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/184334172/eng/1020">
-      <rdaed:P20312>Pincher Martin</rdaed:P20312>
-      <rdfs:label>Pincher Martin / eng / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/184334172"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/184334172/exp/eng/1020">
       <rdaed:P20316>Pincher Martin</rdaed:P20316>
@@ -1372,6 +1338,7 @@
       <rdaed:P20312>Pincher Martin : Roman ; [aus d. Engl.]</rdaed:P20312>
       <rdfs:label>Pincher Martin / ger / text</rdfs:label>
       <rdaed:P20312>Pincher Martin : Roman</rdaed:P20312>
+      <rdaed:P20312>Pincher Martin</rdaed:P20312>
       <rdaed:P20315>Der Felsen des zweiten Todes</rdaed:P20315>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
@@ -1399,21 +1366,6 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/7404678"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/184334172"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/184334172/ger/1020/42309455">
-      <rdaed:P20312>Pincher Martin</rdaed:P20312>
-      <rdfs:label>Pincher Martin / ger / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
-      <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/42309455"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/184334172"/>
-   </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/187146251/eng/1020">
-      <rdaed:P20312>Close quarters</rdaed:P20312>
-      <rdfs:label>Close quarters / eng / text</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/187146251"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://viaf.org/viaf/187146251/exp/eng/1020">
       <rdaed:P20316>Close Quarters</rdaed:P20316>
@@ -1493,7 +1445,7 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/19389226"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/188302088"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/198163223/ger/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/198163223/exp/ger/1020">
       <rdaed:P20006>ger</rdaed:P20006>
       <rdaed:P20312>Route des Flandres</rdaed:P20312>
       <rdfs:label>Route des Flandres / ger / text</rdfs:label>
@@ -1738,7 +1690,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/307973201"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/308018847/eng/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/308018847/exp/eng/1020">
       <rdaed:P20312>The Scorpion God</rdaed:P20312>
       <rdfs:label>The Scorpion God / eng / text</rdfs:label>
       <rdaed:P20312>Scorpion god</rdaed:P20312>
@@ -1747,7 +1699,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/308018847"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/308018847/ger/1020/81823873">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/308018847/exp/ger/1020/81823873">
       <rdaed:P20006>ger</rdaed:P20006>
       <rdaed:P20312>The Scorpion God</rdaed:P20312>
       <rdfs:label>The Scorpion God / ger / text</rdfs:label>
@@ -1757,7 +1709,7 @@
       <rdaeo:P20037 rdf:resource="http://viaf.org/viaf/81823873"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/308018847"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/308018847/spa/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/308018847/exp/spa/1020">
       <rdaed:P20006>spa</rdaed:P20006>
       <rdaed:P20312>The Scorpion God</rdaed:P20312>
       <rdfs:label>The Scorpion God / spa / text</rdfs:label>
@@ -1766,7 +1718,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/308018847"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/308018847/spa/1020/12367718">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/308018847/exp/spa/1020/12367718">
       <rdaed:P20006>spa</rdaed:P20006>
       <rdaed:P20312>The Scorpion God</rdaed:P20312>
       <rdfs:label>The Scorpion God / spa / text</rdfs:label>
@@ -1822,7 +1774,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/310430410"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/312341155/ger/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/312341155/exp/ger/1020">
       <rdaed:P20006>ger</rdaed:P20006>
       <rdaed:P20312>Deštník z Piccadilly</rdaed:P20312>
       <rdfs:label>Deštník z Piccadilly / ger / text</rdfs:label>
@@ -1831,7 +1783,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/312341155"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/313685914/ger/1020">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/313685914/exp/ger/1020">
       <rdaed:P20006>ger</rdaed:P20006>
       <rdaed:P20312>Morový sloup</rdaed:P20312>
       <rdfs:label>Morový sloup / ger / text</rdfs:label>
@@ -1873,7 +1825,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/47608695/lordoftheflieswilliamgolding"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/57170916/versuchubergolding/ger/1020/42309455">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/57170916/versuchubergolding/exp/ger/1020/42309455">
       <rdaed:P20312>Versuch über Golding</rdaed:P20312>
       <rdfs:label>Versuch über Golding / ger / text</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
@@ -2208,9 +2160,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/119144648592107423604/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184334172/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/119144648592107423604/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184334172/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/013638829">
       <rdamd:P30156>Lord of the flies ; Pincher Martin ; Rites of passage</rdamd:P30156>
@@ -2224,9 +2176,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/119144648592107423604/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184334172/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/119144648592107423604/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184334172/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/014141167">
       <rdamd:P30156>Lord of the flies</rdamd:P30156>
@@ -2270,10 +2222,10 @@
       <rdamd:P30165>1983-1985</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/178994871/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312341155/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/313685914/ger/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/198163223/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/178994871/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/312341155/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/313685914/exp/ger/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/198163223/exp/ger/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/015506954">
       <rdamd:P30156>Lord of the flies</rdamd:P30156>
@@ -2550,8 +2502,8 @@
       <rdamd:P30165>Bd. 850 : Belletristik</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184334172/ger/1020/42309455"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/57170916/versuchubergolding/ger/1020/42309455"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184334172/exp/ger/1020/42309455"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/57170916/versuchubergolding/exp/ger/1020/42309455"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/850274044">
       <rdamd:P30156>Äquatortaufe</rdamd:P30156>
@@ -2803,9 +2755,9 @@
       <rdamd:P30165>v. 468</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/spa/1020/12367718"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bimo0000923022">
       <rdamd:P30156>Martín el naúfrago</rdamd:P30156>
@@ -3197,9 +3149,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571102328">
       <rdamd:P30004>ISBN 0571102328</rdamd:P30004>
@@ -3215,9 +3167,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571114547">
       <rdamd:P30004>ISBN 0571114547 :</rdamd:P30004>
@@ -3365,9 +3317,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/119144648592107423604/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184334172/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/119144648592107423604/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/184334172/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571134475">
       <rdamd:P30004>ISBN 0571134475 (pbk) :</rdamd:P30004>
@@ -3529,9 +3481,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/187146251/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174553895/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/187146251/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174553895/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571166547">
       <rdamd:P30004>ISBN 0571166547 :</rdamd:P30004>
@@ -3564,9 +3516,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/187146251/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174553895/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/187146251/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174553895/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571175260">
       <rdamd:P30004>ISBN 0571175260 :</rdamd:P30004>
@@ -3693,9 +3645,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/187146251/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174553895/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/187146251/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174553895/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571224520">
       <rdamd:P30004>ISBN 0571224520 (hbk.) :</rdamd:P30004>
@@ -3730,9 +3682,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/187146251/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174553895/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/176165653/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/187146251/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174553895/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0571225454">
       <rdamd:P30004>ISBN 0571225454 (pbk.) :</rdamd:P30004>
@@ -3864,9 +3816,9 @@
       <rdamd:P30106>A New Portway large print book</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0745171400">
       <rdamd:P30004>ISBN 0745171400</rdamd:P30004>
@@ -4313,9 +4265,9 @@
       <rdamd:P30165>468. Sección Literatura</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/spa/1020/12367718"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8420630969">
       <rdamd:P30004>ISBN 84-206-3096-9</rdamd:P30004>
@@ -4495,11 +4447,11 @@
       <rdamd:P30165>L 5637</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/spa/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/spa/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/spa/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/spa/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/spa/1020/12367718"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8420666572">
       <rdamd:P30004>ISBN 84-206-6657-2</rdamd:P30004>
@@ -4539,9 +4491,9 @@
       <rdamd:P30106>Biblioteca fundamental de nuestro tiempo ;13. Sección Literatura</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/spa/1020/12367718"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8420699160">
       <rdamd:P30004>ISBN 8420699160 (pbk.)</rdamd:P30004>
@@ -5354,9 +5306,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780571298501">
       <rdamd:P30004>ISBN 9780571298501 (pbk.) :</rdamd:P30004>
@@ -5555,9 +5507,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/eng/1020"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/eng/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780571307821">
       <rdamd:P30004>ISBN 9780571307821 (pbk.) :</rdamd:P30004>
@@ -6296,9 +6248,9 @@
       <rdamd:P30165>6694</rdamd:P30165>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/ger/1020/81823873"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/ger/1020/81823873"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/ger/1020/81823873"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/ger/1020/81823873"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/ger/1020/81823873"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/ger/1020/81823873"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9783442066957">
       <rdamd:P30004>ISBN 9783442066957</rdamd:P30004>
@@ -6522,9 +6474,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/ger/1020/81823873"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/ger/1020/81823873"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/ger/1020/81823873"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/ger/1020/81823873"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/ger/1020/81823873"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/ger/1020/81823873"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9783570004531">
       <rdamd:P30004>ISBN 9783570004531</rdamd:P30004>
@@ -7378,9 +7330,9 @@
       <rdamd:P30106>El libro de bolsillo. Biblioteca de autor</rdamd:P30106>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/spa/1020/12367718"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308018847/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180585027/exp/spa/1020/12367718"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/177762289/exp/spa/1020/12367718"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788420674162">
       <rdamd:P30004>ISBN 978-84-206-7416-2</rdamd:P30004>

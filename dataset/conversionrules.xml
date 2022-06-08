@@ -194,7 +194,7 @@
                 <subfield code="1" type="http://rdaregistry.info/Elements/x/datatype/P00018" label="has identifier for work"/>
             </datafield>
             <datafield tag="240"  condition=". eq $this_field">
-                <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
+                <subfield code="a" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.) || ' (' || $record/*:datafield[@tag='100']/*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'" label="rdf label"/>
                 <subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
                 <!--<subfield code="a" type="http://rdaregistry.info/Elements/w/datatype/P10223" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has preferred title of the work"/>-->
                 <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
@@ -478,6 +478,8 @@
         <note>Work identified by title in 600</note>
         <attributes>
             <datafield tag="600" condition=". eq $this_field">
+                <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.) || ' (' || ../*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'" label="rdf label"/>
+                <!--<subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>-->
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
                 <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
                 <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
@@ -520,7 +522,8 @@
         <note>Related work</note>
         <attributes>
             <datafield tag="700" condition=". eq $this_field">
-                <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
+                <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.) || ' (' || ../*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'" label="rdf label"/>
+                <!--<subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>-->
                 <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
                 <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
                 <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10012" label="has other distinguishing characteristic of the work"/>
@@ -567,7 +570,8 @@
         <note>Analytical work</note>
         <attributes>
             <datafield tag="700" condition=". eq $this_field">
-                <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
+                <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.) || ' (' || ../*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'" label="rdf label"/>
+                <!--<subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>-->
                 <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
                 <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>
                 <subfield code="n" type="http://rdaregistry.info/Elements/w/datatype/P10012" label="has other distinguishing characteristic of the work"/>
@@ -617,13 +621,13 @@
                 <target entity="MARC21-6XX-Work"  condition="frbrizer:linked($anchor_field, $target_field, false()) and not($this_field/*:subfield[@code = '1'] = $target_field/*:subfield[@code = '1'])" type="http://rdaregistry.info/Elements/c/C10001"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-100700Person" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false())"/>
+                <target entity="MARC21-100700Person" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-700-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false())"/>
+                <target entity="MARC21-700-Related-Work" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/') and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="{$target_subfield}">
-                <target entity="MARC21-758-Related-Work" type="http://rdaregistry.info/Elements/c/C10001" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked($anchor_field, $target_field, false())"/>
+                <target entity="MARC21-758-Related-Work" condition="starts-with($target_subfield, 'http://rdaregistry.info/Elements/w/')  and frbrizer:linked($anchor_field, $target_field, false())"/>
             </relationship>
             <relationship type="http://rdaregistry.info/Elements/w/datatype/P10004">
                 <target entity="MARC380" condition="frbrizer:linked($anchor_field, $target_field, false())"/>
@@ -726,6 +730,8 @@
         <note>Series work</note>
         <attributes>
             <datafield tag="800"  condition=". eq $this_field">
+                <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.) || ' (' || ../*:subfield[@code='a']/replace(., '[\s,/:=]+$', '') || ')'" label="rdf label"/>
+                <!--<subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>-->
                 <subfield code="t" type="http://www.w3.org/2000/01/rdf-schema#label" select="frbrizer:trim(.)" label="rdf label"/>
                 <subfield code="t" type="http://rdaregistry.info/Elements/w/datatype/P10088" select="string-join((frbrizer:trim(.), frbrizer:trim(../*:subfield[@code = 'p'])), ' : ')" label="has title of the work"/>
                 <subfield code="f" type="http://rdaregistry.info/Elements/w/datatype/P10219" label="has date of work"/>

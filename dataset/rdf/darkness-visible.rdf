@@ -401,28 +401,31 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/29524003/darknessvisible"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/310714688/1011">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/310714688/exp/zxx/1011">
       <rdaed:P20312>Variations, piano, flute, clarinet, percussion, violin, cello</rdaed:P20312>
       <rdfs:label>Variations, piano, flute, clarinet, percussion, violin, cello / performed music</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1011"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/zxx"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20011 rdf:resource="http://viaf.org/viaf/29050495"/>
       <rdaeo:P20039 rdf:resource="http://viaf.org/viaf/146015676"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/310714688"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/310714689/1011">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/310714689/exp/zxx/1011">
       <rdaed:P20312>Lament of the bow</rdaed:P20312>
       <rdfs:label>Lament of the bow / performed music</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1011"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/zxx"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20011 rdf:resource="http://viaf.org/viaf/29050495"/>
       <rdaeo:P20039 rdf:resource="http://viaf.org/viaf/146015676"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/310714689"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://viaf.org/viaf/310714691/1011">
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/310714691/exp/zxx/1011">
       <rdaed:P20312>Cimmerian nocturne</rdaed:P20312>
       <rdfs:label>Cimmerian nocturne / performed music</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1011"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/zxx"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
       <rdaeo:P20011 rdf:resource="http://viaf.org/viaf/29050495"/>
       <rdaeo:P20039 rdf:resource="http://viaf.org/viaf/146015676"/>
@@ -637,9 +640,9 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1004</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1004"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310714691/1011"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310714689/1011"/>
-      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310714688/1011"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310714691/exp/zxx/1011"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310714689/exp/zxx/1011"/>
+      <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310714688/exp/zxx/1011"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0099285576">
       <rdamd:P30004>ISBN 0099285576</rdamd:P30004>
