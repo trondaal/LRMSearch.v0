@@ -25,16 +25,19 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/191146462599827770953">
       <rdaxd:P00018>http://viaf.org/viaf/191146462599827770953</rdaxd:P00018>
       <rdawd:P10088>Men Livet lever</rdawd:P10088>
+      <rdfs:label>Men Livet lever (Hamsun, Knut)</rdfs:label>
       <rdfs:label>Men Livet lever</rdfs:label>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/206863699">
       <rdaxd:P00018>http://viaf.org/viaf/206863699</rdaxd:P00018>
       <rdawd:P10088>Mysterier</rdawd:P10088>
+      <rdfs:label>Mysterier (Hamsun, Knut)</rdfs:label>
       <rdfs:label>Mysterier</rdfs:label>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/315057230">
       <rdaxd:P00018>http://viaf.org/viaf/315057230</rdaxd:P00018>
       <rdawd:P10088>Hamsun: sværmer og erobrer</rdawd:P10088>
+      <rdfs:label>Hamsun: sværmer og erobrer (Kolloen, Ingar Sletten)</rdfs:label>
       <rdfs:label>Hamsun: sværmer og erobrer</rdfs:label>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/49458459"/>
       <rdawo:P10319 rdf:resource="http://viaf.org/viaf/59083692"/>
@@ -42,7 +45,7 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/315057230/1">
       <rdaxd:P00018>http://viaf.org/viaf/315057230/1</rdaxd:P00018>
       <rdawd:P10088>Svermeren</rdawd:P10088>
-      <rdfs:label>Svermeren</rdfs:label>
+      <rdfs:label>Svermeren (Kolloen, Ingar Sletten)</rdfs:label>
       <rdawo:P10019 rdf:resource="http://viaf.org/viaf/315057230"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/49458459"/>
       <rdawo:P10319 rdf:resource="http://viaf.org/viaf/59083692"/>
@@ -50,7 +53,7 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/315057230/2">
       <rdaxd:P00018>http://viaf.org/viaf/315057230/2</rdaxd:P00018>
       <rdawd:P10088>Erobreren</rdawd:P10088>
-      <rdfs:label>Erobreren</rdfs:label>
+      <rdfs:label>Erobreren (Kolloen, Ingar Sletten)</rdfs:label>
       <rdawo:P10019 rdf:resource="http://viaf.org/viaf/315057230"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/49458459"/>
       <rdawo:P10319 rdf:resource="http://viaf.org/viaf/59083692"/>
@@ -359,6 +362,7 @@
       <rdamd:P30182>S. 6.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Intervju med Johan Kvandal</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
    </rdac:C10007>
@@ -417,6 +421,7 @@
       <rdamd:P30182>494 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>1. utg. 2003</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/1/exp/nob/1020"/>
@@ -434,6 +439,7 @@
       <rdamd:P30182>494 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>1. utg. 2004</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/2/exp/nob/1020"/>
@@ -451,6 +457,7 @@
       <rdamd:P30182>494 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>1. utg. 2003</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/1/exp/nob/1020"/>
@@ -468,6 +475,7 @@
       <rdamd:P30182>494 s.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>1. utg. 2004</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/2/exp/nob/1020"/>
@@ -489,6 +497,7 @@
       <rdamd:P30182>550 s. : ill.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Redigert utg. av det norske tobindsverket</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/exp/dan/1020/102784385/102807285"/>
@@ -507,6 +516,7 @@
       <rdamd:P30182>XII, 378 s., pl. : ill.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Oversettelse av forkortet utg. av tobindsverket "Hamsun : Svermeren" og "Hamsun : Erobreren" (2003-2004)</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/exp/eng/1020/19129035/6840702"/>
@@ -582,6 +592,7 @@
       <rdamd:P30182>487 s., pl. : ill.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Oversatt etter "Knut Hamsun : dreamer and dissenter"</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/exp/chi/1020"/>
@@ -600,6 +611,7 @@
       <rdamd:P30182>428 s. : ill.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Forkortet utg. av tobindsverket "Hamsun", 2003-2004</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/exp/nob/1020"/>
@@ -615,9 +627,12 @@
       <rdamd:P30111>[Melhus] : Lydbokforl., 2007.</rdamd:P30111>
       <rdamd:P30083>Lydbokforl</rdamd:P30083>
       <rdamd:P30011>2007</rdamd:P30011>
-      <rdamd:P30182>17 plater (CD) (20 t, 35 min) : digital ; 12 cm, i eske.</rdamd:P30182>
+      <rdamd:P30182>17 plater (CD) (20 t, 35 min) : digital, 12 cm, i eske.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1001</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1013</rdamd:P30001>
+      <rdamd:P30137>Bearbeidet utgave av Hamsun : Svermeren og Hamsun : Erobreren</rdamd:P30137>
+      <rdamd:P30137>Lest av Ola B. Johannessen</rdamd:P30137>
+      <rdamd:P30137>På esken: Biografi</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1013"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/exp/nob/1013/60725885"/>
@@ -674,6 +689,7 @@
       <rdamd:P30182>461 s. : ill.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Bearbeidet versjon for det internasjonale markedet av tobindsverket: Hamsun - svermeren ; Hamsun - erobreren. Norsk arbeidstittel: Dikteren og diktatoren</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/315057230/exp/est/1020/286145258"/>

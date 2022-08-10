@@ -25,56 +25,57 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/12155103895976200651">
       <rdaxd:P00018>http://viaf.org/viaf/12155103895976200651</rdaxd:P00018>
       <rdawd:P10088>Murder in Mesapotamia</rdawd:P10088>
-      <rdfs:label>Murder in Mesapotamia</rdfs:label>
+      <rdfs:label>Murder in Mesapotamia (Christie, Agatha)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/71388952"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/174999513">
       <rdaxd:P00018>http://viaf.org/viaf/174999513</rdaxd:P00018>
       <rdawd:P10088>Cat among the pigeons</rdawd:P10088>
-      <rdfs:label>Cat among the pigeons</rdfs:label>
+      <rdfs:label>Cat among the pigeons (Christie, Agatha)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/71388952"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/184807703">
       <rdaxd:P00018>http://viaf.org/viaf/184807703</rdaxd:P00018>
       <rdawd:P10088>Evil under the sun</rdawd:P10088>
-      <rdfs:label>Evil under the sun</rdfs:label>
+      <rdfs:label>Evil under the sun (Christie, Agatha)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/71388952"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/186192338">
       <rdaxd:P00018>http://viaf.org/viaf/186192338</rdaxd:P00018>
       <rdawd:P10088>Hollow</rdawd:P10088>
-      <rdfs:label>Hollow</rdfs:label>
+      <rdfs:label>Hollow (Christie, Agatha)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/71388952"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/309258229">
       <rdaxd:P00018>http://viaf.org/viaf/309258229</rdaxd:P00018>
       <rdawd:P10088>Death on the Nile</rdawd:P10088>
-      <rdfs:label>Death on the Nile</rdfs:label>
+      <rdfs:label>Death on the Nile (Christie, Agatha)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/71388952"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/310912914">
       <rdaxd:P00018>http://viaf.org/viaf/310912914</rdaxd:P00018>
       <rdawd:P10088>Appointment with death</rdawd:P10088>
-      <rdfs:label>Appointment with death</rdfs:label>
+      <rdfs:label>Appointment with death (Christie, Agatha)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/71388952"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/37144221/deathbeyondthenile">
       <rdaxd:P00018>http://viaf.org/viaf/37144221/deathbeyondthenile</rdaxd:P00018>
       <rdawd:P10088>Death beyond the Nile</rdawd:P10088>
-      <rdfs:label>Death beyond the Nile</rdfs:label>
+      <rdfs:label>Death beyond the Nile (Mann, Jessica.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/37144221"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/3974161575638204730004">
       <rdaxd:P00018>http://viaf.org/viaf/3974161575638204730004</rdaxd:P00018>
       <rdawd:P10088>Hercule Poirot : mort sur le Nil</rdawd:P10088>
-      <rdfs:label>Hercule Poirot : mort sur le Nil</rdfs:label>
+      <rdfs:label>Hercule Poirot : mort sur le Nil (Bottier, Isabelle)</rdfs:label>
+      <rdawd:P10330>Linnet Ridgeway er på bryllupsreise i Egypt med mannen sin. Hun er rik, vakker og ubeskrivelig karismatisk og hun er i stand til å sjarmere hvem som helst; hennes nåværende ektemann var gift med hennes beste venn før hun stjal ham. Og Jacqueline har bestemt seg for at de to ikke skal få være i fred et sekund. Hun følger dem på reisen og dukker opp overalt for å gjøre dem ukomfortable, og når de bestemmer seg for å ta en båttur nedover Nilen blir hun med om bord. På båten er tilfeldigvis også mesterdetektiven Hercule Poirot, som får et nytt mordmysterium å bryne seg på når Linnet blir funnet død. Omtalen er utarbeidet av BS.</rdawd:P10330>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1003"/>
       <rdawo:P10058 rdf:resource="http://viaf.org/viaf/284507812"/>
@@ -84,7 +85,8 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/91236070/lifeanddeathonthenile">
       <rdaxd:P00018>http://viaf.org/viaf/91236070/lifeanddeathonthenile</rdaxd:P00018>
       <rdawd:P10088>Life and death on the Nile</rdawd:P10088>
-      <rdfs:label>Life and death on the Nile</rdfs:label>
+      <rdfs:label>Life and death on the Nile (Armelagos, George J.)</rdfs:label>
+      <rdawd:P10330>George J. Armelagos spent thirty years at various sites in Sudan searching for ancient Nubian civilizations that gave rise to what we now know as the upper Nile civilizations. Most of these sites are now underwater, due to being inundated when the Aswan Dam was built on the Upper Nile and flooded the ancient cities of Wadi Halfa and Kulubnarti. While hundreds of articles have been written about the research at these sites, this monograph, where Armelagos invited his former student Dennis Van Gerven to collaborate with him, represents the first attempt to explore all of the biocultural relationships between the villages, the people, and the region.</rdawd:P10330>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/91236070"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/58333198"/>
@@ -93,6 +95,7 @@
       <rdaxd:P00018>http://www.wikidata.org/entity/Q1059914</rdaxd:P00018>
       <rdawd:P10088>Death on the Nile</rdawd:P10088>
       <rdfs:label>Death on the Nile</rdfs:label>
+      <rdawd:P10330>Set amidst the Egyptian landscape, Hercule Poirot must unravel the web of treachery and guilt woven by the murderer of a beautiful young heiress.</rdawd:P10330>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1002"/>
       <rdawo:P10013 rdf:resource="http://www.wikidata.org/entity/Q137489"/>
       <rdawo:P10053 rdf:resource="http://www.wikidata.org/entity/Q214665"/>
@@ -105,7 +108,7 @@
    <rdac:C10001 rdf:about="http://www.wikidata.org/entity/Q214665/lovetheme">
       <rdaxd:P00018>http://www.wikidata.org/entity/Q214665/lovetheme</rdaxd:P00018>
       <rdawd:P10088>Death on the Nile</rdawd:P10088>
-      <rdfs:label>Death on the Nile</rdfs:label>
+      <rdfs:label>Death on the Nile (Rota, Nino)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1001"/>
       <rdawo:P10053 rdf:resource="http://www.wikidata.org/entity/Q214665"/>
       <rdawo:P10106 rdf:resource="http://www.wikidata.org/entity/Q1059914"/>
@@ -378,7 +381,7 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile"/>
    </rdac:C10006>
-   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q1059914/exp/eng/mul/1023">
+   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q1059914/exp/1023">
       <rdaed:P20316>Death on the Nile</rdaed:P20316>
       <rdaed:P20312>Death on the Nile</rdaed:P20312>
       <rdfs:label>Death on the Nile / mul / two-dimensional moving image</rdfs:label>
@@ -416,20 +419,23 @@
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30083>Pan Books</rdamd:P30083>
       <rdamd:P30011>1950</rdamd:P30011>
-      <rdamd:P30182>256 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>256 pages, 18 cm.</rdamd:P30182>
+      <rdamd:P30137>First published by Collins, 1937.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/008314684">
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30083>Penguin Books</rdamd:P30083>
       <rdamd:P30011>1953</rdamd:P30011>
-      <rdamd:P30182>250 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>250 pages, 18 cm.</rdamd:P30182>
+      <rdamd:P30137>Originally published,Collins 1937.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/010932194">
       <rdamd:P30156>Death on the Nile</rdamd:P30156>
       <rdamd:P30083>Collins</rdamd:P30083>
       <rdamd:P30011>1960</rdamd:P30011>
-      <rdamd:P30182>253 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>253 pages, 18 cm.</rdamd:P30182>
       <rdamd:P30106>Fontana books-no.374</rdamd:P30106>
+      <rdamd:P30137>Originally published 1937.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/020088231">
       <rdamd:P30156>Love theme from Death on the Nile. (Piano solo). By N. Rota</rdamd:P30156>
@@ -463,7 +469,11 @@
       <rdamd:P30111>[Oslo] : Star media, 2004.</rdamd:P30111>
       <rdamd:P30083>Star media</rdamd:P30083>
       <rdamd:P30011>2004</rdamd:P30011>
-      <rdamd:P30182>1 plate (DVD) : digital ; 12 cm.</rdamd:P30182>
+      <rdamd:P30182>1 plate (DVD) : digital, 12 cm.</rdamd:P30182>
+      <rdamd:P30137>Produsert i 1978</rdamd:P30137>
+      <rdamd:P30137>Undertekster : norsk, dansk, svensk, finsk</rdamd:P30137>
+      <rdamd:P30137>Reg. SF: 13417</rdamd:P30137>
+      <rdamd:P30137>Orig. tit.: Death on the Nile</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8414906236463">
       <rdamd:P30004>IAN 8414906236463</rdamd:P30004>
@@ -479,6 +489,8 @@
       <rdamd:P30011>D.L. 2013</rdamd:P30011>
       <rdamd:P30182>1 Blu-ray (ca. 141 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Colección Agatha Christie</rdamd:P30106>
+      <rdamd:P30137>Basada en la novela homónima de Agatha Christie</rdamd:P30137>
+      <rdamd:P30137>Distribuida como pack en una funda-estuche bajo el título "Colección Agatha Christie" junto con "Asesinato en el Orient Express", "El espejo roto" y "Muerte bajo el sol"</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8414906512277">
       <rdamd:P30004>IAN 8414906512277</rdamd:P30004>
@@ -492,6 +504,7 @@
       <rdamd:P30011>2013</rdamd:P30011>
       <rdamd:P30182>1 Blu-ray (ca. 141 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Colección Agatha Christie</rdamd:P30106>
+      <rdamd:P30137>Basada en la novela homónima de Agatha Christie</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394410398">
       <rdamd:P30004>IAN 8421394410398</rdamd:P30004>
@@ -506,6 +519,9 @@
       <rdamd:P30011>D.L. 2018</rdamd:P30011>
       <rdamd:P30182>1 Blu-ray (ca. 140 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
+      <rdamd:P30137>Basada en la novela homónima de Agatha Christie</rdamd:P30137>
+      <rdamd:P30137>Incluye galería</rdamd:P30137>
+      <rdamd:P30137>Nueva restauración en 2K</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394414600">
       <rdamd:P30004>IAN 8421394414600</rdamd:P30004>
@@ -517,7 +533,11 @@
       <rdamd:P30083>edición y diseño, Divisa Home Vídeo</rdamd:P30083>
       <rdamd:P30011>[2020]</rdamd:P30011>
       <rdamd:P30007>©2020</rdamd:P30007>
-      <rdamd:P30182>1 videodisco (aproximadamente 140 min) : sonido, color ; 12 cm.</rdamd:P30182>
+      <rdamd:P30182>1 videodisco (aproximadamente 140 min) : sonido, color, 12 cm.</rdamd:P30182>
+      <rdamd:P30137>Distribuido en un pack con el título "Agatha Christie" junto con "Asesinato en el Orient Express", "Muerte bajo el sol", "El espejo roto", "Noche sin fin"</rdamd:P30137>
+      <rdamd:P30137>Incluye extras</rdamd:P30137>
+      <rdamd:P30137>Largometraje realizado en Reino Unido en 1978</rdamd:P30137>
+      <rdamd:P30137>Logotipo de StudioCanal</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394550865">
       <rdamd:P30004>IAN 8421394550865</rdamd:P30004>
@@ -532,6 +552,9 @@
       <rdamd:P30011>D.L. 2018</rdamd:P30011>
       <rdamd:P30182>1 DVD-Vídeo (ca. 135 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
+      <rdamd:P30137>Basada en la novela homónima de Agatha Christie</rdamd:P30137>
+      <rdamd:P30137>Incluye tráiler y galería</rdamd:P30137>
+      <rdamd:P30137>Nueva restauración en 2K</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/IAN-8421394556324">
       <rdamd:P30004>IAN 8421394556324</rdamd:P30004>
@@ -543,7 +566,11 @@
       <rdamd:P30083>edición y diseño, Divisa Home Vídeo</rdamd:P30083>
       <rdamd:P30011>[2020]</rdamd:P30011>
       <rdamd:P30007>©2020</rdamd:P30007>
-      <rdamd:P30182>1 videodisco (aproximadamente 140 min) : sonido, color ; 12 cm.</rdamd:P30182>
+      <rdamd:P30182>1 videodisco (aproximadamente 140 min) : sonido, color, 12 cm.</rdamd:P30182>
+      <rdamd:P30137>Distribuido en un pack con el título "Agatha Christie" junto con "Asesinato en el Orient Express", "Muerte bajo el sol", "El espejo roto", "Noche sin fin"</rdamd:P30137>
+      <rdamd:P30137>Incluye extras</rdamd:P30137>
+      <rdamd:P30137>Largometraje realizado en Reino Unido en 1978</rdamd:P30137>
+      <rdamd:P30137>Logotipo de StudioCanal</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/Mimo0000761934">
       <rdamd:P30156>Poirot en Egipto</rdamd:P30156>
@@ -554,9 +581,10 @@
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>[1944</rdamd:P30011>
       <rdamd:P30175>Vicente Ferrer]</rdamd:P30175>
-      <rdamd:P30182>128 pages ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>128 pages, 23 cm.</rdamd:P30182>
       <rdamd:P30106>De "Biblioteca Oro" Serie Amarilla</rdamd:P30106>
       <rdamd:P30165>n. 158</rdamd:P30165>
+      <rdamd:P30137>Grab. intercal.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/Mimo0000761935">
       <rdamd:P30156>Poirot en Egipto</rdamd:P30156>
@@ -566,9 +594,10 @@
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>[1953?</rdamd:P30011>
       <rdamd:P30175>Ponsa]</rdamd:P30175>
-      <rdamd:P30182>256 pages ; 16 cm.</rdamd:P30182>
+      <rdamd:P30182>256 pages, 16 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Oro de bolsillo</rdamd:P30106>
       <rdamd:P30165>núm. 57</rdamd:P30165>
+      <rdamd:P30137>El tr. consta en el verso de la port.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/Mimo0000761936">
       <rdamd:P30156>Poirot en Egipto</rdamd:P30156>
@@ -578,7 +607,7 @@
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>[1958]</rdamd:P30011>
       <rdamd:P30175>Ponsa]</rdamd:P30175>
-      <rdamd:P30182>220 pages ; 17 cm.</rdamd:P30182>
+      <rdamd:P30182>220 pages, 17 cm.</rdamd:P30182>
       <rdamd:P30106>Selecciones de Biblioteca Oro</rdamd:P30106>
       <rdamd:P30165>v. 146</rdamd:P30165>
    </rdac:C10007>
@@ -591,12 +620,15 @@
       <rdamd:P30111>[Santa Monica, Calif.] : Lionsgate, [2009].</rdamd:P30111>
       <rdamd:P30083>Lionsgate</rdamd:P30083>
       <rdamd:P30011>[2009]</rdamd:P30011>
-      <rdamd:P30182>1 videodisc (140 min.) : sound, color ; 4 3/4 in.</rdamd:P30182>
+      <rdamd:P30182>1 videodisc (140 min.) : sound, color, 4 3/4 in.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1008</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1060</rdamd:P30001>
+      <rdamd:P30137>Originally produced as a motion picture in 1978.</rdamd:P30137>
+      <rdamd:P30137>Based on the book of the same title by Agatha Christie.</rdamd:P30137>
+      <rdamd:P30137>Special features: Making-of featurette ; interviews with Peter Ustinov and Jane Birkin ; theatrical trailer ; talent bios.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1060"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1008"/>
-      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q1059914/exp/eng/mul/1023"/>
+      <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q1059914/exp/1023"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/a4616064">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
@@ -610,6 +642,10 @@
       <rdamd:P30011>D.L. 2009</rdamd:P30011>
       <rdamd:P30182>1 DVD-Vídeo (ca. 130 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie Collection</rdamd:P30106>
+      <rdamd:P30137>Basada en la novela homónima de Agatha Christie</rdamd:P30137>
+      <rdamd:P30137>Cine europeo Inglaterra</rdamd:P30137>
+      <rdamd:P30137>Incluye extras con material e información adicional</rdamd:P30137>
+      <rdamd:P30137>Película de misterio realizada en 1978</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/a5086275">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
@@ -621,6 +657,8 @@
       <rdamd:P30011>D.L. 2011</rdamd:P30011>
       <rdamd:P30182>1 DVD-Vídeo (ca. 94 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie. Hércules Poirot</rdamd:P30106>
+      <rdamd:P30137>Basada en las novelas de Agatha Christie "Poirot" y "Death on the Nile"</rdamd:P30137>
+      <rdamd:P30137>Es una versión de la anterior "Muerte en el Nilo" de 1978, dirigida por J. Guillermin</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/a5120235">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
@@ -633,6 +671,8 @@
       <rdamd:P30011>D.L. 2010</rdamd:P30011>
       <rdamd:P30182>1 DVD-Vídeo (ca. 130 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Colección Agatha Christie</rdamd:P30106>
+      <rdamd:P30137>Basada en la novela homónima de Agatha Christie</rdamd:P30137>
+      <rdamd:P30137>Incluye extras con material e información adicional</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000043527">
       <rdamd:P30156>Cambio climático, Antiguo Egipto</rdamd:P30156>
@@ -644,6 +684,7 @@
       <rdamd:P30011>D.L. 2003</rdamd:P30011>
       <rdamd:P30182>1 videodisco (DVD) (ca. 50 min) : son., col.</rdamd:P30182>
       <rdamd:P30106>Grandes Documentales de la 2. Ciencia y Cultura</rdamd:P30106>
+      <rdamd:P30137>Videodisco documental</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000080607">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
@@ -654,6 +695,10 @@
       <rdamd:P30083>Vídeo Britannia Producción</rdamd:P30083>
       <rdamd:P30011>D.L. 1984</rdamd:P30011>
       <rdamd:P30182>1 videocasete (VHS) (135 min) : son., col.</rdamd:P30182>
+      <rdamd:P30137>Basada en una novela homónima de Agatha Christie</rdamd:P30137>
+      <rdamd:P30137>Cine europeo Reino Unido</rdamd:P30137>
+      <rdamd:P30137>Ganadora de un Oscar al Mejor Vestuario en 1979</rdamd:P30137>
+      <rdamd:P30137>Película de misterio realizada en 1978</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000080707">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
@@ -663,6 +708,10 @@
       <rdamd:P30083>distribuido en España por Warner Home Vídeo Española</rdamd:P30083>
       <rdamd:P30011>D.L. 1995</rdamd:P30011>
       <rdamd:P30182>1 videocasete (VHS) (aprox. 133 min) : son., col.</rdamd:P30182>
+      <rdamd:P30137>Basada en la novela homónima de Agatha Christie</rdamd:P30137>
+      <rdamd:P30137>Cine europeo Reino Unido</rdamd:P30137>
+      <rdamd:P30137>Ganadora de un Oscar al Mejor Vestuario en 1979</rdamd:P30137>
+      <rdamd:P30137>Película de misterio realizada en 1978</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000080755">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
@@ -672,6 +721,10 @@
       <rdamd:P30083>distribuido en España por Warner Home Vídeo Española</rdamd:P30083>
       <rdamd:P30011>D.L. 1995</rdamd:P30011>
       <rdamd:P30182>1 videocasete (VHS) (ca. 133 min) : son., col.</rdamd:P30182>
+      <rdamd:P30137>Basada en la novela homónima de Agatha Christie</rdamd:P30137>
+      <rdamd:P30137>Cine europeo Reino Unido</rdamd:P30137>
+      <rdamd:P30137>Ganadora de un Oscar al Mejor Vestuario en 1979</rdamd:P30137>
+      <rdamd:P30137>Película de misterio realizada en 1978</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/bivi0000081197">
       <rdamd:P30156>Muerte en el Nilo</rdamd:P30156>
@@ -683,6 +736,11 @@
       <rdamd:P30083>distribuido por Llamentol</rdamd:P30083>
       <rdamd:P30011>D.L. 2006</rdamd:P30011>
       <rdamd:P30182>1 DVD-Vídeo (ca. 94 min) : son., col.</rdamd:P30182>
+      <rdamd:P30137>Es el episodio tercero de la novena temporada y pasado por la TV en abril de 2004</rdamd:P30137>
+      <rdamd:P30137>Es una versión de la anterior "Muerte en el Nilo" de 1978, dirigida por J. Guillermin y premiada con un Oscar en la edición de 1979</rdamd:P30137>
+      <rdamd:P30137>Guión basado en las novelas de Agatha Christie "Poirot" y "Death on the Nile"</rdamd:P30137>
+      <rdamd:P30137>Incluye programa con acceso directo a las películas y las escenas</rdamd:P30137>
+      <rdamd:P30137>Serie ganadora de 4 premios BAFTA en sus ediciones 1990 y 1992</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0002237725">
       <rdamd:P30004>ISBN 0002237725 :</rdamd:P30004>
@@ -694,7 +752,7 @@
       <rdamd:P30111>London : Collins, 1990, c1937.</rdamd:P30111>
       <rdamd:P30083>Collins</rdamd:P30083>
       <rdamd:P30011>1990, c1937</rdamd:P30011>
-      <rdamd:P30182>252 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>252 pages, 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -713,8 +771,10 @@
       <rdamd:P30111>London : HarperCollins, 1999.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>1999</rdamd:P30011>
-      <rdamd:P30182>318 pages ; 21 cm.</rdamd:P30182>
-      <rdamd:P30182>256 pages ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>318 pages, 21 cm.</rdamd:P30182>
+      <rdamd:P30182>256 pages, 22 cm.</rdamd:P30182>
+      <rdamd:P30137>Originally published: London : Collins, 1937.</rdamd:P30137>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0002311704">
       <rdamd:P30004>ISBN 0002311704 :</rdamd:P30004>
@@ -726,9 +786,10 @@
       <rdamd:P30111>London : Published for the Crime Club by Collins, 1969.</rdamd:P30111>
       <rdamd:P30083>Published for the Crime Club by Collins</rdamd:P30083>
       <rdamd:P30011>1969</rdamd:P30011>
-      <rdamd:P30182>318 pages ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>318 pages, 21 cm.</rdamd:P30182>
       <rdamd:P30106>The Greenway edition ;</rdamd:P30106>
       <rdamd:P30165>11</rdamd:P30165>
+      <rdamd:P30137>Originally published 1937.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0006153569">
       <rdamd:P30004>ISBN 0006153569 (pbk) :</rdamd:P30004>
@@ -740,9 +801,10 @@
       <rdamd:P30111>[London] : Fontana, 1978.</rdamd:P30111>
       <rdamd:P30083>Fontana</rdamd:P30083>
       <rdamd:P30011>1978</rdamd:P30011>
-      <rdamd:P30182>222 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>222 pages, 18 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Originally published: London : Collins, 1937.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/eng/1020"/>
@@ -758,7 +820,7 @@
       <rdamd:P30083>Fontana</rdamd:P30083>
       <rdamd:P30011>1960, c1937</rdamd:P30011>
       <rdamd:P30010>(1984 [printing])</rdamd:P30010>
-      <rdamd:P30182>222 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>222 pages, 18 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0006751318">
       <rdamd:P30004>ISBN 0006751318</rdamd:P30004>
@@ -770,7 +832,7 @@
       <rdamd:P30111>London : Collins Children's Books, 195.</rdamd:P30111>
       <rdamd:P30083>Collins Children's Books</rdamd:P30083>
       <rdamd:P30011>195</rdamd:P30011>
-      <rdamd:P30182>252 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>252 pages, 18 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0007119321">
       <rdamd:P30004>ISBN 0007119321 (pbk) :</rdamd:P30004>
@@ -782,9 +844,10 @@
       <rdamd:P30111>London : HarperCollins, 2001.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
-      <rdamd:P30182>416 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>416 pages, 18 cm.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie signature collection ;</rdamd:P30106>
       <rdamd:P30165>no.18</rdamd:P30165>
+      <rdamd:P30137>Originally published, London: Collins, 1937.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0007120729">
       <rdamd:P30004>ISBN 0007120729 (pbk.) :</rdamd:P30004>
@@ -796,7 +859,8 @@
       <rdamd:P30111>London : HarperCollins, 2001.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
-      <rdamd:P30182>578 pages : illustrations ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>578 pages : illustrations, 20 cm.</rdamd:P30182>
+      <rdamd:P30137>Contents: Murder in Mesopotamia - Death on the Nile - Appointment with death.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-000718123">
       <rdamd:P30004>ISBN 000718123X (pbk) :</rdamd:P30004>
@@ -808,7 +872,10 @@
       <rdamd:P30111>London : HarperCollins, 2004.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2004</rdamd:P30011>
-      <rdamd:P30182>256 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>256 pages, 18 cm.</rdamd:P30182>
+      <rdamd:P30137>Film tie-in.</rdamd:P30137>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
+      <rdamd:P30137>Originally published: London: Collins, 1937.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0007234473">
       <rdamd:P30004>ISBN 0007234473 (cased) :</rdamd:P30004>
@@ -823,7 +890,9 @@
       <rdamd:P30111>London : HarperCollins, 2006.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2006</rdamd:P30011>
-      <rdamd:P30182>284 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>284 pages, 19 cm.</rdamd:P30182>
+      <rdamd:P30137>Facsim. of ed. published: London: Collins, 1937.</rdamd:P30137>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0007250584">
       <rdamd:P30004>ISBN 0007250584 :</rdamd:P30004>
@@ -839,7 +908,9 @@
       <rdamd:P30111>London : HarperCollins, 2007.</rdamd:P30111>
       <rdamd:P30083>HarperCollins</rdamd:P30083>
       <rdamd:P30011>2007</rdamd:P30011>
-      <rdamd:P30182>44 pages : chiefly colour illustrations ; 30 cm.</rdamd:P30182>
+      <rdamd:P30182>44 pages : chiefly colour illustrations, 30 cm.</rdamd:P30182>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
+      <rdamd:P30137>Translated from the French.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0007422288">
       <rdamd:P30004>ISBN 0007422288</rdamd:P30004>
@@ -857,6 +928,7 @@
       <rdamd:P30182>1 online resource.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie signature collection ;</rdamd:P30106>
       <rdamd:P30165>no. 18</rdamd:P30165>
+      <rdamd:P30137>Originally published, London: Collins, 1937.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0140369619">
       <rdamd:P30004>ISBN 0140369619 (pbk) :</rdamd:P30004>
@@ -869,7 +941,7 @@
       <rdamd:P30111>London : Puffin, 1995.</rdamd:P30111>
       <rdamd:P30083>Puffin</rdamd:P30083>
       <rdamd:P30011>1995</rdamd:P30011>
-      <rdamd:P30182>45 pages : illustrations (some colour), maps, plan ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>45 pages : illustrations (some colour), maps, plan, 21 cm.</rdamd:P30182>
       <rdamd:P30106>History through objects</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0333480872">
@@ -900,7 +972,7 @@
       <rdamd:P30111>New York ; London : Samuel French, c1996.</rdamd:P30111>
       <rdamd:P30083>Samuel French</rdamd:P30083>
       <rdamd:P30011>c1996</rdamd:P30011>
-      <rdamd:P30182>43 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>43 pages, 19 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0745195822">
       <rdamd:P30004>ISBN 0745195822 (cased) :</rdamd:P30004>
@@ -919,9 +991,10 @@
       <rdamd:P30111>Bath : Chivers, 1989, c1988.</rdamd:P30111>
       <rdamd:P30083>Chivers</rdamd:P30083>
       <rdamd:P30011>1989, c1988</rdamd:P30011>
-      <rdamd:P30182>238 pages (large print) ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>238 pages (large print), 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Standard print ed. originally published: London : Macmillan, 1988.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/37144221/deathbeyondthenile/exp/eng/1020"/>
@@ -942,6 +1015,7 @@
       <rdamd:P30011>2017</rdamd:P30011>
       <rdamd:P30007>©2017</rdamd:P30007>
       <rdamd:P30182>1 online resource (pages cm).</rdamd:P30182>
+      <rdamd:P30137>Life and death on the Nile -- Skulls, races, and evolution -- Health and disease: the children -- Growth and development -- Health and disease: the adults -- Case studies -- A bioethnography.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0854560246">
       <rdamd:P30004>ISBN 0854560246 :</rdamd:P30004>
@@ -954,10 +1028,11 @@
       <rdamd:P30111>Leicester : F.A. Thorpe, [1971].</rdamd:P30111>
       <rdamd:P30083>F.A. Thorpe</rdamd:P30083>
       <rdamd:P30011>[1971]</rdamd:P30011>
-      <rdamd:P30182>[5], 466 pages ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>[5], 466 pages, 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Ulverscroft large print series. mystery</rdamd:P30106>
+      <rdamd:P30137>Originally published, London: Collins, 1937.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/eng/1020"/>
@@ -975,9 +1050,10 @@
       <rdamd:P30111>Leicester : Ulverscroft, 2010.</rdamd:P30111>
       <rdamd:P30083>Ulverscroft</rdamd:P30083>
       <rdamd:P30011>2010</rdamd:P30011>
-      <rdamd:P30182>1 volume (large print) ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>1 volume (large print), 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/eng/1020"/>
@@ -1001,6 +1077,45 @@
       <rdamd:P30011>[2018]</rdamd:P30011>
       <rdamd:P30007>©2018</rdamd:P30007>
       <rdamd:P30182>1 online resource (liv, 427 pages) : illustrations, maps.</rdamd:P30182>
+      <rdamd:P30137>"Research presented at three workshops and an international conference that were held in Oxford between January and April 2014."--Page xii.</rdamd:P30137>
+      <rdamd:P30137>Dignas, Beate / Audley-Miller, Lucy --</rdamd:P30137>
+      <rdamd:P30137>Fox, Robin Lane --</rdamd:P30137>
+      <rdamd:P30137>Rutherford, Ian --</rdamd:P30137>
+      <rdamd:P30137>Draycott, Catherine M. --</rdamd:P30137>
+      <rdamd:P30137>Scheer, Tanja S. --</rdamd:P30137>
+      <rdamd:P30137>de Grummond, Nancy T. --</rdamd:P30137>
+      <rdamd:P30137>Giuliani, Luca --</rdamd:P30137>
+      <rdamd:P30137>Lorenz, Katharina --</rdamd:P30137>
+      <rdamd:P30137>Borg, Barbara E. --</rdamd:P30137>
+      <rdamd:P30137>Ewald, B. C. --</rdamd:P30137>
+      <rdamd:P30137>West, Martin --</rdamd:P30137>
+      <rdamd:P30137>Sérida, Rana --</rdamd:P30137>
+      <rdamd:P30137>Pitcher, Luke --</rdamd:P30137>
+      <rdamd:P30137>Wood, Rachel --</rdamd:P30137>
+      <rdamd:P30137>Dunbabin, Katherine M. D. --</rdamd:P30137>
+      <rdamd:P30137>Parker, Robert --</rdamd:P30137>
+      <rdamd:P30137>Frontmatter --</rdamd:P30137>
+      <rdamd:P30137>Contents --</rdamd:P30137>
+      <rdamd:P30137>Preface. Wandering Myths: Transcultural Uses of Myth in the Ancient World /</rdamd:P30137>
+      <rdamd:P30137>Introduction. Travelling Myths, Travelling Heroes /</rdamd:P30137>
+      <rdamd:P30137>Part I: Changing Cultural and Mythical Landscapes in Anatolia --</rdamd:P30137>
+      <rdamd:P30137>Kingship in Heaven in Anatolia, Syria and Greece. Patterns of Convergence and Divergence /</rdamd:P30137>
+      <rdamd:P30137>Making Meaning of Myth. On the Interpretation of Mythological Imagery in the Polyxena Sarcophagus and the Kızılbel Tomb and the History of Achaemenid Asia Minor /</rdamd:P30137>
+      <rdamd:P30137>Myth, Memory and the Past. Wandering Heroes between Arcadia and Cyprus /</rdamd:P30137>
+      <rdamd:P30137>Part II: Reception and Innovation of Mythological Programmes between Greece and Italy --</rdamd:P30137>
+      <rdamd:P30137>From Mezntie to Mezentius? The Stratigraphy of a Myth in Etruria and Rome /</rdamd:P30137>
+      <rdamd:P30137>Pots, Plots, and Performance. Comic and Tragic Iconography in Apulian Vase Painting /</rdamd:P30137>
+      <rdamd:P30137>Distributed Narrative. A Very Short History of Juxtaposing Myths on Pompeian Walls /</rdamd:P30137>
+      <rdamd:P30137>No One is Immortal. From Exemplum Mortalitatis to Exemplum Virtutis /</rdamd:P30137>
+      <rdamd:P30137>Attic Sarcophagi. Myth Selection and the Heroising Tradition /</rdamd:P30137>
+      <rdamd:P30137>Part III: Wandering East, Wandering South --</rdamd:P30137>
+      <rdamd:P30137>Gilgāmeš and Homer: The Missing Link? /</rdamd:P30137>
+      <rdamd:P30137>Myth, Memory, and Mimesis. The Inaros Cycle as Literature of Resistance /</rdamd:P30137>
+      <rdamd:P30137>Death on the Nile: The Myth of Osiris and the Utility of History in Diodorus. Egypt In Greco-Roman Historiography /</rdamd:P30137>
+      <rdamd:P30137>Wandering Hero, Wandering Myths? The Image of Heracles in Iran /</rdamd:P30137>
+      <rdamd:P30137>The Transformations of Achilles on Late Roman Mosaics in the East /</rdamd:P30137>
+      <rdamd:P30137>Epilogue /</rdamd:P30137>
+      <rdamd:P30137>Index</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8203102093">
       <rdamd:P30004>ISBN 8203102093</rdamd:P30004>
@@ -1029,9 +1144,11 @@
       <rdamd:P30111>[Melhus] : Lydbokforlaget, 2005.</rdamd:P30111>
       <rdamd:P30083>Lydbokforlaget</rdamd:P30083>
       <rdamd:P30011>2005</rdamd:P30011>
-      <rdamd:P30182>7 plater (CD) (8 t, 54 min) : digital ; 12 cm, i eske.</rdamd:P30182>
+      <rdamd:P30182>7 plater (CD) (8 t, 54 min) : digital, 12 cm, i eske.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1013</rdamd:P30001>
+      <rdamd:P30137>Lest av Nils Ole Oftebro</rdamd:P30137>
+      <rdamd:P30137>På esken: Krim</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1013"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/309258229/exp/nob/nor/1013/226306913/51776002"/>
@@ -1047,6 +1164,7 @@
       <rdamd:P30083>De norske bokklubbene</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
       <rdamd:P30182>576 sider.</rdamd:P30182>
+      <rdamd:P30137>1. norske utg. Oslo : Aschehoug, henholdsvis 1939 med tittel: Hun fulgte efter, 1974 og 1952</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8408016326">
       <rdamd:P30004>ISBN 84-08-01632-6</rdamd:P30004>
@@ -1059,7 +1177,7 @@
       <rdamd:P30111>Barcelona : Planeta, 1996.</rdamd:P30111>
       <rdamd:P30083>Planeta</rdamd:P30083>
       <rdamd:P30011>1996</rdamd:P30011>
-      <rdamd:P30182>46 pages : principalmente il. col. ; 29 cm.</rdamd:P30182>
+      <rdamd:P30182>46 pages : principalmente il. col., 29 cm.</rdamd:P30182>
       <rdamd:P30106>Les millors obres d'Agatha Christie</rdamd:P30106>
       <rdamd:P30165>2</rdamd:P30165>
    </rdac:C10007>
@@ -1075,7 +1193,8 @@
       <rdamd:P30011>D.L. 1991</rdamd:P30011>
       <rdamd:P30111>Barcelona : Círculo de Lectores, D.L. 1990.</rdamd:P30111>
       <rdamd:P30011>D.L. 1990</rdamd:P30011>
-      <rdamd:P30182>334 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>334 pages, 19 cm.</rdamd:P30182>
+      <rdamd:P30137>Traducción de : Death on the Nile</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-842720146">
       <rdamd:P30004>ISBN 84-272-0146-X</rdamd:P30004>
@@ -1097,10 +1216,11 @@
       <rdamd:P30011>[1982]</rdamd:P30011>
       <rdamd:P30111>Barcelona : Molino, D.L. 1981.</rdamd:P30111>
       <rdamd:P30011>D.L. 1981</rdamd:P30011>
-      <rdamd:P30182>239 pages ; 17 cm.</rdamd:P30182>
-      <rdamd:P30182>239 pages ; 16 cm.</rdamd:P30182>
+      <rdamd:P30182>239 pages, 17 cm.</rdamd:P30182>
+      <rdamd:P30182>239 pages, 16 cm.</rdamd:P30182>
       <rdamd:P30106>Selecciones de Biblioteca Oro</rdamd:P30106>
       <rdamd:P30165>146</rdamd:P30165>
+      <rdamd:P30137>Traducción de: Death on the Nile</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8427285280">
       <rdamd:P30004>ISBN 84-272-8528-0</rdamd:P30004>
@@ -1115,8 +1235,8 @@
       <rdamd:P30011>[2000]</rdamd:P30011>
       <rdamd:P30111>Barcelona : Molino, [1996].</rdamd:P30111>
       <rdamd:P30011>[1996]</rdamd:P30011>
-      <rdamd:P30182>288 pages ; 17 cm.</rdamd:P30182>
-      <rdamd:P30182>285 pages ; 17 cm.</rdamd:P30182>
+      <rdamd:P30182>288 pages, 17 cm.</rdamd:P30182>
+      <rdamd:P30182>285 pages, 17 cm.</rdamd:P30182>
       <rdamd:P30106>Colección Agatha Christie</rdamd:P30106>
       <rdamd:P30165>28</rdamd:P30165>
    </rdac:C10007>
@@ -1132,7 +1252,7 @@
       <rdamd:P30083>Círculo de Lectores</rdamd:P30083>
       <rdamd:P30011>[2004]</rdamd:P30011>
       <rdamd:P30007>©1937</rdamd:P30007>
-      <rdamd:P30182>272 páginas ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>272 páginas, 19 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8427298056">
       <rdamd:P30004>ISBN 84-272-9805-6</rdamd:P30004>
@@ -1144,7 +1264,7 @@
       <rdamd:P30111>Barcelona : Molino, [2003].</rdamd:P30111>
       <rdamd:P30083>Molino</rdamd:P30083>
       <rdamd:P30011>[2003]</rdamd:P30011>
-      <rdamd:P30182>272 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>272 pages, 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8439527020">
       <rdamd:P30004>ISBN 84-395-2702-0</rdamd:P30004>
@@ -1157,7 +1277,8 @@
       <rdamd:P30111>Barcelona : Planeta-Agostini, D.L. 1993.</rdamd:P30111>
       <rdamd:P30083>Planeta-Agostini</rdamd:P30083>
       <rdamd:P30011>D.L. 1993</rdamd:P30011>
-      <rdamd:P30182>231 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>231 pages, 20 cm.</rdamd:P30182>
+      <rdamd:P30137>En el lomo: 2</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8439562349">
       <rdamd:P30004>ISBN 84-395-6234-9</rdamd:P30004>
@@ -1169,7 +1290,7 @@
       <rdamd:P30111>Barcelona : Planeta-De Agostini, [1997].</rdamd:P30111>
       <rdamd:P30083>Planeta-De Agostini</rdamd:P30083>
       <rdamd:P30011>[1997]</rdamd:P30011>
-      <rdamd:P30182>46 pages : principalmente il. col. ; 29 cm.</rdamd:P30182>
+      <rdamd:P30182>46 pages : principalmente il. col., 29 cm.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8447304973">
@@ -1183,7 +1304,7 @@
       <rdamd:P30111>Barcelona : RBA, D.L. 1994.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>D.L. 1994</rdamd:P30011>
-      <rdamd:P30182>377 pages : 1 retr. ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>377 pages : 1 retr., 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8447317641">
       <rdamd:P30004>ISBN 84-473-1764-1</rdamd:P30004>
@@ -1196,7 +1317,7 @@
       <rdamd:P30111>Barcelona : RBA Coleccionables, [2000].</rdamd:P30111>
       <rdamd:P30083>RBA Coleccionables</rdamd:P30083>
       <rdamd:P30011>[2000]</rdamd:P30011>
-      <rdamd:P30182>377 pages ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>377 pages, 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8466401369">
       <rdamd:P30004>ISBN 84-664-0136-9</rdamd:P30004>
@@ -1209,7 +1330,7 @@
       <rdamd:P30111>Barcelona : Columna, 2001.</rdamd:P30111>
       <rdamd:P30083>Columna</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
-      <rdamd:P30182>301 pages ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>301 pages, 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8472792307">
       <rdamd:P30004>ISBN 84-7279-230-7</rdamd:P30004>
@@ -1222,9 +1343,10 @@
       <rdamd:P30111>Barcelona : La Llar del Llibre, 1986.</rdamd:P30111>
       <rdamd:P30083>La Llar del Llibre</rdamd:P30083>
       <rdamd:P30011>1986</rdamd:P30011>
-      <rdamd:P30182>325 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>325 pages, 19 cm.</rdamd:P30182>
       <rdamd:P30106>Sèrie Agatha Christie</rdamd:P30106>
       <rdamd:P30165>6</rdamd:P30165>
+      <rdamd:P30137>Traducción de: Death on the Nile</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8474613736">
       <rdamd:P30004>ISBN 84-7461-373-6</rdamd:P30004>
@@ -1239,7 +1361,7 @@
       <rdamd:P30011>[1984]</rdamd:P30011>
       <rdamd:P30087>Fuenlabrada, Madrid</rdamd:P30087>
       <rdamd:P30175>Gráf. Futura</rdamd:P30175>
-      <rdamd:P30182>533 pages, [2] p. de lám. ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>533 pages, [2] p. de lám., 21 cm.</rdamd:P30182>
       <rdamd:P30106>Collected works / Agatha Christie</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8477511217">
@@ -1253,7 +1375,8 @@
       <rdamd:P30111>Barcelona : Planeta Internacional, D.L. 1994.</rdamd:P30111>
       <rdamd:P30083>Planeta Internacional</rdamd:P30083>
       <rdamd:P30011>D.L. 1994</rdamd:P30011>
-      <rdamd:P30182>231 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>231 pages, 20 cm.</rdamd:P30182>
+      <rdamd:P30137>En la pág. 4 de la cub.: 2</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8478717161">
       <rdamd:P30004>ISBN 84-7871-716-1</rdamd:P30004>
@@ -1267,7 +1390,7 @@
       <rdamd:P30111>Barcelona : RBA, 2006.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2006</rdamd:P30011>
-      <rdamd:P30182>383 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>383 pages, 18 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8482562614">
       <rdamd:P30004>ISBN 84-8256-261-4</rdamd:P30004>
@@ -1284,7 +1407,7 @@
       <rdamd:P30083>Columna</rdamd:P30083>
       <rdamd:P30083>Proa</rdamd:P30083>
       <rdamd:P30011>1996</rdamd:P30011>
-      <rdamd:P30182>300 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>300 pages, 19 cm.</rdamd:P30182>
       <rdamd:P30106>Poirot</rdamd:P30106>
       <rdamd:P30165>1</rdamd:P30165>
    </rdac:C10007>
@@ -1298,7 +1421,7 @@
       <rdamd:P30111>Iruñea : Igela, [2006].</rdamd:P30111>
       <rdamd:P30083>Igela</rdamd:P30083>
       <rdamd:P30011>[2006]</rdamd:P30011>
-      <rdamd:P30182>475 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>475 pages, 18 cm.</rdamd:P30182>
       <rdamd:P30106>Enigma</rdamd:P30106>
       <rdamd:P30165>10</rdamd:P30165>
    </rdac:C10007>
@@ -1314,7 +1437,7 @@
       <rdamd:P30111>[Barcelona] : Debolsillo, 2003.</rdamd:P30111>
       <rdamd:P30083>Debolsillo</rdamd:P30083>
       <rdamd:P30011>2003</rdamd:P30011>
-      <rdamd:P30182>507 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>507 pages, 19 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Agatha Christie</rdamd:P30106>
       <rdamd:P30165>519/8</rdamd:P30165>
       <rdamd:P30106>Poirot</rdamd:P30106>
@@ -1332,7 +1455,7 @@
       <rdamd:P30011>D.L. 1996</rdamd:P30011>
       <rdamd:P30087>Barcelona</rdamd:P30087>
       <rdamd:P30175>Printer Industria Gráf</rdamd:P30175>
-      <rdamd:P30182>237 pages ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>237 pages, 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-8677060200">
       <rdamd:P30004>ISBN 86-7706-020-0</rdamd:P30004>
@@ -1346,7 +1469,7 @@
       <rdamd:P30011>[2004]</rdamd:P30011>
       <rdamd:P30087>Barcelona</rdamd:P30087>
       <rdamd:P30175>Printer</rdamd:P30175>
-      <rdamd:P30182>284 pages ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>284 pages, 22 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9004284346">
       <rdamd:P30004>ISBN 90-04-28434-6</rdamd:P30004>
@@ -1364,6 +1487,48 @@
       <rdamd:P30182>1 online resource (327 pages).</rdamd:P30182>
       <rdamd:P30106>Islamic History and Civilization. Studies and Texts</rdamd:P30106>
       <rdamd:P30165>Volume 111</rdamd:P30165>
+      <rdamd:P30137>Description based upon print version of record.</rdamd:P30137>
+      <rdamd:P30137>Hugh Kennedy --</rdamd:P30137>
+      <rdamd:P30137>Anne Regourd --</rdamd:P30137>
+      <rdamd:P30137>Jairus Banaji --</rdamd:P30137>
+      <rdamd:P30137>Alain Delattre --</rdamd:P30137>
+      <rdamd:P30137>Shaun O'Sullivan --</rdamd:P30137>
+      <rdamd:P30137>Anna Selander --</rdamd:P30137>
+      <rdamd:P30137>Frédéric Bauden --</rdamd:P30137>
+      <rdamd:P30137>Mostafa El-Abbadi --</rdamd:P30137>
+      <rdamd:P30137>Rachel Stroumsa --</rdamd:P30137>
+      <rdamd:P30137>Tonio Sebastian Richter --</rdamd:P30137>
+      <rdamd:P30137>Tasha Vorderstrasse --</rdamd:P30137>
+      <rdamd:P30137>W. Matt Malczycki --</rdamd:P30137>
+      <rdamd:P30137>R.G. Khoury --</rdamd:P30137>
+      <rdamd:P30137>Alia Hanafi --</rdamd:P30137>
+      <rdamd:P30137>Nicole Hansen --</rdamd:P30137>
+      <rdamd:P30137>Front Matter --</rdamd:P30137>
+      <rdamd:P30137>Copyright Page --</rdamd:P30137>
+      <rdamd:P30137>Acknowledgements --</rdamd:P30137>
+      <rdamd:P30137>Notes on Contributors --</rdamd:P30137>
+      <rdamd:P30137>Notes on Editions and Dates --</rdamd:P30137>
+      <rdamd:P30137>Introduction /</rdamd:P30137>
+      <rdamd:P30137>Administration and Government --</rdamd:P30137>
+      <rdamd:P30137>A Late Ayyubid Report of Death Found at Quṣayr al-Qadīm /</rdamd:P30137>
+      <rdamd:P30137>On the Identity of Shahrālānyōzān in the Greek and Middle Persian Papyri from Egypt /</rdamd:P30137>
+      <rdamd:P30137>Le monastère de Baouît et l' administration arabe /</rdamd:P30137>
+      <rdamd:P30137>Fiscal Evidence from the Nessana Papyri /</rdamd:P30137>
+      <rdamd:P30137>Commerce and Travel --</rdamd:P30137>
+      <rdamd:P30137>Travel in Coptic Documentary Texts /</rdamd:P30137>
+      <rdamd:P30137>Le transport de marchandises et de personnes sur le Nil en 823 A.H./1420 È.C. /</rdamd:P30137>
+      <rdamd:P30137>Language and Culture --</rdamd:P30137>
+      <rdamd:P30137>P.Cair.Arab III 167: A Discussion of the Akhmīm Declaration /</rdamd:P30137>
+      <rdamd:P30137>Greek and Arabic in Nessana /</rdamd:P30137>
+      <rdamd:P30137>The Master Spoke: "Take One of 'the Sun' and One Unit of Almulgam." Hitherto Unnoticed Coptic Papyrological Evidence for Early Arabic Alchemy /</rdamd:P30137>
+      <rdamd:P30137>Terms for Vessels in Arabic and Coptic Documentary Texts and Their Archaeological and Ethnographic Correlates /</rdamd:P30137>
+      <rdamd:P30137>A Qurānic Amulet on Papyrus: P.Utah.Ar. 342 /</rdamd:P30137>
+      <rdamd:P30137>New Editions and Collections --</rdamd:P30137>
+      <rdamd:P30137>Les papyrus arabes de Heidelberg disparus. Essai de reconstruction et d' analyse /</rdamd:P30137>
+      <rdamd:P30137>Two New Arabic Editions: A Land Survey from Ihnās and Ḥadīths Concerning Funerary Practice /</rdamd:P30137>
+      <rdamd:P30137>Sunshine Wine on the Nile /</rdamd:P30137>
+      <rdamd:P30137>Back Matter --</rdamd:P30137>
+      <rdamd:P30137>Index.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780007527557">
       <rdamd:P30004>ISBN 9780007527557 (pbk.) :</rdamd:P30004>
@@ -1375,8 +1540,10 @@
       <rdamd:P30111>London : Harper, 2014.</rdamd:P30111>
       <rdamd:P30083>Harper</rdamd:P30083>
       <rdamd:P30011>2014</rdamd:P30011>
-      <rdamd:P30182>373 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>373 pages, 20 cm.</rdamd:P30182>
       <rdamd:P30106>Poirot</rdamd:P30106>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
+      <rdamd:P30137>Originally published: London: Collins, 1937.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008249687">
       <rdamd:P30004>ISBN 9780008249687 (pbk.) :</rdamd:P30004>
@@ -1388,8 +1555,10 @@
       <rdamd:P30111>London : Collins, 2017.</rdamd:P30111>
       <rdamd:P30083>Collins</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
-      <rdamd:P30182>89 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>89 pages, 20 cm.</rdamd:P30182>
       <rdamd:P30106>Collins English readers</rdamd:P30106>
+      <rdamd:P30137>CEF B1.</rdamd:P30137>
+      <rdamd:P30137>Level 3.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008256074">
       <rdamd:P30004>ISBN 9780008256074 (pbk.) :</rdamd:P30004>
@@ -1401,8 +1570,9 @@
       <rdamd:P30111>London : HarperCollinsPublishers, 2017.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>1 volume, 18 cm.</rdamd:P30182>
       <rdamd:P30106>Poirot</rdamd:P30106>
+      <rdamd:P30137>Originally published: London: Collins, 1937.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008280956">
       <rdamd:P30004>ISBN 9780008280956 (pbk.) :</rdamd:P30004>
@@ -1415,10 +1585,12 @@
       <rdamd:P30111>London : HarperCollinsPublishers, 2017.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>1 volume, 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Poirot</rdamd:P30106>
+      <rdamd:P30137>Boxed.</rdamd:P30137>
+      <rdamd:P30137>Death on the Nile -- Evil under the sun -- Appointment with death -- Murder in Mesapotamia -- The hollow -- Cat among the pigeons.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310912914/exp/eng/1020"/>
@@ -1438,8 +1610,9 @@
       <rdamd:P30111>London : HarperCollinsPublishers, 2020.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2020</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>1 volume, 20 cm.</rdamd:P30182>
       <rdamd:P30106>Poirot</rdamd:P30106>
+      <rdamd:P30137>Film tie-in.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008386825">
       <rdamd:P30004>ISBN 9780008386825 (hbk.) :</rdamd:P30004>
@@ -1451,7 +1624,7 @@
       <rdamd:P30111>London : HarperCollinsPublishers, 2020.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2020</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>1 volume, 23 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9780008483623">
       <rdamd:P30004>ISBN 9780008483623 (pbk.) :</rdamd:P30004>
@@ -1463,7 +1636,7 @@
       <rdamd:P30111>London : HarperCollinsPublishers, 2022.</rdamd:P30111>
       <rdamd:P30083>HarperCollinsPublishers</rdamd:P30083>
       <rdamd:P30011>2022</rdamd:P30011>
-      <rdamd:P30182>1 volume ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>1 volume, 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Poirot</rdamd:P30106>
@@ -1485,6 +1658,7 @@
       <rdamd:P30182>1 online resource : illustrations (black and white), maps (black and white).</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
+      <rdamd:P30137>Previously issued in print: 2017.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile/exp/eng/1002/1014/1020"/>
@@ -1501,9 +1675,10 @@
       <rdamd:P30083>University Press of Florida</rdamd:P30083>
       <rdamd:P30011>[2017]</rdamd:P30011>
       <rdamd:P30007>©2017</rdamd:P30007>
-      <rdamd:P30182>xx, 244 pages : illustrations, maps ; 25 cm.</rdamd:P30182>
+      <rdamd:P30182>xx, 244 pages : illustrations, maps, 25 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Life and death on the Nile -- Skulls, races, and evolution -- Health and disease: the children -- Growth and development -- Health and disease: the adults -- Case studies -- A bioethnography.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/91236070/lifeanddeathonthenile/exp/eng/1002/1014/1020"/>
@@ -1527,8 +1702,11 @@
       <rdamd:P30011>2008</rdamd:P30011>
       <rdamd:P30111>Harlow : Pearson Education, 2008.</rdamd:P30111>
       <rdamd:P30182>96 sider : illustrasjoner.</rdamd:P30182>
-      <rdamd:P30182>1 volume, 96 pages : illustrations ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>1 volume, 96 pages : illustrations, 20 cm.</rdamd:P30182>
       <rdamd:P30106>Penguin readers, Level 5</rdamd:P30106>
+      <rdamd:P30137>Inngår i Penguin readers bokpakke distribuert 2010 på Cappelen Damm</rdamd:P30137>
+      <rdamd:P30137>"2300 headwords upper intermediate." --Back cover.</rdamd:P30137>
+      <rdamd:P30137>"British English." --Back cover.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9781907804717">
       <rdamd:P30004>ISBN 9781907804717 (hardcover) :</rdamd:P30004>
@@ -1544,7 +1722,9 @@
       <rdamd:P30111>London : The Fitzwilliam Museum in association with D Giles, London, 2016.</rdamd:P30111>
       <rdamd:P30083>The Fitzwilliam Museum in association with D Giles, London</rdamd:P30083>
       <rdamd:P30011>2016</rdamd:P30011>
-      <rdamd:P30182>256 pages : illustrations (black and white, and colour), 1 map (colour) ; 30 cm.</rdamd:P30182>
+      <rdamd:P30182>256 pages : illustrations (black and white, and colour), 1 map (colour), 30 cm.</rdamd:P30182>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
+      <rdamd:P30137>Includes index.</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788242969040">
       <rdamd:P30004>ISBN 9788242969040</rdamd:P30004>
@@ -1558,10 +1738,11 @@
       <rdamd:P30111>[Oslo] : Egmont Kids Media Nordic AS, 2020.</rdamd:P30111>
       <rdamd:P30083>Egmont Kids Media Nordic AS</rdamd:P30083>
       <rdamd:P30011>2020</rdamd:P30011>
-      <rdamd:P30182>65 sider : illustrasjoner ; 29 cm.</rdamd:P30182>
+      <rdamd:P30182>65 sider : illustrasjoner, 29 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
+      <rdamd:P30137>På omslaget: 100 år med Agatha Christie historier</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/3974161575638204730004/exp/nor/1014/1020/72145970376732252972"/>
@@ -1578,7 +1759,8 @@
       <rdamd:P30083>Labutxaca</rdamd:P30083>
       <rdamd:P30011>[2020]</rdamd:P30011>
       <rdamd:P30007>©2020</rdamd:P30007>
-      <rdamd:P30182>301 páginas ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>301 páginas, 19 cm.</rdamd:P30182>
+      <rdamd:P30137>En la portada: Columna</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788447350063">
       <rdamd:P30004>ISBN 978-84-473-5006-3</rdamd:P30004>
@@ -1591,7 +1773,7 @@
       <rdamd:P30111>[Barcelona : RBA, 2007].</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2007]</rdamd:P30011>
-      <rdamd:P30182>128 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>128 pages, 24 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788447354092">
       <rdamd:P30004>ISBN 978-84-473-5409-2</rdamd:P30004>
@@ -1603,7 +1785,7 @@
       <rdamd:P30111>Barcelona : RBA, [2007].</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>[2007]</rdamd:P30011>
-      <rdamd:P30182>272 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>272 pages, 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788447356591">
       <rdamd:P30004>ISBN 978-84-473-5659-1</rdamd:P30004>
@@ -1615,7 +1797,7 @@
       <rdamd:P30111>Barcelona : RBA, [2008].</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>[2008]</rdamd:P30011>
-      <rdamd:P30182>277 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>277 pages, 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788447359028">
       <rdamd:P30004>ISBN 978-84-473-5902-8</rdamd:P30004>
@@ -1627,7 +1809,7 @@
       <rdamd:P30111>[Barcelona] : RBA, [2008].</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>[2008]</rdamd:P30011>
-      <rdamd:P30182>297 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>297 pages, 20 cm.</rdamd:P30182>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788467045420">
       <rdamd:P30004>ISBN 978-84-670-4542-0</rdamd:P30004>
@@ -1640,8 +1822,9 @@
       <rdamd:P30111>Barcelona : Espasa, 2015.</rdamd:P30111>
       <rdamd:P30083>Espasa</rdamd:P30083>
       <rdamd:P30011>2015</rdamd:P30011>
-      <rdamd:P30182>339 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>339 pages, 24 cm.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie</rdamd:P30106>
+      <rdamd:P30137>"Agatha Christie 125th anniversary, 1810-2015"--Cubierta</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788467045765">
       <rdamd:P30004>ISBN 9788467045765</rdamd:P30004>
@@ -1654,6 +1837,7 @@
       <rdamd:P30011>2015</rdamd:P30011>
       <rdamd:P30182>1 recurso en línea : il.</rdamd:P30182>
       <rdamd:P30106>Espasa narrativa</rdamd:P30106>
+      <rdamd:P30137>Registro generado automáticamente a partir de metadatos facilitados por Libranda</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788467051629">
       <rdamd:P30004>ISBN 978-84-670-5162-9</rdamd:P30004>
@@ -1666,7 +1850,7 @@
       <rdamd:P30111>[Barcelona] : Booket, 2018.</rdamd:P30111>
       <rdamd:P30083>Booket</rdamd:P30083>
       <rdamd:P30011>2018</rdamd:P30011>
-      <rdamd:P30182>339 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>339 pages, 19 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Agatha Christie</rdamd:P30106>
       <rdamd:P30165>5027/1</rdamd:P30165>
    </rdac:C10007>
@@ -1682,8 +1866,9 @@
       <rdamd:P30083>Booket</rdamd:P30083>
       <rdamd:P30011>[2019]</rdamd:P30011>
       <rdamd:P30007>©2019</rdamd:P30007>
-      <rdamd:P30182>339 páginas ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>339 páginas, 19 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Agatha Christie</rdamd:P30106>
+      <rdamd:P30137>En la portada: Espasa</rdamd:P30137>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788467060737">
       <rdamd:P30004>ISBN 978-84-670-6073-7</rdamd:P30004>
@@ -1697,7 +1882,7 @@
       <rdamd:P30083>Espasa</rdamd:P30083>
       <rdamd:P30011>[2020]</rdamd:P30011>
       <rdamd:P30007>©2020</rdamd:P30007>
-      <rdamd:P30182>339 páginas ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>339 páginas, 19 cm.</rdamd:P30182>
       <rdamd:P30106>Booket</rdamd:P30106>
       <rdamd:P30106>Crimen y misterio</rdamd:P30106>
    </rdac:C10007>
@@ -1711,7 +1896,7 @@
       <rdamd:P30111>Iruñea : Igela Argitaletxea, [2018].</rdamd:P30111>
       <rdamd:P30083>Igela Argitaletxea</rdamd:P30083>
       <rdamd:P30011>[2018]</rdamd:P30011>
-      <rdamd:P30182>491 páginas ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>491 páginas, 20 cm.</rdamd:P30182>
       <rdamd:P30106>Enigma</rdamd:P30106>
       <rdamd:P30165>10</rdamd:P30165>
    </rdac:C10007>
@@ -1726,7 +1911,7 @@
       <rdamd:P30111>Barcelona : RBA, 2012.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2012</rdamd:P30011>
-      <rdamd:P30182>313 pages ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>313 pages, 22 cm.</rdamd:P30182>
       <rdamd:P30106>Serie negra</rdamd:P30106>
       <rdamd:P30165>231</rdamd:P30165>
    </rdac:C10007>
@@ -1741,7 +1926,7 @@
       <rdamd:P30111>Barcelona : RBA, 2014.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2014</rdamd:P30011>
-      <rdamd:P30182>313 pages ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>313 pages, 22 cm.</rdamd:P30182>
       <rdamd:P30106>Agatha Christie 125 aniversario</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9788498675801">
@@ -1754,7 +1939,7 @@
       <rdamd:P30111>Barcelona : RBA, 2009.</rdamd:P30111>
       <rdamd:P30083>RBA</rdamd:P30083>
       <rdamd:P30011>2009</rdamd:P30011>
-      <rdamd:P30182>383 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>383 pages, 19 cm.</rdamd:P30182>
       <rdamd:P30106>RBA bolsillo</rdamd:P30106>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-9789504916123">
@@ -1769,22 +1954,9 @@
       <rdamd:P30011>[2008]</rdamd:P30011>
       <rdamd:P30087>[Barcelona]</rdamd:P30087>
       <rdamd:P30175>Lit. Rosés</rdamd:P30175>
-      <rdamd:P30182>230 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>230 pages, 19 cm.</rdamd:P30182>
       <rdamd:P30106>Biblioteca Agatha Christie</rdamd:P30106>
    </rdac:C10007>
-   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">
-      <skos:subjectIndicator>spa</skos:subjectIndicator>
-      <skos:subjectIndicator>mul</skos:subjectIndicator>
-      <skos:subjectIndicator>eng</skos:subjectIndicator>
-      <skos:subjectIndicator>fre</skos:subjectIndicator>
-      <skos:subjectIndicator>ita</skos:subjectIndicator>
-      <skos:subjectIndicator>jap</skos:subjectIndicator>
-      <skos:subjectIndicator>dan</skos:subjectIndicator>
-      <skos:subjectIndicator>dut</skos:subjectIndicator>
-      <skos:subjectIndicator>fin</skos:subjectIndicator>
-      <skos:subjectIndicator>swe</skos:subjectIndicator>
-      <skos:subjectIndicator>nor</skos:subjectIndicator>
-   </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/baq">
       <rdfs:label>baq</rdfs:label>
       <skos:subjectIndicator>baq</skos:subjectIndicator>
@@ -1793,9 +1965,18 @@
       <rdfs:label>cat</rdfs:label>
       <skos:subjectIndicator>cat</skos:subjectIndicator>
    </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/dan">
+      <skos:subjectIndicator>dan</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/dut">
+      <skos:subjectIndicator>dut</skos:subjectIndicator>
+   </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/eng">
       <rdfs:label>eng</rdfs:label>
       <skos:subjectIndicator>eng</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/fin">
+      <skos:subjectIndicator>fin</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/fre">
       <skos:subjectIndicator>fre</skos:subjectIndicator>
@@ -1806,6 +1987,9 @@
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/ita">
       <skos:subjectIndicator>ita</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/jap">
+      <skos:subjectIndicator>jap</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/mul">
       <rdfs:label>mul</rdfs:label>
@@ -1828,6 +2012,9 @@
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/spa">
       <rdfs:label>spa</rdfs:label>
       <skos:subjectIndicator>spa</skos:subjectIndicator>
+   </skos:Concept>
+   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/swe">
+      <skos:subjectIndicator>swe</skos:subjectIndicator>
    </skos:Concept>
    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDACarrierType/1013">
       <skos:subjectIndicator>http://rdaregistry.info/termList/RDACarrierType/1013</skos:subjectIndicator>

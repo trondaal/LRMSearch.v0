@@ -25,21 +25,22 @@
    <rdac:C10001 rdf:about="http://example.org/vindex/lightinvisible">
       <rdaxd:P00018>http://example.org/vindex/lightinvisible</rdaxd:P00018>
       <rdawd:P10088>Light invisible</rdawd:P10088>
-      <rdfs:label>Light invisible</rdfs:label>
+      <rdfs:label>Light invisible (Vindex.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://example.org/vindex"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/116920035/darknessvisible">
       <rdaxd:P00018>http://viaf.org/viaf/116920035/darknessvisible</rdaxd:P00018>
       <rdawd:P10088>Darkness visible</rdawd:P10088>
-      <rdfs:label>Darkness visible</rdfs:label>
+      <rdfs:label>Darkness visible (Lewis, Norman)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/116920035"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/1421145424662786830168">
       <rdaxd:P00018>http://viaf.org/viaf/1421145424662786830168</rdaxd:P00018>
       <rdawd:P10088>Darkness visible</rdawd:P10088>
-      <rdfs:label>Darkness visible</rdfs:label>
+      <rdfs:label>Darkness visible (Styron, William)</rdfs:label>
+      <rdawd:P10330>Describes the author's recovery from depression and madness after psychiatric treatment and hospitalization.</rdawd:P10330>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/71398096"/>
       <rdawo:P10319 rdf:resource="http://viaf.org/viaf/71398096"/>
@@ -47,7 +48,7 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/1421145424662786830168/depression">
       <rdaxd:P00018>http://viaf.org/viaf/1421145424662786830168/depression</rdaxd:P00018>
       <rdawd:P10088>Depression</rdawd:P10088>
-      <rdfs:label>Depression</rdfs:label>
+      <rdfs:label>Depression (Styron, William)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10019 rdf:resource="http://viaf.org/viaf/1421145424662786830168"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/71398096"/>
@@ -57,12 +58,12 @@
       <rdaxd:P00018>phttp://viaf.org/viaf/14744124</rdaxd:P00018>
       <rdaxd:P00018>http://viaf.org/viaf/14744124/indarknessletmedwell</rdaxd:P00018>
       <rdawd:P10088>In darkness let me dwell</rdawd:P10088>
-      <rdfs:label>In darkness let me dwell</rdfs:label>
+      <rdfs:label>In darkness let me dwell (Dowland, John)</rdfs:label>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/17209922/darknessnowvisible">
       <rdaxd:P00018>http://viaf.org/viaf/17209922/darknessnowvisible</rdaxd:P00018>
       <rdawd:P10088>Darkness visible : patriarchy's resurgence and feminist resistance</rdawd:P10088>
-      <rdfs:label>Darkness visible : patriarchy's resurgence and feminist resistance</rdfs:label>
+      <rdfs:label>Darkness visible : patriarchy's resurgence and feminist resistance (Gilligan, Carol)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/17209922"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/9903437"/>
@@ -71,68 +72,69 @@
       <rdaxd:P00018>phttp://viaf.org/viaf/115199438</rdaxd:P00018>
       <rdaxd:P00018>http://viaf.org/viaf/185877295</rdaxd:P00018>
       <rdawd:P10088>His dark materials</rdawd:P10088>
+      <rdfs:label>His dark materials (Pullman, Philip)</rdfs:label>
       <rdfs:label>His dark materials</rdfs:label>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/23209515/avisibledarkness">
       <rdaxd:P00018>http://viaf.org/viaf/23209515/avisibledarkness</rdaxd:P00018>
       <rdawd:P10088>A visible darkness</rdawd:P10088>
-      <rdfs:label>A visible darkness</rdfs:label>
+      <rdfs:label>A visible darkness (King, Jonathon)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/23209515"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/24751188/darknessvisible">
       <rdaxd:P00018>http://viaf.org/viaf/24751188/darknessvisible</rdaxd:P00018>
       <rdawd:P10088>Darkness visible</rdawd:P10088>
-      <rdfs:label>Darkness visible</rdfs:label>
+      <rdfs:label>Darkness visible (Wees, J. Dustin)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1003"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/24751188"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/29524003/darknessvisible">
       <rdaxd:P00018>http://viaf.org/viaf/29524003/darknessvisible</rdaxd:P00018>
       <rdawd:P10088>Darkness visible, a farce</rdawd:P10088>
-      <rdfs:label>Darkness visible, a farce</rdfs:label>
+      <rdfs:label>Darkness visible, a farce (Hook, Theodore Edward.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/29524003"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/310714688">
       <rdaxd:P00018>http://viaf.org/viaf/310714688</rdaxd:P00018>
       <rdawd:P10088>Variations, piano, flute, clarinet, percussion, violin, cello</rdawd:P10088>
-      <rdfs:label>Variations, piano, flute, clarinet, percussion, violin, cello</rdfs:label>
+      <rdfs:label>Variations, piano, flute, clarinet, percussion, violin, cello (Grange, Philip.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1001"/>
       <rdawo:P10053 rdf:resource="http://viaf.org/viaf/125149196661274792821"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/310714689">
       <rdaxd:P00018>http://viaf.org/viaf/310714689</rdaxd:P00018>
       <rdawd:P10088>Lament of the bow</rdawd:P10088>
-      <rdfs:label>Lament of the bow</rdfs:label>
+      <rdfs:label>Lament of the bow (Grange, Philip.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1001"/>
       <rdawo:P10053 rdf:resource="http://viaf.org/viaf/125149196661274792821"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/310714691">
       <rdaxd:P00018>http://viaf.org/viaf/310714691</rdaxd:P00018>
       <rdawd:P10088>Cimmerian nocturne</rdawd:P10088>
-      <rdfs:label>Cimmerian nocturne</rdfs:label>
+      <rdfs:label>Cimmerian nocturne (Grange, Philip.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1001"/>
       <rdawo:P10053 rdf:resource="http://viaf.org/viaf/125149196661274792821"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/38119011/avisibledarkness">
       <rdaxd:P00018>http://viaf.org/viaf/38119011/avisibledarkness</rdaxd:P00018>
       <rdawd:P10088>A visible darkness</rdawd:P10088>
-      <rdfs:label>A visible darkness</rdfs:label>
+      <rdfs:label>A visible darkness (Gregorio, Michael.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/38119011"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/4136156991013061180007">
       <rdaxd:P00018>http://viaf.org/viaf/4136156991013061180007</rdaxd:P00018>
       <rdawd:P10088>Turning the Hiram Key</rdawd:P10088>
-      <rdfs:label>Turning the Hiram Key</rdfs:label>
+      <rdfs:label>Turning the Hiram Key (Lomas, Robert)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/32173168"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/49383417/darknessvisible">
       <rdaxd:P00018>http://viaf.org/viaf/49383417/darknessvisible</rdaxd:P00018>
       <rdawd:P10088>Darkness visible : inside the world of Philip Pullman</rdawd:P10088>
-      <rdfs:label>Darkness visible : inside the world of Philip Pullman</rdfs:label>
+      <rdfs:label>Darkness visible : inside the world of Philip Pullman (Tucker, Nicholas.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/49383417"/>
       <rdawo:P10257 rdf:resource="http://viaf.org/viaf/185877295"/>
@@ -141,21 +143,21 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/62609556/adarknessvisible">
       <rdaxd:P00018>http://viaf.org/viaf/62609556/adarknessvisible</rdaxd:P00018>
       <rdawd:P10088>A darkness visible</rdawd:P10088>
-      <rdfs:label>A darkness visible</rdfs:label>
+      <rdfs:label>A darkness visible (Murphy, Seamus)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1003"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/62609556"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/66588563/darknessvisible">
       <rdaxd:P00018>http://viaf.org/viaf/66588563/darknessvisible</rdaxd:P00018>
       <rdawd:P10088>Darkness visible</rdawd:P10088>
-      <rdfs:label>Darkness visible</rdfs:label>
+      <rdfs:label>Darkness visible (Gregson, J. M.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/66588563"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/85313314/darknessvisible">
       <rdaxd:P00018>http://viaf.org/viaf/85313314/darknessvisible</rdaxd:P00018>
       <rdawd:P10088>Darknesse visible</rdawd:P10088>
-      <rdfs:label>Darknesse visible</rdfs:label>
+      <rdfs:label>Darknesse visible (Adès, Thomas.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1001"/>
       <rdawo:P10027 rdf:resource="http://viaf.org/viaf/14744124/indarknessletmedwell"/>
       <rdawo:P10053 rdf:resource="http://viaf.org/viaf/85313314"/>
@@ -163,21 +165,21 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/94303910/darknessvisible">
       <rdaxd:P00018>http://viaf.org/viaf/94303910/darknessvisible</rdaxd:P00018>
       <rdawd:P10088>Darkness visible : a study of Vergil's Aeneid</rdawd:P10088>
-      <rdfs:label>Darkness visible : a study of Vergil's Aeneid</rdfs:label>
+      <rdfs:label>Darkness visible : a study of Vergil's Aeneid (Johnson, W. R.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/94303910"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://www.wikidata.org/entity/Q5223706">
       <rdaxd:P00018>http://www.wikidata.org/entity/Q5223706</rdaxd:P00018>
       <rdawd:P10088>Darkness visible</rdawd:P10088>
-      <rdfs:label>Darkness visible</rdfs:label>
+      <rdfs:label>Darkness visible (Hannah, Walton.)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/24300067"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://www.wikidata.org/entity/Q7686067/darknessvisible">
       <rdaxd:P00018>http://www.wikidata.org/entity/Q7686067/darknessvisible</rdaxd:P00018>
       <rdawd:P10088>Darkness Visible (for counter-tenor, tenor &amp; harp)</rdawd:P10088>
-      <rdfs:label>Darkness Visible (for counter-tenor, tenor &amp; harp)</rdfs:label>
+      <rdfs:label>Darkness Visible (for counter-tenor, tenor &amp; harp) (Tarik O'Regan)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1001"/>
       <rdawo:P10053 rdf:resource="http://www.wikidata.org/entity/Q7686067"/>
    </rdac:C10001>
@@ -406,7 +408,7 @@
       <rdfs:label>Variations, piano, flute, clarinet, percussion, violin, cello / performed music</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1011"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/zxx"/>
-      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20011 rdf:resource="http://viaf.org/viaf/29050495"/>
       <rdaeo:P20039 rdf:resource="http://viaf.org/viaf/146015676"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/310714688"/>
@@ -416,7 +418,7 @@
       <rdfs:label>Lament of the bow / performed music</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1011"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/zxx"/>
-      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20011 rdf:resource="http://viaf.org/viaf/29050495"/>
       <rdaeo:P20039 rdf:resource="http://viaf.org/viaf/146015676"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/310714689"/>
@@ -426,7 +428,7 @@
       <rdfs:label>Cimmerian nocturne / performed music</rdfs:label>
       <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1011"/>
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/zxx"/>
-      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20011 rdf:resource="http://viaf.org/viaf/29050495"/>
       <rdaeo:P20039 rdf:resource="http://viaf.org/viaf/146015676"/>
       <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/310714691"/>
@@ -516,7 +518,7 @@
       <rdamd:P30111>London : J. Cape, [1960].</rdamd:P30111>
       <rdamd:P30083>J. Cape</rdamd:P30083>
       <rdamd:P30011>[1960]</rdamd:P30011>
-      <rdamd:P30182>256 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>256 pages, 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -531,7 +533,7 @@
       <rdamd:P30111>London : Regency, 1952.</rdamd:P30111>
       <rdamd:P30083>Regency</rdamd:P30083>
       <rdamd:P30011>1952</rdamd:P30011>
-      <rdamd:P30182>156 pages ; 19 cm.</rdamd:P30182>
+      <rdamd:P30182>156 pages, 19 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -571,7 +573,7 @@
       <rdamd:P30111>London : Britons, 1952.</rdamd:P30111>
       <rdamd:P30083>Britons</rdamd:P30083>
       <rdamd:P30011>1952</rdamd:P30011>
-      <rdamd:P30182>228 pages, [1] leaf of plates : illustrations ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>228 pages, [1] leaf of plates : illustrations, 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -591,6 +593,7 @@
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Counseling and psychotherapy transcripts, client narratives, and reference works</rdamd:P30106>
+      <rdamd:P30137>Online access provided by Alexander Street Press.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/exp/eng/1020"/>
@@ -604,6 +607,8 @@
       <rdamd:P30182>1 online resource.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
+      <rdamd:P30137>Online access provided by ProQuest as part of Chadwyck-Healey literature collections.</rdamd:P30137>
+      <rdamd:P30137>Preliminaries omitted.</rdamd:P30137>
       <rdamd:P30050>English Prose Drama Full-Text Database.</rdamd:P30050>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
@@ -620,6 +625,7 @@
       <rdamd:P30182>1 online resource (1 score (7 pages)).</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
+      <rdamd:P30137>Academic</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q7686067/darknessvisible/exp/1010"/>
@@ -635,9 +641,14 @@
       <rdamd:P30111>[United Kingdom] : Metier, p2005.</rdamd:P30111>
       <rdamd:P30083>Metier</rdamd:P30083>
       <rdamd:P30011>p2005</rdamd:P30011>
-      <rdamd:P30182>1 sound disc : digital ; 4 3/4 in.</rdamd:P30182>
+      <rdamd:P30182>1 sound disc : digital, 4 3/4 in.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1001</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1004</rdamd:P30001>
+      <rdamd:P30137>1st and 3rd work for flute, clarinet, violin, violoncello, piano, and percussion ; the 2nd work for 2 flutes, 2 clarinets, violin, violoncello, piano, and percussion.</rdamd:P30137>
+      <rdamd:P30137>Title from container spine.</rdamd:P30137>
+      <rdamd:P30137>Compact disc.</rdamd:P30137>
+      <rdamd:P30137>Program and biographical notes (6 pages) inserted in container.</rdamd:P30137>
+      <rdamd:P30137>Cimmerian nocturne (16:30) -- Lament of the bow (17:19) -- Variations (23:00)</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1004"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310714691/exp/zxx/1011"/>
@@ -654,9 +665,10 @@
       <rdamd:P30111>London : Vintage, 2001.</rdamd:P30111>
       <rdamd:P30083>Vintage</rdamd:P30083>
       <rdamd:P30011>2001</rdamd:P30011>
-      <rdamd:P30182>85 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>85 pages, 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>First published: London : Cape, 1991.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/exp/eng/1020"/>
@@ -672,7 +684,7 @@
       <rdamd:P30111>London : Cape, 1991.</rdamd:P30111>
       <rdamd:P30083>Cape</rdamd:P30083>
       <rdamd:P30011>1991</rdamd:P30011>
-      <rdamd:P30182>84 pages ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>84 pages, 21 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -690,7 +702,7 @@
       <rdamd:P30111>Berkeley : University of California Press, c1976.</rdamd:P30111>
       <rdamd:P30083>University of California Press</rdamd:P30083>
       <rdamd:P30011>c1976</rdamd:P30011>
-      <rdamd:P30182>xi, 179 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>xi, 179 pages, 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -708,9 +720,10 @@
       <rdamd:P30111>Berkeley : University of California Press, c1979.</rdamd:P30111>
       <rdamd:P30083>University of California Press</rdamd:P30083>
       <rdamd:P30011>c1979</rdamd:P30011>
-      <rdamd:P30182>xi, 179 pages ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>xi, 179 pages, 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>"First paperback printing 1979."</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/94303910/darknessvisible/exp/eng/1020"/>
@@ -728,9 +741,10 @@
       <rdamd:P30111>London : Faber and Faber, 2009.</rdamd:P30111>
       <rdamd:P30083>Faber and Faber</rdamd:P30083>
       <rdamd:P30011>2009</rdamd:P30011>
-      <rdamd:P30182>468 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>468 pages, 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness/exp/eng/1020"/>
@@ -748,9 +762,11 @@
       <rdamd:P30111>London : Faber and Faber, 2010.</rdamd:P30111>
       <rdamd:P30083>Faber and Faber</rdamd:P30083>
       <rdamd:P30011>2010</rdamd:P30011>
-      <rdamd:P30182>468 pages ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>468 pages, 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
+      <rdamd:P30137>Originally published: 2009.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness/exp/eng/1020"/>
@@ -772,6 +788,7 @@
       <rdamd:P30182>1 online resource.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
+      <rdamd:P30137>Academic</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/38119011/avisibledarkness/exp/eng/1020"/>
@@ -787,9 +804,12 @@
       <rdamd:P30111>London : Faber Music, 1998.</rdamd:P30111>
       <rdamd:P30083>Faber Music</rdamd:P30083>
       <rdamd:P30011>1998</rdamd:P30011>
-      <rdamd:P30182>5 pages of music ; 31 cm.</rdamd:P30182>
+      <rdamd:P30182>5 pages of music, 31 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>"This pieces is an explosion of John Dowland's lute song 'In darknesse let me dwell' (1610)"--T.p.</rdamd:P30137>
+      <rdamd:P30137>Duration: 7:00.</rdamd:P30137>
+      <rdamd:P30137>Words of Dowland's song printed as text on t.p.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/85313314/darknessvisible/exp/1010"/>
@@ -810,6 +830,7 @@
       <rdamd:P30182>2 sound cassettes (2 hr.) : analog, Dolby processed.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1001</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1007</rdamd:P30001>
+      <rdamd:P30137>In container (18 cm.).</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1007"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/exp/eng/1013/71398096"/>
@@ -831,9 +852,10 @@
       <rdamd:P30111>Sutton : Severn House, 2009.</rdamd:P30111>
       <rdamd:P30083>Severn House</rdamd:P30083>
       <rdamd:P30011>2009</rdamd:P30011>
-      <rdamd:P30182>196 pages ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>196 pages, 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/66588563/darknessvisible/exp/eng/1020"/>
@@ -851,7 +873,7 @@
       <rdamd:P30111>London : Orion, 2003.</rdamd:P30111>
       <rdamd:P30083>Orion</rdamd:P30083>
       <rdamd:P30011>2003</rdamd:P30011>
-      <rdamd:P30182>243 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>243 pages, 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -869,7 +891,7 @@
       <rdamd:P30111>Addlestone : Lewis Masonic, 2005.</rdamd:P30111>
       <rdamd:P30083>Lewis Masonic</rdamd:P30083>
       <rdamd:P30011>2005</rdamd:P30011>
-      <rdamd:P30182>384 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>384 pages, 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -889,7 +911,7 @@
       <rdamd:P30111>London : Saqi, 2008.</rdamd:P30111>
       <rdamd:P30083>Saqi</rdamd:P30083>
       <rdamd:P30011>2008</rdamd:P30011>
-      <rdamd:P30182>1 v. (unpaged) : chiefly illustrations ; 26 cm.</rdamd:P30182>
+      <rdamd:P30182>1 v. (unpaged) : chiefly illustrations, 26 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -909,9 +931,10 @@
       <rdamd:P30111>Williamstown, Mass : Sterling &amp; Francine Clark Art Institute, c1986.</rdamd:P30111>
       <rdamd:P30083>Sterling &amp; Francine Clark Art Institute</rdamd:P30083>
       <rdamd:P30011>c1986</rdamd:P30011>
-      <rdamd:P30182>v, 87 pages ; 28 cm.</rdamd:P30182>
+      <rdamd:P30182>v, 87 pages, 28 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>"This catalogue is published on the occasion of an exhibition at the Sterling and Francine Clark Art Institute, Williamstown, Massachusetts, 27 September to 30 November 1986, which will travel to the Helen Foresman Spencer Museum of Art, University of Kansas, Lawrence, 18 January to 7 March 1987 and to the Allen Memorial Art Museum, Oberlin College, Oberlin, Ohio, 5 April to 31 May 1987"--T.p. verso.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/24751188/darknessvisible/exp/eng/1014"/>
@@ -928,9 +951,11 @@
       <rdamd:P30111>London : Saint Austin Press, 1998.</rdamd:P30111>
       <rdamd:P30083>Saint Austin Press</rdamd:P30083>
       <rdamd:P30011>1998</rdamd:P30011>
-      <rdamd:P30182>viii, 232 pages : illustrations ; 22 cm.</rdamd:P30182>
+      <rdamd:P30182>viii, 232 pages : illustrations, 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>First published: Chulmleigh : Augustine, 1963.</rdamd:P30137>
+      <rdamd:P30137>With a foreword to the 17th impression, 1998, by Gerard Moate.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q5223706/exp/eng/1020"/>
@@ -946,7 +971,7 @@
       <rdamd:P30111>[Oslo] : Aschehoug, 1991.</rdamd:P30111>
       <rdamd:P30083>Aschehoug</rdamd:P30083>
       <rdamd:P30011>1991</rdamd:P30011>
-      <rdamd:P30182>95 sider ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>95 sider, 21 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
@@ -966,9 +991,10 @@
       <rdamd:P30083>University of Chicago Press</rdamd:P30083>
       <rdamd:P30011>2015</rdamd:P30011>
       <rdamd:P30007>©1976</rdamd:P30007>
-      <rdamd:P30182>xi, 179 pages ; 23 cm.</rdamd:P30182>
+      <rdamd:P30182>xi, 179 pages, 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Reprint. Originally published: 1976.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/94303910/darknessvisible/exp/eng/1020"/>
@@ -984,9 +1010,10 @@
       <rdamd:P30111>Cambridge : Cambridge University Press, 2018.</rdamd:P30111>
       <rdamd:P30083>Cambridge University Press</rdamd:P30083>
       <rdamd:P30011>2018</rdamd:P30011>
-      <rdamd:P30182>x, 162 pages ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>x, 162 pages, 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/17209922/darknessnowvisible/exp/eng/1020"/>
@@ -1002,10 +1029,12 @@
       <rdamd:P30111>London : Vintage, 2017.</rdamd:P30111>
       <rdamd:P30083>Vintage</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
-      <rdamd:P30182>78 pages ; 18 cm.</rdamd:P30182>
+      <rdamd:P30182>78 pages, 18 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Vintage minis</rdamd:P30106>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
+      <rdamd:P30137>Originally published: as part of Darkness visible. New York: Random House, 1990.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/1421145424662786830168/depression/exp/eng/1020"/>
@@ -1022,9 +1051,11 @@
       <rdamd:P30111>London : Icon Books, 2017.</rdamd:P30111>
       <rdamd:P30083>Icon Books</rdamd:P30083>
       <rdamd:P30011>2017</rdamd:P30011>
-      <rdamd:P30182>191 pages : illustrations (black and white) ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>191 pages : illustrations (black and white), 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
+      <rdamd:P30137>Previous edition: Thriplow: Wizard, 2003.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible/exp/eng/1014/1020"/>
@@ -1044,6 +1075,8 @@
       <rdamd:P30182>1 online resource : illustrations (black and white).</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1003</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1018</rdamd:P30001>
+      <rdamd:P30137>Academic</rdamd:P30137>
+      <rdamd:P30137>Previous edition: Thriplow: Wizard, 2003.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible/exp/eng/1014/1020"/>
@@ -1059,9 +1092,10 @@
       <rdamd:P30111>London : Wizard, 2007.</rdamd:P30111>
       <rdamd:P30083>Wizard</rdamd:P30083>
       <rdamd:P30011>2007</rdamd:P30011>
-      <rdamd:P30182>212 pages : illustrations ; 20 cm.</rdamd:P30182>
+      <rdamd:P30182>212 pages : illustrations, 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Originally published: 2003</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/49383417/darknessvisible/exp/eng/1014/1020"/>
@@ -1077,16 +1111,14 @@
       <rdamd:P30111>London : Baronius, 2008.</rdamd:P30111>
       <rdamd:P30083>Baronius</rdamd:P30083>
       <rdamd:P30011>2008</rdamd:P30011>
-      <rdamd:P30182>xv, 280 pages : illustrations ; 21 cm.</rdamd:P30182>
+      <rdamd:P30182>xv, 280 pages : illustrations, 21 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>"This edition has been re-typeset using the text of the 1998 edition (17th impression) published by The Saint Austin Press, London." --T.p. verso.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://www.wikidata.org/entity/Q5223706/exp/eng/1020"/>
    </rdac:C10007>
-   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/">
-      <skos:subjectIndicator>eng</skos:subjectIndicator>
-   </skos:Concept>
    <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/eng">
       <rdfs:label>eng</rdfs:label>
       <skos:subjectIndicator>eng</skos:subjectIndicator>

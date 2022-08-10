@@ -22,38 +22,16 @@
          xmlns:rdamt="http://rdaregistry.info/termList/RDAMediaType/"
          xmlns:rdat="http://rdaregistry.info/termList/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#">
-   <rdac:C10001 rdf:about="http://www.imdb.com/title/tt0197256">
-      <rdaxd:P00018>http://www.imdb.com/title/tt0197256</rdaxd:P00018>
-      <rdawd:P10088>The Atrocity exhibition</rdawd:P10088>
-      <rdfs:label>The Atrocity exhibition</rdfs:label>
-      <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1002"/>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/293611582">
+      <rdaxd:P00018>http://viaf.org/viaf/293611582</rdaxd:P00018>
+      <rdawd:P10088>Empire of the sun</rdawd:P10088>
+      <rdfs:label>Empire of the sun</rdfs:label>
+      <rdawd:P10330>Jim es un niño inglés de familia acomodada que se pierde de sus padres cuando las tropas japonesas entran en Shanghai. Pocos días después es capturado y enviado a un campo de concentración donde vivirá casi cuatro años</rdawd:P10330>
+      <rdawd:P10330>Cuando, en diciembre de 1941, el ejército japonés ocupa Shanghai, la privilegiada vida de James Graham, un niño inglés de clase alta, toca a su fin. Es separado de sus padres y confinado en un campo de concentración próximo a un aeropuerto militar chino</rdawd:P10330>
+      <rdawd:P10330>Following the attack on Pearl Harbor, young Jim Graham is sent to a Japanese concentration camp. In desperately brutal conditions he struggles to prevent his family and friends from dying, while keeping his hopes and heroic dreams alive. A powerful epic, drawn from the childhood experiences of author J.G. Ballard.</rdawd:P10330>
    </rdac:C10001>
-   <rdac:C10002 rdf:about="http://viaf.org/viaf/9842556">
-      <rdaxd:P00018>http://viaf.org/viaf/9842556</rdaxd:P00018>
-      <rdaad:P50385>Ballard, J.G</rdaad:P50385>
-      <rdfs:label>Ballard, J.G</rdfs:label>
-   </rdac:C10002>
-   <rdac:C10006 rdf:about="http://www.imdb.com/title/tt0197256/exp/1023">
-      <rdaed:P20316>The Atrocity exhibition</rdaed:P20316>
-      <rdaed:P20312>The Atrocity exhibition</rdaed:P20312>
-      <rdfs:label>The Atrocity exhibition / todimensjonalt levende bilde</rdfs:label>
-      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
-      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
-      <rdaeo:P20231 rdf:resource="http://www.imdb.com/title/tt0197256"/>
+   <rdac:C10006 rdf:about="http://viaf.org/viaf/293611582/exp">
+      <rdaed:P20316>Empire of the sun</rdaed:P20316>
+      <rdaeo:P20231 rdf:resource="http://viaf.org/viaf/293611582"/>
    </rdac:C10006>
-   <skos:Concept rdf:about="http://id.loc.gov/vocabulary/iso639-2/eng">
-      <rdfs:label>eng</rdfs:label>
-   </skos:Concept>
-   <skos:Concept rdf:about="http://rdaregistry.info/termList/RDACarrierType/1060">
-      <skos:subjectIndicator>http://rdaregistry.info/termList/RDACarrierType/1060</skos:subjectIndicator>
-   </skos:Concept>
-   <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAContentType/1023">
-      <skos:subjectIndicator>http://rdaregistry.info/termList/RDAContentType/1023</skos:subjectIndicator>
-   </skos:Concept>
-   <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAMediaType/1008">
-      <skos:subjectIndicator>http://rdaregistry.info/termList/RDAMediaType/1008</skos:subjectIndicator>
-   </skos:Concept>
-   <skos:Concept rdf:about="https://schema.nb.no/Bibliographic/Values/V1002">
-      <skos:subjectIndicator>https://schema.nb.no/Bibliographic/Values/V1002</skos:subjectIndicator>
-   </skos:Concept>
 </rdf:RDF>

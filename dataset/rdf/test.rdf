@@ -25,7 +25,7 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/310504431">
       <rdaxd:P00018>http://viaf.org/viaf/310504431</rdaxd:P00018>
       <rdawd:P10088>Anansi boys</rdawd:P10088>
-      <rdfs:label>Anansi boys</rdfs:label>
+      <rdfs:label>Anansi boys (Gaiman, Neil)</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1000"/>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/103859257"/>
    </rdac:C10001>
@@ -51,11 +51,12 @@
       <rdamd:P30111>London : Review : Review ; Oslo : Review, 2005.</rdamd:P30111>
       <rdamd:P30083>Review</rdamd:P30083>
       <rdamd:P30011>2005</rdamd:P30011>
-      <rdamd:P30182>348 pages ; 24 cm.</rdamd:P30182>
-      <rdamd:P30182>555 pages ; 24 cm.</rdamd:P30182>
-      <rdamd:P30182>xxx pages : something else ; 24 cm.</rdamd:P30182>
+      <rdamd:P30182>348 pages, 24 cm.</rdamd:P30182>
+      <rdamd:P30182>555 pages, 24 cm.</rdamd:P30182>
+      <rdamd:P30182>xxx pages : something else, 24 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
+      <rdamd:P30137>Formerly CIP.</rdamd:P30137>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/310504431/exp/eng/1020"/>

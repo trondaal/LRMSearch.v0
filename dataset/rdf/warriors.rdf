@@ -25,7 +25,7 @@
    <rdac:C10001 rdf:about="http://viaf.org/viaf/110145970341832252710/eksempeluri">
       <rdaxd:P00018>http://viaf.org/viaf/110145970341832252710/eksempeluri</rdaxd:P00018>
       <rdawd:P10088>Warriors and other men</rdawd:P10088>
-      <rdfs:label>Warriors and other men</rdfs:label>
+      <rdfs:label>Warriors and other men (Skogstrand, Lisbeth)</rdfs:label>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/110145970341832252710"/>
    </rdac:C10001>
    <rdac:C10002 rdf:about="http://viaf.org/viaf/110145970341832252710">
@@ -55,7 +55,7 @@
       <rdamd:P30111>Oxford : Archaeopress Publishing Ltd, [2016].</rdamd:P30111>
       <rdamd:P30083>Archaeopress Publishing Ltd</rdamd:P30083>
       <rdamd:P30011>[2016]</rdamd:P30011>
-      <rdamd:P30182>VI, 182 sider : illustrasjoner, kart ; 30 cm.</rdamd:P30182>
+      <rdamd:P30182>VI, 182 sider : illustrasjoner, kart, 30 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Archaeopress archaeology</rdamd:P30106>
