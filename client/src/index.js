@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -20,7 +21,11 @@ const client = new ApolloClient({
     cache: Cache
 });
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+
+
+root.render(
   <React.StrictMode>
       <RecoilRoot>
           <ApolloProvider client={client}>
@@ -29,8 +34,7 @@ ReactDOM.render(
               </ThemeProvider>
           </ApolloProvider>
       </RecoilRoot>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

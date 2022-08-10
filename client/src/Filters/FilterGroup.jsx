@@ -5,7 +5,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
-import { intersection } from 'lodash';
+//import { intersection } from 'lodash';
 import Filter from './Filter';
 import "./FilterGroup.css";
 
