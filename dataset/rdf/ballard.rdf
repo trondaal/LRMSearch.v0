@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:map="http://www.w3.org/2005/xpath-functions/map"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:frbrizer="http://idi.ntnu.no/frbrizer/"
-         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-         xmlns:marc="http://www.loc.gov/MARC21/slim"
-         xmlns:rdac="http://rdaregistry.info/Elements/c/"
-         xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
-         xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
-         xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
-         xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
-         xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
-         xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
-         xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
-         xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
-         xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
-         xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
-         xmlns:mmmm="http://www.loc.gov/MARC21/slim/"
-         xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
-         xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
-         xmlns:rdamt="http://rdaregistry.info/termList/RDAMediaType/"
-         xmlns:rdat="http://rdaregistry.info/termList/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<rdf:RDF xmlns:frbrizer="http://idi.ntnu.no/frbrizer/"
+          xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
+          xmlns:map="http://www.w3.org/2005/xpath-functions/map"
+          xmlns:marc="http://www.loc.gov/MARC21/slim"
+          xmlns:mmmm="http://www.loc.gov/MARC21/slim/"
+          xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+          xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+          xmlns:rdac="http://rdaregistry.info/Elements/c/"
+          xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
+          xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
+          xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+          xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+          xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+          xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
+          xmlns:rdamt="http://rdaregistry.info/termList/RDAMediaType/"
+          xmlns:rdat="http://rdaregistry.info/termList/"
+          xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+          xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+          xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <rdac:C10001 rdf:about="http://viaf.org/viaf/100332406/coldwarstories">
       <rdaxd:P00018>http://viaf.org/viaf/100332406/coldwarstories</rdaxd:P00018>
       <rdawd:P10088>Cold War Stories</rdawd:P10088>
@@ -112,7 +112,7 @@
       <rdawo:P10257 rdf:resource="http://viaf.org/viaf/190447471"/>
       <rdawo:P10257 rdf:resource="http://viaf.org/viaf/181821021"/>
       <rdawo:P10257 rdf:resource="http://viaf.org/viaf/313335324"/>
-      <rdawo:P10257 rdf:resource="http://viaf.org/viaf/311112707"/>
+      <rdawo:P10257 rdf:resource="http://viaf.org/viaf/206874458"/>
       <rdawo:P10257 rdf:resource="http://viaf.org/viaf/202977755"/>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/162176817/jgballard">
@@ -199,6 +199,12 @@
       <rdfs:label>Hello America (Ballard, J. G.)</rdfs:label>
       <rdfs:label>Hello America</rdfs:label>
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/9842556"/>
+   </rdac:C10001>
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/206874458">
+      <rdaxd:P00018>http://viaf.org/viaf/206874458</rdaxd:P00018>
+      <rdawd:P10088>One fat englishman</rdawd:P10088>
+      <rdfs:label>One fat englishman (Amis, Kingsley)</rdfs:label>
+      <rdfs:label>One fat englishman</rdfs:label>
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/22158269/realmysteries">
       <rdaxd:P00018>http://viaf.org/viaf/22158269/realmysteries</rdaxd:P00018>
@@ -624,7 +630,13 @@
       <rdawo:P10257 rdf:resource="http://www.wikidata.org/entity/Q7765388"/>
       <rdawo:P10257 rdf:resource="http://www.wikidata.org/entity/Q7718980"/>
       <rdawo:P10319 rdf:resource="http://viaf.org/viaf/9842556"/>
+<<<<<<< Updated upstream
       <rdawo:P10319 rdf:resource="http://www.wikidata.org/entity/Q7718980"/>
+=======
+      <rdawo:P10319 rdf:resource="http://example.org/person/blackwoodalgernon"/>
+      <rdawo:P10319 rdf:resource="http://www.wikidata.org/entity/Q310048"/>
+      <rdawo:P10319 rdf:resource="http://example.org/person/leevernon"/>
+>>>>>>> Stashed changes
    </rdac:C10001>
    <rdac:C10001 rdf:about="http://viaf.org/viaf/9408966/jgballard">
       <rdaxd:P00018>http://viaf.org/viaf/9408966/jgballard</rdaxd:P00018>
@@ -3054,6 +3066,12 @@
       <rdawo:P10061 rdf:resource="http://viaf.org/viaf/9842556"/>
       <rdawo:P10319 rdf:resource="http://viaf.org/viaf/9842556"/>
    </rdac:C10001>
+   <rdac:C10001 rdf:about="http://www.wikidata.org/entity/Q7718980">
+      <rdaxd:P00018>http://www.wikidata.org/entity/Q7718980</rdaxd:P00018>
+      <rdawd:P10088>The body artist</rdawd:P10088>
+      <rdfs:label>The body artist (DeLillo, Don)</rdfs:label>
+      <rdfs:label>The body artist</rdfs:label>
+   </rdac:C10001>
    <rdac:C10001 rdf:about="http://www.wikidata.org/entity/Q7741590">
       <rdaxd:P00018>http://www.wikidata.org/entity/Q7741590</rdaxd:P00018>
       <rdawd:P10088>The impossible man</rdawd:P10088>
@@ -3097,12 +3115,1060 @@
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1002"/>
       <rdawo:P10129 rdf:resource="http://viaf.org/viaf/182227002"/>
    </rdac:C10001>
+   <rdac:C10001 rdf:about="https://www.isfdb.org/cgi-bin/title.cgi?56827">
+      <rdaxd:P00018>https://www.isfdb.org/cgi-bin/title.cgi?56827</rdaxd:P00018>
+      <rdawd:P10088>The circulation of the blood</rdawd:P10088>
+      <rdfs:label>The circulation of the blood (Aldiss, Brian W.)</rdfs:label>
+      <rdawo:P10055 rdf:resource="http://viaf.org/viaf/102014804"/>
+   </rdac:C10001>
    <rdac:C10002 rdf:about="http://example.org/">
       <rdaxd:P00018>Lovecraft, H. P.</rdaxd:P00018>
       <rdaad:P50385>Lovecraft, H. P</rdaad:P50385>
       <rdfs:label>Lovecraft, H. P</rdfs:label>
       <rdaad:P50339>1890-1937</rdaad:P50339>
    </rdac:C10002>
+<<<<<<< Updated upstream
+=======
+   <rdac:C10002 rdf:about="http://example.org/person/abneywilliam">
+      <rdaxd:P00018>http://example.org/person/abneywilliam</rdaxd:P00018>
+      <rdaad:P50385>Abney, William</rdaad:P50385>
+      <rdfs:label>Abney, William</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/adamsjohnjoseph">
+      <rdaxd:P00018>http://example.org/person/adamsjohnjoseph</rdaxd:P00018>
+      <rdaad:P50385>Adams, John Joseph</rdaad:P50385>
+      <rdfs:label>Adams, John Joseph</rdfs:label>
+      <rdaad:P50339>1976-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/allensteve">
+      <rdaxd:P00018>http://example.org/person/allensteve</rdaxd:P00018>
+      <rdaad:P50385>Allen, Steve</rdaad:P50385>
+      <rdfs:label>Allen, Steve</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/amismartin">
+      <rdaxd:P00018>http://example.org/person/amismartin</rdaxd:P00018>
+      <rdaad:P50385>Amis, Martin</rdaad:P50385>
+      <rdfs:label>Amis, Martin</rdfs:label>
+      <rdaad:P50339>1949-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/baileyhilary">
+      <rdaxd:P00018>http://example.org/person/baileyhilary</rdaxd:P00018>
+      <rdaad:P50385>Bailey, Hilary</rdaad:P50385>
+      <rdfs:label>Bailey, Hilary</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/beargreg">
+      <rdaxd:P00018>http://example.org/person/beargreg</rdaxd:P00018>
+      <rdaad:P50385>Bear, Greg</rdaad:P50385>
+      <rdfs:label>Bear, Greg</rdfs:label>
+      <rdaad:P50339>1951-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/beckettchris">
+      <rdaxd:P00018>http://example.org/person/beckettchris</rdaxd:P00018>
+      <rdaad:P50385>Beckett, Chris</rdaad:P50385>
+      <rdfs:label>Beckett, Chris</rdfs:label>
+      <rdaad:P50339>1955-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/benderjan">
+      <rdaxd:P00018>http://example.org/person/benderjan</rdaxd:P00018>
+      <rdaad:P50385>Bender, Jan</rdaad:P50385>
+      <rdfs:label>Bender, Jan</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/benfordgregory">
+      <rdaxd:P00018>http://example.org/person/benfordgregory</rdaxd:P00018>
+      <rdaad:P50385>Benford, Gregory</rdaad:P50385>
+      <rdfs:label>Benford, Gregory</rdfs:label>
+      <rdaad:P50339>1941-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/bergerwulfh">
+      <rdaxd:P00018>http://example.org/person/bergerwulfh</rdaxd:P00018>
+      <rdaad:P50385>Berger, Wulf H</rdaad:P50385>
+      <rdfs:label>Berger, Wulf H</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/bernrdezaurora">
+      <rdaxd:P00018>http://example.org/person/bernrdezaurora</rdaxd:P00018>
+      <rdaad:P50385>Bernárdez, Aurora</rdaad:P50385>
+      <rdfs:label>Bernárdez, Aurora</rdfs:label>
+      <rdaad:P50339>1920-2014</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/besteralfred">
+      <rdaxd:P00018>http://example.org/person/besteralfred</rdaxd:P00018>
+      <rdaad:P50385>Bester, Alfred</rdaad:P50385>
+      <rdfs:label>Bester, Alfred</rdfs:label>
+      <rdaad:P50339>1913-1987</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/blackwoodalgernon">
+      <rdaxd:P00018>http://example.org/person/blackwoodalgernon</rdaxd:P00018>
+      <rdaad:P50385>Blackwood, Algernon</rdaad:P50385>
+      <rdfs:label>Blackwood, Algernon</rdfs:label>
+      <rdaad:P50339>1869-1951</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/blakearthur">
+      <rdaxd:P00018>http://example.org/person/blakearthur</rdaxd:P00018>
+      <rdaad:P50385>Blake, Arthur</rdaad:P50385>
+      <rdfs:label>Blake, Arthur</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/boixadsjordi">
+      <rdaxd:P00018>http://example.org/person/boixadsjordi</rdaxd:P00018>
+      <rdaad:P50385>Boixadós, Jordi</rdaad:P50385>
+      <rdfs:label>Boixadós, Jordi</rdfs:label>
+      <rdaad:P50339>1958-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/boludaitorrellacarles">
+      <rdaxd:P00018>http://example.org/person/boludaitorrellacarles</rdaxd:P00018>
+      <rdaad:P50385>Boluda i Torrella, Carles</rdaad:P50385>
+      <rdfs:label>Boluda i Torrella, Carles</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/borndaniel">
+      <rdaxd:P00018>http://example.org/person/borndaniel</rdaxd:P00018>
+      <rdaad:P50385>Born, Daniel</rdaad:P50385>
+      <rdfs:label>Born, Daniel</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/breuermilesj">
+      <rdaxd:P00018>http://example.org/person/breuermilesj</rdaxd:P00018>
+      <rdaad:P50385>Breuer, Miles J</rdaad:P50385>
+      <rdfs:label>Breuer, Miles J</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/broichmargarita">
+      <rdaxd:P00018>http://example.org/person/broichmargarita</rdaxd:P00018>
+      <rdaad:P50385>Broich, Margarita</rdaad:P50385>
+      <rdfs:label>Broich, Margarita</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/brownbj">
+      <rdaxd:P00018>http://example.org/person/brownbj</rdaxd:P00018>
+      <rdaad:P50385>Brown, B. J</rdaad:P50385>
+      <rdfs:label>Brown, B. J</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/brownsteinmichael">
+      <rdaxd:P00018>http://example.org/person/brownsteinmichael</rdaxd:P00018>
+      <rdaad:P50385>Brownstein, Michael</rdaad:P50385>
+      <rdfs:label>Brownstein, Michael</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/bryamgeorge">
+      <rdaxd:P00018>http://example.org/person/bryamgeorge</rdaxd:P00018>
+      <rdaad:P50385>Bryam, George</rdaad:P50385>
+      <rdfs:label>Bryam, George</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/butterworthmichael">
+      <rdaxd:P00018>http://example.org/person/butterworthmichael</rdaxd:P00018>
+      <rdaad:P50385>Butterworth, Michael</rdaad:P50385>
+      <rdfs:label>Butterworth, Michael</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/calvignaciogmez">
+      <rdaxd:P00018>http://example.org/person/calvignaciogmez</rdaxd:P00018>
+      <rdaad:P50385>Calv, Ignacio Gómez</rdaad:P50385>
+      <rdfs:label>Calv, Ignacio Gómez</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/campbelljohnw">
+      <rdaxd:P00018>http://example.org/person/campbelljohnw</rdaxd:P00018>
+      <rdaad:P50385>Campbell, John W</rdaad:P50385>
+      <rdfs:label>Campbell, John W</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/carterronald">
+      <rdaxd:P00018>http://example.org/person/carterronald</rdaxd:P00018>
+      <rdaad:P50385>Carter, Ronald</rdaad:P50385>
+      <rdfs:label>Carter, Ronald</rdfs:label>
+      <rdaad:P50339>1947-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/charnockgraham">
+      <rdaxd:P00018>http://example.org/person/charnockgraham</rdaxd:P00018>
+      <rdaad:P50385>Charnock, Graham</rdaad:P50385>
+      <rdfs:label>Charnock, Graham</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/cliftonmark">
+      <rdaxd:P00018>http://example.org/person/cliftonmark</rdaxd:P00018>
+      <rdaad:P50385>Clifton, Mark</rdaad:P50385>
+      <rdfs:label>Clifton, Mark</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/coelschfoisnersabine">
+      <rdaxd:P00018>http://example.org/person/coelschfoisnersabine</rdaxd:P00018>
+      <rdaad:P50385>Coelsch-Foisner, Sabine</rdaad:P50385>
+      <rdfs:label>Coelsch-Foisner, Sabine</rdfs:label>
+      <rdaad:P50339>1960-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/craigian">
+      <rdaxd:P00018>http://example.org/person/craigian</rdaxd:P00018>
+      <rdaad:P50385>Craig, Ian</rdaad:P50385>
+      <rdfs:label>Craig, Ian</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/cramerkathryn">
+      <rdaxd:P00018>http://example.org/person/cramerkathryn</rdaxd:P00018>
+      <rdaad:P50385>Cramer, Kathryn</rdaad:P50385>
+      <rdfs:label>Cramer, Kathryn</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/crawfordpaul">
+      <rdaxd:P00018>http://example.org/person/crawfordpaul</rdaxd:P00018>
+      <rdaad:P50385>Crawford, Paul</rdaad:P50385>
+      <rdfs:label>Crawford, Paul</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/davidsonavram">
+      <rdaxd:P00018>http://example.org/person/davidsonavram</rdaxd:P00018>
+      <rdaad:P50385>Davidson, Avram</rdaad:P50385>
+      <rdfs:label>Davidson, Avram</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/daviespaul">
+      <rdaxd:P00018>http://example.org/person/daviespaul</rdaxd:P00018>
+      <rdaad:P50385>Davies, Paul</rdaad:P50385>
+      <rdfs:label>Davies, Paul</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/devereuxeoin">
+      <rdaxd:P00018>http://example.org/person/devereuxeoin</rdaxd:P00018>
+      <rdaad:P50385>Devereux, Eoin</rdaad:P50385>
+      <rdfs:label>Devereux, Eoin</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/dicksongordonr">
+      <rdaxd:P00018>http://example.org/person/dicksongordonr</rdaxd:P00018>
+      <rdaad:P50385>Dickson, Gordon R</rdaad:P50385>
+      <rdfs:label>Dickson, Gordon R</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/dillaneaileen">
+      <rdaxd:P00018>http://example.org/person/dillaneaileen</rdaxd:P00018>
+      <rdaad:P50385>Dillane, Aileen</rdaad:P50385>
+      <rdfs:label>Dillane, Aileen</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/dinesmartin">
+      <rdaxd:P00018>http://example.org/person/dinesmartin</rdaxd:P00018>
+      <rdaad:P50385>Dines, Martin</rdaad:P50385>
+      <rdfs:label>Dines, Martin</rdfs:label>
+      <rdaad:P50339>1976-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/dragwojciech">
+      <rdaxd:P00018>http://example.org/person/dragwojciech</rdaxd:P00018>
+      <rdaad:P50385>Drąg, Wojciech</rdaad:P50385>
+      <rdfs:label>Drąg, Wojciech</rdfs:label>
+      <rdaad:P50339>1984-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/dumaurierdaphne">
+      <rdaxd:P00018>http://example.org/person/dumaurierdaphne</rdaxd:P00018>
+      <rdaad:P50385>Du Maurier, Daphne</rdaad:P50385>
+      <rdfs:label>Du Maurier, Daphne</rdfs:label>
+      <rdaad:P50339>1907-1989</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/edwardsmalcolm">
+      <rdaxd:P00018>http://example.org/person/edwardsmalcolm</rdaxd:P00018>
+      <rdaad:P50385>Edwards, Malcolm</rdaad:P50385>
+      <rdfs:label>Edwards, Malcolm</rdfs:label>
+      <rdaad:P50339>1949-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/effingergeorgalec">
+      <rdaxd:P00018>http://example.org/person/effingergeorgalec</rdaxd:P00018>
+      <rdaad:P50385>Effinger, Georg Alec</rdaad:P50385>
+      <rdfs:label>Effinger, Georg Alec</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/eganpeter">
+      <rdaxd:P00018>http://example.org/person/eganpeter</rdaxd:P00018>
+      <rdaad:P50385>Egan, Peter</rdaad:P50385>
+      <rdfs:label>Egan, Peter</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/ellisonharlan">
+      <rdaxd:P00018>http://example.org/person/ellisonharlan</rdaxd:P00018>
+      <rdaad:P50385>Ellison, Harlan</rdaad:P50385>
+      <rdfs:label>Ellison, Harlan</rdfs:label>
+      <rdaad:P50339>1934-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/elmsliekenward">
+      <rdaxd:P00018>http://example.org/person/elmsliekenward</rdaxd:P00018>
+      <rdaad:P50385>Elmslie, Kenward</rdaad:P50385>
+      <rdfs:label>Elmslie, Kenward</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/erikssondick">
+      <rdaxd:P00018>http://example.org/person/erikssondick</rdaxd:P00018>
+      <rdaad:P50385>Eriksson, Dick</rdaad:P50385>
+      <rdfs:label>Eriksson, Dick</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/evansarthurb">
+      <rdaxd:P00018>http://example.org/person/evansarthurb</rdaxd:P00018>
+      <rdaad:P50385>Evans, Arthur B</rdaad:P50385>
+      <rdfs:label>Evans, Arthur B</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/fadimanclifton">
+      <rdaxd:P00018>http://example.org/person/fadimanclifton</rdaxd:P00018>
+      <rdaad:P50385>Fadiman, Clifton</rdaad:P50385>
+      <rdfs:label>Fadiman, Clifton</rdfs:label>
+      <rdaad:P50339>1904-1999</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/fasthoward">
+      <rdaxd:P00018>http://example.org/person/fasthoward</rdaxd:P00018>
+      <rdaad:P50385>Fast, Howard</rdaad:P50385>
+      <rdfs:label>Fast, Howard</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/forewardrobertl">
+      <rdaxd:P00018>http://example.org/person/forewardrobertl</rdaxd:P00018>
+      <rdaad:P50385>Foreward, Robert L</rdaad:P50385>
+      <rdfs:label>Foreward, Robert L</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/franckeannika">
+      <rdaxd:P00018>http://example.org/person/franckeannika</rdaxd:P00018>
+      <rdaad:P50385>Francke, Annika</rdaad:P50385>
+      <rdfs:label>Francke, Annika</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/frankecharlotte">
+      <rdaxd:P00018>http://example.org/person/frankecharlotte</rdaxd:P00018>
+      <rdaad:P50385>Franke, Charlotte</rdaad:P50385>
+      <rdfs:label>Franke, Charlotte</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/frenchdick">
+      <rdaxd:P00018>http://example.org/person/frenchdick</rdaxd:P00018>
+      <rdaad:P50385>French, Dick</rdaad:P50385>
+      <rdfs:label>French, Dick</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/fyfehb">
+      <rdaxd:P00018>http://example.org/person/fyfehb</rdaxd:P00018>
+      <rdaad:P50385>Fyfe, H. B</rdaad:P50385>
+      <rdfs:label>Fyfe, H. B</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/ganteaujeanmichel">
+      <rdaxd:P00018>http://example.org/person/ganteaujeanmichel</rdaxd:P00018>
+      <rdaad:P50385>Ganteau, Jean-Michel</rdaad:P50385>
+      <rdfs:label>Ganteau, Jean-Michel</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/garforthlisa">
+      <rdaxd:P00018>http://example.org/person/garforthlisa</rdaxd:P00018>
+      <rdaad:P50385>Garforth, Lisa</rdaad:P50385>
+      <rdfs:label>Garforth, Lisa</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/gehmanrichard">
+      <rdaxd:P00018>http://example.org/person/gehmanrichard</rdaxd:P00018>
+      <rdaad:P50385>Gehman, Richard</rdaad:P50385>
+      <rdfs:label>Gehman, Richard</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/giffordterry">
+      <rdaxd:P00018>http://example.org/person/giffordterry</rdaxd:P00018>
+      <rdaad:P50385>Gifford, Terry</rdaad:P50385>
+      <rdfs:label>Gifford, Terry</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/gilleelisabeth">
+      <rdaxd:P00018>http://example.org/person/gilleelisabeth</rdaxd:P00018>
+      <rdaad:P50385>Gille, Elisabeth</rdaad:P50385>
+      <rdfs:label>Gille, Elisabeth</rdfs:label>
+      <rdaad:P50339>1922-2014</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/gilletteric">
+      <rdaxd:P00018>http://example.org/person/gilletteric</rdaxd:P00018>
+      <rdaad:P50385>Gillett, Eric</rdaad:P50385>
+      <rdfs:label>Gillett, Eric</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/gloecknerphoebe">
+      <rdaxd:P00018>http://example.org/person/gloecknerphoebe</rdaxd:P00018>
+      <rdaad:P50385>Gloeckner, Phoebe</rdaad:P50385>
+      <rdfs:label>Gloeckner, Phoebe</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/godeniusper">
+      <rdaxd:P00018>http://example.org/person/godeniusper</rdaxd:P00018>
+      <rdaad:P50385>Godenius, Per</rdaad:P50385>
+      <rdfs:label>Godenius, Per</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/gordongiles">
+      <rdaxd:P00018>http://example.org/person/gordongiles</rdaxd:P00018>
+      <rdaad:P50385>Gordon, Giles</rdaad:P50385>
+      <rdfs:label>Gordon, Giles</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/grantrichard">
+      <rdaxd:P00018>http://example.org/person/grantrichard</rdaxd:P00018>
+      <rdaad:P50385>Grant, Richard</rdaad:P50385>
+      <rdfs:label>Grant, Richard</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/gripehelena">
+      <rdaxd:P00018>http://example.org/person/gripehelena</rdaxd:P00018>
+      <rdaad:P50385>Gripe, Helena</rdaad:P50385>
+      <rdfs:label>Gripe, Helena</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/guigneryvanessa">
+      <rdaxd:P00018>http://example.org/person/guigneryvanessa</rdaxd:P00018>
+      <rdaad:P50385>Guignery, Vanessa</rdaad:P50385>
+      <rdfs:label>Guignery, Vanessa</rdfs:label>
+      <rdaad:P50339>1972-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/guttmannaomi">
+      <rdaxd:P00018>http://example.org/person/guttmannaomi</rdaxd:P00018>
+      <rdaad:P50385>Guttman, Naomi</rdaad:P50385>
+      <rdfs:label>Guttman, Naomi</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/harrisonmjohn">
+      <rdaxd:P00018>http://example.org/person/harrisonmjohn</rdaxd:P00018>
+      <rdaad:P50385>Harrison, M. John</rdaad:P50385>
+      <rdfs:label>Harrison, M. John</rdfs:label>
+      <rdaad:P50339>1945-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/haseneytina">
+      <rdaxd:P00018>http://example.org/person/haseneytina</rdaxd:P00018>
+      <rdaad:P50385>Haseney, Tina</rdaad:P50385>
+      <rdfs:label>Haseney, Tina</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/headdominic">
+      <rdaxd:P00018>http://example.org/person/headdominic</rdaxd:P00018>
+      <rdaad:P50385>Head, Dominic</rdaad:P50385>
+      <rdfs:label>Head, Dominic</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/hedberggunnar">
+      <rdaxd:P00018>http://example.org/person/hedberggunnar</rdaxd:P00018>
+      <rdaad:P50385>Hedberg, Gunnar</rdaad:P50385>
+      <rdfs:label>Hedberg, Gunnar</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/herrmanbjrnalex">
+      <rdaxd:P00018>http://example.org/person/herrmanbjrnalex</rdaxd:P00018>
+      <rdaad:P50385>Herrman, Bjørn Alex</rdaad:P50385>
+      <rdfs:label>Herrman, Bjørn Alex</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/houstonjamesd">
+      <rdaxd:P00018>http://example.org/person/houstonjamesd</rdaxd:P00018>
+      <rdaad:P50385>Houston, James D</rdaad:P50385>
+      <rdfs:label>Houston, James D</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/howardrichard">
+      <rdaxd:P00018>http://example.org/person/howardrichard</rdaxd:P00018>
+      <rdaad:P50385>Howard, Richard</rdaad:P50385>
+      <rdfs:label>Howard, Richard</rdfs:label>
+      <rdaad:P50339>1929-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/huffmanbennett">
+      <rdaxd:P00018>http://example.org/person/huffmanbennett</rdaxd:P00018>
+      <rdaad:P50385>Huffman, Bennett</rdaad:P50385>
+      <rdfs:label>Huffman, Bennett</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/ingdean">
+      <rdaxd:P00018>http://example.org/person/ingdean</rdaxd:P00018>
+      <rdaad:P50385>Ing, Dean</rdaad:P50385>
+      <rdfs:label>Ing, Dean</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/isbergbjrn">
+      <rdaxd:P00018>http://example.org/person/isbergbjrn</rdaxd:P00018>
+      <rdaad:P50385>Isberg, Björn</rdaad:P50385>
+      <rdfs:label>Isberg, Björn</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/jacksonshirley">
+      <rdaxd:P00018>http://example.org/person/jacksonshirley</rdaxd:P00018>
+      <rdaad:P50385>Jackson, Shirley</rdaad:P50385>
+      <rdfs:label>Jackson, Shirley</rdfs:label>
+      <rdaad:P50339>1916-1965</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/jakubowskimaxim">
+      <rdaxd:P00018>http://example.org/person/jakubowskimaxim</rdaxd:P00018>
+      <rdaad:P50385>Jakubowski, Maxim</rdaad:P50385>
+      <rdfs:label>Jakubowski, Maxim</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/janssonthomas">
+      <rdaxd:P00018>http://example.org/person/janssonthomas</rdaxd:P00018>
+      <rdaad:P50385>Jansson, Thomas</rdaad:P50385>
+      <rdfs:label>Jansson, Thomas</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/johanssonkg">
+      <rdaxd:P00018>http://example.org/person/johanssonkg</rdaxd:P00018>
+      <rdaad:P50385>Johansson, KG</rdaad:P50385>
+      <rdfs:label>Johansson, KG</rdfs:label>
+      <rdaad:P50339>1952-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/jonasgerald">
+      <rdaxd:P00018>http://example.org/person/jonasgerald</rdaxd:P00018>
+      <rdaad:P50385>Jonas, Gerald</rdaad:P50385>
+      <rdfs:label>Jonas, Gerald</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/joneslangdon">
+      <rdaxd:P00018>http://example.org/person/joneslangdon</rdaxd:P00018>
+      <rdaad:P50385>Jones, Langdon</rdaad:P50385>
+      <rdfs:label>Jones, Langdon</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/jurgisandy">
+      <rdaxd:P00018>http://example.org/person/jurgisandy</rdaxd:P00018>
+      <rdaad:P50385>Jurgis, Andy</rdaad:P50385>
+      <rdfs:label>Jurgis, Andy</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/kagannorman">
+      <rdaxd:P00018>http://example.org/person/kagannorman</rdaxd:P00018>
+      <rdaad:P50385>Kagan, Norman</rdaad:P50385>
+      <rdfs:label>Kagan, Norman</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/keransrobert">
+      <rdaxd:P00018>http://example.org/person/keransrobert</rdaxd:P00018>
+      <rdaad:P50385>Kerans, Robert</rdaad:P50385>
+      <rdfs:label>Kerans, Robert</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/kerridgerichard">
+      <rdaxd:P00018>http://example.org/person/kerridgerichard</rdaxd:P00018>
+      <rdaad:P50385>Kerridge, Richard</rdaad:P50385>
+      <rdfs:label>Kerridge, Richard</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/kingsburydonaldm">
+      <rdaxd:P00018>http://example.org/person/kingsburydonaldm</rdaxd:P00018>
+      <rdaad:P50385>Kingsbury, Donald M</rdaad:P50385>
+      <rdfs:label>Kingsbury, Donald M</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/konigcristin">
+      <rdaxd:P00018>http://example.org/person/konigcristin</rdaxd:P00018>
+      <rdaad:P50385>König, Cristin</rdaad:P50385>
+      <rdfs:label>König, Cristin</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/koselermichael">
+      <rdaxd:P00018>http://example.org/person/koselermichael</rdaxd:P00018>
+      <rdaad:P50385>Koseler, Michael</rdaad:P50385>
+      <rdfs:label>Koseler, Michael</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/kunzruhari">
+      <rdaxd:P00018>http://example.org/person/kunzruhari</rdaxd:P00018>
+      <rdaad:P50385>Kunzru, Hari</rdaad:P50385>
+      <rdfs:label>Kunzru, Hari</rdfs:label>
+      <rdaad:P50339>1969-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/kuttnerhenry">
+      <rdaxd:P00018>http://example.org/person/kuttnerhenry</rdaxd:P00018>
+      <rdaad:P50385>Kuttner, Henry</rdaad:P50385>
+      <rdfs:label>Kuttner, Henry</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/laffertyra">
+      <rdaxd:P00018>http://example.org/person/laffertyra</rdaxd:P00018>
+      <rdaad:P50385>Lafferty, R. A</rdaad:P50385>
+      <rdfs:label>Lafferty, R. A</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/laingrobert">
+      <rdaxd:P00018>http://example.org/person/laingrobert</rdaxd:P00018>
+      <rdaad:P50385>Laing, Robert</rdaad:P50385>
+      <rdfs:label>Laing, Robert</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/laingtim">
+      <rdaxd:P00018>http://example.org/person/laingtim</rdaxd:P00018>
+      <rdaad:P50385>Laing, Tim</rdaad:P50385>
+      <rdfs:label>Laing, Tim</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/lathamphilip">
+      <rdaxd:P00018>http://example.org/person/lathamphilip</rdaxd:P00018>
+      <rdaad:P50385>Latham, Philip</rdaad:P50385>
+      <rdfs:label>Latham, Philip</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/lathamrob">
+      <rdaxd:P00018>http://example.org/person/lathamrob</rdaxd:P00018>
+      <rdaad:P50385>Latham, Rob</rdaad:P50385>
+      <rdfs:label>Latham, Rob</rdfs:label>
+      <rdaad:P50339>1959-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/leechristopher">
+      <rdaxd:P00018>http://example.org/person/leechristopher</rdaxd:P00018>
+      <rdaad:P50385>Lee, Christopher</rdaad:P50385>
+      <rdfs:label>Lee, Christopher</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/leevernon">
+      <rdaxd:P00018>http://example.org/person/leevernon</rdaxd:P00018>
+      <rdaad:P50385>Lee, Vernon</rdaad:P50385>
+      <rdfs:label>Lee, Vernon</rdfs:label>
+      <rdaad:P50339>1856-1935</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/leinstermurray">
+      <rdaxd:P00018>http://example.org/person/leinstermurray</rdaxd:P00018>
+      <rdaad:P50385>Leinster, Murray</rdaad:P50385>
+      <rdfs:label>Leinster, Murray</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/lindholmjuhani">
+      <rdaxd:P00018>http://example.org/person/lindholmjuhani</rdaxd:P00018>
+      <rdaad:P50385>Lindholm, Juhani</rdaad:P50385>
+      <rdfs:label>Lindholm, Juhani</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/lipsedgemaurice">
+      <rdaxd:P00018>http://example.org/person/lipsedgemaurice</rdaxd:P00018>
+      <rdaad:P50385>Lipsedge, Maurice</rdaad:P50385>
+      <rdfs:label>Lipsedge, Maurice</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/liveseyjohn">
+      <rdaxd:P00018>http://example.org/person/liveseyjohn</rdaxd:P00018>
+      <rdaad:P50385>Livesey, John</rdaad:P50385>
+      <rdfs:label>Livesey, John</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/louitrobert">
+      <rdaxd:P00018>http://example.org/person/louitrobert</rdaxd:P00018>
+      <rdaad:P50385>Louit, Robert</rdaad:P50385>
+      <rdfs:label>Louit, Robert</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/macleankatherine">
+      <rdaxd:P00018>http://example.org/person/macleankatherine</rdaxd:P00018>
+      <rdaad:P50385>MacLean, Katherine</rdaad:P50385>
+      <rdfs:label>MacLean, Katherine</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/martinamis">
+      <rdaxd:P00018>http://example.org/person/martinamis</rdaxd:P00018>
+      <rdaad:P50385>Martin Amis</rdaad:P50385>
+      <rdfs:label>Martin Amis</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/mccaffreyanne">
+      <rdaxd:P00018>http://example.org/person/mccaffreyanne</rdaxd:P00018>
+      <rdaad:P50385>McCaffrey, Anne</rdaad:P50385>
+      <rdfs:label>McCaffrey, Anne</rdfs:label>
+      <rdaad:P50339>1926-2011</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/mccolleydiane">
+      <rdaxd:P00018>http://example.org/person/mccolleydiane</rdaxd:P00018>
+      <rdaad:P50385>McColley, Diane</rdaad:P50385>
+      <rdfs:label>McColley, Diane</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/mcintyreiain">
+      <rdaxd:P00018>http://example.org/person/mcintyreiain</rdaxd:P00018>
+      <rdaad:P50385>McIntyre, Iain</rdaad:P50385>
+      <rdfs:label>McIntyre, Iain</rdfs:label>
+      <rdaad:P50339>1970-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/mckennarichardm">
+      <rdaxd:P00018>http://example.org/person/mckennarichardm</rdaxd:P00018>
+      <rdaad:P50385>McKenna, Richard M</rdaad:P50385>
+      <rdfs:label>McKenna, Richard M</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/mcnultyeugene">
+      <rdaxd:P00018>http://example.org/person/mcnultyeugene</rdaxd:P00018>
+      <rdaad:P50385>McNulty, Eugene</rdaad:P50385>
+      <rdfs:label>McNulty, Eugene</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/minichmayrbirgit">
+      <rdaxd:P00018>http://example.org/person/minichmayrbirgit</rdaxd:P00018>
+      <rdaad:P50385>Minichmayr, Birgit</rdaad:P50385>
+      <rdfs:label>Minichmayr, Birgit</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/mitchelldm">
+      <rdaxd:P00018>http://example.org/person/mitchelldm</rdaxd:P00018>
+      <rdaad:P50385>Mitchell, D. M</rdaad:P50385>
+      <rdfs:label>Mitchell, D. M</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/moorecl">
+      <rdaxd:P00018>http://example.org/person/moorecl</rdaxd:P00018>
+      <rdaad:P50385>Moore, C.L</rdaad:P50385>
+      <rdfs:label>Moore, C.L</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/mooreward">
+      <rdaxd:P00018>http://example.org/person/mooreward</rdaxd:P00018>
+      <rdaad:P50385>Moore, Ward</rdaad:P50385>
+      <rdfs:label>Moore, Ward</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/mundisjerrodj">
+      <rdaxd:P00018>http://example.org/person/mundisjerrodj</rdaxd:P00018>
+      <rdaad:P50385>Mundis, Jerrod J</rdaad:P50385>
+      <rdfs:label>Mundis, Jerrod J</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/murillofortluis">
+      <rdaxd:P00018>http://example.org/person/murillofortluis</rdaxd:P00018>
+      <rdaad:P50385>Murillo Fort, Luis</rdaad:P50385>
+      <rdfs:label>Murillo Fort, Luis</rdfs:label>
+      <rdaad:P50339>1951-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/murraygavin">
+      <rdaxd:P00018>http://example.org/person/murraygavin</rdaxd:P00018>
+      <rdaad:P50385>Murray, Gavin</rdaad:P50385>
+      <rdfs:label>Murray, Gavin</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/netteandrew">
+      <rdaxd:P00018>http://example.org/person/netteandrew</rdaxd:P00018>
+      <rdaad:P50385>Nette, Andrew</rdaad:P50385>
+      <rdfs:label>Nette, Andrew</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/nicolbran">
+      <rdaxd:P00018>http://example.org/person/nicolbran</rdaxd:P00018>
+      <rdaad:P50385>Nicol, Bran</rdaad:P50385>
+      <rdfs:label>Nicol, Bran</rdfs:label>
+      <rdaad:P50339>1969-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/nivenlarry">
+      <rdaxd:P00018>http://example.org/person/nivenlarry</rdaxd:P00018>
+      <rdaad:P50385>Niven, Larry</rdaad:P50385>
+      <rdfs:label>Niven, Larry</rdfs:label>
+      <rdaad:P50339>1938-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/noursealane">
+      <rdaxd:P00018>http://example.org/person/noursealane</rdaxd:P00018>
+      <rdaad:P50385>Nourse, Alan E</rdaad:P50385>
+      <rdfs:label>Nourse, Alan E</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/nousiainenjussi">
+      <rdaxd:P00018>http://example.org/person/nousiainenjussi</rdaxd:P00018>
+      <rdaad:P50385>Nousiainen, Jussi</rdaad:P50385>
+      <rdfs:label>Nousiainen, Jussi</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/olanderjosephd">
+      <rdaxd:P00018>http://example.org/person/olanderjosephd</rdaxd:P00018>
+      <rdaad:P50385>Olander, Joseph D</rdaad:P50385>
+      <rdfs:label>Olander, Joseph D</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/oliverjonathan">
+      <rdaxd:P00018>http://example.org/person/oliverjonathan</rdaxd:P00018>
+      <rdaad:P50385>Oliver, Jonathan</rdaad:P50385>
+      <rdfs:label>Oliver, Jonathan</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/onegajaensusana">
+      <rdaxd:P00018>http://example.org/person/onegajaensusana</rdaxd:P00018>
+      <rdaad:P50385>Onega Jaén, Susana</rdaad:P50385>
+      <rdfs:label>Onega Jaén, Susana</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/parhamjohn">
+      <rdaxd:P00018>http://example.org/person/parhamjohn</rdaxd:P00018>
+      <rdaad:P50385>Parham, John</rdaad:P50385>
+      <rdfs:label>Parham, John</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/pedersendaniel">
+      <rdaxd:P00018>http://example.org/person/pedersendaniel</rdaxd:P00018>
+      <rdaad:P50385>Pedersen, Daniel</rdaad:P50385>
+      <rdfs:label>Pedersen, Daniel</rdfs:label>
+      <rdaad:P50339>1978-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/peschelmilan">
+      <rdaxd:P00018>http://example.org/person/peschelmilan</rdaxd:P00018>
+      <rdaad:P50385>Peschel, Milan</rdaad:P50385>
+      <rdfs:label>Peschel, Milan</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/phillipspeter">
+      <rdaxd:P00018>http://example.org/person/phillipspeter</rdaxd:P00018>
+      <rdaad:P50385>Phillips, Peter</rdaad:P50385>
+      <rdfs:label>Phillips, Peter</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/piteralph">
+      <rdaxd:P00018>http://example.org/person/piteralph</rdaxd:P00018>
+      <rdaad:P50385>Pite, Ralph</rdaad:P50385>
+      <rdfs:label>Pite, Ralph</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/plattcharles">
+      <rdaxd:P00018>http://example.org/person/plattcharles</rdaxd:P00018>
+      <rdaad:P50385>Platt, Charles</rdaad:P50385>
+      <rdfs:label>Platt, Charles</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/porgesarthur">
+      <rdaxd:P00018>http://example.org/person/porgesarthur</rdaxd:P00018>
+      <rdaad:P50385>Porges, Arthur</rdaad:P50385>
+      <rdfs:label>Porges, Arthur</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/potterjk">
+      <rdaxd:P00018>http://example.org/person/potterjk</rdaxd:P00018>
+      <rdaad:P50385>Potter, J. K</rdaad:P50385>
+      <rdfs:label>Potter, J. K</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/powermartinj">
+      <rdaxd:P00018>http://example.org/person/powermartinj</rdaxd:P00018>
+      <rdaad:P50385>Power, Martin J</rdaad:P50385>
+      <rdfs:label>Power, Martin J</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/pulhampatricia">
+      <rdaxd:P00018>http://example.org/person/pulhampatricia</rdaxd:P00018>
+      <rdaad:P50385>Pulham, Patricia</rdaad:P50385>
+      <rdfs:label>Pulham, Patricia</rdfs:label>
+      <rdaad:P50339>1959-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rabkinerics">
+      <rdaxd:P00018>http://example.org/person/rabkinerics</rdaxd:P00018>
+      <rdaad:P50385>Rabkin, Eric S</rdaad:P50385>
+      <rdfs:label>Rabkin, Eric S</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/ramonedajosep">
+      <rdaxd:P00018>http://example.org/person/ramonedajosep</rdaxd:P00018>
+      <rdaad:P50385>Ramoneda, Josep</rdaad:P50385>
+      <rdfs:label>Ramoneda, Josep</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/ransomcharles">
+      <rdaxd:P00018>http://example.org/person/ransomcharles</rdaxd:P00018>
+      <rdaad:P50385>Ransom, Charles</rdaad:P50385>
+      <rdfs:label>Ransom, Charles</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rawlinsonjo">
+      <rdaxd:P00018>http://example.org/person/rawlinsonjo</rdaxd:P00018>
+      <rdaad:P50385>Rawlinson, Jo</rdaad:P50385>
+      <rdfs:label>Rawlinson, Jo</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/reaganronald">
+      <rdaxd:P00018>http://example.org/person/reaganronald</rdaxd:P00018>
+      <rdaad:P50385>Reagan, Ronald</rdaad:P50385>
+      <rdfs:label>Reagan, Ronald</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/renvallmika">
+      <rdaxd:P00018>http://example.org/person/renvallmika</rdaxd:P00018>
+      <rdaad:P50385>Renvall, Mika</rdaad:P50385>
+      <rdfs:label>Renvall, Mika</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/reynoldsmack">
+      <rdaxd:P00018>http://example.org/person/reynoldsmack</rdaxd:P00018>
+      <rdaad:P50385>Reynolds, Mack</rdaad:P50385>
+      <rdfs:label>Reynolds, Mack</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rileyjames">
+      <rdaxd:P00018>http://example.org/person/rileyjames</rdaxd:P00018>
+      <rdaad:P50385>Riley, James</rdaad:P50385>
+      <rdfs:label>Riley, James</rdfs:label>
+      <rdaad:P50339>1981-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rintouldavid">
+      <rdaxd:P00018>http://example.org/person/rintouldavid</rdaxd:P00018>
+      <rdaad:P50385>Rintoul, David</rdaad:P50385>
+      <rdfs:label>Rintoul, David</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rosepoul">
+      <rdaxd:P00018>http://example.org/person/rosepoul</rdaxd:P00018>
+      <rdaad:P50385>Rose, Poul</rdaad:P50385>
+      <rdfs:label>Rose, Poul</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rosvallmatti">
+      <rdaxd:P00018>http://example.org/person/rosvallmatti</rdaxd:P00018>
+      <rdaad:P50385>Rosvall, Matti</rdaad:P50385>
+      <rdfs:label>Rosvall, Matti</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rottensteinerfranz">
+      <rdaxd:P00018>http://example.org/person/rottensteinerfranz</rdaxd:P00018>
+      <rdaad:P50385>Rottensteiner, Franz</rdaad:P50385>
+      <rdfs:label>Rottensteiner, Franz</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/royalanthony">
+      <rdaxd:P00018>http://example.org/person/royalanthony</rdaxd:P00018>
+      <rdaad:P50385>Royal, Anthony</rdaad:P50385>
+      <rdfs:label>Royal, Anthony</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/ruckerrudy">
+      <rdaxd:P00018>http://example.org/person/ruckerrudy</rdaxd:P00018>
+      <rdaad:P50385>Rucker, Rudy</rdaad:P50385>
+      <rdfs:label>Rucker, Rudy</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/ruddgillian">
+      <rdaxd:P00018>http://example.org/person/ruddgillian</rdaxd:P00018>
+      <rdaad:P50385>Rudd, Gillian</rdaad:P50385>
+      <rdfs:label>Rudd, Gillian</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rudolphlars">
+      <rdaxd:P00018>http://example.org/person/rudolphlars</rdaxd:P00018>
+      <rdaad:P50385>Rudolph, Lars</rdaad:P50385>
+      <rdfs:label>Rudolph, Lars</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/ruokosenmkijouko">
+      <rdaxd:P00018>http://example.org/person/ruokosenmkijouko</rdaxd:P00018>
+      <rdaad:P50385>Ruokosenmäki, Jouko</rdaad:P50385>
+      <rdfs:label>Ruokosenmäki, Jouko</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rushnorman">
+      <rdaxd:P00018>http://example.org/person/rushnorman</rdaxd:P00018>
+      <rdaad:P50385>Rush, Norman</rdaad:P50385>
+      <rdfs:label>Rush, Norman</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/russellericfrank">
+      <rdaxd:P00018>http://example.org/person/russellericfrank</rdaxd:P00018>
+      <rdaad:P50385>Russell, Eric Frank</rdaad:P50385>
+      <rdfs:label>Russell, Eric Frank</rdfs:label>
+      <rdaad:P50339>1905-1978</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/ruthvenmalcolm">
+      <rdaxd:P00018>http://example.org/person/ruthvenmalcolm</rdaxd:P00018>
+      <rdaad:P50385>Ruthven, Malcolm</rdaad:P50385>
+      <rdfs:label>Ruthven, Malcolm</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/rylemartin">
+      <rdaxd:P00018>http://example.org/person/rylemartin</rdaxd:P00018>
+      <rdaad:P50385>Ryle, Martin</rdaad:P50385>
+      <rdfs:label>Ryle, Martin</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/sacidojorge">
+      <rdaxd:P00018>http://example.org/person/sacidojorge</rdaxd:P00018>
+      <rdaad:P50385>Sacido, Jorge</rdaad:P50385>
+      <rdfs:label>Sacido, Jorge</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/sallisjames">
+      <rdaxd:P00018>http://example.org/person/sallisjames</rdaxd:P00018>
+      <rdaad:P50385>Sallis, James</rdaad:P50385>
+      <rdfs:label>Sallis, James</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/santamarialaura">
+      <rdaxd:P00018>http://example.org/person/santamarialaura</rdaxd:P00018>
+      <rdaad:P50385>Santamaria, Laura</rdaad:P50385>
+      <rdfs:label>Santamaria, Laura</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/schenkhilbert">
+      <rdaxd:P00018>http://example.org/person/schenkhilbert</rdaxd:P00018>
+      <rdaad:P50385>Schenk, Hilbert</rdaad:P50385>
+      <rdfs:label>Schenk, Hilbert</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/schmitzjamesh">
+      <rdaxd:P00018>http://example.org/person/schmitzjamesh</rdaxd:P00018>
+      <rdaad:P50385>Schmitz, James H</rdaad:P50385>
+      <rdfs:label>Schmitz, James H</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/schoenfeldhoward">
+      <rdaxd:P00018>http://example.org/person/schoenfeldhoward</rdaxd:P00018>
+      <rdaad:P50385>Schoenfeld, Howard</rdaad:P50385>
+      <rdfs:label>Schoenfeld, Howard</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/seddonmelanie">
+      <rdaxd:P00018>http://example.org/person/seddonmelanie</rdaxd:P00018>
+      <rdaad:P50385>Seddon, Melanie</rdaad:P50385>
+      <rdfs:label>Seddon, Melanie</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/shieldsdavid">
+      <rdaxd:P00018>http://example.org/person/shieldsdavid</rdaxd:P00018>
+      <rdaad:P50385>Shields, David</rdaad:P50385>
+      <rdfs:label>Shields, David</rdfs:label>
+      <rdaad:P50339>1956-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/sillalastair">
+      <rdaxd:P00018>http://example.org/person/sillalastair</rdaxd:P00018>
+      <rdaad:P50385>Sill, Alastair</rdaad:P50385>
+      <rdfs:label>Sill, Alastair</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/simakclifford">
+      <rdaxd:P00018>http://example.org/person/simakclifford</rdaxd:P00018>
+      <rdaad:P50385>Simak, Clifford</rdaad:P50385>
+      <rdfs:label>Simak, Clifford</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/simakcliffordd">
+      <rdaxd:P00018>http://example.org/person/simakcliffordd</rdaxd:P00018>
+      <rdaad:P50385>Simak, Clifford D</rdaad:P50385>
+      <rdfs:label>Simak, Clifford D</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/sinclairpaul">
+      <rdaxd:P00018>http://example.org/person/sinclairpaul</rdaxd:P00018>
+      <rdaad:P50385>Sinclair, Paul</rdaad:P50385>
+      <rdfs:label>Sinclair, Paul</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/slungmicheleb">
+      <rdaxd:P00018>http://example.org/person/slungmicheleb</rdaxd:P00018>
+      <rdaad:P50385>Slung, Michele B</rdaad:P50385>
+      <rdfs:label>Slung, Michele B</rdfs:label>
+      <rdaad:P50339>1947-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/slussergeorgeedgar">
+      <rdaxd:P00018>http://example.org/person/slussergeorgeedgar</rdaxd:P00018>
+      <rdaad:P50385>Slusser, George Edgar</rdaad:P50385>
+      <rdfs:label>Slusser, George Edgar</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/smithzadie">
+      <rdaxd:P00018>http://example.org/person/smithzadie</rdaxd:P00018>
+      <rdaad:P50385>Smith, Zadie</rdaad:P50385>
+      <rdfs:label>Smith, Zadie</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/spenglervolker">
+      <rdaxd:P00018>http://example.org/person/spenglervolker</rdaxd:P00018>
+      <rdaad:P50385>Spengler, Volker</rdaad:P50385>
+      <rdfs:label>Spengler, Volker</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/stegegisela">
+      <rdaxd:P00018>http://example.org/person/stegegisela</rdaxd:P00018>
+      <rdaad:P50385>Stege, Gisela</rdaad:P50385>
+      <rdfs:label>Stege, Gisela</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/steinbeckjohn">
+      <rdaxd:P00018>http://example.org/person/steinbeckjohn</rdaxd:P00018>
+      <rdaad:P50385>Steinbeck, John</rdaad:P50385>
+      <rdfs:label>Steinbeck, John</rdfs:label>
+      <rdaad:P50339>1902-1968</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/sterlingbruice">
+      <rdaxd:P00018>http://example.org/person/sterlingbruice</rdaxd:P00018>
+      <rdaad:P50385>Sterling, Bruice</rdaad:P50385>
+      <rdfs:label>Sterling, Bruice</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/stewartpeter">
+      <rdaxd:P00018>http://example.org/person/stewartpeter</rdaxd:P00018>
+      <rdaad:P50385>Stewart, Peter</rdaad:P50385>
+      <rdfs:label>Stewart, Peter</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/strmove">
+      <rdaxd:P00018>http://example.org/person/strmove</rdaxd:P00018>
+      <rdaad:P50385>Ström, Ove</rdaad:P50385>
+      <rdfs:label>Ström, Ove</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/sundinelsemarie">
+      <rdaxd:P00018>http://example.org/person/sundinelsemarie</rdaxd:P00018>
+      <rdaad:P50385>Sundin, Else-Marie</rdaad:P50385>
+      <rdfs:label>Sundin, Else-Marie</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/tejeraexpsitodavid">
+      <rdaxd:P00018>http://example.org/person/tejeraexpsitodavid</rdaxd:P00018>
+      <rdaad:P50385>Tejera Expósito, David</rdaad:P50385>
+      <rdfs:label>Tejera Expósito, David</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/thomasdm">
+      <rdaxd:P00018>http://example.org/person/thomasdm</rdaxd:P00018>
+      <rdaad:P50385>Thomas, D. M</rdaad:P50385>
+      <rdfs:label>Thomas, D. M</rdfs:label>
+      <rdaad:P50339>1935-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/tmschneider">
+      <rdaxd:P00018>http://example.org/person/tmschneider</rdaxd:P00018>
+      <rdaad:P50385>TM, Schneider</rdaad:P50385>
+      <rdfs:label>TM, Schneider</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/turneralicek">
+      <rdaxd:P00018>http://example.org/person/turneralicek</rdaxd:P00018>
+      <rdaad:P50385>Turner, Alice K</rdaad:P50385>
+      <rdfs:label>Turner, Alice K</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/valev">
+      <rdaxd:P00018>http://example.org/person/valev</rdaxd:P00018>
+      <rdaad:P50385>Vale, V</rdaad:P50385>
+      <rdfs:label>Vale, V</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/vandermeerann">
+      <rdaxd:P00018>http://example.org/person/vandermeerann</rdaxd:P00018>
+      <rdaad:P50385>VanderMeer, Ann</rdaad:P50385>
+      <rdfs:label>VanderMeer, Ann</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/vandermeerjeff">
+      <rdaxd:P00018>http://example.org/person/vandermeerjeff</rdaxd:P00018>
+      <rdaad:P50385>VanderMeer, Jeff</rdaad:P50385>
+      <rdfs:label>VanderMeer, Jeff</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/vermeulentimotheus">
+      <rdaxd:P00018>http://example.org/person/vermeulentimotheus</rdaxd:P00018>
+      <rdaad:P50385>Vermeulen, Timotheus</rdaad:P50385>
+      <rdfs:label>Vermeulen, Timotheus</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/vingeverner">
+      <rdaxd:P00018>http://example.org/person/vingeverner</rdaxd:P00018>
+      <rdaad:P50385>Vinge, Verner</rdaad:P50385>
+      <rdfs:label>Vinge, Verner</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/vogtaevan">
+      <rdaxd:P00018>http://example.org/person/vogtaevan</rdaxd:P00018>
+      <rdaad:P50385>Vogt, A. E. van</rdaad:P50385>
+      <rdfs:label>Vogt, A. E. van</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/vollmermatthew">
+      <rdaxd:P00018>http://example.org/person/vollmermatthew</rdaxd:P00018>
+      <rdaad:P50385>Vollmer, Matthew</rdaad:P50385>
+      <rdfs:label>Vollmer, Matthew</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/wahlstedtmalin">
+      <rdaxd:P00018>http://example.org/person/wahlstedtmalin</rdaxd:P00018>
+      <rdaad:P50385>Wahlstedt, Malin</rdaad:P50385>
+      <rdfs:label>Wahlstedt, Malin</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/walkercharlottezoe">
+      <rdaxd:P00018>http://example.org/person/walkercharlottezoe</rdaxd:P00018>
+      <rdaad:P50385>Walker, Charlotte Zoë</rdaad:P50385>
+      <rdfs:label>Walker, Charlotte Zoë</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/watsonian">
+      <rdaxd:P00018>http://example.org/person/watsonian</rdaxd:P00018>
+      <rdaad:P50385>Watson, Ian</rdaad:P50385>
+      <rdfs:label>Watson, Ian</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/weissjonathan">
+      <rdaxd:P00018>http://example.org/person/weissjonathan</rdaxd:P00018>
+      <rdaad:P50385>Weiss, Jonathan</rdaad:P50385>
+      <rdfs:label>Weiss, Jonathan</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/wilderrichard">
+      <rdaxd:P00018>http://example.org/person/wilderrichard</rdaxd:P00018>
+      <rdaad:P50385>Wilder, Richard</rdaad:P50385>
+      <rdfs:label>Wilder, Richard</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/wiskottinga">
+      <rdaxd:P00018>http://example.org/person/wiskottinga</rdaxd:P00018>
+      <rdaad:P50385>Wiskott, Inga</rdaad:P50385>
+      <rdfs:label>Wiskott, Inga</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/wooleyjanet">
+      <rdaxd:P00018>http://example.org/person/wooleyjanet</rdaxd:P00018>
+      <rdaad:P50385>Wooley, Janet</rdaad:P50385>
+      <rdfs:label>Wooley, Janet</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/worthingtonwill">
+      <rdaxd:P00018>http://example.org/person/worthingtonwill</rdaxd:P00018>
+      <rdaad:P50385>Worthington, Will</rdaad:P50385>
+      <rdfs:label>Worthington, Will</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/wuttkemartin">
+      <rdaxd:P00018>http://example.org/person/wuttkemartin</rdaxd:P00018>
+      <rdaad:P50385>Wuttke, Martin</rdaad:P50385>
+      <rdfs:label>Wuttke, Martin</rdfs:label>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://example.org/person/zolinepamela">
+      <rdaxd:P00018>http://example.org/person/zolinepamela</rdaxd:P00018>
+      <rdaad:P50385>Zoline, Pamela</rdaad:P50385>
+      <rdfs:label>Zoline, Pamela</rdfs:label>
+   </rdac:C10002>
+>>>>>>> Stashed changes
    <rdac:C10002 rdf:about="http://viaf.org/viaf/100257330">
       <rdaxd:P00018>http://viaf.org/viaf/100257330</rdaxd:P00018>
       <rdaad:P50385>Sturgeon, Theodore</rdaad:P50385>
@@ -3361,9 +4427,6 @@
    </rdac:C10002>
    <rdac:C10002 rdf:about="http://viaf.org/viaf/311112707">
       <rdaxd:P00018>http://viaf.org/viaf/311112707</rdaxd:P00018>
-      <rdawd:P10088>One fat englishman</rdawd:P10088>
-      <rdfs:label>One fat englishman (Amis, Kingsley)</rdfs:label>
-      <rdfs:label>One fat englishman</rdfs:label>
       <rdaad:P50385>Amis, Kingsley</rdaad:P50385>
       <rdfs:label>Amis, Kingsley</rdfs:label>
       <rdaad:P50339>1922-1995</rdaad:P50339>
@@ -3373,6 +4436,14 @@
       <rdaad:P50385>Komet, Silvia</rdaad:P50385>
       <rdfs:label>Komet, Silvia</rdfs:label>
    </rdac:C10002>
+<<<<<<< Updated upstream
+=======
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/36919685">
+      <rdaxd:P00018>http://viaf.org/viaf/36919685</rdaxd:P00018>
+      <rdaad:P50385>Holdstock, Robert</rdaad:P50385>
+      <rdfs:label>Holdstock, Robert</rdfs:label>
+   </rdac:C10002>
+>>>>>>> Stashed changes
    <rdac:C10002 rdf:about="http://viaf.org/viaf/36920990">
       <rdaxd:P00018>http://viaf.org/viaf/36920990</rdaxd:P00018>
       <rdaad:P50385>Leiber, Fritz</rdaad:P50385>
@@ -3454,6 +4525,21 @@
       <rdaad:P50385>Luckhurst, Roger</rdaad:P50385>
       <rdfs:label>Luckhurst, Roger</rdfs:label>
    </rdac:C10002>
+<<<<<<< Updated upstream
+=======
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/59286945">
+      <rdaxd:P00018>http://viaf.org/viaf/59286945</rdaxd:P00018>
+      <rdaad:P50385>Purefoy, James</rdaad:P50385>
+      <rdfs:label>Purefoy, James</rdfs:label>
+      <rdaad:P50339>1964-</rdaad:P50339>
+   </rdac:C10002>
+   <rdac:C10002 rdf:about="http://viaf.org/viaf/60351476">
+      <rdaxd:P00018>http://viaf.org/viaf/60351476</rdaxd:P00018>
+      <rdaad:P50385>Poe, Edgar Allan</rdaad:P50385>
+      <rdfs:label>Poe, Edgar Allan</rdfs:label>
+      <rdaad:P50339>1809-1849</rdaad:P50339>
+   </rdac:C10002>
+>>>>>>> Stashed changes
    <rdac:C10002 rdf:about="http://viaf.org/viaf/6037362">
       <rdaxd:P00018>http://viaf.org/viaf/6037362</rdaxd:P00018>
       <rdaad:P50385>Ng, Andrew Hock-soon</rdaad:P50385>
@@ -3661,19 +4747,16 @@
       <rdfs:label>Williams, John</rdfs:label>
       <rdaad:P50339>1932-</rdaad:P50339>
    </rdac:C10002>
+   <rdac:C10002 rdf:about="http://www.wikidata.org/entity/Q310048">
+      <rdaxd:P00018>http://www.wikidata.org/entity/Q310048</rdaxd:P00018>
+      <rdaad:P50385>DeLillo, Don</rdaad:P50385>
+      <rdfs:label>DeLillo, Don</rdfs:label>
+      <rdaad:P50339>1936-</rdaad:P50339>
+   </rdac:C10002>
    <rdac:C10002 rdf:about="http://www.wikidata.org/entity/Q58453392">
       <rdaxd:P00018>http://www.wikidata.org/entity/Q58453392</rdaxd:P00018>
       <rdaad:P50385>Francis, Samuel William</rdaad:P50385>
       <rdfs:label>Francis, Samuel William</rdfs:label>
-   </rdac:C10002>
-   <rdac:C10002 rdf:about="http://www.wikidata.org/entity/Q7718980">
-      <rdaxd:P00018>http://www.wikidata.org/entity/Q7718980</rdaxd:P00018>
-      <rdaad:P50385>DeLillo, Don</rdaad:P50385>
-      <rdfs:label>DeLillo, Don</rdfs:label>
-      <rdaad:P50339>1936-</rdaad:P50339>
-      <rdawd:P10088>The body artist</rdawd:P10088>
-      <rdfs:label>The body artist (DeLillo, Don)</rdfs:label>
-      <rdfs:label>The body artist</rdfs:label>
    </rdac:C10002>
    <rdac:C10002 rdf:about="https://d-nb.info/gnd/1204277397">
       <rdaxd:P00018>https://d-nb.info/gnd/1204277397</rdaxd:P00018>
@@ -8452,6 +9535,30 @@
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dan"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
       <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+<<<<<<< Updated upstream
+=======
+      <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/167800050"/>
+      <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/227561795"/>
+      <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/114783177"/>
+      <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/15069355"/>
+      <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/90688509"/>
+      <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/34399825"/>
+      <rdaeo:P20012 rdf:resource="http://viaf.org/viaf/59286945"/>
+      <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q16994014"/>
+   </rdac:C10006>
+   <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q16994014/exp/1023/janssonthomas">
+      <rdaed:P20316>High Rise</rdaed:P20316>
+      <rdaed:P20312>High-rise</rdaed:P20312>
+      <rdfs:label>High-rise / eng / two-dimensional moving image</rdfs:label>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1023"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/dan"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/nor"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/swe"/>
+      <rdaed:P20065 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fin"/>
+      <rdaeo:P20035 rdf:resource="https://www.imdb.com/name/nm0543739"/>
+      <rdaeo:P20037 rdf:resource="http://example.org/person/janssonthomas"/>
+>>>>>>> Stashed changes
       <rdaeo:P20231 rdf:resource="http://www.wikidata.org/entity/Q16994014"/>
    </rdac:C10006>
    <rdac:C10006 rdf:about="http://www.wikidata.org/entity/Q18208804/exp/1020">
@@ -8766,6 +9873,13 @@
       <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
       <rdaeo:P20231 rdf:resource="https://www.imdb.com/title/tt0197256"/>
    </rdac:C10006>
+   <rdac:C10006 rdf:about="https://www.isfdb.org/cgi-bin/title.cgi?56827/exp/eng/1020">
+      <rdaed:P20312>The circulation of the blood</rdaed:P20312>
+      <rdfs:label>The circulation of the blood / tekst</rdfs:label>
+      <rdaed:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+      <rdaed:P20006 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      <rdaeo:P20231 rdf:resource="https://www.isfdb.org/cgi-bin/title.cgi?56827"/>
+   </rdac:C10006>
    <rdac:C10007 rdf:about="http://example.org/000184351">
       <rdamd:P30156>Why I want to fuck Ronald Reagan</rdamd:P30156>
       <rdamd:P30088>Brighton</rdamd:P30088>
@@ -8972,14 +10086,18 @@
    <rdac:C10007 rdf:about="http://example.org/007495135">
       <rdamd:P30156>Billenium</rdamd:P30156>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30050>Constellations : stories of the future. -, London : Puffin, 1983. -.</rdamd:P30050>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308074297/exp/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/008587357">
       <rdamd:P30156>Billenium</rdamd:P30156>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30050>The Oxford book of science fiction stories, Oxford : Oxford University Press, 2003.</rdamd:P30050>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308074297/exp/eng/1020"/>
    </rdac:C10007>
@@ -9030,14 +10148,18 @@
    <rdac:C10007 rdf:about="http://example.org/010323304">
       <rdamd:P30156>Venus smiles</rdamd:P30156>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30050>Modern short stories. -, London : Dent. -, 2.</rdamd:P30050>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/311471640/exp/1020"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/011386545">
       <rdamd:P30156>Billenium</rdamd:P30156>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30050>Constellations : stories of the future. -, London : Heinemann Educational Books, 1987. -.</rdamd:P30050>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308074297/exp/1020"/>
    </rdac:C10007>
@@ -9224,14 +10346,18 @@
       <rdamd:P30156>Raportti tuntemattomalta avaruusasemalta</rdamd:P30156>
       <rdamd:P30117>suomennos Jouko Ruokosenmäki</rdamd:P30117>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30137>Tieteisnovelli.</rdamd:P30137>
       <rdamd:P30050>Tähtivaeltaja. -, 17(1998) : 1, s.44-47.</rdamd:P30050>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/015099676">
       <rdamd:P30156>Billenium</rdamd:P30156>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30050>The SF collection. -, London : Chancellor Press, 1994. -.</rdamd:P30050>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308074297/exp/1020"/>
    </rdac:C10007>
@@ -12776,6 +13902,16 @@
       <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+<<<<<<< Updated upstream
+=======
+      <rdamo:P30139 rdf:resource="https://www.isfdb.org/cgi-bin/title.cgi?56827/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.isfdb.org/cgi-bin/title.cgi?97671/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.isfdb.org/cgi-bin/title.cgi?44459/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.isfdb.org/cgi-bin/title.cgi?52457/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.isfdb.org/cgi-bin/title.cgi?97669/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.isfdb.org/cgi-bin/title.cgi?97670/exp/eng/1020"/>
+      <rdamo:P30139 rdf:resource="http://www.isfdb.org/cgi-bin/title.cgi?68375/exp/eng/1020"/>
+>>>>>>> Stashed changes
       <rdamo:P30267 rdf:resource="http://viaf.org/viaf/102014804"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/2465493"/>
       <rdamo:P30327 rdf:resource="http://viaf.org/viaf/66475206"/>
@@ -15119,24 +16255,6 @@
       <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/59236034/theangle/exp/eng/1020"/>
-   </rdac:C10007>
-   <rdac:C10007 rdf:about="http://example.org/isbn-0860079430">
-      <rdamd:P30004>ISBN 0860079430</rdamd:P30004>
-      <rdaxd:P00018>isbn-0860079430</rdaxd:P00018>
-      <rdfs:label>ISBN0860079430</rdfs:label>
-      <rdamd:P30156>The best of J. G. Ballard</rdamd:P30156>
-      <rdamd:P30117>J. G. Ballard. --</rdamd:P30117>
-      <rdamd:P30088>London</rdamd:P30088>
-      <rdamd:P30111>London : Futura Publications Limited, 1977.</rdamd:P30111>
-      <rdamd:P30083>Futura Publications Limited</rdamd:P30083>
-      <rdamd:P30011>1977</rdamd:P30011>
-      <rdamd:P30182>411 pages, 18 cm. --.</rdamd:P30182>
-      <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
-      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
-      <rdamd:P30106>An Orbit book</rdamd:P30106>
-      <rdamd:P30137>Title on cover: The best science fiction of J. G. Ballard</rdamd:P30137>
-      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
-      <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
    </rdac:C10007>
    <rdac:C10007 rdf:about="http://example.org/isbn-0870541579">
       <rdamd:P30004>ISBN 0870541579 (alk. paper)</rdamd:P30004>
@@ -21326,8 +22444,10 @@
       <rdamd:P30011>2012</rdamd:P30011>
       <rdamd:P30182>171 pages, 22 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Literatura fantástica</rdamd:P30106>
       <rdamd:P30165>5</rdamd:P30165>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/174604532/exp/spa/1020/41219240"/>
    </rdac:C10007>
@@ -21363,7 +22483,9 @@
       <rdamd:P30011>cop. 2017</rdamd:P30011>
       <rdamd:P30182>398 pages, 20 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>13/20</rdamd:P30106>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/180997771/exp/spa/1020/7284374"/>
    </rdac:C10007>
@@ -21379,7 +22501,9 @@
       <rdamd:P30011>2018</rdamd:P30011>
       <rdamd:P30182>199 pages, 23 cm.</rdamd:P30182>
       <rdamd:P30002>http://rdaregistry.info/termList/RDAMediaType/1007</rdamd:P30002>
+      <rdamd:P30001>http://rdaregistry.info/termList/RDACarrierType/1049</rdamd:P30001>
       <rdamd:P30106>Runas</rdamd:P30106>
+      <rdamd:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
       <rdamd:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
       <rdamo:P30139 rdf:resource="http://viaf.org/viaf/308016990/exp/spa/1020"/>
    </rdac:C10007>

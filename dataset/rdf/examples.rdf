@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <rdf:RDF xmlns:map="http://www.w3.org/2005/xpath-functions/map"
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -27,6 +28,38 @@
       <rdawd:P10088>The Atrocity exhibition</rdawd:P10088>
       <rdfs:label>The Atrocity exhibition</rdfs:label>
       <rdawd:P10004 rdf:resource="https://schema.nb.no/Bibliographic/Values/V1002"/>
+=======
+<rdf:RDF xmlns:frbrizer="http://idi.ntnu.no/frbrizer/"
+          xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
+          xmlns:map="http://www.w3.org/2005/xpath-functions/map"
+          xmlns:marc="http://www.loc.gov/MARC21/slim"
+          xmlns:mmmm="http://www.loc.gov/MARC21/slim/"
+          xmlns:rdaad="http://rdaregistry.info/Elements/a/datatype/"
+          xmlns:rdaao="http://rdaregistry.info/Elements/a/object/"
+          xmlns:rdac="http://rdaregistry.info/Elements/c/"
+          xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
+          xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
+          xmlns:rdaed="http://rdaregistry.info/Elements/e/datatype/"
+          xmlns:rdaeo="http://rdaregistry.info/Elements/e/object/"
+          xmlns:rdamd="http://rdaregistry.info/Elements/m/datatype/"
+          xmlns:rdamo="http://rdaregistry.info/Elements/m/object/"
+          xmlns:rdamt="http://rdaregistry.info/termList/RDAMediaType/"
+          xmlns:rdat="http://rdaregistry.info/termList/"
+          xmlns:rdawd="http://rdaregistry.info/Elements/w/datatype/"
+          xmlns:rdawo="http://rdaregistry.info/Elements/w/object/"
+          xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <rdac:C10001 rdf:about="http://viaf.org/viaf/293611582">
+      <rdaxd:P00018>http://viaf.org/viaf/293611582</rdaxd:P00018>
+      <rdawd:P10088>Empire of the sun</rdawd:P10088>
+      <rdfs:label>Empire of the sun</rdfs:label>
+      <rdawd:P10330>Jim es un niño inglés de familia acomodada que se pierde de sus padres cuando las tropas japonesas entran en Shanghai. Pocos días después es capturado y enviado a un campo de concentración donde vivirá casi cuatro años</rdawd:P10330>
+      <rdawd:P10330>Cuando, en diciembre de 1941, el ejército japonés ocupa Shanghai, la privilegiada vida de James Graham, un niño inglés de clase alta, toca a su fin. Es separado de sus padres y confinado en un campo de concentración próximo a un aeropuerto militar chino</rdawd:P10330>
+      <rdawd:P10330>Following the attack on Pearl Harbor, young Jim Graham is sent to a Japanese concentration camp. In desperately brutal conditions he struggles to prevent his family and friends from dying, while keeping his hopes and heroic dreams alive. A powerful epic, drawn from the childhood experiences of author J.G. Ballard.</rdawd:P10330>
+>>>>>>> Stashed changes
    </rdac:C10001>
    <rdac:C10002 rdf:about="http://viaf.org/viaf/9842556">
       <rdaxd:P00018>http://viaf.org/viaf/9842556</rdaxd:P00018>

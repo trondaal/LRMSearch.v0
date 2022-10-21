@@ -49,7 +49,7 @@
                 <xsl:variable name="collection" select="."/>
                 
                 <!-- Heading og antall poster -->
-                <xsl:copy-of select="bib:header('BIB2201 rapport over datasamling - oppdatert 5/6', $format)"/>              
+                <xsl:copy-of select="bib:header('BIB2201 rapport over datasamling', $format)"/>              
                 <xsl:copy-of select="bib:header(('Antall poster i samlingen:' || count(marc:record)), $format)"/>
                 
                 <!-- Diverse tester for syntaks- og andre feil -->

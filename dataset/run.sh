@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Creating xslt conversion for lrm"
-java -cp "../../marc2entities/jar/saxon/saxon9he.jar"  net.sf.saxon.Transform -xsl:"../..//marc2entities/xslt/make.xslt" -s:"conversionrules.xml" -o:"marc2lrm.xslt"
+java -cp "../../marc2entities/jar/SaxonHE11-4J/saxon-he-11.4.jar"  net.sf.saxon.Transform -xsl:"../..//marc2entities/xslt/make.xslt" -s:"conversionrules.xml" -o:"marc2lrm.xslt"
 
 echo "Running transformation and reports for all"
 FILES="./xml/ballard.xml"
@@ -11,9 +11,9 @@ do
     rdf="./rdf/${base%xml}rdf"
     stats="./stats/${base%xml}txt"
     echo "Processing $f to $rdf"
-    java -cp "saxon9he.jar" net.sf.saxon.Transform -xsl:marc2lrm.xslt -s:"$f" -o:"$rdf"
+    java -cp "../../marc2entities/jar/SaxonHE11-4J/saxon-he-11.4.jar" net.sf.saxon.Transform -xsl:marc2lrm.xslt -s:"$f" -o:"$rdf"
     echo "Processing $f to $stats"
-    java -cp "saxon9he.jar" net.sf.saxon.Transform -xsl:report.xslt -s:"$f" -o:"$stats"
+    java -cp "../../marc2entities/jar/SaxonHE11-4J/saxon-he-11.4.jar" net.sf.saxon.Transform -xsl:report.xslt -s:"$f" -o:"$stats"
 done
 
  
