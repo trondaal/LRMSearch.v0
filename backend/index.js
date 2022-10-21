@@ -81,20 +81,10 @@ const typeDefs = gql`
 `;
 
 const driver = neo4j.driver(
-    "bolt://dif04.idi.ntnu.no:7687",
-    //"bolt://localhost:7687",
+    //"bolt://dif04.idi.ntnu.no:7687",
+    "bolt://localhost:11007",
     neo4j.auth.basic("neo4j", "letmein")
 );
-
-//const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
-//console.log(neoSchema.schema);
-/*const server = new ApolloServer({
-    schema: neoSchema.schema,
-});
-
-server.listen(8080).then(({ url }) => {
-    console.log(`🚀 Server ready at ${url}`);
-});*/
 
 const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
 

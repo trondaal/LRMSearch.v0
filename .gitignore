@@ -1,4 +1,5 @@
 .DS_Store
+#.gitognore#
 dataset/oxygen.xpr
 dataset/stats/
 dataset/#.gitignore#
@@ -18,3 +19,4 @@ client/.idea/
 *.bak
 *.bak
 .idea/workspace.xml
+backend/package-lock.json
