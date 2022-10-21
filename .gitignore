@@ -4,6 +4,7 @@ dataset/stats/
 dataset/#.gitignore#
 dataset/oldversions/
 dataset/mrc/
+dataset/rdf/
 dataset/xml-inprogress/
 RDARegistry/
 .gitignore~

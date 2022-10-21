@@ -14,7 +14,6 @@
     xmlns:rdaxd="http://rdaregistry.info/Elements/x/datatype/"
     xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
     xmlns:mmmm="http://www.loc.gov/MARC21/slim/"
-
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:rdaco="http://rdaregistry.info/termList/RDAContentType/"
     xmlns:rdact="http://rdaregistry.info/termList/RDACarrierType/"
