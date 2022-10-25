@@ -16,6 +16,8 @@ const typeDefs = gql`
         language: [Concept!]! @relationship(type: "LANGUAGE", direction: OUT)
         content: [Concept!]! @relationship(type: "CONTENT", direction: OUT)
         creators: [Agent!]! @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
+        relatedTo: [Expression!]! @relationship(type: "RELATED", properties: "roleType", direction: OUT)
+        relatedFrom: [Expression!]! @relationship(type: "RELATED", properties: "roleType", direction: IN)
     }
     type Work @fulltext(indexes: [{ name: "works", fields: ["titles", "names"] }]) {
         uri: String
@@ -26,11 +28,14 @@ const typeDefs = gql`
         names: String
         type: [Concept!]! @relationship(type: "TYPE", direction: OUT)
         creators: [Agent!]! @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
-        subjectWork: [Work!]! @relationship(type: "SUBJECT", direction: OUT)
-        subjectAgent: [Agent!]! @relationship(type: "SUBJECT", direction: OUT)
-        hasPart: [Work!]! @relationship(type: "REALIZES", direction: OUT)
-        partOf: [Work!]! @relationship(type: "REALIZES", direction: OUT)
-        related: [Work!]! @relationship(type: "REALIZES", direction: OUT)
+        hasSubjectWork: [Work!]! @relationship(type: "SUBJECT", direction: OUT)
+        isSubjectWork: [Work!]! @relationship(type: "SUBJECT", direction: IN)
+        hasSubjectAgent: [Agent!]! @relationship(type: "SUBJECT", direction: OUT)
+        partOf: [Work!]! @relationship(type: "PARTOF", direction: OUT)
+        hasPart: [Work!]! @relationship(type: "PARTOF", direction: IN)
+        relatedTo: [Work!]! @relationship(type: "RELATED", properties: "roleType", direction: OUT)
+        relatedFrom: [Work!]! @relationship(type: "RELATED", properties: "roleType", direction: IN)
+
     }
     type Manifestation {
         uri: String
@@ -66,6 +71,7 @@ const typeDefs = gql`
         carrier: [Concept!]! @relationship(type: "CARRIER", direction: OUT)
         media: [Concept!]! @relationship(type: "MEDIATYPE", direction: OUT)
         creators: [Agent!]! @relationship(type: "CREATOR", properties: "roleType", direction: OUT)
+        expressions: [Expression!]! @relationship(type: "EMBODIES", direction: OUT)
     }
     type Concept{
         label: String,
@@ -81,8 +87,8 @@ const typeDefs = gql`
 `;
 
 const driver = neo4j.driver(
-    "bolt://dif04.idi.ntnu.no:7687",
-    //"bolt://localhost:7687",
+    //"bolt://dif04.idi.ntnu.no:11006",
+    "bolt://localhost:11006",
     neo4j.auth.basic("neo4j", "letmein")
 );
 
