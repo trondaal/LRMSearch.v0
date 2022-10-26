@@ -31,6 +31,12 @@
     list-style-position: outside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }
 
+.related {
+    display: list-item;
+    color: dimgray;
+    font-size: smaller;
+}
+
 .selected {
     display: list-item;          /* This has to be "list-item"                                               */
     /*list-style-type: '\2714\0020';   */   /* 2714   2705  */

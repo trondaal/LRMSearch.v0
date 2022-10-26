@@ -74,10 +74,10 @@ export default function MyApp() {
         <React.Fragment>
             <CssBaseline/>
             <Grid container spacing={3} marginTop={1} paddingLeft={5} paddingRight={5} >
-                <Grid item xs={4}>
+                <Grid item xs={9}>
                         <SearchBar search={search}/>
                 </Grid>
-                <Grid item xs={2}>
+                {/*<Grid item xs={2}>
                     <FormControl sx={{ m: 0, width: 200 }}>
                         <InputLabel id="demo-multiple-checkbox-label">Config</InputLabel>
                         <Select
@@ -101,9 +101,9 @@ export default function MyApp() {
                 </Grid>
                 <Grid xs={3} item justifyContent="flex-end">
                         <Button variant="contained" onClick={handleClearSelection}>Clear selection</Button>
-                </Grid>
+                </Grid>*/}
                 <Grid xs={3} item justifyContent="flex-end">
-                    {showFilters ? <Button variant="contained" onClick={handleClearFilters}>Clear filters</Button> : ""}
+                    {showFilters ? <Button variant="outlined" size="small" onClick={handleClearFilters}>Clear filters</Button> : ""}
 
                 </Grid>
                 <Grid item xs={showFilters ? 9 : 9}>

@@ -28,6 +28,13 @@ export const theme = createTheme({
         },
         description: {
             fontSize: '0.8rem',
+        },
+        relatedprefix: {
+            fontSize: '0.8rem',
+            fontStyle: 'italic'
+        },
+        relatedlabel: {
+            fontSize: '0.8rem',
         }
     }
 });

@@ -98,6 +98,16 @@ MATCH
   CALL apoc.create.relationship(s, "RELATED",{type: property, role: label}, o) yield rel
 RETURN rel;
 
+WITH "labels.json" AS url
+CALL apoc.load.json(url) YIELD value
+UNWIND value.results.bindings AS e
+WITH e.entity.value as e, e.label.value as l
+MERGE (x:Resource {uri: e})
+WITH x, l
+CALL apoc.create.setProperty(x, "label", l)
+YIELD node
+RETURN node;
+
 
 //UPDATE FIELDS FOR FULLTEXT INDEXING OF NODES
 //NAMES

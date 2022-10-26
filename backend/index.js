@@ -5,6 +5,7 @@ const neo4j = require("neo4j-driver");
 // noinspection GraphQLMissingType
 const typeDefs = gql`
     type Expression @fulltext(indexes: [{ name: "expressions", fields: ["titles", "names"] }]) {
+        label: String
         uri: String
         title: String
         titlepreferred: String
@@ -20,6 +21,7 @@ const typeDefs = gql`
         relatedFrom: [Expression!]! @relationship(type: "RELATED", properties: "roleType", direction: IN)
     }
     type Work @fulltext(indexes: [{ name: "works", fields: ["titles", "names"] }]) {
+        label: String
         uri: String
         title: String
         titlepreferred: String
@@ -38,6 +40,7 @@ const typeDefs = gql`
 
     }
     type Manifestation {
+        label: String
         uri: String
         identifier: String
         title: String
@@ -78,6 +81,7 @@ const typeDefs = gql`
         uri: String
     }
     type Agent {
+        label: String
         name: String
         uri: String
     }

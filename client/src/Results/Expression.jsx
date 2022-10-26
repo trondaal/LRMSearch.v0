@@ -4,6 +4,8 @@ import Typography from "@mui/material/Typography";
 import ListItemText from "@mui/material/ListItemText";
 import IconTypes from "./IconTypes";
 import Paper from "@mui/material/Paper";
+import Popover from '@mui/material/Popover';
+import Button from '@mui/material/Button';
 import "./ResultList.css";
 import {groupBy} from "lodash";
 import {ListItemSecondaryAction} from "@mui/material";
@@ -14,6 +16,7 @@ import {useRecoilState} from 'recoil';
 import {showUriState, clickableState, selectedState} from "../state/state";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import "./ResultList.css";
+import Related from "./Related"
 
 function isEmpty(str) {
     return (!str || str.length === 0 );
@@ -25,7 +28,7 @@ export default function Expression(props){
     const [clickable] = useRecoilState(clickableState);
     const {uri, manifestations} = props.expression;
 
-    //console.log("Expression : " + props.checkboxes);
+    //console.log("clickable : " + clickable);
     const worktitle = !isEmpty(props.expression.work[0].title) ? props.expression.work[0].title : "";
 
     const titles = [];
@@ -48,6 +51,10 @@ export default function Expression(props){
     creatorsmap.Producer && creators.push(["Producer: ", (creatorsmap.Producer.map(a => a.node.name)).slice().sort().join(" ; ")]);
     creatorsmap.Composer && creators.push(["Composer: ", (creatorsmap.Composer.map(a => a.node.name)).join(" ; ")]);
     creatorsmap.Lyricist && creators.push(["Lyricist: ", (creatorsmap.Lyricist.map(a => a.node.name)).join(" ; ")]);
+    creatorsmap.Interviewer && creators.push(["Interviewer: ", (creatorsmap.Interviewer.map(a => a.node.name)).join(" ; ")]);
+    creatorsmap.Interviewee && creators.push(["Interviewee: ", (creatorsmap.Interviewee.map(a => a.node.name)).join(" ; ")]);
+    creatorsmap.Honouree && creators.push(["Honouree: ", (creatorsmap.Honouree.map(a => a.node.name)).join(" ; ")]);
+    creatorsmap.Compiler && creators.push(["Compiler: ", (creatorsmap.Compiler.map(a => a.node.name)).join(" ; ")]);
     //console.log(creators)
 
     const contributorsmap = groupBy(props.expression.creatorsConnection.edges, a => a.role);
@@ -61,17 +68,23 @@ export default function Expression(props){
     content.sort();
     content.reverse();
 
+    const worktype = props.expression.work[0].type.map(c => c.label);
 
-    // const toggleSelected = (clicked_uri) => {
-    //     const pos = selected.indexOf(clicked_uri)
-    //     if (pos === -1) {
-    //         setSelectedState([...selected, clicked_uri]);
-    //         console.log("Selected: " + clicked_uri)
-    //     } else {
-    //         setSelectedState([...selected.slice(0, pos), ...selected.slice(pos + 1)]);
-    //         console.log("Deselected: " + clicked_uri)
-    //     }
-    // }
+
+    const isRelatedToMap = groupBy(props.expression.work[0].relatedToConnection.edges, a => a.role);
+    //console.log(isRelatedToMap);
+    //console.log(props.expression.work[0].relatedToConnection)
+
+    const isRelatedTo = props.expression.work[0].relatedToConnection;
+    const hasRelated = props.expression.work[0].relatedFromConnection;
+    const partOf = props.expression.work[0].partOfConnection;
+    const hasPart = props.expression.work[0].hasPartConnection;
+    const isSubjectWork = props.expression.work[0].isSubjectWorkConnection;
+    const hasSubjectWork = props.expression.work[0].hasSubjectWorkConnection;
+    const hasSubjectAgent = props.expression.work[0].hasSubjectAgentConnection;
+
+    const related = isRelatedTo.totalCount + partOf.totalCount + hasSubjectWork.totalCount + hasSubjectAgent.totalCount;
+
 
     const handleClick = () => {
         const epos = selected.indexOf(uri)
@@ -91,11 +104,12 @@ export default function Expression(props){
     };
 
     const description = () => {
+        //console.log(content[0]);
         return <React.Fragment>
             <ListItemIcon>
                 <IconTypes type={content[0]}/>
             </ListItemIcon>
-            <ListItemText sx={{'max-width': '70%'}}
+            <ListItemText sx={{'max-width': '60%'}}
                 className={selected.includes(uri) ? "selected" : ""}
                           primary={
                             <React.Fragment>
@@ -104,9 +118,31 @@ export default function Expression(props){
                                 {creators.slice(0,2).map(creator => <Typography variant="body2" key={creator[0] + creator[1]}>{creator[0] + creator[1]}</Typography>) }
                                 {contributors.slice(0,2).map(contributor => <Typography variant="body2" key={contributor[0] + contributor[1]}>{contributor[0] + contributor[1]}</Typography>) }
                                 {showUri && <Typography component="span" variant="body2">{props.expression.uri}</Typography>}
+                                {(related > 0)  && <Typography variant="caption" component="div">
+                                <details>
+                                    <summary>Related</summary>
+                                    {isRelatedTo.edges.map(x => <Typography component="div"key={x.role + x.node.label}>
+                                        <Typography component="span" variant={"relatedprefix"}>{x.role + ": "}</Typography>
+                                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
+                                    </Typography>)}
+                                    {partOf.edges.map(x => <Typography component="div"key={"is part of" + x.node.label}>
+                                        <Typography component="span" variant={"relatedprefix"}>{"is part of" + ": "}</Typography>
+                                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
+                                    </Typography>)}
+                                    {hasSubjectWork.edges.map(x => <Typography component="div"key={"has subject work" + x.node.label}>
+                                        <Typography component="span" variant={"relatedprefix"}>{"has subject work" + ": "}</Typography>
+                                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
+                                    </Typography>)}
+                                    {hasSubjectAgent.edges.map(x => <Typography component="div"key={"has subject agent" + x.node.label}>
+                                        <Typography component="span" variant={"relatedprefix"}>{"has subject agent" + ": "}</Typography>
+                                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
+                                    </Typography>)}
+                                </details>
+                                </Typography>}
                             </React.Fragment>}
             />
-            <ListItemSecondaryAction sx={{top:"0%", marginTop:"35px", width: '20%', textAlign: 'left'}}>
+            <ListItemSecondaryAction sx={{top:"0%", marginTop:"35px", width: '30%', textAlign: 'left'}}>
+                <Typography color={"dimgray"} variant={"body2"}>{'Type of work: ' +  worktype.join(", ")}</Typography>
                 <Typography color={"dimgray"} variant={"body2"}>{'Content type: ' +  content.join(", ")}</Typography>
                 {(language.length !== 0) ? <Typography color={"dimgray"} variant={"body2"}>{'Language: ' +  language.join(", ")}</Typography> : ""}
             </ListItemSecondaryAction>
@@ -125,7 +161,7 @@ export default function Expression(props){
             </ListItem>
         }
         <List dense={true} sx={{pt: 0}}>
-            {props.expression && props.expression.manifestations.slice(0,5).map(m => (<Manifestation manifestation={m} key={m.uri} checkboxes={props.checkboxes}/>))}
+            {props.expression && props.expression.manifestations.slice(0,10).map(m => (<Manifestation manifestation={m} key={m.uri} checkboxes={props.checkboxes}/>))}
         </List>
     </Paper>
 }

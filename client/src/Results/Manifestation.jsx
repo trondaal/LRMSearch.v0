@@ -15,7 +15,8 @@ export default function Manifestation(props){
     const [selected, setSelected] = useRecoilState(selectedState)
     const [clickable] = useRecoilState(clickableState)
     const {title, subtitle, numbering, part, responsibility, extent, edition, uri, partnote} = props.manifestation;
-    const {distribution, production, publication, manufacture} = props.manifestation;
+    const {distribution, production, publication, manufacture, expressions} = props.manifestation;
+    console.log(expressions.length)
     const statement = [];
     if (!isEmpty(title) && !isEmpty(subtitle)){
         statement.push(title + " : " + subtitle)
@@ -53,6 +54,13 @@ export default function Manifestation(props){
             {edition && <Typography variant="body2"  >Edition: {edition}</Typography>}
             {published.length > 0 && <Typography variant="body2">Published: {published.join(", ")}</Typography>}
             {partnote && <Typography variant="body2">In: {partnote}</Typography>}
+                {(expressions.length) > 1 && <Typography variant="caption">
+                    <details>
+                        <summary>Contents</summary>
+                        {expressions.map(x => <Typography component="div" variant="caption" key={x.title}>{x.title}</Typography>)}
+                    </details>
+
+                </Typography>}
             </React.Fragment>}
         >
         </ListItemText>

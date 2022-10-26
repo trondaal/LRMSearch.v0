@@ -9,6 +9,7 @@ import ComputerTwoToneIcon from '@mui/icons-material/ComputerTwoTone';
 import MapTwoToneIcon from '@mui/icons-material/MapTwoTone';
 import QuestionMarkTwoToneIcon from '@mui/icons-material/QuestionMarkTwoTone';
 import AudiotrackTwoToneIcon from '@mui/icons-material/AudiotrackTwoTone';
+import GrainTwoToneIcon from '@mui/icons-material/GrainTwoTone';
 
 const IconTypes = props => {
     const { type } = props;
@@ -33,6 +34,8 @@ const IconTypes = props => {
             return <LocalMoviesTwoToneIcon fontSize="large"/>;
         case ('Music'):
             return <AudiotrackTwoToneIcon fontSize="large"/>;
+        case ('Tactile text'):
+            return <GrainTwoToneIcon fontSize="large"/>;
         default:
             return <QuestionMarkTwoToneIcon fontSize="large"/>;
     }

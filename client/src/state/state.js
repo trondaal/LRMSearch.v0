@@ -21,10 +21,10 @@ export const filterState = atom({
     }
 );
 
-// state to manage configuratio options
+// state to manage configuration options
 export const configState = atom({
     key: 'configState',
-    default: ["Filters", "Clickable", "Formatting"]
+    default: ["Filters", "Clickable", "Formatting", "ShowURIs"]
 });
 
 export const showFiltersState = selector({
@@ -33,13 +33,13 @@ export const showFiltersState = selector({
         const config = get(configState);
         if (config.includes("Filters")){
             const params = new URLSearchParams(window.location.search)
-            if (params.get("filters") == "false"){
+            if (params.get("filters") === "false"){
                 return false;
             } else{
                 return true;
             }
         }else{
-            return false;
+            return true;
         }
     },
 });
@@ -49,7 +49,12 @@ export const clickableState = selector({
     get: ({get}) => {
         const config = get(configState);
         if (config.includes("Clickable")){
-            return true;
+            const params = new URLSearchParams(window.location.search)
+            if (params.get("clickable") === "true"){
+                return true;
+            } else{
+                return false;
+            }
         }else{
             return false;
         }
@@ -72,8 +77,13 @@ export const showUriState = selector({
     key: 'showuri',
     get: ({get}) => {
         const config = get(configState);
-        if (config.includes("Show URIs")){
-            return true;
+        if (config.includes("ShowURIs")){
+            const params = new URLSearchParams(window.location.search)
+            if (params.get("showuri") === "true"){
+                return true;
+            } else{
+                return false;
+            }
         }else{
             return false;
         }
