@@ -91,8 +91,8 @@ const typeDefs = gql`
 `;
 
 const driver = neo4j.driver(
-    //"bolt://dif04.idi.ntnu.no:11006",
-    "bolt://localhost:11006",
+    "bolt://dif04.idi.ntnu.no:7687",
+    //"bolt://localhost:11006",
     neo4j.auth.basic("neo4j", "letmein")
 );
 

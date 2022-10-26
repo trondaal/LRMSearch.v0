@@ -7,7 +7,7 @@ import stopwords from './stopwords'
 export default function SearchBar(props) {
     //const query = querystring.parse(window.location.search);
     const params = new URLSearchParams(window.location.search)
-    const uriquery = params.get("query") || "Hobbit";
+    const uriquery = params.get("query") || "Time for a tiger";
     //console.log(params.get("query"));
     //console.log(uriquery);
 
