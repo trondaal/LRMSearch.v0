@@ -16,7 +16,7 @@ export default function Manifestation(props){
     const [clickable] = useRecoilState(clickableState)
     const {title, subtitle, numbering, part, responsibility, extent, edition, uri, partnote} = props.manifestation;
     const {distribution, production, publication, manufacture, expressions} = props.manifestation;
-    console.log(expressions.length)
+    //console.log(expressions.length)
     const statement = [];
     if (!isEmpty(title) && !isEmpty(subtitle)){
         statement.push(title + " : " + subtitle)

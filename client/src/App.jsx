@@ -107,10 +107,10 @@ export default function MyApp() {
 
                 </Grid>
                 <Grid item xs={showFilters ? 9 : 9}>
-                    {called && loading ? <Grid item xs={9}><CircularProgress /></Grid> : <ResultView results={data ? data.expressions.slice(0,30) : []}/>}
+                    {called && loading ? <Grid item xs={9}><CircularProgress /></Grid> : <ResultView results={data ? data.expressions : []}/>}
                 </Grid>
                 {showFilters ? <Grid item xs={3}>
-                    <FilterList results={data ? data.expressions.slice(0,30) : []}/>
+                    <FilterList results={data ? data.expressions : []}/>
                 </Grid> : ""}
             </Grid>
         </React.Fragment>
