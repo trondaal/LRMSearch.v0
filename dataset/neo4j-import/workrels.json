@@ -50,210 +50,58 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/310430410"
+          "value" : "http://viaf.org/viaf/5144152381783001950000"
         },
         "p" : {
           "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10127"
+          "value" : "http://rdaregistry.info/Elements/w/object/P10226"
         },
         "l" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "is dramatization of work"
+          "value" : "is continuation of work"
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
+          "value" : "http://viaf.org/viaf/13146332821318731404"
         }
       },
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/214944831/lordoftheflieswilliamgolding"
+          "value" : "http://viaf.org/viaf/5144152381783001950000"
         },
         "p" : {
           "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10150"
+          "value" : "http://rdaregistry.info/Elements/w/object/P10191"
         },
         "l" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "is guide to work"
+          "value" : "is continued by work"
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
+          "value" : "http://viaf.org/viaf/4028158070673708780004"
         }
       },
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/262356343/erlauterungenzuwilliamgoldingherrderfliegenlordoftheflies"
+          "value" : "http://viaf.org/viaf/Drommen_om_et_tre"
         },
         "p" : {
           "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10150"
+          "value" : "http://rdaregistry.info/Elements/w/object/P10226"
         },
         "l" : {
           "xml:lang" : "en",
           "type" : "literal",
-          "value" : "is guide to work"
+          "value" : "is continuation of work"
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/36439151/lordoftheflies"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10150"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is guide to work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/89819722/lordoftheflieswilliamgolding"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10150"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is guide to work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/94686807/lordofthefliesbywilliamgolding"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10150"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is guide to work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.example.org/names/kingmartin/studentsguidetolordoftheflies"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10150"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is guide to work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/names/horstsilke/lordoftheflies"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10150"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is guide to work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.imdb.com/title/tt0057261"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10129"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is motion picture adaptation of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://www.imdb.com/title/tt0100054"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10129"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is motion picture adaptation of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/119144648592107423604"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/265448232/thespirebywilliamgolding"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10150"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is guide to work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/178994871"
+          "value" : "http://viaf.org/viaf/4028158070673708780004"
         }
       },
       {
@@ -292,6 +140,63 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/4057158491035711920008"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/13146332821318731404"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10191"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is continued by work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/5144152381783001950000"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/4028158070673708780004"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10226"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is continuation of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/5144152381783001950000"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/4028158070673708780004"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10191"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is continued by work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/Drommen_om_et_tre"
         }
       },
       {
@@ -482,25 +387,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://www.wikidata.org/entity/Q5688989"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7302499"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10198"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "has related work of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/amiribarakaconfirmation"
         }
       },
       {

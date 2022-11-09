@@ -16,8 +16,8 @@ import {
 } from 'recoil';
 
 const client = new ApolloClient({
-    //uri: 'http://localhost:8080/graphql',
-    uri: 'http://dijon.idi.ntnu.no:8080/graphql',
+    uri: 'http://localhost:8080/graphql',
+    //uri: 'http://dijon.idi.ntnu.no:8080/graphql',
     cache: Cache
 });
 

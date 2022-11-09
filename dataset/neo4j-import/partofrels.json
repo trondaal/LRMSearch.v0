@@ -12,120 +12,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/174553895"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q4394863"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/176165653"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q4394863"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/177762289"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7762618"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/180585027"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7762618"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/187146251"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q4394863"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308018847"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7762618"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/120627630/ietannetlys/n1"
         },
         "p" : {
@@ -1114,6 +1000,177 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes/01"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes/02"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes/03"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes/04"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes/05"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes/06"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes/07"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes/08"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes/09"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://exampole.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://www.wikidata.org/entity/Q7302499"
         },
         "p" : {
@@ -1147,6 +1204,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/ongirlhood"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q7302499"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/amiribarakaconfirmation"
         }
       },
       {
@@ -1666,6 +1742,25 @@
         "s" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/44460209/øredobben"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/6666163570594316620005"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/44460209/køen"
         },
         "p" : {
           "type" : "uri",

@@ -121,7 +121,28 @@ export const GET_EXPRESSIONS = gql`
                     }
                 }
             },
-
+            hasPartConnection{
+                totalCount,
+                edges{
+                    node{
+                        label,
+                        title,
+                        titlevariant,
+                        titlepreferred
+                    }
+                }
+            },
+            partOfConnection{
+                totalCount,
+                edges{
+                    node{
+                        label,
+                        title,
+                        titlevariant,
+                        titlepreferred
+                    }
+                }
+            },
             relatedToConnection{
                 totalCount,
                 edges{
@@ -189,7 +210,21 @@ export const GET_EXPRESSIONS = gql`
                     uri,
                     title,
                     titlepreferred,
-                    titlevariant
+                    titlevariant,
+                    work {
+                        label
+                    }
+                    hasPartConnection{
+                        totalCount,
+                        edges{
+                            node{
+                                label,
+                                title,
+                                titlevariant,
+                                titlepreferred
+                            }
+                        }
+                    }
                 }
             }
         }

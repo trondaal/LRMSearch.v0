@@ -129,6 +129,7 @@
 <http://id.loc.gov/vocabulary/iso639-2/ger>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "German"@gden .
 <http://id.loc.gov/vocabulary/iso639-2/gle>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Irish"@gden .
 <http://id.loc.gov/vocabulary/iso639-2/glg>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Galician"@gden .
+<http://id.loc.gov/vocabulary/iso639-2/gre>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Greek"@gden .
 <http://id.loc.gov/vocabulary/iso639-2/guj>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Gujarati"@gden .
 <http://id.loc.gov/vocabulary/iso639-2/heb>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Hebrew"@gden .
 <http://id.loc.gov/vocabulary/iso639-2/hin>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Hindi"@gden .
@@ -192,12 +193,12 @@
 <http://rdaregistry.info/termList/RDAMediaType/1007>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Unmediated"@gden .
 <http://rdaregistry.info/termList/RDAMediaType/1008>	<http://www.w3.org/2004/02/skos/core#prefLabel>   "Video"@gden .
 
-<https://schema.nb.no/Bibliographic/Values/V1000>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Language-based work"@gden .
-<https://schema.nb.no/Bibliographic/Values/V1001>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Musical work"@gden .
-<https://schema.nb.no/Bibliographic/Values/V1002>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Moving image work"@gden .
-<https://schema.nb.no/Bibliographic/Values/V1003>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Picture work"@gden .
-<https://schema.nb.no/Bibliographic/Values/V1004>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Carthographic work"@gden .
-<https://schema.nb.no/Bibliographic/Values/V1005>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Interactive work"@gden .
-<https://schema.nb.no/Bibliographic/Values/V1006>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Broadcasting work"@gden .
-<https://schema.nb.no/Bibliographic/Values/V1008>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Composite work"@gden .
-<https://schema.nb.no/Bibliographic/Values/V1009>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Work of performing arts"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1000>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Language-based"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1001>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Music"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1002>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Moving image"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1003>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Picture"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1004>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Carthographic"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1005>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Interactive"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1006>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Broadcast"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1008>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Composite"@gden .
+<https://schema.nb.no/Bibliographic/Values/V1009>		<http://www.w3.org/2004/02/skos/core#prefLabel>   "Performing arts"@gden .

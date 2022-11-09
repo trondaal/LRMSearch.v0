@@ -131,6 +131,17 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "http://id.loc.gov/vocabulary/iso639-2/gre"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Greek"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "http://id.loc.gov/vocabulary/iso639-2/hun"
         },
         "label" : {
@@ -543,7 +554,7 @@
         "label" : {
           "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "Language-based work"
+          "value" : "Language-based"
         }
       },
       {
@@ -554,7 +565,7 @@
         "label" : {
           "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "Musical work"
+          "value" : "Musical"
         }
       },
       {
@@ -565,7 +576,7 @@
         "label" : {
           "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "Moving image work"
+          "value" : "Moving image"
         }
       },
       {
@@ -576,7 +587,7 @@
         "label" : {
           "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "Picture work"
+          "value" : "Picture"
         }
       },
       {
@@ -587,7 +598,7 @@
         "label" : {
           "xml:lang" : "gden",
           "type" : "literal",
-          "value" : "Work of performing arts"
+          "value" : "Performing arts"
         }
       }
     ]
