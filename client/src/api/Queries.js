@@ -47,7 +47,7 @@ export const GET_EXPRESSIONS = gql`
                     totalCount,
                     edges{
                         node{
-                            name, 
+                            name,
                             label
                         }
                     }
@@ -180,7 +180,7 @@ export const GET_EXPRESSIONS = gql`
                 extent,
                 dimensions,
                 production,
-                publication, 
+                publication,
                 distribution,
                 manufacture,
                 copyright,
