@@ -2,7 +2,8 @@ import {gql} from "@apollo/client";
 
 export const GET_EXPRESSIONS = gql`
     query ($query: String!){
-        expressions(fulltext: {expressions: {phrase: $query}}){
+        expressions(fulltext: {expressions: {phrase: $query}},
+            where: {manifestationsAggregate:{count_GT:0}}){
             label,
             checked @client,
             title,
@@ -167,7 +168,7 @@ export const GET_EXPRESSIONS = gql`
                     }
                 }
             },
-            manifestations (options: {limit: 10}) {
+            manifestations{
                 label,
                 uri,
                 identifier,

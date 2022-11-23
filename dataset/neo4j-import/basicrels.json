@@ -311,21 +311,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/isbn-9788439720744"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/1200151051894733530006/exp/spa/1020//86862248"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/isbn-9788499086576"
         },
         "l" : {
@@ -1331,6 +1316,21 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/44460209karusellmusikk/exp/nor/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "EMBODIES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/44460209/reisetips/exp/nor/1020"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://example.org/991405394094702201"
         },
         "l" : {
@@ -1415,142 +1415,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://example.org/crownimperialsong/exp/1011"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/999921130969102201"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/221397345/frittliv/exp/1011"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/999921130969102201"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/273849536fryd/exp/1011"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/999921130969102201"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/315941422/shimmeringwarmandbright/exp/1011"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/999921130969102201"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/37145971379132330503/tofullemen/exp/1011"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/999921130969102201"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/43911679/dentøffesteguttenihimmelen/exp/1011"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/999921130969102201"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/nittimetersbakken/exp/1011"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/999921130969102201"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/66137225/toffipysjamas/exp/1011"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/999921130969102201"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/80003877/leaveitlikethat/exp/1011"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/999921130969102201"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/80010134/canitrustyou/exp/1011"
+          "value" : "http://example.org/10årmedbeatognorskrock/exp/1011"
         }
       },
       {
@@ -1655,157 +1520,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/detersåsterkt/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/etkyssogistanbul/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/gloria/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/håp/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/himmern/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/nyttårsvals/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/penelopeogelinor/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/reisetips/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/rødkarusell/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/saturnspinner/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8203185347"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/stripetrøtt/exp/nor/1020"
+          "value" : "http://viaf.org/viaf/44460209karusellmusikk/exp/nor/1020"
         }
       },
       {
@@ -1910,97 +1625,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/london/exp/eng/1020/92839136"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781473596528"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/odd/exp/eng/1020/92839136"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781473596528"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/sjalusimannen/exp/eng/1020/92839136"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781473596528"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/søppel/exp/eng/1020/92839136"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781473596528"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/tilståelsen/exp/eng/1020/92839136"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781473596528"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/øredobben/exp/eng/1020/92839136"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781473596528"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/44460209/køen/exp/eng/1020/92839136"
+          "value" : "http://viaf.org/viaf/6666163570594316620005/exp/eng/1020/92839136"
         }
       },
       {
@@ -2735,97 +2360,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/120627630/ietannetlys/n1/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8202137276"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/120627630/ietannetlys/n2/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8202137276"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/120627630/ietannetlys/n3/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8202137276"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/120627630/ietannetlys/n4/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8202137276"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/120627630/ietannetlys/n5/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8202137276"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/120627630/ietannetlys/n6/exp/nor/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-8202137276"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/120627630/ietannetlys/n7/exp/nor/1020"
+          "value" : "http://viaf.org/viaf/120627630/ietannetlys/exp/nor/1020"
         }
       },
       {
@@ -3351,21 +2886,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/312434328/exp/eng/1020/71301550"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780547483344"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/312434328/exp/nor/1020"
         }
       },
       {
@@ -4535,67 +4055,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "https://example.org/276913387/everemembering/exp/eng/1014/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/019370087"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/iamnotseaworthy/exp/eng/1014/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/019370087"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/itcomesunadorned/exp/eng/1014/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/019370087"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/someoneleansnear/exp/eng/1014/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/019370087"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/theperfecteaseofgrain/exp/eng/1014/1020"
+          "value" : "http://viaf.org/viaf/276913387/exp/eng/1014/1020"
         }
       },
       {
@@ -4895,97 +4355,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/01/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570030677"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/02/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570030677"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/03/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570030677"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/04/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570030677"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/05/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570030677"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/06/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570030677"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/07/exp/eng/1020"
+          "value" : "http://example.org/furmanmorrison/exp/eng/1014/1020"
         }
       },
       {
@@ -5000,292 +4370,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/01/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/02/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/03/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/04/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/05/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/06/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/07/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/08/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/09/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/10/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/11/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/12/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/13/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/14/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/15/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/16/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/17/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/18/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/19/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-1570033765"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7302499/exp/eng/1020"
+          "value" : "http://example.org/crossingthecolorline/exp/eng/1020"
         }
       },
       {
@@ -5540,127 +4625,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/01/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780791096154"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/02/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780791096154"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/03/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780791096154"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/04/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780791096154"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/05/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780791096154"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/06/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780791096154"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/07/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780791096154"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/08/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780791096154"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/09/exp/eng/1020/191378696"
+          "value" : "http://example.org/tonimorrisonsbluesteyes/exp/eng/1020"
         }
       },
       {
@@ -5705,127 +4670,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/01/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781604133929"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/02/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781604133929"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/03/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781604133929"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/04/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781604133929"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/05/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781604133929"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/06/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781604133929"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/07/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781604133929"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/08/exp/eng/1020/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781604133929"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/09/exp/eng/1020/191378696"
+          "value" : "http://example.org/tonimorrisonssongofsolomon/exp/eng/1020"
         }
       },
       {
@@ -5840,292 +4685,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://example.org/ongirlhood/01/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/02/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/03/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/04/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/05/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/06/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/07/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/08/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/09/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/10/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/11/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/12/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/13/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/14/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/15/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/16/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/17/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/18/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/ongirlhood/19/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781631497698"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7302499/exp/eng/1020"
+          "value" : "http://example.org/ongirlhood/exp/eng/1020"
         }
       },
       {
@@ -6350,37 +4910,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1324145424618186830799/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/000535435"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308055543/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/000535435"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308582315/exp/eng/1020"
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
         }
       },
       {
@@ -6620,37 +5150,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1324145424618186830799/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/1224294"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308055543/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/1224294"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308582315/exp/eng/1020"
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
         }
       },
       {
@@ -6680,37 +5180,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1324145424618186830799/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/1976754"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308055543/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/1976754"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308582315/exp/eng/1020"
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
         }
       },
       {
@@ -6770,37 +5240,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1324145424618186830799/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/4870407"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308055543/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/4870407"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308582315/exp/eng/1020"
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
         }
       },
       {
@@ -7100,37 +5540,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1324145424618186830799/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-0140034471"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308055543/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-0140034471"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308582315/exp/eng/1020"
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
         }
       },
       {
@@ -7385,37 +5795,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1324145424618186830799/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-0434098175"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308055543/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-0434098175"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308582315/exp/eng/1020"
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
         }
       },
       {
@@ -8000,37 +6380,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1324145424618186830799/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780743995926"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308055543/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9780743995926"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308582315/exp/eng/1020"
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
         }
       },
       {
@@ -8060,37 +6410,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/1324145424618186830799/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781448137824"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308055543/exp/eng/1020"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/isbn-9781448137824"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "EMBODIES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/308582315/exp/eng/1020"
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
         }
       },
       {
@@ -9566,6 +7886,21 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/44460209karusellmusikk/exp/nor/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/44460209karusellmusikk"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/6120153834760464450008/exp/dan/1020/28430790"
         },
         "l" : {
@@ -9606,6 +7941,21 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/66137225/toffipysjamas"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/6666163570594316620005/exp/eng/1020/92839136"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/6666163570594316620005"
         }
       },
       {
@@ -11291,381 +9641,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/01/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/01"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/02/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/02"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/03/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/03"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/04/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/04"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/05/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/05"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/06/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/06"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/07/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/07"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/08/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/08"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/09/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/09"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/01/exp/eng/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/01"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/02/exp/eng/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/02"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/03/exp/eng/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/03"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/04/exp/eng/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/04"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/05/exp/eng/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/05"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/06/exp/eng/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/06"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/07/exp/eng/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/07"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/01/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/01"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/02/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/02"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/03/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/03"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/04/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/04"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/05/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/05"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/06/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/06"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/07/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/07"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/08/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/08"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/09/exp/eng/1020/191378696"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/09"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/179309327/exp/spa/1020/266463373"
         },
         "l" : {
@@ -12171,81 +10146,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://www.wikidata.org/entity/Q7302499"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/everemembering/exp/eng/1014/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/everemembering"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/iamnotseaworthy/exp/eng/1014/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/iamnotseaworthy"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/itcomesunadorned/exp/eng/1014/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/itcomesunadorned"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/someoneleansnear/exp/eng/1014/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/someoneleansnear"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/theperfecteaseofgrain/exp/eng/1014/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/theperfecteaseofgrain"
         }
       },
       {
@@ -14516,6 +12416,21 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/120627630/ietannetlys/exp/nor/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/120627630/ietannetlys"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/231151051806733530003/exp/nor/1020"
         },
         "l" : {
@@ -14531,6 +12446,36 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q3998830"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/exp/eng/1014/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/44460209/køen/exp/eng/1020/92839136"
         },
         "l" : {
@@ -14541,6 +12486,546 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/44460209/køen"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/furmanmorrison/exp/eng/1014/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/furmanmorrison"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/01/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/01"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/02/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/02"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/03/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/03"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/04/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/04"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/05/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/05"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/06/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/06"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/07/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/07"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/01/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/01"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/02/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/02"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/03/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/03"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/04/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/04"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/05/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/05"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/06/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/06"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/07/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/07"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/08/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/08"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/09/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/09"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/01/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/01"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/02/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/02"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/03/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/03"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/04/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/04"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/05/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/05"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/06/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/06"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/07/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/07"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/08/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/08"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/09/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/09"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/ongirlhood/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/ongirlhood"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/10årmedbeatognorskrock/exp/1011"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/10årmedbeatognorskrock"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/everemembering/exp/eng/1014/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/everemembering"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/theperfecteaseofgrain/exp/eng/1014/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/theperfecteaseofgrain"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/someoneleansnear/exp/eng/1014/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/someoneleansnear"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/itcomesunadorned/exp/eng/1014/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/itcomesunadorned"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/iamnotseaworthy/exp/eng/1014/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/iamnotseaworthy"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/crossingthecolorline/exp/eng/1020"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "REALIZES"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/crossingthecolorline"
         }
       }
     ]

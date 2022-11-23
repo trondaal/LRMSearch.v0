@@ -593,6 +593,17 @@
       {
         "concept" : {
           "type" : "uri",
+          "value" : "https://schema.nb.no/Bibliographic/Values/V1008"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Composite"
+        }
+      },
+      {
+        "concept" : {
+          "type" : "uri",
           "value" : "https://schema.nb.no/Bibliographic/Values/V1009"
         },
         "label" : {

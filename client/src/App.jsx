@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import ResultView from "./Results/ResultView";
 import { useLazyQuery} from '@apollo/client';
 import {GET_EXPRESSIONS} from "./api/Queries";
-import Checkbox from '@mui/material/Checkbox';
+//import Checkbox from '@mui/material/Checkbox';
 import SearchBar from "./Search/SearchBar";
 import CircularProgress from '@mui/material/CircularProgress';
 import FilterList from "./Filters/FilterList";
@@ -12,11 +12,11 @@ import Button from '@mui/material/Button';
 import {filterState, showFiltersState, selectedState, configState} from './state/state';
 import {useRecoilState, useSetRecoilState, useRecoilValue} from 'recoil';
 import {selectedVar} from "./api/Cache";
-import OutlinedInput from '@mui/material/OutlinedInput';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import ListItemText from '@mui/material/ListItemText';
+//import OutlinedInput from '@mui/material/OutlinedInput';
+//import InputLabel from '@mui/material/InputLabel';
+//import MenuItem from '@mui/material/MenuItem';
+//import FormControl from '@mui/material/FormControl';
+//import ListItemText from '@mui/material/ListItemText';
 import Select from '@mui/material/Select';
 
 

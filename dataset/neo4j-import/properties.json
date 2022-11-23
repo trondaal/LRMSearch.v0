@@ -10046,6 +10046,36 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/44460209karusellmusikk/exp/nor/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Karusellmusikk"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/44460209karusellmusikk/exp/nor/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "titlevariant"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Karusellmusikk"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/6120153834760464450008/exp/dan/1020/28430790"
         },
         "label" : {
@@ -10116,6 +10146,36 @@
         "value" : {
           "type" : "literal",
           "value" : "Tøff i pyjamas"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/6666163570594316620005/exp/eng/1020/92839136"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "The jealousy man and other stories"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/6666163570594316620005/exp/eng/1020/92839136"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "titlevariant"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "The jealousy man and other stories"
         }
       },
       {
@@ -12791,381 +12851,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/01/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Song of Solomon: reality and mythos within the community"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/02/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Quiet as it's kept: shame, trauma, and race in the novels of Toni Morrison"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/03/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Song of Solomon, narrative identity, and the Faulknerian intertext"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/04/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Justice and citizenship in Toni Morrison's Song of Solomon"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/05/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Toni Morrison's revisionary \"nature writing\": Song of Solomon and the blasted pastoral"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/06/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "William Faulkner reprised: isolation in Toni Morrison's Song of Solomon"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/07/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "\"Through a glass darkly\": typology in Toni Morrison's Song of Solomon"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/08/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Signifying circe in Toni Morrison's Song of Solomon"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/09/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Song of Solomon"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/01/exp/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Understanding Toni Morrison"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/02/exp/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Black girlhood and Black womanhood : the Bluest eye and Sula"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/03/exp/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Male consciousness : Song of Solomon"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/04/exp/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Community and cultural identity : Tar baby"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/05/exp/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Remembering the \"disremembered\" : Beloved"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/06/exp/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "City blues : Jazz"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/07/exp/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Literary and social criticism : Playing in the dark"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/01/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Introduction"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/02/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Intense behavior; the use of the grotesque in The bluest eye and Eva's man"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/03/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Lady no longer sings the blues; rape, madness, and silence in The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/04/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Bleak beginnings; The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/05/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Language and music of survival"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/06/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Eruptions of funk; historicizing Toni Morrison"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/07/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "\"The evil of fulfillment\"; scapegoating and narration in The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/08/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Text and countertext in The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/09/exp/eng/1020/191378696"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "\"Will the circle be unbroken?\"; the politics of form in The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/179309327/exp/spa/1020/266463373"
         },
         "label" : {
@@ -14166,81 +13851,6 @@
         "value" : {
           "type" : "literal",
           "value" : "Recitatif"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/everemembering/exp/eng/1014/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Eve remembering"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/iamnotseaworthy/exp/eng/1014/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "I am not seaworthy"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/itcomesunadorned/exp/eng/1014/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "It comes unadorned"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/someoneleansnear/exp/eng/1014/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Someone leans near"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/theperfecteaseofgrain/exp/eng/1014/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "The perfect ease of grain"
         }
       },
       {
@@ -18416,6 +18026,36 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/120627630/ietannetlys/exp/nor/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "I et annet lys"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/120627630/ietannetlys/exp/nor/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "titlevariant"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "I et annet lys"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/231151051806733530003/exp/nor/1020"
         },
         "label" : {
@@ -18446,6 +18086,36 @@
       {
         "entity" : {
           "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q3998830/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "The Malayan trilogy"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/exp/eng/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Five poems"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/44460209/køen/exp/eng/1020/92839136"
         },
         "label" : {
@@ -18456,6 +18126,546 @@
         "value" : {
           "type" : "literal",
           "value" : "The Line"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/furmanmorrison/exp/eng/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Toni Morrison's fiction"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/01/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Understanding Toni Morrison"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/02/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Black girlhood and Black womanhood : the Bluest eye and Sula"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/03/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Male consciousness : Song of Solomon"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/04/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Community and cultural identity : Tar baby"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/05/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Remembering the \"disremembered\" : Beloved"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/06/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "City blues : Jazz"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/07/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Literary and social criticism : Playing in the dark"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Toni Morrison's The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/01/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Introduction"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/02/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Intense behavior; the use of the grotesque in The bluest eye and Eva's man"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/03/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Lady no longer sings the blues; rape, madness, and silence in The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/04/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Bleak beginnings; The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/05/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Language and music of survival"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/06/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Eruptions of funk; historicizing Toni Morrison"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/07/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "\"The evil of fulfillment\"; scapegoating and narration in The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/08/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Text and countertext in The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/09/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "\"Will the circle be unbroken?\"; the politics of form in The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Toni Morrison's Song of Solomon"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/01/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Song of Solomon: reality and mythos within the community"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/02/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Quiet as it's kept: shame, trauma, and race in the novels of Toni Morrison"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/03/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Song of Solomon, narrative identity, and the Faulknerian intertext"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/04/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Justice and citizenship in Toni Morrison's Song of Solomon"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/05/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Toni Morrison's revisionary \"nature writing\": Song of Solomon and the blasted pastoral"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/06/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "William Faulkner reprised: isolation in Toni Morrison's Song of Solomon"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/07/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "\"Through a glass darkly\": typology in Toni Morrison's Song of Solomon"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/08/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Signifying circe in Toni Morrison's Song of Solomon"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/09/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Song of Solomon"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/ongirlhood/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "On girlhood"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/10årmedbeatognorskrock/exp/1011"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "10 år med Beat og norsk rock"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/everemembering/exp/eng/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Eve remembering"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/theperfecteaseofgrain/exp/eng/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "The perfect ease of grain"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/someoneleansnear/exp/eng/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Someone leans near"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/itcomesunadorned/exp/eng/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "It comes unadorned"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/iamnotseaworthy/exp/eng/1014/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "I am not seaworthy"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/crossingthecolorline/exp/eng/1020"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Crossing the color line"
         }
       },
       {
@@ -19796,21 +20006,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://viaf.org/viaf/crossingthecolorline"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Crossing the color line"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://example.org/crossingthecolorline/02"
         },
         "label" : {
@@ -20091,21 +20286,6 @@
         "value" : {
           "type" : "literal",
           "value" : "Innocence"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/ongirlhood"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "On girlhood"
         }
       },
       {
@@ -20546,261 +20726,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/01"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Understanding Toni Morrison"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/furmanmorrison"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Toni Morrison's fiction"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/02"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Black girlhood and Black womanhood : the Bluest eye and Sula"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/03"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Male consciousness : Song of Solomon"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/04"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Community and cultural identity : Tar baby"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/05"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Remembering the \"disremembered\" : Beloved"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/06"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "City blues : Jazz"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/07"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Literary and social criticism : Playing in the dark"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/01"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Introduction"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/02"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Intense behavior; the use of the grotesque in The bluest eye and Eva's man"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/03"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Lady no longer sings the blues; rape, madness, and silence in The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/04"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Bleak beginnings; The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/05"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Language and music of survival"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/06"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Eruptions of funk; historicizing Toni Morrison"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/07"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "\"The evil of fulfillment\"; scapegoating and narration in The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/08"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Text and countertext in The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/09"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "\"Will the circle be unbroken?\"; the politics of form in The bluest eye"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/179547589"
         },
         "label" : {
@@ -20931,81 +20856,6 @@
         "value" : {
           "type" : "literal",
           "value" : "Recitatif"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/everemembering"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Eve remembering"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/iamnotseaworthy"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "I am not seaworthy"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/itcomesunadorned"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "It comes unadorned"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/someoneleansnear"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "Someone leans near"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/theperfecteaseofgrain"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : "The perfect ease of grain"
         }
       },
       {
@@ -21876,6 +21726,411 @@
         "value" : {
           "type" : "literal",
           "value" : "Køen"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/ongirlhood"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "On girlhood"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/furmanmorrison"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Toni Morrison's fiction"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/01"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Understanding Toni Morrison"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/02"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Black girlhood and Black womanhood : the Bluest eye and Sula"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/03"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Male consciousness : Song of Solomon"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/04"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Community and cultural identity : Tar baby"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/05"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Remembering the \"disremembered\" : Beloved"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/06"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "City blues : Jazz"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/07"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Literary and social criticism : Playing in the dark"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Toni Morrison's The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/01"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Introduction"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/02"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Intense behavior; the use of the grotesque in The bluest eye and Eva's man"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/03"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Lady no longer sings the blues; rape, madness, and silence in The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/04"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Bleak beginnings; The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/05"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Language and music of survival"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/06"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Eruptions of funk; historicizing Toni Morrison"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/07"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "\"The evil of fulfillment\"; scapegoating and narration in The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/08"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Text and countertext in The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/09"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "\"Will the circle be unbroken?\"; the politics of form in The bluest eye"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Toni Morrison's Song of Solomon"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/10årmedbeatognorskrock"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "10 år med Beat og norsk rock"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/everemembering"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Eve remembering"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/iamnotseaworthy"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "I am not seaworthy"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/itcomesunadorned"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "It comes unadorned"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/someoneleansnear"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Someone leans near"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/theperfecteaseofgrain"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "The perfect ease of grain"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://example.org/crossingthecolorline"
+        },
+        "label" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "title"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "Crossing the color line"
         }
       },
       {
@@ -33501,21 +33756,6 @@
         "value" : {
           "type" : "literal",
           "value" : "2013"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/991405394094702201"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "publication"
-        },
-        "value" : {
-          "type" : "literal",
-          "value" : ", 2013."
         }
       },
       {

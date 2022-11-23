@@ -1190,6 +1190,25 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://viaf.org/viaf/6666163570594316620005/exp/eng/1020/92839136"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20037"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Translator"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/92839136"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/73155464827102041322/exp/eng/1020/265617812"
         },
         "p" : {
@@ -5883,329 +5902,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/01"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/71532521"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/furmanmorrison"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/71532521"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/02"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/71532521"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/03"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/71532521"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/04"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/71532521"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/05"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/71532521"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/06"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/71532521"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/topnimorrisonsfiction/07"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/71532521"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/01"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/02"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/54176336"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/03"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/45684465"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/04"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/38774"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/05"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/51712632"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/06"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/111731094"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/07"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/69055375"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/08"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/32034703"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://exampole.org/tonimorrisonsbluesteyes/09"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/112026022"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/276913387"
         },
         "p" : {
@@ -6315,120 +6011,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/74108553"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7302499"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/109406177"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/everemembering"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/109406177"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/iamnotseaworthy"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/109406177"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/itcomesunadorned"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/109406177"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/someoneleansnear"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/109406177"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "https://example.org/276913387/theperfecteaseofgrain"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Author"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/109406177"
         }
       },
       {
@@ -7289,6 +6871,424 @@
       {
         "s" : {
           "type" : "uri",
+          "value" : "http://example.org/furmanmorrison"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71532521"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/01"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71532521"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/02"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71532521"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/03"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71532521"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/04"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71532521"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/05"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71532521"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/06"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71532521"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsfiction/07"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/71532521"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/01"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/02"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/54176336"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/03"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/45684465"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/04"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/38774"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/05"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/51712632"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/06"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/111731094"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/07"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/69055375"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/08"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/32034703"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonsbluesteyes/09"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/112026022"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/everemembering"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/109406177"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/iamnotseaworthy"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/109406177"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/itcomesunadorned"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/109406177"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/someoneleansnear"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/109406177"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/276913387/theperfecteaseofgrain"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10061"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Author"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/109406177"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
           "value" : "http://viaf.org/viaf/176887847"
         },
         "p" : {
@@ -7859,177 +7859,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/01/exp/eng/1020/191378696"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/02/exp/eng/1020/191378696"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/03/exp/eng/1020/191378696"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/04/exp/eng/1020/191378696"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/05/exp/eng/1020/191378696"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/06/exp/eng/1020/191378696"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/07/exp/eng/1020/191378696"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/08/exp/eng/1020/191378696"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://example.org/tonimorrisonssongofsolomon/09/exp/eng/1020/191378696"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Editor"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://viaf.org/viaf/191378696"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://viaf.org/viaf/270898792/exp/srp/1020/11615733/305472055"
         },
         "p" : {
@@ -8196,6 +8025,177 @@
         "o" : {
           "type" : "uri",
           "value" : "http://viaf.org/viaf/374148995814159751101"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/01/exp/eng/1020"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/02/exp/eng/1020"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/03/exp/eng/1020"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/04/exp/eng/1020"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/05/exp/eng/1020"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/06/exp/eng/1020"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/07/exp/eng/1020"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/08/exp/eng/1020"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tonimorrisonssongofsolomon/09/exp/eng/1020"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/e/object/P20330"
+        },
+        "l" : {
+          "xml:lang" : "gden",
+          "type" : "literal",
+          "value" : "Editor"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://viaf.org/viaf/191378696"
         }
       },
       {
