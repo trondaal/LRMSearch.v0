@@ -373,25 +373,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/13"
-        },
-        "p" : {
-          "type" : "uri",
-          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
-        },
-        "l" : {
-          "xml:lang" : "en",
-          "type" : "literal",
-          "value" : "is part of work"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/crossingthecolorline/14"
         },
         "p" : {
@@ -862,6 +843,25 @@
         "o" : {
           "type" : "uri",
           "value" : "http://example.org/ongirlhood"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q7302499"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://rdaregistry.info/Elements/w/object/P10019"
+        },
+        "l" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "is part of work"
+        },
+        "o" : {
+          "type" : "uri",
+          "value" : "http://example.org/crossingthecolorline"
         }
       },
       {

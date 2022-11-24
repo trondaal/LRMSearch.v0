@@ -5554,17 +5554,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/13/exp/eng/1020"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://example.org/crossingthecolorline/14/exp/eng/1020"
         },
         "label" : {
@@ -6193,17 +6182,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://www.wikidata.org/entity/Q68681292/exp/1023"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Expression"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7302499/exp/1020"
         },
         "label" : {
           "xml:lang" : "gden",
@@ -9394,17 +9372,6 @@
         "entity" : {
           "type" : "uri",
           "value" : "http://example.org/crossingthecolorline/12"
-        },
-        "label" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "Work"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/13"
         },
         "label" : {
           "xml:lang" : "gden",

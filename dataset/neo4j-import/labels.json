@@ -5350,16 +5350,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/13/exp/eng/1020"
-        },
-        "label" : {
-          "type" : "literal",
-          "value" : "Recitatif / text"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://example.org/crossingthecolorline/14/exp/eng/1020"
         },
         "label" : {
@@ -5940,21 +5930,11 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7302499/exp/1020"
-        },
-        "label" : {
-          "type" : "literal",
-          "value" : "Recitatif / text"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://www.wikidata.org/entity/Q7302499/exp/eng/1020"
         },
         "label" : {
           "type" : "literal",
-          "value" : "Recitatif / text"
+          "value" : "Recitatif / eng / text"
         }
       },
       {
@@ -9150,16 +9130,6 @@
       {
         "entity" : {
           "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/13"
-        },
-        "label" : {
-          "type" : "literal",
-          "value" : "Recitatif / Toni Morrison"
-        }
-      },
-      {
-        "entity" : {
-          "type" : "uri",
           "value" : "http://example.org/crossingthecolorline/14"
         },
         "label" : {
@@ -9595,6 +9565,16 @@
         "label" : {
           "type" : "literal",
           "value" : "Toni Morrison: The Pieces I Am"
+        }
+      },
+      {
+        "entity" : {
+          "type" : "uri",
+          "value" : "http://www.wikidata.org/entity/Q7302499"
+        },
+        "label" : {
+          "type" : "literal",
+          "value" : "Recitatif / Toni Morrison"
         }
       },
       {

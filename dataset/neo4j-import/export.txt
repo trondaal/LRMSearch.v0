@@ -108,8 +108,8 @@ prefix rdax: <http://rdaregistry.info/Elements/x/object/>
 select distinct ?s ?p ?l ?o WHERE {
   	  ?s ?p ?o.
         ?s rdf:type ?class.
+        ?o rdf:type rdac:C10002.
         ?class rdfs:subClassOf rdac:C10013.
-    	?p rdfs:subPropertyOf* rdax:P00006.
     	?p rdfs:label ?l.
     	FILTER(LANG(?l) = "gden" && contains(str(?p), 'object') && !contains(str(?p), 'P10319'))
 }

@@ -4295,7 +4295,7 @@
         },
         "o" : {
           "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7302499/exp/1020"
+          "value" : "http://www.wikidata.org/entity/Q7302499/exp/eng/1020"
         }
       },
       {
@@ -9221,21 +9221,6 @@
       {
         "s" : {
           "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/13/exp/eng/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://example.org/crossingthecolorline/13"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
           "value" : "http://example.org/crossingthecolorline/14/exp/eng/1020"
         },
         "l" : {
@@ -10101,21 +10086,6 @@
         "o" : {
           "type" : "uri",
           "value" : "http://www.wikidata.org/entity/Q68681292"
-        }
-      },
-      {
-        "s" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7302499/exp/1020"
-        },
-        "l" : {
-          "xml:lang" : "gden",
-          "type" : "literal",
-          "value" : "REALIZES"
-        },
-        "o" : {
-          "type" : "uri",
-          "value" : "http://www.wikidata.org/entity/Q7302499"
         }
       },
       {
