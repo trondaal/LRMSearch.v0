@@ -1,6 +1,8 @@
 const { Neo4jGraphQL } = require("@neo4j/graphql");
 const { ApolloServer, gql } = require("apollo-server");
 const neo4j = require("neo4j-driver");
+require('dotenv').config();
+console.log(process.env);
 
 // noinspection GraphQLMissingType
 const typeDefs = gql`
@@ -95,7 +97,7 @@ const typeDefs = gql`
 const driver = neo4j.driver(
     "bolt://dif04.idi.ntnu.no:7687",
     //"bolt://localhost:11006",
-    neo4j.auth.basic("neo4j", "letmein")
+    neo4j.auth.basic(process.env.NEO4J_USER, process.env.NEO4J_PASSWORD)
 );
 
 const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
