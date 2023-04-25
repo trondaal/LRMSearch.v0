@@ -10,7 +10,7 @@ import {useRecoilState} from 'recoil';
 function createFilterList(expressions){
     const filters = new Map();
     expressions.forEach((exp) => {
-        exp.language.forEach(language => {
+        exp.expression.language.forEach(language => {
             let filter = {key: "Language+"+language.uri, source: "Expression", target: "Concept", category: "Language", value: language.label, uri: language.uri, selection: new Set([exp.uri]), count: 1};
             ////let key = [filter.target, filter.category, filter.uri].join("+");
             if (filters.has(filter.key)){
@@ -21,7 +21,7 @@ function createFilterList(expressions){
                 filters.set(filter.key, filter);
             }
         });
-        exp.content.forEach(content => {
+        exp.expression.content.forEach(content => {
             let filter = {key: "Content+"+content.uri, source: "Expression", target: "Concept", category: "Content", value: content.label, uri: content.uri, selection: new Set([exp.uri]), count: 1};
             ////let key = [filter.target, filter.category, filter.uri].join("+");
             if (filters.has(filter.key)){
@@ -32,7 +32,7 @@ function createFilterList(expressions){
                 filters.set(filter.key, filter);
             }
         });
-        exp.creatorsConnection.edges.forEach(edge => {
+        exp.expression.creatorsConnection.edges.forEach(edge => {
             let filter = {key: "Contributor+"+edge.role+"+"+edge.node.uri, source: "Expression", target: "Agent", category: edge.role, value: edge.node.name, uri: edge.node.uri, selection: new Set([exp.uri]), count: 1};
             //let key = [filter.target, filter.category, filter.uri].join("+");
             if (filters.has(filter.key)){
@@ -43,7 +43,7 @@ function createFilterList(expressions){
                 filters.set(filter.key, filter);
             }
         });
-        exp.work.forEach(work => {
+        exp.expression.work.forEach(work => {
             work.type.forEach(type => {
                 let filter = {key: "Type+"+type.uri, source: "Work", target: "Concept", category: "Type", value: type.label, uri: type.uri, selection: new Set([exp.uri]), count: 1};
                 //let key = [filter.target, filter.category, filter.uri].join("+");
@@ -67,7 +67,7 @@ function createFilterList(expressions){
                 }
             })
         });
-        exp.manifestations.forEach(manifestation => {
+        exp.expression.manifestations.forEach(manifestation => {
             manifestation.carrier.forEach(carrier => {
                 let filter = {key: "Carrier+"+carrier.uri, source: "Manifestation", target: "Concept", category: "Carrier", value: carrier.label, uri: carrier.uri, selection: new Set([exp.uri]), count: 1};
                 //let key = [filter.target, filter.category, filter.uri].join("+");

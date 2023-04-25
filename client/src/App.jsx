@@ -70,6 +70,7 @@ export default function MyApp() {
     if (error)
         console.log(error);
 
+
     return (
         <React.Fragment>
             <CssBaseline/>
@@ -107,10 +108,10 @@ export default function MyApp() {
 
                 </Grid>
                 <Grid item xs={showFilters ? 9 : 9}>
-                    {called && loading ? <Grid item xs={9}><CircularProgress /></Grid> : <ResultView results={data ? data.expressions : []}/>}
+                    {called && loading ? <Grid item xs={9}><CircularProgress /></Grid> : <ResultView results={data ? data.expressionsFulltextExpressions : []}/>}
                 </Grid>
                 {showFilters ? <Grid item xs={3}>
-                    <FilterList results={data ? data.expressions : []}/>
+                    <FilterList results={data ? data.expressionsFulltextExpressions : []}/>
                 </Grid> : ""}
             </Grid>
         </React.Fragment>

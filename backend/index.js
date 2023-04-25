@@ -1,12 +1,13 @@
 const { Neo4jGraphQL } = require("@neo4j/graphql");
 const { ApolloServer, gql } = require("apollo-server");
 const neo4j = require("neo4j-driver");
-require('dotenv').config();
-console.log(process.env);
+require('dotenv').config()
+
+//https://community.neo4j.com/t/integrate-neo4j-graphql-driver-in-apollo-v4/58766/2?u=taalberg
 
 // noinspection GraphQLMissingType
 const typeDefs = gql`
-    type Expression @fulltext(indexes: [{ name: "expressions", fields: ["titles", "names"] }]) {
+    type Expression @fulltext(indexes: [{ indexName: "expressions", fields: ["titles", "names"] }]) {
         label: String
         uri: String
         title: String
@@ -24,7 +25,7 @@ const typeDefs = gql`
         relatedTo: [Expression!]! @relationship(type: "RELATED", properties: "roleType", direction: OUT)
         relatedFrom: [Expression!]! @relationship(type: "RELATED", properties: "roleType", direction: IN)
     }
-    type Work @fulltext(indexes: [{ name: "works", fields: ["titles", "names"] }]) {
+    type Work @fulltext(indexes: [{ indexName: "works", fields: ["titles", "names"] }]) {
         label: String
         uri: String
         title: String
@@ -95,8 +96,7 @@ const typeDefs = gql`
 `;
 
 const driver = neo4j.driver(
-    "bolt://dif04.idi.ntnu.no:7687",
-    //"bolt://localhost:11006",
+    process.env.NEO4J_URI,
     neo4j.auth.basic(process.env.NEO4J_USER, process.env.NEO4J_PASSWORD)
 );
 
@@ -107,7 +107,7 @@ neoSchema.getSchema().then((schema) => {
         schema,
     });
 
-    server.listen(8080).then(({ url }) => {
+    server.listen().then(({ url }) => {
         console.log(`🚀 Server ready at ${url}`);
     });
 })

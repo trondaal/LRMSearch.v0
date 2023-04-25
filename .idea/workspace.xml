@@ -5,25 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="645bfbfc-0362-44ff-8cca-463e16441762" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Filters/FilterList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Filters/FilterList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Results/ResultList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Results/ResultList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Results/ResultView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Results/ResultView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/Queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/Queries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/agentrels.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/agentrels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/basicrels.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/basicrels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/entities.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/entities.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/export.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/export.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/import queries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/import queries.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/partofrels.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/partofrels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/properties.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/subjectrels.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/subjectrels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/types.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/types.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/neo4j-import/workrels.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/neo4j-import/workrels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/rdf/all.rdf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/rdf/all.rdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/rdf/golding.rdf" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/rdf/golding.rdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/rdf/labels.nt" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/rdf/labels.nt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/xml/all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/xml/all.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/xml/golding.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/xml/golding.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/trondaal/GitHub/LRMSearch&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +62,11 @@
       <workItem from="1639130177626" duration="341000" />
       <workItem from="1639130638384" duration="3771000" />
       <workItem from="1639309985684" duration="34270000" />
+      <workItem from="1681765092608" duration="1100000" />
+      <workItem from="1681798683181" duration="10700000" />
+      <workItem from="1681832553170" duration="2793000" />
+      <workItem from="1681859160170" duration="6114000" />
+      <workItem from="1681997265415" duration="3219000" />
     </task>
     <servers />
   </component>

@@ -17,7 +17,7 @@ import {
 
 const client = new ApolloClient({
     //uri: 'http://localhost:8080/graphql',
-    uri: 'http://dijon.idi.ntnu.no:8080/graphql',
+    uri: 'http://localhost:4000/graphql',
     cache: Cache
 });
 
