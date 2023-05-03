@@ -107,7 +107,7 @@ neoSchema.getSchema().then((schema) => {
         schema,
     });
 
-    server.listen().then(({ url }) => {
+    server.listen(process.env.API_PORT).then(({ url }) => {
         console.log(`🚀 Server ready at ${url}`);
     });
 })
