@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="645bfbfc-0362-44ff-8cca-463e16441762" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Filters/FilterList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Filters/FilterList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Results/ResultList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Results/ResultList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Results/ResultView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Results/ResultView.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/api/Queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/Queries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +56,8 @@
       <workItem from="1681832553170" duration="2793000" />
       <workItem from="1681859160170" duration="6114000" />
       <workItem from="1681997265415" duration="3219000" />
+      <workItem from="1682418934493" duration="670000" />
+      <workItem from="1683111221265" duration="937000" />
     </task>
     <servers />
   </component>
