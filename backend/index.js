@@ -1,12 +1,13 @@
+const { ApolloServer } = require("@apollo/server");
+const { startStandaloneServer } = require("@apollo/server/standalone");
 const { Neo4jGraphQL } = require("@neo4j/graphql");
-const { ApolloServer, gql } = require("apollo-server");
 const neo4j = require("neo4j-driver");
 require('dotenv').config()
 
 //https://community.neo4j.com/t/integrate-neo4j-graphql-driver-in-apollo-v4/58766/2?u=taalberg
 
 // noinspection GraphQLMissingType
-const typeDefs = gql`
+const typeDefs = `
     type Expression @fulltext(indexes: [{ indexName: "expressions", fields: ["titles", "names"] }]) {
         label: String
         uri: String
@@ -102,12 +103,11 @@ const driver = neo4j.driver(
 
 const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
 
-neoSchema.getSchema().then((schema) => {
+neoSchema.getSchema().then(async (schema) => {
     const server = new ApolloServer({
         schema,
     });
 
-    server.listen(process.env.API_PORT).then(({ url }) => {
-        console.log(`🚀 Server ready at ${url}`);
-    });
-})
+    const { url } = await startStandaloneServer(server, {listen: { port: process.env.API_PORT }});
+    console.log(`Server ready at ${url}`);
+});
