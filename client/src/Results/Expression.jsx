@@ -6,17 +6,55 @@ import IconTypes from "./IconTypes";
 import Paper from "@mui/material/Paper";
 import Popover from '@mui/material/Popover';
 import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import ButtonGroup from '@mui/material/ButtonGroup';
 import "./ResultList.css";
 import {groupBy} from "lodash";
 import {ListItemSecondaryAction} from "@mui/material";
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItem from '@mui/material/ListItem';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
+import RemoveCircleOutlineIcon from '@mui/icons-material/RemoveCircleOutline';
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
+import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import ClearIcon from '@mui/icons-material/Clear';
 import Manifestation from "./Manifestation";
 import {useRecoilState} from 'recoil';
 import {showUriState, clickableState, selectedState} from "../state/state";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import "./ResultList.css";
 import Related from "./Related"
+import {rankingVar} from "../api/Cache";
+import Tooltip from '@mui/material/Tooltip';
+
+/*function shift(arr, direction, n) {
+    let times = n > arr.length ? n % arr.length : n;
+    return arr.concat(arr.splice(0, (direction > 0 ? arr.length - times : times)));
+}*/
+
+
+
+function moveLeft(arr, index) {
+    if (index > 0 && index < arr.length) {
+        const temp = arr[index];
+        arr[index] = arr[index - 1];
+        arr[index - 1] = temp;
+    }
+    return arr;
+}
+
+function moveRight(arr, index) {
+    if (index >= 0 && index < arr.length - 1) {
+        const temp = arr[index];
+        arr[index] = arr[index + 1];
+        arr[index + 1] = temp;
+    }
+    return arr;
+}
 
 function isEmpty(str) {
     return (!str || str.length === 0 );
@@ -172,72 +210,114 @@ export default function Expression(props){
     };
 
     const description = () => {
-        //console.log(content[0]);
         return <React.Fragment>
-            <ListItemIcon>
-                <IconTypes type={content[0]}/>
-            </ListItemIcon>
-            <ListItemText sx={{'max-width': '60%'}}
-                className={selected.includes(uri) ? "selected" : ""}
-                          primary={
-                            <React.Fragment>
-                                <Typography color="primary.main" component="span" variant="etitle">{title}</Typography>
-                                {!isTranslation && <Typography color='grey.700' variant="wtitle" component="span"> ({worktitle})</Typography>}
-                                {creators.map(creator => <Typography variant="body2" key={creator[0] + creator[1]}>{creator[0] + plurals(creator[1]) + ": " + creator[1]}</Typography>) }
-                                {contributors.map(contributor => <Typography variant="body2" key={contributor[0] + contributor[1]}>{contributor[0] + plurals(contributor[1]) + ": " + contributor[1]}</Typography>) }
-                                {showUri && <Typography component="span" variant="body2">{props.expression.uri}</Typography>}
-                                {showRelated  && <Typography variant="body2" component="div">
-                                <details>
-                                    <summary>More</summary>
-                                    {others.map(other => <Typography component="div" key={other[0] + other[1]}>
-                                        <Typography component="span" variant={"relatedprefix"}>{other[0] + plurals(other[1]) + ": "}</Typography>
-                                        <Typography component="span" variant={"relatedlabel"}>{other[1]}</Typography>
-                                    </Typography>) }
-                                    {isWorkRelatedToWork.edges.map(x => <Typography component="div"key={x.role + x.node.label}>
-                                        <Typography component="span" variant={"relatedprefix"}>{capitalize(x.role) + ": "}</Typography>
-                                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
-                                    </Typography>)}
-                                    {partOf.edges.map(x => <Typography component="div"key={"is part of" + x.node.label}>
-                                        <Typography component="span" variant={"relatedprefix"}>{"Is part of" + ": "}</Typography>
-                                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
-                                    </Typography>)}
-                                    {hasSubjectWork.edges.map(x => <Typography component="div"key={"has subject work" + x.node.label}>
-                                        <Typography component="span" variant={"relatedprefix"}>{"Has subject work" + ": "}</Typography>
-                                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
-                                    </Typography>)}
-                                    {hasSubjectAgent.edges.map(x => <Typography component="div"key={"has subject agent" + x.node.label}>
-                                        <Typography component="span" variant={"relatedprefix"}>{"Has subject agent" + ": "}</Typography>
-                                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
-                                    </Typography>)}
-                                    {isExpressionRelatedToExpression.edges.map(x => <Typography component="div"key={x.role + x.node.label}>
-                                        <Typography component="span" variant={"relatedprefix"}>{capitalize(x.role) + ": "}</Typography>
-                                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
-                                    </Typography>)}
-                                </details>
-                                </Typography>}
-                            </React.Fragment>}
-            />
-            <ListItemSecondaryAction sx={{top:"0%", marginTop:"35px", width: '30%', textAlign: 'left'}}>
-                <Typography color={"dimgray"} variant={"body2"}>{'Type of work: ' +  worktype.join(", ")}</Typography>
-                <Typography color={"dimgray"} variant={"body2"}>{'Content type: ' +  content.join(", ")}</Typography>
-                {(language.length !== 0) ? <Typography color={"dimgray"} variant={"body2"}>{'Language: ' +  language.join(", ")}</Typography> : ""}
-            </ListItemSecondaryAction>
+                <Typography color="primary.main" component="div" variant="etitle" align="left">{title}
+                {!isTranslation && <Typography color='grey.700' variant="wtitle" component="span"> ({worktitle})</Typography>}
+                </Typography>
+                {creators.map(creator => <Typography component="div" align="left" variant="body2" key={creator[0] + creator[1]}>{creator[0] + plurals(creator[1]) + ": " + creator[1]}</Typography>) }
+                {contributors.map(contributor => <Typography component="div" align="left" variant="body2" key={contributor[0] + contributor[1]}>{contributor[0] + plurals(contributor[1]) + ": " + contributor[1]}</Typography>) }
+                {showUri && <Typography component="div" align="left" variant="body2">{props.expression.uri}</Typography>}
+                {showRelated  && <Typography component="div" align="left" variant="body2" >
+                <details>
+                    <summary>More</summary>
+                    {others.map(other => <Typography component="div" key={other[0] + other[1]}>
+                        <Typography component="span" variant={"relatedprefix"}>{other[0] + plurals(other[1]) + ": "}</Typography>
+                        <Typography component="span" variant={"relatedlabel"}>{other[1]}</Typography>
+                    </Typography>) }
+                    {isWorkRelatedToWork.edges.map(x => <Typography component="div"key={x.role + x.node.label}>
+                        <Typography component="span" variant={"relatedprefix"}>{capitalize(x.role) + ": "}</Typography>
+                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
+                    </Typography>)}
+                    {partOf.edges.map(x => <Typography component="div"key={"is part of" + x.node.label}>
+                        <Typography component="span" variant={"relatedprefix"}>{"Is part of" + ": "}</Typography>
+                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
+                    </Typography>)}
+                    {hasSubjectWork.edges.map(x => <Typography component="div"key={"has subject work" + x.node.label}>
+                        <Typography component="span" variant={"relatedprefix"}>{"Has subject work" + ": "}</Typography>
+                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
+                    </Typography>)}
+                    {hasSubjectAgent.edges.map(x => <Typography component="div"key={"has subject agent" + x.node.label}>
+                        <Typography component="span" variant={"relatedprefix"}>{"Has subject agent" + ": "}</Typography>
+                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
+                    </Typography>)}
+                    {isExpressionRelatedToExpression.edges.map(x => <Typography component="div"key={x.role + x.node.label}>
+                        <Typography component="span" variant={"relatedprefix"}>{capitalize(x.role) + ": "}</Typography>
+                        <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
+                    </Typography>)}
+                </details>
+                </Typography>}
         </React.Fragment>
     }
 
     /* Moved expression-classname from paper to expression entry */
-    return <Paper elevation={0} square key={props.expression.uri} sx={{mt: 2}}>
-        {clickable ?
-            <ListItemButton alignItems="flex-start" onClick={handleClick} className="expression">
-                {description()}
-            </ListItemButton>
-            :
-            <ListItem alignItems="flex-start" className="resultitem expression">
-                {description()}
-            </ListItem>
-        }
-        <List dense={true} sx={{pt: 0}}>
-            {props.expression && props.expression.manifestations.slice(0,10).map(m => (<Manifestation manifestation={m} key={m.uri} checkboxes={props.checkboxes}/>))}
-        </List>
-    </Paper>
+    return <div className={"expressionListItem"} key={props.expression.uri}>
+                <div className={"expressionLeft"}>
+                    <IconTypes type={content[0]}/>
+                    <div className={"rankingbuttons"}>
+                        {rankingVar().indexOf(props.expression.uri) === -1 &&
+                        <Tooltip title={"Add to list of ranked"} placement={"right"}>
+                            <IconButton size="small" onClick={() => {
+                                //Adding or moving to the end so that up => highest index in the ranking array
+                                let arr = rankingVar();
+                                let index = arr.indexOf(props.expression.uri);
+                                if (index === -1) {
+                                    arr.unshift(props.expression.uri);
+                                }else {
+                                    arr.push(arr.splice(index, 1)[0]);
+                                }
+                                rankingVar([...arr]);
+                            }}>
+                                <AddCircleOutlineIcon color="action" fontSize="small"/>
+                            </IconButton>
+                        </Tooltip> }
+                        {rankingVar().indexOf(props.expression.uri) > -1 ?
+                            <IconButton size="small" fontSize={"small"} onClick={() => {
+                                //Adding or moving to the end so that up => highest index in the ranking array
+                                let arr = moveRight(rankingVar(), rankingVar().indexOf(props.expression.uri));
+                                rankingVar([...arr]);
+                            }}><ArrowCircleUpIcon color="action" fontSize="small"/></IconButton> : <span/>}
+                        {rankingVar().indexOf(props.expression.uri) > -1 ?
+                            <IconButton size="small"  onClick={() => {
+                                //Adding or moving to the end so that up => highest index in the ranking array
+                                let arr = moveLeft(rankingVar(), rankingVar().indexOf(props.expression.uri));
+                                rankingVar([...arr]);
+                            }}><ArrowCircleDownIcon color="action" fontSize="small"/></IconButton> : <span/>}
+                        {rankingVar().indexOf(props.expression.uri) > -1 ?
+                            <Tooltip title={"Remove from list of ranked"} placement={"right"}>
+                            <IconButton size="small" onClick={() => {
+                                //Adding or moving to the end so that up => highest index in the ranking array
+                                let arr = rankingVar();
+                                let index = arr.indexOf(props.expression.uri);
+                                if (index === -1) {
+                                    //do nothing
+                                } else {
+                                    arr.splice(index, 1);
+                                }
+                                rankingVar([...arr]);
+                            }}>
+                                <RemoveCircleOutlineIcon color="action" fontSize="small"/>
+                            </IconButton>
+                        </Tooltip> : <span/>}
+                    </div>
+                </div>
+
+                <div className="resultitem expression expressionRight">
+                    <div className={"expressionHeader"}>
+                        <div className={"expressionHeaderTitle"}>
+                            {description()}
+                        </div>
+                        <div className={"expressionHeaderTypes"}>
+                            {/*<Typography color={"dimgray"} component="div" align="left" variant={"body2"}>{'Type of work: ' +  worktype.join(", ")}</Typography>*/}
+                                <Typography color={"dimgray"} component="div" align="left" variant={"body2"}>{'Content type: ' +  content.join(", ")}</Typography>
+                                {(language.length !== 0) ? <Typography color={"dimgray"} component="div" align="left" variant={"body2"}>{'Language: ' +  language.join(", ")}</Typography> : ""}
+                        </div>
+                    </div>
+                    <div className={"expressionManifestationListing"}>
+                        <ul>
+                            {props.expression && props.expression.manifestations.slice(0,10).map(m => (<Manifestation manifestation={m} key={m.uri} checkboxes={props.checkboxes}/>))}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
 }

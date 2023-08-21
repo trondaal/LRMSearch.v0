@@ -29,6 +29,7 @@
     display: list-item;          /* This has to be "list-item"                                               */
     list-style-type: circle;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
     list-style-position: outside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+    margin-bottom: 5px;
 }
 
 .related {
@@ -48,6 +49,61 @@
 
 .resultitem {
     transition: none !important;
+}
+
+.expressionManifestationListing{
+    margin-top: -10px;
+}
+
+.expressionListItem{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+}
+
+.expressionLeft{
+    padding: 10px;
+    flex-basis: auto;
+}
+
+.expressionRight{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.expressionHeader{
+    padding-left: 25px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.expressionHeaderTitle{
+    flex-basis: 70%
+}
+
+.expressionHeaderTypes{
+    padding-left: 25px;
+    flex-basis: 30%
+}
+
+.rankingbuttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.manifestationdetails{
+    text-align: left;
+}
+
+.manifestationdetails > .manifestationdetails:not(:first-child)::before{
+    content: " - ";
+}
+
+.manifestationdetails > .prefix{
+    font-style: italic;
 }
 
 /*details > summary {

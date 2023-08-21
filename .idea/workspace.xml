@@ -6,6 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="645bfbfc-0362-44ff-8cca-463e16441762" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Filters/FilterList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Filters/FilterList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Results/Expression.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Results/Expression.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Results/Manifestation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Results/Manifestation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Results/ResultList.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Results/ResultList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Results/ResultList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Results/ResultList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Results/ResultView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Results/ResultView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/Cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/Cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/Queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/Queries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +25,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="225S7kQ1sv394pWulAJh6hQjRGL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,15 +51,25 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;development&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/trondaal/GitHub/LRMSearch&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/trondaal/GitHub/LRMSearch/client/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/client/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +91,19 @@
       <workItem from="1682418934493" duration="670000" />
       <workItem from="1683111221265" duration="1544000" />
       <workItem from="1683627804552" duration="231000" />
-      <workItem from="1683634038158" duration="243000" />
+      <workItem from="1683634038158" duration="2630000" />
+      <workItem from="1683703466051" duration="1238000" />
+      <workItem from="1683707135454" duration="2593000" />
+      <workItem from="1684149498164" duration="610000" />
+      <workItem from="1684150372156" duration="2468000" />
+      <workItem from="1686517919627" duration="103000" />
+      <workItem from="1686518187775" duration="686000" />
+      <workItem from="1686601356753" duration="816000" />
+      <workItem from="1686650144133" duration="1871000" />
+      <workItem from="1691076251404" duration="5432000" />
+      <workItem from="1691144370327" duration="638000" />
+      <workItem from="1692467383002" duration="20871000" />
+      <workItem from="1692554567187" duration="16227000" />
     </task>
     <servers />
   </component>

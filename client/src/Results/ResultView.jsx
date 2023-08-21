@@ -5,7 +5,7 @@ import {selectedVar} from "../api/Cache";
 
 export default function ResultView(props) {
 
-    console.log(props.results);
+    //console.log(props.results);
 
     return (
          <Item>

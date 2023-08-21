@@ -7,9 +7,11 @@ query($query: String!) {
     phrase: $query
     where: {expression: {manifestationsAggregate: {count_GT: 0}}}) {
     score,
+    ranking @client,
     expression {
       label,
       checked @client,
+      ranking @client,
       title,
         titlepreferred,
         titlevariant,

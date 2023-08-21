@@ -109,7 +109,7 @@ function createFilterList(expressions){
 
 export default function FilterList(props) {
     const filterMap = useMemo(() => createFilterList(props.results ? props.results : []), [props.results]);
-    //console.log(filterMap);
+    console.log(props.results);
 
     const filters = useMemo(() => Array.from(filterMap.values()), [filterMap]);
     //console.log(filters);

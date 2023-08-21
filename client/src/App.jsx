@@ -39,6 +39,10 @@ const choices = [
     'Show URIs'
 ];
 
+function compareExpressions(a, b) {
+    return b.expression.ranking - a.expression.ranking;
+}
+
 
 
 export default function MyApp() {
@@ -67,9 +71,18 @@ export default function MyApp() {
 
     const [search, { loading, data, error, called }] = useLazyQuery(GET_EXPRESSIONS);
 
+    console.log("Searching...");
+
+    if (data){
+        console.log("Data retrieved...")
+    }
+
+    if (loading){
+        console.log("Loading...")
+    }
+
     if (error)
         console.log(error);
-
 
     return (
         <React.Fragment>
@@ -108,7 +121,7 @@ export default function MyApp() {
 
                 </Grid>
                 <Grid item xs={showFilters ? 9 : 9}>
-                    {called && loading ? <Grid item xs={9}><CircularProgress /></Grid> : <ResultView results={data ? data.expressionsFulltextExpressions : []}/>}
+                    {called && loading ? <Grid item xs={9}><CircularProgress /></Grid> : <ResultView results={data ? [...data.expressionsFulltextExpressions].sort(compareExpressions) : []}/>}
                 </Grid>
                 {showFilters ? <Grid item xs={3}>
                     <FilterList results={data ? data.expressionsFulltextExpressions : []}/>

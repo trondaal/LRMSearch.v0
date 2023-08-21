@@ -16,7 +16,7 @@ export default function Manifestation(props){
     const [clickable] = useRecoilState(clickableState)
     const {title, subtitle, numbering, part, responsibility, extent, edition, uri, partnote} = props.manifestation;
     const {distribution, production, publication, manufacture, expressions} = props.manifestation;
-    console.log(expressions)
+    //console.log(expressions)
     const statement = [];
     if (!isEmpty(title) && !isEmpty(subtitle)){
         statement.push(title + " : " + subtitle)
@@ -47,29 +47,29 @@ export default function Manifestation(props){
     };
 
     const description = () => {
-        return <ListItemText className={selected.includes(uri) ? "selected" : "manifestation"}
-            primary={<React.Fragment>
-            <Typography color="primary.main" variant="mtitle.light" className={"mtitle"}>{statement.join(" / ")}</Typography>
-            {extent && <Typography variant="body2"  >Extent: {extent}</Typography>}
-            {edition && <Typography variant="body2"  >Edition: {edition}</Typography>}
-            {published.length > 0 && <Typography variant="body2">Published: {published.join(", ")}</Typography>}
-            {partnote && <Typography variant="body2">In: {partnote}</Typography>}
-            {(expressions.length) > 1 && <Typography variant="caption">
+        return <React.Fragment>
+            <Typography component="div" color="primary.main" align="left" variant="mtitle.light" className={"mtitle"}>{statement.join(" / ")}</Typography>
+            <div className={"manifestationdetails"}>
+                {extent && <Typography component="span" align="left"  variant="body2" className={"manifestationdetails"}><span className={"prefix"}>Extent: </span>{extent}</Typography>}
+            {edition && <Typography component="span" align="left"  variant="body2" className={"manifestationdetails"}><span className={"prefix"}>Edition: </span>{edition}</Typography>}
+            {published.length > 0 && <Typography component="span" align="left"  variant="body2" className={"manifestationdetails"}><span className={"prefix"}>Published: </span>{published.join(", ")}</Typography>}
+            {partnote && <Typography component="div" align="left"  variant="body2" className={"manifestationdetails"}><span className={"prefix"}>In: </span>{partnote}</Typography>}
+            {(expressions.length) > 1 && <Typography component="div" variant="caption">
                 <details>
                     <summary>Contents</summary>
                     {expressions.map(x => <Typography component="div" variant="caption" key={x.title}>{x.title}</Typography>)}
                 </details>
+
             </Typography>}
-            </React.Fragment>}
-        >
-        </ListItemText>
+            </div>
+            </React.Fragment>
     }
 
     return clickable ? <ListItemButton alignItems="flex-start" onClick={handleClick}sx={{pl: 9, pr: 0}}>
                             {description()}
                         </ListItemButton>
                         :
-                        <ListItem alignItems="flex-start" sx={{pl: 9, pr: 0}}>
+                        <li className={"manifestation"}>
                             {description()}
-                        </ListItem>
+                        </li>
 }
