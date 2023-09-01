@@ -1,17 +1,15 @@
-import ResultList from "./ResultList";
 import React from "react";
-import Item from './Item';
 import {selectedVar} from "../api/Cache";
+import Expression from "./Expression";
 
 export default function ResultView(props) {
 
-    //console.log(props.results);
-
     return (
-         <Item>
-                {selectedVar().size === 0 ? <ResultList results={props.results ? props.results : []} /> :
-                    <ResultList results={props.results ? props.results.filter(exp => exp.checked) : []} />
+         <div className={"expressionList"}>
+                {selectedVar().size === 0 ?
+                    props.results ? props.results.map(x => (<Expression expression={x.expression} key={x.expression.uri} checkboxes={props.checkboxes}/>)) : [] :
+                    props.results ? props.results.filter(exp => exp.checked).map(x => (<Expression expression={x.expression} key={x.expression.uri} checkboxes={props.checkboxes}/>)) : []
                 }
-         </Item>
+         </div>
     );
 }

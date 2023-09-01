@@ -3,7 +3,12 @@
 }/*/
 
 .expression {
-    background-color: WhiteSmoke !important;
+
+}
+
+.ranked{
+    background-color: lightcyan !important;
+    filter: saturate(100%);
 }
 
 /*.expressiontitle{
@@ -47,15 +52,12 @@
     /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }
 
-.resultitem {
-    transition: none !important;
-}
-
 .expressionManifestationListing{
     margin-top: -10px;
 }
 
-.expressionListItem{
+.expression{
+    background-color: WhiteSmoke;
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
