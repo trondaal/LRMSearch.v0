@@ -31,13 +31,6 @@ import Related from "./Related"
 import {rankingVar} from "../api/Cache";
 import Tooltip from '@mui/material/Tooltip';
 
-/*function shift(arr, direction, n) {
-    let times = n > arr.length ? n % arr.length : n;
-    return arr.concat(arr.splice(0, (direction > 0 ? arr.length - times : times)));
-}*/
-
-
-
 function moveLeft(arr, index) {
     if (index > 0 && index < arr.length) {
         const temp = arr[index];
@@ -78,63 +71,37 @@ export default function Expression(props){
     const [selected, setSelectedState] = useRecoilState(selectedState);
     const [clickable] = useRecoilState(clickableState);
     const {uri, manifestations} = props.expression;
-
-    //console.log("clickable : " + clickable);
     const worktitle = !isEmpty(props.expression.work[0].title) ? props.expression.work[0].title : "";
-
     const titles = [];
     if (!isEmpty(props.expression.titlepreferred)){
         titles.push(props.expression.titlepreferred);
     }else{
         if (!isEmpty(props.expression.title)) titles.push(props.expression.title);
     }
-    //if (!isEmpty(props.expression.titlevariant)) titles.push(props.expression.titlevariant);
+
     const title = titles[0];
     const isTranslation = titles.find(element => element.toLowerCase().replace(/[^a-z]/g, '').includes(worktitle.toLowerCase().replace(/[^a-z]/g, '')))
 
-    //roles that should default be displayed, in the order they should be presented
+    //roles that should default be displayed, in the order they should be presented, contains both work and expression roles
     const primaryroles = ['Author', 'Creator', 'Artist', 'Director', 'Producer', 'Composer', 'Lyricist', 'Interviewer', 'Interviewee', 'Honouree', 'Compiler', 'Translator', 'Narrator', 'Abridger', 'Editor'];
 
     const creatorsmap = groupBy(props.expression.work[0].creatorsConnection.edges, a => a.role);
     const creators = [];
-
     for (const r in creatorsmap){
         if (primaryroles.includes(r)) {
             creatorsmap[r] && creators.push([r, (creatorsmap[r].map(a => a.node.name)).join(" ; ")]);
         }
     }
 
-    /*creatorsmap.Author && creators.push(["Author: ", (creatorsmap.Author.map(a => a.node.name)).join(" ; ")]);
-    creatorsmap.Creator && creators.push(["Creator: ", (creatorsmap.Creator.map(a => a.node.name)).join(" ; ")]);
-    creatorsmap.Artist && creators.push(["Artist: ", (creatorsmap.Artist.map(a => a.node.name)).join(" ; ")]);
-    creatorsmap.Director && creators.push(["Director: ", (creatorsmap.Director.map(a => a.node.name)).join(" ; ")]);
-    creatorsmap.Producer && creators.push(["Producer: ", (creatorsmap.Producer.map(a => a.node.name)).slice().sort().join(" ; ")]);
-    creatorsmap.Composer && creators.push(["Composer: ", (creatorsmap.Composer.map(a => a.node.name)).join(" ; ")]);
-    creatorsmap.Lyricist && creators.push(["Lyricist: ", (creatorsmap.Lyricist.map(a => a.node.name)).join(" ; ")]);
-    creatorsmap.Interviewer && creators.push(["Interviewer: ", (creatorsmap.Interviewer.map(a => a.node.name)).join(" ; ")]);
-    creatorsmap.Interviewee && creators.push(["Interviewee: ", (creatorsmap.Interviewee.map(a => a.node.name)).join(" ; ")]);
-    creatorsmap.Honouree && creators.push(["Honouree: ", (creatorsmap.Honouree.map(a => a.node.name)).join(" ; ")]);
-    creatorsmap.Compiler && creators.push(["Compiler: ", (creatorsmap.Compiler.map(a => a.node.name)).join(" ; ")]);
-*/
-    //console.log(creators)
-
     const contributorsmap = groupBy(props.expression.creatorsConnection.edges, a => a.role);
     const contributors = [];
-
     for (const r in contributorsmap){
         if (primaryroles.includes(r)) {
             contributorsmap[r] && contributors.push([r, (contributorsmap[r].map(a => a.node.name)).join(" ; ")]);
         }
     }
 
-    /*contributorsmap.Translator && contributors.push(["Translator: ", (contributorsmap.Translator.map(a => a.node.name)).join(" ; ")]);
-    contributorsmap.Narrator && contributors.push(["Narrator: ", (contributorsmap.Narrator.map(a => a.node.name)).join(" ; ")]);
-    contributorsmap.Abridger && contributors.push(["Abridger: ", (contributorsmap.Abridger.map(a => a.node.name)).join(" ; ")]);
-    contributorsmap.Editor && contributors.push(["Editor: ", (contributorsmap.Editor.map(a => a.node.name)).join(" ; ")]);
-*/
-
     const others = [];
-
     for (const k in creatorsmap){
         if (!primaryroles.includes(k)){
             others.push([k, (creatorsmap[k].map(a => a.node.name)).join(" ; ")]);
@@ -152,7 +119,6 @@ export default function Expression(props){
     if (others.length > 0){
         showRelated = true;
     }
-    //console.log("Spot 1 : " + showRelated);
 
     const language = props.expression.language.map(l => l.label);
     const content = props.expression.content.map(c => c.label);
@@ -189,8 +155,6 @@ export default function Expression(props){
     if (isExpressionRelatedToExpression.totalCount > 0){
         showRelated = true;
     }
-
-    //console.log("Spot 2 : " + showRelated);
 
     const handleClick = () => {
         const epos = selected.indexOf(uri)
@@ -229,15 +193,15 @@ export default function Expression(props){
                         <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
                     </Typography>)}
                     {partOf.edges.map(x => <Typography component="div"key={"is part of" + x.node.label}>
-                        <Typography component="span" variant={"relatedprefix"}>{"Is part of" + ": "}</Typography>
+                        <Typography component="span" variant={"relatedprefix"}>{"Is part of: "}</Typography>
                         <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
                     </Typography>)}
                     {hasSubjectWork.edges.map(x => <Typography component="div"key={"has subject work" + x.node.label}>
-                        <Typography component="span" variant={"relatedprefix"}>{"Has subject work" + ": "}</Typography>
+                        <Typography component="span" variant={"relatedprefix"}>{"Has subject work: "}</Typography>
                         <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
                     </Typography>)}
                     {hasSubjectAgent.edges.map(x => <Typography component="div"key={"has subject agent" + x.node.label}>
-                        <Typography component="span" variant={"relatedprefix"}>{"Has subject agent" + ": "}</Typography>
+                        <Typography component="span" variant={"relatedprefix"}>{"Has subject agent: "}</Typography>
                         <Typography component="span" variant={"relatedlabel"}>{x.node.label}</Typography>
                     </Typography>)}
                     {isExpressionRelatedToExpression.edges.map(x => <Typography component="div"key={x.role + x.node.label}>
@@ -250,8 +214,8 @@ export default function Expression(props){
     }
 
     /* Moved expression-classname from paper to expression entry */
-    return <div className={"expressionListItem"} key={props.expression.uri}>
-                <div className={"expressionLeft"}>
+    return <div style={{'--ranking': `${props.expression.ranking}`}} className={"expression"} key={props.expression.uri}>
+                <div className={(props.expression.ranking === - 1) ? "expressionLeft" : "expressionLeft ranked"}>
                     <IconTypes type={content[0]}/>
                     <div className={"rankingbuttons"}>
                         {rankingVar().indexOf(props.expression.uri) === -1 &&
@@ -266,22 +230,27 @@ export default function Expression(props){
                                     arr.push(arr.splice(index, 1)[0]);
                                 }
                                 rankingVar([...arr]);
+                                localStorage.setItem(sessionStorage.getItem('query').toLowerCase(), JSON.stringify(rankingVar()));
                             }}>
                                 <AddCircleOutlineIcon color="action" fontSize="small"/>
                             </IconButton>
                         </Tooltip> }
-                        {rankingVar().indexOf(props.expression.uri) > -1 ?
+                        {rankingVar().indexOf(props.expression.uri) > -1 && rankingVar().indexOf(props.expression.uri) < (rankingVar().length - 1) ?
+                            <Tooltip title={"Move up in the list of ranked"} placement={"right"}>
                             <IconButton size="small" fontSize={"small"} onClick={() => {
                                 //Adding or moving to the end so that up => highest index in the ranking array
                                 let arr = moveRight(rankingVar(), rankingVar().indexOf(props.expression.uri));
                                 rankingVar([...arr]);
-                            }}><ArrowCircleUpIcon color="action" fontSize="small"/></IconButton> : <span/>}
-                        {rankingVar().indexOf(props.expression.uri) > -1 ?
+                                localStorage.setItem(sessionStorage.getItem('query').toLowerCase(), JSON.stringify(rankingVar()));
+                            }}><ArrowCircleUpIcon color="action" fontSize="small"/></IconButton></Tooltip> : <span/>}
+                        {rankingVar().indexOf(props.expression.uri) > 0 ?
+                            <Tooltip title={"Move down in the list of ranked"} placement={"right"}>
                             <IconButton size="small"  onClick={() => {
                                 //Adding or moving to the end so that up => highest index in the ranking array
                                 let arr = moveLeft(rankingVar(), rankingVar().indexOf(props.expression.uri));
                                 rankingVar([...arr]);
-                            }}><ArrowCircleDownIcon color="action" fontSize="small"/></IconButton> : <span/>}
+                                localStorage.setItem(sessionStorage.getItem('query').toLowerCase(), JSON.stringify(rankingVar()));
+                            }}><ArrowCircleDownIcon color="action" fontSize="small"/></IconButton></Tooltip> : <span/>}
                         {rankingVar().indexOf(props.expression.uri) > -1 ?
                             <Tooltip title={"Remove from list of ranked"} placement={"right"}>
                             <IconButton size="small" onClick={() => {
@@ -294,6 +263,7 @@ export default function Expression(props){
                                     arr.splice(index, 1);
                                 }
                                 rankingVar([...arr]);
+                                localStorage.setItem(sessionStorage.getItem('query').toLowerCase(), JSON.stringify(rankingVar()));
                             }}>
                                 <RemoveCircleOutlineIcon color="action" fontSize="small"/>
                             </IconButton>

@@ -94,6 +94,12 @@ const typeDefs = `
     interface roleType @relationshipProperties {
         role: String
     }
+    type RankingResult{
+        query: String
+        respondent: String
+        date: String
+        ranking: [String]
+    }
 `;
 
 const driver = neo4j.driver(
